@@ -1,0 +1,607 @@
+export interface Topic {
+  id: string;
+  title: string;
+  subtitle: string;
+  content: string;
+  whyItMatters: string;
+  revise: string;
+  pyqConnect?: string;
+}
+
+export interface DailyDigest {
+  id: string;
+  date: string;
+  day: string;
+  tagline: string;
+  topics: Topic[];
+  reviseSummary?: string[];
+}
+
+export const dailyDigests: DailyDigest[] = [
+  {
+    id: "2026-04-01",
+    date: "1st April 2026",
+    day: "Tuesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "1-1",
+        title: "Income Tax Act, 2025: Why Did India Replace a 65-Year-Old Tax Law?",
+        subtitle: "Prelims & Mains | Economy, Governance | Also: Banking, SSC, State PCS",
+        content: "The Income Tax Act, 2025 came into force on April 1, 2026, replacing the Income Tax Act, 1961. This is the most significant overhaul of India's direct tax framework in over six decades. The number of sections has been reduced from 819 to 536, chapters from 47 to 23, rules from 399 to 190, and forms from 511 to 333. The term \"Previous Year\" is replaced by \"Tax Year.\" The new tax regime is now the default — if a taxpayer does not actively choose the old regime, the new regime applies automatically. Income up to ₹12 lakh remains tax-free under the new regime. Form 16 is replaced by a system-generated Form 130. HRA exemption at 50% now covers Bengaluru and Hyderabad alongside traditional metros. Education allowance rises from ₹100 to ₹3,000 per month; hostel allowance from ₹300 to ₹9,000. Meal voucher exemption rises from ₹50 to ₹200 per meal. PAN-Aadhaar linking rules are tightened — PAN card names must now match Aadhaar records. The CBDT notified the new Income Tax Rules, 2026 on March 20.",
+        whyItMatters: "Direct tax reform, CBDT, tax simplification, new vs old tax regime, fiscal policy, and the link between taxation and governance are all recurring Prelims and Mains themes. The Act's structure and key provisions are testable.",
+        revise: "Indian Economy — Ramesh Singh (Chapters on Taxation, Fiscal Policy); CBDT and its functions; Article 265 (No tax shall be levied except by authority of law); Direct Taxes Code history"
+      },
+      {
+        id: "1-2",
+        title: "Census 2027 Phase I Begins: How Will India Count 1.4 Billion People Digitally?",
+        subtitle: "Prelims & Mains | Polity, Governance | Also: State PCS, SSC",
+        content: "India launched Phase I of Census 2027 on April 1, 2026 — the first census since 2011 and the first fully digital census in Indian history. President Murmu became the first citizen to complete self-enumeration, followed by the Vice-President and PM. The exercise covers 36 states/UTs, 7,092 sub-districts, 5,128 statutory towns, and approximately 6,39,902 villages. Phase I (House-Listing and Housing Census) runs April–September 2026. Enumerators use mobile apps; citizens can self-enumerate via se.census.gov.in in 16 languages. The government approved ₹11,718.24 crore for the exercise. Over 31 lakh enumerators and supervisors are deployed. Caste enumeration — the first since 1931 — will be conducted in Phase II (February 2027). The census is conducted under the Census Act, 1948. Administrative units are frozen from January 1, 2026 to March 31, 2027. A pre-test covering 5,000 blocks was conducted in November 2025.",
+        whyItMatters: "Census Act 1948, digital governance, self-enumeration, delimitation, caste enumeration since 1931, and the 16-year gap since the last census are all high-probability topics.",
+        revise: "Indian Polity — Laxmikanth (Census provisions); Census Act, 1948; Union List Entry 69; Delimitation and its link to census data",
+        pyqConnect: "UPSC 2019 — Question on the Census and its role in policy formulation."
+      },
+      {
+        id: "1-3",
+        title: "E20 Petrol Mandatory: What Does India's Nationwide Ethanol Blending Push Mean?",
+        subtitle: "Prelims & Mains | Environment, Economy | Also: State PCS, SSC",
+        content: "From April 1, 2026, all petrol pumps across India must dispense E20 petrol — a blend of 20% ethanol and 80% gasoline. The mandate was issued by the Ministry of Petroleum and Natural Gas, under the Bureau of Indian Standards (BIS) framework. India had achieved its E20 target ahead of the original 2025-26 deadline. Ethanol is a biofuel derived from sugarcane, maize, and various grains. E20 has a higher octane rating (approximately 95 RON vs 91-92 for regular petrol), leading to smoother combustion. The objectives are threefold: reduce crude oil import bills (India imports over 85% of its crude), lower vehicular carbon emissions, and boost agricultural income by creating demand for ethanol-producing crops. Most vehicles manufactured after 2023 are E20 compatible. India's earlier NDC targets under the Paris Agreement — 33-35% emissions intensity reduction and 40% non-fossil fuel capacity by 2030 — were achieved ahead of schedule. By February 2026, non-fossil fuel capacity reached 52.57%.",
+        whyItMatters: "Ethanol blending, biofuels, energy security, India's NDCs under the Paris Agreement, and the National Biofuel Policy 2018 are frequently tested. This connects economy (import substitution) with environment (emissions reduction).",
+        revise: "Shankar IAS Environment (Biofuels, Climate Change chapters); Indian Economy — Energy Security; National Biofuel Policy, 2018; Paris Agreement — India's NDCs",
+        pyqConnect: "UPSC 2020 — Question on India's biofuel policy and ethanol blending programme."
+      },
+      {
+        id: "1-4",
+        title: "Solid Waste Management Rules, 2026: What Changes for India's Waste System?",
+        subtitle: "Prelims & Mains | Environment, Governance | Also: State PCS",
+        content: "The Solid Waste Management (SWM) Rules, 2026 came into effect on April 1, 2026, replacing the earlier 2016 rules. Waste segregation at source is now mandatory for all citizens, institutions, and businesses across urban and rural areas. Waste must be separated into four categories: wet waste (kitchen/food waste), dry waste (plastic, paper, glass, metal), sanitary waste (diapers, sanitary napkins), and special care waste (bulbs, medicines, batteries, hazardous materials). Bulk waste generators — housing societies, hotels, malls, offices — face stricter compliance requirements. The rules are grounded in the Polluter Pays Principle. India generates millions of tonnes of waste annually; much ends up in landfills causing pollution and health hazards. The rules aim to reduce landfill dependency, promote recycling, and mandate accountability at the household level.",
+        whyItMatters: "SWM rules, four-bin segregation system, the Polluter Pays Principle, Municipal Solid Waste Management, and the role of ULBs under the 74th Amendment are directly relevant for Environment and Governance papers.",
+        revise: "Shankar IAS Environment (Waste Management chapter); 74th Amendment — role of ULBs; Environment Protection Act, 1986; SWM Rules evolution (2000 → 2016 → 2026)",
+        pyqConnect: "UPSC 2018 — Question on Solid Waste Management Rules and their key provisions."
+      },
+      {
+        id: "1-5",
+        title: "End of Naxalism: Has India Really Defeated the Left Wing Extremism Threat?",
+        subtitle: "Mains | Internal Security, Governance | Also: State PCS, CDS",
+        content: "Home Minister Amit Shah announced on March 30, 2026, that India has ended the Naxalite insurgency — with most remaining Naxal fighters killed, arrested, or having surrendered following intensified security operations. This marks the culmination of a decades-long campaign against Left Wing Extremism (LWE), which the then PM Manmohan Singh had once called India's \"greatest internal security threat.\" The operations were concentrated in the forests of Chhattisgarh, Jharkhand, Odisha, Maharashtra, and Andhra Pradesh — collectively known as the Red Corridor. The strategy combined security operations (CRPF, state police, Greyhounds), development (road connectivity, mobile towers, bank branches), and surrender/rehabilitation policies. The LWE Division under the MHA coordinated multi-state operations. Key enablers included better intelligence sharing, infrastructure penetration into remote areas, and the weakening of CPI(Maoist) cadre through targeted operations.",
+        whyItMatters: "LWE is a dedicated topic in GS-III (Internal Security). The LWE strategy — security + development — and its evolution, CRPF's role, Naxal ideology, root causes (land alienation, tribal rights, governance deficit), and the PESA Act 1996 are all tested. Whether the threat is truly \"ended\" or merely contained is a strong Mains question.",
+        revise: "Internal Security — Ashok Kumar (LWE chapter); PESA Act, 1996; 5th Schedule; Forest Rights Act, 2006; CRPF and CAPF framework",
+        pyqConnect: "UPSC 2022 — Question on Left Wing Extremism, its causes and counter-strategies."
+      },
+      {
+        id: "1-6",
+        title: "Nalanda Temple Stampede: What Do NDMA Guidelines Say About Crowd Management?",
+        subtitle: "Mains | Disaster Management, Governance | Also: State PCS",
+        content: "At least nine people — eight women — died in a stampede at the Sheetla Mata Temple in Bihar's Nalanda district on March 31, during the Sheetla Ashtami festival. The temple falls under Deep Nagar police station in Bihar Sharif. Locals reported barricades collapsed under crowd pressure and insufficient police deployment — some attributed this to security being diverted for President Murmu's visit to nearby Nalanda University. Bihar CM Nitish Kumar announced ₹6 lakh compensation per family; PM Modi announced ₹2 lakh from PMNRF and ₹50,000 for injured. The SHO was suspended. India has recorded nearly 4,000 stampede events in three decades; NCRB data shows 3,074 deaths between 2000 and 2022. In 2025, five of seven deadly crushes occurred at religious gatherings. The NDMA's guidelines recommend capacity mapping, intelligent crowd monitoring, trained personnel, and unidirectional pedestrian flows — but implementation remains weak. The primary cause of death in stampedes is compressive asphyxia.",
+        whyItMatters: "Disaster Management Act 2005, NDMA guidelines on mass gatherings, state vs central responsibility, and the governance failure pattern in crowd management are directly testable in GS-III and Ethics.",
+        revise: "Disaster Management — NDMA Guidelines; Disaster Management Act, 2005; NCRB data on stampedes; Ethics — duty of care, accountability"
+      }
+    ],
+    reviseSummary: [
+      "Direct tax framework — Income Tax Act, 2025 key changes (Ramesh Singh — Taxation chapter)",
+      "Ethanol Blending Programme and National Biofuel Policy 2018 (Shankar IAS Environment)",
+      "Left Wing Extremism — causes, strategy, and current status (Internal Security — Ashok Kumar)"
+    ]
+  },
+  {
+    id: "2026-04-02",
+    date: "2nd April 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "2-1",
+        title: "Kaynes Semiconductor Plant: Why Does India's Second Chip Facility Matter?",
+        subtitle: "Prelims & Mains | Economy, Science & Tech | Also: State PCS, SSC",
+        content: "PM Modi inaugurated the ₹3,300 crore Kaynes Technology semiconductor plant at Sanand GIDC, Ahmedabad on March 31. This is India's second semiconductor facility to begin commercial production — after Micron Technology, also in Sanand. The plant will produce 300 million chips per year for domestic use and export. Kaynes is an Indian company, making this the first indigenously owned semiconductor production facility under the India Semiconductor Mission (ISM), launched in 2021. Union Minister Ashwini Vaishnaw announced a third plant will be inaugurated in July, with production from four plants targeted by end of 2026. PM Modi projected India's semiconductor market could exceed $100 billion by the end of this decade. The intelligent power modules produced at Sanand are already seeing international demand. The facility engages MSMEs and contributes to reducing India's dependence on chip imports — a vulnerability exposed during the pandemic and the current West Asia conflict.",
+        whyItMatters: "India Semiconductor Mission, OSAT (Outsourced Semiconductor Assembly and Test) vs fabrication, supply chain resilience, Aatmanirbhar Bharat in critical technologies, and the global chip shortage are all testable topics.",
+        revise: "Indian Economy — Ramesh Singh (Chapter on Industrial Policy); India Semiconductor Mission; Make in India; Global semiconductor supply chain",
+        pyqConnect: "UPSC 2023 — Question on India's manufacturing policy and Make in India initiative."
+      },
+      {
+        id: "2-2",
+        title: "Artemis II Launches: What Does the First Crewed Moon Mission in 53 Years Mean for Space Exploration?",
+        subtitle: "Prelims | Science & Technology | Also: SSC, CDS",
+        content: "NASA's Artemis II mission launched successfully on April 1, 2026, at 6:35 PM EDT (4:05 AM IST, April 2) from Kennedy Space Center, Florida. This is the first crewed mission beyond low Earth orbit since Apollo 17 in December 1972. The SLS (Space Launch System) rocket — the most powerful rocket ever built by NASA — carried the Orion spacecraft with four astronauts: Reid Wiseman (Commander), Victor Glover (Pilot), Christina Koch and Jeremy Hansen (Canadian Space Agency). Glover is the first person of colour, Koch the first woman, and Hansen (Canadian) the first non-American to travel beyond low Earth orbit. The 10-day mission will take the crew approximately 406,000 km from Earth, about 7,600 km beyond the far side of the Moon — exceeding the Apollo 13 distance record. This is a test flight for systems that will be used for future crewed lunar landings under the broader Artemis programme.",
+        whyItMatters: "Space technology is current-affairs driven in Prelims. The Artemis programme, SLS vs other launch vehicles, international cooperation (CSA), and comparison with India's Gaganyaan and ISRO-NASA NISAR mission are testable.",
+        revise: "Science & Technology — Current affairs; ISRO missions; Gaganyaan; India-US space cooperation; Chandrayaan-3"
+      },
+      {
+        id: "2-3",
+        title: "Census 2027 Begins: What Does India's First Digital Census Cover?",
+        subtitle: "Prelims & Mains | Polity, Governance | Also: State PCS, SSC",
+        content: "India launched Phase I of Census 2027 on April 1, 2026. This is the 16th census overall and the first since 2011 — the longest gap in Indian census history. For the first time, the exercise is fully digital: enumerators use mobile apps, and citizens can self-enumerate via a portal (se.census.gov.in) in 16 languages. On Day 1, President Murmu, Vice-President Radhakrishnan, and PM Modi completed self-enumeration. About 55,000 households used the facility on the first day. Phase I covers house-listing and housing census (April–September 2026). Phase II — population enumeration — is scheduled for February 2027. Caste enumeration will be conducted during Phase II, the first time since 1931. The government has approved ₹11,718 crore for the exercise. The census is conducted under the Census Act, 1948. All administrative units have been frozen from January 1, 2026 to March 31, 2027.",
+        whyItMatters: "Census Act 1948, digital governance, self-enumeration as a first, caste enumeration since 1931, delimitation, and data-driven policymaking are high-probability topics across Prelims, Mains, and essay.",
+        revise: "Indian Polity — Laxmikanth (Census provisions); Census Act, 1948; Article 246 (Union List Entry 69); NEP 2020 (data-driven governance)"
+      },
+      {
+        id: "2-4",
+        title: "FCRA Amendment Bill, 2026: Why Was It Deferred and What Does It Propose?",
+        subtitle: "Mains | Polity, Governance | Also: State PCS",
+        content: "The Union government deferred the FCRA (Amendment) Bill, 2026 during the Budget Session following strong opposition protests. Parliamentary Affairs Minister Kiren Rijiju informed the Lok Sabha that the government does not intend to bring the Bill during the ongoing session. The Bill seeks to amend the Foreign Contribution (Regulation) Act, 1010. Key proposals include creating a \"Designated Authority\" to manage and dispose of foreign funds and assets of NGOs whose registration is suspended, cancelled, or not renewed. Permanently vested assets can be transferred to government departments or sold, with proceeds going to the Consolidated Fund of India. For places of worship, the Authority can entrust management to a prescribed person while maintaining their religious character. The Bill also expands prohibited categories — any person engaged in news production or broadcast (not just associations) would be barred from accepting foreign aid. Maximum imprisonment is reduced from five years to one year. Central government approval is now required to initiate investigations under the Act.",
+        whyItMatters: "FCRA 2010, regulation of NGOs, civil society autonomy vs national security, Consolidated Fund of India (Article 266), and the balance between security regulation and fundamental rights (Article 19) are frequently tested in Mains.",
+        revise: "Indian Polity — Laxmikanth (Fundamental Rights, Consolidated Fund); FCRA 2010; NGO regulation framework; Article 19(1)(c) — Freedom of association"
+      },
+      {
+        id: "2-5",
+        title: "RBI Caps Banks' Net Open Position: What Is India Doing to Stabilize the Rupee?",
+        subtitle: "Prelims & Mains | Economy | Also: Banking",
+        content: "The RBI imposed a $100 million cap on banks' Net Open Position (NOP) in foreign currency per day, effective April 10, 2026. NOP measures the difference between a bank's foreign currency assets and liabilities — it reflects exposure to exchange-rate fluctuations. Earlier limits allowed exposure up to 25% of bank capital, which was significantly higher. The rupee had fallen to record lows near ₹94.8 per dollar, declining about 4% due to the Iran-West Asia conflict, rising oil prices, and heavy foreign investor outflows. India's forex reserves dropped by over $30 billion to $698.34 billion. The RBI has shifted from direct dollar intervention (selling reserves) to regulatory tightening to preserve reserves. Banks face mark-to-market losses and may need to unwind $11-15 billion in positions. This follows the RBI's separate ban on Non-Deliverable Derivative (NDD) contracts involving the rupee.",
+        whyItMatters: "Exchange rate management, RBI's forex toolkit, NOP regulation, capital account management, and the impact of geopolitical crises on India's external sector are all directly relevant for Economy papers.",
+        revise: "Indian Economy — Ramesh Singh (External Sector, Money and Banking); RBI functions; FEMA, 1999; Balance of Payments; Forex reserves management",
+        pyqConnect: "UPSC 2022 — Question on factors affecting exchange rate and RBI's tools for currency stabilization."
+      },
+      {
+        id: "2-6",
+        title: "World Air Quality Report 2025: Why Are Five of the World's Ten Most Polluted Cities in India?",
+        subtitle: "Prelims & Mains | Environment | Also: State PCS, SSC",
+        content: "Swiss firm IQAir's World Air Quality Report 2025 ranked Loni (Uttar Pradesh) as the world's most polluted city, with an annual average PM2.5 level of 112.5 µg/m³ — over 22 times the WHO guideline of 5 µg/m³. Delhi ranked 4th globally. Five of the top 10 most polluted cities are Indian: Loni, Byrnihat (Meghalaya), Delhi, Ghaziabad, and Ula. India is ranked the 6th most polluted country overall. PM2.5 refers to particulate matter with diameter less than 2.5 micrometres — small enough to penetrate deep into lungs and enter the bloodstream. Sources include vehicular emissions, construction dust, industrial activity, crop residue burning, and thermal power plants. India's National Clean Air Programme (NCAP), launched in 2019, targets a 40% reduction in PM2.5 and PM10 concentrations by 2026 in 131 non-attainment cities. The Commission for Air Quality Management (CAQM) in NCR was constituted under a 2021 Act to tackle Delhi-NCR's air quality.",
+        whyItMatters: "Air pollution, NCAP, CAQM Act 2021, WHO guidelines, PM2.5 vs PM10, and the National Ambient Air Quality Standards (NAAQS) are frequently tested in Environment. This topic connects to health, governance, and urban planning.",
+        revise: "Shankar IAS Environment (Air Pollution chapter); NCAP; CAQM Act, 2021; WHO Air Quality Guidelines; NAAQS under EPA, 1986",
+        pyqConnect: "UPSC 2019 — Question on PM2.5 and PM10, their sources and health effects."
+      }
+    ],
+    reviseSummary: [
+      "India Semiconductor Mission and OSAT ecosystem (Indian Economy — Industrial Policy)",
+      "FCRA 2010 and regulation of foreign contributions (Laxmikanth — Fundamental Rights, NGO regulation)",
+      "Air pollution — NCAP, CAQM, and National Ambient Air Quality Standards (Shankar IAS Environment)"
+    ]
+  },
+  {
+    id: "2026-04-03",
+    date: "3rd April 2026",
+    day: "Thursday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "3-1",
+        title: "INS Taragiri and INS Aridaman: Why Did India Commission a Stealth Frigate and a Nuclear Submarine on the Same Day?",
+        subtitle: "Prelims & Mains | Defence, Science & Tech | Also: CDS, NDA",
+        content: "Defence Minister Rajnath Singh commissioned two warships at Visakhapatnam on April 3. INS Taragiri (F41) is the fourth stealth frigate under Project 17A (Nilgiri-class), displacing 6,670 tonnes. Designed by the Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited (MDL), Mumbai, it has over 75% indigenous content. It carries BrahMos supersonic missiles and medium-range surface-to-air missiles. Over 200 MSMEs contributed to its supply chain. INS Aridaman is the third Arihant-class nuclear-powered ballistic missile submarine (SSBN), strengthening the sea-based leg of India's nuclear triad. The submarine was built under the secretive Advanced Technology Vessel (ATV) project at Visakhapatnam. India's defence exports rose 62.66% to ₹38,424 crore in FY 2025-26. Singh stated that 95% of India's trade moves through maritime routes and a strong navy is not an option but a necessity.",
+        whyItMatters: "Project 17A, the nuclear triad (land-air-sea), indigenous defence manufacturing under Aatmanirbhar Bharat, the role of DPSUs and MSMEs in defence production, and maritime security in the Indo-Pacific are all recurring UPSC themes.",
+        revise: "India's Security Challenges (Ashok Kumar); Nuclear doctrine — No First Use; Warship Design Bureau and MDL; Articles on defence self-reliance in Rajya Sabha debates",
+        pyqConnect: "UPSC 2021 — Question on India's nuclear doctrine and no-first-use policy. UPSC 2018 — Question on India's defence procurement framework."
+      },
+      {
+        id: "3-2",
+        title: "NCERT Declared Deemed University: What Changes for India's School Education System?",
+        subtitle: "Prelims & Mains | Education, Governance | Also: State PCS, SSC",
+        content: "The Ministry of Education notified NCERT as a deemed-to-be university on March 30, 2026, under Section 3 of the UGC Act, 1956. This came on the UGC's advice following its 595th meeting on January 30, 2026. NCERT, established in 1961 under the Societies Registration Act, has been India's apex body for school curriculum, textbooks, and teacher training. It can now independently offer diploma, UG, PG, doctoral, and specialised programmes. Six constituent units — Regional Institutes of Education in Ajmer, Bhopal, Bhubaneswar, Mysuru, and Shillong, and the Pandit Sunderlal Sharma Central Institute of Vocational Education, Bhopal — are included. These were previously affiliated with local universities. The status is granted under a \"distinct category\" with conditions: NCERT cannot pursue commercial activities, must follow UGC norms, and must participate in NIRF rankings. It must also create Academic Bank of Credits (ABC) identities for students. This aligns with NEP 2020's vision for teacher education reform.",
+        whyItMatters: "NEP 2020, deemed university framework under UGC Act, Section 3 of UGC Act, institutional autonomy vs regulatory oversight, and NCERT's evolving role are high-probability Prelims and Mains topics.",
+        revise: "Indian Polity — Education (Concurrent List, Entry 25); NEP 2020 key provisions; UGC Act, 1956 — Section 3 (deemed universities); Academic Bank of Credits",
+        pyqConnect: "UPSC 2020 — Question on the National Education Policy and its key proposals."
+      },
+      {
+        id: "3-3",
+        title: "RBI Bans Non-Deliverable Derivatives: How Is India Fighting Rupee Speculation?",
+        subtitle: "Prelims & Mains | Economy | Also: Banking, State PCS",
+        content: "On April 1, 2026, the RBI prohibited banks from offering Non-Deliverable Derivative (NDD) contracts involving the Indian Rupee. NDDs are contracts — typically Non-Deliverable Forwards (NDFs) — settled in a foreign currency (usually US dollars) without actual delivery of the underlying currency. They have been heavily used by offshore speculators to bet against the rupee. The rupee had fallen below ₹95 per dollar amid the West Asia crisis, rising crude oil prices, and capital outflows. After the ban, the rupee recovered sharply to around ₹93.10 per dollar. The directive applies to both resident and non-resident users. The move aims to curb speculative attacks, strengthen the onshore forex market, and reduce the influence of offshore NDF markets (centred in Singapore, London, and Dubai) on the rupee's exchange rate.",
+        whyItMatters: "RBI's forex market interventions, NDF/NDD instruments, onshore vs offshore currency markets, and capital account management during geopolitical crises are all testable under Economy and S&T sections.",
+        revise: "Indian Economy — Ramesh Singh (Chapter on Money and Banking, External Sector); RBI functions; Balance of Payments and capital account; Exchange rate management",
+        pyqConnect: "UPSC 2022 — Question on RBI's monetary policy tools and their effects on macroeconomic stability."
+      },
+      {
+        id: "3-4",
+        title: "Customs Duty Exemption on Petrochemicals: Why Did India Take This Emergency Step?",
+        subtitle: "Prelims & Mains | Economy, Governance | Also: Banking, State PCS",
+        content: "The Union government announced a full customs duty exemption on about 40 critical petrochemical products until June 30, 2026, to address supply disruptions caused by the West Asia conflict. The exempted products include methanol, acetic acid, toluene, styrene, polypropylene, polyvinyl chloride, and polycarbonates — key inputs for plastics, textiles, pharmaceuticals, fertilisers, and automobiles. The estimated revenue loss is ₹1,800 crore over three months. The exemption is designed as a temporary, targeted relief measure. India's petrochemical industry depends heavily on imported crude oil and natural gas derivatives. With Brent crude above $115/barrel and the Strait of Hormuz effectively closed since late February 2026, supply chains are under severe stress. Commercial LPG prices have risen by over ₹300 cumulatively in 2026. ATF for international flights has more than doubled.",
+        whyItMatters: "Customs duty as a fiscal policy tool, petrochemical value chains, India's oil import dependence, and crisis-driven trade policy measures are directly relevant for Economy and Governance papers.",
+        revise: "Indian Economy — Ramesh Singh (Chapters on External Trade, Fiscal Policy); Customs Act, 1962; Petrochemical industry structure; Energy security and chokepoints"
+      },
+      {
+        id: "3-5",
+        title: "Helium Crisis 2026: Why Is India's 100% Import Dependency a Strategic Vulnerability?",
+        subtitle: "Prelims & Mains | Science & Tech, Economy | Also: SSC, CDS",
+        content: "The Iran war has triggered a global helium supply shock. Iranian missile strikes on Qatar's Ras Laffan facility — the world's largest LNG plant — in March 2026 forced QatarEnergy to declare force majeure, removing about 14% of global helium export capacity. India imports 100% of its helium, with over 50% coming from Qatar. There is zero domestic production. Helium is a non-renewable noble gas with unique cryogenic properties — it has the lowest boiling point of any element (-269°C) and has no viable substitutes in critical applications. It is essential for MRI machines in healthcare, semiconductor fabrication, fibre optics, rocket propulsion testing, and scientific research. The disruption has created acute shortages across Indian hospitals and research institutions. Unlike oil or gas, helium cannot be easily stored in large quantities or synthesised commercially.",
+        whyItMatters: "Strategic minerals and gases, supply chain vulnerabilities, India's import dependencies beyond oil, and the geopolitical dimensions of critical resource supply are increasingly appearing in UPSC questions. This topic connects science (properties of noble gases) with economy (import dependency) and international relations (West Asia).",
+        revise: "Science & Technology — Noble gases and their properties; India's mineral and resource dependencies; Strategic reserves and critical minerals policy"
+      },
+      {
+        id: "3-6",
+        title: "Calcutta HC Upholds ECI Transfers: What Are the Limits of Article 324?",
+        subtitle: "Both (Prelims & Mains) | Polity | Also: State PCS",
+        content: "The Calcutta High Court dismissed a PIL challenging the Election Commission's mass transfer of senior IAS and IPS officers in West Bengal ahead of the April 2026 Assembly elections. A bench of Chief Justice Sujoy Paul and Justice Partha Sarathi Sen held that no demonstrable public injury was established. The Court noted that similar or higher numbers of transfers occurred across multiple states — ruling out selective targeting. The ECI transferred over 250 officials, including the Chief Secretary, DGP, Home Secretary, and Kolkata Police Commissioner. The ECI's authority stems from Article 324 of the Constitution and Section 13CC of the Representation of the People Act, 1950, which places election-duty officials under ECI control. However, neither the RPA 1950 nor RPA 1951 explicitly grants the power to transfer senior state officials. The Court acknowledged ECI's plenary powers under Article 324 but observed that such actions must remain within constitutional limits.",
+        whyItMatters: "Article 324 and its scope, the ECI's power during elections, federal balance between Centre and states, the distinction between constitutional and statutory authority, and the Chief Election Commissioner and Other Election Commissioners Act, 2023 are all directly testable.",
+        revise: "Indian Polity — M. Laxmikanth (Chapter on Election Commission); Article 324; RPA 1950 (Section 13CC); Anoop Baranwal v. Union of India (2023); T.N. Seshan era reforms",
+        pyqConnect: "UPSC 2017 — Question on constitutional and statutory bodies and their independence."
+      }
+    ],
+    reviseSummary: [
+      "Nuclear triad and India's nuclear doctrine (India's Security Challenges — Ashok Kumar)",
+      "NEP 2020 and institutional reforms in education (Laxmikanth — Education policy; NEP 2020 document)",
+      "RBI's forex market tools — CRR, SLR, OMOs, NDF market (Ramesh सिंह — Money and Banking)"
+    ]
+  },
+  {
+    id: "2026-04-04",
+    date: "4th April 2026",
+    day: "Saturday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "4-1",
+        title: "Census 2027: Why Is India Conducting Its First Fully Digital Census After a 16-Year Gap?",
+        subtitle: "Prelims & Mains | Polity, Governance | Also: State PCS, SSC",
+        content: "India launched the first phase of Census 2027 on April 1, 2026 — its 16th census overall and the first since 2011. The 2021 census was delayed due to the COVID-19 pandemic. For the first time, enumeration is fully digital. Enumerators will use mobile apps instead of paper forms. Citizens can also self-enumerate via a secure portal (se.census.gov.in) available in 16 languages. Phase I covers house-listing and housing data (April–September 2026). Phase II — population enumeration — is scheduled for February 2027. The government has approved ₹11,718.24 crore for the exercise. The Cabinet Committee on Political Affairs (CCPA) has approved caste enumeration during Phase II — a first since 1931. Over 31 lakh enumerators and supervisors will participate. On Day 1, about 55,000 households completed self-enumeration. The reference date is March 1, 2027 for most areas and October 1, 2026 for snow-bound regions.",
+        whyItMatters: "Census is foundational to governance, delimitation, and welfare planning. The Census Act, 1948, digital self-enumeration, caste enumeration, and the federal coordination involved are all high-probability exam topics. The 16-year gap itself raises questions about data-driven policymaking.",
+        revise: "Indian Polity – M. Laxmikanth (Chapter: Census and related provisions); Census Act, 1948; Article 246 (Union List Entry 69 — Census)",
+        pyqConnect: "UPSC 2019 — Question on the legal framework for conducting census and its uses in policy planning."
+      },
+      {
+        id: "4-2",
+        title: "INS Taragiri and INS Aridaman: What Do These Commissionings Mean for India's Naval Capabilities?",
+        subtitle: "Prelims & Mains | Defence, Science & Tech | Also: CDS, NDA",
+        content: "Defence Minister Rajnath Singh commissioned two major warships on April 3, 2026, at Visakhapatnam. INS Taragiri (F41) is the fourth stealth frigate under Project 17A (Nilgiri-class). It displaces about 6,670 tonnes, is designed by the Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited (MDL), Mumbai. Over 75% of its content is indigenous, involving 200+ MSMEs. It carries BrahMos missiles and medium-range surface-to-air missiles. Alongside it, INS Aridaman — the third Arihant-class nuclear-powered ballistic missile submarine — was also commissioned. INS Aridaman strengthens India's nuclear triad, specifically the sea-based leg. Defence exports have risen to ₹38,424 crore in FY 2025-26.",
+        whyItMatters: "Indigenous defence production under Aatmanirbhar Bharat, Project 17A, the nuclear triad, and the role of MSMEs in defence supply chains are recurring exam themes. The distinction between stealth frigates and nuclear submarines — and their strategic roles — is important.",
+        revise: "India's Security Challenges — Internal Security (Ashok Kumar); Nuclear doctrine and triad; Article 352–360 context for national defence",
+        pyqConnect: "UPSC 2021 — Question on India's nuclear doctrine and no-first-use policy."
+      },
+      {
+        id: "4-3",
+        title: "Strait of Hormuz Crisis: How Is the Iran War Reshaping India's Energy Security?",
+        subtitle: "Prelims & Mains | Economy, International Relations | Also: State PCS, Banking",
+        content: "The US-Israeli military campaign against Iran, which began on February 28, 2026, has virtually shut the Strait of Hormuz — the world's most important energy chokepoint. About 20% of global oil supply and one-fifth of global LNG trade normally passes through it. Brent crude has crossed $115/barrel. India, which imports 60% of its LPG from the Middle East, is facing its worst gas crisis in decades. Commercial LPG cylinders have seen a cumulative hike of over ₹300 in 2026. ATF prices for international flights have more than doubled. Oil marketing companies are absorbing losses of about ₹24.4/litre on petrol and ₹105/litre on diesel. The rupee has weakened to near ₹95/dollar. Russia claims its ships transit the Strait freely — suggesting Iran is applying a selective access policy based on geopolitical ties. The IEA has called this the largest supply disruption in the history of the global oil market.",
+        whyItMatters: "Energy security, current account deficit, imported inflation, strategic petroleum reserves, and the role of chokepoints in geopolitics are all high-value topics. This situation tests knowledge of India's energy dependence, oil pricing mechanisms, and fiscal management under crisis.",
+        revise: "Indian Economy – Ramesh Singh (Chapter on External Sector, Balance of Payments); Shankar IAS Environment (Energy Security section); International Relations — West Asia"
+      },
+      {
+        id: "4-4",
+        title: "ECI's Power to Transfer Officials: What Are the Constitutional Limits?",
+        subtitle: "Both (Prelims & Mains) | Polity, Governance | Also: State PCS",
+        content: "The Election Commission of India's large-scale transfer of senior IAS and IPS officers in West Bengal — including the Chief Secretary, DGP, and Police Commissioner — ahead of the April 2026 Assembly elections has triggered a constitutional debate. The ECI derives its authority from Article 324 of the Constitution, which gives it superintendence, direction, and control of elections. Section 13CC of the Representation of the People Act, 1950 places election-duty officials under ECI control. The Calcutta High Court upheld the transfers, ruling no public injury was established. However, critics argue that neither the RPA 1950 nor RPA 1951 explicitly grants the ECI power to transfer senior state officials. The Supreme Court, while affirming Article 324's broad scope, has cautioned that no authority operates above the law. Separately, the ECI's Special Intensive Revision (SIR) in West Bengal has been contested — over 6 million voter names were under scrutiny, with adjudication by judicial officers under Supreme Court direction.",
+        whyItMatters: "Article 324, the scope of ECI powers, federal balance during elections, and the Chief Election Commissioner and Other Election Commissioners Act, 2023 (which changed the appointment process) are all exam-critical. This is a live constitutional controversy touching polity, federalism, and governance.",
+        revise: "Indian Polity – M. Laxmikanth (Chapter: Election Commission); Article 324; RPA 1950 and 1951; Anoop Baranwal v. Union of India (2023)",
+        pyqConnect: "UPSC 2017 — Question on constitutional and statutory bodies and their independence from the executive."
+      },
+      {
+        id: "4-5",
+        title: "Artemis II: Why Does NASA's First Crewed Moon Mission in 53 Years Matter?",
+        subtitle: "Prelims | Science & Technology | Also: SSC, CDS",
+        content: "NASA launched Artemis II on April 1, 2026, from Kennedy Space Center, Florida — the first crewed mission beyond low Earth orbit since Apollo 17 in December 1972. The four-person crew — Reid Wiseman (Commander), Victor Glover (Pilot), Christina Koch and Jeremy Hansen (Mission Specialists) — is on a 10-day journey around the Moon aboard the Orion spacecraft, launched by the Space Launch System (SLS) rocket. Glover is the first person of colour, Koch the first woman, and Hansen (Canadian) the first non-American to travel beyond low Earth orbit. The crew will travel approximately 406,000 km from Earth — about 7,600 km beyond the far side of the Moon — setting a new distance record beyond Apollo 13. Artemis II is a test mission for systems that will eventually support crewed lunar landings under the broader Artemis programme, which aims at long-term human presence on the Moon and eventual Mars missions.",
+        whyItMatters: "Space technology questions are current-affairs driven. SLS vs. other launch vehicles, the Artemis programme's goals, and international cooperation in space exploration (CSA involvement) are testable. India's own Gaganyaan programme and ISRO-NASA collaboration on NISAR provide a domestic link.",
+        revise: "Science & Tech — Current affairs compilation; ISRO missions and Gaganyaan; India-US space cooperation"
+      },
+      {
+        id: "4-6",
+        title: "Nalanda Temple Stampede: Why Does India Keep Failing at Crowd Management?",
+        subtitle: "Mains | Governance, Disaster Management | Also: State PCS",
+        content: "At least nine people — eight of them women — died in a stampede at the Sheetla Mata Temple in Bihar's Nalanda district on March 31, 2026. The incident occurred during Sheetla Ashtami, when heavy crowds overwhelmed barricades. Locals reported inadequate police deployment — some attributed this to security being diverted for President Murmu's visit to nearby Nalanda University. The Bihar government announced ₹6 lakh compensation per family; the PM announced ₹2 lakh from PMNRF. India has recorded nearly 4,000 stampede events in three decades, with NCRB data showing 3,074 deaths between 2000 and 2022. The NDMA's guidelines for crowd management at mass gatherings recommend capacity mapping, intelligent monitoring systems, and trained personnel — but implementation remains weak. In 2025 alone, five of seven deadly stampedes occurred at religious gatherings.",
+        whyItMatters: "Disaster Management is a dedicated Mains topic. NDMA guidelines, state vs. central responsibility during mass gatherings, and the Disaster Management Act, 2005 are directly relevant. This is the kind of governance failure UPSC frames as a Mains ethics or GS-III question.",
+        revise: "Disaster Management — NDMA Guidelines on Mass Gatherings; GS-III (Disaster Management section); Ethics — duty of care, public safety"
+      }
+    ],
+    reviseSummary: [
+      "Article 324 and the scope of ECI powers (Laxmikanth — Chapter on Election Commission)",
+      "India's energy security and dependence on Middle East imports (Ramesh Singh — External Sector)",
+      "Census in India — Census Act, 1948 and its provisions (Laxmikanth — Chapter on Census)"
+    ]
+  },
+  {
+    id: "2026-04-05",
+    date: "5th April 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "5-1",
+        title: "Lok Sabha Expansion Debate: Will More Seats Strengthen Democracy or Deepen Federal Imbalance?",
+        subtitle: "Mains | Polity | Also: State PCS",
+        content: "A proposal to expand the Lok Sabha beyond its current 543 seats is being actively discussed, linked to the Census 2027 exercise that began on April 1. The current seat allocation is frozen based on the 1971 Census — a freeze that was extended until \"after 2026\" by the 84th Amendment (2001). Article 81 governs Lok Sabha composition; Article 82 deals with delimitation. Southern states — which implemented population control more effectively — fear losing relative representation if seats are redistributed purely on population basis. The 106th Constitutional Amendment Act, 2023 (Women's Reservation Act) mandates 33% reservation for women in Lok Sabha and state assemblies, but its implementation is linked to delimitation, which depends on updated Census data. The expansion option — adding seats without redistributing existing ones — is being explored as a way to implement women's reservation without disturbing the federal balance.",
+        whyItMatters: "Delimitation, Article 81, Article 82, the 84th and 106th Amendments, federal balance, and the tension between population-based representation and cooperative federalism are high-probability Mains topics.",
+        revise: "Indian Polity — Laxmikanth (Chapters on Parliament, Delimitation); Article 81, 82; 84th Amendment (2001); Women's Reservation Act, 2023; Census and delimitation link",
+        pyqConnect: "UPSC 2017 — Question on constitutional provisions governing composition of Lok Sabha."
+      },
+      {
+        id: "5-2",
+        title: "Jan Vishwas Bill, 2026: What Does Decriminalising 1,000 Offences Mean for Governance?",
+        subtitle: "Mains | Governance, Economy | Also: State PCS",
+        content: "The Jan Vishwas (Amendment of Provisions) Bill, 2026 has been passed by both houses of Parliament. It decriminalises over 1,000 provisions across approximately 80 Central Acts, replacing criminal penalties with civil penalty frameworks for minor technical and procedural violations. A Select Committee chaired by Tejasvi Surya recommended expanding its scope from the earlier 2025 version. The Bill's core philosophy is trust-based governance — reducing the fear of imprisonment for minor regulatory lapses while maintaining accountability through fines and administrative penalties. This follows the earlier Jan Vishwas Act, 2023, which had decriminalised 183 offences across 42 Acts. India has over 4.5 crore pending court cases; shifting minor offences away from criminal courts reduces judicial burden. The reform aligns with ease of doing business goals and signals a shift from control-based to facilitative governance.",
+        whyItMatters: "Governance reform, decriminalisation of business offences, ease of doing business, judicial pendency, and the distinction between criminal and civil penalties are directly testable in GS-II and GS-III.",
+        revise: "Indian Polity — Governance reforms; Ease of Doing Business initiatives; Judicial reforms and pendency; Jan Vishwas Act, 2023"
+      },
+      {
+        id: "5-3",
+        title: "FAO Food Price Index Rises: How Is the West Asia War Hitting Global Food Prices?",
+        subtitle: "Prelims & Mains | Economy, International Relations | Also: Banking",
+        content: "The FAO Food Price Index rose in March 2026, largely driven by higher energy costs linked to the West Asia conflict. The Index measures monthly changes in international prices of a basket of five commodity groups: cereals, vegetable oils, dairy, meat, and sugar, weighted by average export shares. The base period is 2014-16. The Strait of Hormuz disruption has pushed up not just oil but also fertiliser costs — over 30% of global urea (produced from natural gas) is exported from Gulf countries through the Strait. Rising energy and fertiliser prices feed directly into food production costs. India, despite being a major food producer, is vulnerable through two channels: imported fertiliser costs and global commodity price transmission. The IEA has described the current disruption as the largest supply shock in oil market history. There are growing concerns about food security, particularly in regions dependent on Gulf-sourced fertiliser and fuel.",
+        whyItMatters: "FAO Food Price Index, food security, the fertiliser-energy-food nexus, India's fertiliser subsidy regime, and the impact of geopolitical crises on inflation are all testable. This connects economy with international relations and agriculture.",
+        revise: "Indian Economy — Ramesh Singh (Agriculture, External Sector); FAO, WFP, IFAD (Rome-based agencies); India's fertiliser subsidy policy; Food Security Act, 2013",
+        pyqConnect: "UPSC 2022 — Question on factors affecting food prices and food security in India."
+      },
+      {
+        id: "5-4",
+        title: "Blackbuck Reintroduction at Barnawapara: What Does Wildlife Translocation Involve?",
+        subtitle: "Prelims | Environment & Ecology | Also: State PCS",
+        content: "Blackbucks have been reintroduced into their natural habitat at Rampur grassland in Barnawapara Wildlife Sanctuary, Chhattisgarh. Barnawapara is located in the Mahasamund district and covers 245 sq km of tropical dry deciduous forest, with Teak, Sal, and Bamboo as dominant species. The River Balamdehi forms its western boundary and the Jonk River its northeastern boundary — both are tributaries of the Mahanadi. The Blackbuck (Antilope cervicapra) is endemic to the Indian subcontinent. It is listed as Least Concern on the IUCN Red List but is protected under Schedule I of the Wildlife Protection Act, 1972. Reintroduction or translocation is a conservation strategy where animals are moved to areas where they were historically present but locally extinct. Successful reintroduction requires habitat suitability assessment, prey-predator balance, genetic viability of the translocated population, and community participation to prevent human-wildlife conflict.",
+        whyItMatters: "Species reintroduction, IUCN categories, WPA 1972 schedules, and wildlife sanctuary features (rivers, vegetation, location) are standard Prelims material. UPSC frequently asks about specific species and their conservation status.",
+        revise: "Shankar IAS Environment (Wildlife chapter); WPA, 1972 — Schedule I; IUCN Red List categories; Blackbuck — distribution and conservation; Major wildlife sanctuaries of Chhattisgarh",
+        pyqConnect: "UPSC 2024 — Question on wildlife sanctuaries and their distinguishing features."
+      },
+      {
+        id: "5-5",
+        title: "Insolvency and Bankruptcy Code Amendments: What Is the New CIIRP Mechanism?",
+        subtitle: "Prelims & Mains | Economy, Governance | Also: Banking",
+        content: "Recent amendments to the Insolvency and Bankruptcy Code (IBC), 2016 introduce the Creditor-Initiated Insolvency Resolution Process (CIIRP) — a court-free alternative to the traditional insolvency process. Under the existing framework, the Corporate Insolvency Resolution Process (CIRP) is initiated through the National Company Law Tribunal (NCLT). The CIIRP enables certain insolvency proceedings to be handled outside the NCLT, reducing judicial backlog and enabling faster resolution. The amendments also strengthen the cross-border insolvency framework, improving coordination for companies with operations across multiple jurisdictions. Resolution professionals get expanded roles. The IBC was enacted in 2016 based on the recommendations of the Bankruptcy Law Reforms Committee (BLRC) chaired by T.K. Viswanathan. India's IBC framework has resolved claims worth lakhs of crores since inception, but NCLT delays remain a persistent challenge.",
+        whyItMatters: "IBC 2016, NCLT, CIRP process, the role of the Insolvency and Bankruptcy Board of India (IBBI), and cross-border insolvency are recurring Economy and Governance topics.",
+        revise: "Indian Economy — Ramesh Singh (Banking reforms chapter); IBC, 2016 — key features; NCLT and NCLAT; BLRC recommendations; IBBI functions",
+        pyqConnect: "UPSC 2021 — Question on the Insolvency and Bankruptcy Code and its impact on India's business environment."
+      },
+      {
+        id: "5-6",
+        title: "Artemis II Update: Crew Approaches the Moon as Mission Sets Distance Records",
+        subtitle: "Prelims | Science & Technology | Also: SSC, CDS",
+        content: "As of April 5, the Artemis II crew aboard the Orion spacecraft is approaching the midpoint between Earth and the Moon. The translunar injection (TLI) burn was completed successfully, setting the spacecraft on a free-return trajectory — meaning the Moon's gravity will slingshot Orion back to Earth without requiring a major engine burn. The crew will travel approximately 7,600 km beyond the far side of the Moon, setting a new human spaceflight distance record beyond the Apollo 13 mark of 248,655 miles. Orion's solar array wings have fully deployed, giving the spacecraft a wingspan of about 63 feet. Commander Reid Wiseman has begun exercise routines on Orion's flywheel device. The European Service Module (ESM), built by the European Space Agency, provides propulsion, power, and life support. The mission demonstrates international cooperation — the crew includes a Canadian astronaut, the spacecraft uses European technology, and the broader Artemis programme involves multiple space agencies.",
+        whyItMatters: "Space technology questions in Prelims are current-affairs driven. Free-return trajectory, SLS specifications, ESM, and international space cooperation are all factual details UPSC can test.",
+        revise: "Science & Technology — Current affairs; Key space missions 2025-26; ISRO-NASA NISAR; Gaganyaan; International Space Station and successor programmes"
+      }
+    ],
+    reviseSummary: [
+      "Delimitation — Articles 81, 82 and the 84th Amendment (Laxmikanth — Chapter on Parliament)",
+      "Insolvency and Bankruptcy Code, 2016 — CIRP, NCLT, IBBI (Ramesh Singh — Banking reforms)",
+      "Wildlife Protection Act, 1972 — Schedules and IUCN categories (Shankar IAS Environment)"
+    ]
+  },
+  {
+    id: "2026-04-06",
+    date: "6th April 2026",
+    day: "Monday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "6-1",
+        title: "Trump's April 6 Deadline: What Happens If Iran Does Not Reopen the Strait of Hormuz?",
+        subtitle: "Mains | International Relations, Economy | Also: State PCS",
+        content: "April 6 is the deadline President Trump set for Iran to reopen the Strait of Hormuz or face strikes on its power plants and bridges. Trump first threatened strikes on March 21, then extended the deadline multiple times — finally settling on April 6, 8 PM Eastern Time. The Strait has been effectively closed to most shipping since February 28, when the US and Israel launched military operations against Iran. About 20% of global oil supply and one-fifth of global LNG trade normally passes through it. Brent crude has crossed $101/barrel. Iran has rejected US demands and countered with five conditions: end of aggression, guarantees against recurrence, war damages, end to war on all resistance groups, and recognition of Iran's sovereignty over the Strait. Oman has been mediating. For India, this deadline is critical — India imports over 40% of its crude and 90% of its LPG from the region. Whether the deadline results in escalation or negotiation will directly affect India's energy prices, inflation, and rupee stability.",
+        whyItMatters: "Strait of Hormuz as a chokepoint, India's energy import dependence, strategic autonomy, international humanitarian law (targeting civilian infrastructure), and crisis diplomacy are all high-value Mains topics.",
+        revise: "International Relations — India's West Asia policy; Chokepoints (Hormuz, Malacca, Suez); Energy security; Geneva Conventions and targeting civilian infrastructure"
+      },
+      {
+        id: "6-2",
+        title: "Assembly Elections in Three Days: Assam, Kerala, and Puducherry Vote on April 9",
+        subtitle: "Prelims & Mains | Polity | Also: State PCS",
+        content: "Assam, Kerala, and Puducherry go to polls on April 9 — just three days away. Tamil Nadu votes on April 23; West Bengal in two phases (April 23 and 29). The government has declared paid holidays on polling days. In Assam, the BJP seeks to retain power; surveys indicate NDA is comfortable. In Kerala, Congress-led UDF and CPM-led LDF are in a tight contest; BJP is pushing to make southern inroads. In Puducherry, the contest is between NDA and the INDIA alliance. The ECI's mass transfer of officials in West Bengal remains contentious. The Model Code of Conduct is in effect across all five states. For UPSC: Article 324 (election conduct), Article 172 (duration of state legislatures), Article 243K (elections to panchayats), and the anti-defection law (Tenth Schedule) are the key constitutional provisions.",
+        whyItMatters: "Electoral process, MCC, ECI powers under Article 324, state legislature provisions, and the political dynamics of multi-state elections are directly testable.",
+        revise: "Election Commission, Electoral Reforms; Article 324, 172; Model Code of Conduct; Anti-defection law (Tenth Schedule)"
+      },
+      {
+        id: "6-3",
+        title: "US-China Recalibrating Ties: Five Things India Must Watch",
+        subtitle: "Mains | International Relations | Also: State PCS",
+        content: "As the US remains engaged in the Iran war, Washington and Beijing are quietly recalibrating their relationship. China has avoided directly opposing the US on Iran but has maintained economic ties with Tehran. The recalibration involves trade concessions, technology negotiations, and strategic restraint on Taiwan. For India, five implications stand out: (1) any US-China détente could reduce India's strategic leverage as a balancing partner; (2) China's access to Iranian oil at discounted rates gives it an energy advantage; (3) a US-China accommodation on technology could affect India's semiconductor ambitions; (4) the Indo-Pacific framework (Quad, AUKUS) could see shifts; (5) India's position in multilateral forums like BRICS and SCO becomes more complex. India's \"multi-alignment\" strategy — maintaining ties with the US, Russia, and Gulf states simultaneously — is being stress-tested.",
+        whyItMatters: "US-China-India triangle, multi-alignment, Quad and AUKUS, Indo-Pacific strategy, and the impact of great power competition on India's foreign policy are core Mains themes.",
+        revise: "International Relations — India's foreign policy doctrines; US-China competition; Quad; AUKUS; India's multi-alignment; BRICS and SCO"
+      },
+      {
+        id: "6-4",
+        title: "Anuppur Building Collapse: Why Does India Keep Losing Lives to Structural Failures?",
+        subtitle: "Mains | Disaster Management, Governance | Also: State PCS",
+        content: "At least two people died and several remain trapped after a building collapsed in Anuppur district, Madhya Pradesh. NDRF and SDRF teams were deployed for rescue operations. India has seen a recurring pattern of building collapses — from the Moulivakkam collapse in Chennai (2014) to the Mahad building collapse in Maharashtra (2020). Root causes include violations of building codes, poor-quality construction materials, unauthorized construction, weak municipal oversight, and corruption in granting building permissions. The National Building Code (NBC) of India, published by the Bureau of Indian Standards, provides comprehensive guidelines — but enforcement lies with municipal and state authorities, and compliance remains weak. The Disaster Management Act, 2005 mandates preparedness and response frameworks, but structural prevention is primarily a governance and enforcement issue.",
+        whyItMatters: "National Building Code, role of ULBs (74th Amendment), NDRF/SDRF frameworks, Disaster Management Act 2005, and governance failures in urban planning are directly relevant for GS-III and Ethics.",
+        revise: "Disaster Management Act, 2005; NDRF and SDRF; National Building Code; 74th Amendment — role of ULBs; Urban governance and planning failures"
+      },
+      {
+        id: "6-5",
+        title: "Artemis II: Crew Completes Translunar Injection, Approaches the Moon",
+        subtitle: "Prelims | Science & Technology | Also: SSC, CDS",
+        content: "The Artemis II crew aboard Orion has completed the translunar injection burn and is on a free-return trajectory towards the Moon. Commander Reid Wiseman completed the first exercise routine on Orion's flywheel device. The crew will travel approximately 7,600 km beyond the far side of the Moon — setting a new human spaceflight distance record. Canadian astronaut Jeremy Hansen said after the burn: \"Humanity has once again shown what we are capable of.\" The European Service Module (ESM), built by ESA, provides propulsion, power, and life support — making Artemis a genuinely international mission. The mission demonstrates technologies for future crewed lunar landings under Artemis III. NASA's SLS rocket generated 8.8 million pounds of thrust at liftoff — the most powerful rocket NASA has ever launched.",
+        whyItMatters: "SLS specifications, Artemis programme goals, free-return trajectory, ESM, and international cooperation in space are all current-affairs driven Prelims facts.",
+        revise: "Space technology — current affairs; SLS vs Falcon Heavy vs GSLV; Artemis programme; India's Gaganyaan; ISRO-NASA NISAR"
+      },
+      {
+        id: "6-6",
+        title: "India's Energy Crisis Deepens: Commercial LPG Prices Up ₹300+ in 2026",
+        subtitle: "Prelims & Mains | Economy | Also: Banking, State PCS",
+        content: "India's energy crisis continues to intensify. The Saudi Contract Price for LPG surged 44% — from $542/tonne in March to $780/tonne in April. Commercial LPG (19 kg) in Delhi now costs ₹2,078.50 after a ₹195.50 hike on April 1. Domestic LPG at ₹913 (after a ₹60 hike in March). Oil marketing companies — IOC, BPCL, HPCL — are absorbing losses of about ₹24.4/litre on petrol and ₹105/litre on diesel. Petrol and diesel pump prices remain frozen amid state election sensitivities. India imports 60% of its LPG, mostly via the Strait of Hormuz. The government is cutting industrial LPG supplies to protect household cooking gas. Gujarat's ceramics industry has partially shut down due to gas shortages. The rupee's weakness near ₹95/dollar makes imports costlier. The IEA has warned April prices will be \"much worse than March.\"",
+        whyItMatters: "Oil marketing companies, administered vs market-determined pricing, fiscal implications of fuel subsidies, current account deficit impact, and the energy security dimension of the West Asia crisis are all testable.",
+        revise: "Energy pricing, External Sector; Oil marketing companies and pricing mechanism; Fiscal deficit and subsidies; India's LPG import structure"
+      }
+    ],
+    reviseSummary: [
+      "Strait of Hormuz and India's energy chokepoint vulnerabilities (International Relations + Economy)",
+      "Assembly election framework — Article 324, 172, Model Code of Conduct (Laxmikanth Ch. 41–42)",
+      "Disaster Management Act, 2005 and NDRF framework (GS-III — Disaster Management)"
+    ]
+  },
+  {
+    id: "2026-04-07",
+    date: "7th April 2026",
+    day: "Tuesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "7-1",
+        title: "OPEC+ Hikes Oil Output by 206,000 bpd: Will It Ease India's Energy Crisis?",
+        subtitle: "Prelims & Mains | Economy, International Relations | Also: Banking, State PCS",
+        content: "Eight OPEC+ member countries agreed on April 5 to increase crude oil production by 206,000 barrels per day (bpd) starting May 2026. The decision comes as the Iran war has pushed Brent crude past $100/barrel — up from roughly $70 before the conflict began. The Strait of Hormuz disruption has removed an estimated 10 million bpd from global markets, which the IEA calls the largest supply shock since the 1970s. The production increase is modest relative to the shortfall. OPEC+ is the alliance of OPEC members and non-OPEC producers including Russia. The Joint Ministerial Monitoring Committee (JMMC) monitors compliance. For India, the third-largest oil consumer globally, even partial supply relief matters — but at $100+/barrel, the fiscal and current account deficit pressure continues.",
+        whyItMatters: "OPEC and OPEC+ structure, India's oil import dependence, fiscal impact of high crude prices, current account deficit, and the geopolitics of energy supply are recurring Economy and IR themes.",
+        revise: "External Sector, Balance of Payments; OPEC+ structure; India's strategic petroleum reserves; Chokepoints and energy geopolitics"
+      },
+      {
+        id: "7-2",
+        title: "India-Flagged LPG Tanker Crosses the Strait of Hormuz: What Does This Signal?",
+        subtitle: "Prelims & Mains | Economy, International Relations | Also: State PCS",
+        content: "The India-flagged LPG tanker Green Asha successfully crossed the Strait of Hormuz on April 5, carrying 15,400 tonnes of liquefied petroleum gas. It departed from Al Rams port in the UAE on March 30, navigating a route close to the Iranian coast between Larak, Hormuz, and Qeshm islands. Nearly 90% of India's LPG imports were routed through this waterway before Iran's closure. The passage suggests Iran is maintaining a selective access policy — allowing certain national flags to transit based on bilateral relationships. India has a special passage arrangement with Iran. However, this does not mean the Strait is generally open — commercial shipping remains severely disrupted and insurance costs have skyrocketed.",
+        whyItMatters: "Strait of Hormuz geography, India-Iran bilateral relations, energy security, LPG import dependency, and the concept of freedom of navigation vs sovereignty over straits are all testable.",
+        revise: "International Relations — India-Iran ties; UNCLOS and freedom of navigation; Energy security; India's LPG import structure; Chokepoints"
+      },
+      {
+        id: "7-3",
+        title: "SHANTI Bill: Can Private Companies Now Build Nuclear Power Plants in India?",
+        subtitle: "Prelims & Mains | Science & Tech, Governance | Also: State PCS",
+        content: "The SHANTI (Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India) Bill, passed in December 2025, repeals the Atomic Energy Act of 1962. It allows private companies to build, own, and operate nuclear power plants for the first time. The target: 100 GW of nuclear capacity by 2047 (current installed: about 8 GW). India's nuclear energy programme has historically been under exclusive government control through the Department of Atomic Energy (DAE) and the Nuclear Power Corporation of India Limited (NPCIL). The shift to private participation mirrors the liberalisation seen in telecom, aviation, and defence. However, concerns remain around safety regulation, liability (the Civil Liability for Nuclear Damage Act, 2010), nuclear waste management, and strategic implications since India is not a signatory to the Nuclear Non-Proliferation Treaty (NPT).",
+        whyItMatters: "India's nuclear energy programme, Atomic Energy Act 1962, DAE-NPCIL structure, nuclear liability, NPT, and the broader debate on private participation in strategic sectors are all high-value topics.",
+        revise: "Science & Technology — Nuclear energy in India; Atomic Energy Act, 1962; Civil Liability for Nuclear Damage Act, 2010; NPT and India; Three-stage nuclear programme (Homi Bhabha)"
+      },
+      {
+        id: "7-4",
+        title: "Draft Tar Balls Management Rules, 2026: What Is India Doing to Protect Its Coastline?",
+        subtitle: "Prelims & Mains | Environment | Also: State PCS",
+        content: "The Ministry of Environment, Forest, and Climate Change has released the draft Tar Balls Management Rules, 2026. Tar balls are small, dark, sticky blobs of weathered crude oil found on ocean surfaces or washed ashore on beaches. They form when crude oil from spills, offshore platforms, or natural seeps undergoes physical and chemical changes due to environmental exposure. They contain heavy hydrocarbons (paraffins, aromatics), and often trap sand, shells, seaweed, and microplastics. Trace amounts of nickel and vanadium are present. India's 7,500+ km coastline is vulnerable — Goa's beaches regularly see tar ball deposits. The rules aim to establish protocols for monitoring, reporting, cleanup, and prevention. The current West Asia conflict and increased tanker traffic near India's coast make this particularly timely.",
+        whyItMatters: "Marine pollution, oil spills, coastal zone management, CRZ notifications, and India's obligations under MARPOL (International Convention for the Prevention of Pollution from Ships) are relevant for Environment papers.",
+        revise: "Marine Pollution, Coastal Zone Management; CRZ Notification 2019; MARPOL Convention; India's coastline and maritime zones"
+      },
+      {
+        id: "7-5",
+        title: "India's Major Ports Handle Record 915 MT Cargo in FY 2025-26",
+        subtitle: "Prelims & Mains | Economy, Governance | Also: SSC, Banking",
+        content: "India's major ports achieved a record cargo handling of 915.17 million tonnes in FY 2025-26, surpassing the annual target of 904 MT. This represents a 7.06% year-on-year growth. Deendayal Port Authority (Kandla) led with 160.11 MT, followed by Paradip Port Authority (156.45 MT) and JNPA (Jawaharlal Nehru Port Authority) at 102.01 MT. The milestone aligns with the Maritime Amrit Kaal Vision 2047, which targets making India a global maritime leader. India has 12 major ports governed by the Major Port Authorities Act, 2021, which replaced the Major Port Trusts Act, 1963, to grant greater autonomy. The Sagarmala programme, launched in 2015, focuses on port modernisation, port-led industrialisation, coastal connectivity, and coastal community development.",
+        whyItMatters: "Major Port Authorities Act 2021, Sagarmala programme, port-led development, India's maritime trade, and the 95% trade-by-sea statistic are all frequently tested.",
+        revise: "Infrastructure chapter; Major Port Authorities Act, 2021; Sagarmala programme; Maritime India Vision 2030"
+      },
+      {
+        id: "7-6",
+        title: "Stagflation Risk: Is India Heading Towards a 1970s-Style Economic Crisis?",
+        subtitle: "Mains | Economy | Also: Banking, State PCS",
+        content: "Economists are drawing comparisons between the current West Asia oil shock and the stagflation episodes of the 1970s. Stagflation — simultaneous high inflation and low or negative growth — is triggered by supply-side shocks, particularly in energy. In the 1970s, OPEC oil embargoes caused stagflation in the US and UK. Today, Brent crude above $100/barrel, the Strait of Hormuz disruption, and fertiliser shortages are creating similar conditions. India's CPI inflation may exceed 5.5% for the next three quarters (SBI Research). GDP growth for FY27, projected at 7.2%, is at risk from trade disruptions. The rupee has weakened past ₹93/dollar. The policy dilemma: raising interest rates to control inflation can worsen growth; stimulating demand when supply is constrained can fuel inflation further. Unlike the 1970s, India is now far more dependent on petrochemical products — fertilisers, LPG, synthetic fibres, and plastics — making supply disruptions more complex.",
+        whyItMatters: "Stagflation, Phillips Curve breakdown, supply-side economics, monetary policy dilemma (inflation vs growth), and India's macroeconomic vulnerability to oil shocks are directly testable in Economy.",
+        revise: "Inflation, Monetary Policy, External Sector; Phillips Curve; Supply-side vs demand-side economics; 1973 and 1979 oil crises"
+      }
+    ],
+    reviseSummary: [
+      "OPEC+ structure and India's oil import dependence — External Sector",
+      "Nuclear energy in India — three-stage programme and SHANTI Bill (Science & Tech + Governance)",
+      "Sagarmala programme and Major Port Authorities Act, 2021 — Infrastructure"
+    ]
+  },
+  {
+    id: "2026-04-08",
+    date: "8th April 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "8-1",
+        title: "US-Iran Ceasefire: What Does the Two-Week Truce Mean for the World and for India?",
+        subtitle: "Mains | International Relations, Economy | Also: State PCS, Banking",
+        content: "President Trump announced on April 7 evening (just 90 minutes before his 8 PM ET deadline) that the US would suspend military operations against Iran for two weeks, contingent on Iran reopening the Strait of Hormuz. Iran accepted. Iran's Supreme Leader Mojtaba Khamenei ordered all military branches to stop firing. Iran's Foreign Minister Abbas Araghchi confirmed Tehran would allow \"safe passage\" through the Strait for two weeks \"via coordination with Iran's armed forces.\" The deal was brokered by Pakistan — PM Shehbaz Sharif invited both US and Iranian delegations to Islamabad for talks beginning April 10. VP JD Vance is likely to lead the US delegation. Iran proposed a 10-point plan that includes compensation for war damages, withdrawal of US forces from regional bases, and recognition of Iran's sovereignty over the Strait. Trump called the plan \"workable.\" Markets reacted instantly — S&P 500 futures rose 1%+, oil futures dropped 6%. Israel agreed to suspend strikes but said the ceasefire does not extend to Lebanon. For India, this pause could temporarily ease oil prices, stabilise the rupee, and restore partial LPG supply — but the fundamental energy vulnerability remains until the Strait is permanently reopened.",
+        whyItMatters: "Ceasefire diplomacy, Pakistan as mediator, Strait of Hormuz reopening, India's energy import dependence, global oil market impact, international humanitarian law (civilian infrastructure targeting), and the strategic implications of the 10-point plan are all high-value IR and Economy themes. This is one of the most significant geopolitical developments in 2026.",
+        revise: "International Relations — West Asia geopolitics, India's strategic autonomy, Strait of Hormuz; Indian Economy — oil prices and current account deficit, energy security; Geneva Conventions — protection of civilian infrastructure"
+      },
+      {
+        id: "8-2",
+        title: "India's Fast Breeder Reactor Achieves Criticality: Why Is This a Landmark for Nuclear Energy?",
+        subtitle: "Prelims & Mains | Science & Tech | Also: SSC, CDS",
+        content: "India's Prototype Fast Breeder Reactor (PFBR) at Kalpakkam, Tamil Nadu, achieved criticality on April 7 — the stage where a nuclear chain reaction sustains itself. India becomes only the second country after Russia to operate a commercial fast breeder reactor. The PFBR was designed and developed by the Indira Gandhi Centre for Atomic Research (IGCAR), under the Department of Atomic Energy. PM Modi called it \"a defining step\" in advancing India's nuclear programme. A fast breeder reactor produces more fissile material than it consumes — the plutonium and uranium-233 generated will fuel the third stage of India's three-stage nuclear programme, which uses thorium. India has one of the world's largest thorium reserves. Currently, nuclear energy is only 3% of India's energy mix (about 8,180 MW installed). The government targets 100 GW by 2047. The three stages: Stage I uses Pressurised Heavy Water Reactors (PHWRs) with natural uranium; Stage II uses fast breeder reactors with plutonium; Stage III will use thorium-based reactors.",
+        whyItMatters: "India's three-stage nuclear programme is one of the most frequently tested S&T topics. PFBR, IGCAR, Homi Bhabha's vision, thorium reserves, and the distinction between fission/fusion, breeder/thermal reactors are all standard Prelims material. The link to energy security makes it relevant for Mains too.",
+        revise: "Science & Technology — India's nuclear programme (three stages); IGCAR; Thorium reserves; Atomic Energy Act; BARC and DAE structure; Nuclear fuel cycle",
+        pyqConnect: "UPSC 2013 and 2017 tested India's three-stage nuclear programme and the role of thorium."
+      },
+      {
+        id: "8-3",
+        title: "Foreign Secretary Vikram Misri's US Visit: What's on the Bilateral Agenda?",
+        subtitle: "Mains | International Relations | Also: State PCS",
+        content: "Foreign Secretary Vikram Misri begins a three-day visit to Washington DC from April 8–10. The visit follows Foreign Minister's February 2026 trip. Misri will meet senior US administration officials to review the full scope of India-US bilateral relations and advance cooperation on trade, defence, science and technology. Key issues on the agenda include the India-US trade deal (where the US reduced tariffs to 18% in exchange for India stopping Russian oil purchases), defence technology sharing under iCET (Initiative on Critical and Emerging Technology), semiconductor cooperation, and coordination on the West Asia crisis. The visit comes at a sensitive moment — with the US-Iran ceasefire just announced and India navigating between its strategic partnership with the US and its energy ties with Gulf states and Iran.",
+        whyItMatters: "India-US bilateral relations, iCET, trade negotiations, defence cooperation, and India's strategic balancing act during the West Asia crisis are all relevant for IR papers.",
+        revise: "International Relations — India-US relations; iCET; India-US trade dynamics; Defence technology cooperation; India's multi-alignment strategy"
+      },
+      {
+        id: "8-4",
+        title: "India's MoS Visits Myanmar for Presidential Inauguration: Why Does This Matter?",
+        subtitle: "Prelims & Mains | International Relations | Also: State PCS",
+        content: "Minister of State for External Affairs Kirtivardhan Singh will visit Myanmar from April 8–11 for the inauguration of new President Min Aung Hlaing on April 10. Myanmar's parliament elected the military leader as president on April 3. India's attendance signals its continued engagement with Myanmar's military government — a pragmatic approach driven by three concerns: (1) security cooperation along the 1,643 km India-Myanmar border (insurgent groups operate in the border region); (2) connectivity projects including the Kaladan Multi-Modal Transit Transport Project and the India-Myanmar-Thailand Trilateral Highway; (3) strategic competition with China for influence in Myanmar. India has historically maintained a dual approach — engaging the military while supporting democratic aspirations. The visit comes as other democracies have largely boycotted the inauguration.",
+        whyItMatters: "India-Myanmar relations, Act East Policy, border security, connectivity projects (Kaladan, Trilateral Highway), India-China competition in Southeast Asia, and India's approach to military regimes are all testable.",
+        revise: "International Relations — India's Act East Policy; India-Myanmar border; Kaladan Project; India-Myanmar-Thailand Highway; India's neighbourhood policy"
+      },
+      {
+        id: "8-5",
+        title: "Mamata Files Nomination from Bhabanipur: What's at Stake in West Bengal?",
+        subtitle: "Prelims & Mains | Polity | Also: State PCS",
+        content: "West Bengal CM Mamata Banerjee will file her nomination from Bhabanipur constituency on April 8 for the April 23/29 Assembly elections. The West Bengal election remains the most contested of the five state polls. Key issues: the ECI's Special Intensive Revision (SIR) of electoral rolls — which flagged over 6 million voter names — continues to generate controversy. The Supreme Court directed judicial officers to oversee adjudication of disputed names. The ECI's mass transfer of 250+ officials, upheld by the Calcutta HC, remains contentious. TMC leaders are meeting the Chief Election Commissioner today to raise concerns. The election tests TMC's dominance, BJP's challenge, and the ECI's credibility. Article 324 (ECI powers), Article 172 (state legislature duration), and the RPA 1950/1951 are the key constitutional provisions at play.",
+        whyItMatters: "Electoral roll revision, ECI's SIR powers, Supreme Court oversight of election processes, Article 324 scope, and the federal dimensions of election management are directly relevant for Polity.",
+        revise: "Election Commission chapter; Article 324; RPA 1950 and 1951; Special Intensive Revision of electoral rolls; Supreme Court's role in election disputes"
+      },
+      {
+        id: "8-6",
+        title: "India Issues Advisory for Nationals in Iran: What Does This Reveal About Crisis Diplomacy?",
+        subtitle: "Prelims & Mains | International Relations, Governance | Also: State PCS",
+        content: "The Indian Embassy in Iran issued an urgent advisory on April 7 asking all Indian nationals to stay indoors for 48 hours, avoid power plants and military installations, and carefully coordinate travel plans. This came hours before Trump's deadline. India has a significant diaspora in the Gulf and Iran. During the 2006 Lebanon war, India evacuated over 2,280 nationals (Operation Sukoon). During the Yemen crisis in 2015, India evacuated 4,640 Indians and 960 foreign nationals (Operation Rahat). The advisory mechanism involves the Indian Embassy, MEA's Consular Services division, and the Integrated Crisis Management System. The ceasefire has since eased the immediate threat, but the advisory highlights how geopolitical crises in West Asia directly affect Indian citizens abroad — and the importance of evacuation preparedness.",
+        whyItMatters: "Diaspora management, evacuation operations (Sukoon, Rahat, Vande Bharat), MEA's crisis management framework, and India's responsibility towards its nationals abroad are tested in both IR and Governance.",
+        revise: "International Relations — India's diaspora policy; Operation Sukoon (2006), Rahat (2015), Vande Bharat (2020); MEA structure; Consular services"
+      },
+      {
+        id: "8-7",
+        title: "Nitish Kumar's Last Cabinet Meeting: Bihar's Political Transition",
+        subtitle: "Prelims & Mains | Polity | Also: State PCS",
+        content: "Nitish Kumar held what is likely his final cabinet meeting as Bihar CM on April 8. He announced his resignation earlier to contest the 2026 Rajya Sabha elections. Bihar's political transition is significant — Kumar has been CM for most of the last two decades, serving with both NDA and Mahagathbandhan alliances. His departure raises questions about his successor, the continuity of governance in Bihar, and the impact on NDA's national alliance structure. For UPSC, the key constitutional provisions are Article 163 (Council of Ministers to aid and advise the Governor), Article 164 (CM appointment — the Governor appoints the CM and other ministers on the CM's advice), and Article 174 (sessions of state legislature). The governor's discretion in choosing a successor when the incumbent resigns is a recurring constitutional question.",
+        whyItMatters: "Article 163, 164, Governor's role in CM appointment, political transitions, Rajya Sabha elections (Article 80), and coalition politics are standard Polity topics.",
+        revise: "State Executive, Governor; Article 163, 164, 174; Rajya Sabha elections — Article 80; Coalition politics in India"
+      }
+    ],
+    reviseSummary: [
+      "India's three-stage nuclear programme — PFBR, thorium, IGCAR (Science & Tech)",
+      "Strait of Hormuz and ceasefire diplomacy — India's energy security implications (IR + Economy)",
+      "India-Myanmar relations and Act East Policy (International Relations)"
+    ]
+  },
+  {
+    id: "2026-04-09",
+    date: "9th April 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "9-1",
+        title: "Assam, Kerala, and Puducherry Vote Today — 296 Seats, 1,849 Candidates",
+        subtitle: "GS-II: Polity & Governance | Prelims + Mains",
+        content: "Polling is underway across 126 seats in Assam, 140 in Kerala, and 30 in Puducherry. Over 2.71 crore voters are registered in Assam alone. Polling began at 7 AM and ends at 6 PM. Results will be declared on May 4. In Assam, BJP-led NDA (BJP + AGP + BPF) faces the Asom Sonmilito Morcha (Congress + Raijor Dal + AJP). In Kerala, the contest is between LDF (CPM-led), UDF (Congress-led), and BJP's NDA. In Puducherry, NDA faces the INDIA alliance. Tamil Nadu votes on April 23; West Bengal in two phases (April 23 and 29). The government declared paid holidays on polling day under the Negotiable Instruments Act, 1881. The ECI has deployed over 3 lakh security personnel across the three regions. First-time voters — those turning 18 — are a significant demographic.",
+        whyItMatters: "Article 324 (ECI powers), Article 172 (state legislature duration), Tenth Schedule (anti-defection), Model Code of Conduct, RPA 1950 and 1951, EVM and VVPAT framework.",
+        revise: "Electoral process and ECI framework; Article 324, 172; Model Code of Conduct; Anti-defection law; Delimitation; EVM-VVPAT system"
+      },
+      {
+        id: "9-2",
+        title: "US-Iran Ceasefire Holds — Oil Drops Below $95, Markets Rally Globally",
+        subtitle: "GS-II: International Relations + GS-III: Economy | Mains",
+        content: "Day 1 of the two-week ceasefire: Brent crude fell 13% to $94.75/barrel; WTI dropped 16% — the biggest one-day decline since 2020. Dow surged 1,000+ points. Asian markets rallied — South Korea's KOSPI up 6.87%, Japan's Nikkei up 5.39%. Iran's Foreign Minister confirmed \"safe passage\" through the Strait of Hormuz \"via coordination with Iran's armed forces.\" However, tanker traffic has not yet picked up significantly — only 10-15 vessels per day, similar to war-period levels. 800+ ships remain trapped in the Gulf. The Islamabad talks begin April 10. Iran's 10-point plan includes: reopening Hormuz under Iranian control, lifting of all sanctions, compensation for war damages, US withdrawal from regional bases, and acceptance of Iran's uranium enrichment. For India, even a partial Hormuz reopening eases pressure on LPG supply (60% imported) and crude imports (40% from West Asia). The rupee strengthened to ₹92.5/dollar on the ceasefire news.",
+        whyItMatters: "GS-II — International relations, bilateral agreements; GS-III — Energy security, external sector, Balance of Payments, oil pricing mechanism. UNCLOS and transit passage through straits.",
+        revise: "Strait of Hormuz and UNCLOS; Ceasefire diplomacy; India's energy import structure; Current account deficit; Oil pricing mechanism in India"
+      },
+      {
+        id: "9-3",
+        title: "India's PFBR Achieves Criticality — Why This Is a Defining Moment for Nuclear Energy",
+        subtitle: "GS-III: Science & Technology | Prelims + Mains",
+        content: "India's Prototype Fast Breeder Reactor (PFBR) at Kalpakkam, Tamil Nadu, achieved criticality on April 7 — a self-sustaining nuclear chain reaction. India is now the second country after Russia with a commercial fast breeder reactor. Designed by the Indira Gandhi Centre for Atomic Research (IGCAR) under the Department of Atomic Energy (DAE). A fast breeder reactor produces more fissile material than it consumes. The PFBR uses plutonium from Stage I PHWRs and will produce uranium-233 — the fuel for Stage III thorium-based reactors. India has one of the world's largest thorium reserves (estimated 11.93 million tonnes — about 25% of global reserves, primarily in Kerala, Odisha, and Tamil Nadu beach sands). Nuclear energy is currently 3% of India's energy mix (~8,180 MW installed). The government targets 100 GW by 2047. The SHANTI Bill (passed December 2025) now allows private participation in nuclear power for the first time.",
+        whyItMatters: "GS-III — Nuclear energy, three-stage programme, thorium cycle, energy security. India's nuclear doctrine and non-proliferation (GS-II — International Relations).",
+        revise: "Three-stage nuclear programme (Homi Bhabha); PFBR and IGCAR; Thorium reserves; Atomic Energy Act, 1962; SHANTI Bill; NPT and India; Civil Liability for Nuclear Damage Act, 2010",
+        pyqConnect: "UPSC 2013 and 2017 tested India's three-stage nuclear programme and the role of thorium."
+      },
+      {
+        id: "9-4",
+        title: "Oil Prices and India — Is the Worst Over?",
+        subtitle: "GS-III: Economy | Prelims + Mains",
+        content: "Despite the ceasefire, structural energy challenges remain. Oil is at $94.75/barrel — still 35% above pre-war levels of ~$70. Oil marketing companies (IOC, BPCL, HPCL) have been absorbing losses — ₹24.4/litre on petrol and ₹105/litre on diesel. Retail pump prices remain frozen amid elections. Commercial LPG has risen ₹300+ cumulatively in 2026. Saudi Contract Price for LPG surged 44% between March and April. India's forex reserves dropped $30+ billion to $698 billion. The IEA warned that even with ceasefire, recovery of full Hormuz shipping capacity will take months. Ras Laffan (Qatar) — which produces 20% of global LNG — suffered damage reducing capacity by 17%. Rebuilding energy infrastructure in the region could cost over $25 billion. For India, the immediate relief is welcome but the medium-term outlook remains inflationary.",
+        whyItMatters: "GS-III — Indian economy, inflation, fiscal policy, energy security; External sector and Balance of Payments.",
+        revise: "Oil pricing mechanism (administered vs market); OMCs and under-recoveries; Current account deficit; CPI composition and cost-push inflation; Strategic petroleum reserves; India's LPG import dependency"
+      },
+      {
+        id: "9-5",
+        title: "MoS Visits Myanmar for Presidential Inauguration — India's Act East in Action",
+        subtitle: "GS-II: International Relations | Mains",
+        content: "MoS External Affairs Kirtivardhan Singh is in Myanmar (April 8–11) for the inauguration of President Min Aung Hlaing. India's attendance — while most democracies boycott — signals pragmatic engagement, driven by three priorities: (1) border security along the 1,643 km India-Myanmar frontier (insurgent groups like NSCN-K and Arakan Army operate here); (2) connectivity projects — Kaladan Multi-Modal Transit Transport (Kolkata to Sittwe port) and India-Myanmar-Thailand Trilateral Highway; (3) countering China's growing influence (China's BRI projects in Myanmar, including the China-Myanmar Economic Corridor, give Beijing significant leverage). India has historically maintained a dual approach — engaging the military while supporting democratic aspirations. The visit also gives India an opportunity to discuss the repatriation of Rohingya refugees and cross-border drug trafficking.",
+        whyItMatters: "GS-II — India's bilateral relations, Act East Policy, India's neighbourhood policy; GS-III — Border security, connectivity infrastructure.",
+        revise: "Act East Policy; India-Myanmar border; Kaladan Project; Trilateral Highway; India-China competition in Southeast Asia; NSCN-K and NE insurgency; Rohingya crisis"
+      },
+      {
+        id: "9-6",
+        title: "UNCLOS and the Strait of Hormuz — Who Controls International Waterways?",
+        subtitle: "GS-II: International Relations | Prelims + Mains",
+        content: "The ceasefire has brought UNCLOS (United Nations Convention on the Law of the Sea, 1982) into sharp focus. Under UNCLOS, the Strait of Hormuz is classified as a \"strait used for international navigation\" — meaning all ships enjoy the right of \"transit passage\" that cannot be suspended. Iran's proposal to allow passage \"via coordination with Iran's armed forces\" effectively imposes a toll-booth system — which contradicts UNCLOS. The Strait is 21 nautical miles wide at its narrowest point, between Iran and Oman. About 20 million barrels of oil per day normally pass through it. Iran is a signatory to UNCLOS. The IMO (International Maritime Organisation) is working on a \"safe transit mechanism\" for ships. About 20,000 seafarers are awaiting evacuation on ships trapped in the Gulf. India ratified UNCLOS in 1995.",
+        whyItMatters: "GS-II — International law, international organisations; GS-I — World geography (straits, chokepoints).",
+        revise: "UNCLOS — transit passage vs innocent passage; Straits used for international navigation; IMO; India's maritime zones; Key chokepoints (Hormuz, Malacca, Suez, Bab-el-Mandeb)",
+        pyqConnect: "UPSC 2014 asked about UNCLOS and India's maritime zones."
+      },
+      {
+        id: "9-7",
+        title: "Foreign Secretary Misri in Washington — India-US Agenda Amid the Ceasefire",
+        subtitle: "GS-II: International Relations | Mains",
+        content: "Foreign Secretary Vikram Misri is in Washington (April 8–10). The ceasefire changes the diplomatic context significantly. Key agenda items: (1) India-US trade deal follow-up — the US reduced tariffs to 18% in exchange for India stopping Russian oil purchases, but the Russian oil waiver expires soon; (2) iCET (Initiative on Critical and Emerging Technology) — semiconductor cooperation, AI, quantum computing; (3) defence technology sharing; (4) coordination on the Islamabad peace talks (where the US delegation is headed Friday). India's position is nuanced — it welcomes the ceasefire for energy relief but is cautious about Iran's 10-point plan, particularly the demand for US withdrawal from regional bases which could affect India's own strategic interests in the Gulf.",
+        whyItMatters: "GS-II — India-US relations, bilateral agreements, iCET, defence cooperation.",
+        revise: "India-US bilateral relations; iCET; Trade dynamics; Defence cooperation; India's strategic autonomy; India-US-Iran triangle"
+      }
+    ],
+    reviseSummary: [
+      "India's three-stage nuclear programme — PFBR, thorium, IGCAR (GS-III: Science & Tech)",
+      "UNCLOS — transit passage, straits, India's maritime zones (GS-II: International Relations)",
+      "Assembly elections — Article 324, ECI powers, Model Code of Conduct (GS-II: Polity)"
+    ]
+  }
+];
