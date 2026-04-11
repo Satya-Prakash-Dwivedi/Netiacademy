@@ -308,5 +308,118 @@ Knowing which one you are dealing with, at any given moment, is the beginning of
     author: "Neti Academy",
     readTime: "6 min read",
     image: "/images/mind3.png"
+  },
+  {
+    id: "why-your-brain-catastrophises-before-every-mock-test",
+    title: "Why Your Brain Catastrophises Before Every Mock Test",
+    excerpt: "You know the feeling. The mock is tomorrow. You sit down to revise. And instead of studying, your mind starts doing something else entirely. Within twenty minutes, you've gone from opening a book to questioning your entire preparation...",
+    content: `
+You know the feeling. The mock is tomorrow. You sit down to revise. And instead of studying, your mind starts doing something else entirely.
+
+What if I blank on everything? What if this score confirms I'm not good enough? What if I'm fooling myself about all of this?
+
+Within twenty minutes, you've gone from opening a book to questioning your entire preparation, your intelligence, and your future. Nothing has happened. But your mind has already run through several worst-case scenarios — in vivid detail.
+
+This is catastrophising. Almost every student does it. Almost no one understands why. And without understanding why, there's no real way to stop it.
+
+### Why the Brain Does This — And It's Not Irrational
+
+The first thing to know is that catastrophising is not a sign of weakness or pessimism. It is your brain doing its job — badly applied to the wrong situation.
+
+Ethan Kross, a psychologist at the University of Michigan who has spent his career studying how we manage our inner emotional lives, explains this clearly. He writes that negative intrusive thoughts — including worst-case scenarios — are "the brain's way of simulating worst-case scenarios to help prepare us for them."
+
+In other words: your brain is trying to protect you.
+
+Before any high-stakes situation, the mind runs a threat simulation. It tries to anticipate what might go wrong so the body can prepare. For most of human history, this was useful. If you were walking into a situation where the outcome mattered — a hunt, a confrontation, an unknown territory — running through what could go wrong helped you plan and survive.
+
+The problem is that your brain applies this same mechanism to a mock test. It scans for potential dangers. It surfaces worst-case outcomes. It presents them to you as possibilities to rehearse and prepare for. And because the threat feels real — because the exam matters, because failure has meaning — the body responds to the simulation the same way it would respond to the actual event.
+
+Your heart rate goes up. Your thoughts narrow. The simulation feels urgent, real, and impossible to stop.
+
+This is not irrationality. This is an ancient survival tool misfiring in a modern context.
+
+### The Concept: Chatter
+
+Kross calls what happens next chatter — and it's the real problem.
+
+The initial catastrophic thought is not the issue. The issue is what happens after it arrives. If you catch the thought and let it pass, no problem. But most people don't catch it. They engage with it. They try to reason with it, argue with it, or solve it. And engaging with a catastrophic thought is like adding fuel to it.
+
+One thought leads to another. Each one feels more urgent than the last. You are no longer thinking about tomorrow's mock. You are in a full loop — circling the same fears, the same doubts, the same imagined failures — without moving forward. You are, as Kross puts it, "stuck in a traffic circle with no exit."
+
+This loop is what makes catastrophising so exhausting. It isn't just one bad thought. It is the mind grinding on that thought repeatedly, generating more cortisol with each rotation, convincing you by sheer repetition that the imagined outcome is the real one.
+
+Sapolsky's research confirms this biology: the amygdala, which processes fear, responds to the repetition of a threatening thought the same way it responds to repetition of an actual threat. The more times you run a catastrophic scenario through your mind, the more conditioned your fear response becomes to it. Mock tests, over time, can become associated with a physical anxiety response — not because mock tests are dangerous, but because your mind has practiced associating them with threat.
+
+### The Peters Layer: The Chimp Watching the Wrong Film
+
+Steve Peters puts it in a way that is even more direct.
+
+When the Chimp brain gets hold of a situation it perceives as threatening — a mock test, a bad score, an upcoming exam — it doesn't just acknowledge the threat and move on. It catastrophises by default, because catastrophising is the safest bet from a survival perspective. Better to assume the worst and be wrong than to assume the best and be unprepared.
+
+But there is something specific happening in your Computer brain too. Peters calls them Gremlins — old, stored beliefs that activate automatically when you face certain situations. For many aspirants, the Gremlin running before a mock test sounds something like: I am being judged. My worth is being measured. If this goes badly, it means something terrible about me.
+
+Once that Gremlin activates, the Chimp picks it up and runs with it. The threat is no longer "a practice test." The threat is identity, worth, and future. Of course the Chimp panics. You've given it something genuinely enormous to be afraid of.
+
+### The Gita's Answer to the Catastrophising Mind
+
+In Chapter 2, Verse 14, Krishna says to Arjuna on the battlefield — a man who is genuinely catastrophising, genuinely spiralling, genuinely frozen:
+
+"Mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ, āgamāpāyino'nityās tāṁs titikṣasva bhārata."
+
+The contacts of the senses, Arjuna, which give rise to cold and heat, pleasure and pain — they come and go. They are impermanent. Endure them.
+
+This is not telling you not to feel. It is telling you that the feeling — including the feeling of catastrophic dread before a mock — is temporary, passing, and not a verdict. It arrives. It leaves. It is not the truth of your situation. It is contact — a sensation passing through, not a permanent state or an accurate prediction.
+
+The Gita was addressing a man who had convinced himself, from imagination alone, that everything was over. Krishna's response is: your mind has run ahead of reality. Come back to what is actual.
+
+### Three Tools That Actually Work
+
+Here is where Kross's research becomes practically useful. He has spent years testing what actually helps people break the catastrophising loop — not just in theory, but measurably, in brain scans and behavioural experiments.
+
+**Tool 1: Distanced self-talk**
+
+When you are catastrophising, you are talking to yourself as "I." I am going to fail. I can't do this. I don't know anything.
+
+The word "I" zooms the camera in. It makes everything personal, immediate, and consuming. Kross's research found something remarkable: simply switching from "I" to your own name — or to "you" — creates measurable psychological distance from the emotion within seconds.
+
+Instead of: I'm going to blank tomorrow. Try: Arjun, you've studied this. What do you actually know?
+
+This is not pretending the fear doesn't exist. It is stepping slightly outside it, the way a good coach would. Kross ran neuroimaging studies and found this switch "didn't activate a brain waveform that tracks the exertion of effort" — meaning it works without requiring the strained willpower that most stress management advice demands.
+
+**Tool 2: Mental time travel forward**
+
+Ask yourself: How will I feel about this mock test in three months?
+
+The catastrophising mind is locked in the present moment, treating tomorrow's score as a permanent and final verdict. Zooming forward in time — even just to next week — reveals that the catastrophic outcome your mind is simulating is not the end of anything. This is not false reassurance. It is accurate perspective. Three months from now, this mock test will be one data point among dozens.
+
+**Tool 3: Name what is happening**
+
+Kross cites research showing that simply labelling an emotion — "I notice I'm catastrophising right now" — reduces its intensity. Not solving it. Not arguing with it. Just naming it.
+
+Peters would say this is recognising the Chimp. Kross would call it metacognition — thinking about your thinking. The mechanism is the same: the moment you observe the process, you are slightly outside it, which gives you a fraction of control.
+
+### The Practical Takeaway for Before a Mock
+
+The night before a mock test is not the time to do more revision. It is the time to address what is actually happening — which is threat simulation, not preparation.
+
+When the catastrophising loop starts, try this sequence:
+
+1. **First, name it out loud or in writing:** My Chimp is running a threat simulation. This is normal.
+2. **Second, switch your language:** stop saying "I" and address yourself by name. Ask what that person — seen from a slight distance — actually knows and has prepared.
+3. **Third, time-travel:** How much will this specific mock score matter in six months? Almost certainly less than it feels right now.
+
+None of this eliminates the feeling. It reduces the loop. It shortens the time your nervous system spends in the simulation, which means you sleep better, think more clearly the next day, and perform closer to your actual level of preparation.
+
+The catastrophising was never about the mock. It was your brain trying to keep you safe. You can thank it for trying — and then gently redirect it.
+
+---
+
+*Neti Mind — Blog 4 of 30. Next: Exam Anxiety vs. Everyday Anxiety — Are They the Same?*
+*Books referenced: Shift by Ethan Kross · Why Zebras Don't Get Ulcers by Robert Sapolsky · The Chimp Paradox by Dr. Steve Peters · Bhagavad Gita, Chapter 2, Verse 14*
+    `,
+    date: "April 11, 2026",
+    author: "Neti Academy",
+    readTime: "7 min read",
+    image: "/images/mind4.png"
   }
 ];
