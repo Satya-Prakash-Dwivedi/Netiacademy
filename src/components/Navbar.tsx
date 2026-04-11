@@ -11,8 +11,8 @@ import { NavLink } from "react-router-dom";
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "Mind", path: "/mind" },
   { name: "Current Affairs", path: "/current-affairs" },
+  { name: "Mind", path: "/mind" },
   { name: "Plan B", path: "/plan-b" },
   { name: "Announcements", path: "/blogs" },
   { name: "Contact", path: "/contact" },

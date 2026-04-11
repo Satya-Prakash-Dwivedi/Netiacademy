@@ -2,6 +2,40 @@ import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { dailyDigests, type DailyDigest } from "../data/currentAffairs";
 
+const linkify = (text: string) => {
+  if (!text) return null;
+  const parts = text.split(/(\[.*?\]\(.*?\))/g);
+  return parts.map((part, i) => {
+    const match = part.match(/\[(.*?)\]\((.*?)\)/);
+    if (match) {
+      return (
+        <a 
+          key={i} 
+          href={match[2]} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 underline transition-colors font-medium decoration-blue-300 underline-offset-4"
+        >
+          {match[1]}
+        </a>
+      );
+    }
+    return part;
+  });
+};
+
+const renderTextInChunks = (text: string) => {
+  if (!text) return null;
+  const sentences = text.split(/(?<=[.?!]["']?)\s+(?=[A-Z])/);
+  const chunks = [];
+  for (let i = 0; i < sentences.length; i += 3) {
+    chunks.push(sentences.slice(i, i + 3).join(' ').trim());
+  }
+  return chunks.map((chunk, pIdx) => (
+    <p key={pIdx}>{linkify(chunk)}</p>
+  ));
+};
+
 /**
  * CurrentAffairDetail Component
  * 
@@ -67,6 +101,20 @@ const CurrentAffairDetail = () => {
           </div>
         </header>
 
+        {digest.announcement && (
+          <section className="mb-12 md:mb-16 bg-gradient-to-br from-blue-50 to-white border border-blue-200/60 rounded-3xl p-8 md:p-12 shadow-sm relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-1.5 h-full bg-blue-600 rounded-l-3xl"></div>
+            <div className="absolute -top-24 -right-24 w-64 h-64 bg-blue-200/40 rounded-full blur-3xl"></div>
+            <div className="relative z-10 space-y-5">
+              {digest.announcement.split('\n').map((para, idx) => (
+                <p key={idx} className={`text-slate-800 font-inter leading-relaxed text-[15px] md:text-[17px] ${idx === 0 ? 'font-bold text-blue-950 text-xl md:text-2xl mb-8 tracking-tight' : ''}`}>
+                  {linkify(para)}
+                </p>
+              ))}
+            </div>
+          </section>
+        )}
+
         <div className="space-y-12 md:space-y-16">
           {(digest.topics || []).map((topic, idx) => (
             <article key={topic.id} className="bg-white rounded-2xl md:rounded-3xl border border-slate-200 p-6 md:p-12 shadow-sm relative overflow-hidden group">
@@ -84,29 +132,29 @@ const CurrentAffairDetail = () => {
                 </h2>
 
                 <div className="prose prose-slate max-w-none">
-                  <p className="text-slate-700 leading-relaxed md:leading-loose text-sm md:text-base font-inter mb-8">
-                    {topic.content}
-                  </p>
+                  <div className="text-slate-700 leading-relaxed md:leading-[1.9] text-[15px] md:text-[17px] font-inter mb-10 space-y-6">
+                    {renderTextInChunks(topic.content)}
+                  </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-10 md:mt-12 bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200">
-                    <div>
-                      <h4 className="text-[10px] md:text-xs font-bold text-slate-900 uppercase tracking-widest mb-3 md:mb-4 flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 bg-blue-900 rounded-full"></span>
+                  <div className="flex flex-col gap-6 mt-10 md:mt-14">
+                    <div className="bg-slate-50 p-6 md:p-10 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden group/matter">
+                      <div className="absolute top-0 left-0 w-1.5 h-full bg-slate-800 transition-colors group-hover/matter:bg-blue-900"></div>
+                      <h4 className="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-widest mb-4">
                         Why it matters for UPSC
                       </h4>
-                      <p className="text-xs md:text-sm text-slate-600 leading-relaxed italic">
-                        {topic.whyItMatters}
-                      </p>
+                      <div className="text-sm md:text-base text-slate-700 leading-relaxed font-inter space-y-4">
+                        {renderTextInChunks(topic.whyItMatters)}
+                      </div>
                     </div>
 
-                    <div className="pt-6 md:pt-0 border-t md:border-t-0 md:border-l border-slate-200 md:pl-8">
-                      <h4 className="text-[10px] md:text-xs font-bold text-slate-900 uppercase tracking-widest mb-3 md:mb-4 flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>
+                    <div className="bg-blue-50/50 p-6 md:p-10 rounded-2xl border border-blue-100 shadow-sm relative overflow-hidden group/revise">
+                      <div className="absolute top-0 left-0 w-1.5 h-full bg-blue-600 transition-colors group-hover/revise:bg-blue-800"></div>
+                      <h4 className="text-xs md:text-sm font-bold text-blue-900 uppercase tracking-widest mb-4">
                         REVISE
                       </h4>
-                      <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                        {topic.revise}
-                      </p>
+                      <div className="text-sm md:text-base text-slate-800 leading-relaxed font-inter space-y-4">
+                        {renderTextInChunks(topic.revise)}
+                      </div>
                     </div>
                   </div>
 
@@ -183,8 +231,8 @@ const CurrentAffairDetail = () => {
         {/* Global Telegram CTA - Refined Light Theme */}
         <section className="mt-16 md:mt-20 p-8 md:p-12 bg-white rounded-2xl md:rounded-[3rem] text-center border border-slate-200 relative overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100/30 rounded-full blur-3xl -mr-32 -mt-32 group-hover:bg-blue-100/50 transition-colors"></div>
-          <p className="text-slate-600 mb-6 md:mb-8 max-w-2xl mx-auto relative z-10 leading-relaxed font-inter italic text-sm md:text-base">
-            "Most current affairs sources give you 15–20 topics and 45 minutes of reading. You finish and forget. <span className="text-slate-900 font-bold">Neti Daily</span> gives you only what matters — filtered, connected to your syllabus, and built for recall. Ten minutes. Every day. That's enough."
+          <p className="text-slate-800 mb-6 md:mb-8 max-w-2xl mx-auto relative z-10 leading-relaxed font-inter text-[15px] md:text-[17px] font-medium">
+            For the crisp revision sheet, 5 Prelims MCQs, and 2 Mains practice questions on today's topics, download the PDF from our Telegram channel!
           </p>
           <div className="space-y-6 relative z-10">
             <p className="text-[10px] md:text-xs font-bold text-blue-900 uppercase tracking-widest">
