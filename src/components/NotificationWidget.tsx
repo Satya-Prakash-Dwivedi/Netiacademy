@@ -1,22 +1,80 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { dailyDigests } from "../data/currentAffairs";
+import { mindBlogs } from "../data/mindBlogs";
+import { platformAnnouncements } from "../data/announcements";
 
 const NotificationWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isRendered, setIsRendered] = useState(false);
+  const [latestRelease, setLatestRelease] = useState<any>(null);
 
-  // Automatically open the widget shortly after the page loads
+  // Helper to parse dates into comparable numbers
+  const parseDateToTime = (dateStr: string) => {
+    // Handle "2026-04-12"
+    if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+      return new Date(dateStr).getTime();
+    }
+    // Handle "12th April 2026" or "April 12, 2026"
+    const cleanDateStr = dateStr.replace(/(\d+)(st|nd|rd|th)/, "$1");
+    return new Date(cleanDateStr).getTime();
+  };
+
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 1500); // 1.5 seconds delay for a smooth entrance
+    // Determine the latest release across categories
+    const items: any[] = [];
+    
+    if (platformAnnouncements.length > 0) {
+      const item = platformAnnouncements[platformAnnouncements.length - 1];
+      items.push({
+        ...item,
+        type: "Announcement",
+        path: `/blogs/${item.id}`,
+        btnText: "Read Announcement",
+        timestamp: parseDateToTime(item.date),
+        displayTitle: item.title
+      });
+    }
 
-    setIsRendered(true);
+    if (mindBlogs.length > 0) {
+      const item = mindBlogs[mindBlogs.length - 1];
+      items.push({
+        ...item,
+        type: "Mind Blog",
+        path: `/mind/${item.id}`,
+        btnText: "Read Mind Blog",
+        timestamp: parseDateToTime(item.date),
+        displayTitle: item.title
+      });
+    }
 
-    return () => clearTimeout(timer);
+    if (dailyDigests.length > 0) {
+      const item = dailyDigests[dailyDigests.length - 1];
+      items.push({
+        ...item,
+        type: "Current Affairs",
+        path: `/current-affairs/${item.id}`,
+        btnText: "Read Daily Digest",
+        timestamp: parseDateToTime(item.id),
+        displayTitle: item.date
+      });
+    }
+
+    if (items.length > 0) {
+      // Sort by timestamp descending
+      const sortedItems = items.sort((a, b) => b.timestamp - a.timestamp);
+      setLatestRelease(sortedItems[0]);
+
+      const timer = setTimeout(() => {
+        setIsOpen(true);
+      }, 1500);
+
+      setIsRendered(true);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
-  if (!isRendered) return null;
+  if (!isRendered || !latestRelease) return null;
 
   return (
     <div className="fixed bottom-6 right-6 z-[100] flex flex-col items-end">
@@ -40,7 +98,7 @@ const NotificationWidget = () => {
             <svg className="w-5 h-5 text-[#C8A951]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
             </svg>
-            <h4 className="font-playfair font-bold text-lg tracking-wide">New Release</h4>
+            <h4 className="font-playfair font-bold text-lg tracking-wide">Latest Release</h4>
           </div>
           <button
             onClick={() => setIsOpen(false)}
@@ -55,16 +113,25 @@ const NotificationWidget = () => {
 
         {/* Body */}
         <div className="p-6 bg-[#F8F9FB]">
-          <h5 className="font-playfair font-bold text-[#0F172A] text-xl mb-2">Welcome to Neti Academy</h5>
-          <p className="text-sm font-inter text-[#475569] leading-relaxed mb-6">
-            A new era of distraction-free learning. Discover our philosophy and how we approach serious UPSC preparation.
+          <div className="flex items-center gap-2 mb-3">
+            <span className="px-2 py-0.5 bg-blue-100/50 text-[#1E3A8A] text-[10px] font-bold uppercase tracking-wider rounded border border-blue-200">
+              {latestRelease.type}
+            </span>
+          </div>
+          <h5 className="font-playfair font-bold text-[#0F172A] text-xl mb-2">
+            {latestRelease.displayTitle}
+          </h5>
+          <p className="text-sm font-inter text-[#475569] leading-relaxed mb-6 line-clamp-3">
+            {latestRelease.type === "Current Affairs" 
+              ? latestRelease.tagline 
+              : latestRelease.excerpt}
           </p>
           <Link
-            to="/blogs/welcome-to-neti-academy"
+            to={latestRelease.path}
             onClick={() => setIsOpen(false)}
             className="block text-center w-full bg-[#1E3A8A] text-white font-inter font-bold py-3 rounded-lg shadow-md hover:bg-[#152865] hover:shadow-lg transition-all duration-300"
           >
-            Read the Manifesto
+            {latestRelease.btnText}
           </Link>
         </div>
       </div>
