@@ -712,5 +712,59 @@ export const dailyDigests: DailyDigest[] = [
       "UN Security Council composition and reform — G4, India's candidacy",
       "NALSA judgment and transgender rights jurisprudence"
     ]
+  },
+  {
+    id: "2026-04-12",
+    date: "12th April 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "📢 Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    topics: [
+      {
+        id: "12-1",
+        title: "Islamabad Talks Collapse After 21 Hours: Why the US-Iran Deal Failed",
+        subtitle: "GS-II: International Relations | Mains",
+        content: "The first direct US-Iran talks since 2015 ended without an agreement. After 21 hours of negotiations at Islamabad's Serena Hotel, US Vice President JD Vance announced that Iran \"chose not to accept our terms\" and boarded Air Force Two for Washington. Iran's Parliamentary Speaker Ghalibaf blamed the US for \"excessive demands\" and said Washington failed to gain Iran's trust.\n\nThe core deadlock was familiar: Iran's nuclear programme. Vance said the US did not receive \"an affirmative commitment that they will not seek a nuclear weapon.\" But the talks were broader than nuclear issues alone. Iran demanded the release of $6 billion in frozen assets, war reparations, a ceasefire that includes Lebanon, and the right to charge tolls through the Strait of Hormuz. The US rejected all of these. Israel, meanwhile, struck over 200 Hezbollah targets in Lebanon while the talks were underway — directly undermining Iran's demand for a regional ceasefire.",
+        whyItMatters: "This is the most consequential diplomatic failure in West Asia since the collapse of the JCPOA in 2018. The two-week ceasefire agreed on April 8 now hangs by a thread with no follow-up framework. For India, every day the war continues means more pressure on oil imports, LPG supply, and shipping insurance costs. India imports over 40% of its crude and 90% of its LPG from Gulf states — most of which transits the Strait of Hormuz.\n\nIndia had no seat at the table. Despite being the world's third-largest oil consumer, India was neither a mediator nor a participant. Pakistan played that role. This underscores a strategic gap: India's energy dependence on West Asia far exceeds its diplomatic influence over events there. For the exam, know that this failure connects to India's strategic autonomy, JCPOA history, and energy diplomacy.",
+        revise: "JCPOA (2015) and US withdrawal (2018); NPT Articles I–IV; ceasefire vs. armistice vs. peace treaty; India's energy security framework; India's strategic autonomy doctrine; P5+1 negotiations format."
+      },
+      {
+        id: "12-2",
+        title: "Trump Threatens Hormuz Blockade: CENTCOM Begins Mine-Clearing as Tensions Escalate",
+        subtitle: "GS-II: International Relations + GS-III: Security | Prelims + Mains",
+        content: "Hours after the Islamabad talks collapsed, President Trump announced that the US Navy would \"immediately\" begin blockading the Strait of Hormuz and would interdict every vessel that had paid a toll to Iran. This is a dramatic escalation from the mine-clearing operation that began the same day.\n\nOn April 11, two US Navy guided-missile destroyers — USS Frank E. Peterson (DDG 121) and USS Michael Murphy (DDG 112) — transited the Strait of Hormuz and entered the Arabian Gulf. CENTCOM said this was the first transit of American warships since the war began six weeks ago. Admiral Brad Cooper said the US had begun \"establishing a new passage\" and would share safe pathways with the maritime industry. CENTCOM confirmed additional assets, including underwater drones, would join the clearance effort.\n\nIran denied the transit, with the IRGC calling it \"strongly denied\" and threatening \"a strong response\" to any military ships passing through. A regional intelligence source told Fortune that the destroyers were briefly forced to turn back after encountering IRGC threats and a UAV launch. The facts on the ground are contested.\n\nThe mines are real. US intelligence identified at least a dozen underwater mines in the Strait, including the Maham 3 (moored, sensor-operated) and Maham 7 (seabed-resting). Reports suggest even Iran cannot locate all the mines it placed — a significant hazard for any reopening.",
+        whyItMatters: "Before the war, over 100 ships crossed the Strait of Hormuz daily. Since the ceasefire, only about a dozen have transited. The disruption has cut roughly 12–15 million barrels per day from global markets — the largest energy supply shock since the 1970s. Brent crude is trading around $97 per barrel, up over 30% since the conflict began.\n\nFor India specifically: 40%+ of crude oil imports, 30% of gas imports, and 85–90% of LPG imports come through the Strait. India's total strategic petroleum reserve covers only about 9.5 days of crude demand — compared to Japan's 254 days and China's 110–140 days. For the exam, know UNCLOS Part III (transit passage) and India's vulnerability at energy chokepoints.",
+        revise: "UNCLOS Part III — transit passage; freedom of navigation; sea mines under international humanitarian law; India's energy chokepoints (Hormuz, Malacca, Bab el-Mandeb); CENTCOM; Operation Praying Mantis (1988); India's 1990 Kuwait evacuation."
+      },
+      {
+        id: "12-3",
+        title: "Pakistan Deploys 13,000 Troops and Fighter Jets to Saudi Arabia: What India Must Watch",
+        subtitle: "GS-II: International Relations | Mains",
+        content: "Saudi Arabia's Ministry of Defence announced on April 11 that a Pakistani military contingent has arrived at King Abdulaziz Air Base in the Eastern Province. The deployment includes approximately 13,000 troops and 10–18 Pakistan Air Force fighter jets and support aircraft. This is not a routine exercise. It is a direct activation of the Pakistan-Saudi Strategic Mutual Defence Agreement signed in September 2025, which states that \"any aggression against either country shall be considered an aggression against both.\"\n\nThe deployment came while Pakistan was simultaneously hosting the US-Iran negotiations in Islamabad — a delicate balancing act. Pakistan's Foreign Minister Ishaq Dar had warned Iranian leaders in March that Islamabad was bound by its obligations to Riyadh. Saudi Defence Minister Prince Khalid bin Salman said: \"Saudi Arabia and Pakistan stand united against the aggressor — always and forever.\"",
+        whyItMatters: "First, Pakistan is now formally embedded in a mutual defence arrangement in West Asia — a region where India has massive economic interests but no comparable security pact. Second, the agreement mirrors NATO's Article 5 collective defence principle. Third, this could draw Pakistan into active hostilities if the Iran war escalates and Iranian strikes resume on Saudi energy infrastructure.\n\nFor India, the question is strategic positioning. India has maintained strategic autonomy, which gives it diplomatic flexibility but also means India fights energy crises alone. Know the difference between collective defence and collective security for the exam.",
+        revise: "Collective defence vs. collective security; NATO Article 5; India's strategic autonomy; India-Saudi Arabia strategic partnership; India's logistics agreements (LEMOA, ACSA); Pakistan-Saudi defence cooperation history."
+      },
+      {
+        id: "12-4",
+        title: "Foreign Secretary Misri in Paris and Berlin: India's Quiet Diplomatic Offensive",
+        subtitle: "GS-II: International Relations | Mains",
+        content: "Foreign Secretary Vikram Misri began a three-day visit to Paris and Berlin on April 12, coming directly from Washington where he met Secretary of State Marco Rubio and Energy Secretary Chris Wright. The trip covers India-France and India-Germany Foreign Office Consultations.\n\nThe agenda in Paris covers defence, civil nuclear energy, space, and AI. In Berlin, the focus shifts to trade, investment, and green energy. But the overarching context is the West Asia crisis and its impact on energy security. US Ambassador Sergio Gor referred to India's recently passed Shanti Act as enabling deeper cooperation in civil nuclear energy, suggesting a legislative framework is now in place for expanded collaboration.",
+        whyItMatters: "India is simultaneously engaging the US, France, and Germany on energy security — all three being major nuclear energy and technology partners. The Hormuz crisis has made energy diversification an urgent priority, and civil nuclear energy is a key pillar. Know India's nuclear cooperation with France (Jaitapur) and the US (123 Agreement) for the exam.",
+        revise: "India-France strategic partnership (1998); Jaitapur nuclear power project; Indo-US 123 Agreement (2008); NSG waiver for India (2008); India-Germany strategic partnership; Indo-Pacific strategy and European engagement; civil nuclear energy in India's energy mix."
+      },
+      {
+        id: "12-5",
+        title: "India's Strategic Petroleum Reserves: A 9-Day Buffer in a 6-Week War",
+        subtitle: "GS-III: Economy + Security | Prelims + Mains",
+        content: "ONGC Chairman Arun Kumar Singh said on April 10 that ONGC is \"doing something big in SPR\" (Strategic Petroleum Reserves) and urged India to \"chase every drop of oil and gas\" domestically. India's current SPR capacity stands at 5.33 million metric tonnes (MMT), spread across three underground rock cavern facilities: Visakhapatnam, Mangalore, and Padur.\n\nThese hold approximately 3.37 MMT of crude — enough for roughly 9–10 days of India's crude oil requirement. Combined with commercial stocks (64.5 days), total national coverage is about 74 days. Phase II expansion is approved: two new facilities at Chandikhol and expanded Padur, adding 6.5 MMT under a public-private partnership model. A salt cavern facility in Bikaner is also being explored.",
+        whyItMatters: "Compare: Japan holds reserves for 254 days. China: 110–140 days. India: 9.5 days of sovereign reserves. The current crisis has exposed this gap. If the ceasefire collapses and Hormuz closes again, India's emergency buffer is measured in days, not months. For the exam, know the locations of India's SPR facilities and the role of ISPRL.",
+        revise: "Strategic Petroleum Reserves (locations, capacity, Phase II); ISPRL and OIDB; IEA's role in coordinating emergency oil stock releases; India's import dependence (85%+ crude oil)."
+      }
+    ],
+    reviseSummary: [
+      "JCPOA, NPT, and nuclear diplomacy — UPSC loves the intersection of international law and geopolitics",
+      "UNCLOS Part III: transit passage through international straits (Hormuz, Malacca, Bab el-Mandeb)",
+      "India's Strategic Petroleum Reserves — locations, capacity, Phase II expansion, and comparison with IEA standards"
+    ]
   }
 ];
