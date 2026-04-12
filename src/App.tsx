@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { initPostHog, captureEvent } from './utils/analytics';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -20,12 +21,20 @@ function ScrollToTop() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    // Capture pageview on route change
+    captureEvent('$pageview', {
+      $current_url: window.location.href,
+    });
   }, [pathname]);
 
   return null;
 }
 
 function App() {
+  useEffect(() => {
+    initPostHog();
+  }, []);
+
   return (
     <div className="min-h-screen bg-slate-50 font-inter">
       <ScrollToTop />

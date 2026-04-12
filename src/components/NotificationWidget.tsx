@@ -13,7 +13,8 @@ const NotificationWidget = () => {
   const parseDateToTime = (dateStr: string) => {
     // Handle "2026-04-12"
     if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-      return new Date(dateStr).getTime();
+      // Replace hyphens with slashes to force local time parsing across browsers
+      return new Date(dateStr.replace(/-/g, "/")).getTime();
     }
     // Handle "12th April 2026" or "April 12, 2026"
     const cleanDateStr = dateStr.replace(/(\d+)(st|nd|rd|th)/, "$1");
@@ -32,7 +33,8 @@ const NotificationWidget = () => {
         path: `/blogs/${item.id}`,
         btnText: "Read Announcement",
         timestamp: parseDateToTime(item.date),
-        displayTitle: item.title
+        displayTitle: item.title,
+        priority: 3
       });
     }
 
@@ -44,7 +46,8 @@ const NotificationWidget = () => {
         path: `/mind/${item.id}`,
         btnText: "Read Mind Blog",
         timestamp: parseDateToTime(item.date),
-        displayTitle: item.title
+        displayTitle: item.title,
+        priority: 2
       });
     }
 
@@ -56,13 +59,19 @@ const NotificationWidget = () => {
         path: `/current-affairs/${item.id}`,
         btnText: "Read Daily Digest",
         timestamp: parseDateToTime(item.id),
-        displayTitle: item.date
+        displayTitle: item.date,
+        priority: 1
       });
     }
 
     if (items.length > 0) {
-      // Sort by timestamp descending
-      const sortedItems = items.sort((a, b) => b.timestamp - a.timestamp);
+      // Sort by timestamp descending, then by priority
+      const sortedItems = items.sort((a, b) => {
+        if (b.timestamp !== a.timestamp) {
+          return b.timestamp - a.timestamp;
+        }
+        return b.priority - a.priority;
+      });
       setLatestRelease(sortedItems[0]);
 
       const timer = setTimeout(() => {
