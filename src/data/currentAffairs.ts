@@ -610,7 +610,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "10th April 2026",
     day: "Friday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "📢 A note on what's changing from today\nStarting today, Neti Daily Current Affairs comes in two formats that complement each other:\nThis blog is the detailed explainer. We walk through each story in full sentences, explain the context, unpack why it matters, and connect it to your syllabus. If you want to understand the news properly — not just tick off topics — read this.\nThe PDF on our Telegram is the revision sheet. It gives you the same topics in crisp, compressed form — plus 5 practice Prelims MCQs and 2 Mains questions with approach hints. If you want to revise in ten minutes and practise, that's the PDF.\nRead the blog first to understand. Download the PDF to revise and test yourself. Same topics, different purposes. One without the other is incomplete.\n— Team Neti",
+    announcement: "A note on what's changing from today\nStarting today, Neti Daily Current Affairs comes in two formats that complement each other:\nThis blog is the detailed explainer. We walk through each story in full sentences, explain the context, unpack why it matters, and connect it to your syllabus. If you want to understand the news properly — not just tick off topics — read this.\nThe PDF on our Telegram is the revision sheet. It gives you the same topics in crisp, compressed form — plus 5 practice Prelims MCQs and 2 Mains questions with approach hints. If you want to revise in ten minutes and practise, that's the PDF.\nRead the blog first to understand. Download the PDF to revise and test yourself. Same topics, different purposes. One without the other is incomplete.\n— Team Neti",
     topics: [
       {
         id: "10-1",
@@ -664,7 +664,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "11th April 2026",
     day: "Saturday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "📢 Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "11-1",
@@ -718,7 +718,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "12th April 2026",
     day: "Sunday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "📢 Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "12-1",
@@ -765,6 +765,53 @@ export const dailyDigests: DailyDigest[] = [
       "JCPOA, NPT, and nuclear diplomacy — UPSC loves the intersection of international law and geopolitics",
       "UNCLOS Part III: transit passage through international straits (Hormuz, Malacca, Bab el-Mandeb)",
       "India's Strategic Petroleum Reserves — locations, capacity, Phase II expansion, and comparison with IEA standards"
+    ]
+  },
+  {
+    id: "2026-04-13",
+    date: "13th April 2026",
+    day: "Monday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    topics: [
+      {
+        id: "13-1",
+        title: "CENTCOM Blockades Iranian Ports From Today: What Is a Naval Blockade Under International Law?",
+        subtitle: "GS-II: International Relations | Prelims + Mains",
+        content: "US Central Command announced on April 12 that it will enforce a blockade of all maritime traffic entering and exiting Iranian ports starting April 13, 10 AM Eastern Time. The blockade applies \"impartially against vessels of all nations\" calling at Iranian ports on the Arabian Gulf and Gulf of Oman. Crucially, CENTCOM clarified that it \"will not impede freedom of navigation for vessels transiting the Strait of Hormuz to and from non-Iranian ports.\"\n\nThis distinction matters. Trump's Truth Social post threatened a blanket blockade of \"any and all ships\" in the Strait. CENTCOM's formal order is narrower, it targets Iranian ports specifically, not the Strait itself. This is a legally significant difference. A full strait blockade would violate UNCLOS Part III (transit passage through international straits cannot be suspended). A port blockade directed at a belligerent state has precedent in international law, the US blockaded Cuba in 1962 (calling it a \"quarantine\") and enforced port interdiction against Iraq in 1990–91.\n\nOil prices reacted immediately. Brent crude jumped 7% to $102.29 per barrel. US crude surged 8% to $104.20. Iran's IRGC called any approaching military vessels a breach of the ceasefire.",
+        whyItMatters: "India trades with Iran. In 2025–26, India was importing Iranian crude through the \"ghost fleet\" of tankers (mostly via intermediaries). The blockade targets \"vessels of all nations\" calling at Iranian ports, Indian-flagged or Indian-bound vessels are directly affected. Over 220,000 Indian nationals have already been repatriated from the Gulf region since the war began. 28 Indian ships with nearly 800 seafarers were stranded at various points in the Strait.\n\nThe blockade also creates a legal and diplomatic dilemma for India. A naval blockade is an act of war under international law. If India complies, it accepts US unilateral enforcement of sanctions-style measures. If it defies the blockade, it risks confrontation with the US Navy. India's response will test the limits of its \"strategic autonomy.\"",
+        revise: "Naval blockade under international law; San Remo Manual (1994); UNCLOS Articles 38, 44 (transit passage); Cuban Missile Crisis (1962) — quarantine vs. blockade; India's position during the 1990 Gulf crisis; freedom of navigation; rights of neutral states during armed conflict at sea."
+      },
+      {
+        id: "13-2",
+        title: "Oil Crosses $100 Again: What Does This Mean for India's Economy?",
+        subtitle: "GS-III: Economy | Prelims + Mains",
+        content: "Brent crude crossed $102 per barrel and US crude hit $104 after CENTCOM announced the Iranian port blockade. This reverses the relief that came when the April 8 ceasefire briefly pushed prices below $95. Since the war began on February 28, oil has swung between $80 and $126 per barrel, the most volatile period since the 1970s oil crisis.\n\nThe IEA has called the Hormuz disruption \"the largest supply disruption in the history of the global oil market.\" Before the war, roughly 20% of global oil and LNG transited the Strait. Since the closure, about 12–15 million barrels per day have been removed from global markets. The IEA coordinated the release of 400 million barrels from emergency reserves, equivalent to roughly 4 days of global consumption.",
+        whyItMatters: "India imports 85%+ of its crude oil. Every $10 per barrel increase in oil prices widens India's current account deficit by roughly 0.4% of GDP. With Brent above $100, the immediate consequences are: (1) Inflation — Nomura raised India's CPI forecast to 4.5% for FY27. Citi estimates fuel prices could rise ₹5–10/litre, adding 50 basis points to headline inflation. (2) Current account — DBS Bank estimates the CAD could widen by 70 basis points if oil averages $100+. (3) Rupee — the currency has already hit record lows against the dollar. (4) Fiscal deficit — if the government absorbs price increases through subsidies, the fiscal deficit target comes under pressure.\n\nIndia's buffer: 74 days of total oil storage (9.5 days sovereign SPR + 64.5 days commercial stocks). Russia has partially filled the Gulf gap, Russian crude imports touched 1.46 million barrels/day in March, up from 1 million in February. India has also diversified to 41 supplier nations from 27 a decade ago. But diversification cannot fully substitute for the volume that normally comes through Hormuz.",
+        revise: "Current account deficit — components and determinants; oil price transmission to CPI; India's twin deficit vulnerability; IEA and India's Associate membership (2017); RBI forex intervention; fiscal implications of fuel subsidies; India-Russia oil trade diversification."
+      },
+      {
+        id: "13-3",
+        title: "West Bengal Electoral Roll Freeze: Supreme Court Hears Challenge Today",
+        subtitle: "GS-II: Polity & Governance | Prelims + Mains",
+        content: "The Supreme Court is hearing today (April 13) a batch of petitions challenging the Election Commission's decision to freeze electoral rolls in West Bengal ahead of the two-phase Assembly elections (April 23 and 29, counting on May 4). The EC froze the rolls on April 9 for the first phase covering 152 seats. The freezing means no deleted voter can be reinstated for this election.\n\nThe background is the Special Intensive Revision (SIR) of electoral rolls, a nationwide exercise to clean up voter lists by removing duplicates, deceased persons, and ineligible entries. In West Bengal, the SIR resulted in approximately 27 lakh voter deletions (some reports cite up to 91 lakh names removed at various stages). Only 2 individuals are confirmed to have been reinstated, both after direct Supreme Court intervention. Over 2 lakh appeals were filed online but 19 appellate tribunals set up to hear them are not yet fully operational. \n\nThe bench of Chief Justice Surya Kant, Justice Joymalya Bagchi, and Justice Vipul Pancholi will examine whether the freezing of rolls, with pending appeals unresolved, violates the right to vote. Justice Bagchi earlier observed that \"the constitutional right to be on the electoral roll and to vote is fundamental and long-term.\"",
+        whyItMatters: "This case sits at the intersection of two constitutional principles: (1) the right to vote (Article 326 — universal adult suffrage) and the EC's duty to maintain clean electoral rolls (Article 324 — superintendence, direction, and control of elections). The tension is real, if rolls are not frozen, elections cannot be conducted on a definitive voter list. If they are frozen with unresolved appeals, legitimate voters may be disenfranchised.\n\nThe SIR process is not unique to West Bengal. Similar exercises have been conducted in Andhra Pradesh (18.6 lakh deletions), Bihar (46 lakh), Tamil Nadu (74 lakh), and other states. But the scale and political context in West Bengal, a border state sharing 2,216 km with Bangladesh, has made the exercise deeply contested. West Bengal CM Mamata Banerjee has called it an attempt to disenfranchise voters and announced she would approach the SC.",
+        revise: "Article 324 — EC's powers; Article 326 — universal adult suffrage; RPA 1950 (Sections 21, 22); Special Intensive Revision (SIR) of electoral rolls; right to vote — constitutional vs. statutory right debate; Article 142 — SC's plenary power; NIA Act — listed offences."
+      },
+      {
+        id: "13-4",
+        title: "Ambedkar Jayanti Tomorrow (April 14): Why UPSC Keeps Coming Back to Babasaheb",
+        subtitle: "GS-II: Polity & Social Justice | Prelims + Mains",
+        content: "India marks the 135th birth anniversary of Dr. B.R. Ambedkar on April 14, 2026. The Government has declared it a gazetted holiday for all Central Government offices. The day is also observed as Tamil New Year (Puthandu), Vishu (Kerala), and Baisakhi (Punjab), a convergence of cultural and constitutional significance.\n\nAmbedkar is one of the most frequently tested personalities in UPSC Prelims and Mains. Not just as the \"architect of the Constitution\", UPSC tests specific contributions, debates, and positions. Here is what you should know cold:\n\n• Constitutional contributions: Chairman of the Drafting Committee. Championed fundamental rights, DPSP, Article 32 (right to constitutional remedies, \"heart and soul of the Constitution\").\n• Social reform: Led Mahad Satyagraha (1927), Kalaram Temple Entry movement (1930). Founded Independent Labour Party (1936), Scheduled Castes Federation (1942). Authored \"Annihilation of Caste\" (1936).\n• Economic thought: His PhD thesis and dissertation shaped his views on fiscal federalism and monetary policy, advocating for RBI's creation.\n• Buddhism: Converted to Buddhism in Nagpur (1956), founding Navayana Buddhism.\n• Key constitutional debates: Poona Pact (1932) with Gandhi; concerns about the gap between political equality and socio-economic inequality.",
+        whyItMatters: "Ambedkar's legacy continues to shape contemporary Indian politics and jurisprudence. His focus on substantive equality over formal equality is central to debates on reservation, social justice, and the transformative potential of the Constitution. Statement-based questions on his specific contributions, matching pairs between movements and their objectives, and Mains questions on his economic thought and critique of caste are common in UPSC.",
+        revise: "Drafting Committee composition; Article 32; Mahad Satyagraha (1927); Kalaram Temple movement; Poona Pact (1932); \"Annihilation of Caste\" (1936); Independent Labour Party; Navayana Buddhism; RBI's founding and Ambedkar's monetary economics; \"life of contradictions\" speech in Constituent Assembly."
+      }
+    ],
+    reviseSummary: [
+      "Naval blockade under international law — San Remo Manual, UNCLOS transit passage, Cuban Missile Crisis precedent",
+      "Oil price transmission to India's macroeconomy — CAD, inflation, fiscal deficit, rupee",
+      "Electoral roll revision and right to vote — Articles 324, 326, RPA 1950, SIR process",
+      "Dr. B.R. Ambedkar — constitutional contributions, social reform, economic thought, Navayana Buddhism"
     ]
   }
 ];
