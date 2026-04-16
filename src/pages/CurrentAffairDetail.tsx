@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { dailyDigests, type DailyDigest } from "../data/currentAffairs";
+import { SEO } from "../components/SEO";
 
 const linkify = (text: string) => {
   if (!text) return null;
@@ -86,6 +87,13 @@ const CurrentAffairDetail = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen pt-4 md:pt-8">
+      {digest && (
+        <SEO 
+          title={`Day ${dailyDigests.indexOf(digest) + 1} | ${digest.date}`} 
+          description={digest.tagline} 
+          canonicalUrl={window.location.href}
+        />
+      )}
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-10 md:py-16">
         <header className="mb-10 md:mb-16 text-center">
           <Link to="/current-affairs" className="text-[10px] md:text-xs font-bold text-slate-400 hover:text-blue-900 uppercase tracking-[0.2em] inline-block mb-6 md:mb-8 transition-colors">

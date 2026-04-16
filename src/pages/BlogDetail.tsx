@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { platformAnnouncements, type Announcement } from "../data/announcements";
+import { SEO } from "../components/SEO";
 
 const BlogDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -17,6 +18,13 @@ const BlogDetail = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
+      <SEO 
+        title={post.title} 
+        description={post.excerpt} 
+        ogType="article" 
+        canonicalUrl={window.location.href}
+        ogImage={post.image}
+      />
       <header className="mb-12">
         <div className="flex items-center gap-4 mb-6">
            <span className="px-3 py-1 bg-blue-50 text-blue-800 text-xs font-bold uppercase tracking-wider rounded-full">

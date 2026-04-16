@@ -14,6 +14,7 @@ import BlogDetail from './pages/BlogDetail';
 import PlanB from './pages/PlanB';
 import Mind from './pages/Mind';
 import MindDetail from './pages/MindDetail';
+import SEODashboard from './pages/SEODashboard';
 
 // ScrollToTop component to reset scroll on route change
 function ScrollToTop() {
@@ -52,6 +53,7 @@ function App() {
           <Route path="/mind/:id" element={<MindDetail />} />
           <Route path="/plan-b" element={<PlanB />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/seo-dashboard" element={<SEODashboard />} />
         </Routes>
       </main>
       <Footer />
