@@ -13,38 +13,30 @@ const Footer = () => {
 
     try {
       const apiKey = import.meta.env.VITE_BREVO_API_KEY;
-      const senderEmail = import.meta.env.VITE_SENDER_EMAIL;
-      const ownerEmail = import.meta.env.VITE_OWNER_EMAIL;
 
-      const response = await fetch("https://api.brevo.com/v3/smtp/email", {
+      // Brevo Contacts API Endpoint - This stores the email in your Brevo Dashboard
+      const response = await fetch("https://api.brevo.com/v3/contacts", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           "api-key": apiKey,
         },
         body: JSON.stringify({
-          sender: { name: "Neti Academy Website", email: senderEmail },
-          to: [{ email: ownerEmail, name: "Neti Academy Admin" }],
-          subject: "New Newsletter Subscription",
-          htmlContent: `
-            <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
-              <h2 style="color: #1e3a8a;">New Subscriber</h2>
-              <p>Great news! A new student has subscribed to the Neti Academy Daily Newsletter.</p>
-              <p><strong>Subscriber Email:</strong> ${email}</p>
-              <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;" />
-              <p style="font-size: 12px; color: #666;">This is an automated notification from your Neti Academy website.</p>
-            </div>
-          `
+          email: email,
+          listIds: [2], // Replace with your actual List ID from Brevo Dashboard (Contacts > Lists)
+          updateEnabled: true // If the user already exists, update their subscription rather than failing
         })
       });
 
-      if (response.ok) {
+      if (response.ok || response.status === 204 || response.status === 201) {
         setStatus("success");
         setEmail("");
         // Reset success message after 5 seconds
         setTimeout(() => setStatus("idle"), 5000);
       } else {
-        throw new Error("Failed to subscribe");
+        const errorData = await response.json();
+        console.error("Brevo Error:", errorData);
+        throw new Error(errorData.message || "Failed to subscribe");
       }
     } catch (err) {
       console.error("Newsletter error:", err);

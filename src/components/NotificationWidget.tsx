@@ -9,16 +9,20 @@ const NotificationWidget = () => {
   const [isRendered, setIsRendered] = useState(false);
   const [latestRelease, setLatestRelease] = useState<any>(null);
 
-  // Helper to parse dates into comparable numbers
+  // Helper to parse dates into comparable numbers (Consistent Local Time)
   const parseDateToTime = (dateStr: string) => {
+    let date: Date;
     // Handle "2026-04-12"
     if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-      // Replace hyphens with slashes to force local time parsing across browsers
-      return new Date(dateStr.replace(/-/g, "/")).getTime();
+      const [y, m, d] = dateStr.split("-").map(Number);
+      date = new Date(y, m - 1, d);
+    } else {
+      // Handle "12th April 2026" or "April 12, 2026"
+      const cleanDateStr = dateStr.replace(/(\d+)(st|nd|rd|th)/, "$1");
+      date = new Date(cleanDateStr);
     }
-    // Handle "12th April 2026" or "April 12, 2026"
-    const cleanDateStr = dateStr.replace(/(\d+)(st|nd|rd|th)/, "$1");
-    return new Date(cleanDateStr).getTime();
+    date.setHours(0, 0, 0, 0);
+    return date.getTime();
   };
 
   useEffect(() => {
@@ -31,10 +35,10 @@ const NotificationWidget = () => {
         ...item,
         type: "Announcement",
         path: `/blogs/${item.id}`,
-        btnText: "Read Announcement",
+        btnText: item.category === "Magazine" ? "Download Magazine" : "Read Announcement",
         timestamp: parseDateToTime(item.date),
         displayTitle: item.title,
-        priority: 3
+        priority: item.category === "Magazine" ? 10 : 3 // Magazines get absolute priority
       });
     }
 

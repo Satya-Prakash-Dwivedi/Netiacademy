@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const ecosystemItems = [
   {
-    title: "PDF Question Banks",
-    text: "Topic-wise structured MCQs with detailed explanations for deeper conceptual understanding.",
-    icon: "📚",
+    title: "Courses",
+    text: "Structured learning paths for GS and Optional subjects, designed for depth and clarity.",
+    icon: "🎥",
     status: "Coming Soon",
     path: "#"
   },
@@ -16,9 +16,9 @@ const ecosystemItems = [
     path: "/current-affairs"
   },
   {
-    title: "Live Sessions",
-    text: "Interactive sessions to sharpen speed, accuracy, and clear doubts in real-time.",
-    icon: "🎥",
+    title: "Prelims Test Series",
+    text: "Topic-wise structured MCQs with detailed explanations for deeper conceptual understanding.",
+    icon: "📚",
     status: "Coming Soon",
     path: "#"
   }
