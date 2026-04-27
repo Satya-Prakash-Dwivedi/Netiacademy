@@ -12,9 +12,16 @@ const Courses = () => {
       
       {/* Hero Section with Glassmorphism Effect */}
       <div className="relative py-16 overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 opacity-10">
+          <img 
+            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=2000" 
+            alt="Background" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-white"></div>
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_-20%,_rgba(59,130,246,0.08)_0%,_transparent_70%)]"></div>
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-50/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-slate-100 rounded-full blur-3xl opacity-50"></div>
         
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-6 bg-blue-50/50 backdrop-blur-sm border border-blue-100/50 rounded-2xl shadow-sm">
@@ -83,7 +90,7 @@ const Courses = () => {
           <div className="group relative bg-[#FAFAFA] rounded-[2rem] border border-slate-200/60 overflow-hidden hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.05)] transition-all duration-700 flex flex-col">
             <div className="relative aspect-[21/9] overflow-hidden grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700">
               <img 
-                src="https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?auto=format&fit=crop&q=80&w=1200" 
+                src="/images/revision_hero.png" 
                 alt="Revision Series" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { dailyDigests } from "../data/currentAffairs";
 import { mindBlogs } from "../data/mindBlogs";
 import { platformAnnouncements } from "../data/announcements";
+import { courses } from "../data/courses";
 
 const NotificationWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,6 +66,19 @@ const NotificationWidget = () => {
         timestamp: parseDateToTime(item.id),
         displayTitle: item.date,
         priority: 1
+      });
+    }
+
+    if (courses.length > 0) {
+      const item = courses[courses.length - 1];
+      items.push({
+        ...item,
+        type: item.category,
+        path: "/courses", // Redirect to courses page
+        btnText: item.category === "Revision Series" ? "Start Revision" : "View Course",
+        timestamp: parseDateToTime(item.date),
+        displayTitle: item.title,
+        priority: item.category === "Revision Series" ? 5 : 4
       });
     }
 

@@ -119,6 +119,19 @@ const CurrentAffairDetail = () => {
                   {linkify(para)}
                 </p>
               ))}
+              {digest.cta && (
+                <div className="pt-4">
+                  <a
+                    href={digest.cta.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 px-8 py-4 bg-blue-900 text-white font-bold rounded-2xl hover:bg-blue-800 transition-all shadow-xl shadow-blue-900/10 active:scale-95 group/cta"
+                  >
+                    {digest.cta.text}
+                    <span className="group-hover/cta:translate-x-1 transition-transform">→</span>
+                  </a>
+                </div>
+              )}
             </div>
           </section>
         )}

@@ -1,30 +1,33 @@
 import { Link } from "react-router-dom";
-
-const ecosystemItems = [
-  {
-    title: "Courses",
-    text: "Structured learning paths for GS and Optional subjects, designed for depth and clarity.",
-    icon: "🎥",
-    status: "Coming Soon",
-    path: "#"
-  },
-  {
-    title: "Daily Current Affairs",
-    text: "Curated and exam-focused daily analysis to keep you ahead in the changing trends.",
-    icon: "📰",
-    status: "Active",
-    path: "/current-affairs"
-  },
-  {
-    title: "Prelims Test Series",
-    text: "Topic-wise structured MCQs with detailed explanations for deeper conceptual understanding.",
-    icon: "📚",
-    status: "Coming Soon",
-    path: "#"
-  }
-];
+import { courses } from "../data/courses";
 
 const Ecosystem = () => {
+  const latestRevision = courses.filter(c => c.category === "Revision Series").pop();
+  const environmentMagazine = courses.find(c => c.id === "neti-prelims-environment-ecology-magazine");
+  
+  const items = [
+    {
+      title: "Environment & Ecology Prelims Magazine",
+      text: "Our most requested resource. A precision-engineered 18-month compilation tailored for the 2026 exam cycle.",
+      icon: "🌿",
+      status: "Active",
+      path: environmentMagazine ? environmentMagazine.pdfUrl : "/courses",
+      btnText: "Download Magazine",
+      isInternal: false
+    },
+    {
+      title: latestRevision ? latestRevision.title : "Revision Series",
+      text: latestRevision 
+        ? `Latest specialized revision module: ${latestRevision.description}`
+        : "Quick-read revision modules covering high-yield topics for UPSC Prelims.",
+      icon: "📥",
+      status: "Active",
+      path: latestRevision ? latestRevision.pdfUrl : "/courses",
+      btnText: "Download PDF",
+      isInternal: !latestRevision?.pdfUrl
+    }
+  ];
+
   return (
     <section className="py-20 bg-white border-y border-slate-200">
       <div className="max-w-7xl mx-auto px-6">
@@ -37,38 +40,37 @@ const Ecosystem = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {ecosystemItems.map((item) => (
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {items.map((item) => (
             <div 
               key={item.title} 
-              className="p-8 rounded-3xl border border-slate-100 bg-slate-50 hover:border-blue-200 hover:shadow-md transition-all group relative flex flex-col h-full"
+              className="p-8 md:p-12 rounded-3xl border border-slate-100 bg-slate-50 hover:border-blue-200 hover:shadow-xl transition-all group relative flex flex-col h-full"
             >
-              {item.status === "Coming Soon" && (
-                <div className="absolute top-4 right-4 px-3 py-1 bg-blue-100 text-blue-900 text-[10px] uppercase font-bold tracking-widest rounded-full border border-blue-200">
-                  Coming Soon
-                </div>
-              )}
-              
-              <div className="text-4xl mb-8 grayscale group-hover:grayscale-0 transition-all">
+              <div className="text-5xl mb-8 grayscale group-hover:grayscale-0 transition-all transform group-hover:scale-110 duration-300">
                 {item.icon}
               </div>
               
-              <h3 className="text-2xl font-playfair font-bold text-slate-900 mb-4">{item.title}</h3>
-              <p className="text-slate-600 leading-relaxed text-sm mb-8 flex-1">
+              <h3 className="text-2xl md:text-3xl font-playfair font-bold text-slate-900 mb-4 leading-tight">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed text-sm md:text-base mb-8 flex-1">
                 {item.text}
               </p>
 
-              {item.status === "Active" ? (
+              {item.isInternal ? (
                 <Link 
                   to={item.path} 
-                  className="inline-flex items-center gap-2 text-blue-900 font-bold text-sm group-hover:gap-3 transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-900 text-white rounded-2xl font-bold text-sm hover:bg-blue-800 transition-all shadow-lg shadow-blue-900/10 active:scale-95"
                 >
-                  Access Now <span>→</span>
+                  {item.btnText} <span>→</span>
                 </Link>
               ) : (
-                <div className="text-slate-400 font-medium text-sm flex items-center gap-2 cursor-not-allowed">
-                  Under Preparation <span>..</span>
-                </div>
+                <a 
+                  href={item.path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-900 text-white rounded-2xl font-bold text-sm hover:bg-blue-800 transition-all shadow-lg shadow-blue-900/10 active:scale-95"
+                >
+                  {item.btnText} <span>↓</span>
+                </a>
               )}
             </div>
           ))}
@@ -79,3 +81,5 @@ const Ecosystem = () => {
 };
 
 export default Ecosystem;
+
+

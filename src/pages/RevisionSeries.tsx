@@ -15,7 +15,16 @@ const RevisionSeries = () => {
       
       {/* Header Section */}
       <div className="bg-slate-900 pt-32 pb-24 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_50%,_rgba(59,130,246,0.1)_0%,_transparent_50%)]"></div>
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 opacity-20">
+          <img 
+            src="/images/revision_hero.png" 
+            alt="Background" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/40 to-transparent"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_-50%,_rgba(59,130,246,0.1)_0%,_transparent_50%)]"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Link 
             to="/courses" 
@@ -24,25 +33,36 @@ const RevisionSeries = () => {
             <ArrowLeft size={14} /> Back to Courses
           </Link>
           
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-playfair font-bold text-white mb-8 leading-tight">
-              Prelims <span className="text-blue-400 italic">Revision</span> Series
-            </h1>
-            <p className="text-slate-400 text-lg font-light leading-relaxed mb-10">
-              The final sprint requires focus, not more information. We have compressed massive themes into high-yield modules designed for rapid revision and maximum recall.
-            </p>
-            
-            <div className="flex flex-wrap gap-8 py-4">
-               {[
-                 { icon: <Target className="text-blue-400" size={18} />, text: "Exam Centric" },
-                 { icon: <Clock className="text-blue-400" size={18} />, text: "Rapid Recall" },
-                 { icon: <BookOpen className="text-blue-400" size={18} />, text: "Curated Facts" }
-               ].map((item, idx) => (
-                 <div key={idx} className="flex items-center gap-3">
-                   {item.icon}
-                   <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest">{item.text}</span>
-                 </div>
-               ))}
+          <div className="grid lg:grid-cols-2 gap-16 items-center relative z-10">
+            <div className="max-w-3xl">
+              <h1 className="text-5xl md:text-6xl font-playfair font-bold text-white mb-8 leading-tight">
+                Prelims <span className="text-blue-400 italic">Revision</span> Series
+              </h1>
+              <p className="text-slate-400 text-lg font-light leading-relaxed mb-10">
+                The final sprint requires focus, not more information. We have compressed massive themes into high-yield modules designed for rapid revision and maximum recall.
+              </p>
+              
+              <div className="flex flex-wrap gap-8 py-4">
+                 {[
+                   { icon: <Target className="text-blue-400" size={18} />, text: "Exam Centric" },
+                   { icon: <Clock className="text-blue-400" size={18} />, text: "Rapid Recall" },
+                   { icon: <BookOpen className="text-blue-400" size={18} />, text: "Curated Facts" }
+                 ].map((item, idx) => (
+                   <div key={idx} className="flex items-center gap-3">
+                     {item.icon}
+                     <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest">{item.text}</span>
+                   </div>
+                 ))}
+              </div>
+            </div>
+
+            <div className="hidden lg:block relative">
+               <div className="absolute -inset-4 bg-blue-500/10 blur-3xl rounded-full"></div>
+               <img 
+                 src="/images/revision_hero.png" 
+                 alt="Revision Concept" 
+                 className="relative z-10 rounded-[2.5rem] border border-white/10 shadow-2xl grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
+               />
             </div>
           </div>
         </div>
