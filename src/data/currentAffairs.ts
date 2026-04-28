@@ -5,6 +5,7 @@ export interface Topic {
   content: string;
   whyItMatters: string;
   revise: string;
+  image?: string;
   pyqConnect?: string;
 }
 
@@ -14,11 +15,24 @@ export interface DailyDigest {
   day: string;
   tagline: string;
   announcement?: string;
+  heroImage?: string;
   topics: Topic[];
   reviseSummary?: string[];
   cta?: {
     text: string;
     link: string;
+  };
+  practiceQuestions?: {
+    mcqs: {
+      question: string;
+      options: string[];
+      answer: string;
+      explanation: string;
+    }[];
+    mains: {
+      question: string;
+      context: string;
+    }[];
   };
 }
 
@@ -668,7 +682,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "11th April 2026",
     day: "Saturday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "11-1",
@@ -722,7 +736,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "12th April 2026",
     day: "Sunday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "12-1",
@@ -776,7 +790,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "13th April 2026",
     day: "Monday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "13-1",
@@ -823,7 +837,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "14th April 2026",
     day: "Tuesday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "14-1",
@@ -873,7 +887,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "15th April 2026",
     day: "Wednesday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "15-1",
@@ -912,7 +926,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "16th April 2026",
     day: "Thursday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "16-1",
@@ -960,7 +974,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "17th April 2026",
     day: "Friday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "17-1",
@@ -999,7 +1013,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "18th April 2026",
     day: "Saturday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "18-1",
@@ -1047,7 +1061,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "19th April 2026",
     day: "Sunday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "19-1",
@@ -1116,7 +1130,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "20th April 2026",
     day: "Monday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "20-1",
@@ -1184,7 +1198,7 @@ export const dailyDigests: DailyDigest[] = [
     date: "21st April 2026",
     day: "Tuesday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from [telegram](https://t.me/netiacademy01) for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
+    announcement: "Blog explains. PDF revises. Read the blog for context and analysis. Download the PDF from telegram for crisp notes, 5 Prelims MCQs, and 2 Mains questions.",
     topics: [
       {
         id: "21-1",
@@ -1664,5 +1678,119 @@ export const dailyDigests: DailyDigest[] = [
       "Fundamental Rights Jurisprudence — Article 21 — Gopalan (1950), Maneka Gandhi (1978), Olga Tellis (1985), Unni Krishnan (1993), MC Mehta, Phalodi Accident (2026); Article 142 (complete justice); Right to health; Motor Vehicles Amendment Act 2019; NHAI; FASTag",
       "Global Health and WHO — WHO prequalification process; World Malaria Day — April 25; Malaria — Plasmodium species, ACT, pfhrp2 drug resistance; NVBDCP; NFME 2016–2030; PM-ABHIM; ICU standards; NHM; Indian Nursing Council"
     ]
+  },
+  {
+    id: "2026-04-28",
+    date: "28th April 2026",
+    day: "Tuesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "New on Neti Daily — Visual Cards on Telegram\nFrom today, every topic in this blog also comes as a crisp visual card on our Telegram channel.\nOne topic. One screen. No overload. → Use the images for quick revision → Use the blog for full understanding\nThis is how you reduce sources, without missing depth. Less noise. More clarity.",
+    heroImage: "/images/Reference_image_current_affair.jpeg",
+    topics: [
+      {
+        id: "28-1",
+        title: "India–New Zealand FTA Signed — What Is Actually in the Deal?",
+        subtitle: "Both Prelims & Mains | GS Paper II (International Relations) + GS Paper III (Economy, Trade) | Relevant for: UPSC, State PCS, SSC CGL, Banking",
+        content: "India and New Zealand formally signed their Free Trade Agreement on 27 April 2026 at Bharat Mandapam, New Delhi. The signatories were Commerce Minister Piyush Goyal and New Zealand's Minister for Trade and Investment Todd McClay. PM Modi welcomed the deal; NZ PM Christopher Luxon was present at the signing ceremony.\n\nThe agreement was wrapped up in nine months — from the launch of negotiations to conclusion on 22 December 2025. That makes it one of the fastest FTAs India has negotiated with a developed economy. It spans 20 chapters covering trade in goods, trade in services, investment, trade remedies, intellectual property, and dispute settlement.\n\n### The Numbers That Matter\n- Current bilateral trade (goods + services): ~USD 1.3–2.4 billion\n- Five-year trade target: USD 5 billion\n- NZ investment commitment: USD 20 billion over 15 years\n- Work visas for Indian professionals: 5,000 three-year work visas annually\n- Work-and-Holiday visas: 1,000 annually\n- India's FTA count: 7th in 3.5 years\n\n### What Each Side Gets\nIndia's gains — 100% duty-free access for merchandise exports: Pharmaceuticals, Textiles and apparel, Processed foods, and Engineering goods. New Zealand's gains — phased tariff reductions on Kiwifruit, Wine, Honey, and Seafood.\n\n⚠️ **The UPSC Trap** — Dairy is EXCLUDED. India explicitly carved dairy out of the agreement to protect domestic farmers and cooperatives. Do not include dairy in New Zealand's gains. This will be the trap in a Prelims question.\n\n### The MFN Clause - Why It Matters\nThe FTA contains a Most Favoured Nation (MFN) clause linked to the India–EU FTA. Context: India and the EU already signed their FTA in January 2026. The MFN clause works like this: if the NZ FTA is ratified and enters into force before the India-EU FTA does, New Zealand exporters automatically receive EU-equivalent market access in covered sectors (like wine and services). This is a legal race-condition between ratification timelines.",
+        whyItMatters: "FTAs sit at the intersection of GS Paper II (foreign policy) and GS Paper III (trade policy). Specific angles include the MFN clause mechanics, India's trade strategy under Viksit Bharat 2047, and the implications of labour mobility provisions. The dairy exclusion is a critical detail for statement-based questions.",
+        revise: "WTO framework; GATT Article I (MFN clause); India's FTA history (UAE, Australia, EFTA, UK — ongoing); India–EU FTA (January 2026); bilateral vs. multilateral trade frameworks",
+        pyqConnect: "\"India's economic growth since independence has been exclusionary. Critically examine.\" (GS Mains 2019) — connect to trade-led inclusive growth as a counter-argument"
+      },
+      {
+        id: "28-2",
+        title: "Indus Waters Treaty — One Year in Abeyance",
+        subtitle: "Both Prelims & Mains | GS Paper II (International Relations) + Geography (River Systems) | Relevant for: UPSC, State PCS, CDS",
+        content: "India put the Indus Waters Treaty (IWT) in abeyance on 23 April 2025 — the day after the Pahalgam terror attack. One year on, the treaty remains suspended. Pakistan's Foreign Minister Ishaq Dar recently urged the UN Security Council to call on India to restore the treaty, citing grave humanitarian consequences for its agriculture-dependent economy. India has firmly rejected UNSC involvement, maintaining that the IWT is a bilateral matter governed by the Shimla Agreement (1972).\n\n### What the IWT Actually Is\nThe Indus Waters Treaty was signed in 1960, brokered by the World Bank. It divides the six rivers of the Indus basin:\n- **Eastern Rivers (Ravi, Beas, Sutlej)**: Allocated to India for exclusive use.\n- **Western Rivers (Indus, Jhelum, Chenab)**: Allocated to Pakistan for primary use.\n\nIndia received ~20% of the total flow and is permitted limited non-consumptive uses on western rivers. The Permanent Indus Commission (PIC) is the institutional mechanism for data sharing, but India called off all meetings in 2024.\n\n### The Legal Battle\nThe Permanent Court of Arbitration (PCA) ruled in 2025 that the IWT remains valid. India rejected the PCA's jurisdiction, calling it an \"illegal\" court. India's argument draws on national security grounds and Pakistan's material breach of the treaty through cross-border terrorism.",
+        whyItMatters: "The IWT is a rare topic spanning IR, Geography, and Environment. Key Mains angles include: Can a state invoke national security to suspend treaty obligations? (Vienna Convention on the Law of Treaties), and the implications for India as a lower riparian vis-à-vis China on the Brahmaputra.",
+        revise: "IWT Articles II, III, XII; Eastern vs. western rivers; Shimla Agreement; UN Watercourses Convention 1997; Principle of equitable and reasonable utilisation",
+        pyqConnect: "\"Does India's development of water resources in J&K give cause for concern to Pakistan? Discuss.\" (GS Mains 2013)"
+      },
+      {
+        id: "28-3",
+        title: "Census 2027 Phase 1 — Why This Census Is Different",
+        subtitle: "Prelims + Mains | GS Paper II (Governance, Social Justice) | Relevant for: UPSC, State PCS, SSC, Banking",
+        content: "Census 2027 Phase 1 — the Houselisting and Housing Census (HLO) — began on 1 April 2026. It runs across all 36 states and UTs through September 2026. This census is historic for three reasons:\n1. **First fully digital census**: Enumerators use a mobile app (BYOD model). No paper forms. App works offline and syncs to a secure cloud.\n2. **Caste enumeration — first since 1931**: Phase 2 (February 2027) will include caste data for all communities. This was approved by the Cabinet Committee on Political Affairs on 30 April 2025.\n3. **Self-enumeration**: Citizens get a 15-day window to submit household details online before the enumerator's visit.\n\n### Key Facts for Prelims\n- **Legal basis**: Census Act, 1948; Census Rules, 1990.\n- **Reference date**: 1 March 2027 (most of India); 1 October 2026 (snow-bound areas).\n- **Field functionaries**: ~32 lakh (3.2 million).\n- **Admin freeze**: 1 January 2026 to 31 March 2027.\n\n⚠️ **Trap alert**: Caste enumeration happens in Phase 2 only, not Phase 1.",
+        whyItMatters: "Census data underpins delimitation, welfare targeting (NFSA), and SC/ST reservation calculations. The 15-year gap since 2011 has left policymakers relying on outdated data. The next delimitation and the implementation of the Women's Reservation Act (2023) both depend on this census.",
+        revise: "Census Act 1948; NPR-Census link; Delimitation Act 2002; Women's Reservation Act 2023; 73rd/74th Amendments; Digital India framework",
+        pyqConnect: "\"Critically examine the recent moves to bring transparent governance in India.\" (GS Mains 2019)"
+      },
+      {
+        id: "28-4",
+        title: "State of India's Environment 2026 — Seven Planetary Boundaries Breached",
+        subtitle: "Both Prelims & Mains | GS Paper III (Environment, Ecology, Biodiversity) | Relevant for: UPSC, State PCS, Forest Services",
+        content: "The SOE 2026 report reveals that 7 of 9 planetary boundaries have now been breached globally. The seventh to be crossed is ocean acidification.\n\n### The Status of the Nine Boundaries\n- **Breached**: Climate change, Biosphere integrity, Land system change, Freshwater depletion, Biogeochemical flows, Novel entities, and Ocean acidification (the 7th).\n- **Safe**: Atmospheric aerosol loading and Stratospheric ozone depletion.\n\n### India-Specific Findings\nHuman-tiger conflict is intensifying due to forest degradation. India's specific contributions to boundary breaches include land-system change (deforestation), freshwater overuse, and excess fertiliser runoff. The report recommends integrating planetary boundary frameworks into national economic accounting (natural capital accounting).",
+        whyItMatters: "Planetary boundaries is a high-frequency Prelims topic (concept by Johan Rockström, 2009). At Mains, it connects to the tension between development and ecological limits, biodiversity policy, and India's environmental commitments.",
+        revise: "All nine planetary boundaries; Johan Rockström and Stockholm Resilience Centre; NGT Act 2010; CBD, Paris Agreement, Ramsar, CITES; IUCN Red List categories",
+        image: "/images/Reference_image_current_affair.jpeg",
+        pyqConnect: "\"The most significant impact of climate change is water security. Explain.\" (GS Mains 2020)"
+      },
+      {
+        id: "28-5",
+        title: "Operation Sindoor at One Year — India's Changed Security Doctrine",
+        subtitle: "Both Prelims & Mains | GS Paper II (IR) + GS Paper III (Internal Security) | Relevant for: UPSC, State PCS, CDS, NDA",
+        content: "Launched on 7 May 2025 in response to the Pahalgam terror attack, Operation Sindoor represents a fundamental shift in India's security doctrine. India targeted nine terror infrastructure sites in Pakistan and PoK using indigenous systems like BrahMos missiles and Akashteer air-defence.\n\n### The Doctrine Shift\nIndia acted without seeking international mediation and PM Modi declared India would not tolerate nuclear blackmail. The operation used predominantly indigenous systems, signalling strategic self-reliance. A 2026 assessment concluded India achieved air superiority during the 88-hour conflict. India maintains that Operation Sindoor is ongoing, not concluded.\n\n### Key Facts\n- **Conflict duration**: 88 hours total.\n- **Sites targeted**: JeM in Bahawalpur, LeT in Muridke, and Hizbul Mujahideen.\n- **Terminology**: \"Stoppage of firing\" — not ceasefire (to retain strategic framing).",
+        whyItMatters: "This topic connects India's nuclear doctrine (NFU, CMD, NCA) with the legal basis for cross-border strikes (Article 51, UN Charter). It examines the changing nature of limited war and India's resistance to internationalisation of Kashmir.",
+        revise: "India's nuclear doctrine (NFU, CMD, NCA); Article 51 UN Charter; Shimla Agreement 1972; 2016 Uri surgical strikes; 2019 Balakot airstrike; MNNA status",
+        pyqConnect: "\"The terms 'Hot Pursuit' and 'Surgical Strikes' are often used in connection with armed action against terrorist attacks. Examine the strategic and diplomatic implications.\" (GS Mains 2016)"
+      },
+      {
+        id: "28-6",
+        title: "Pahalgam Anniversary — India's Unprecedented Diplomatic Outreach",
+        subtitle: "Mains-heavy | GS Paper II (International Relations, Foreign Policy)",
+        content: "On the first anniversary of the Pahalgam attack, India's diplomatic outreach was marked by unprecedented scale. India mounted a campaign involving 7 all-party parliamentary delegations visiting 33 destinations to build international consensus that Pakistan-backed terrorism is a global threat.\n\n### India's 4 Consistent Positions\n1. **Operation Sindoor is ongoing** — India has not declared it concluded.\n2. **No third-party mediation** — India rejected US claims of ceasefire brokering.\n3. **UNSC has no role** — Bilateral matters are governed by the Shimla Agreement.\n4. **Revoke Pakistan's MNNA status** — India has flagged this as a legitimate policy option in Washington.\n\nThis outreach combined legislative credibility (sitting MPs) with diplomatic expertise (former ambassadors).",
+        whyItMatters: "Primarily Mains-facing, it tests understanding of strategic autonomy and resistance to internationalisation. It connects to the architecture of international security institutions (UNSC, P5) and India's role as an independent security actor.",
+        revise: "Strategic autonomy, multi-alignment; UNSC composition, P5 veto; MNNA status; India-US 2+2 framework; India-France strategic partnership",
+        pyqConnect: "UPSC often asks about the 'Shift in India's Foreign Policy' from passive to proactive engagement."
+      }
+    ],
+    reviseSummary: [
+      "WTO and the MFN Clause: GATT Article I is the foundational MFN provision — every WTO member must grant all other members treatment no less favourable than the most favourable treatment given to any one member. Bilateral FTAs are permitted under GATT Article XXIV as exceptions.",
+      "International Water Law: The UN Watercourses Convention (1997) and the Helsinki Rules (1966) establish the principle of equitable and reasonable utilisation of shared water resources. The IWT predates modern international water law.",
+      "India's Nuclear Doctrine: India's nuclear doctrine rests on three pillars: No First Use (NFU), Credible Minimum Deterrence (CMD), and decision-making through the Nuclear Command Authority (NCA)."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the India–New Zealand Free Trade Agreement signed in April 2026, consider the following statements:\n1. The agreement was concluded in nine months — one of the fastest with a developed economy.\n2. India gains 100% duty-free access for its merchandise exports to New Zealand.\n3. The FTA is India's tenth free trade agreement in the last four years.\n4. An investment chapter commits to facilitating USD 20 billion of New Zealand capital into India.\nHow many of the above statements are correct?",
+          options: ["Only one", "Only two", "Only three", "All four"],
+          answer: "Only three",
+          explanation: "Statements 1, 2, and 4 are correct. Statement 3 is wrong — this is India's 7th FTA in 3.5 years, not the tenth in four years. Dairy was explicitly excluded from NZ gains."
+        },
+        {
+          question: "Which of the following pairs is/are correctly matched regarding the Indus Waters Treaty (1960)?\n1. Eastern Rivers — Indus, Jhelum, Chenab — allocated to Pakistan\n2. Western Rivers — Ravi, Beas, Sutlej — allocated to India\n3. Treaty brokered by the World Bank and signed in Karachi\n4. Permanent Indus Commission — bilateral cooperation mechanism\nSelect the correct answer:",
+          options: ["1 and 2 only", "3 and 4 only", "1, 2 and 3 only", "2, 3 and 4 only"],
+          answer: "3 and 4 only",
+          explanation: "Statements 1 and 2 have the river categories reversed. Pakistan holds the western rivers (Indus, Jhelum, Chenab). India holds the eastern rivers (Ravi, Beas, Sutlej)."
+        },
+        {
+          question: "Which of the following statements about Census 2027 are correct?\n1. It is India's 16th Census overall and 8th since Independence.\n2. Caste enumeration will be conducted in Phase 1 — the Houselisting phase.\n3. Self-enumeration is available in 16 regional languages.\n4. The reference date for most of India is 00:00 hours of 1 March 2027.\nSelect the correct answer:",
+          options: ["1, 3 and 4 only", "1, 2 and 4 only", "2, 3 and 4 only", "All four"],
+          answer: "1, 3 and 4 only",
+          explanation: "Statement 2 is incorrect. Caste enumeration happens in Phase 2 (Population Enumeration, February 2027) — not Phase 1. Phase 1 collects data only on housing, amenities, and assets."
+        },
+        {
+          question: "Statement I: As per the State of India's Environment 2026 report, seven of nine planetary boundaries have now been breached.\nStatement II: Ocean acidification is the most recently breached planetary boundary, becoming the seventh.\nSelect the correct answer:",
+          options: ["Both correct; II explains I", "Both correct; II does not explain I", "I is correct; II is incorrect", "I is incorrect; II is correct"],
+          answer: "Both correct; II explains I",
+          explanation: "Both statements are factually accurate. Ocean acidification is the 7th boundary to be breached, which is the direct reason for the count being seven."
+        },
+        {
+          question: "Which of the following are correct regarding Operation Sindoor (May 2025)?\n1. It was launched in response to the Pahalgam terror attack of 22 April 2025.\n2. India targeted infrastructure of JeM and LeT in Pakistan and PoK.\n3. India formally declared a ceasefire on 10 May 2025.\n4. India used BrahMos missiles and Akashteer air-defence systems.\nSelect the correct answer:",
+          options: ["1, 2 and 3 only", "1, 2 and 4 only", "2, 3 and 4 only", "All four"],
+          answer: "1, 2 and 4 only",
+          explanation: "Statement 3 is incorrect. India deliberately did not declare a ceasefire — calling the halt a 'stoppage of firing' to retain strategic framing."
+        }
+      ],
+      mains: [
+        {
+          question: "Free trade agreements can be instruments of both economic integration and strategic realignment. Critically examine in the context of India's recent FTAs with developed economies.",
+          context: "Focus on GS Paper II (IR) and Paper III (Economy). Discuss NZ, EU, and UK FTAs as examples."
+        },
+        {
+          question: "India's suspension of the Indus Waters Treaty raises fundamental questions about the limits of treaty obligations when national security is invoked. Discuss.",
+          context: "Focus on GS Paper II. Reference the Vienna Convention on the Law of Treaties and 'pacta sunt servanda'."
+        }
+      ]
+    }
   }
 ];
