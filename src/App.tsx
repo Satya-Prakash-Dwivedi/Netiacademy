@@ -18,6 +18,7 @@ import SEODashboard from './pages/SEODashboard';
 import Courses from './pages/Courses';
 import CourseDetail from './pages/CourseDetail';
 import RevisionSeries from './pages/RevisionSeries';
+import PolityCourseDetail from './pages/PolityCourseDetail';
 
 // ScrollToTop component to reset scroll on route change
 function ScrollToTop() {
@@ -54,6 +55,7 @@ function App() {
           <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:id" element={<CourseDetail />} />
+          <Route path="/courses/free-polity-classes" element={<PolityCourseDetail />} />
           <Route path="/revision-series" element={<RevisionSeries />} />
           <Route path="/mind" element={<Mind />} />
           <Route path="/mind/:id" element={<MindDetail />} />

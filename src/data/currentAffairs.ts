@@ -1788,7 +1788,122 @@ export const dailyDigests: DailyDigest[] = [
         },
         {
           question: "India's suspension of the Indus Waters Treaty raises fundamental questions about the limits of treaty obligations when national security is invoked. Discuss.",
-          context: "Focus on GS Paper II. Reference the Vienna Convention on the Law of Treaties and 'pacta sunt servanda'."
+          context: "GS Paper II. Reference the Vienna Convention on the Law of Treaties and 'pacta sunt servanda'."
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-04-29",
+    date: "29th April 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "Here's the problem with current affairs preparation: there's too much of it.\n\nEvery day, 15–20 topics. Hours of reading. Most of it never appears in the exam.\n\nNeti Daily is built on a different philosophy.\n\n**नेति नेति** is a Sanskrit phrase meaning \"not this, not this\" — a process of elimination until you reach what is essential. That's exactly what we do with current affairs.\n\n**6 topics per day.** Chosen because they are UPSC-relevant, cross-paper, and likely to appear — not because they happened to be in the news.\n\n📌 **TODAY AT A GLANCE**\n\n🔴 **SIPRI Military Expenditure Report 2025** — India enters the world's top 5 defence spenders at $92.1 bn; global military spending hits a record $2,887 bn for the 11th straight year.\n🔴 **India–New Zealand FTA** — Signed April 27; 100% duty-free access for all Indian exports; $20 bn NZ investment commitment; dairy fully excluded.\n🔴 **India's NDC 2031–35 Submitted to UNFCCC** — 47% emissions intensity cut from 2005 levels; forest carbon sink now measured by stock, not flow — a methodological shift with major legal consequences.\n🔴 **Tenth Schedule Under Strain** — Seven of AAP's ten Rajya Sabha MPs defect to BJP; RS Chairman accepts merger; Supreme Court gives Telangana Speaker a final 3-week deadline on BRS petitions.\n🟡 **MeitY's Draft IT Second Amendment Rules 2026** — Proposes bringing user-generated news content under government ethics code; platforms risk losing Section 79 safe harbour if they ignore MeitY advisories.\n🟢 **Orange Economy & International Dance Day** — Recognised April 29; India's M&E sector valued at ₹2.5 trillion (Economic Survey 2025-26); an emerging GS3 economy angle gaining policy traction.",
+    topics: [
+      {
+        id: "29-1",
+        title: "SIPRI Military Expenditure Report 2025: India Enters World's Top 5",
+        subtitle: "🔴 Must Read | Both | GS II (IR) · GS III (Security & Defence)",
+        content: "📌 India became the world's 5th largest military spender in 2025 at $92.1 bn, overtaking the UK, driven by urgent procurement after the May 2025 India–Pakistan conflict (Operation Sindoor). Global military spending crossed $2,887 bn — the 11th consecutive record.\n\n📰 **WHAT HAPPENED**\nThe Stockholm International Peace Research Institute (SIPRI) published its annual Trends in World Military Expenditure report on April 27, 2026. India's defence expenditure rose 8.9% to $92.1 billion in 2025, propelling it from 6th to 5th place globally, displacing the United Kingdom. The surge was primarily driven by the India–Pakistan armed conflict in May 2025 (Operation Sindoor), which triggered urgent procurement of drones, counter-drone systems, S-400 air defence platforms, and combat aircraft. Capital outlays for military aircraft systems were revised upward by 50% from the original budget, while IAF operations and personnel costs were revised 18% higher.\n\nGlobally, military expenditure reached a record $2,887 billion — the 11th consecutive annual increase — representing 2.5% of global GDP, the highest military burden since 2009. The top five spenders (USA, China, Russia, Germany, India) together accounted for 58% of all global defence spending. Global per capita defence spending has now crossed $352.\n\n📊 **KEY DATA TABLE**\n| Country | 2025 Spend | Change (YoY) | Global Rank | % of GDP |\n|---------|-----------|--------------|-------------|----------|\n| USA | $954 bn | –7.5% | 1st | ~3.4% |\n| China | $336 bn | +7.4% | 2nd | 1.7% |\n| Russia | $190 bn | +5.9% | 3rd | 7.5% |\n| Germany | $114 bn | +24% | 4th | ~2.1% |\n| **India** | **$92.1 bn** | **+8.9%** | **5th** | **2.3%** |\n| UK | $89 bn | –2% | 6th | ~2.5% |\n| Pakistan | $11.9 bn | +11% | 31st | 2.9% |\n| **Global Total** | **$2,887 bn** | **+2.9%** | 11th consecutive rise | 2.5% of GDP |\n\n⚠️ **THE UPSC TRAP**\nStudents often assume India spends more than Pakistan as a percentage of GDP. Wrong. India's military burden is 2.3% of GDP; Pakistan's is 2.9%. India outspends Pakistan in absolute terms (7:1), but Pakistan allocates a higher share of its economy to defence. Also note: SIPRI is headquartered in Stockholm, Sweden — not Geneva.\n\n🔗 **STATIC CONNECTIONS**\n- SIPRI: Established 1966, an independent international institute — not a UN body.\n- Operation Sindoor (May 2025): The India–Pakistan conflict that drove India's procurement spike.\n- Union Budget 2026–27: Total defence allocation ₹7.85 lakh crore (+15.19%). Capital acquisition budget earmarks 75% for domestic procurement.\n- DAC (Defence Acquisition Council): Apex body for defence procurement decisions.\n\n📝 **EXAM ANGLES**\n- **Prelims**: SIPRI founding year (1966), location (Stockholm), India's rank (5th), military burden (2.3%).\n- **Mains**: Rising global militarisation vs. multilateral disarmament architecture (GS2); India's transition to arms exporter (GS3).",
+        whyItMatters: "India's rise to the 5th largest spender reflects intensified regional security challenges. UPSC tests the distinction between absolute spend and military burden (% of GDP).",
+        revise: "SIPRI location and status; Operation Sindoor context; India's capital acquisition budget trends; DAC role.",
+        pyqConnect: "UPSC Prelims 2022 — Statement on SIPRI mandate. UPSC Mains GS3 2017: India's defence policy."
+      },
+      {
+        id: "29-2",
+        title: "India–New Zealand Free Trade Agreement: Signed and Significant",
+        subtitle: "🔴 Must Read | Both | GS II (IR) · GS III (Economy)",
+        content: "📌 India–NZ FTA signed April 27: NZ eliminates all tariffs on Indian exports; India offers access on 95% of trade value; $20 bn NZ investment commitment. Dairy, onions, chana, sugar — fully excluded by India.\n\n📰 **WHAT HAPPENED**\nCommerce Minister Piyush Goyal and New Zealand's Trade Minister Todd McClay formally signed the India–New Zealand FTA on April 27, 2026. Negotiations were completed in 9 months — texts finalised December 22, 2025 — making it one of India's fastest-ever comprehensive trade deals.\n\nThe agreement covers 20 chapters: goods, services, investment, intellectual property, dispute settlement, and mobility. New Zealand eliminates tariffs on 100% of Indian exports from day one — benefiting textiles, leather, pharmaceuticals, and engineering goods. India offers market access on 70% of tariff lines covering 95% of bilateral trade value. India has fully excluded sensitive sectors: dairy, onions, chana, sugar, honey, and certain gems.\n\n📊 **KEY DATA TABLE**\n| Parameter | Detail |\n|-----------|--------|\n| NZ → India tariff access | 100% duty-free for all Indian exports from Day 1 |\n| India → NZ tariff coverage | 70% of tariff lines; 95% of trade value |\n| Investment commitment | $20 bn from NZ into India over 15 years |\n| Indian exclusions | Dairy, onions, chana, sugar, honey, gems & jewellery |\n| TEE Visa quota | 5,000 at any given time; up to 3 years stay |\n\n⚠️ **THE UPSC TRAP**\nThe deal is SIGNED but NOT yet in force. NZ requires parliamentary ratification (~6 months); India's process is executive. India offered access on 70% of tariff lines covering 95% of trade value — these two numbers are distinct and testable.\n\n🔗 **STATIC CONNECTIONS**\n- India's FTA history: UAE CEPA (2022), Australia ECTA (2022), Singapore CECA (2005).\n- CECA vs CEPA vs FTA: CECA is broader; FTA focuses on goods tariffs.\n- Rules of Origin: Determines which goods qualify for preferential tariffs.\n- WTO MFN principle + GATT Article XXIV: Exceptions for FTAs covering \"substantially all trade\".\n\n📝 **EXAM ANGLES**\n- **Prelims**: FTA status (signed, not in force); India's exclusions (dairy); NZ investment ($20 bn).\n- **Mains**: Selective bilateralism vs multilateralism; protecting dairy while opening goods markets.",
+        whyItMatters: "First comprehensive deal with a developed Oceania economy post-Australia ECTA. Protects dairy while gaining 100% access for Indian goods.",
+        revise: "Difference between CECA/CEPA/FTA; Rules of Origin; WTO GATT Article XXIV.",
+        pyqConnect: "UPSC Prelims 2017: Matching pairs on trade agreements. UPSC Mains GS2 2019: Foreign Trade Policy shift."
+      },
+      {
+        id: "29-3",
+        title: "India's NDC 2031–35 Submitted to UNFCCC: A Shift to Stock-Based Accounting",
+        subtitle: "🔴 Must Read | Both | GS III (Environment & Energy)",
+        content: "📌 India targeting 47% emissions intensity reduction and 60% non-fossil capacity by 2035. The critical shift is in forest carbon sink measurement — from flow-based to stock-based accounting.\n\n📰 **WHAT HAPPENED**\nIndia formally submitted its third NDC for 2031–35 to the UNFCCC. Targets: (1) reduce emissions intensity of GDP by 47% from 2005 levels; (2) achieve 60% non-fossil fuel capacity; (3) create a carbon sink of 3.5–4 billion tonnes of CO₂eq from 2005 levels.\n\nFor the first time, CCUS and nuclear energy are explicitly named as instruments. The most critical methodological change is a shift from flow-based (additional removal) to stock-based (total accumulated carbon) measurement for the forest carbon sink. This affects how forest credits are counted under Article 6.\n\n📊 **KEY DATA TABLE**\n| Parameter | NDC 2 Target (2030) | NDC 3 Target (2035) |\n|-----------|--------------------|--------------------|\n| Emissions Intensity | 45% reduction | 47% reduction |\n| Non-Fossil Capacity | 50% share | 60% share |\n| Carbon Sink | Additional 2.5–3 bn t | 3.5–4 bn t (stock-based) |\n| Net-Zero Target | — | 2070 |\n\n⚠️ **THE UPSC TRAP**\nNDC targets are NOT legally binding under the Paris Agreement — only the obligation to submit and update them is binding. Also, the target year is now 2035, not 2030.\n\n🔗 **STATIC CONNECTIONS**\n- Paris Agreement (COP21): Adopted 2015, 1.5°C goal.\n- CBDR–RC: Common But Differentiated Responsibilities.\n- NAPCC: India's policy framework for climate missions.\n- Article 6: Voluntary carbon market mechanisms.\n\n📝 **EXAM ANGLES**\n- **Prelims**: India's targets; net-zero year (2070); non-binding nature of NDCs.\n- **Mains**: Mitigation ambition gap; climate finance as a precondition for higher ambition.",
+        whyItMatters: "Sets India's climate trajectory for the next decade. The accounting shift (stock vs flow) has major implications for carbon markets.",
+        revise: "CBDR-RC principle; Global Stocktake; Article 6.2 vs 6.4; LiFE initiative.",
+        pyqConnect: "UPSC Prelims 2021: Statement on NDC provisions. UPSC Mains GS3 2023: India's climate commitments."
+      },
+      {
+        id: "29-4",
+        title: "Tenth Schedule Under Strain: AAP Defections and Speaker Delays",
+        subtitle: "🔴 Must Read | Both | GS II (Polity & Governance)",
+        content: "📌 Seven AAP Rajya Sabha MPs defect to BJP invoking merger; RS Chairman accepts. Simultaneously, SC gives Telangana Speaker 3-week deadline for BRS defection petitions.\n\n📰 **WHAT HAPPENED**\nSeven of AAP's ten Rajya Sabha MPs announced a merger with BJP. The RS Chairman accepted the merger. The challenge: Paragraph 4 requires the \"original political party\" to merge, but the party (AAP) hasn't decided to merge. The legislature party cannot substitute for the political party (Mayawati case, 1998).\n\nSecond, the SC gave the Telangana Speaker a final 3-week deadline to decide pending disqualification petitions. The Court reiterated that decisions must come within three months (Keisham Meghachandra, 2020) and are subject to judicial review.\n\n⚠️ **THE UPSC TRAP**\nParagraph 7 (barring judicial review) was declared unconstitutional in Kihoto Hollohan (1992). The Chairman/Speaker decides disqualification, NOT the President or Election Commission.\n\n🔗 **STATIC CONNECTIONS**\n- 52nd Amendment (1985): Inserted Tenth Schedule.\n- 91st Amendment (2003): Removed 1/3 split provision; tightened merger to 2/3.\n- Kihoto Hollohan (1992): Established judicial review of Speaker's decisions.\n- Keisham Meghachandra (2020): 3-month deadline for Speaker.\n\n📝 **EXAM ANGLES**\n- **Prelims**: Amendment acts; authority to decide (Speaker); judicial review status.\n- **Mains**: Is the Speaker an appropriate adjudicator? Reform proposals (independent tribunal).",
+        whyItMatters: "Highlights the structural weakness of the Anti-Defection law where the Speaker is both a political entity and an adjudicator.",
+        revise: "91st Amendment changes; Kihoto Hollohan verdict; Article 102 and 191.",
+        pyqConnect: "UPSC Prelims 2025: Statement on Tenth Schedule authority. UPSC Mains GS2 2020: Anti-defection as a mixed blessing."
+      },
+      {
+        id: "29-5",
+        title: "MeitY's Draft IT Second Amendment Rules 2026: Regulating User-Generated News",
+        subtitle: "🟡 Important | Both | GS II (Governance) · GS III (S&T)",
+        content: "📌 Draft rules propose bringing influencers/YouTubers under the MIB Code of Ethics and tying safe harbour to compliance with executive advisories.\n\n📰 **WHAT HAPPENED**\nDraft IT Second Amendment Rules 2026 (released March 30) propose: (a) Rule 3(4) mandating compliance with MeitY advisories to keep Section 79 safe harbour; (b) user-generated news content falling under MIB's Code of Ethics.\n\nThese are DRAFT only. Separately, rules targeting deepfakes (SGI labelling) were notified in February 2026 and are current law.\n\n📊 **KEY DATA TABLE**\n| Parameter | February 2026 Rules (In Force) | Draft 2026 Rules (Proposed) |\n|-----------|--------------------------------|-----------------------------|\n| Focus | AI-generated content / deepfakes | User news; safe harbour reform |\n| Provision | Mandatory SGI labelling | MeitY advisories as condition |\n\n⚠️ **THE UPSC TRAP**\nSection 79 currently provides safe harbour if intermediaries act upon a court order or government notification — NOT upon informal advisories. This is a draft proposal, not current law.\n\n🔗 **STATIC CONNECTIONS**\n- Section 79 of IT Act: Safe harbour for intermediaries.\n- Shreya Singhal v. Union of India (2015): Online speech must meet Art 19(2) test.\n- IT Rules 2021: Parent rules for publishers and platforms.\n\n📝 **EXAM ANGLES**\n- **Prelims**: Section 79; SSMI definition (5mn+ users); Shreya Singhal case.\n- **Mains**: State regulation vs freedom of speech; Chilling effect on digital creators.",
+        whyItMatters: "If notified, this would significantly expand executive control over digital news creators and social media platforms.",
+        revise: "Safe harbour concept; Section 66A (struck down); IT Rules 2021 structure.",
+        pyqConnect: "UPSC Mains GS2 2021: Regulatory framework for social media. UPSC Prelims 2019: IT Act provisions."
+      },
+      {
+        id: "29-6",
+        title: "Orange Economy & International Dance Day: The Power of Creativity",
+        subtitle: "🟢 Good to Know | Prelims | GS III (Economy)",
+        content: "📌 April 29 marks International Dance Day. India's Orange Economy (Creative Economy) is gaining strategic focus, with Budget 2026 allocating ₹250 cr for AVGC content labs.\n\n📰 **WHAT HAPPENED**\nInternational Dance Day marks the birth of Jean-Georges Noverre, father of modern ballet. The \"Orange Economy\" encompasses cultural industries, film, design, and digital content.\n\nUnion Budget 2026 recognised the Orange Economy as a strategic priority. India's M&E sector is valued at ₹2.5 trillion. India is the world's largest film producer (29% global volume). MIB established a Live Events Development Cell (LEDC) in 2025.\n\n📊 **KEY DATA TABLE**\n| Parameter | Detail |\n|-----------|--------|\n| India's M&E value | ₹2.5 trillion (Economic Survey 25-26) |\n| India's film output | 29% of global volume (World's largest) |\n| Concept Origin | Buitrago & Duque (2013) |\n| Budget allocation | ₹250 cr for AVGC Creator Labs |\n\n⚠️ **THE UPSC TRAP**\nDon't confuse Orange Economy with Green (low-carbon) or Blue (ocean-based) economies. The International Dance Council (CID) operates under UNESCO.\n\n🔗 **STATIC CONNECTIONS**\n- GI Tags (TRIPS): Protecting traditional creative products (e.g., Banarasi silk).\n- INTACH: India's heritage conservation body.\n- AVGC-XR Task Force: Projected to generate 20 lakh jobs.\n\n📝 **EXAM ANGLES**\n- **Prelims**: Concept of Orange Economy; UNESCO CID; India's film rank.\n- **Mains**: Creative industries as employment generators; policy gaps in formalisation.",
+        whyItMatters: "Shift from traditional industrial focus to IP-led creative growth. Relevant for GS3 employment and industrial policy.",
+        revise: "Difference between Green/Blue/Orange economy; India's ICH nominations; GI tags.",
+        pyqConnect: "UPSC Prelims often tests economic terminology distinctions."
+      }
+    ],
+    reviseSummary: [
+      "SIPRI: India is 5th largest military spender ($92.1bn); global spend hits record $2.8 trillion.",
+      "India-NZ FTA: Signed April 2026; 100% duty-free for India; Dairy fully excluded; $20bn investment.",
+      "NDC 2031-35: 47% emissions intensity cut; 60% non-fossil capacity; Shift to stock-based carbon sink.",
+      "Tenth Schedule: 2/3 merger threshold; Speaker must decide in 3 months; Judicial review available.",
+      "IT Rules: Draft 2026 rules propose regulating influencers; Safe harbour tied to executive advisories.",
+      "Orange Economy: Creative industries; ₹2.5tn sector; Budget 2026 strategic priority."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the Tenth Schedule of the Indian Constitution:\n1. It was inserted by the 52nd Constitutional Amendment Act, 1985.\n2. The 91st Constitutional Amendment Act, 2003, removed the provision allowing disqualification when one-third of a party's members split.\n3. A Speaker's decision under the Tenth Schedule is not subject to judicial review by the Supreme Court or High Courts.\n4. A nominated member of a House cannot be disqualified under the Tenth Schedule under any circumstances.\nHow many of the above statements are correct?",
+          options: ["Only one", "Only two", "Only three", "All four"],
+          answer: "Only two",
+          explanation: "Statements 1 and 2 are correct. Statement 3 is wrong — Paragraph 7 (barring judicial review) was declared unconstitutional in Kihoto Hollohan (1992). Statement 4 is wrong — nominated members can be disqualified if they join a party after six months."
+        },
+        {
+          question: "Which of the following pairs are correctly matched?\n1. SIPRI — Stockholm, Sweden\n2. UNFCCC Secretariat — Bonn, Germany\n3. International Dance Council (CID) — Paris, France\n4. WTO — New York, USA\nSelect the correct answer:",
+          options: ["1 and 2 only", "1, 2 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+          answer: "1, 2 and 3 only",
+          explanation: "WTO is headquartered in Geneva, Switzerland, not New York. SIPRI is in Stockholm, UNFCCC in Bonn, and CID (under UNESCO) in Paris."
+        },
+        {
+          question: "Statement I: India's NDC targets under the Paris Agreement are legally binding on India under international law.\nStatement II: The Paris Agreement requires all signatory countries to periodically submit NDCs, but the specific targets within those NDCs are not legally binding.\nSelect the correct answer:",
+          options: ["Both correct; II explains I", "Both correct; II does not explain I", "I is correct; II is incorrect", "I is incorrect; II is correct"],
+          answer: "I is incorrect and II is correct",
+          explanation: "NDC targets are voluntary pledges and not legally binding. The procedural obligation to submit and update them IS legally binding."
+        },
+        {
+          question: "With reference to the India–New Zealand Free Trade Agreement signed in April 2026, consider the following statements:\n1. New Zealand will provide duty-free access to 100% of Indian exports from the date of entry into force.\n2. India has excluded all dairy products from the tariff concessions under the FTA.\n3. The FTA entered into force on the date of signing itself.\n4. Negotiations for the FTA were completed in approximately 9 months.\nWhich of the above are correct?",
+          options: ["1, 2 and 4 only", "1 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+          answer: "1, 2 and 4 only",
+          explanation: "Statement 3 is wrong — signing ≠ in force. The FTA requires ratification (executive in India, parliamentary in NZ). Dairy is fully excluded."
+        },
+        {
+          question: "Consider the following regarding global military expenditure in 2025 according to SIPRI:\n1. Total global military expenditure reached $2,887 billion — the 11th consecutive annual increase.\n2. India ranked 4th in global military expenditure, surpassing the United Kingdom.\n3. As a percentage of GDP, India's military burden (2.3%) was lower than Pakistan's (2.9%).\n4. China's military expenditure has increased for 31 consecutive years.\nWhich of the above are correct?",
+          options: ["1, 3 and 4 only", "1, 2 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
+          answer: "1, 3 and 4 only",
+          explanation: "Statement 2 is wrong — India ranked 5th, not 4th. Germany is 4th. India surpassed the UK to take 5th place."
+        }
+      ],
+      mains: [
+        {
+          question: "\"India's successive Nationally Determined Contributions reflect a credible delivery record, yet the adequacy debate refuses to close.\" Critically examine India's NDC 2031–35 in the context of the global climate finance architecture.",
+          context: "GS Paper III. Discuss 60% non-fossil target, stock vs flow shift, and the $8 trillion finance need."
+        },
+        {
+          question: "The Speaker's role as the sole adjudicator under the Tenth Schedule has become a structural liability for Indian democracy. Do you agree? Suggest institutional reforms.",
+          context: "GS Paper II. Reference Kihoto Hollohan, Keisham Meghachandra, and proposals like EC adjudication."
         }
       ]
     }

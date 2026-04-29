@@ -45,10 +45,23 @@ const formatText = (text: string) => {
     });
   });
 
+  // Handle Italic: _text_
+  parts = parts.flatMap(part => {
+    if (typeof part !== 'string') return part;
+    const segments = part.split(/(_.*?_)/g);
+    return segments.map((seg, i) => {
+      const match = seg.match(/_(.*?)_/);
+      if (match) {
+        return <em key={`italic-${i}`} className="italic">{match[1]}</em>;
+      }
+      return seg;
+    });
+  });
+
   return parts;
 };
 
-const linkify = formatText; // For backwards compatibility if used elsewhere
+
 
 const renderContent = (text: string) => {
   if (!text) return null;
@@ -56,38 +69,116 @@ const renderContent = (text: string) => {
   const lines = text.split('\n');
   const result: React.ReactNode[] = [];
   let currentList: React.ReactNode[] = [];
+  let currentTable: string[][] = [];
 
   const flushList = (key: number) => {
     if (currentList.length > 0) {
-      result.push(<ul key={`list-${key}`} className="list-disc pl-6 mb-6 space-y-2">{currentList}</ul>);
+      result.push(<ul key={`list-${key}`} className="list-disc pl-6 mb-8 space-y-3">{currentList}</ul>);
       currentList = [];
+    }
+  };
+
+  const flushTable = (key: number) => {
+    if (currentTable.length > 0) {
+      result.push(
+        <div key={`table-wrapper-${key}`} className="my-8 overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+          <table className="w-full text-left border-collapse min-w-[500px]">
+            <thead className="bg-slate-50">
+              <tr>
+                {currentTable[0].map((cell, i) => (
+                  <th key={i} className="px-4 py-3 text-xs font-bold text-slate-600 uppercase tracking-wider border-b border-slate-200">
+                    {formatText(cell.trim())}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {currentTable.slice(2).map((row, i) => (
+                <tr key={i} className="hover:bg-slate-50 transition-colors">
+                  {row.map((cell, j) => (
+                    <td key={j} className="px-4 py-3 text-sm text-slate-700 border-b border-slate-100 leading-relaxed">
+                      {formatText(cell.trim())}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      currentTable = [];
     }
   };
 
   lines.forEach((line, idx) => {
     const trimmedLine = line.trim();
     
+    // Table handling
+    if (trimmedLine.startsWith('|') && trimmedLine.endsWith('|')) {
+      flushList(idx);
+      const cells = trimmedLine.split('|').filter((_, i, arr) => i > 0 && i < arr.length - 1);
+      currentTable.push(cells);
+      return;
+    } else {
+      flushTable(idx);
+    }
+
+    // Callout boxes (detected by specific emojis or markers)
+    const calloutMatch = trimmedLine.match(/^(📌|⚠️|🔗|📝|📰|📊|⏱️|📋)\s*(.*)/);
+    if (calloutMatch) {
+      flushList(idx);
+      const [_, emoji, content] = calloutMatch;
+      let bgColor = "bg-slate-50";
+      let borderColor = "border-slate-200";
+      let textColor = "text-slate-800";
+      let iconBg = "bg-slate-200";
+
+      if (emoji === '📌') { bgColor = "bg-blue-50/40"; borderColor = "border-blue-100"; textColor = "text-blue-900"; iconBg = "bg-blue-100"; }
+      if (emoji === '⚠️') { bgColor = "bg-amber-50/40"; borderColor = "border-amber-100"; textColor = "text-amber-900"; iconBg = "bg-amber-100"; }
+      if (emoji === '🔗') { bgColor = "bg-indigo-50/40"; borderColor = "border-indigo-100"; textColor = "text-indigo-900"; iconBg = "bg-indigo-100"; }
+      if (emoji === '📝') { bgColor = "bg-slate-50"; borderColor = "border-slate-200"; textColor = "text-slate-800"; iconBg = "bg-slate-200"; }
+      if (emoji === '📊') { bgColor = "bg-emerald-50/40"; borderColor = "border-emerald-100"; textColor = "text-emerald-900"; iconBg = "bg-emerald-100"; }
+
+      result.push(
+        <div key={idx} className={`${bgColor} ${borderColor} border p-6 rounded-2xl mb-8 shadow-sm transition-all hover:shadow-md`}>
+          <div className="flex gap-4">
+            <span className={`${iconBg} w-10 h-10 rounded-xl flex items-center justify-center shrink-0 text-xl shadow-sm`}>{emoji}</span>
+            <div className="space-y-2">
+              <span className="text-[10px] font-black uppercase tracking-[0.2em] opacity-50 block">
+                {emoji === '📌' ? 'Quick Take' : emoji === '⚠️' ? 'The UPSC Trap' : emoji === '🔗' ? 'Static Connections' : emoji === '📊' ? 'Key Data' : emoji === '📰' ? 'Detailed Analysis' : emoji === '📝' ? 'Exam Angles' : 'Section'}
+              </span>
+              <div className={`${textColor} font-inter text-[15px] md:text-[16px] leading-relaxed`}>
+                {formatText(content)}
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+      return;
+    }
+
     // Headers
     if (trimmedLine.startsWith('###')) {
       flushList(idx);
       result.push(
-        <h3 key={idx} className="text-xl font-playfair font-bold text-slate-900 mt-10 mb-4 pb-2 border-b border-slate-100">
+        <h3 key={idx} className="text-xl font-playfair font-bold text-slate-900 mt-10 mb-6 pb-2 border-b border-slate-100 flex items-center gap-3">
+          <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
           {formatText(trimmedLine.replace(/^###\s*/, ''))}
         </h3>
       );
     } else if (trimmedLine.startsWith('##')) {
       flushList(idx);
       result.push(
-        <h2 key={idx} className="text-2xl font-playfair font-bold text-slate-900 mt-12 mb-6">
+        <h2 key={idx} className="text-2xl font-playfair font-bold text-slate-900 mt-12 mb-8">
           {formatText(trimmedLine.replace(/^##\s*/, ''))}
         </h2>
       );
     }
     // Bullet points
-    else if (trimmedLine.startsWith('- ') || trimmedLine.startsWith('* ')) {
+    else if (trimmedLine.startsWith('- ') || trimmedLine.startsWith('* ') || trimmedLine.startsWith('— ')) {
       currentList.push(
-        <li key={idx} className="text-slate-700 leading-relaxed">
-          {formatText(trimmedLine.replace(/^[-*]\s*/, ''))}
+        <li key={idx} className="text-slate-700 leading-relaxed font-inter">
+          {formatText(trimmedLine.replace(/^([-*]|—)\s*/, ''))}
         </li>
       );
     }
@@ -99,7 +190,7 @@ const renderContent = (text: string) => {
     else {
       flushList(idx);
       result.push(
-        <p key={idx} className="mb-6 leading-relaxed text-slate-700">
+        <p key={idx} className="mb-6 leading-relaxed text-slate-700 font-inter text-[16px] md:text-[17px]">
           {formatText(trimmedLine)}
         </p>
       );
@@ -107,6 +198,7 @@ const renderContent = (text: string) => {
   });
 
   flushList(lines.length);
+  flushTable(lines.length);
   return result;
 };
 
@@ -189,29 +281,7 @@ const CurrentAffairDetail = () => {
             <div className="absolute top-0 left-0 w-1.5 h-full bg-blue-600 rounded-l-3xl"></div>
             <div className="absolute -top-24 -right-24 w-64 h-64 bg-blue-200/40 rounded-full blur-3xl"></div>
             <div className="relative z-10 space-y-5">
-              {digest.announcement.split('\n').map((para, idx) => (
-                <div key={idx}>
-                  <p className={`text-slate-800 font-inter leading-relaxed text-[15px] md:text-[17px] ${idx === 0 ? 'font-bold text-blue-950 text-xl md:text-2xl mb-8 tracking-tight' : ''}`}>
-                    {linkify(para)}
-                  </p>
-                  {/* Insert hero image after the "Use the images for quick revision" line (usually index 2) */}
-                  {digest.heroImage && idx === 2 && (
-                    <div className="my-8 md:my-12 relative overflow-hidden rounded-2xl md:rounded-3xl shadow-xl group/hero border border-slate-200 bg-white">
-                      <img 
-                        src={digest.heroImage} 
-                        alt={digest.tagline} 
-                        className="w-full h-auto object-contain transition-transform duration-1000"
-                      />
-                      <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8">
-                        <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-900/80 backdrop-blur-md rounded-full border border-white/20">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                          <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-white">Today's Visual Card</span>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              ))}
+              {renderContent(digest.announcement)}
             </div>
           </section>
         )}
@@ -231,27 +301,6 @@ const CurrentAffairDetail = () => {
                 <h2 className="text-xl md:text-3xl font-playfair font-bold text-slate-900 mb-6 md:mb-8 border-b border-slate-100 pb-4 leading-snug">
                   {topic.title}
                 </h2>
-
-                {topic.image && (
-                  <div className="mb-10 md:mb-14 relative group/topic-img">
-                    <div className="absolute -inset-1 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-[1.5rem] md:rounded-[2rem] blur opacity-25 group-hover/topic-img:opacity-50 transition duration-1000 group-hover/topic-img:duration-200"></div>
-                    <div className="relative overflow-hidden rounded-[1.5rem] md:rounded-[2rem] border border-slate-100 bg-white shadow-sm">
-                      <img 
-                        src={topic.image} 
-                        alt={`Visual Card: ${topic.title}`} 
-                        className="w-full h-auto object-contain"
-                      />
-                      <div className="absolute top-4 right-4 flex gap-2">
-                         <span className="px-3 py-1 bg-blue-900/90 backdrop-blur-md text-white text-[8px] font-bold tracking-[0.2em] uppercase rounded-full border border-white/10 shadow-lg">
-                           Visual Card
-                         </span>
-                      </div>
-                    </div>
-                    <p className="mt-4 text-center text-slate-400 text-[10px] md:text-xs font-medium uppercase tracking-widest italic">
-                      Tip: Use the visual card for quick recall
-                    </p>
-                  </div>
-                )}
 
                 <div className="prose prose-slate max-w-none">
                   <div className="text-slate-700 leading-relaxed md:leading-[1.9] text-[15px] md:text-[17px] font-inter mb-10 space-y-6">
