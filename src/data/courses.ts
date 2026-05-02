@@ -121,5 +121,68 @@ This module is designed to help you master the 'Species' dimension of the Enviro
 5.  **Water Disputes**: Summary of ongoing inter-state water sharing disputes and relevant tribunals.
 
 This module is optimized for visual mapping and quick factual recall of drainage patterns.`
+  },
+  {
+    id: "revision-climatic-patterns",
+    title: "Neti Revision 05: Climatic Patterns",
+    description: "A specialized revision module covering global and Indian climatic patterns, monsoon mechanisms, and major weather systems for UPSC Prelims.",
+    price: 0,
+    pdfUrl: "/Revision_series/Neti Revision 05 Climatic Patterns.pdf",
+    previewImage: "/images/climatic_patterns.png",
+    category: "Revision Series",
+    duration: "Quick Read",
+    level: "Intermediate",
+    date: "2026-04-28",
+    content: `Climatic patterns and monsoon mechanisms are among the most conceptual areas of UPSC Geography. This module consolidates all major atmospheric and oceanic systems affecting Indian weather.
+
+### Key Highlights:
+1.  **Monsoon Dynamics**: Detailed breakdown of the onset, withdrawal, and the roles of Mascarene High, Somali Jet, and Tibetan Plateau.
+2.  **Oceanic Oscillations**: Understanding ENSO (El Niño, La Niña), IOD (Indian Ocean Dipole), and Madden-Julian Oscillation (MJO).
+3.  **Atmospheric Systems**: Tropical and Extra-tropical cyclones, Jet Streams, and the ITCZ migration.
+4.  **Climatic Regions**: Quick mapping of Koeppen's classification applied to the Indian subcontinent.
+
+This module is designed to help you move from rote learning to conceptual clarity in Geography.`
+  },
+  {
+    id: "revision-rbi-instruments",
+    title: "Neti Revision 06: RBI Instruments",
+    description: "A specialized revision module covering monetary policy tools, liquidity management, and RBI's regulatory framework for UPSC Prelims.",
+    price: 0,
+    pdfUrl: "/Revision_series/Neti Revision 06 RBI Instruments.pdf",
+    previewImage: "/images/rbi_instruments.png",
+    category: "Revision Series",
+    duration: "Quick Read",
+    level: "Intermediate",
+    date: "2026-04-29",
+    content: `Monetary policy is a core pillar of the Indian Economy. This module provides a crisp summary of RBI's quantitative and qualitative tools used for inflation targeting and growth.
+
+### Key Highlights:
+1.  **Quantitative Tools**: Repo, Reverse Repo, SDF, MSF, CRR, and SLR — understanding the 'Liquidity Corridor'.
+2.  **Qualitative Tools**: Moral suasion, direct action, and margin requirements.
+3.  **Market Operations**: Open Market Operations (OMO), Operation Twist, and Market Stabilisation Scheme (MSS).
+4.  **Regulatory Framework**: Prompt Corrective Action (PCA), Capital Adequacy Ratio (CAR), and the Basel III norms.
+
+This module is optimized for quick recall of the technical parameters of the Indian banking sector.`
+  },
+  {
+    id: "revision-gsec-budget",
+    title: "Neti Revision 07: G-Sec & Budget",
+    description: "A specialized revision module covering Government Securities (G-Sec), T-Bills, and the Union Budget process for UPSC Prelims.",
+    price: 0,
+    pdfUrl: "/Revision_series/Neti Revision 07 GSec Budget.pdf",
+    previewImage: "/images/gsec_budget.png",
+    category: "Revision Series",
+    duration: "Quick Read",
+    level: "Intermediate",
+    date: "2026-04-30",
+    content: `Government securities and the budgetary process are high-yield themes in the UPSC Prelims Economy section. This module demystifies the technical aspects of government borrowing and fiscal management.
+
+### Key Highlights:
+1.  **Government Securities**: Understanding Dated Securities, Treasury Bills (T-Bills), and Cash Management Bills (CMBs).
+2.  **Debt Management**: The role of PDMA, Sovereign Gold Bonds, and the external vs. internal debt profile.
+3.  **Budgetary Process**: Key constitutional provisions (Articles 112-117), Charged vs. Made expenditure, and the stages of passing the Budget.
+4.  **Fiscal Indicators**: Revenue Deficit, Fiscal Deficit, Primary Deficit, and the FRBM Act targets.
+
+This module is designed to help you master the data-heavy aspects of the Union Budget and Public Finance.`
   }
 ];

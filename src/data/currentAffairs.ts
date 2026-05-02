@@ -1907,5 +1907,120 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-04-30",
+    date: "30th April 2026",
+    day: "Thursday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ **Reading time**: ~18 minutes  |  📋 **Topics today**: 6  |  📝 **MCQs**: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 **TODAY AT A GLANCE**\n\n🔴 **NSO 80th Round Health Survey** — Insurance covers 47.4% of rural India, yet median OOPE per hospitalisation has doubled to ₹11,285\n🔴 **Vikram VT 21 Armoured Platform (DRDO)** — India's next-gen infantry combat vehicle co-developed with Bharat Forge & Tata Advanced Systems; replaces ageing BMP-2 fleet\n🔴 **Gujarat UCC Bill 2026** — Gujarat becomes second state after Uttarakhand to adopt UCC; excludes Scheduled Tribes; Article 44 DPSP operationalised at state level\n🟡 **V2V Communication Technology** — Government plans ₹5,000 crore network-free vehicle-to-vehicle rollout by end-2026 targeting India's 1.72 lakh annual road deaths\n🟡 **India Ports Record** — 13 Major Ports collectively handle 915.17 MT cargo in FY 2025-26, surpassing 904 MT target at 7.06% YoY growth\n🟢 **Newcastle Disease** — Highly contagious avian viral disease caused by APMV-1 spreading across Europe and UK; Three Forms; One Health relevance",
+    topics: [
+      {
+        id: "30-1",
+        title: "NSO 80th Round Health Survey: The Insurance Paradox",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Health, Governance)",
+        content: "The NSO's 80th round survey, conducted January to December 2025, is the most comprehensive household-level health data since the 75th round (2017-18). Key macro findings: 47.4% of rural and 44.3% of urban households are now covered under some form of health insurance — a more than two-and-a-half-fold rise in Government-Financed Health Insurance (GFHI) coverage. Schemes driving this include Ayushman Bharat-PMJAY, state-level GFHI programmes, ESIS, and CGHS. Positives include 1.84 lakh Ayushman Arogya Mandirs (AAMs) strengthening primary care, AMRIT pharmacies offering up to 50% medicine discounts, and improvements in institutional delivery rates.\n\nHowever, the survey flags serious structural gaps. Despite higher coverage, public facility utilisation for hospitalisation has declined. Private sector usage has surged, especially in urban areas. Independent analysis shows OOPE on hospitalisation more than doubled between 2017-18 and 2025. Average hospitalisation costs in private hospitals rose 70% (rural) and 80% (urban). Even in public hospitals, patients face charges for medicines and diagnostics due to systemic shortages. Among urban GFHI beneficiaries using insurance-linked care, only 13% belonged to the poorest income group — wealthier groups captured most of the benefit.",
+        whyItMatters: "UPSC will frame this as a statement-based question testing whether insurance coverage = financial protection. Students familiar only with government announcements will pick the option \"PMJAY has significantly reduced out-of-pocket expenditure for hospitalisation\" as TRUE — but the NSO data shows OOPE has more than doubled, not fallen. The trap: confusing coverage (who is insured) with utilisation (who actually benefits) with financial protection (does it reduce costs).",
+        revise: "Ayushman Bharat–PMJAY: Architecture, eligibility (bottom 40% by SECC data), coverage limit (₹5 lakh/family/year), secondary & tertiary care focus; National Health Mission (NHM): Framework under which AAMs operate; Centre-State funding pattern; RMNCH+A strategy; Universal Health Coverage (UHC): WHO definition, three dimensions (population coverage, services covered, financial risk protection); Out-of-Pocket Expenditure (OOPE): India's OOPE as % of total health expenditure vs. global benchmarks; ESIC and CGHS; Article 21 and Article 47 (DPSP).",
+        pyqConnect: "UPSC CSE Mains 2019 GS II — \"The Pradhan Mantri Jan Arogya Yojana is likely to achieve its objective of providing affordable healthcare to the poor. Comment.\""
+      },
+      {
+        id: "30-2",
+        title: "Vikram VT 21: DRDO'S Advanced Armoured Platform",
+        subtitle: "🔴 Must Read | Both | GS Paper III (Security, S&T, Defence Manufacturing)",
+        content: "DRDO has launched the Vikram VT 21 project — two variants of an Advanced Armoured Platform (wheeled and tracked) designed to replace the BMP-2 infantry combat vehicles currently in service with the Indian Army. The platform is being co-developed with Bharat Forge Limited and Tata Advanced Systems Limited, marking a significant push under India's Atmanirbhar Bharat defence manufacturing framework.\n\nThe Vehicles Research and Development Establishment (VRDE), a DRDO lab, is leading the Vikram VT 21 programme in collaboration with Bharat Forge, Tata Advanced Systems Limited, and multiple MSMEs. The platform features two variants: a wheeled version (faster, suited to urban and road operations) and a tracked version (for rough, uneven, cross-country terrain similar to tank operations). Key capabilities include enhanced armour protection against projectiles, blasts and shrapnel; a 30 mm crewless turret; Nag missile integration; amphibious capability; and network-centric warfare integration through sensors, communication systems, and real-time data sharing.",
+        whyItMatters: "Students frequently confuse DRDO's Development-cum-Production Partner (DcPP) model with the Strategic Partnership Model (SPM) under the Defence Acquisition Procedure. They are different: DcPP is DRDO-led with the private sector as a manufacturing/co-development partner; the Strategic Partnership Model is a Ministry of Defence policy under DAP 2020 for selecting a single Indian private firm as lead integrator for specific capital platforms. The Vikram VT 21 is under DcPP.",
+        revise: "Atmanirbhar Bharat in Defence: Positive indigenisation lists, Defence Acquisition Procedure 2020, iDEX scheme, ADITI framework; DRDO Laboratory System: VRDE (vehicles), DRDL (missiles), DMRL (materials), CAIR (AI/robotics); Infantry Combat Vehicles vs. Main Battle Tanks: BMP-2 (ICV) vs. Arjun MBT vs. Zorawar (Light Tank, L&T).",
+        pyqConnect: "UPSC CSE Prelims 2022 — \"With reference to the Indian Territorial Army, which of the following statements is/are correct?\" — Part of a recurring cluster on defence bodies/systems. The Vikram VT 21 connects to UPSC Mains 2021 GS III — \"What is the significance of indigenisation of defence? Illustrate with examples.\""
+      },
+      {
+        id: "30-3",
+        title: "Gujarat UCC Bill 2026: Article 44 Becomes Operational",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Polity, Governance, Social Justice)",
+        content: "Gujarat passed the Uniform Civil Code (UCC) Bill, 2026 on March 24, 2026, becoming the second state after Uttarakhand (2024) to enact a UCC. The bill was introduced by Chief Minister Bhupendra Patel following a report by a state-level committee chaired by retired Supreme Court judge Justice Ranjana Prakash Desai.\n\nCore provisions: a common legal framework for marriage, divorce, succession, and live-in relationships irrespective of religion; mandatory registration of marriages within 60 days (penalty up to ₹10,000 for default); live-in relationships must be registered within 30 days; strict prohibition on polygamy and bigamy; seven-year jail term for marriages conducted through force, coercion, or fraud; equal inheritance rights for sons and daughters. The code does NOT apply to Scheduled Tribes (STs) and constitutionally protected customary groups.",
+        whyItMatters: "UPSC will test whether students know that the UCC is a DPSP — not a Fundamental Right — and therefore not enforceable in court by individuals. Article 44 merely directs the state to endeavour to secure a UCC, it does not mandate it. Students will confuse this with justiciable rights. Second trap: UPSC may frame a statement claiming the UCC applies to ALL communities including Scheduled Tribes — this is FALSE. Both Gujarat and Uttarakhand explicitly exempt STs.",
+        revise: "Article 44: DPSP — Uniform Civil Code; Article 25 vs. Article 26: Freedom of religion (individual) vs. freedom to manage religious affairs (denominational); Personal Laws currently in force: Hindu Marriage Act 1955, Hindu Succession Act 1956, Muslim Personal Law (Shariat) Application Act 1937, etc.; Key SC judgments on UCC: Shah Bano (1985), Sarla Mudgal (1995), Seema v. Ashwani Kumar (2006); Fifth Schedule vs. Sixth Schedule: Exemptions for tribal communities.",
+        pyqConnect: "UPSC CSE Mains 2020 GS II — \"Discuss the essential conditions for the exercise of the legislative powers by the Centre over the subjects enumerated in the State List. Can the Directive Principles of State Policy be used as a legal basis for such legislation?\""
+      },
+      {
+        id: "30-4",
+        title: "Vehicle-to-Vehicle (V2V) Communication: India's Road Safety Leap",
+        subtitle: "🟡 Important | Prelims + Mains | GS Paper III (S&T, Infrastructure, Road Safety)",
+        content: "The Ministry of Road Transport and Highways (MoRTH) is preparing to notify Vehicle-to-Vehicle (V2V) communication technology for nationwide rollout by end-2026 — at an estimated cost of ₹5,000 crore. India has the highest number of road accident fatalities globally — 1,72,890 deaths in 2023 across 4,80,583 accidents.\n\nV2V is a subset of Vehicle-to-Everything (V2X) technology and falls under Intelligent Transport Systems (ITS). Each vehicle is fitted with a dedicated SIM-like communication device that constantly broadcasts and receives signals from nearby vehicles — exchanging real-time data on speed, location, acceleration, and braking patterns. This works without mobile networks or internet — making it functional even in network-dead rural zones and during dense fog. Range: approximately 300 metres.",
+        whyItMatters: "V2V is a subset of V2X — not the same thing. UPSC may present a statement claiming V2V and V2X are synonymous — that is false. Also: V2V does NOT require internet or mobile networks (unlike GPS navigation apps or cloud-based traffic management). Students familiar only with digital India/connectivity policy may assume it requires 5G — incorrect. The communication protocol used is DSRC (Dedicated Short Range Communication) or C-V2X (Cellular V2X) standards.",
+        revise: "Motor Vehicles (Amendment) Act 2019; National Road Safety Policy; ADAS: Adaptive cruise control, lane departure warning, etc.; Intelligent Transport Systems (ITS); Bharat NCAP (launched 2023); 5G and IoT applications in infrastructure.",
+        pyqConnect: "UPSC CSE Prelims 2021 — \"With reference to the recent development in science, which of the following difference/differences can be seen between the Internet of Things (IoT) devices...\""
+      },
+      {
+        id: "30-5",
+        title: "India Ports Record: 915.17 MT in FY 2025-26",
+        subtitle: "🟡 Important | Prelims | GS Paper III (Economy, Infrastructure, Maritime)",
+        content: "India's 13 Major Ports collectively handled 915.17 MT of cargo in FY 2025-26 — surpassing the 904 MT target with 7.06% year-on-year growth. Released on National Maritime Day (April 5). Deendayal Port Authority leads at 160.11 MT, becoming the first Indian port to cross 160 MT in a single year.\n\nPort-wise leaders: Deendayal Port Authority (160.11 MT) reclaimed top position from Paradip Port Authority (156.45 MT); JNPA third at 102.01 MT. Highest growth rate: Mormugao Port (Goa) at 15.91%, followed by Kolkata Dock System at 14.28%, and JNPA at 10.74%. Growth drivers: infrastructure upgrades, mechanisation, digital initiatives (PortsConnect platform), reduced vessel turnaround time, and Sagarmala project investments.",
+        whyItMatters: "UPSC matching-pair questions frequently confuse ports with their locations and characteristics. Key traps: Deendayal Port is in Kutch, Gujarat (not Mumbai). Paradip Port is in Odisha (not Andhra Pradesh). JNPA (Jawaharlal Nehru Port Authority) is Maharashtra's containerised cargo hub. Kolkata Port / Syama Prasad Mookerjee Port is India's only major riverine port.",
+        revise: "Major Ports Act 2021; Sagarmala Project: Port-led development programme; Maritime Amrit Kaal Vision 2047; National Maritime Day (April 5): SS Loyalty (1919); Inland Waterways Authority of India (IWAI).",
+        pyqConnect: "UPSC CSE Prelims 2022 — \"With reference to India's major ports, consider the following statements...\" — exact same format will recur with updated data."
+      },
+      {
+        id: "30-6",
+        title: "Newcastle Disease: Avian Virus, One Health Alert",
+        subtitle: "🟢 Good to Know | Prelims | GS Paper III (S&T, Environment, One Health)",
+        content: "Newcastle Disease — a highly contagious viral disease affecting poultry and wild birds — is spreading across Europe and the UK, triggering concern in the global poultry trade and raising One Health flags. Caused by Avian Paramyxovirus Serotype 1 (APMV-1), it exists in three distinct forms of varying virulence: Lentogenic (mild), Mesogenic (moderate), and Velogenic (highly virulent).\n\nTransmission occurs via respiratory droplets, exhaled air, and faeces of infected birds. The disease is not a food safety concern for humans (thoroughly cooked poultry is safe), but human handlers can develop mild conjunctivitis from direct exposure to infected birds — making it a weak zoonotic concern. It is listed under the World Organisation for Animal Health (WOAH, formerly OIE) as a notifiable disease.",
+        whyItMatters: "Students will confuse Newcastle Disease with Avian Influenza (Bird Flu, H5N1/H5N8) — both affect birds, both cause respiratory and neurological symptoms. Key difference: Avian Influenza has serious human pandemic potential; Newcastle Disease does NOT. APMV-1 (Newcastle) is NOT an influenza virus — it is a paramyxovirus. Second trap: lentogenic, mesogenic, and velogenic are the three forms — lentogenic is the mildest, velogenic is the most lethal.",
+        revise: "One Health Approach: WHO-FAO-WOAH tripartite framework; WOAH (World Organisation for Animal Health); Zoonotic Diseases: Nipah, Monkeypox, MERS, etc.; Avian Influenza vs. Newcastle Disease; National Livestock Mission; DAHD (Dept of Animal Husbandry and Dairying).",
+        pyqConnect: "UPSC CSE Prelims 2022 — \"Which of the following are the reasons for the occurrence of multi-drug resistance in microbial pathogens in India?\""
+      }
+    ],
+    reviseSummary: [
+      "NSO Health Survey: Insurance coverage has more than doubled since 2017-18, yet OOPE per hospitalisation has also more than doubled to ₹11,285.",
+      "Vikram VT 21: DRDO lab VRDE is leading the project with Bharat Forge and Tata to replace ageing BMP-2 fleet.",
+      "Gujarat UCC: Gujarat becomes the second state to adopt UCC, following Uttarakhand; explicitly exempts Scheduled Tribes.",
+      "V2V Technology: Government plans ₹5,000 crore network-free V2V rollout by 2026 to improve road safety.",
+      "Ports Record: 13 Major Ports handle 915.17 MT cargo in FY 2025-26; Deendayal Port (Gujarat) leads.",
+      "Newcastle Disease: Avian viral disease spreading across Europe; caused by APMV-1; weak zoonotic concern."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the NSO 80th Round Survey on Household Social Consumption: Health (2025):\n1. Rural household health insurance coverage now stands at 47.4%, primarily driven by Government-Financed Health Insurance schemes.\n2. Out-of-pocket expenditure (OOPE) per hospitalisation has declined significantly following the expansion of Ayushman Bharat-PMJAY.\n3. Median OOPE in public hospitals in 2025 is approximately ₹1,100 per hospitalisation case.\nWhich of the statements given above is/are correct?",
+          options: ["1 and 3 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+          answer: "1 and 3 only",
+          explanation: "Statement 1 is correct. Statement 3 is correct. Statement 2 is the trap: OOPE has MORE THAN DOUBLED between 2017-18 and 2025, not declined."
+        },
+        {
+          question: "With reference to the Uniform Civil Code (UCC), consider the following pairs:\n1. Article 44 — Directive Principle of State Policy (non-justiciable)\n2. Article 25 — Fundamental Right guaranteeing freedom of religion\n3. Article 13 — Applies to laws that violate Directive Principles\nWhich of the pairs given above is/are correctly matched?",
+          options: ["1 and 2 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+          answer: "1 and 2 only",
+          explanation: "Article 44 is a DPSP. Article 25 is a Fundamental Right. Statement 3 is false: Article 13 applies to laws violating Fundamental Rights, not DPSPs."
+        },
+        {
+          question: "Statement I: Vehicle-to-Vehicle (V2V) communication technology allows vehicles to exchange real-time safety data without requiring mobile network or internet connectivity.\nStatement II: V2V technology is a subset of Vehicle-to-Everything (V2X) technology, which also encompasses communication between vehicles and infrastructure, pedestrians, and networks.",
+          options: ["Both correct; II explains I", "Both correct; II does not explain I", "I is correct; II is incorrect", "I is incorrect; II is correct"],
+          answer: "Both correct; II does not explain I",
+          explanation: "Both statements are correct. V2V operates on DSRC/C-V2X protocols independently of mobile networks. However, Statement II does not explain why Statement I is true."
+        },
+        {
+          question: "Match the following Major Ports with their respective States:\n1. Deendayal Port — (i) Odisha\n2. Paradip Port — (ii) Maharashtra\n3. Mormugao Port — (iii) Gujarat\n4. Syama Prasad Mookerjee Port — (iv) Goa\n                                  (v) West Bengal",
+          options: ["1–iii, 2–i, 3–iv, 4–v", "1–iii, 2–i, 3–ii, 4–v", "1–ii, 2–i, 3–iv, 4–v", "1–iii, 2–ii, 3–iv, 4–v"],
+          answer: "1–iii, 2–i, 3–iv, 4–v",
+          explanation: "Deendayal (Gujarat), Paradip (Odisha), Mormugao (Goa), Syama Prasad Mookerjee (West Bengal)."
+        },
+        {
+          question: "With reference to Newcastle Disease, which of the following statements is/are correct?\n1. It is caused by Avian Paramyxovirus Serotype 1 (APMV-1), not an influenza virus.\n2. The velogenic form of Newcastle Disease is the mildest in terms of virulence.\n3. Newcastle Disease is notifiable to the World Organisation for Animal Health (WOAH).",
+          options: ["1 and 3 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+          answer: "1 and 3 only",
+          explanation: "Statement 1 is correct. Statement 3 is correct. Statement 2 is false: Velogenic is the MOST VIRULENT form, while Lentogenic is the mildest."
+        }
+      ],
+      mains: [
+        {
+          question: "India's progress in health insurance coverage under Ayushman Bharat has not delivered proportionate financial protection to the poor. Critically examine.",
+          context: "GS Paper II | 250 words. Focus on insurance vs. utilisation vs. financial protection; bring in OOPE data; suggest systemic reform directions."
+        },
+        {
+          question: "The adoption of Uniform Civil Codes at the state level before a national consensus raises both constitutional opportunity and democratic risk. Discuss.",
+          context: "GS Paper II | 150 words. Discuss Article 44, state-level UCC vs. parliamentary one, tribal exemptions, and religious plurality."
+        }
+      ]
+    }
   }
 ];
