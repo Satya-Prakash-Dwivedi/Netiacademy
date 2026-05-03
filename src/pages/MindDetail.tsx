@@ -1,6 +1,7 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { mindBlogs } from "../data/mindBlogs";
 import { useState } from "react";
+import { SEO } from "../components/SEO";
 
 const renderContent = (content: string) => {
   const lines = content.split('\n');
@@ -98,6 +99,12 @@ const MindDetail = () => {
 
   return (
     <div className="min-h-screen relative overflow-hidden bg-[#FDFBF9] py-12 md:py-20 px-4 sm:px-6 selection:bg-[#FFE3D8] selection:text-slate-900">
+      <SEO 
+        title={post.title} 
+        description={post.excerpt} 
+        ogType="article" 
+        canonicalUrl={window.location.href}
+      />
       
       {/* Side Aesthetic Vector Graphics */}
       <div className="hidden lg:block absolute -left-12 top-[15%] w-[26rem] h-[40rem] select-none pointer-events-none text-[#F4DCD5] z-0 transition-transform duration-1000 ease-in-out">

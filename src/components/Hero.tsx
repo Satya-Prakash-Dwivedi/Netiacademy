@@ -50,10 +50,16 @@ const Hero = () => {
 
             <div className="flex items-center justify-between mb-8 md:mb-12 border-b border-slate-200 pb-6 md:pb-8 relative z-10">
               <div>
-                <h3 className="text-xl md:text-3xl font-playfair font-bold text-slate-900">Daily Analysis</h3>
-                <p className="text-[9px] md:text-[10px] text-blue-600 font-bold tracking-[0.2em] uppercase mt-2">
-                  Curated Updates
-                </p>
+                <h3 className="text-xl md:text-3xl font-playfair font-bold text-slate-900 leading-tight">Daily Analysis</h3>
+                <div className="flex items-center gap-2 mt-2">
+                  <span className="flex h-1.5 w-1.5">
+                    <span className="animate-ping absolute inline-flex h-1.5 w-1.5 rounded-full bg-blue-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-blue-600"></span>
+                  </span>
+                  <p className="text-[9px] md:text-[10px] text-blue-600 font-bold tracking-[0.2em] uppercase">
+                    New Update Daily at 9 PM
+                  </p>
+                </div>
               </div>
               <Link to="/current-affairs" className="text-[9px] md:text-[10px] font-bold text-slate-400 hover:text-blue-900 transition-colors border border-slate-200 px-3 md:px-5 py-2 md:py-2.5 rounded-full hover:bg-white flex items-center gap-2 uppercase tracking-widest whitespace-nowrap">
                 All Updates <span>→</span>

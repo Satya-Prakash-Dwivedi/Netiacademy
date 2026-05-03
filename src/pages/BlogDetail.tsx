@@ -1,6 +1,8 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { platformAnnouncements, type Announcement } from "../data/announcements";
+import { SEO } from "../components/SEO";
+import { FileDown, ShieldAlert, Share2, ArrowLeft } from "lucide-react";
 
 const BlogDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -11,12 +13,25 @@ const BlogDetail = () => {
     setPost(found || null);
   }, [id]);
 
+  // Anti-copy handler
+  const handleCopy = (e: React.ClipboardEvent) => {
+    e.preventDefault();
+    alert("Copying content is disabled to protect our intellectual property. You can share the link instead.");
+  };
+
   if (!post) {
     return <div className="p-20 text-center">Loading...</div>;
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
+    <div className="max-w-4xl mx-auto px-6 py-16" onCopy={handleCopy} onContextMenu={(e) => e.preventDefault()}>
+      <SEO 
+        title={post.title} 
+        description={post.excerpt} 
+        ogType="article" 
+        canonicalUrl={window.location.href}
+        ogImage={post.image}
+      />
       <header className="mb-12">
         <div className="flex items-center gap-4 mb-6">
            <span className="px-3 py-1 bg-blue-50 text-blue-800 text-xs font-bold uppercase tracking-wider rounded-full">
@@ -29,12 +44,12 @@ const BlogDetail = () => {
         <h1 className="text-5xl font-playfair font-bold text-slate-900 mb-8 font-primary">
           {post.title}
         </h1>
-        <div className="aspect-video w-full rounded-2xl overflow-hidden mb-12">
+        <div className="aspect-video w-full rounded-2xl overflow-hidden mb-12 shadow-xl border border-slate-100">
            <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
         </div>
       </header>
       
-      <article className="prose prose-lg prose-slate max-w-none">
+      <article className="prose prose-lg prose-slate max-w-none select-none">
          <div className="text-slate-700 leading-relaxed font-inter space-y-6">
             {post.content.split('\n').map((para, idx) => {
                if (!para.trim()) return null;
@@ -56,7 +71,7 @@ const BlogDetail = () => {
                    return <h3 key={idx} className="text-2xl font-bold font-playfair text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-2" dangerouslySetInnerHTML={parseInline(para.replace('### ', ''))} />
                }
                
-               if (para.startsWith('- ') || para.startsWith('1. ') || para.startsWith('2. ') || para.startsWith('3. ')) {
+               if (para.startsWith('- ') || /^\d+\. /.test(para)) {
                    return <p key={idx} className="ml-4 flex items-start gap-2">
                       <span className="text-blue-900 font-bold">•</span>
                       <span dangerouslySetInnerHTML={parseInline(para.replace(/^- |^\d+\. /, ''))} />
@@ -68,6 +83,54 @@ const BlogDetail = () => {
                return <p key={idx} dangerouslySetInnerHTML={parseInline(para)} />
             })}
          </div>
+
+         {/* Redirect for Magazines to Courses Page */}
+         {post.category === "Magazine" ? (
+           <div className="mt-12 p-10 bg-blue-50/50 rounded-[2rem] border border-blue-100/50 text-center relative overflow-hidden group">
+              <div className="relative z-10 py-4">
+                <h3 className="text-3xl font-bold text-slate-900 mb-4 font-playfair">Magazine Now Available</h3>
+                <p className="text-slate-600 mb-8 text-base max-w-xl mx-auto leading-relaxed">
+                  We are pleased to announce that the <strong className="text-blue-900 font-bold">{post.title}</strong> has been released. You can now access and download the full module through our dedicated Courses portal.
+                </p>
+                <Link 
+                  to="/courses"
+                  className="inline-flex items-center gap-3 px-10 py-4 bg-blue-900 text-white font-bold text-[10px] uppercase tracking-[0.2em] rounded-xl hover:bg-slate-900 transition-all shadow-xl shadow-blue-100 group/link"
+                >
+                  Go to Course Page
+                  <span className="group-hover:translate-x-1 transition-transform">→</span>
+                </Link>
+              </div>
+           </div>
+         ) : (
+           /* Standard PDF Section for other announcements if any */
+           post.pdfUrl && (
+             <div className="mt-12 p-8 bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl border border-slate-700 shadow-2xl overflow-hidden relative group">
+                <div className="absolute top-0 right-0 p-4 opacity-10">
+                  <FileDown size={120} />
+                </div>
+                <div className="relative z-10">
+                  <div className="flex items-center gap-3 text-blue-400 mb-4">
+                    <ShieldAlert size={20} />
+                    <span className="text-sm font-bold tracking-widest uppercase">Secure Access</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 font-playfair">Download the Magazine</h3>
+                  <p className="text-slate-300 mb-8 text-sm max-w-lg leading-relaxed">
+                    This premium resource is available for offline preparation. Please note that text extraction and editing are disabled to protect the integrity of the content.
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    <a 
+                      href={post.pdfUrl}
+                      download
+                      className="flex items-center gap-2 px-6 py-3 bg-white text-slate-900 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-lg active:scale-95"
+                    >
+                      <FileDown size={18} />
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+             </div>
+           )
+         )}
       </article>
 
       <div className="mt-16 pt-12 border-t border-slate-100 flex items-center justify-between">
@@ -75,7 +138,8 @@ const BlogDetail = () => {
            onClick={() => window.history.back()}
            className="text-sm font-bold text-slate-500 hover:text-[#1E3A8A] transition-colors flex items-center gap-2"
          >
-           ← Back to Announcements
+           <ArrowLeft size={16} />
+           Back to Announcements
          </button>
          <button 
             onClick={async () => {
@@ -94,8 +158,9 @@ const BlogDetail = () => {
                 alert('Link copied to clipboard!');
               }
             }}
-            className="text-sm font-bold text-[#1E3A8A] underline hover:text-blue-700 transition-colors"
+            className="text-sm font-bold text-[#1E3A8A] hover:text-blue-700 transition-colors flex items-center gap-2 group"
          >
+            <Share2 size={16} className="group-hover:rotate-12 transition-transform" />
             Share this Article
          </button>
       </div>

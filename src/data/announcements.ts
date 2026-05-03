@@ -7,6 +7,7 @@ export interface Announcement {
   date: string;
   author: string;
   image: string;
+  pdfUrl?: string; // Optional PDF link
 }
 
 export const platformAnnouncements: Announcement[] = [
@@ -82,5 +83,39 @@ Welcome. We are glad you are here.
     date: "April 10, 2026",
     author: "Neti Founder",
     image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    id: "neti-prelims-environment-ecology-magazine",
+    title: "Neti Prelims: Environment & Ecology Magazine Released",
+    category: "Magazine",
+    excerpt: "Comprehensive 18-month coverage (Oct 2024 – March 2026) for UPSC Prelims 2026. Prioritized, syllabus-connected, and built for recall.",
+    content: `You are holding the first edition of **Neti Prelims — Environment & Ecology**. 
+
+This magazine covers the eighteen months of environment current affairs most likely to be tested in UPSC Prelims 2026: **October 2024 to March 2026**. It is built on one core idea: you do not need more information; you need less information, presented better.
+
+### What's Inside the 70-Page Edition:
+1.  **International Conventions & COPs**: Detailed outcomes of COP29 Baku, COP30 Belém, and CBD COP16.
+2.  **Climate Change & India's Commitments**: Tracking India's NDC progress, Panchamrit goals, and the new Carbon Credit Trading Scheme (CCTS).
+3.  **Biodiversity & Species**: Latest IUCN Red List updates, Project Cheetah milestones, and Invasive Species reports.
+4.  **Protected Areas**: Coverage of India's 98 Ramsar sites and 58 Tiger Reserves (including new additions like Madhav and Guru Ghasidas).
+5.  **Governance & Tech**: PM Surya Ghar Muft Bijli Yojana, Green Hydrogen Mission, and E-Waste Rules 2024.
+6.  **Quick Revision**: The **Top 30 Must-Know Facts** for the night before the exam.
+7.  **Assessment**: A **Grand Practice Test** with 25 UPSC-pattern MCQs and detailed explanations.
+
+### The Neti Priority System
+Every topic in this magazine is labeled to help you manage your time:
+-   **MUST-KNOW**: High probability of direct questions.
+-   **SHOULD-KNOW**: Moderate probability; do not skip.
+-   **GOOD-TO-KNOW**: Useful for elimination in Prelims.
+
+### Note on Secure Access
+To maintain the integrity of our research, this PDF is protected against text copying. We recommend using Adobe Acrobat or Google Chrome for the best viewing experience.
+
+Stay Focused. Stay Neti.
+— Team Neti Academy`,
+    date: "April 24, 2026",
+    author: "Neti Content Team",
+    image: "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&q=80&w=1000",
+    pdfUrl: "/Magazines/NetiPrelims-Environment.pdf"
   }
 ];

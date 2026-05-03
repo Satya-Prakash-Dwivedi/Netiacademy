@@ -95,7 +95,7 @@ The mind is not the enemy of your preparation. An unmanaged mind is. Let's start
     date: "April 8, 2026",
     author: "Neti Academy",
     readTime: "4 min read",
-    image: "/images/mind1.png"
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "why-upsc-preparation-is-uniquely-hard-on-the-mind",
@@ -197,7 +197,7 @@ The zebra recovers from the chase because the threat ends. Your threat doesn't e
     date: "April 9, 2026",
     author: "Neti Academy",
     readTime: "6 min read",
-    image: "/images/mind2.png"
+    image: "https://images.unsplash.com/photo-1499209974431-9dac3adaf471?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "the-difference-between-stress-and-anxiety",
@@ -307,7 +307,7 @@ Knowing which one you are dealing with, at any given moment, is the beginning of
     date: "April 10, 2026",
     author: "Neti Academy",
     readTime: "6 min read",
-    image: "/images/mind3.png"
+    image: "https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "why-your-brain-catastrophises-before-every-mock-test",
@@ -420,7 +420,7 @@ The catastrophising was never about the mock. It was your brain trying to keep y
     date: "April 11, 2026",
     author: "Neti Academy",
     readTime: "7 min read",
-    image: "/images/mind4.png"
+    image: "https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "you-are-not-weak-for-struggling",
@@ -546,7 +546,7 @@ That is where recovery from shame begins.
     date: "April 12, 2026",
     author: "Neti Academy",
     readTime: "5 min read",
-    image: "/images/mind5.png"
+    image: "https://images.unsplash.com/photo-1516302752625-fbc4c503f130?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "what-balance-actually-looks-like-during-upsc-prep",
@@ -654,7 +654,7 @@ Balance is not an achievement. It is a daily practice. Like the Gita says — yu
     date: "April 14, 2026",
     author: "Neti Academy",
     readTime: "6 min read",
-    image: "/images/mind6.png"
+    image: "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&q=80&w=1000"
   }
 ];
 
