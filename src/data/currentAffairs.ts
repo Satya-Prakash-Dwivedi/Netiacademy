@@ -2022,5 +2022,370 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-01",
+    date: "1st May 2026",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~12 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 SIPRI Report 2025 — India ranks 5th globally in military spending at $92.1 billion; global expenditure hits $2,887 billion — 11th consecutive annual rise\n🔴 SEBI PaRRVA — India's first framework to independently verify past performance claims of investment advisers and research analysts; goes live May 4, 2026\n🔴 Nilgiris Wildfires — Fires burning since April 15 in Mudumalai Tiger Reserve & Wenlock Downs; helicopters from Sulur AFB deployed, 400+ personnel mobilised\n🟡 Ecocide & International Law — Growing global push to add ecocide as the 5th crime under the ICC's Rome Statute; The Hindu asks: does current law fall short?\n🟡 India–Italy MCP 2026-27 — Bilateral Military Cooperation Plan exchanged; focus on Atmanirbhar Bharat co-production and IFC-IOR maritime intelligence sharing\n🟢 International Labour Day — May 1, 2026 theme: \"Ensuring a Healthy Psychosocial Working Environment\"; Singaravelu Chettiar's legacy and India's Four Labour Codes\n\n🔴 Must Read  |  🟡 Important  |  🟢 Good to Know",
+    topics: [
+      {
+        id: "1-1",
+        title: "SIPRI REPORT 2025: GLOBAL MILITARY SPENDING",
+        subtitle: "🔴 Must Read | Both (Prelims + Mains) | GS II (International Relations), GS III (Security)",
+        content: "The Stockholm International Peace Research Institute (SIPRI) published its annual military expenditure report on April 27, 2026. Global military spending reached $2,887 billion in 2025, rising 2.9% in real terms — the 11th straight year of increase. Military expenditure as a share of world GDP hit 2.5%, the highest since 2009.\n\nThe United States retained the top position at $954 billion (down 7.5% from 2024, primarily because no new Ukraine military assistance was approved). China remained second at an estimated $336 billion — its 31st consecutive annual increase. Russia followed at approximately $190 billion. Germany, at $114 billion, ranked fourth after a 24% increase. India ranked fifth at $92.1 billion, up 8.9% — overtaking the United Kingdom. India now accounts for 3.2% of global military spending.\n\nIndia's increase was attributed directly to post-Operation Sindoor procurement covering drones, counter-drone systems, and air defence platforms following the May 2025 India-Pakistan conflict. Pakistan's spending rose 11% to $11.9 billion (ranked 31st globally). India outspends Pakistan by more than seven to one. Europe saw the sharpest collective rise — up 14% to $864 billion — driven by NATO rearmament. Asia-Oceania rose 8.1% to $681 billion.\n\n| Country | Military Spend (2025) | Change YoY | Global Rank |\n|---|---|---|---|\n| USA | $954 billion | –7.5% | 1st |\n| China | $336 billion | +7.4% | 2nd |\n| Russia | ~$190 billion | est. | 3rd |\n| Germany | $114 billion | +24% | 4th |\n| India | $92.1 billion | +8.9% | 5th |\n| UK | $89.0 billion | –2.0% | 6th |\n| Saudi Arabia | $83.2 billion | +1.4% | 8th |\n| Ukraine | $84.1 billion | +20% | 7th |\n| Pakistan | $11.9 billion | +11% | 31st |\n| World Total | $2,887 billion | +2.9% | — |",
+        whyItMatters: "📌 India became the world's 5th largest military spender in 2025 at $92.1 billion — overtaking the UK — as post-Operation Sindoor procurement drove an 8.9% surge. Global spending reached $2,887 billion, the 11th consecutive annual increase, with military burden at 2.5% of world GDP — the highest since 2009.\n\n⚠️ **Trap:** Students will misread the US decline as the US \"reducing\" its military posture. UPSC will test why US spending fell. The answer is mechanical — no new Ukraine military assistance was approved. The US still increased investment in nuclear modernisation and Indo-Pacific deterrence. The decline is in the accounting of donor-country military aid, not in combat readiness spending.\n\n⚠️ **Second trap:** India \"moving to 5th\" sounds like a new development. But India has been in the top 5 for several years. The specific data point for Prelims is: **India overtook the UK in 2025 to claim 5th rank.** Students who write \"India was already 5th before\" will be wrong.\n\n⚠️ **Third trap:** SIPRI is often confused with an international body. It is a Swedish independent research institute — not a UN body, not a treaty organisation.",
+        revise: "🔗 **Operation Sindoor (May 2025):** Context for India's procurement surge; India-Pakistan Line of Control, Pahalgam attack\n🔗 **Atmanirbhar Bharat in Defence:** DRDO, DPP 2020, positive indigenisation lists — why India's procurement is shifting in composition even as volume grows\n🔗 **NATO:** Its 2% GDP spending guideline, Article 5 collective defence mechanism — why 22 of 32 members now meet the threshold\n🔗 **Arms Trade Treaty (2014):** India's position; SIPRI vs. UNROCA (UN Register of Conventional Arms)\n🔗 **Nuclear doctrine:** India's No First Use policy; Pakistan's asymmetric deterrence — relevant to any Mains question on India-Pakistan security dynamics",
+        pyqConnect: "UPSC Prelims 2020 — \"Which of the following statements about the Stockholm International Peace Research Institute is/are correct?\" (Year confirmed from standard PYQ databases.)"
+      },
+      {
+        id: "1-2",
+        title: "SEBI PaRRVA: VERIFYING WHAT ADVISERS CLAIM",
+        subtitle: "🔴 Must Read | Prelims | GS III (Economy & Financial Regulation)",
+        content: "The Securities and Exchange Board of India issued a circular on April 29, 2026, operationalising the PaRRVA framework. The initiative addresses a longstanding gap: financial intermediaries — investment advisers (IAs), research analysts (RAs), and algorithmic trading service providers — had no standardised, independent system to verify the performance claims they made to clients and in advertisements.\n\nUnder PaRRVA, CARE Ratings Limited has been designated as the verification agency. The National Stock Exchange of India (NSE) will serve as the PaRRVA Data Centre (PDC), handling data storage and validation. Regulated entities wishing to showcase past returns must submit data for verification before it can be used in client communication or advertising. PaRRVA-certified data will carry authentication that investors can independently check. The framework was originally issued on April 4, 2025; a pilot phase ran from December 8, 2025. Full operations commence May 4, 2026. Entities may still display historical unverified data until May 3, 2028, after which only PaRRVA-verified records will be permitted.\n\n| Parameter | Detail |\n|---|---|\n| Full name | Past Risk and Return Verification Agency (PaRRVA) |\n| Established by | SEBI (circular dated April 29, 2026) |\n| Verification agency | CARE Ratings Limited |\n| Data Centre (PDC) | National Stock Exchange (NSE) |\n| Pilot phase began | December 8, 2025 |\n| Full operations | May 4, 2026 |\n| Entities covered | Investment Advisers, Research Analysts, Algo trading providers |\n| Transition deadline | May 3, 2028 (for historical unverified data) |",
+        whyItMatters: "📌 SEBI has operationalised PaRRVA — the Past Risk and Return Verification Agency — through a circular dated April 29, 2026. Full operations begin May 4. CARE Ratings is designated as the verification agency; NSE is the data centre. Investment advisers and research analysts must now have their past performance independently verified before advertising it.\n\n⚠️ **Trap:** Students will confuse PaRRVA's role with SEBI's own enforcement function. PaRRVA does not penalise anyone — it verifies. Enforcement of violations still rests with SEBI. This is a common \"which of the following is/are correct\" trap: \"PaRRVA has the power to penalise investment advisers for false claims\" — FALSE. PaRRVA verifies; SEBI enforces.\n\n⚠️ **Second trap:** Students often assume NSE performs regulatory oversight here. NSE's role is purely as a data centre (PDC) — technical storage and validation. Regulatory authority remains with SEBI. CARE Ratings acts as the verification agency.",
+        revise: "🔗 **SEBI's regulatory powers:** SEBI Act 1992; SEBI as a statutory body under Ministry of Finance; its quasi-legislative, quasi-judicial, and executive functions\n🔗 **Financial regulators in India:** RBI, SEBI, IRDAI, PFRDA, IBBI — their respective jurisdictions; where they overlap and where they don't\n🔗 **Investor protection mechanisms:** SCORES (SEBI Complaints Redress System), SMART ODR, Investor Education and Protection Fund (IEPF under MCA)\n🔗 **Credit Rating Agencies:** SEBI-registered CRAs — CRISIL, ICRA, CARE Ratings, India Ratings — their regulation under SEBI (CRA) Regulations 1999",
+        pyqConnect: "UPSC Prelims 2021 — Statement-based question on SEBI's functions and the distinction between it and other financial regulators."
+      },
+      {
+        id: "1-3",
+        title: "NILGIRIS WILDFIRES 2026",
+        subtitle: "🔴 Must Read | Both | GS III (Environment, Ecology, Disaster Management)",
+        content: "Forest fires broke out on April 15, 2026, in the Wenlock Downs Reserve Forest in the Parson's Valley Range of the Nilgiris. The fires spread rapidly due to dry weather conditions, low humidity, and accumulated leaf litter. The Mudumalai Tiger Reserve — one of India's most biodiverse protected areas — was also affected.\n\nBy April 26, the scale of the fires prompted the deployment of Indian Air Force helicopters from Sulur Air Force Base in Coimbatore for aerial water-bombing for two consecutive days. More than 400 forest personnel from across Tamil Nadu were mobilised. The terrain's difficulty prevented ground teams from independently containing the blaze. Authorities confirmed that while the immediate threat to human settlements had been contained, the full ecological damage was still being assessed, with restoration efforts expected once the fires are fully controlled.\n\nThe Nilgiris are part of the Western Ghats biodiversity hotspot — one of the world's 36 recognised biodiversity hotspots. The Nilgiri Biosphere Reserve spans Tamil Nadu, Kerala, and Karnataka, covering Mudumalai, Nagarhole, Bandipur, Wayanad, Silent Valley, and Mukurthi national parks and wildlife sanctuaries.\n\n| Parameter | Detail |\n|---|---|\n| Fire origin | April 15, 2026, Wenlock Downs Reserve Forest, Parson's Valley Range |\n| Affected protected area | Mudumalai Tiger Reserve, Nilgiris Forest Division |\n| Aerial support | Helicopters from Sulur AFB, Coimbatore (from April 26) |\n| Personnel deployed | 400+ forest staff from across Tamil Nadu |\n| Biosphere Reserve | Nilgiri Biosphere Reserve (India's first; declared 1986) |\n| UNESCO designation | UNESCO Man and Biosphere (MAB) Programme, 2000 |\n| Hotspot classification | Western Ghats — one of 36 global biodiversity hotspots |",
+        whyItMatters: "📌 Forest fires burning since April 15, 2026 in the Nilgiris have engulfed hundreds of acres in the ecologically sensitive Wenlock Downs Reserve Forest and Mudumalai Tiger Reserve. Helicopters from Sulur Air Force Base and 400+ personnel have been deployed. The region is part of the Nilgiri Biosphere Reserve — UNESCO-designated and India's first declared biosphere reserve.\n\n⚠️ **Trap:** Students confuse \"biosphere reserve\" with \"national park\" and \"tiger reserve.\" These are three distinct categories with different legal protections and management frameworks.\n- **Biosphere Reserve:** UNESCO/national designation for landscape-level conservation; includes core, buffer, and transition zones. No absolute restriction on human activity in buffer/transition zones.\n- **Tiger Reserve:** Designated under Project Tiger (now NTCA — National Tiger Conservation Authority); must have a core area (inviolate) and buffer zone. Governed under Wildlife Protection Act, 1972 (amended 2006 for NTCA).\n- **National Park:** Highest restriction — no human activity permitted inside; boundary cannot be altered except by state legislature.\n\nMudumalai has all three designations simultaneously, which is the trap UPSC will construct.",
+        revise: "🔗 **Nilgiri Biosphere Reserve:** India's first (1986); 5,520 sq km; straddles three states; tribes — Todas, Kotas, Badagas, Kurumbas, Irulas\n🔗 **Western Ghats:** UNESCO World Heritage Site (2012), biodiversity hotspot, endemic species\n🔗 **Wildlife Protection Act, 1972:** Classification of protected areas; Schedule I–VI species; NTCA and Project Tiger\n🔗 **Forest fires and climate:** El Niño-linked drought cycles, fire line management, controlled burning (prescribed burning vs. wildfires)\n🔗 **Disaster Management Act, 2005:** National Disaster Management Authority (NDMA); forest fires as a sub-category of natural disasters",
+        pyqConnect: "UPSC Prelims 2014 — \"Which of the following is/are included in India's biodiversity hotspots?\" and UPSC Mains 2019 GS III — \"What is India's plan to have food security in place of food sufficiency?\" (linked through ecological services)."
+      },
+      {
+        id: "1-4",
+        title: "ECOCIDE AND INTERNATIONAL LAW",
+        subtitle: "🟡 Important | Mains | GS II (International Relations), GS III (Environment)",
+        content: "The Hindu's editorial of May 1 focuses on a fundamental legal gap: international law does not treat large-scale environmental destruction as a standalone crime. This conversation has accelerated in 2026, fuelled by the documented ecological toll of the Gaza conflict and the ongoing war in Ukraine.\n\nEcocide refers to severe, widespread, or long-term damage to ecosystems. The term was first popularised by Swedish Prime Minister Olof Palme at the 1972 UN Conference on the Human Environment, when he accused the United States of ecocide for using Agent Orange and other defoliants in Vietnam. The Independent Expert Panel for the Legal Definition of Ecocide in 2021 defined it as \"unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment.\" In 2024, Pacific Island nations formally proposed amending the Rome Statute to add ecocide as the fifth crime under the International Criminal Court's jurisdiction — alongside genocide, crimes against humanity, war crimes, and the crime of aggression.\n\nCurrently, the Rome Statute addresses environmental harm only within war crimes (Article 8) and only when it is wilful, severe, long-term, and widespread. The threshold is extraordinarily high; no prosecution has ever succeeded on this ground. Belgium and Chile have adopted ecocide as a crime in their domestic laws. The IUCN voted in 2024 to recognise ecocide.\n\n| Parameter | Detail |\n|---|---|\n| Term origin | 1970; popularised by Olof Palme at 1972 Stockholm Conference |\n| 2021 Expert Panel definition | Unlawful/wanton acts with substantial likelihood of severe, widespread, or long-term environmental damage |\n| Proposed status | 5th crime under ICC Rome Statute |\n| Current Rome Statute crimes (4) | Genocide, Crimes against humanity, War crimes, Crime of aggression |\n| Rome Statute adoption/entry | 1998 / July 2002 |\n| 2024 proposal | Pacific Island nations' amendment proposal |\n| Countries with domestic ecocide law | Belgium, Chile (others advancing) |\n| ICC Headquarters | The Hague, Netherlands |",
+        whyItMatters: "📌 Ecocide — severe, widespread, or long-term environmental harm — is gaining momentum for inclusion as the 5th crime under the Rome Statute of the International Criminal Court. Currently, only wartime environmental destruction has partial coverage under war crimes. The Gaza and Ukraine conflicts are driving renewed global urgency to close this legal gap.\n\n⚠️ **Trap:** The Rome Statute does contain provisions for environmental destruction — but only under war crimes, and only with an extremely high threshold. Students often state \"the Rome Statute does not address environmental harm at all.\" This is incorrect. It addresses it — but inadequately. The debate is about closing the gap with a standalone crime applicable also in peacetime.\n\n⚠️ **Second trap:** UPSC frequently tests which crimes fall under the ICC. The four current crimes are genocide, crimes against humanity, war crimes, and the crime of aggression (added by the Kampala Amendments, 2010, entered into force 2018). Students confuse this with the ICJ (International Court of Justice), which handles state-to-state disputes, not individual criminal responsibility.",
+        revise: "🔗 **Rome Statute (1998):** Core crimes, ICC vs. ICJ distinction, India's position (India has NOT ratified the Rome Statute)\n🔗 **1972 Stockholm Conference:** First global environment conference; UNEP established as outcome\n🔗 **International Humanitarian Law (IHL):** Geneva Conventions and their Additional Protocols; protection of natural environment during armed conflict\n🔗 **Biodiversity and climate law:** CBD, UNFCCC, Paris Agreement — which treaties have enforcement mechanisms and which do not",
+        pyqConnect: "UPSC Prelims 2020 — Statement-based question on the International Criminal Court and Rome Statute provisions."
+      },
+      {
+        id: "1-5",
+        title: "INDIA–ITALY MILITARY COOPERATION PLAN 2026-27",
+        subtitle: "🟡 Important | Prelims | GS II (International Relations, Security)",
+        content: "Italian Defence Minister Guido Crosetto visited New Delhi on April 30, 2026, on his maiden visit to India. Defence Minister Rajnath Singh hosted him at the Manekshaw Centre. The meeting resulted in the exchange of a Bilateral Military Cooperation Plan (MCP) for 2026-27, which outlines a roadmap for structured military interactions between the armed forces of both countries over the next year.\n\nKey discussion points included expanding defence industrial cooperation under India's Atmanirbhar Bharat programme and Italy's own defence cooperation initiative — with co-production and co-development of platforms as the stated objective. Maritime cooperation featured prominently: both nations identified themselves as \"ancient seafaring nations\" and highlighted information exchange through the Information Fusion Centre – Indian Ocean Region (IFC-IOR), India's maritime domain awareness hub located in Gurugram. The Indian Coast Guard separately hosted an Italian delegation including representatives from Fincantieri, Italy's largest shipbuilder, discussing collaboration with Indian shipyards on resilient hulls and hybrid/electric propulsion technology.\n\nThe India-Italy Strategic Partnership was formalised during Rajnath Singh's 2023 visit to Italy, when a bilateral defence cooperation agreement was signed.\n\n| Parameter | Detail |\n|---|---|\n| MCP exchanged | April 30, 2026, New Delhi |\n| Indian side | Defence Minister Rajnath Singh |\n| Italian side | Defence Minister Guido Crosetto |\n| Key outcome | Bilateral MCP 2026-27; maritime and industrial cooperation |\n| IFC-IOR location | Gurugram, Haryana |\n| IFC-IOR purpose | Maritime domain awareness; information sharing in Indian Ocean Region |\n| Italian firm | Fincantieri (shipbuilder) — explored Indian shipyard collaboration |\n| Strategic Partnership | India-Italy Strategic Partnership (basis: 2023 defence cooperation agreement) |",
+        whyItMatters: "📌 India and Italy exchanged a Bilateral Military Cooperation Plan (MCP) for 2026-27 on April 30, 2026. Rajnath Singh met Italian Defence Minister Guido Crosetto in New Delhi, with focus on defence co-production under Atmanirbhar Bharat, maritime security via IFC-IOR, and Italian shipbuilder Fincantieri's interest in Indian shipyard collaboration.\n\n⚠️ **Trap:** Students who memorise Italy's geography from standard sources will be caught by UPSC's boundary/geography matching questions. Italy's enclaved states — **Vatican City and San Marino** — are BOTH located entirely within Italian territory. Students often list only Vatican City. San Marino is frequently missed.\n\n⚠️ **Second trap:** IFC-IOR is India's initiative, but students must not confuse it with the Indian Ocean Rim Association (IORA) or the Indian Ocean Naval Symposium (IONS). IFC-IOR is a real-time maritime information fusion centre under the Indian Navy, not a multilateral treaty body.",
+        revise: "🔗 **Atmanirbhar Bharat in Defence:** Positive indigenisation lists, Defence Acquisition Procedure 2020, DRDO, iDEX (Innovations for Defence Excellence)\n🔗 **IFC-IOR:** Established 2018; located in Gurugram; under Indian Navy; participates in multinational maritime information sharing; not to be confused with IORA or IONS\n🔗 **India-EU Defence Engagement:** Context for this visit — India-EU Security and Defence Consultation\n🔗 **Italy's Geography:** Apennine Peninsula; borders France, Switzerland, Austria, Slovenia; Mediterranean, Adriatic, Ionian, Tyrrhenian, Ligurian seas; enclaved states Vatican City and San Marino",
+        pyqConnect: "UPSC Prelims 2017 — Matching pairs on international maritime security initiatives and their host countries."
+      },
+      {
+        id: "1-6",
+        title: "INTERNATIONAL LABOUR DAY 2026",
+        subtitle: "🟢 Good to Know | Prelims | GS II (Governance, Social Justice), GS I (Social Issues)",
+        content: "International Labour Day (May Day) is observed on May 1 globally, honouring workers and promoting labour rights. Its origin traces to the Haymarket Affair in Chicago, 1886, when workers' demonstrations for an eight-hour workday turned violent. The International Labour Organisation (ILO) selected the 2026 theme as \"Ensuring a Healthy Psychosocial Working Environment\" — focusing on mental health, workplace stress, and the dignity of labour.\n\nIn India, the first Labour Day was observed on May 1, 1923, in Madras (now Chennai) by the Labour Kisan Party of Hindustan, under the leadership of Malayapuram Singaravelu Chettiar. He raised the red flag for the first time in India on this occasion and demanded that May 1 be declared a national holiday. This historic act makes him a significant figure in India's labour and Left political history.\n\nIndia has consolidated its 29 central labour laws into four Labour Codes: (1) Code on Wages, 2019; (2) Industrial Relations Code, 2020; (3) Code on Social Security, 2020; and (4) Occupational Safety, Health and Working Conditions Code, 2020. These codes have been passed by Parliament but are pending notification/implementation in many states.\n\n| Parameter | Detail |\n|---|---|\n| ILO Theme 2026 | \"Ensuring a Healthy Psychosocial Working Environment\" |\n| Origin event | Haymarket Affair, Chicago, 1886 |\n| India's first Labour Day | May 1, 1923, Chennai (Madras) |\n| First Indian organiser | Malayapuram Singaravelu Chettiar (Labour Kisan Party of Hindustan) |\n| India's Four Labour Codes | Code on Wages (2019); Industrial Relations Code (2020); Code on Social Security (2020); Occupational Safety, Health & Working Conditions Code (2020) |\n| No. of laws consolidated | 29 central labour laws |\n| ILO headquarters | Geneva, Switzerland |",
+        whyItMatters: "📌 May 1 is International Labour Day, observed globally. The ILO theme for 2026 is \"Ensuring a Healthy Psychosocial Working Environment.\" India's first Labour Day was in Chennai in 1923, led by Malayapuram Singaravelu Chettiar. India's four Labour Codes — consolidating 29 central laws — remain a key Prelims and Mains point of engagement.",
+        revise: "🔗 **ILO Conventions:** India has ratified ILO Convention 182 (worst forms of child labour); has NOT ratified conventions on freedom of association (87) and collective bargaining (98) — a recurring exam point\n🔗 **Constitutional provisions on labour:** Article 23 (prohibition of forced labour); Article 24 (prohibition of child labour in factories); Directive Principles — Articles 39, 41, 42, 43 (right to work, equal pay, just conditions)\n🔗 **Labour as a Concurrent List subject:** Schedule VII, List III — both Centre and State can legislate; significance for implementation gaps in Labour Codes",
+        pyqConnect: "UPSC Prelims 2022 — Statement-based question on India's ILO convention ratification status."
+      }
+    ],
+    reviseSummary: [
+      "SIPRI Report 2025: India ranks 5th globally in military spending ($92.1 billion); India overtook the UK in 2025.",
+      "SEBI PaRRVA: India's first framework to independently verify performance claims of investment advisers; CARE Ratings is the agency, NSE is the data centre.",
+      "Nilgiris Wildfires: Ecologically sensitive Nilgiri Biosphere Reserve affected; India's first biosphere reserve (1986).",
+      "Ecocide: Proposed 5th crime under ICC's Rome Statute (others: genocide, crimes against humanity, war crimes, aggression).",
+      "India-Italy MCP: Focus on Atmanirbhar Bharat co-production and IFC-IOR (Gurugram) maritime intelligence sharing.",
+      "Labour Day 2026: Theme 'Ensuring a Healthy Psychosocial Working Environment'; Singaravelu Chettiar organized India's first Labour Day in 1923."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the SIPRI Military Expenditure Report 2025:\n1. The United States remained the world's largest military spender in 2025, with its spending rising by 7.5% over 2024.\n2. India became the world's fifth-largest military spender, overtaking the United Kingdom, with expenditure of $92.1 billion.\n3. China has recorded consecutive annual increases in military spending for 31 years — the longest streak of any country in the SIPRI database.\n4. Global military expenditure in 2025 represented 2.5% of world GDP — the highest since the Cold War ended.\nWhich of the statements given above are correct?",
+          options: ["(a) 2 and 3 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 2 and 3 only",
+          explanation: "Statement 1 is WRONG: US spending fell by 7.5%, not rose. Statement 2 is CORRECT: India at $92.1 billion ranked 5th. Statement 3 is CORRECT: China's 31 consecutive years of increase is a factual SIPRI finding. Statement 4 is WRONG: 2.5% of GDP is the highest since 2009 — not since the Cold War ended."
+        },
+        {
+          question: "Consider the following pairs regarding SEBI's PaRRVA framework:\n\nEntity → Role under PaRRVA\n1. CARE Ratings Limited → PaRRVA Verification Agency\n2. National Stock Exchange → PaRRVA Data Centre (PDC)\n3. SEBI → Enforcement authority for violations\n4. Investment advisers and research analysts → Entities required to get performance verified\n\nWhich of the pairs given above are correctly matched?",
+          options: ["(a) 1, 2 and 3 only", "(b) 1 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(d) 1, 2, 3 and 4",
+          explanation: "All four pairs are correctly matched. CARE Ratings is the verification agency, NSE is the Data Centre, SEBI is the enforcement authority, and IAs/RAs are the covered entities."
+        },
+        {
+          question: "Statement I: Mudumalai Tiger Reserve is simultaneously designated as a National Park, Wildlife Sanctuary, Tiger Reserve, and part of the Nilgiri Biosphere Reserve.\nStatement II: Under the Wildlife Protection Act, 1972, a biosphere reserve and a national park have the same legal status regarding restrictions on human activity.",
+          options: ["(a) Both Statement I and Statement II are correct and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct but Statement II does not explain Statement I", "(c) Statement I is correct but Statement II is incorrect", "(d) Statement I is incorrect but Statement II is correct"],
+          answer: "(c) Statement I is correct but Statement II is incorrect",
+          explanation: "Statement I is CORRECT: Mudumalai carries all four designations. Statement II is INCORRECT: Biosphere reserves are NOT defined under the Wildlife Protection Act, 1972. A National Park has the highest legal restriction, while Biosphere reserves have zones with varying activity levels."
+        },
+        {
+          question: "Consider the following statements regarding the Rome Statute and ecocide:\n1. The Rome Statute currently recognises ecocide as the fifth crime under the International Criminal Court's jurisdiction.\n2. The Rome Statute was adopted in 1998 and entered into force in 2002.\n3. India has ratified the Rome Statute of the International Criminal Court.\n4. The crime of aggression was added to the Rome Statute's core crimes through the Kampala Amendments.\nHow many of the above statements are correct?",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(b) Only two",
+          explanation: "Statements 2 and 4 are correct. Statement 1 is WRONG: Ecocide is NOT yet a recognised ICC crime. Statement 3 is WRONG: India has NOT ratified the Rome Statute."
+        },
+        {
+          question: "Consider the following statements:\n1. International Labour Day originated from the Haymarket Affair in Chicago in 1886.\n2. The first Labour Day in India was observed in Bombay in 1920 by the All India Trade Union Congress.\n3. India has ratified ILO Convention 87 on freedom of association.\n4. The four Labour Codes passed by India consolidate 29 central labour laws.\nWhich of the statements given above are correct?",
+          options: ["(a) 1 and 4 only", "(b) 1, 2 and 4 only", "(c) 3 and 4 only", "(d) 1, 3 and 4 only"],
+          answer: "(a) 1 and 4 only",
+          explanation: "Statement 1 is CORRECT: Haymarket Affair (1886) is the origin. Statement 2 is WRONG: India's first Labour Day was in Chennai in 1923. Statement 3 is WRONG: India has NOT ratified ILO Convention 87. Statement 4 is CORRECT: Four Labour Codes consolidate 29 central laws."
+        }
+      ],
+      mains: [
+        {
+          question: "India's rise to the 5th rank in global military spending reflects both evolving security threats and the strategic ambitions of a rising power. Analyse the drivers of this increase and examine its implications for India's foreign policy and regional stability.",
+          context: "GS Paper III | 250 words. Cover Operation Sindoor, Atmanirbhar Bharat, and the China threat; balance with commitment to strategic autonomy."
+        },
+        {
+          question: "The Rome Statute's existing framework for environmental protection during armed conflict has been widely criticised as insufficient. Evaluate the case for recognising ecocide as an international crime, with reference to the limitations of current international humanitarian law.",
+          context: "GS Paper II | 150 words. State Article 8 limitations, show the legal gap, and assess the merits/obstacles of the ecocide proposal."
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-02",
+    date: "2nd May 2026",
+    day: "Saturday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~7 minutes  |  📋 Topics today: 7  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 South Coastal Railway Zone Announced — Operational June 1, 2026 in Andhra Pradesh; ₹1.06 lakh crore rail projects underway\n🔴 Online Gaming Rules 2026 Now Live — India's first comprehensive regulatory framework effective May 1; aims to balance innovation with consumer protection\n🟡 Fire Safety Week 2026 Initiated — May 4-10 directive to healthcare facilities; mandatory compliance for district hospitals and medical colleges\n🟡 Energy Security Response to West Asia Crisis — LPG price adjustment March 2026 (₹60/cylinder); government prioritises domestic supply through PNG expansion\n🟡 RBI Monetary Policy Unchanged — Repo rate held at 5.25% (April 2026); neutral stance amid rupee volatility and growth-inflation balance\n🟢 India's 100% Railway Electrification in Andhra Pradesh — Historic milestone achieved; positions state as model for green infrastructure\n🟢 AI Hub Launch in Visakhapatnam — Google Cloud India AI Hub inaugurated; signals technology-infrastructure integration in Tier II cities\n\n🔴 Must Read  |  🟡 Important  |  🟢 Good to Know",
+    topics: [
+      {
+        id: "2-1",
+        title: "SOUTH COASTAL RAILWAY ZONE: ADMINISTRATIVE RESTRUCTURING & REGIONAL DEVELOPMENT",
+        subtitle: "🔴 Must Read | Both | GS II (Polity & Governance), GS III (Infrastructure)",
+        content: "Railway Minister Ashwini Vaishnaw announced on May 2, 2026, that the South Coastal Railway Zone will become operational from June 1, 2026. This dedicated zone, a long-standing demand since Andhra Pradesh's bifurcation in 2014, will consolidate rail administration currently split across the East Coast, South Central, and Waltair zones. Visakhapatnam will serve as the headquarters.\n\nAndhra Pradesh has received a record railway budget allocation of ₹10,134 crore for FY 2026-27, a massive increase from the ₹886 crore previously shared with Telangana. Projects worth ₹1.06 lakh crore are currently underway in the state, including 1,759 km of completed track and 3,300 km under construction. Additionally, 74 stations are being redeveloped and 832 flyovers/underpasses have been completed. This administrative reorganisation aims to improve operational efficiency and accelerate regional infrastructure projects.\n\n| Parameter | Data Point |\n|---|---|\n| New Zone Operational Date | June 1, 2026 |\n| Budget Allocation (FY26-27) | ₹10,134 crore |\n| Projects Under Implementation | ₹1.06 lakh crore |\n| Railway Network Electrification | 100% in Andhra Pradesh |\n| Previous Combined Budget (AP + TG) | ₹886 crore |\n| Increase Factor | 11.4x |",
+        whyItMatters: "📌 The creation of the South Coastal Railway Zone marks a significant administrative milestone for Andhra Pradesh, supported by a record budget of ₹10,134 crore. It represents the government's strategy of infrastructure-led regional growth to address post-bifurcation backlogs.\n\n⚠️ **Trap:** Students often confuse railway zone creation with constitutional devolution. Zone creation is **administrative restructuring** (Union List, Entry 22), not a transfer of legislative or regulatory power to the state. The Ministry of Railways remains the sole authority.\n\n⚠️ **Second trap:** High budget allocations are often mistaken for \"Special Status\" entitlements. UPSC will test if you understand that these are strategic capital expenditures aimed at regional equity, not constitutional mandates under the Reorganisation Act.",
+        revise: "🔗 **Railway Administration:** List I (Union List) Entry 22; Ministry of Railways structure; zonal vs. divisional management\n🔗 **Federalism & Infrastructure:** GFCF (Gross Fixed Capital Formation) and regional equity; transport-led growth models\n🔗 **Green Infrastructure:** Railway electrification's role in India's NDC (Nationally Determined Contributions) carbon sink targets",
+        pyqConnect: "UPSC Prelims 2019 — Question on railway zone administration and operational efficiency."
+      },
+      {
+        id: "2-2",
+        title: "ONLINE GAMING RULES 2026: REGULATING THE DIGITAL ECONOMY",
+        subtitle: "🔴 Must Read | Both | GS II (Polity & Governance), GS III (Digital Economy)",
+        content: "The Online Gaming Rules, 2026, became effective on May 1, 2026, operationalising the Promotion and Regulation of Online Gaming (PROG) Act, 2025. This marks India's first comprehensive federal framework for the sector, which has approximately 40 million users and is valued at ₹10,000 crore. Unregulated gaming had previously led to reported annual financial losses of ~₹20,000 crore.\n\nThe rules establish a licensing regime for operators, mandatory KYC protocols, and strict guardrails on in-game purchases and loot boxes (including age restrictions). Responsible gaming features like deposit limits and self-exclusion are now mandatory. A regulatory authority under MeitY will oversee compliance, with powers to cancel licenses and impose fines. The framework aims to balance innovation with consumer protection and social welfare.\n\n| Aspect | Details |\n|---|---|\n| Act Name | Promotion & Regulation of Online Gaming Act, 2025 |\n| Rules Effective Date | May 1, 2026 |\n| Estimated Sector Size | ₹10,000 crore |\n| User Base | 40+ million |\n| Constitutional List | Concurrent (under Article 246(2)) |",
+        whyItMatters: "📌 India has implemented its first national regulatory framework for online gaming. It transitions the sector from fragmented state laws to a structured federal regime focusing on licensing, KYC, and responsible gaming to prevent addiction and financial loss.\n\n⚠️ **Trap:** \"Online gambling is banned under the new rules.\" **FALSE.** The rules *regulate* existing activity rather than prohibiting it. Students must distinguish between prohibition and regulation.\n\n⚠️ **Second trap:** Students assume gaming is solely a state subject because 'gambling' is in the State List (Entry 34). However, the PROG Act uses the Union's authority over 'digital platforms' to create a **concurrent** framework. This is a key federalism case study.",
+        revise: "🔗 **Constitutional Distribution:** List II Entry 34 (Gambling); List I entries on digital infrastructure; Articles 246-248 (Concurrent jurisdiction)\n🔗 **Consumer Protection:** BharatStack standards; data privacy; Digital Services Act (comparative study)\n🔗 **Economic Regulation:** Addressing externalities like addiction and fraud in digital markets",
+        pyqConnect: "UPSC Mains 2018 GS II — Regulatory challenges in the sharing economy (similar challenges in online gaming)."
+      },
+      {
+        id: "2-3",
+        title: "FIRE SAFETY WEEK 2026: INSTITUTIONAL COMPLIANCE",
+        subtitle: "🟡 Important | Prelims | GS IV (Ethics & Public Administration)",
+        content: "The Union Health Ministry has launched Fire Safety Week (May 4-10, 2026), making it mandatory for all district hospitals and medical colleges to conduct comprehensive internal audits. This directive aims to mitigate the increased fire risks associated with summer heatwaves.\n\nFacilities must use an updated checklist to assess electrical systems, emergency exits, and sprinkler systems. Findings must be reported via the Integrated Health Information Platform (IHIP). The ministry has encouraged the involvement of medical and nursing students to foster an institutional safety culture. Failure to comply can lead to administrative action and financial penalties under state fire safety acts.\n\n| Element | Detail |\n|---|---|\n| Week Duration | May 4-10, 2026 |\n| Reporting Platform | Integrated Health Information Platform (IHIP) |\n| Theme | Fire-Safe Society Through Collective Awareness |\n| Key Focus | Prevention during summer season |",
+        whyItMatters: "📌 Fire Safety Week transitions from a symbolic event to a mandatory regulatory audit for healthcare facilities. It emphasises preventive hazard identification and institutional accountability during high-risk summer months.\n\n⚠️ **Trap:** Treating this as a one-time compliance exercise. UPSC tests whether you view safety as an **ongoing ethical obligation**. Leadership cannot delegate responsibility to junior staff and claim immunity — institutional accountability rests with the head.",
+        revise: "🔗 **Public Health Administration:** National Health Mission structure; state vs. central roles\n🔗 **Workplace Safety:** Occupational Safety, Health and Working Conditions Code 2020\n🔗 **Ethics:** Fiduciary responsibility of public administrators; duty of care in hospital management",
+        pyqConnect: "General themes on institutional responsibility and disaster management (GS III/IV)."
+      },
+      {
+        id: "2-4",
+        title: "ENERGY SECURITY AMID WEST ASIA CRISIS: LPG POLICY",
+        subtitle: "🔴 Must Read | Mains | GS III (Economy & Energy Security)",
+        content: "Geopolitical tensions in West Asia, specifically disruptions near the Strait of Hormuz, have tightened global LPG supplies in early 2026. India, heavily dependent on imports, saw domestic LPG prices rise by ₹60 per 14.2 kg cylinder (a 7% increase) on March 7, 2026.\n\nIn response, the government has accelerated the National PNG Drive 2.0 to transition more households to piped gas by June 30, 2026. Additional kerosene allocations (48,000 KL) have been released to states to manage demand reallocation. While the government is absorbing part of the price spike through subsidies, oil marketing companies (OMCs) are also absorbing under-recoveries, which could reach ₹48,000 crore in FY 2026-27. The Delivery Authentication Code (DAC) system now covers 93% of users to prevent fuel diversion.\n\n| Metric | Value |\n|---|---|\n| LPG Price Increase | ₹60 per cylinder (+7%) |\n| Additional Kerosene | 48,000 KL allocated |\n| DAC Usage | 93% (prevents diversion) |\n| Est. Under-Recovery | ₹26,000 - ₹48,000 crore (FY27) |",
+        whyItMatters: "📌 The 2026 West Asia crisis highlights India's energy vulnerability. The government is balancing a trilemma: consumer protection (low inflation), OMC viability (corporate health), and fiscal sustainability (deficit control).\n\n⚠️ **Trap:** Assuming energy subsidies are purely for price control. They are **fiscal liabilities**. When OMCs absorb losses, it discourages capital investment in future energy infrastructure. Students must link energy security to macro-fiscal health.\n\n⚠️ **Second trap:** Viewing PNG expansion as purely environmental. In this context, it is a **supply-reallocation strategy** to reduce the import burden of bottled LPG.",
+        revise: "🔗 **Oil & Gas Sector:** Import dependence (70% crude); OMC structure (IOCL, BPCL, HPCL)\n🔗 **Geopolitics:** Strait of Hormuz (transits 21% of global oil); Middle East instability spillovers\n🔗 **Fiscal Policy:** Revenue deficit vs. capital expenditure; off-budget liabilities",
+        pyqConnect: "UPSC Mains 2015 — India's energy security strategy amidst global volatility."
+      },
+      {
+        id: "2-5",
+        title: "RBI MONETARY POLICY: REPO RATE HELD AT 5.25%",
+        subtitle: "🟡 Important | Both | GS III (Economy & Monetary Policy)",
+        content: "The RBI Monetary Policy Committee (MPC) held the policy repo rate unchanged at 5.25% in its April 2026 meeting. The committee maintained a 'neutral' stance, prioritising growth-inflation balance despite rupee volatility and West Asia headwinds. \n\nIndia's FY26 GDP growth was revised upward to 7.6%, driven by strong private consumption and government capex. Inflation for FY26 is projected at a well-controlled 2.1%, though it is expected to rise to 4.6% in FY27 due to base effects and external shocks. While the rupee has weakened due to FPI outflows (₹16.5 lakh crore net equity outflows by mid-January 2026), the RBI assessed this as a global 'risk-off' sentiment rather than an India-specific weakness.\n\n| Indicator | FY26 Value | FY27 (Proj.) |\n|---|---|---|\n| Policy Repo Rate | 5.25% | 5.25% (Hold) |\n| GDP Growth | 7.6% | 6.9% |\n| CPI Inflation | 2.1% | 4.6% |\n| RBI MPC Stance | Neutral | Neutral |",
+        whyItMatters: "📌 The RBI's decision to hold rates at 5.25% reflects a 'wait-and-watch' approach. It signals that while current inflation (2.1%) is low, future risks (4.6% in FY27) prevent aggressive rate cuts.\n\n⚠️ **Trap:** Conflating a 'rate hold' with passivity. A **neutral stance** is an active policy signal — it preserves optionality to move in either direction based on data. Inaction is not the same as absence of policy.\n\n⚠️ **Second trap:** 'Lower inflation means RBI *must* cut rates.' Not necessarily. The RBI must also consider exchange rate stability and external sector shocks (West Asia). Premature cuts could lead to currency overheating.",
+        revise: "🔗 **MPC Structure:** Post-2016 amendment; dual mandate (growth + stability)\n🔗 **Transmission:** How repo changes affect retail rates (base rate, MCLR)\n🔗 **External Sector:** Purchasing power parity; interest rate differentials; carry trade",
+        pyqConnect: "UPSC Mains 2017 — RBI's rate transmission challenges."
+      },
+      {
+        id: "2-6",
+        title: "ANDHRA PRADESH RAILWAY ELECTRIFICATION: GREEN MILESTONE",
+        subtitle: "🟢 Good to Know | Prelims | GS III (Environment & Infrastructure)",
+        content: "As of May 2, 2026, Andhra Pradesh has achieved 100% electrification of its ~5,000 km railway network. This eliminates diesel locomotives, reducing the per-kilometre carbon footprint by approximately 60%. Electric trains are ~35% cheaper to operate and offer improved speed and reliability.\n\nThis achievement directly supports India's updated NDC 2035 commitment to achieve 60% non-fossil installed electricity capacity by 2035. AP now serves as a national model for transition to green rail infrastructure.\n\n| Metric | Value |\n|---|---|\n| Route Electrified | 100% (~5,000+ km) |\n| Operational Savings | ~35% vs. diesel |\n| Annual CO₂ Avoided | ~8-10 lakh tonnes |\n| NDC 2035 Target | 60% non-fossil capacity |",
+        whyItMatters: "📌 Andhra Pradesh is the first major state to reach 100% rail electrification in the 2026 cycle. It represents a significant step towards India's Net Zero targets.\n\n⚠️ **Trap:** Equating electrification with full decarbonisation. If the electricity comes from coal, the emissions are just shifted 'upstream'. True decarbonisation requires **both** electrification and a clean energy grid (which India is building).",
+        revise: "🔗 **NDC 2035:** India's latest climate targets; Paris Agreement Article 4\n🔗 **Energy Mix:** Role of coal vs. renewables in India's current grid\n🔗 **Sustainable Transport:** Modal shift from road to rail for carbon efficiency",
+        pyqConnect: "General questions on India's climate action and infrastructure projects."
+      },
+      {
+        id: "2-7",
+        title: "GOOGLE CLOUD INDIA AI HUB, VISAKHAPATNAM",
+        subtitle: "🟢 Good to Know | Prelims | GS III (Science & Technology)",
+        content: "Google Cloud India has launched an AI Hub in Visakhapatnam to democratise AI development outside traditional tech centres like Bengaluru and Hyderabad. The hub will provide AI/ML training infrastructure, cloud access, and startup incubation spaces. \n\nVisakhapatnam was selected for its growing IT talent pool and strategic location. The hub aims to train 500+ AI engineers annually and incubate 50+ startups within three years. This is part of the 'AI for India' initiative to upskill the workforce across sectors like healthcare and agriculture.\n\n| Aspect | Detail |\n|---|---|\n| Location | Visakhapatnam, Andhra Pradesh |\n| Annual Training | ~500 AI engineers |\n| Incubation Target | 50 startups in 3 years |\n| Parent Initiative | Google 'AI for India' |",
+        whyItMatters: "📌 The launch signals the shift of high-tech infrastructure into Tier-II cities, reducing geographic concentration and promoting inclusive digital growth.",
+        revise: "🔗 **DPI (Digital Public Infrastructure):** AI governance; data localisation\n🔗 **Regional Development:** Bridging the Tier I-Tier II divide in tech capability\n🔗 **Skill Development:** Alignment with NEP 2020 and National Skill Development Mission",
+        pyqConnect: "Recent questions on AI, startups, and digital transformation in India."
+      }
+    ],
+    reviseSummary: [
+      "South Coastal Railway Zone: Operational June 1, 2026; AP rail budget at record ₹10,134 crore.",
+      "Online Gaming Rules 2026: Effective May 1; comprehensive federal licensing and KYC framework.",
+      "Fire Safety Week: May 4-10; mandatory internal audits for hospitals via IHIP platform.",
+      "Energy Security: March LPG price hike (₹60) due to Strait of Hormuz crisis; PNG expansion prioritised.",
+      "RBI Policy: Repo rate held at 5.25%; neutral stance; inflation projected at 2.1% for FY26.",
+      "AP Electrification: 100% rail network electrified; 8-10 lakh tonnes of CO₂ avoided annually.",
+      "Visakhapatnam AI Hub: Google Cloud hub to train 500 AI engineers annually; focus on regional tech growth."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "The South Coastal Railway Zone, announced to be operational from June 1, 2026, will serve which state?",
+          options: ["(a) Tamil Nadu", "(b) Karnataka", "(c) Andhra Pradesh", "(d) Telangana"],
+          answer: "(c) Andhra Pradesh",
+          explanation: "Announced by Railway Minister on May 2, 2026. The zone addresses a long-standing demand post-bifurcation for Andhra Pradesh."
+        },
+        {
+          question: "With reference to the Online Gaming Rules 2026, consider the following statements:\n1. They derive authority from the Promotion and Regulation of Online Gaming Act, 2025.\n2. The rules establish a licensing regime for game operators and mandatory KYC protocols.\n3. Digital gaming is placed under the State List in the Constitution.",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Statement 1 and 2 are correct. Statement 3 is false: While 'gambling' is in the State List, the PROG Act operates on the **Concurrent List** (Article 246(2)) by defining gaming as a digital platform service."
+        },
+        {
+          question: "Andhra Pradesh has achieved 100% electrification of its railway network as of May 2026. This supports India's updated NDC commitment to achieve ____ non-fossil installed electricity capacity by 2035.",
+          options: ["(a) 40%", "(b) 50%", "(c) 60%", "(d) 100%"],
+          answer: "(c) 60%",
+          explanation: "India's updated NDC (2026 version) targets 60% non-fossil capacity by 2035."
+        },
+        {
+          question: "The RBI Monetary Policy Committee held the repo rate at 5.25% in April 2026. Which was the previous rate change before this hold?",
+          options: ["(a) 25 bps rate cut in December 2025", "(b) 25 bps rate hike in December 2025", "(c) 50 bps rate cut in January 2026", "(d) No change since mid-2025"],
+          answer: "(a) 25 bps rate cut in December 2025",
+          explanation: "The RBI cut the rate by 25 bps in December 2025 and has held it steady since."
+        },
+        {
+          question: "Which of the following is the designated location for the Google Cloud India AI Hub announced in early May 2026?",
+          options: ["(a) Hyderabad", "(b) Visakhapatnam", "(c) Amaravati", "(d) Bengaluru"],
+          answer: "(b) Visakhapatnam",
+          explanation: "The groundbreaking was held in Visakhapatnam on May 2, 2026."
+        }
+      ],
+      mains: [
+        {
+          question: "Infrastructure development and federal principles are not competing objectives—they are complementary. Analyse this statement in the context of the creation of the South Coastal Railway Zone.",
+          context: "GS Paper II | 250 words. Discuss regional aspirations vs. central coordination; administrative convenience vs. constitutional federalism; and the impact on regional equity."
+        },
+        {
+          question: "Energy security cannot be achieved through price controls alone; it requires a calibrated policy mix addressing supply, demand, and fiscal sustainability. Substantiate with India's response to the 2026 West Asia energy crisis.",
+          context: "GS Paper III | 150 words. Address the LPG price hike, OMC under-recoveries, PNG expansion as demand management, and supply diversification."
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-03",
+    date: "3rd May 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~18 minutes | 📋 Topics today: 7 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 Online Gaming Rules 2026 — First comprehensive regulation framework effective May 1; money games prohibited entirely (GS II, III)\n🔴 Jammu-Srinagar Vande Bharat Express — Direct rail connectivity achieved; Chenab Bridge engineering feat (GS III, I)\n🔴 India-US Trade Deal Implementation — 18% consolidated tariff replaces 50% levy; $100B annual import commitment (GS II)\n🟡 Operation WHITE STRIKE — 349 kg cocaine seizure (₹1,745 crore) exposes transnational narcotics networks (GS II, III)\n🟡 Women Labour Force Participation — FLFP increased from 23.3% (2017-18) to 40% (2025); policy-driven shift (GS I, II)\n🟡 Agricultural Engineering for Climate Resilience — Emerging as critical driver for sustainable farming transition (GS III)\n🟢 Barrier-Free Tolling System Launch — Multi-lane free-flow tolling in Gujarat; FASTag technology (GS III)\n\n🔴 Must Read | 🟡 Important | 🟢 Good to Know",
+    topics: [
+      {
+        id: "3-1",
+        title: "ONLINE GAMING RULES 2026: INDIA'S FIRST COMPREHENSIVE REGULATORY FRAMEWORK",
+        subtitle: "🔴 Must Read | Both | GS II (Governance), GS III (Digital Economy)",
+        content: "The Union Government notified the Online Gaming Rules, 2026, under the authority of the Promotion and Regulation of Online Gaming Act (PROG Act), 2025, effective from May 1. This framework establishes the Online Gaming Authority (OGA) as the primary digital-first regulator under MeitY. \n\nThe rules categorically prohibit all online money games (betting, poker, rummy for stakes) regardless of whether they were previously classified as skill or chance. Registration for skill-based games is now valid for 10 years. This marks a paradigm shift from fragmented state-level gambling laws to a centralized federal regulatory model for India's ₹20,000 crore gaming sector.\n\n| Parameter | Detail |\n|---|---|\n| Act Passed | PROG Act, 2025 |\n| Effective Date | May 1, 2026 |\n| Regulatory Body | Online Gaming Authority (OGA) |\n| Money Games | Prohibited (no exceptions) |\n| Skill Games Registration | Valid for 10 years |\n| Constitutional Basis | PROG Act 2025 |",
+        whyItMatters: "📌 The PROG Act 2025 resolves the long-standing jurisdictional ambiguity between the State List (betting/gambling) and the Union List (digital platforms). It creates a unified federal standard for consumer protection and financial integrity.\n\n⚠️ **Trap:** Post-May 2026, MeitY-OGA is the **primary** regulator, NOT state gambling commissions. A trap MCQ will test this jurisdictional shift. \n\n⚠️ **Second trap:** Many assume poker and rummy are permitted as skill games. **NO.** Under the 2026 rules, they are prohibited as 'money games' if stakes are involved. This reversal is a deliberate policy change to combat addiction.",
+        revise: "🔗 **Constitutional Divide:** Articles 246-248 (Concurrent vs. Exclusive jurisdiction)\n🔗 **IT Act 2000:** Understanding why it was insufficient for sector-specific regulation\n🔗 **Consumer Protection:** Linkage to the National Consumer Disputes Redressal Commission",
+        pyqConnect: "UPSC Prelims 2024 — Question on the jurisdiction of SEBI vs. state authorities (applying same concept to OGA vs. State)."
+      },
+      {
+        id: "3-2",
+        title: "JAMMU-SRINAGAR VANDE BHARAT EXPRESS: INFRASTRUCTURE INTEGRATION",
+        subtitle: "🔴 Must Read | Both | GS III (Infrastructure), GS I (Geography)",
+        content: "On April 30, 2026, the Ministry of Railways flagged off the extended Vande Bharat Express connecting Jammu Tawi directly to Srinagar. This achievement, part of the Udhampur–Srinagar–Baramulla Rail Link (USBRL) project, provides the first all-weather, high-speed passenger rail link to the Kashmir Valley.\n\nThe route features the world's highest railway bridge, the Chenab Rail Bridge (359 meters), and extensive tunneling through the Pir Panjal range. By replacing road-dependent transport vulnerable to seasonal disruptions, the service is revitalizing agri-commerce (transporting over 2 crore kg of apples in early 2026) and providing strategic logistics redundancy for national security.\n\n| Parameter | Detail |\n|---|---|\n| Project Name | USBRL (initiated in 2002) |\n| Chenab Bridge Height | 359 meters (World's Highest) |\n| Service Speed | 160 km/h capable |\n| Route Length | 272 km (Udhampur to Baramulla) |\n| Strategic Impact | All-weather connectivity |",
+        whyItMatters: "📌 Direct rail connectivity to Srinagar is a watershed moment for national integration. It transforms Kashmir's economy from seasonal road dependence to year-round high-capacity logistics.\n\n⚠️ **Trap:** Don't confuse the project's **commencement (2002)** with its completion (2026). Recency bias might lead you to choose '2026' for the launch year. \n\n⚠️ **Second trap:** The Pir Panjal railway tunnel is significant, but it is NOT the world's longest (that is the Gotthard in Switzerland). Specificity is key.",
+        revise: "🔗 **Geography:** Pir Panjal Range, Chenab River system, and Himalayan terrain challenges\n🔗 **Integration:** Infrastructure as a tool for political and economic integration (post-2019 context)\n🔗 **Logistics:** Comparison of cost-per-ton-km between road and all-weather rail",
+        pyqConnect: "UPSC Prelims 2023 — Question on the longest bridge in India (Bandra-Worli). This update provides the world's highest rail bridge context."
+      },
+      {
+        id: "3-3",
+        title: "INDIA-US TRADE DEAL 2026: 18% CONSOLIDATED TARIFF",
+        subtitle: "🔴 Must Read | Both | GS II (International Relations), GS III (Economy)",
+        content: "Implementation of the India-US trade deal framework (announced Feb 2, 2026) is set for May 2026. The accord replaces the 50% punitive tariffs imposed in 2025 with an 18% consolidated rate on Indian goods—making India more competitive than Vietnam (20%) and Pakistan (19%).\n\nIn return, India has committed to importing $100 billion worth of US goods annually for five years. The deal includes specific concessions for pharmaceuticals (generic drugs/APIs) and automotive parts (quota-based). A critical condition for implementation is the verification of India's cessation of Russian oil imports, reflecting a major geopolitical realignment.\n\n| Parameter | Detail |\n|---|---|\n| Pre-Deal Tariff | 50% (August 2025 rate) |\n| Post-Deal Tariff | 18% (Consolidated) |\n| Import Commitment | $100 Billion annually |\n| Implementation Trigger | Zero Russian oil verification |\n| Competing Rates | Vietnam (20%), Pakistan (19%) |",
+        whyItMatters: "📌 This deal signals a strategic pivot toward the West. While it restores export competitiveness for textiles and pharma, it comes with significant geopolitical trade-offs regarding energy security and Russian relations.\n\n⚠️ **Trap:** The Feb 2 announcement was an **Interim Framework**, not the final Bilateral Trade Agreement (BTA). The final legal scrubbing is expected in Q3 2026.\n\n⚠️ **Second trap:** The 18% tariff is not immediate. It requires a **90-day verification** of the cessation of Russian oil imports. Tariffs remain at 50% until this condition is met.",
+        revise: "🔗 **Trade Policy:** GATT/WTO principles; MFN vs. Preferential rates; TRIPS and IP protection\n🔗 **US Law:** Section 232 (National Security) and Section 301 investigations\n🔗 **Strategic Autonomy:** Balancing energy dependence (Russia) with trade access (USA)",
+        pyqConnect: "UPSC Prelims 2022 — Question on India-Australia trade agreement features."
+      },
+      {
+        id: "3-4",
+        title: "OPERATION WHITE STRIKE: RECORD COCAINE SEIZURE",
+        subtitle: "🟡 Important | Both | GS II (Governance), GS III (Internal Security)",
+        content: "On May 2, 2026, the Narcotics Control Bureau (NCB) executed Operation WHITE STRIKE in the Mumbai logistics corridor, seizing 349 kg of high-grade cocaine valued at ₹1,745 crore. This is India's largest cocaine bust in recent years.\n\nThe operation dismantled a transnational syndicate using Indian ports as a transit route for South American cocaine destined for Europe. The seizure highlights India's increasing vulnerability as a transit hub between the Golden Crescent and Golden Triangle due to fortification of traditional US-Mexico border routes.\n\n| Parameter | Detail |\n|---|---|\n| Agency Lead | Narcotics Control Bureau (NCB) |\n| Quantity | 349 kg (Purity high-grade) |\n| Estimated Value | ₹1,745 Crore |\n| Jurisdiction | Pan-India (under MHA) |\n| Primary Origin | South America |",
+        whyItMatters: "📌 Operation WHITE STRIKE exposes the nexus between container logistics, money laundering, and organized crime. It underscores the need for real-time container tracking and stronger inter-agency coordination (NCORD).\n\n⚠️ **Trap:** NCB is a **specialized** agency for narcotics. If the question asks about money laundering *linked* to drugs, the answer is ED (Enforcement Directorate). NCB is the nodal agency for the NDPS Act only.\n\n⚠️ **Second trap:** Cocaine originates from South America, not the Golden Triangle (which produces heroin). Don't confuse drug types with their geographic sources.",
+        revise: "🔗 **Legislation:** NDPS Act 1985 (Schedules I-VI); PMLA 2002 (Predicate offenses)\n🔗 **Security:** Narco-terror nexus; role of Coast Guard and Port Security\n🔗 **International:** MLATs (Mutual Legal Assistance Treaties) with South American nations",
+        pyqConnect: "UPSC Prelims 2021 — Question on organized crime and trafficking trends."
+      },
+      {
+        id: "3-5",
+        title: "WOMEN LABOUR FORCE PARTICIPATION: SURGE TO 40%",
+        subtitle: "🟡 Important | Both | GS I (Society), GS II (Governance)",
+        content: "On International Labour Day 2026, the Government released PLFS data showing that the Female Labour Force Participation Rate (FLFPR) has surged from 23.3% (2017-18) to 40% in 2025. This 16.7 percentage point increase is driven primarily by rural women.\n\nKey policy drivers include DAY-NRLM (10 crore women in SHGs) and the e-Shram portal (31 crore registrations). While the quantity of participation has increased, the quality remains a concern, as most participation is in the informal agri-allied sector (dairy, poultry) with a persistent 30-40% gender wage gap.\n\n| Parameter | Value |\n|---|---|\n| FLFPR (2017-18) | 23.3% |\n| FLFPR (2025) | 40% |\n| SHG Mobilization | 10+ Crore women |\n| e-Shram Majority | Women (31 Cr total) |\n| Gender Wage Gap | 30-40% |",
+        whyItMatters: "📌 The rise to 40% participation is a significant demographic shift, but it highlights a 'participation-quality paradox'. Higher numbers don't yet equate to formal job security or pay parity.\n\n⚠️ **Trap:** The increase is primarily in **agri-allied** activities (dairy/poultry), NOT traditional farm agriculture or formal urban sectors. \n\n⚠️ **Second trap:** High participation ≠ Gender equality. If jobs are informal and precarious (SHGs/household enterprises), structural vulnerabilities remain.",
+        revise: "🔗 **Constitutional:** Articles 14, 15, 16 (Equality); Art 39(d) (Equal pay for equal work)\n🔗 **SDGs:** SDG 5 (Gender Equality) and SDG 8 (Decent Work)\n🔗 **Methodology:** Periodic Labour Force Survey (PLFS) vs. Decadal Census",
+        pyqConnect: "UPSC Mains 2019 — Question on persistent gender inequality despite constitutional provisions."
+      },
+      {
+        id: "3-6",
+        title: "AGRICULTURAL ENGINEERING: CLIMATE-SMART FARMING",
+        subtitle: "🟡 Important | Both | GS III (Agriculture & Environment)",
+        content: "A 2026 NITI Aayog positioning paper identifies Agricultural Engineering as the driver for India's transition to climate-resilient farming. With average landholdings at just 1.2 hectares, precision technologies and small-plot mechanization are essential to offset labor shortages and climate volatility.\n\nTechnologies like variable-rate irrigation (reducing water use by 20-30%), IoT sensors, and Controlled-Environment Agriculture (CEA) are being prioritized. However, high capital costs (₹5-15 lakh per hectare) remain a barrier for India's 86% small and marginal farmers.\n\n| Metric | Detail |\n|---|---|\n| Avg Farm Size | 1.2 Hectares |\n| Small/Marginal Farmers | 86% of total |\n| Water Savings | 20-30% via precision systems |\n| Tech Cost | ₹5-15 Lakh per hectare |\n| Mechanization (Marginal) | < 15% adoption |",
+        whyItMatters: "📌 Agricultural Engineering moves farming from biology to systems technology. It addresses the 'fragmentation trap' where small plots make traditional mechanization unviable.\n\n⚠️ **Trap:** Don't confuse Agricultural Engineering with Agronomy. Engineering is about **mechanisms and automation** (IoT/tractors), while Agronomy is about **practices** (crop rotation/soil health).\n\n⚠️ **Second trap:** Precision farming is NOT widely adopted yet (<15%). MCQs will test adoption barriers like capital costs and credit access.",
+        revise: "🔗 **Schemes:** PMKSY (Irrigation); Soil Health Card; National Mission for Sustainable Agriculture (NMSA)\n🔗 **Organizations:** ICAR (Indian Council of Agricultural Research) and FPOs (Farmer Producer Organizations)\n🔗 **Economics:** How land fragmentation (avg 1.2 ha) prevents economies of scale",
+        pyqConnect: "UPSC Mains 2020 — Question on sustainable agriculture as an economic necessity."
+      },
+      {
+        id: "3-7",
+        title: "BARRIER-FREE TOLLING SYSTEM: GUJARAT LAUNCH",
+        subtitle: "🟢 Good to Know | Prelims | GS III (Infrastructure & Technology)",
+        content: "India launched its first multi-lane barrier-free tolling system on NH-48 in Gujarat. Unlike traditional FASTag lanes that require slowing down, this Open Road Tolling (ORT) system uses high-speed RFID and AI cameras to detect tags and number plates at highway speeds.\n\nThis technology increases throughput from 200 to 600 vehicles per hour per lane, reducing travel time by 15-20%. The system eliminates the 'toll plaza effect' and associated fuel wastage from idling vehicles.\n\n| Parameter | Detail |\n|---|---|\n| Location | NH-48, Gujarat |\n| Technology | RFID + AI Lane Management |\n| Throughput | 600 vehicles/hour per lane |\n| Time Savings | 15-20% reduction |\n| State | Gujarat (First Deployment) |",
+        whyItMatters: "📌 Barrier-free tolling is the next evolution of FASTag. It transitions from electronic payment at a booth to seamless flow at highway speeds, drastically improving logistics efficiency.",
+        revise: "🔗 **Technology:** RFID (Radio-Frequency Identification) fundamentals vs. ANPR (Number Plate Recognition)\n🔗 **Logistics:** Impact of traffic congestion on India's GDP (estimated ₹16 lakh crore annual loss)\n🔗 **Governance:** NHAI and the Ministry of Road Transport & Highways mandate",
+        pyqConnect: "UPSC Prelims 2023 — Question on Smart Highways and their applications."
+      }
+    ],
+    reviseSummary: [
+      "Online Gaming Rules 2026: PROG Act 2025 gives MeitY-OGA primary authority; money games (betting/poker) are categorically banned.",
+      "Jammu-Srinagar Vande Bharat: Direct rail link via Chenab Bridge (359m) achieved; all-weather connectivity replaces seasonal road dependence.",
+      "India-US Trade Deal: 18% consolidated tariff replaces 50% rate; implementation trigger is zero Russian oil verification.",
+      "Operation WHITE STRIKE: NCB seized 349 kg cocaine (₹1,745 Cr) in Mumbai; highlights India's transit vulnerability.",
+      "Women in Labour Force: FLFPR increased from 23.3% to 40% in 2025; driven by rural SHGs and agri-allied sector.",
+      "Agricultural Engineering: NITI Aayog pushes for precision farming to handle climate volatility; 86% of farmers are marginal/small.",
+      "Barrier-Free Tolling: Launched on NH-48 in Gujarat; uses RFID/AI for non-stop pass-through at 60-80 km/h."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "The Online Gaming Rules, 2026 derive their primary constitutional authority from which of the following?",
+          options: ["(a) Information Technology Act, 2000", "(b) Promotion and Regulation of Online Gaming Act (PROG Act), 2025", "(c) Public Gambling Act, 1867", "(d) Consumer Protection Act, 2019"],
+          answer: "(b) Promotion and Regulation of Online Gaming Act (PROG Act), 2025",
+          explanation: "The PROG Act 2025 is the new foundation that creates the Online Gaming Authority (OGA) under MeitY, shifting away from the IT Act's broader intermediary rules."
+        },
+        {
+          question: "Consider the following statements about the Chenab Rail Bridge:\n1. It is the world's highest railway bridge, standing at 359 meters above the river bed.\n2. It connects Udhampur directly to Baramulla as part of the USBRL project.\n3. The bridge is located in the Pir Panjal range in Himachal Pradesh.",
+          options: ["(a) 1 and 2 only", "(b) 1 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Statement 1 and 2 are correct. Statement 3 is false: The bridge is located in Jammu & Kashmir (Reasi district), not Himachal Pradesh, although it is near the border."
+        },
+        {
+          question: "Implementation of the 18% consolidated tariff under the 2026 India-US Trade Deal is conditional upon:",
+          options: ["(a) India signing the full Bilateral Trade Agreement (BTA)", "(b) India verifying the complete cessation of Russian oil imports", "(c) India reducing its trade surplus with the US by 50%", "(d) India adopting US data localization standards"],
+          answer: "(b) India verifying the complete cessation of Russian oil imports",
+          explanation: "The deal includes a 90-day verification trigger post-cessation of Russian oil imports, reflecting a major geopolitical condition."
+        },
+        {
+          question: "Which agency is the nodal body for enforcing the NDPS Act and led Operation WHITE STRIKE in 2026?",
+          options: ["(a) Central Bureau of Investigation (CBI)", "(b) Enforcement Directorate (ED)", "(c) Narcotics Control Bureau (NCB)", "(d) National Investigation Agency (NIA)"],
+          answer: "(c) Narcotics Control Bureau (NCB)",
+          explanation: "NCB is the specialized nodal agency for narcotics enforcement under the Ministry of Home Affairs."
+        },
+        {
+          question: "As per the latest Periodic Labour Force Survey (PLFS) released in May 2026, the Female Labour Force Participation Rate (FLFPR) in India stands at:",
+          options: ["(a) 23.3%", "(b) 32.5%", "(c) 40.0%", "(d) 51.2%"],
+          answer: "(c) 40.0%",
+          explanation: "The rate surged from 23.3% in 2017-18 to 40.0% in 2025/26."
+        }
+      ],
+      mains: [
+        {
+          question: "The Online Gaming Rules, 2026 represent an attempt to balance innovation, consumer protection, and federal-state relations in the digital economy. Critically examine.",
+          context: "GS Paper II | 250 words. Discuss the jurisdictional shift from states to MeitY-OGA, the ban on money games, and the impact on the digital economy."
+        },
+        {
+          question: "Infrastructure connectivity in border regions plays a critical role in economic development and national security. Examine this in the context of the Jammu–Srinagar rail link.",
+          context: "GS Paper III | 250 words. Discuss all-weather connectivity, strategic logistics for defense, impacts on agri-commerce (like apples), and engineering challenges."
+        }
+      ]
+    }
   }
 ];

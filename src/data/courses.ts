@@ -184,5 +184,68 @@ This module is optimized for quick recall of the technical parameters of the Ind
 4.  **Fiscal Indicators**: Revenue Deficit, Fiscal Deficit, Primary Deficit, and the FRBM Act targets.
 
 This module is designed to help you master the data-heavy aspects of the Union Budget and Public Finance.`
+  },
+  {
+    id: "revision-constitutional-statutory-bodies",
+    title: "Neti Revision 08: Constitutional & Statutory Bodies",
+    description: "A specialized revision module covering the powers, functions, and comparative analysis of constitutional and statutory bodies for UPSC Prelims.",
+    price: 0,
+    pdfUrl: "/Revision_series/Neti Revision 08 Constitutional Statutory_Bodies.pdf",
+    previewImage: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=1200",
+    category: "Revision Series",
+    duration: "Quick Read",
+    level: "Intermediate",
+    date: "2026-05-01",
+    content: `Constitutional and Statutory bodies form the backbone of Indian governance. This module provides a comparative analysis of their powers, functions, and constitutional safeguards.
+
+### Key Highlights:
+1.  **Constitutional Bodies**: Detailed coverage of Election Commission (Art. 324), UPSC, Finance Commission (Art. 280), and CAG (Art. 148).
+2.  **Statutory Bodies**: Analysis of NHRC, NGT, SEBI, and Lokpal including their legislative mandates.
+3.  **Comparative Tables**: Quick reference for appointment procedures, tenure, and removal mechanisms.
+4.  **Recent Appointments**: Tracking changes in leadership and major reports submitted by these bodies in 2025-26.
+
+This module is designed to help you master the 'Institutional' dimension of Indian Polity.`
+  },
+  {
+    id: "revision-governor-emergency",
+    title: "Neti Revision 09: Governor & Emergency",
+    description: "A specialized revision module covering the constitutional role of the Governor and Emergency provisions (Art. 352-360) for UPSC Prelims.",
+    price: 0,
+    pdfUrl: "/Revision_series/Neti Revision 09 Governor Emergency.pdf",
+    previewImage: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&q=80&w=1200",
+    category: "Revision Series",
+    duration: "Quick Read",
+    level: "Intermediate",
+    date: "2026-05-02",
+    content: `The roles of the Governor and the application of Emergency provisions are recurring high-yield themes in UPSC Polity. This module clarifies the constitutional nuances and recent judicial interpretations.
+
+### Key Highlights:
+1.  **Office of the Governor**: Constitutional role (Art. 153-162), discretionary powers, and the friction points in Centre-State relations.
+2.  **Emergency Provisions**: Comprehensive breakdown of National Emergency (Art. 352), President's Rule (Art. 356), and Financial Emergency (Art. 360).
+3.  **Judicial Landmarks**: S.R. Bommai case, Nabam Rebia judgment, and recent SC observations on gubernatorial delays.
+4.  **Federalism Impact**: How these provisions affect the federal balance of the Indian Union.
+
+Optimized for conceptual clarity and quick recall of relevant Articles and Case Laws.`
+  },
+  {
+    id: "revision-government-schemes",
+    title: "Neti Revision 10: Government Schemes",
+    description: "A specialized revision module consolidating flagship government initiatives and recent social welfare schemes for UPSC Prelims.",
+    price: 0,
+    pdfUrl: "/Revision_series/Neti Revision 10 Government Schemes.pdf",
+    previewImage: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&q=80&w=1200",
+    category: "Revision Series",
+    duration: "Quick Read",
+    level: "Intermediate",
+    date: "2026-05-03",
+    content: `Government Schemes represent a significant portion of both Prelims and Mains. This module consolidates flagship initiatives and recent launches from **October 2024 to May 2026**.
+
+### Key Highlights:
+1.  **Social Welfare**: PM-JANMAN, PM-Kisan, and Ayushman Bharat expansions.
+2.  **Infrastructure & Tech**: PM Gati Shakti, Digital India Bhashini, and PM Surya Ghar Muft Bijli Yojana.
+3.  **Livelihood & Skills**: PM-Vishwakarma, Lakhpati Didi initiative, and MSME support schemes.
+4.  **Nodal Ministries**: Quick reference for implementing agencies, target beneficiaries, and funding patterns (CSS vs. Central Sector).
+
+This module is the definitive revision guide for the 'Welfare State' dimension of the UPSC syllabus.`
   }
 ];
