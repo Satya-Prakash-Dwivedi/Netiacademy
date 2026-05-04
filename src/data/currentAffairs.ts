@@ -2387,5 +2387,120 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-04",
+    date: "4th May 2026",
+    day: "Monday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~14 minutes | 📋 Topics today: 6 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 State Assembly Elections 2026 — Counting Day for WB, Tamil Nadu, Kerala, Assam & Puducherry; SIR controversy excludes 9 million West Bengal voters\n🔴 Operation Sindoor — First anniversary approaching (May 7); India's shift to calibrated retaliation doctrine marks a permanent strategic reset\n🔴 Monsoon 2026 Forecast — IMD's first Long Range Forecast: 92% of LPA (~800 mm); El Niño conditions likely; first below-normal April forecast since 2015\n🟡 GST April 2026 Record — ₹2.43 lakh crore gross, 8.7% YoY; import-driven surge (25.8%) masks moderate domestic growth (4.3%)\n🟡 Cell Broadcast System Launch — India's indigenous C-DOT-built disaster alert system, geo-targeted alerts to all mobiles; deployed nationally on May 2\n🟢 Online Gaming Rules 2026 — India's first comprehensive gaming regulatory framework, effective May 1 under PROG Act 2025; online money games banned outright\n\n🔴 Must Read | 🟡 Important | 🟢 Good to Know",
+    topics: [
+      {
+        id: "4-1",
+        title: "STATE ASSEMBLY ELECTIONS 2026: COUNTING DAY",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II",
+        content: "📌 **QUICK TAKE**\nToday is the counting day for assembly elections in West Bengal, Tamil Nadu, Kerala, Assam, and Puducherry. The cycle is clouded by a serious controversy: the Election Commission's Special Intensive Revision (SIR) of electoral rolls excluded over 9 million voters in West Bengal alone — a flashpoint for debates on the ECI's independence, federalism, and the constitutionality of electoral roll management.\n\n📰 **WHAT HAPPENED**\nIndia's Election Commission of India (ECI) oversaw assembly elections across four states and one union territory: West Bengal (294 seats), Tamil Nadu, Kerala, Assam, and Puducherry. Polling was conducted in multiple phases through April 2026, with counting scheduled for today, 4th May 2026.\n\nThe elections were preceded by a significant controversy centred on the ECI's Special Intensive Revision (SIR) — a process requiring all voters in poll-bound states to resubmit their voter registration particulars. Opposition parties, particularly the Trinamool Congress in West Bengal, alleged that the SIR was used to disenfranchise minority and migrant voters. In West Bengal, over 9 million voters were excluded from the revised electoral rolls. The ECI also ordered re-polling for the Falta assembly constituency in West Bengal (May 21) after electoral malpractice allegations arose during the second phase. West Bengal recorded a near-record turnout of approximately 92% across two phases.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| States/UTs going to poll | West Bengal, Tamil Nadu, Kerala, Assam, Puducherry |\n| WB total seats | 294 (293 counting today; Falta on May 21) |\n| WB voter exclusion (SIR) | 9+ million voters removed from rolls |\n| WB voter turnout | ~92% (both phases) |\n| TMC rule tenure in WB | In power since 2011 (15 years) |\n| ECI's additional deployment | 165 counting observers + 77 police observers |\n| Falta re-poll date | May 21, 2026 |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test the **SIR as a process, not as news**. Students confuse \"Special Intensive Revision\" with routine electoral roll revision. The key distinctions UPSC will probe: (1) SIR requires *all* voters to re-enrol — not just those flagged for errors; (2) It is different from the Summary Revision conducted annually under Section 21 of the Representation of the People Act, 1950; (3) ECI's power over electoral rolls derives from Article 324 of the Constitution — this article makes the ECI's authority very broad and largely self-contained, which is why courts are reluctant to interfere.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- **Article 324**: ECI's superintendence, direction and control over elections\n- **Representation of the People Act 1950 vs 1951**: 1950 governs electoral rolls and qualifications; 1951 governs conduct of elections\n- **Section 21 (RPA 1950)**: Power of ECI to call for preparation/revision of electoral rolls\n- **Model Code of Conduct (MCC)**: Not mentioned in the Constitution or any statute — entirely ECI-generated\n- **Article 329**: Bar on courts interfering in election process\n- **Governor's role**: Bommai case (1994) and subsequent SC guidelines for fractured mandates",
+        pyqConnect: "UPSC 2017 — \"The Constitution of India does not mention the Election Commission as a constitutional body.\" True or False? (False — Article 324 explicitly constitutes it.)"
+      },
+      {
+        id: "4-2",
+        title: "OPERATION SINDOOR: ONE YEAR ON — INDIA'S NEW SECURITY DOCTRINE",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Security) + GS Paper II (IR)",
+        content: "📌 **QUICK TAKE**\nOperation Sindoor (May 7–10, 2025) — India's 88-hour precision strike on 9 terror camps in Pakistan and POK — is approaching its first anniversary. India has permanently moved from strategic restraint to **calibrated retaliation below the nuclear threshold**, with autonomous indigenous platforms (BrahMos, S-400, loitering munitions) at the core.\n\n📰 **WHAT HAPPENED**\nOn May 7, 2025, following the April 22 Pahalgam terror attack, India launched Operation Sindoor — striking 9 terrorist infrastructure sites of LeT, JeM, and HuM. The conflict lasted 88 hours, ending with a ceasefire on May 10, 2025.\n\nAt \"Shaurya Sandhya\" (May 2–3, 2026), Defence Minister Rajnath Singh described it as a \"golden chapter,\" underscoring India's \"surge capacity.\" Analysts identify five doctrinal lessons: (1) Willingness to cross escalation lines; (2) Calibrated restraint avoided nuclear escalation; (3) Performance of indigenous platforms; (4) Strategic communications gap; (5) Expanded conventional operations space.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Operation launched | Night of May 6–7, 2025 |\n| Trigger | Pahalgam attack, April 22, 2025 (26 killed) |\n| Sites targeted | 9 terror infrastructure sites |\n| Groups targeted | LeT, JeM, HuM |\n| Duration of conflict | 88 hours (May 7–10, 2025) |\n| Ceasefire | May 10, 2025 (US-facilitated) |\n| Platforms highlighted | BrahMos missiles, S-400, indigenous drones, loitering munitions |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test **nomenclature and target classification**. India explicitly stated no Pakistani military facilities were targeted; only terrorist infrastructure. This distinction is central to India's claim of \"measured, non-escalatory action.\" Second: India's official position remains \"No First Use (NFU),\" unchanged by Operation Sindoor. The operation expanded conventional deterrence space but did NOT alter the NFU doctrine.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- **India's Nuclear Doctrine**: NFU; Credible Minimum Deterrence; Massive Retaliation\n- **Article 353**: Centre's emergency powers over states during external aggression\n- **Proactive Operations vs. Cold Start**: Cold Start was denied by India officially\n- **S-400 Triumf**: Air defence system from Russia; implications under CAATSA\n- **BrahMos Missile**: India-Russia joint venture; supersonic cruise missile\n- **UNODC / FATF**: Pakistan's terror financing monitoring context",
+        pyqConnect: "UPSC 2019 — \"The concept of 'Limited War' under nuclear overhang has become obsolete.\" Discuss."
+      },
+      {
+        id: "4-3",
+        title: "MONSOON 2026: IMD FORECASTS BELOW-NORMAL RAINFALL — EL NIÑO RETURNS",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper I (Geography) + GS Paper III (Agriculture, Economy)",
+        content: "📌 **QUICK TAKE**\nIMD's first Long Range Forecast (April 13, 2026) places the 2026 Southwest Monsoon at 92% of LPA (~800 mm) — the first below-normal April forecast since 2015. A potential \"super El Niño\" developing in the second half of the season is the primary driver.\n\n📰 **WHAT HAPPENED**\nIMD projects seasonal rainfall at 92% of the Long Period Average (LPA) of 868.6 mm — \"below normal\" (90–95% of LPA). Weak La Niña conditions are expected to transition to ENSO-neutral before El Niño develops.\n\nPositive Indian Ocean Dipole (IOD) conditions are expected to develop towards the season's end, and below-normal Northern Hemisphere snow cover provides partial counter-balance. RBI has flagged El Niño as an upside risk to inflation. The last \"super El Niño\" year was 2015–16.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Forecast | 92% of LPA (~800 mm) — \"Below Normal\" |\n| LPA (1971–2020 baseline) | 868.6 mm |\n| Probability: Deficient (<90%) | 35% |\n| Primary driver | El Niño development in Equatorial Pacific |\n| Farmers dependent on monsoon | ~60% of India's farming community |\n| Updated forecast due | Last week of May 2026 |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC exploits the **El Niño–monsoon relationship as probabilistic, not deterministic**. El Niño generally *suppresses* Indian monsoon, but there have been El Niño years with normal or above-normal rainfall due to positive IOD. Second: IMD's official LPA is based on 1971–2020 data (868.6 mm). The older figure (880.6 mm) is outdated.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- **ENSO**: El Niño (warming), La Niña (cooling), Neutral. Threshold: +0.5°C ONI\n- **Indian Ocean Dipole (IOD)**: Positive IOD supports Indian monsoon\n- **IMD classification**: Deficient (<90%), Below Normal (90–95%), Normal (96–104%)\n- **Kharif crops at risk**: Rice, pulses, oilseeds, sugarcane, cotton\n- **RBI & Inflation**: Monsoon failure impact on food inflation and rates\n- **PMFBY**: Pradhan Mantri Fasal Bima Yojana mechanism",
+        pyqConnect: "UPSC 2021 — \"Describe the characteristics of 'La Niña' and how it differs from 'El Niño.' What are its effects on global weather?\""
+      },
+      {
+        id: "4-4",
+        title: "GST APRIL 2026: ₹2.43 LAKH CRORE — RECORD HIGH, BUT READ THE FINE PRINT",
+        subtitle: "🟡 Important | Prelims + Mains | GS Paper III (Economy)",
+        content: "📌 **QUICK TAKE**\nIndia's GST collection in April 2026 hit a record ₹2.43 lakh crore (up 8.7% YoY). However, import-linked GST surged 25.8%, while domestic transaction revenue grew at just 4.3%. The quality of growth (import-led vs. consumption-led) will be watched closely.\n\n📰 **WHAT HAPPENED**\nApril 2026 collections reached ₹2,42,702 crore, surpassing the previous record of ₹2.23 lakh crore (April 2025). High global crude prices inflated import values and import-linked GST. Net collections after refunds stood at ₹2,10,909 crore.\n\nMaharashtra, Karnataka, Telangana, and Punjab posted strong growth. Punjab's 66–70% growth was driven by anti-evasion operations. The \"GST 2.0\" technology-driven compliance platform has contributed to improved reporting. Union Budget 2026–27 targets a fiscal deficit of 4.3% of GDP.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Gross GST (April 2026) | ₹2,42,702 crore |\n| YoY growth | 8.7% |\n| Domestic transaction revenue | ₹1,85,122 crore (+4.3% YoY) |\n| Import GST revenue | ₹57,580 crore (+25.8% YoY) |\n| Refunds issued | ₹31,793 crore (+19.3% YoY) |\n| Net GST revenue | ₹2,10,909 crore (+7.3% YoY) |\n| FY27 fiscal deficit target | 4.3% of GDP |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test **GST structure, not records**. GST has four components: CGST, SGST, IGST, and Compensation Cess. IGST applies to inter-state trade and imports. Second: The GST Council is a **constitutional body** under Article 279A. Third: \"GST from imports\" falls under IGST, different from customs duty.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- **101st Amendment Act**: Articles 246A, 269A (IGST), 279A (GST Council)\n- **GST Council composition**: Union FM (Chair) + State FMs. Voting: Centre 1/3, States 2/3. 3/4 majority required\n- **Fiscal Federalism**: IGST distribution, Finance Commission devolution\n- **Revenue vs Fiscal Deficit**: Connection between tax buoyancy and fiscal targets",
+        pyqConnect: "UPSC 2018 — \"What are the key features of the Goods and Services Tax (GST) in India? How has it transformed India's indirect tax structure?\""
+      },
+      {
+        id: "4-5",
+        title: "CELL BROADCAST SYSTEM (CBS): INDIA'S INDIGENOUSLY BUILT DISASTER ALERT NETWORK",
+        subtitle: "🟡 Important | Prelims + Mains | GS Paper III (Disaster Management, S&T)",
+        content: "📌 **QUICK TAKE**\nIndia launched its nationwide Cell Broadcast System (CBS) on May 2, 2026 — a geo-targeted, indigenously developed mechanism built by C-DOT to send emergency alerts to all mobile phones simultaneously without network congestion.\n\n📰 **WHAT HAPPENED**\nDeveloped by C-DOT under DoT in collaboration with NDMA and MHA, CBS is operational across all 36 States/UTs. Unlike SMS (SACHET), CBS broadcasts to all devices within a defined area simultaneously. Alerts appear as high-priority pop-ups with loud tones that cannot be silenced.\n\nThe system supports 2G to 5G and multiple languages. It uses the Common Alerting Protocol (CAP), the global standard for emergency alert interoperability. It supplements the existing SACHET SMS system, which has delivered 134 billion alerts so far.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Launch date | May 2, 2026 |\n| Developed by | C-DOT (Centre for Development of Telematics) |\n| Protocol standard | Common Alerting Protocol (CAP) — ITU-recommended |\n| Network compatibility | 2G to 5G |\n| UN alignment | UN \"Early Warnings for All\" initiative |\n| Geographic targeting | Cell tower-level to national scale |",
+        whyItMatters: "📌 **EXAM ANGLES**\n- **Prelims**: CBS developer? (C-DOT) / Standard? (CAP) / NDMA chair? (PM) / Ministry? (DoT/MHA)\n- **Mains**: Role of early warning systems in achieving Sendai Framework targets; Balancing tech adoption with last-mile inclusivity.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- **Disaster Management Act 2005**: Legal backbone for NDMA; PM is ex-officio Chairperson\n- **NDMA vs. NDRF**: Policy/planning body vs. operational force\n- **Sendai Framework (2015–2030)**: India is a signatory; CBS serves Priority 4 (enhancing preparedness)\n- **Common Alerting Protocol (CAP)**: XML-based data format for emergency alerting\n- **Atmanirbhar Bharat**: CBS as indigenously developed technology",
+        pyqConnect: "UPSC 2020 — \"What is the National Disaster Management Authority? How does it coordinate with other institutions for disaster preparedness?\""
+      },
+      {
+        id: "4-6",
+        title: "ONLINE GAMING RULES 2026: INDIA'S FIRST COMPREHENSIVE REGULATORY FRAMEWORK",
+        subtitle: "🟢 Good to Know | Prelims + Mains | GS Paper II (Governance) + GS Paper III (Economy/S&T)",
+        content: "📌 **QUICK TAKE**\nIndia notified the Online Gaming Rules 2026 on April 22, effective May 1, under the PROG Act 2025. Key provision: online money games are banned outright, regardless of skill or chance. A new Online Gaming Authority (OGA) under MeitY will regulate the sector.\n\n📰 **WHAT HAPPENED**\nThis marks India's first overarching national-level regulation of the online gaming sector. PROG Act 2025 centralises regulation at the Union level, resolving jurisdictional ambiguity between Union and State lists.\n\nKey provisions: (1) Online money games prohibited entirely; (2) Online Gaming Authority (OGA) to register games (valid up to 10 years); (3) Consumer safeguards including anti-addiction features and parental controls; (4) Mandatory spending disclosures. India has ~500 million gamers with growing concerns over addiction and financial losses.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Parent Act | Promotion and Regulation of Online Gaming (PROG) Act, 2025 |\n| Regulatory body | Online Gaming Authority (OGA) under MeitY |\n| Effective Date | May 1, 2026 |\n| Prohibition | Real-money stakes banned (no skill/chance distinction) |\n| Gaming Base | ~500 million gamers |",
+        whyItMatters: "📌 **EXAM ANGLES**\n- **Prelims**: Parent Act? (PROG 2025) / Ministry? (MeitY) / Registration validity? (10 years)\n- **Mains**: Balancing the right to carry on business (Art 19) with reasonable restrictions for social order; Federalism vs. Digital Centralization.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- **7th Schedule**: Betting/Gambling (State List) vs. Communications (Union List) tension\n- **IT Act 2000**: Pre-existing framework limitations\n- **MeitY**: OGA constituted under this ministry; Digital India link\n- **Consumer Protection Act 2019**: Synergy with new user protection provisions\n- **Skill vs. Chance**: Distinction collapsed for money-based games under PROG Act",
+        pyqConnect: "UPSC 2016 — \"What is the basis of delimiting the scope of the Union and State Lists under the 7th Schedule? Illustrate with examples where overlaps arise.\""
+      }
+    ],
+    reviseSummary: [
+      "State Elections/SIR: Article 324, 329, RPA 1950 vs 1951, Section 21 RPA 1950, MCC (non-statutory), Bommai case.",
+      "Operation Sindoor: India's Nuclear Doctrine (NFU, Massive Retaliation), Cold Start, BrahMos JV, S-400 CAATSA waiver.",
+      "Monsoon 2026: ENSO (El Niño/La Niña), IOD, IMD classifications, LPA 868.6 mm, PMFBY, Kharif crop impact.",
+      "GST Record: Article 246A, 269A (IGST), 279A (GST Council), 101st Amendment, Voting rules (3/4 majority).",
+      "Cell Broadcast System: DM Act 2005, NDMA, Sendai Framework, CAP protocol, C-DOT, SACHET platform.",
+      "Online Gaming Rules: 7th Schedule (Entry 34 State List), PROG Act 2025, MeitY-OGA, Consumer Protection Act 2019."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the Cell Broadcast System (CBS) launched in India:\n1. It was developed by the National Disaster Management Authority (NDMA).\n2. It is based on the Common Alerting Protocol (CAP) recommended by the ITU.\n3. CBS alerts, once broadcast, cannot be silenced or dismissed by the recipient.\n4. The system supplements but does not replace India's existing SACHET SMS alert platform.",
+          options: ["(a) 1 and 2 only", "(b) 2, 3 and 4 only", "(c) 1, 2 and 4 only", "(d) 2 and 4 only"],
+          answer: "(b) 2, 3 and 4 only",
+          explanation: "CBS was developed by C-DOT under DoT. Statements 2, 3 and 4 are correct features of the system."
+        },
+        {
+          question: "With reference to the Election Commission of India's Special Intensive Revision (SIR) of electoral rolls, which of the following statements is/are correct?\n1. The ECI's power to undertake SIR derives from Article 324 of the Constitution.\n2. SIR requires all voters in poll-bound states to re-enroll, distinguishing it from the annual Summary Revision.\n3. Courts can intervene to halt the SIR process if a petition is filed before election results are declared.",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Article 329 bars courts from interfering in election processes once they begin. SIR is a distinct process under ECI powers."
+        },
+        {
+          question: "Consider Statement I and Statement II regarding India's 2026 Southwest Monsoon forecast:\nStatement I: The IMD classifies monsoon as 'below normal' when seasonal rainfall is between 90% and 95% of the Long Period Average (LPA).\nStatement II: The 2026 forecast of 92% of LPA places India in the 'deficient' rainfall category.",
+          options: ["(a) Both Statement I and Statement II are correct and Statement II explains Statement I.", "(b) Both Statement I and Statement II are correct but Statement II does NOT explain Statement I.", "(c) Statement I is correct but Statement II is incorrect.", "(d) Statement I is incorrect but Statement II is correct."],
+          answer: "(c) Statement I is correct but Statement II is incorrect.",
+          explanation: "92% of LPA falls in 'Below Normal' (90-95%), not 'Deficient' (<90%)."
+        },
+        {
+          question: "Which of the following pairs regarding the components of India's GST are correctly matched?\n1. CGST — Intra-state supply (Central share)\n2. IGST — Inter-state supply and imports\n3. Compensation Cess — Levied on all goods to compensate states permanently\n4. SGST — Intra-state supply (State share)",
+          options: ["(a) 1, 2 and 4 only", "(b) 2 and 4 only", "(c) 1, 2, 3 and 4", "(d) 1 and 4 only"],
+          answer: "(a) 1, 2 and 4 only",
+          explanation: "Compensation Cess applies only to specific demerit/luxury goods and is a temporary/extended measure, not permanent on all goods."
+        },
+        {
+          question: "Which of the following statements about India's Nuclear Doctrine is/are correct?\n1. India's nuclear doctrine includes a 'No First Use' (NFU) commitment.\n2. Operation Sindoor (May 2025) resulted in a formal revision of India's NFU commitment.\n3. India's doctrine calls for 'massive retaliation' in response to a nuclear attack.\n4. India's nuclear doctrine permits the use of nuclear weapons in retaliation to biological or chemical weapons attacks.",
+          options: ["(a) 1 and 3 only", "(b) 1, 3 and 4 only", "(c) 2 and 4 only", "(d) 1 only"],
+          answer: "(b) 1, 3 and 4 only",
+          explanation: "NFU remains unchanged. Massive retaliation and CBW retaliation are part of India's 2003 doctrine."
+        }
+      ],
+      mains: [
+        {
+          question: "The Election Commission's Special Intensive Revision of electoral rolls, while aimed at ensuring clean voter databases, risks becoming a tool for electoral manipulation unless subjected to greater accountability and judicial oversight. Critically examine.",
+          context: "GS Paper II | 250 words. Cover Art 324, Art 329, RPA 1950 framework, and the federalism dimension."
+        },
+        {
+          question: "India's 2026 monsoon forecast — the first below-normal prediction in over a decade — is as much a fiscal and governance challenge as it is an agricultural one. Discuss.",
+          context: "GS Paper III | 150 words. Connect IMD forecast to inflation, RBI policy dilemma, and fiscal spending pressures."
+        }
+      ]
+    }
   }
 ];
