@@ -2502,5 +2502,120 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-05",
+    date: "5th May 2026",
+    day: "Tuesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~22 minutes | 📋 Topics today: 6 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 2026 Assembly Election Results — BJP wins 206/294 seats in Bengal; UDF ends LDF's decade in Kerala; TVK (Vijay) storms Tamil Nadu with 107 seats; results redefine India's political map\n🔴 Operation Sindoor — First Anniversary (May 7) — India's 88-hour counter-terror strike reshaped South Asian deterrence; Indus Waters Treaty remains in abeyance; new doctrine now permanent\n🔴 EU CBAM & India's IBAM — EU's Carbon Border Tax went fully binding from Jan 2026; India now exploring India Border Adjustment Mechanism to retain carbon revenues domestically\n🟡 Jammu–Srinagar Rail Link (USBRL) Complete — First Vande Bharat from Jammu Tawi to Srinagar flagged off April 30; Kashmir rail integration achieved after 17-year project\n🟡 Cell Broadcast System (SACHET) — India launched CBS on May 2 nationwide: multilingual emergency alerts to all mobiles, 2G to 5G, without needing a SIM subscription\n🟢 Online Gaming Rules 2026 — India's first comprehensive gaming framework under PROG Act 2025 bans all online money games, establishes OGA under MeitY, effective May 1\n\n🔴 Must Read | 🟡 Important | 🟢 Good to Know",
+    topics: [
+      {
+        id: "5-1",
+        title: "2026 STATE ASSEMBLY ELECTION RESULTS: Seismic Verdicts in Bengal, Kerala, and Tamil Nadu",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Polity & Governance)",
+        content: "📌 **QUICK TAKE**\nThe May 2026 Assembly elections across West Bengal, Tamil Nadu, Kerala, Assam, and Puducherry have delivered seismic results. BJP won 206 of 294 seats in Bengal; UDF returned to power in Kerala ending CPI(M)'s decade-long rule; and Vijay's TVK emerged as Tamil Nadu's single largest party at 107 seats. Together these results mark the most consequential state elections since 2021.\n\n📰 **WHAT HAPPENED**\nCounting for five states and one Union Territory — West Bengal (294 seats), Tamil Nadu (234), Kerala (140), Assam (126), and Puducherry (30) — concluded on May 4–5, 2026, with results declared by the Election Commission of India.\n\nWest Bengal saw the most dramatic verdict. The BJP, contesting all 294 seats, won 206 and ended Mamata Banerjee's 15-year rule. The TMC collapsed to 81 seats from its 2021 tally of 213. Voter turnout crossed 92.47% — the highest in Bengal since Independence.\n\nIn Tamil Nadu, actor-turned-politician Vijay's Tamilaga Vettri Kazhagam (TVK) became the single largest party at 107 seats in the 234-seat assembly, breaking the DMK-AIADMK duopoly that had held since 1967. However, TVK is short of the majority mark of 118 and will need allies to form government.\n\nKerala's United Democratic Front (UDF), led by the INC, returned to power with a comfortable majority, ousting the CPI(M)-led Left Democratic Front (LDF). Notably, there is now no Left government in any Indian state — a first since 1977.\n\n📊 **KEY DATA TABLE**\n\n| State | Total Seats | Majority Mark | Winner | Key Seats |\n|-------|------------|---------------|--------|-----------|\n| West Bengal | 294 | 148 | BJP | 206 |\n| Tamil Nadu | 234 | 118 | TVK | 107* |\n| Kerala | 140 | 71 | UDF | ~97+ |\n| Assam | 126 | 64 | NDA (BJP+) | 102+ |\n| Puducherry | 30 | 16 | NDA | Returned |\n\n*TVK short of majority — government formation pending",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test whether TVK won a majority in Tamil Nadu. The answer is NO — it won 107 seats, two short of the 118 needed for majority (50% of 234 + 1). Students who remember \"TVK won\" without noting the numbers will tick the wrong option. The second trap: UPSC may ask about the last time there was no Left-led state government in India — the answer is approximately 1977 (before Jyoti Basu's government in Bengal).",
+        revise: "🔗 **STATIC CONNECTIONS**\n- Election Commission of India: Articles 324–329; powers and Model Code of Conduct\n- Anti-Defection Law: Tenth Schedule (1985); relevant for coalition dynamics\n- Governor's role: Article 164, Nabam Rebia case (2016), Bommai case (1994)\n- Coalition governments and federalism: 7th Schedule, Centre-State relations",
+        pyqConnect: "UPSC CSE 2017 Prelims — \"Which of the following statements is/are correct regarding the powers of the Election Commission of India?\""
+      },
+      {
+        id: "5-2",
+        title: "OPERATION SINDOOR: ONE YEAR ANNIVERSARY — India's New Counter-Terror Doctrine",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Security) + GS Paper III (Internal Security)",
+        content: "📌 **QUICK TAKE**\nMay 7, 2026 marks the first anniversary of Operation Sindoor — India's 88-hour precision strike campaign against terrorist infrastructure in Pakistan and PoK. Defence Minister Rajnath Singh this week called it a \"golden chapter\" in India's military history. The Indus Waters Treaty (IWT) remains in abeyance. The Indian Army reaffirmed that Operation Sindoor \"continues\" as an ongoing doctrinal posture.\n\n📰 **WHAT HAPPENED**\nOn May 7, 2025, following the Pahalgam terror attack, the Indian Armed Forces launched Operation Sindoor, striking nine terror infrastructure targets in Pakistan and PoK — including sites in Muridke, Bahawalpur, and Muzaffarabad. Rafale jets armed with SCALP cruise missiles led the strikes. For the first time since 1971, India struck targets deep inside Pakistan's Punjab province.\n\nKey aftermath: India suspended the Indus Waters Treaty (IWT) — effective March 20, 2026 — closed the Attari Integrated Check Post, and expelled Pakistani military advisers. One year on, both countries remain without diplomatic normalcy.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Trigger event | Pahalgam terror attack, April 22, 2025 |\n| Operation launch | May 7, 2025 |\n| Targets struck | 9 sites in Pakistan and PoK |\n| First since 1971 | India struck targets in Pakistan's Punjab province |\n| IWT suspended | Effective March 20, 2026 (abeyance) |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nStudents confuse three things: (1) The Pahalgam attack was April 22, 2025 — Operation Sindoor was launched on May 7, 2025. (2) The IWT was not suspended immediately after the attack — it was formally put in abeyance on March 20, 2026, nearly 11 months later. (3) Operation Sindoor is often confused with Operation Parakram (2001–02) — Parakram did NOT involve actual strikes.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- Indus Waters Treaty (1960): Mediator (World Bank); river allocation (India: Ravi, Beas, Sutlej; Pakistan: Indus, Jhelum, Chenab)\n- Nuclear doctrine of India: No First Use (NFU) policy; massive retaliation\n- Anti-terrorism framework: UAPA (Unlawful Activities Prevention Act); NIA Act 2008\n- UN Charter Article 51: Right to self-defence",
+        pyqConnect: "UPSC Mains 2018 GS II — \"The Indian government's stance on sharing of river waters with Pakistan has undergone a significant change.\""
+      },
+      {
+        id: "5-3",
+        title: "EU CBAM & INDIA'S IBAM RESPONSE: The New Nexus of Climate and Trade",
+        subtitle: "🔴 Must Read | Both | GS Paper III (Economy + Environment + Trade)",
+        content: "📌 **QUICK TAKE**\nThe EU's Carbon Border Adjustment Mechanism (CBAM) became fully financially binding in January 2026, imposing carbon costs on Indian exports of steel, cement, aluminium, and fertilisers entering the EU. To prevent revenue transfer to the EU, India is now developing an India Border Adjustment Mechanism (IBAM).\n\n📰 **WHAT HAPPENED**\nThe EU operationalised CBAM fully from January 2026. Importers must now purchase CBAM certificates at prices reflecting the EU carbon price (currently approx. €50–70 per tonne of CO2). India, despite an FTA with the EU, received no exemption.\n\nIndia's response: The Union Ministry of Environment, Finance, and Commerce are jointly exploring IBAM, which would impose a domestic carbon levy on carbon-intensive exports. The revenue would remain within India and be channelled toward green infrastructure and the National Green Hydrogen Mission.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| CBAM Introduced by | European Union |\n| Fully operative from | January 2026 |\n| Sectors covered | Cement, steel, aluminium, fertilisers, electricity, hydrogen |\n| India's response | India Border Adjustment Mechanism (IBAM) |\n| Legal basis (India) | Energy Conservation (Amendment) Act, 2022 |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will conflate CBAM with CCTS. CBAM is an EU import mechanism; CCTS is India's domestic carbon credit trading scheme. Second trap: CBAM is not a tariff or anti-dumping measure — it is a carbon pricing equalisation tool. Third trap: CBAM does not apply to all goods — only listed sectors (currently 6).",
+        revise: "🔗 **STATIC CONNECTIONS**\n- Paris Agreement and NDCs: Common But Differentiated Responsibilities (CBDR) principle\n- WTO rules: GATT Article XX (environmental exceptions)\n- Energy Conservation Act 2022 and CCTS: Bureau of Energy Efficiency (BEE)\n- Green Hydrogen Mission: Target of 5 MMT by 2030",
+        pyqConnect: "UPSC Prelims 2022 — Statement-based question on India's climate commitments and NDCs."
+      },
+      {
+        id: "5-4",
+        title: "JAMMU–SRINAGAR RAIL LINK (USBRL) COMPLETE: A 17-Year Engineering Milestone",
+        subtitle: "🟡 Important | Both | GS Paper III (Infrastructure) + GS Paper II (J&K, Governance)",
+        content: "📌 **QUICK TAKE**\nOn April 30, 2026, the Ministry of Railways flagged off the Vande Bharat Express from Jammu Tawi to Srinagar — the first-ever direct all-weather passenger rail connection to the Kashmir Valley. The Udhampur–Srinagar–Baramulla Rail Link (USBRL) is now fully operational.\n\n📰 **WHAT HAPPENED**\nThe USBRL project, sanctioned in 2002, connects the Kashmir Valley with the Indian Railways network through a 272-km route. The Chenab Rail Bridge at Reasi is the project's centrepiece: at 359 metres above the river bed, it is the world's highest railway bridge, surpassing the Eiffel Tower in height.\n\nStrategic significance: The link replaces dependence on NH-44, which is regularly disrupted by landslides. It has already enabled the transport of over 2 crore kg of apples by rail in a year of partial operations.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Total length | 272 km |\n| Declared | National Project (2002) |\n| Key structure | Chenab Rail Bridge — 359 m above river bed |\n| 2nd key structure | Anji Khad Bridge — India's first cable-stayed railway bridge |\n| Vande Bharat route | Jammu Tawi to Srinagar |\n| Seismic zone | Zone V (highest) |",
+        whyItMatters: "📌 **EXAM ANGLES**\n- **Prelims**: Chenab Rail Bridge height (359 m); \"world's highest\" (above river bed, not sea level); Anji Khad Bridge type (cable-stayed).\n- **Mains**: \"Infrastructure connectivity in border regions plays a critical role in economic development and national security. Examine in the context of the Jammu–Kashmir rail link.\"",
+        revise: "🔗 **STATIC CONNECTIONS**\n- PM Gati Shakti National Master Plan\n- J&K Reorganisation Act 2019; Article 370 abrogation (August 5, 2019)\n- Border Area Development: Strategic and economic rationale",
+        pyqConnect: "UPSC Prelims 2023 — Matching question on river bridges and their locations."
+      },
+      {
+        id: "5-5",
+        title: "CELL BROADCAST SYSTEM (SACHET): India's Integrated Emergency Alert Infrastructure",
+        subtitle: "🟡 Important | Prelims | GS Paper III (Disaster Management + S&T)",
+        content: "📌 **QUICK TAKE**\nIndia's Cell Broadcast System (CBS), branded SACHET, was successfully tested nationwide on May 2, 2026. CBS delivers multilingual emergency alerts to all mobile phones in a targeted area — irrespective of carrier or network generation (2G to 5G).\n\n📰 **WHAT HAPPENED**\nLaunched by Union Minister Jyotiraditya Scindia, CBS is fundamentally different from SMS: it broadcasts a signal to all devices in a cell tower's range, unaffected by network congestion. During critical minutes after a disaster, CBS still reaches all devices simultaneously.\n\nKey capabilities: universal reach (including roaming users), multilingual support, and works without needing a SIM subscription. It positions India alongside Japan (J-Alert) and the USA (WEA).\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| System name | Cell Broadcast System (CBS) / SACHET |\n| Launched by | Minister Jyotiraditya Scindia |\n| SMS difference | SMS = one-to-one; CBS = one-to-all; CBS unaffected by congestion |\n| Network coverage | 2G, 3G, 4G, 5G |\n| International parallel | Japan (J-Alert), USA (WEA) |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nWhat is a Cell Broadcast System (how it differs from SMS-based alerts — statement-format trap); SACHET — which ministry (Communications, not MHA — trap); Sendai Framework — year adopted and key target categories.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- Disaster Management Act 2005: NDMA, SDMA, DDMA structure\n- Sendai Framework 2015–2030: India's alignment; disaster risk reduction focus\n- Telecom infrastructure: TRAI, DoT, Universal Service Obligation Fund (USOF)",
+        pyqConnect: "UPSC Prelims 2019 — Statement-based MCQ on Sendai Framework priorities."
+      },
+      {
+        id: "5-6",
+        title: "ONLINE GAMING RULES 2026: India's Standalone Legal Framework for Gaming",
+        subtitle: "🟢 Good to Know | Prelims | GS Paper II (Governance + IT Law)",
+        content: "📌 **QUICK TAKE**\nIndia's Online Gaming Rules 2026, notified under the Promotion and Regulation of Online Gaming (PROG) Act 2025, came into force on May 1 — making India the first major economy with a standalone legal framework for online gaming.\n\n📰 **WHAT HAPPENED**\nThe rules ban all online money games (irrespective of skill or chance) and establish the Online Gaming Authority (OGA) under MeitY. Previously, online gaming was governed by the IT Act 2000 and fragmented state gambling laws.\n\nKey features: Mandatory registration certificates valid for up to 10 years; KYC and data protection requirements; age verification and spending limits for users; mandatory grievance redressal mechanisms.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Parent Act | PROG Act, 2025 |\n| Effective from | May 1, 2026 |\n| Regulator | Online Gaming Authority (OGA) under MeitY |\n| Online money games | Completely prohibited |\n| Earlier legal basis | IT Act 2000 + state gambling laws |",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nPROG Act 2025 vs IT Act 2000 — which governs online gaming now (PROG Act); which ministry (MeitY, not Law Ministry); state vs central jurisdiction on gambling (State List Entry 34) — classic trap.",
+        revise: "🔗 **STATIC CONNECTIONS**\n- 7th Schedule: State List Entry 34 (Betting and Gambling); Union's jurisdiction over IT\n- Digital Personal Data Protection Act 2023: Relevance to KYC\n- GST on online gaming: 28% GST on face value of bets (2023 amendment)",
+        pyqConnect: "UPSC Prelims 2021 — \"In which of the following Lists of the Constitution are gambling and betting mentioned?\""
+      }
+    ],
+    reviseSummary: [
+      "State Elections: SR Bommai case, Anti-Defection Law, Article 164 (Governor's role).",
+      "Operation Sindoor: Indus Waters Treaty (1960) river allocation, India's Nuclear Doctrine (NFU).",
+      "CBAM/IBAM: Paris Agreement Article 6, Carbon Credit Trading Scheme (CCTS), WTO Article XX.",
+      "USBRL: Chenab Rail Bridge (359m, Zone V), J&K Reorganisation Act 2019.",
+      "SACHET: Sendai Framework 2015–2030, Disaster Management Act 2005.",
+      "Online Gaming: 7th Schedule Entry 34, PROG Act 2025, MeitY mandate."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the 2026 State Assembly Election Results:\n1. In West Bengal, the BJP won more than two-thirds of the total 294 assembly seats.\n2. Tamilaga Vettri Kazhagam (TVK) won an outright majority in the Tamil Nadu Assembly.\n3. The 2026 Kerala result marks the first time since 1977 that no Left-led government exists in any Indian state.\n4. In Assam, the BJP-led NDA won a majority for the third consecutive time.",
+          options: ["(a) 1, 3 and 4 only", "(b) 2, 3 and 4 only", "(c) 1, 2 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 1, 3 and 4 only",
+          explanation: "Statement 1 is correct (206/294 > 2/3). Statement 2 is wrong (TVK won 107, majority is 118). Statement 3 and 4 are correct."
+        },
+        {
+          question: "With reference to Operation Sindoor (2025), match the following:\nList I (Element) | List II (Detail)\nA. Duration | 1. 9 targets struck in Pakistan and PoK\nB. Trigger | 2. 88 hours\nC. Scale of strikes | 3. Pahalgam attack — April 22, 2025\nD. First occurrence | 4. India striking targets in Pakistan's Punjab province since 1971",
+          options: ["(a) A-2, B-3, C-1, D-4", "(b) A-3, B-2, C-4, D-1", "(c) A-2, B-1, C-3, D-4", "(d) A-1, B-3, C-2, D-4"],
+          answer: "(a) A-2, B-3, C-1, D-4",
+          explanation: "A=2 (88 hours), B=3 (Pahalgam attack), C=1 (9 targets), D=4 (Punjab strike since 1971)."
+        },
+        {
+          question: "Consider the following statements about the EU Carbon Border Adjustment Mechanism (CBAM):\nStatement I: CBAM is designed to prevent carbon leakage by ensuring imported goods face a carbon price equivalent to that paid by EU producers under the EU-ETS.\nStatement II: The Carbon Border Adjustment Mechanism is legally equivalent to an anti-dumping duty under WTO rules.",
+          options: ["(a) Both Statement I and Statement II are correct and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct but Statement II does not explain Statement I", "(c) Statement I is correct but Statement II is incorrect", "(d) Statement I is incorrect but Statement II is correct"],
+          answer: "(c) Statement I is correct but Statement II is incorrect",
+          explanation: "Statement II is wrong. CBAM is not legally equivalent to an anti-dumping duty; it is a carbon pricing equalisation tool."
+        },
+        {
+          question: "Which of the following statements about India's Cell Broadcast System (CBS/SACHET) are correct?\n1. CBS transmits a single signal to all mobile devices within a defined geographic area, regardless of SIM registration or network operator.\n2. The SACHET system is administered by the Ministry of Home Affairs under the Disaster Management Act 2005.\n3. CBS is operational across 2G, 3G, 4G, and 5G networks.\n4. Unlike SMS-based alerts, CBS is not affected by network congestion during disaster events.",
+          options: ["(a) 1, 3 and 4 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 1, 3 and 4 only",
+          explanation: "Statement 2 is wrong. SACHET/CBS was launched by the Ministry of Communications."
+        },
+        {
+          question: "With reference to the Udhampur–Srinagar–Baramulla Rail Link (USBRL), consider the following:\n1. The Chenab Rail Bridge is the world's highest railway bridge, standing 359 metres above the river bed.\n2. USBRL was declared a National Project in 2002.\n3. The Anji Khad Bridge is India's first extradosed railway bridge.\n4. USBRL runs through both Zone IV and Zone V seismic areas.",
+          options: ["(a) 1 and 2 only", "(b) 1, 2 and 4 only", "(c) 2 and 3 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Statement 1 and 2 are correct. Statement 3 is wrong (it's cable-stayed). Statement 4 is unverified but Zone V is confirmed."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The 2025 India–Pakistan conflict and the subsequent suspension of the Indus Waters Treaty mark a fundamental shift in India's strategic doctrine — from coercive restraint to calibrated punishment.\" Critically examine.",
+          context: "GS Paper II | 250 words. Cover doctrinal shift, IWT implications, and regional stability risks."
+        },
+        {
+          question: "\"India's Carbon Credit Trading Scheme (CCTS) and the proposed India Border Adjustment Mechanism (IBAM) can together transform India's climate ambitions from aspirational to financially self-sustaining.\" Examine.",
+          context: "GS Paper III | 150 words. Explain CCTS, CBAM context, and how IBAM revenue can fund green transition."
+        }
+      ]
+    }
   }
 ];
