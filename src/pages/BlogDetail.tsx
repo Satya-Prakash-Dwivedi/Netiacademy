@@ -71,6 +71,14 @@ const BlogDetail = () => {
                    return <h3 key={idx} className="text-2xl font-bold font-playfair text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-2" dangerouslySetInnerHTML={parseInline(para.replace('### ', ''))} />
                }
                
+               if (para.startsWith('#### ')) {
+                   return <h4 key={idx} className="text-xl font-bold font-playfair text-slate-900 mt-8 mb-3" dangerouslySetInnerHTML={parseInline(para.replace('#### ', ''))} />
+               }
+
+               if (para.trim() === '---') {
+                   return <hr key={idx} className="my-8 border-slate-200" />
+               }
+               
                if (para.startsWith('- ') || /^\d+\. /.test(para)) {
                    return <p key={idx} className="ml-4 flex items-start gap-2">
                       <span className="text-blue-900 font-bold">•</span>
