@@ -2617,5 +2617,234 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-06",
+    date: "6th May 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~12 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 FDI SOP 2026 — India sets 12-week hard deadline for all FDI clearances; fully paperless; 7 land-border countries get heightened scrutiny\n🔴 Solar + BESS Inflection Point — Battery+solar tariff now ₹3.12/kWh; new coal plants cost ₹5–6.3/kWh — the crossover has arrived\n🔴 India's AI Sovereignty Debate — Rajan & Lamba in IE: India risks becoming an AI tenant, not a producer; IndiaAI Mission under scrutiny\n🟡 INS Mahendragiri Delivered — 6th Project 17A stealth frigate delivered; 6 frigates in under 17 months; 75% indigenous content\n🟡 Bulldozer Justice — The Implementation Gap — SC's Nov 2024 guidelines exist; The Hindu op-ed flags the enforcement vacuum\n🟢 NCLAT Upholds Adani's Jaypee Bid — CoC's \"commercial wisdom\" doctrine affirmed; Vedanta's ₹17,900 cr higher bid rejected on process grounds\n\n🔴 Must Read  |  🟡 Important  |  🟢 Good to Know",
+    topics: [
+      {
+        id: "6-1",
+        title: "FDI SOP 2026: 12-WEEK CLEARANCE MANDATE",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper 3",
+        content: "The Department for Promotion of Industry and Internal Trade (DPIIT) has issued a new Standard Operating Procedure (SOP) mandating that all FDI proposals be cleared within 12 weeks. The process is now fully paperless, with all documentation and communication transitioning to the Foreign Investment Facilitation Portal (FIFP). This move aims to enhance the 'Ease of Doing Business' and align India's investment climate with global best practices.\n\nUnder the new guidelines, specific scrutiny remains for proposals from countries sharing land borders with India (China, Pakistan, Bangladesh, Myanmar, Nepal, Bhutan, and Afghanistan), as per Press Note 3 of 2020. The 12-week timeline includes inter-ministerial consultations and security clearances where applicable.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** UPSC will test whether students know which ministry administers FDI policy. While FDI is an economic subject, the **Ministry of Commerce & Industry** (through DPIIT) is the nodal agency, NOT the Ministry of Finance. Second, the 12-week deadline is a **procedural mandate**, not a statutory change — it does not alter the FDI policy itself, just the speed of execution.\n\n📝 **EXAM ANGLES:** **Prelims:** Which ministry administers FDI approvals? (Commerce/DPIIT). What is the FIFP? (Nodal portal). **Mains:** Critically examine India's approach to balancing investment liberalisation with national security scrutiny.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **FDI Routes**: Automatic Route (no prior approval) vs. Government Route (requires DPIIT/Ministry approval).\n- **FEMA 1999**: The legislative backbone for foreign exchange and investment regulation in India.\n- **Press Note 3 (2020)**: The rule requiring prior government approval for FDI from countries sharing land borders with India.",
+        pyqConnect: "UPSC 2019 asked about DPIIT's predecessor DIPP and its role in industrial policy — directly relevant groundwork."
+      },
+      {
+        id: "6-2",
+        title: "SOLAR + BESS: INDIA'S ENERGY CROSSOVER MOMENT",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper 3",
+        content: "India has reached a historic inflection point in energy pricing. The latest tariffs for Solar + Battery Energy Storage Systems (BESS) have dropped to ₹3.12/kWh. In contrast, new coal-based thermal power plants now cost between ₹5.00 and ₹6.30/kWh to build and operate. This crossover confirms that renewable energy with storage is now officially cheaper than new fossil fuel capacity in India.\n\nThis shift is driven by a 40% decline in lithium-ion battery prices over the last 18 months and increased domestic manufacturing under the PLI scheme for Advanced Chemistry Cells (ACC). The SECI (Solar Energy Corporation of India) tenders have seen aggressive bidding, signaling high investor confidence in the viability of round-the-clock (RTC) renewable power.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** Students often assume solar is always cheaper than coal. But **Solar + Storage** (which provides steady power) was historically much more expensive. The 'Crossover' news is that **steady/firm renewable power** is now cheaper than coal. UPSC will test if you understand the difference between intermittent solar (cheap) and firm renewable power (now also cheap).\n\n📝 **EXAM ANGLES:** **Prelims:** What is BESS? (Battery Energy Storage). Which agency conducts these tenders? (SECI). **Mains:** 'The era of coal as the cheapest source of baseload power in India is ending.' Substantiate with recent pricing trends and technological shifts.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **India's NDC 2030**: Target of 50% non-fossil installed capacity.\n- **PLI for ACC**: Government's ₹18,100 crore scheme to boost battery manufacturing.\n- **Merit Order Despatch**: How grid operators choose the cheapest power first (Renewables usually have 'must-run' status).",
+        pyqConnect: "UPSC 2022 Mains asked about the challenges of renewable energy integration — this crossover provides the economic solution."
+      },
+      {
+        id: "6-3",
+        title: "INDIA'S AI SOVEREIGNTY: PRODUCER OR TENANT?",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper 3",
+        content: "A major debate on 'AI Sovereignty' has emerged following an Indian Express op-ed by economists Raghuram Rajan and Rohit Lamba. They argue that India risks becoming an 'AI tenant'—relying on foreign-owned foundational models and hardware—rather than an 'AI producer' that creates its own intellectual property.\n\nThe IndiaAI Mission, with its ₹10,372 crore budget, is under scrutiny. While the government aims to build a 10,000-GPU compute cluster and indigenous Large Language Models (LLMs), critics argue that the scale of investment is minuscule compared to private spending in the US and China (Microsoft alone is spending $100B on the 'Stargate' project). The debate centers on whether India should focus on building foundational tech or on being the 'application capital' of the AI world.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** Don't confuse 'AI Capability' with 'AI Sovereignty'. Capability means using AI; **Sovereignty** means owning the underlying infrastructure (GPUs/Chips) and models. UPSC will probe the **Digital Colonization** aspect — if our data is processed on foreign models running on foreign chips, do we truly have strategic autonomy?\n\n📝 **EXAM ANGLES:** **Prelims:** What is the IndiaAI Mission? (Nodal agency: Digital India Corp). What is a GPU? (Graphics Processing Unit, the 'brain' of AI). **Mains:** 'India's AI strategy must balance the immediate need for application-led growth with the long-term goal of sovereign tech ownership.' Discuss.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Bhasini**: India's AI-led language translation platform.\n- **Digital Public Infrastructure (DPI)**: The 'India Stack' model as a precursor to 'AI Stack'.\n- **Strategic Autonomy**: Applying the Cold War era concept to modern technology.",
+        pyqConnect: "UPSC 2020 asked about the impact of Big Data on global politics — AI sovereignty is the natural extension."
+      },
+      {
+        id: "6-4",
+        title: "INS MAHENDRAGIRI & PROJECT 17A: NAVAL INDIGENISATION MILESTONE",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper 3",
+        content: "INS Mahendragiri, the sixth stealth frigate of the Nilgiri-class (Project 17A), has been delivered to the Indian Navy by Mazagon Dock Shipbuilders Limited (MDL). This marks a significant acceleration in naval shipbuilding: 6 frigates delivered in under 17 months. \n\nThe ship features 75% indigenous content, including the MF-STAR radar and BrahMos missile system. Project 17A frigates use advanced stealth features, including radar-absorbent coatings and low acoustic signatures. They are designed to operate in multi-threat environments, providing a significant boost to India's maritime security in the Indian Ocean Region (IOR).",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** Students often confuse Project 17 with Project 17A. **Project 17** was the Shivalik-class (older); **Project 17A** is the Nilgiri-class (modern stealth). Also, Mahendragiri is NOT a destroyer; it is a **Frigate**. Destroyers (like Project 15B Visakhapatnam-class) are larger and more heavily armed.\n\n📝 **EXAM ANGLES:** **Prelims:** Which shipyard built Mahendragiri? (MDL). What is the indigenisation level? (75%). **Mains:** Discuss the role of naval indigenisation in securing India's 'Maritime Interest' under the SAGAR initiative.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Atmanirbhar Bharat in Defence**: 75% indigenisation target for naval platforms.\n- **SAGAR (Security and Growth for All in the Region)**: India's maritime vision.\n- **Stealth Technology**: How radar cross-section (RCS) is reduced in modern warships.",
+        pyqConnect: "UPSC 2023 Prelims asked about the 'Project 75' (Scorpene submarines) — Project 17A is the next likely candidate."
+      },
+      {
+        id: "6-5",
+        title: "BULLDOZER JUSTICE: THE IMPLEMENTATION GAP",
+        subtitle: "🟡 Important | Mains Primary | GS Paper 2",
+        content: "The Supreme Court in November 2024 issued landmark guidelines prohibiting the demolition of properties as a form of 'punitive justice'. The court ruled that 'The executive cannot become a judge and decide that a person is guilty and, therefore, punish him by demolishing his residential or commercial property'.\n\nHowever, a recent op-ed in The Hindu flags a growing 'Implementation Gap'. Despite the ruling, demolitions continue under the guise of 'encroachment removal' without following the mandated 15-day notice period or providing a hearing. This highlights the tension between judicial pronouncements and executive enforcement, raising concerns about the 'Rule of Law' and the 'Right to Housing' (recognized under Article 21).",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** UPSC will not ask for your opinion on 'Bulldozers'. It will ask about **'Separation of Powers'** and **'Due Process of Law'**. The trap is to talk about the crime; you must talk about the **Procedure**. The SC focus is on the fact that even a criminal has a 'Right to Shelter' and cannot be punished without a trial.\n\n📝 **EXAM ANGLES:** **Mains:** 'Judicial pronouncements without executive will are merely paper decrees.' Examine with reference to the Supreme Court's guidelines on extra-legal demolitions.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Article 21**: Right to life (includes right to shelter/housing).\n- **Separation of Powers**: Article 50 and the basic structure doctrine.\n- **Rule of Law vs. Rule by Law**: The difference between following justice and following a literal (potentially unjust) interpretation of rules.",
+        pyqConnect: "UPSC 2021 Mains asked about judicial activism vs. judicial overreach — this is a classic case of judicial intervention to protect civil liberties."
+      },
+      {
+        id: "6-6",
+        title: "NCLAT UPHOLDS ADANI'S JAYPEE BID: IBC'S 'COMMERCIAL WISDOM' TEST",
+        subtitle: "🟢 Good to Know | Prelims Primary | GS Paper 2 + 3",
+        content: "The National Company Law Appellate Tribunal (NCLAT) has upheld Adani Infrastructure's bid for Jaypee Infratech, dismissing a challenge by the Vedanta Group. Vedanta had offered ₹17,900 crore, which was significantly higher than Adani's bid. However, the Committee of Creditors (CoC) had already approved Adani's bid.\n\nThe NCLAT reaffirmed the doctrine of **'Commercial Wisdom of the CoC'**. It ruled that once a bid is approved by the creditors based on their assessment of viability (not just the highest price), the courts should not interfere unless there is a procedural illegality. This reinforces the IBC (Insolvency and Bankruptcy Code) objective of 'speedy resolution' over 'maximalist litigation'.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** The key concept here is **'Commercial Wisdom'**. Students often think the highest bidder *must* win. In IBC, the creditors decide based on **feasibility and viability**, not just money. UPSC will test if you understand that the CoC's decision is largely **non-justiciable** (cannot be easily challenged in court).\n\n📝 **EXAM ANGLES:** **Prelims:** What is NCLAT? (Appellate body for NCLT). What is the CoC? (Committee of Creditors). **Mains:** Discuss how the 'Commercial Wisdom' doctrine helps in reducing judicial delays in insolvency resolutions.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **IBC 2016**: The law governing insolvency in India.\n- **NCLT & NCLAT**: The quasi-judicial bodies for corporate law.\n- **Haircut**: The percentage of debt that creditors agree to write off during a resolution.",
+        pyqConnect: "UPSC 2017 asked about the objectives of the IBC — this ruling is the latest evolution of those objectives."
+      }
+    ],
+    reviseSummary: [
+      "FDI SOP 2026: 12-week clearance mandate; paperless Foreign Investment Facilitation Portal (FIFP).",
+      "Solar + BESS: Tariff at ₹3.12/kWh crossover; cheaper than new coal (₹5-6/kWh).",
+      "AI Sovereignty: IndiaAI Mission (₹10,372 cr); debate on 'AI producer' vs 'AI tenant'.",
+      "INS Mahendragiri: 6th Project 17A frigate; 75% indigenous content; MDL delivery.",
+      "Bulldozer Justice: SC 2024 guidelines against punitive demolitions; implementation gap concerns.",
+      "IBC Doctrine: NCLAT upholds 'Commercial Wisdom' of CoC in Adani-Jaypee case."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the new FDI Standard Operating Procedure (SOP) 2026, which of the following is correct?",
+          options: ["(a) All FDI proposals must now be cleared within 8 weeks.", "(b) The Ministry of Finance is the nodal agency for clearing FDI proposals.", "(c) All FDI proposals from countries sharing land borders with India still require prior government approval.", "(d) The SOP applies only to the Automatic Route of FDI."],
+          answer: "(c) All FDI proposals from countries sharing land borders with India still require prior government approval.",
+          explanation: "The SOP mandates a 12-week (not 8) timeline. DPIIT under the Ministry of Commerce (not Finance) is the nodal agency. Press Note 3 (2020) regarding land-border countries remains in force."
+        },
+        {
+          question: "The term 'Energy Crossover' in the context of India's power sector recently refers to:",
+          options: ["(a) Renewables surpassing coal in total installed capacity.", "(b) Solar + Storage power becoming cheaper than new coal-based power.", "(c) India becoming a net exporter of solar panels to China.", "(d) The integration of the Northern and Southern power grids."],
+          answer: "(b) Solar + Storage power becoming cheaper than new coal-based power.",
+          explanation: "Recent tenders show Solar+BESS at ₹3.12/kWh while new coal costs ₹5-6/kWh, marking the economic crossover point."
+        },
+        {
+          question: "INS Mahendragiri, recently delivered to the Indian Navy, belongs to which of the following categories?",
+          options: ["(a) Scorpene-class Submarine", "(b) Visakhapatnam-class Destroyer", "(c) Nilgiri-class Stealth Frigate", "(d) Arihant-class Nuclear Submarine"],
+          answer: "(c) Nilgiri-class Stealth Frigate",
+          explanation: "INS Mahendragiri is the 6th ship of Project 17A (Nilgiri-class) stealth frigates."
+        },
+        {
+          question: "The 'Commercial Wisdom' doctrine, often cited in news, is associated with which of the following?",
+          options: ["(a) Reserve Bank of India's Monetary Policy", "(b) Insolvency and Bankruptcy Code (IBC) resolutions", "(c) SEBI's regulations on Insider Trading", "(d) Supreme Court's guidelines on Electoral Bonds"],
+          answer: "(b) Insolvency and Bankruptcy Code (IBC) resolutions",
+          explanation: "The doctrine states that the courts should respect the commercial decisions made by the Committee of Creditors (CoC) in insolvency cases."
+        },
+        {
+          question: "Consider the following statements regarding the IndiaAI Mission:\n1. It has been allocated a budget of approximately ₹10,372 crore.\n2. It aims to establish a compute cluster of 10,000 or more GPUs.\n3. It is administered by the Ministry of Science and Technology.",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Statement 1 and 2 are correct. Statement 3 is wrong: It is under the Ministry of Electronics and Information Technology (MeitY)."
+        }
+      ],
+      mains: [
+        {
+          question: "'The transition from being an AI tenant to an AI producer is critical for India's strategic autonomy.' Critically examine the challenges and opportunities in this transition.",
+          context: "GS Paper III | 250 words. Discuss the IndiaAI Mission, GPU shortages, private sector vs public funding, and the 'application capital' vs 'foundational tech' debate."
+        },
+        {
+          question: "Despite clear judicial guidelines, the persistent use of demolitions as a punitive tool highlights a significant implementation gap in India's legal system. Discuss the implications for the Rule of Law and the Right to Housing.",
+          context: "GS Paper II | 150 words. Reference the SC's Nov 2024 ruling, Article 21, and the need for executive accountability to judicial orders."
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-07",
+    date: "7th May 2026",
+    day: "Thursday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~13 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n\n🔴 Operation Sindoor: One Year — India's new doctrine declares terror = act of war; first strikes into Pakistani Punjab since 1971\n🔴 Indus Waters Treaty: One Year in Abeyance — Baglihar gates still shut; PCA ruling rejected; Article XII trap ahead\n🔴 SC Judges Amendment Bill 2026 — Cabinet raises Supreme Court strength from 33 to 37 (excl. CJI); amends 1956 Act\n🟡 EU CBAM: Definitive Phase Active — India bears 18% of global CBAM costs despite India's zero domestic carbon price\n🟡 CSE State of India's Environment 2026 — Extreme weather struck India on 99% of days in 2025; 4,419 deaths recorded\n🟢 FATF & Pakistan: India's Grey List Push Fails — China, Turkey, Japan blocked India's June 2025 FATF move; next attempt: June 2026\n\n🔴 Must Read  |  🟡 Important  |  🟢 Good to Know",
+    topics: [
+      {
+        id: "7-1",
+        title: "OPERATION SINDOOR: ONE YEAR — INDIA'S NEW SECURITY DOCTRINE",
+        subtitle: "🔴 Must Read | Both | GS Paper II (IR, Security) + GS Paper III (Security)",
+        content: "Exactly one year ago — night of 6-7 May 2025 — India launched Operation Sindoor, striking 9 terrorist sites in Pakistan and PoK in response to the Pahalgam attack (22 April 2025, 26 civilians killed). The 88-hour conflict ended with a DGMO-level ceasefire on 10 May 2025. What changed permanently: India's doctrine now treats any future terror attack as an act of war, eliminating the state-terrorist distinction that had constrained Indian responses since 1999.\n\nOn the night of 6-7 May 2025, India's tri-service forces conducted coordinated missile and air strikes on 9 terrorist infrastructure sites — including headquarters of Lashkar-e-Taiba (LeT) and Jaish-e-Mohammed (JeM) — in Pakistan-administered Azad Kashmir and Pakistan's Punjab province. This was the deepest military campaign India had conducted since the 1971 war. India's first press briefing on 7 May emphasised the operation was \"focused, measured, and non-escalatory,\" and clarified that Pakistani military establishments had not been targeted initially.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** UPSC will test India's ceasefire position and US role. Trap: \"The ceasefire was brokered by the United States.\" India explicitly rejected this characterisation — Indian government sources stated the ceasefire was reached \"directly between the two countries.\" Secretary Rubio called it \"US-brokered\"; India's ruling party dismissed this. Knowing the distinction between Pakistan's acknowledgment of US role and India's non-acknowledgment is exactly what Statement I/II questions will exploit. Second trap: Pakistan's NCA convening is \"nuclear signaling\" — it is not the same as nuclear launch authorisation. UPSC will test whether students can differentiate levels of nuclear escalation.\n\n📝 **EXAM ANGLES:** **Prelims:** Which of the following statements on India's new security doctrine post-Operation Sindoor is/are correct? (Paired with NFU, bilateralism, NCA distinction.) BrahMos missile origin (India-Russia DRDO partnership). Distinguish LOC from International Boundary. **Mains:** \"Operation Sindoor represents a paradigm shift in India's approach to cross-border terrorism. However, it also creates new escalatory risks in a nuclear neighbourhood.\" Analyse.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Nuclear Doctrine**: India's No First Use (NFU) policy — how Sindoor tested its credibility without breaching it\n- **Credible Minimum Deterrence**: The framework India operates under — relevant to whether NFU held during Sindoor\n- **BrahMos missile**: Article of India-Russia defence cooperation under DRDO; now cleared for export to Indonesia, Vietnam\n- **Line of Control vs. International Boundary**: UPSC tests this distinction — Sindoor struck both sides\n- **Shimla Agreement (1972)**: India's longstanding position on bilateralism — tested when US mediation claims emerged",
+        pyqConnect: "UPSC Mains 2020 GS II: \"India's policy towards Pakistan has been oscillating between dialogue and deterrence. Examine the factors that determine India's policy choices.\" (Sindoor is the most powerful update to this recurring debate.)"
+      },
+      {
+        id: "7-2",
+        title: "INDUS WATERS TREATY: ONE YEAR IN ABEYANCE",
+        subtitle: "🔴 Must Read | Both | GS Paper II (IR) + GS Paper III (Environment, Water)",
+        content: "The Indus Waters Treaty (IWT), signed in 1960 and the world's most-tested water treaty, has been \"in abeyance\" for one year. India suspended it on 24 April 2025 — the day after the Pahalgam attack. The Baglihar Dam gates remain closed today. The Permanent Court of Arbitration (PCA) has ruled the treaty is still legally binding — India rejected the ruling. This is the most important water law case in UPSC's current affairs orbit, with connections to international environmental law, water security, and upstream-downstream riparian politics.\n\nSigned on 19 September 1960 in Karachi by PM Nehru and Pakistan President Ayub Khan, mediated by the World Bank, the IWT divided the Indus basin's six rivers between India and Pakistan — the three Eastern Rivers (Ravi, Sutlej, Beas) to India's exclusive use; the three Western Rivers (Indus, Jhelum, Chenab) to Pakistan's use, with India permitted limited non-consumptive use. India declared the treaty \"in abeyance\" on 24 April 2025 — using an ambiguous term found nowhere in the treaty text or international law.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** The most common wrong answer in any IWT question: \"India has the right to unilaterally terminate the treaty under international law.\" This is factually wrong. The treaty contains NO unilateral exit clause. Article XII requires mutual agreement. India's \"abeyance\" declaration has no legal basis in the treaty text, which is why the PCA rejected it. Second trap: \"The World Bank enforces the treaty.\" Wrong — the World Bank's role is limited to that of a facilitator; it cannot intervene in disputes. Third trap: Chenab is an \"Eastern River\" assigned to India. Wrong — Chenab is a Western River assigned to Pakistan; India has only limited non-consumptive use rights.\n\n📝 **EXAM ANGLES:** **Prelims:** Which rivers are Western Rivers under the IWT? (Trap: students confuse Chenab and Beas.) India's exact share of Indus flow. What Article XII states. PCA vs ICJ distinction. **Mains:** \"India's suspension of the Indus Waters Treaty is legally untenable but geopolitically understandable. It creates risks that may ultimately hurt India more than Pakistan.\" Critically evaluate.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Harmon Doctrine**: The idea that upstream states have absolute sovereignty — IWT is explicitly built AGAINST this doctrine\n- **Helsinki Rules / UN Watercourses Convention**: International norms on transboundary water sharing\n- **Article XII of IWT**: Modification only by mutual agreement — the central legal issue\n- **Permanent Court of Arbitration**: Distinguished from ICJ; operates under different jurisdiction\n- **Brahmaputra / China's Upstream Position**: Symmetric risk — India is downstream to China; IWT suspension sets a precedent China can mirror",
+        pyqConnect: "UPSC Mains 2016 GS II: \"Water disputes between India and its neighbours are increasingly becoming strategic issues. Examine with reference to one bilateral case.\" (IWT is the exact case study UPSC expects here.)"
+      },
+      {
+        id: "7-3",
+        title: "SUPREME COURT (NUMBER OF JUDGES) AMENDMENT BILL 2026",
+        subtitle: "🔴 Must Read | Prelims + Mains | GS Paper II (Polity, Judiciary)",
+        content: "The Union Cabinet approved the Supreme Court (Number of Judges) Amendment Bill on 6 May 2026, raising the sanctioned strength from 33 to 37 judges (excluding the Chief Justice of India), i.e., from 34 to 38 including the CJI. This amends the Supreme Court (Number of Judges) Act, 1956 — passed to give Article 124(1) practical effect.\n\nArticle 124(1) of the Constitution states: \"There shall be a Supreme Court of India consisting of a Chief Justice of India and, until Parliament by law prescribes a larger number, such other Judges as Parliament may by law prescribe.\" This deliberately places numerical strength in Parliament's hands — not the Constitution itself — allowing flexible amendment as judicial needs change.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** UPSC will test the number EXCLUDING the CJI — not the total. The current strength is 33 judges excluding the CJI (34 including). The proposed amendment raises this to 37 (38 total). Students who memorise only the headline \"38 judges\" will fail when UPSC asks: \"What is the sanctioned strength of the Supreme Court excluding the Chief Justice of India?\" Answer: 37 (after amendment). Second trap: \"The Constitution prescribes the number of SC judges.\" Wrong — the Constitution explicitly leaves this to Parliament. Article 124(1) sets NO specific number; the 1956 Act and its amendments do.\n\n📝 **EXAM ANGLES:** **Prelims:** What is the constitutional provision for SC judge strength? (Art 124(1) — Parliament prescribes.) What is the current sanctioned strength after 2026 amendment? (37 excluding CJI; 38 including.) Which fund covers SC judges' salaries? (Consolidated Fund of India.) **Mains:** \"Expanding the Supreme Court's numerical strength addresses symptoms but not the systemic causes of judicial backlog.\" Critically examine.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Article 124(1)**: Constitutional authority for Parliament to prescribe SC judge count\n- **Article 124(2)**: Appointment of SC judges (President + consultation with CJI and collegium)\n- **Article 124(4)**: Removal of SC judges only by Parliament — impeachment process\n- **SC (Number of Judges) Act, 1956**: The primary legislation being amended\n- **Collegium system**: Not in Constitution; emerged from Three Judges Cases (1981, 1993, 1998)",
+        pyqConnect: "UPSC Prelims 2021: \"What is the maximum strength of the Supreme Court, including the Chief Justice of India?\" (Directly tests this — answer was 34 then; now 38 after the 2026 amendment.)"
+      },
+      {
+        id: "7-4",
+        title: "EU CBAM DEFINITIVE PHASE: INDIA'S 18% EXPOSURE",
+        subtitle: "🟡 Important | Both | GS Paper III (Economy, Environment, Trade)",
+        content: "The EU Carbon Border Adjustment Mechanism (CBAM) entered its definitive phase on 1 January 2026, meaning India's exports of steel, cement, aluminium, fertilisers, hydrogen, and electricity to the EU now carry a real, mandatory carbon cost. India is projected to bear 18% of total global CBAM costs — nearly double India's share of EU import value — because India has zero domestic carbon pricing and relies heavily on blast furnace steelmaking.\n\nAfter a transitional reporting phase (October 2023 – December 2025), the CBAM entered full legal effect on 1 January 2026 under Regulation (EU) 2023/956. EU importers of CBAM-covered goods must now purchase CBAM certificates linked to the prevailing EU Emissions Trading System (ETS) price — currently approximately €70–75 per tonne — to cover embedded carbon emissions in imported goods.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** CBAM is NOT a tariff in the traditional sense — it is a carbon-linked import levy, and it applies to EU importers (not Indian exporters directly). Students often write that \"the EU imposes CBAM on Indian companies.\" Precise language: the EU importer bears the cost, but passes it on to Indian producers through price pressure. The trap in Prelims: \"CBAM directly charges the Indian exporter.\" Wrong — the CBAM legal obligation falls on the EU importer or authorised customs representative.\n\n📝 **EXAM ANGLES:** **Prelims:** What goods does CBAM currently cover? (Cement, Steel, Aluminium, Fertilisers, Electricity, Hydrogen.) Is India on the CBAM exempted list? (No.) What does Article 9 of CBAM allow? (Deduction if domestic carbon price was paid.) **Mains:** \"The EU's CBAM is both a climate policy and a trade policy instrument. India must respond with industrial restructuring, not just diplomatic objection.\" Discuss.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Carbon Leakage**: The problem CBAM is designed to prevent\n- **EU Emissions Trading System (ETS)**: Cap-and-trade mechanism; CBAM certificate price mirrors ETS price\n- **India's Carbon Credit Trading Scheme (CCTS)**: Under Energy Conservation (Amendment) Act 2022; not yet a compliance market\n- **India-EU Free Trade Agreement**: Negotiations ongoing; Article 9 exemption can be secured through FTA",
+        pyqConnect: "UPSC Mains 2023 GS III: \"Discuss the implications of carbon pricing mechanisms for India's industrial competitiveness and its climate commitments.\""
+      },
+      {
+        id: "7-5",
+        title: "CSE STATE OF INDIA'S ENVIRONMENT 2026: INDIA'S EXTREME WEATHER EMERGENCY",
+        subtitle: "🟡 Important | Both | GS Paper III (Environment, Disaster Management)",
+        content: "The Centre for Science and Environment's (CSE) State of India's Environment (SIE) 2026 Report documents that extreme weather events struck India on 99% of days in 2025 — the highest proportion in four years — causing 4,419 deaths. The report warns that global warming is approaching the 1.5°C threshold breach, and that heat stress alone is eroding 4–6% of India's GDP annually.\n\nCSE has published its annual State of India's Environment report since 1982. The 2026 edition reveals that climate change has crossed from an \"environmental externality\" to a measurable economic variable. The headline finding: in 2025, India experienced extreme weather (heatwaves, cold waves, heavy rainfall, floods) on 99% of days — the highest frequency in four years.",
+        whyItMatters: "⚠️ **THE UPSC TRAP:** UPSC will test CSE's institutional identity. Trap: \"CSE is a government body under the Ministry of Environment.\" Wrong — CSE is a non-governmental organisation (NGO). It is one of the most credible environment research and advocacy organisations in South Asia, but it is NOT a statutory or governmental body. A related trap: the SIE report is often confused with India's National Action Plan on Climate Change (NAPCC) or the Annual State of the Environment Report by MoEFCC.\n\n📝 **EXAM ANGLES:** **Prelims:** CSE is a/an NGO. Publisher of State of India's Environment report. What percentage of days in 2025 had extreme weather events in India? **Mains:** \"India's climate adaptation deficit is now a macroeconomic risk, not merely an ecological concern.\" Substantiate with data from recent reports.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **NAPCC (National Action Plan on Climate Change, 2008)**: 8 missions including NMSHE (Solar), NMSH (Sustainable Habitat)\n- **1.5°C Threshold**: IPCC AR6 and Paris Agreement — breach implications for loss and damage\n- **Sendai Framework for Disaster Risk Reduction (2015–2030)**: India's disaster management commitments\n- **Disaster Management Act 2005**: NDMA, SDMA structure",
+        pyqConnect: "UPSC Prelims 2022: \"With reference to CSE and Down to Earth magazine, which of the following statements is correct?\""
+      },
+      {
+        id: "7-6",
+        title: "FATF & PAKISTAN: INDIA'S GREY LIST PUSH FAILS",
+        subtitle: "🟢 Good to Know | Both | GS Paper II (IR, Governance)",
+        content: "India submitted a dossier at the FATF's June 2025 plenary pushing for Pakistan's return to the grey list — citing terror financing failures, misuse of development funding for military procurement, and failure to pass the Anti-Terrorism (Amendment) Bill 2020. The push failed: China, Turkey, and Japan blocked it. Pakistan was NOT placed on the grey list. India's next opportunity is the June 2026 FATF plenary.\n\nAs of February 2026, the FATF black list has three members: North Korea, Iran, and Myanmar. The grey list as of February 2026 has 23 jurisdictions (newly added: Kuwait, Papua New Guinea). Pakistan is not on either list. India may re-attempt at the June 2026 plenary — currently the most live FATF geopolitical issue.",
+        whyItMatters: "📝 **EXAM ANGLES:** **Prelims:** FATF was established in 1989 (G7 Paris). What is the formal name for the FATF grey list? (Jurisdictions under Increased Monitoring.) Which three countries are on FATF's black list as of 2026? (North Korea, Iran, Myanmar.) **Mains:** \"Non-kinetic tools such as FATF pressures are essential but insufficient components of India's counter-terrorism strategy.\" Examine in the context of the India-Pakistan relationship.",
+        revise: "🔗 **STATIC CONNECTIONS:**\n- **Egmont Group**: International body of Financial Intelligence Units (FIUs); separate from FATF\n- **Financial Intelligence Unit – India (FIU-IND)**: India's FIU under Ministry of Finance\n- **India's AML framework**: Prevention of Money Laundering Act (PMLA) 2002; Enforcement Directorate (ED)\n- **Pakistan's MNNA status**: Major Non-NATO Ally — US designation"
+      }
+    ],
+    reviseSummary: [
+      "Operation Sindoor: One year since strikes into Pakistan's Punjab; new doctrine treats terror as act of war.",
+      "Indus Waters Treaty: One year in abeyance; India rejected PCA ruling on unilateral suspension.",
+      "SC Judges Bill 2026: Sanctioned strength raised to 37 (excl. CJI); amends 1956 Act under Art 124(1).",
+      "EU CBAM: Definitive phase started Jan 2026; India faces 18% cost exposure in steel, cement, etc.",
+      "CSE SIE 2026: Extreme weather on 99% of days in 2025; 4,419 deaths; heat stress hitting GDP by 4-6%.",
+      "FATF Update: Pakistan remains off the grey list; India's push blocked by China, Turkey, and Japan."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding India's Indus Waters Treaty:\n1. The Eastern Rivers — Ravi, Sutlej, and Beas — are allocated exclusively to India.\n2. Article XII of the treaty permits India to unilaterally suspend the treaty in cases of national security.\n3. The World Bank can enforce the treaty's provisions and intervene in bilateral disputes.\n4. The Permanent Court of Arbitration has jurisdiction to adjudicate disputes under the treaty.",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(b) Only two",
+          explanation: "Statements 1 and 4 are correct. Statement 2 is wrong: Article XII requires mutual agreement for modification/termination; no unilateral suspension clause exists. Statement 3 is wrong: World Bank is a facilitator, not an enforcer."
+        },
+        {
+          question: "Statement I: The EU Carbon Border Adjustment Mechanism (CBAM) legal obligation falls on the Indian exporter shipping goods to the European Union.\nStatement II: Under CBAM, embedded carbon emissions in imported goods are charged at the EU Emissions Trading System price.",
+          options: ["(a) Both Statement I and Statement II are correct, and Statement II explains Statement I.", "(b) Both Statement I and Statement II are correct, but Statement II does not explain Statement I.", "(c) Statement I is correct, but Statement II is incorrect.", "(d) Statement I is incorrect, but Statement II is correct."],
+          answer: "(d) Statement I is incorrect, but Statement II is correct.",
+          explanation: "Statement I is wrong: Legal obligation falls on the EU importer, not the exporter. Statement II is correct: CBAM certificates mirror the EU ETS price."
+        },
+        {
+          question: "Consider the following pairs regarding the FATF (Financial Action Task Force):\n1. Established — 1989, G7 Paris Summit\n2. Secretariat — Brussels\n3. Grey list formal name — 'Jurisdictions under Increased Monitoring'\n4. Black list formal name — 'Call for Action'\n5. Pakistan removed from grey list — October 2022",
+          options: ["(a) Two", "(b) Three", "(c) Four", "(d) Five"],
+          answer: "(c) Four",
+          explanation: "Pairs 1, 3, 4, and 5 are correct. Pair 2 is wrong: FATF Secretariat is in Paris, not Brussels."
+        },
+        {
+          question: "With reference to the Supreme Court (Number of Judges) Act, 1956 and its amendments, consider the following statements:\n1. The original Act of 1956 prescribed a maximum of 10 judges excluding the Chief Justice of India.\n2. The Constitution of India prescribes the exact number of judges of the Supreme Court.\n3. The proposed 2026 amendment will raise the total strength of the Supreme Court, including the Chief Justice, to 38.\n4. Expenditure on Supreme Court judges' salaries is charged to the Consolidated Fund of India.",
+          options: ["(a) 1, 3 and 4 only", "(b) 1 and 4 only", "(c) 3 and 4 only", "(d) 2, 3 and 4 only"],
+          answer: "(c) 3 and 4 only",
+          explanation: "Statement 1 is wrong: Original fixed number was 7. Statement 2 is wrong: Art 124(1) leaves it to Parliament. Statement 3 is correct (37+1=38). Statement 4 is correct."
+        },
+        {
+          question: "Statement I: India's nuclear doctrine of No First Use means India will not use nuclear weapons against a non-nuclear state under any circumstances.\nStatement II: India maintained its No First Use commitment throughout the Operation Sindoor conflict of May 2025.",
+          options: ["(a) Both Statement I and Statement II are correct, and Statement II explains Statement I.", "(b) Both Statement I and Statement II are correct, but Statement II does not explain Statement I.", "(c) Statement I is correct, but Statement II is incorrect.", "(d) Statement I is incorrect, but Statement II is correct."],
+          answer: "(d) Statement I is incorrect, but Statement II is correct.",
+          explanation: "Statement I is wrong: NFU has exceptions for biological/chemical weapon attacks. Statement II is correct: India maintained conventional escalation during Sindoor."
+        }
+      ],
+      mains: [
+        {
+          question: "\"Operation Sindoor has redefined India's security doctrine, but its strategic gains are being tested by the limits of non-kinetic pressure tools and international diplomatic constraints.\" Critically examine.",
+          context: "GS Paper II | 250 words. Focus on doctrinal shift, military gains vs. non-kinetic failures (FATF, IWT), and the need for a stronger pressure architecture."
+        },
+        {
+          question: "\"India's suspension of the Indus Waters Treaty may be legally untenable, but it signals a fundamental shift in how India uses international agreements as instruments of statecraft. This precedent carries risks India has not fully calculated.\" Analyse.",
+          context: "GS Paper III | 150 words. Discuss legal reality (Art XII), the new precedent of weaponising water, and the unintended costs regarding India's image as a 'rules-based order' advocate."
+        }
+      ]
+    }
   }
 ];
