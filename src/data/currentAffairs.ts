@@ -2846,5 +2846,221 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-08",
+    date: "8th May 2026",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "8-1",
+        title: "WEST BENGAL ASSEMBLY ELECTION 2026: BJP'S HISTORIC MANDATE",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II (Polity, Elections, Federalism)",
+        content: "West Bengal voted on 23 April 2026 in a phased election with a record 83.2% voter turnout. Results were declared on 5 May 2026. The Bharatiya Janata Party emerged with 207 seats; the All India Trinamool Congress (AITC/TMC) fell sharply to 80 seats from its 2021 tally of 213. The Indian National Congress won 2 seats. The Communist Party of India (Marxist) — once the dominant force in Bengal for 34 years — managed only 1 seat. Two regional outfits, including the Aam Janata Unnayan Party (AJUP), won 2 seats each.\n\nThe result is structurally significant for several reasons. First, it ends the era of TMC dominance that had itself ended 34 years of Left Front rule in 2011. Second, Bengal has historically been the graveyard of national parties — this result is the first outright majority for a pan-India party since the Congress era of the 1970s. Third, the BJP's vote consolidation in the Matua community (Bengali Hindu refugees from Bangladesh), OBC clusters, and urban professional segments appears to have overridden the TMC's traditional social engineering model.\n\nA new government will be formed under a BJP Chief Minister — the first in the state's history. The Governor of West Bengal is required, under the SR Bommai ruling (1994), to invite the single largest party to form the government and prove majority on the floor of the House. With 207 seats, no floor test is needed.",
+        whyItMatters: "The BJP has won 207 of 294 seats in West Bengal's 2026 Assembly election — a majority of 59 seats above the 148-seat threshold — ending 15 years of TMC rule under Mamata Banerjee. This is the first time a national party other than the Left or Dravidian formations has achieved an outright majority in a state where identity-based regional politics was considered an impenetrable fortress. For UPSC: this is not just an election result — it opens questions about President's Rule precedents, Governor's role in government formation, and the constitutional architecture of state-Centre relations under Article 356 and related provisions.\n\n**THE UPSC TRAP:** UPSC will use the SR Bommai case (1994) and the West Bengal result in the same breath — but students often confuse what SR Bommai actually held. **It did NOT give the Governor unfettered power to dismiss a government.** It held that the President's satisfaction under Article 356 is subject to judicial review, and it mandated that a government's majority must be tested on the floor of the House — not determined unilaterally by the Governor. In WB's case, with 207 seats, no floor test is necessary. But had BJP won only 120 seats (the largest party, not majority), the Governor's powers and the floor-test requirement from SR Bommai would have been fully activated. Know the case's actual holding — not just its name.",
+        revise: "Article 164 — Governor appoints CM and Council of Ministers on advice of CM; Governor's discretion limited. Article 356 — President's Rule; conditions, judicial review (SR Bommai). SR Bommai v. Union of India (1994) — 9-judge bench; federalism as basic structure; floor test mandatory. Anti-Defection Law (10th Schedule) — applies post-oath; not relevant at pre-oath coalition stage. State List (Schedule 7) — subjects over which new state government will legislate. Left Front history — Bengal's political economy from 1977 to 2011; Operation Barga; land reform legacy."
+      },
+      {
+        id: "8-2",
+        title: "PROTOTYPE FAST BREEDER REACTOR (PFBR): INDIA ENTERS STAGE 2",
+        subtitle: "🔴 Must Read | Prelims + Mains | GS III (Science & Technology, Energy Security)",
+        content: "The PFBR at Kalpakkam was designed indigenously by the Indira Gandhi Centre for Atomic Research (IGCAR) — a research institution under the Department of Atomic Energy (DAE) — and constructed and commissioned by Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI). Construction began in 2004; the reactor's original completion date was 2010; after multiple technical delays and cost escalations, the AERB (Atomic Energy Regulatory Board) cleared fuel loading in October 2025, and first criticality was achieved on 6 April 2026.\n\nThe reactor uses Uranium-Plutonium Mixed Oxide (MOX) fuel — the plutonium comes from reprocessing spent fuel produced by Stage 1 reactors (PHWRs). Surrounding the core is a blanket of Uranium-238. Fast neutrons produced in the reaction convert this fertile U-238 into fissile Plutonium-239 — meaning the reactor produces more fuel than it consumes. This is the defining feature of a breeder reactor. The spent fuel from the PFBR will itself be reprocessed to fuel the next generation of FBRs, closing the Stage 2 fuel cycle.",
+        whyItMatters: "India's 500 MWe Prototype Fast Breeder Reactor at Kalpakkam, Tamil Nadu achieved first criticality on 6th April 2026 — the moment a nuclear reactor initiates a self-sustaining fission chain reaction. This moves India from Stage 1 (Pressurised Heavy Water Reactors using natural uranium) into Stage 2 (Fast Breeder Reactors using plutonium). Once fully commissioned, India becomes only the second country after Russia to operate a commercial fast breeder reactor. The deeper strategic significance: it puts India on a path to eventually harness its massive thorium reserves in Stage 3 — potentially providing energy for 60,000 years.\n\n**THE UPSC TRAP:** The three-stage programme has three separate confusions students commit: (1) Students say \"Stage 1 uses enriched uranium\" — WRONG. India's PHWRs use **natural uranium** with heavy water as moderator — this is India's choice precisely because it avoids dependence on uranium enrichment technology, which is controlled by supplier nations. (2) Students say \"criticality means the reactor is producing power\" — WRONG. Criticality is the point of self-sustaining fission chain reaction; full power generation and grid connection come after extensive commissioning and safety testing. (3) Students confuse IGCAR with BHAVINI — **IGCAR designed it; BHAVINI built and operates it.** Both are under DAE. Do not swap these.",
+        revise: "India's Three-Stage Nuclear Programme — conceived by Dr. Homi Jehangir Bhabha; Stage 1 (PHWRs) → Stage 2 (FBRs) → Stage 3 (Thorium reactors). Atomic Energy Act, 1962 — governs nuclear energy in India; DAE under PM's direct charge. AERB (Atomic Energy Regulatory Board) — independent regulatory body; must clear all nuclear milestones. Thorium reserves — India holds ~25% of world's thorium; 4th largest in world (Kerala coast). Nuclear Suppliers Group (NSG) — India's 2008 civil nuclear deal with the US bypassed NSG restrictions; India is not an NPT signatory but accessed civilian nuclear trade. Kudankulam Nuclear Power Plant — Russian collaboration; PWR type; not related to PFBR."
+      },
+      {
+        id: "8-3",
+        title: "POST-SINDOOR ACCOUNTABILITY: KARGIL REVIEW COMMITTEE PARALLEL",
+        subtitle: "🟡 Important | Mains-heavy | GS III (Security) + GS II (Governance, Parliamentary Oversight)",
+        content: "Congress general secretary Jairam Ramesh stated that the ceasefire ending Operation Sindoor was first announced at 5:37 PM IST on 10 May 2025 by US Secretary of State Marco Rubio — crediting US President Trump's intervention — and that India's Foreign Secretary Vikram Misri subsequently confirmed it. The opposition argues this sequence reveals a diplomatic asymmetry: India conducted a successful military operation but allowed the US to control the narrative of its conclusion.\n\nThe Kargil Review Committee (KRC) was constituted by the Vajpayee government in 1999 following the Kargil War. It was chaired by K. Subrahmanyam — a strategic affairs expert and father of External Affairs Minister S. Jaishankar. The KRC's report, titled \"From Surprise to Reckoning\", was submitted on 7 January 2000 and tabled in Parliament on 23 February 2000. It reviewed intelligence failures, military preparedness, and command structures. Its recommendations led to the creation of the Chief of Defence Staff (CDS) office, formally established in 2019.",
+        whyItMatters: "On the first anniversary of Operation Sindoor (7 May 2025 – 10 May 2025), Congress has raised a pointed institutional question: why has no independent review committee — equivalent to the Kargil Review Committee (KRC, 1999) — been constituted? Two specific facts are cited: (1) the first announcement of the ceasefire was made by US Secretary of State Marco Rubio, not by India; (2) Pakistan's army chief was received \"with extraordinary warmth\" by President Trump. This debate connects directly to the UPSC theme of parliamentary oversight over military operations and the precedent set by the KRC.\n\n**THE UPSC TRAP:** Students will say the \"CDS (Chief of Defence Staff) post was created by the Kargil Review Committee.\" This is imprecise. The KRC **recommended** the position; the actual creation came 20 years later — CDS Gen. Bipin Rawat was appointed on 1 January 2020, following the announcement by PM Modi on 15 August 2019 (Independence Day). The KRC is the origin of the idea; the appointment is the execution — these are 20 years apart. UPSC has tested the exact chronology.",
+        revise: "Parliamentary oversight of military operations — Parliament's role; no formal declaration of war in Indian Constitution. Chief of Defence Staff — post, functions, first CDS (Bipin Rawat, 1 January 2020). DGMO (Director General of Military Operations) — constitutional and functional role in ceasefire protocols. US-India defence relations — BECA, LEMOA, COMCASA — logistics and communications agreements. Article 352 (National Emergency) — external aggression; conditions; never invoked in the Sindoor context."
+      },
+      {
+        id: "8-4",
+        title: "RBI MPC APRIL 2026: REPO RATE HELD; OIL SHOCK IN FOCUS",
+        subtitle: "🟡 Important | Prelims + Mains | GS III (Economy — Monetary Policy, Inflation)",
+        content: "The RBI's MPC — a six-member statutory body under the RBI Act, 1934 — met in early April 2026 for its biannual review. The repo rate was retained at 5.25% (where it has stood since the December 2025 cut from 5.50%). The cumulative rate cuts between February 2025 and December 2025 totalled 100 basis points — from 6.25% to 5.25%.\n\nThe hold decision was driven by two concerns: (1) the escalating US-Iran conflict has disrupted Persian Gulf oil flows, with the Strait of Hormuz — through which approximately 40-45% of India's crude oil imports pass — facing disruption threats. This creates inflationary pressure via the fuel and LPG price channel. (2) A \"Super El Niño\" projection for 2026 monsoon season raises food price risk from agricultural disruption.\n\nOn the growth side, the MPC revised its FY27 GDP projection to 6.8-7.2%, citing robust domestic demand, strong services exports ($387.5 billion in FY25), and contained fiscal deficit. The MPC governor Sanjay Malhotra noted that \"space for further rate cuts remains contingent on how the oil shock evolves.\"",
+        whyItMatters: "The Reserve Bank of India's Monetary Policy Committee maintained the repo rate at 5.25% at its April 2026 review, in a unanimous decision to hold — defying earlier market expectations of a cut. The deciding factor: the Strait of Hormuz crisis triggered by the US-Iran conflict has caused a global oil price spike, creating upside inflation risks for India, which imports approximately 89% of its crude oil. The MPC's 'neutral' stance gives it flexibility to cut or hike in either direction — a shift from the earlier 'accommodative' stance that had signalled rate cuts.\n\n**THE UPSC TRAP:** UPSC loves testing MPC composition — and students consistently get it wrong. The MPC has **6 members**: the RBI Governor (Chairperson), the Deputy Governor in charge of monetary policy, one other RBI officer, and **three external members nominated by the Central Government** (not appointed by RBI). External members serve for 4 years and cannot be reappointed. Also trap: \"Reverse repo rate is the rate at which RBI borrows from commercial banks\" — this is **technically correct** but UPSC phrases it in ways that confuse: it is the rate at which commercial banks **park surplus funds** with the RBI. Both statements describe the same reality. Know it from both angles.",
+        revise: "Monetary Policy Framework Agreement (2016) — inflation targeting; MPC mandate; 4% CPI target. Liquidity Adjustment Facility (LAF) — repo + reverse repo; corridor of rates. NDS-OM (Negotiated Dealing System — Order Matching) — platform for government securities trading; referenced in UPSC 2019. Transmission mechanism — how repo rate changes reach retail borrowers (EBLR linkage for floating rate loans). Fiscal Responsibility and Budget Management (FRBM) Act, 2003 — fiscal deficit targets; RBI's role in government borrowing."
+      },
+      {
+        id: "8-5",
+        title: "NITI AAYOG CPO PORTAL: REAL-TIME GOVERNANCE FOR ASPIRATIONAL DISTRICTS",
+        subtitle: "🟡 Important | Prelims + Mains | GS II (Governance, Federalism, Digital India)",
+        content: "The Aspirational Districts Programme (ADP) was launched in January 2018 under NITI Aayog to transform the 112 most underdeveloped districts — selected based on health, education, agriculture, financial inclusion, and infrastructure indicators — into development success stories through focused attention and competitive benchmarking. In 2023, the ABP was launched to extend the same approach to underdeveloped blocks within non-aspirational districts.\n\nThe CPO Portal is a new institutional layer: each aspirational district is assigned a Central Prabhari Officer — a senior IAS/IPS officer from the Centre — who is responsible for real-time coordination, on-ground visits, and data verification. Earlier, CPOs reported through periodic visits and annual meetings. The new portal provides: mobile-based reporting, GPS-tagged field data, dashboard analytics for NITI Aayog and state governments, and real-time bottleneck identification. It links to PM Gati Shakti, the Digital India backbone, and DBT (Direct Benefit Transfer) architecture.",
+        whyItMatters: "NITI Aayog launched the Central Prabhari Officer (CPO) Portal in May 2026 to address the persistent \"implementation deficit\" in welfare delivery — where schemes are designed at the Centre but their ground-level impact is invisible until annual reviews. The portal enables continuous, data-driven monitoring of the Aspirational Districts Programme (ADP) and Aspirational Blocks Programme (ABP), converting periodic reporting into real-time feedback loops between Centre, state, and district administrations. This connects directly to UPSC's recurring theme of cooperative federalism and last-mile delivery.\n\n**THE UPSC TRAP:** Students confuse Aspirational Districts Programme with the backward districts grants under the Finance Commission. They are **completely different**: ADP is a NITI Aayog initiative focused on competitive governance improvement in 112 specific districts — it is not primarily a transfer of funds but a governance transformation model. Finance Commission grants go to all states and districts based on fiscal devolution criteria. Additionally, students often think NITI Aayog replaced the Planning Commission functionally — it did not. NITI Aayog has no power to allocate funds; it is a policy think-tank. Fund allocation moved to the Finance Ministry/Finance Commission. This distinction has been tested.",
+        revise: "NITI Aayog — created 1 January 2015; replaced Planning Commission; no fund allocation powers. Planning Commission — abolished 2014; had fund allocation authority; replaced by NITI Aayog. Article 280 (Finance Commission) — recommends tax devolution; separate from ADP. DBT (Direct Benefit Transfer) — Aadhaar-linked welfare payments; avoids leakage; PM-KISAN, MGNREGS linked. PM Gati Shakti — multi-modal infrastructure planning platform; 2021 launch."
+      },
+      {
+        id: "8-6",
+        title: "INDIA'S 7th NATIONAL REPORT TO CBD: ONLY 2 OF 23 TARGETS ON TRACK",
+        subtitle: "🟡 Important | Prelims + Mains | GS III (Environment, Biodiversity, International Conventions)",
+        content: "The CBD mandates that all signatory nations (196 parties) submit National Reports periodically to assess biodiversity commitments. India's 7th report was prepared by the Ministry of Environment, Forest and Climate Change (MoEFCC) with inputs from 33 central ministries, coordinated through a digital NR7 data portal tracking 142 national indicators.\n\nThe Kunming-Montreal Global Biodiversity Framework (KMGBF) — agreed at CBD COP15 in December 2022 in Montreal — sets 23 global targets for 2030, including the \"30×30\" target (protecting 30% of land and seas by 2030) and 4 broader goals for 2050. India has aligned its national biodiversity targets to the KMGBF.\n\nIndia's headline biodiversity statistics remain impressive: 2.4% of Earth's land area; 7-8% of global species; 4 global biodiversity hotspots (Himalayas, Western Ghats, Northeast India, Nicobar Islands); tiger population at 3,167 (minimum, per 2022 census); mangroves expanded consistently. Forest cover: 715,343 km² (ISFR 2023), up from 698,712 km² in 2013.\n\nBut the report flags: land degradation is accelerating; species outside flagship groups (tigers, rhinos, elephants) lack monitoring data; freshwater biodiversity — fish, invertebrates, wetland species — is deteriorating faster than terrestrial biodiversity.\n\nThe next CBD biodiversity conference (COP17) is scheduled for October 2026 in Yerevan, Armenia.",
+        whyItMatters: "India submitted its 7th National Report to the Convention on Biological Diversity (CBD) — a mandatory periodic assessment of progress towards global biodiversity targets. The report reveals that only 2 of 23 national biodiversity targets are clearly on track for the 2030 deadline set by the Kunming-Montreal Global Biodiversity Framework (KMGBF). India reports wins in forest cover growth, tiger and rhino recovery, and mangrove expansion — but these headline successes mask systemic failures in lesser-known species, freshwater biodiversity, and invasive species management.\n\n**THE UPSC TRAP:** UPSC frequently tests the difference between CBD, Cartagena Protocol, Nagoya Protocol, and Kunming-Montreal GBF. Students conflate them: **CBD** is the parent convention (Rio, 1992) on biodiversity conservation, sustainable use, and equitable benefit-sharing. **Cartagena Protocol** (2000) is specifically about biosafety — safe handling of living modified organisms (LMOs/GMOs) — and is a protocol *under* CBD. **Nagoya Protocol** (2010) addresses access and benefit-sharing of genetic resources. **KMGBF** is not a protocol — it is a framework of voluntary targets agreed at COP15 (2022). India is a party to CBD and Nagoya Protocol but has not yet ratified the Cartagena Protocol. Know which India has/hasn't ratified.",
+        revise: "CBD (Convention on Biological Diversity) — adopted Rio Earth Summit 1992; 196 parties; India signatory. Nagoya Protocol — ABS (Access and Benefit Sharing); India ratified 2012. Cartagena Protocol on Biosafety — India has NOT ratified. Wildlife Protection Act, 1972 — Schedule I to VI; Amendment 2022 (reduced schedules to IV from VI). Biodiversity Act, 2002 — India's domestic law under CBD; National Biodiversity Authority; Biodiversity Management Committees. 30×30 Target — protect 30% of land and ocean by 2030; India's current protected area ~5-6% of land."
+      }
+    ],
+    reviseSummary: [
+      "West Bengal Assembly Election 2026 — BJP wins 207 of 294 seats; first non-Left, non-TMC government in Bengal since 1977.",
+      "PFBR Kalpakkam — India's Prototype Fast Breeder Reactor achieves criticality; India enters Stage 2 of nuclear programme.",
+      "Post-Sindoor Accountability — Congress demands Kargil Review Committee equivalent; new angle on ceasefire announcement.",
+      "RBI MPC April 2026 — Repo rate held at 5.25%; stance remains 'neutral'; oil crisis cited as key inflation risk.",
+      "NITI Aayog CPO Portal — Launched for real-time governance monitoring under Aspirational Districts and Blocks Programme.",
+      "India's 7th National Report to CBD — Only 2 of 23 biodiversity targets on track for 2030; tiger count at 3,167."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam, consider the following statements:\n1. The PFBR was designed by BHAVINI and constructed by IGCAR.\n2. The PFBR uses Uranium-Plutonium Mixed Oxide (MOX) as its primary fuel.\n3. Upon achieving first criticality, the reactor is immediately connected to the electricity grid.\n4. Upon full commissioning, India will become the first country to operate a commercial fast breeder reactor.",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(a) Only one",
+          explanation: "Statement 2 only is correct. Statement 1 is wrong because roles are reversed (IGCAR designed, BHAVINI built). Statement 3 is wrong because criticality is NOT grid connection. Statement 4 is wrong because Russia already operates a commercial FBR."
+        },
+        {
+          question: "With reference to the Monetary Policy Committee (MPC) of the Reserve Bank of India, which of the following statements is/are correct?\n\nStatement I: The MPC consists of six members, three of whom are nominated by the Central Government.\nStatement II: The monetary policy decisions of the MPC are binding on the RBI Governor, who is the Chairperson.",
+          options: ["(a) Statement I is correct but Statement II is incorrect", "(b) Statement I is incorrect but Statement II is correct", "(c) Both Statement I and Statement II are correct, and Statement II provides the reason for Statement I", "(d) Both Statement I and Statement II are correct but Statement II does not explain Statement I"],
+          answer: "(d) Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+          explanation: "Both statements are factually correct, but Statement II is not the reason for Statement I."
+        },
+        {
+          question: "With reference to the Kargil Review Committee (KRC), consider the following:\n1. It was chaired by K. Subrahmanyam.\n2. Its report was titled \"A Nation at War\".\n3. The Chief of Defence Staff (CDS) post was recommended by the KRC and created immediately in 2000.\n4. The report was tabled in Parliament on 23 February 2000.",
+          options: ["(a) 1 and 4 only", "(b) 1, 2 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 3 and 4 only"],
+          answer: "(a) 1 and 4 only",
+          explanation: "Statement 1 is correct. Statement 2 is wrong (Report title: \"From Surprise to Reckoning\"). Statement 3 is wrong (CDS created in 2020). Statement 4 is correct."
+        },
+        {
+          question: "Which of the following pairs are correctly matched?\n\n(Convention/Protocol — Subject Matter)\n1. Cartagena Protocol — Access and Benefit Sharing of genetic resources\n2. Nagoya Protocol — Biosafety and living modified organisms\n3. Convention on Biological Diversity — Conservation, sustainable use, and equitable benefit-sharing\n4. Kunming-Montreal Global Biodiversity Framework — Voluntary targets for biodiversity protection by 2030",
+          options: ["(a) 3 and 4 only", "(b) 1, 2 and 3 only", "(c) 2 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 3 and 4 only",
+          explanation: "Pair 1 and 2 are swapped. Cartagena is about Biosafety, Nagoya is about Access and Benefit Sharing."
+        },
+        {
+          question: "With reference to the West Bengal Assembly Election 2026, consider the following statements:\n\nStatement I: The SR Bommai ruling mandated that the constitutional validity of President's Rule under Article 356 is subject to judicial review.\nStatement II: This ruling was necessitated because the West Bengal 2026 election produced a hung assembly with no single party achieving majority.",
+          options: ["(a) Statement I is correct but Statement II is incorrect", "(b) Statement I is incorrect but Statement II is correct", "(c) Both Statement I and Statement II are correct, and Statement II provides the context for Statement I", "(d) Both Statement I and Statement II are incorrect"],
+          answer: "(a) Statement I is correct but Statement II is incorrect",
+          explanation: "Statement I is correct. Statement II is incorrect because BJP won a majority (207 seats), it was not a hung assembly."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The 2026 West Bengal Assembly election is not merely a political event but a constitutional stress test for India's federal design.\" Discuss the implications of a national party winning a commanding majority in a state historically governed by regional political formations, with reference to relevant constitutional provisions and judicial precedents.",
+          context: "GS II | 250 words"
+        },
+        {
+          question: "\"India's biodiversity targets are ambitious on paper but structurally undermined by the implementation gap between national policy and ground-level conservation.\" In light of India's 7th National Report to the CBD and the Kunming-Montreal Global Biodiversity Framework, critically examine India's progress and the reforms needed.",
+          context: "GS III | 150 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-09",
+    date: "9th May 2026",
+    day: "Saturday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "9-1",
+        title: "CEC APPOINTMENT ACT 2023: SC SAYS \"TYRANNY OF THE ELECTED\"",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Polity & Governance)",
+        content: "The Supreme Court, hearing petitions against the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023, used the phrase \"tyranny of the elected\" to describe Parliament's prolonged failure to safeguard Election Commission independence. The core constitutional question before the court: can Parliament validly replace the Supreme Court's prescribed CJI-inclusive appointment panel with an executive-dominated one? A bench of Justices Dipankar Datta and SC Sharma was hearing a batch of petitions challenging the 2023 Act, which removed the Chief Justice of India (CJI) from the selection panel and replaced by a Union Cabinet Minister. This directly contradicts the 2023 Constitution Bench judgment in Anoop Baranwal v. Union of India. The matter has been listed for final hearing on 14th May 2026.",
+        whyItMatters: "UPSC will test whether the Election Commission is a constitutional or statutory body — and which Article governs it. The trap: students often confuse Article 324 (which establishes the EC) with Article 329 (which bars courts from questioning election-related matters). Article 324 provides for the EC; it does NOT make the appointment process immune from judicial review.",
+        revise: "Article 324: Establishment, independence, and powers of the Election Commission; Article 329: Bar on courts questioning electoral matters; Anoop Baranwal v. Union of India (2023); TN Seshan v. Union of India (1995); Basic Structure Doctrine; Article 324(5): CEC removal procedure"
+      },
+      {
+        id: "9-2",
+        title: "INDIA–CANADA CEPA: ROUND 2 CONCLUDED, $50 BILLION TARGET BY 2030",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (International Relations) + GS Paper III (Economy)",
+        content: "India and Canada concluded the second round of Comprehensive Economic Partnership Agreement (CEPA) negotiations on May 8, 2026, in New Delhi. The discussions covered Trade in Goods, Trade in Services, Intellectual Property Rights, and more. A $50 billion bilateral trade target has been set for 2030, against current trade of ~$8 billion. The third round is scheduled for July 2026 in Ottawa. Mark Carney's election as PM in 2025 and his March visit to India marked a diplomatic reset after relations had deteriorated under former PM Justin Trudeau.",
+        whyItMatters: "UPSC will test CEPA vs FTA vs CECA. CEPA is broader than an FTA: it covers not just goods but also services, investment, and IP. India has CEPAs with South Korea, Japan, and UAE. India does NOT currently have a concluded CEPA with Canada — negotiations are ongoing.",
+        revise: "WTO framework and bilateral trade agreements; India's CEPA portfolio (South Korea, Japan, UAE); Rules of Origin; SPS Measures; India–Canada historical ties"
+      },
+      {
+        id: "9-3",
+        title: "DRDO TARA: INDIA'S FIRST INDIGENOUS GLIDE WEAPON, MAIDEN TRIAL SUCCESSFUL",
+        subtitle: "🔴 Must Read | Prelims + Mains | GS Paper III (Defence, Science & Technology)",
+        content: "DRDO and the IAF successfully conducted the maiden flight trial of TARA (Tactical Advanced Range Augmentation) — India's first indigenous glide weapon system — off the coast of Odisha on May 7, 2026. TARA is a modular glide kit that converts conventional unguided bombs into precision-guided weapons at low cost. It was tested from an IAF Jaguar aircraft. Developed by Research Centre Imarat (RCI), Hyderabad, under the DcPP (Development cum Production Partner) model.",
+        whyItMatters: "UPSC will test RCI's role and location. Do NOT confuse TARA with SAAW: SAAW is a precision glide bomb designed to destroy airfield infrastructure; TARA is a modular kit that converts ordinary bombs into smart glide weapons. Both are DRDO products and \"glide\" weapons.",
+        revise: "DRDO labs (RCI, DRDL, GTRE, SAC); Aatmanirbhar Bharat in Defence; DcPP Model vs ToT; Integrated Test Range (ITR), Chandipur; Operation Sindoor (May 2025)"
+      },
+      {
+        id: "9-4",
+        title: "PETROL/DIESEL PRICE FREEZE: OMCs ABSORB ₹30,000 CRORE IN LOSSES",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper III (Economy — Energy, Fiscal Policy)",
+        content: "India's three state-run Oil Marketing Companies (OMCs) — IOC, BPCL, and HPCL — have absorbed an estimated ₹30,000 crore in under-recoveries since mid-March 2026. This is due to a retail price freeze despite Brent crude briefly touching $144/barrel amid West Asia tensions. Under-recovery reached ~₹24/litre on petrol and ~₹30/litre on diesel at peak. OMCs maintained supply chain continuity without shortages despite the financial strain.",
+        whyItMatters: "UPSC will test \"under-recovery\" vs \"loss\". Under-recovery is the gap between cost and retail price — foregone revenue. It becomes a real loss when not compensated. India formally deregulated petrol in 2010 and diesel in 2014. A price freeze is a de facto reversion to administered pricing.",
+        revise: "Petroleum pricing in India (Administered vs Deregulated); OMCs ownership structure; OPEC+ mechanics; Strait of Hormuz importance; Maharatna classification"
+      },
+      {
+        id: "9-5",
+        title: "INDIA–BANGLADESH: \"NO ACTIONABLE RESPONSE\" AND A DEEPENING FAULT LINE",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper II (International Relations)",
+        content: "India has publicly stated that Bangladesh has \"failed to give an actionable response\" to Indian concerns, signaling a sharp diplomatic deterioration since the fall of Sheikh Hasina in August 2024. Key fault lines include India's refusal to extradite Hasina, attacks on minority Hindus in Bangladesh, the expiring 1996 Ganges Water Sharing Treaty, and illegal immigration. Bangladesh has shown growing trade and strategic closeness with Pakistan and China under PM Tarique Rahman (BNP).",
+        whyItMatters: "UPSC will test the Ganges Water Sharing Treaty (1996, 30 years) vs the Teesta water dispute (never signed). They are separate rivers and disputes. The \"Chicken's Neck\" (Siliguri Corridor) strategic vulnerability is also a recurring theme.",
+        revise: "Farakka Barrage and 1996 Treaty; Teesta River dispute; Neighbourhood First Policy; Article 51 of Constitution; India's border states with Bangladesh"
+      },
+      {
+        id: "9-6",
+        title: "GREAT NICOBAR PROJECT: CALCUTTA HC UPHOLDS PIL MAINTAINABILITY",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper II (Governance) + GS Paper III (Environment)",
+        content: "The Calcutta High Court upheld the maintainability of PILs challenging alleged violations of the Forest Rights Act (FRA) in the ₹72,000–₹92,000 crore Great Nicobar project. The PILs allege that Gram Sabha meetings for tribal consent had attendance as low as 1.83%, far below the mandatory 50% quorum. The project includes a transshipment port, airport, power plant, and township in the Sundaland Biodiversity Hotspot, affecting the Shompen (PVTG) and Nicobarese tribes.",
+        whyItMatters: "UPSC will test the Forest Rights Act (FRA) 2006. Note the inclusion of \"Other Traditional Forest Dwellers\". The Gram Sabha under FRA has specific powers distinct from PESA or the 73rd Amendment. Shompen are one of 75 PVTGs in India.",
+        revise: "Forest Rights Act 2006 provisions; PVTGs criteria and status; PESA Act 1996 vs FRA Gram Sabha; Strategic importance of Great Nicobar; Wildlife Protection Act 1972"
+      }
+    ],
+    reviseSummary: [
+      "CEC Appointment Act 2023 — SC uses 'tyranny of the elected' phrase; next hearing May 14.",
+      "India–Canada CEPA Round 2 — $50 billion trade target by 2030; Mark Carney's diplomatic reset.",
+      "DRDO TARA Glide Weapon — Maiden trial successful; converts unguided bombs into precision weapons.",
+      "OMC Under-recoveries — ₹30,000 crore absorbed due to price freeze; Brent reached $144/barrel.",
+      "India–Bangladesh Strain — 'No actionable response' from Dhaka; Ganges Treaty expires 2026.",
+      "Great Nicobar Project — Calcutta HC upholds PIL; Gram Sabha quorum violations (1.83% attendance)."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023:\n1. It provides for a three-member Selection Committee comprising the Prime Minister, the Leader of Opposition in Lok Sabha, and a Union Cabinet Minister.\n2. The Act removed the Chief Justice of India from the selection panel.\n3. Under Article 324(5), the CEC can only be removed through a procedure identical to that of a Supreme Court judge.",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(d) 1, 2 and 3",
+          explanation: "All three statements are accurate. The 2023 Act established a panel with PM + Union Cabinet Minister + Leader of Opposition — replacing the CJI with a Cabinet Minister. Article 324(5) explicitly provides that the CEC can only be removed through the same procedure as a Supreme Court judge."
+        },
+        {
+          question: "Which of the following pairs is/are correctly matched?\n\nAgreement Type — Example (India)\n1. CEPA — India–South Korea (2009)\n2. CECA — India–Singapore (2005)\n3. CEPA — India–UAE (2022)",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(d) 1, 2 and 3",
+          explanation: "All three pairs are correctly matched. India has CEPAs with South Korea (2009), Japan (2011), and UAE (2022). India has CECAs with Singapore (2005) and Malaysia (2011)."
+        },
+        {
+          question: "Consider the following statements about TARA (Tactical Advanced Range Augmentation) weapon system:\nStatement I: TARA is a modular glide kit developed to convert unguided warheads into precision-guided weapons.\nStatement II: It was developed by Research Centre Imarat (RCI), Hyderabad, and represents India's first indigenous glide weapon system.",
+          options: ["(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I", "(b) Both Statement I and Statement II are correct, but Statement II is NOT the correct explanation of Statement I", "(c) Statement I is correct, but Statement II is incorrect", "(d) Statement I is incorrect, but Statement II is correct"],
+          answer: "(b) Both Statement I and Statement II are correct, but Statement II is NOT the correct explanation of Statement I",
+          explanation: "Statement I accurately describes TARA as a modular glide kit. Statement II correctly identifies RCI, Hyderabad as the developer. However, Statement II does not explain why Statement I is true — they are independent factual statements."
+        },
+        {
+          question: "With reference to the Forest Rights Act, 2006, consider the following statements:\n1. Its full official title includes \"Other Traditional Forest Dwellers\" in addition to Scheduled Tribes.\n2. A Gram Sabha under the FRA has the power to settle forest rights and give consent for developmental activities affecting community forest resources.\n3. The Gram Sabha under the FRA is constituted and functions identically to the Gram Sabha under the 73rd Constitutional Amendment.",
+          options: ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(b) 1 and 2 only",
+          explanation: "Statement 1 and 2 are correct. Statement 3 is incorrect because the Gram Sabha under FRA is distinct from the 73rd Amendment Gram Sabha in its composition, quorum requirements, and specific functions regarding forest rights."
+        },
+        {
+          question: "Consider the following statements about petroleum pricing in India:\n1. Petrol prices were deregulated in India in 2010.\n2. \"Under-recovery\" and \"loss\" in the context of OMC petroleum pricing are identical concepts.\n3. The deregulation of diesel prices was completed in 2014.",
+          options: ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(b) 1 and 3 only",
+          explanation: "Statement 1 and 3 are correct. Statement 2 is incorrect because under-recovery is the gap between cost and sale price (foregone revenue), while loss is the accounting outcome if under-recovery is not compensated by the government."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The 2023 law governing the appointment of the Chief Election Commissioner replaced judicial oversight with executive convenience. In doing so, it tests the limits of parliamentary sovereignty over constitutional bodies.\" Critically examine.",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"The Great Nicobar infrastructure project encapsulates India's core developmental dilemma: strategic necessity versus ecological irreversibility, national security versus tribal rights.\" Examine this statement with reference to relevant legislation, judicial proceedings, and India's obligations under international environmental law.",
+          context: "GS Paper III | 250 words"
+        }
+      ]
+    }
   }
 ];
