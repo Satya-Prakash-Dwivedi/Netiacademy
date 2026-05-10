@@ -50,6 +50,35 @@ const BlogDetail = () => {
       </header>
       
       <article className="prose prose-lg prose-slate max-w-none select-none">
+         {/* PDF Section - Moved to top for better visibility */}
+         {post.pdfUrl && post.category !== "Magazine" && (
+           <div className="mb-12 p-8 bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl border border-slate-700 shadow-2xl overflow-hidden relative group">
+              <div className="absolute top-0 right-0 p-4 opacity-10">
+                <FileDown size={120} />
+              </div>
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 text-blue-400 mb-4">
+                  <ShieldAlert size={20} />
+                  <span className="text-sm font-bold tracking-widest uppercase">Secure Access</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-4 font-playfair">Download Question Paper</h3>
+                <p className="text-slate-300 mb-8 text-sm max-w-lg leading-relaxed">
+                  The official question paper for <strong className="text-white">{post.title}</strong> is now available for download.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <a 
+                    href={post.pdfUrl}
+                    download
+                    className="flex items-center gap-2 px-6 py-3 bg-white text-slate-900 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-lg active:scale-95"
+                  >
+                    <FileDown size={18} />
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+           </div>
+         )}
+
          <div className="text-slate-700 leading-relaxed font-inter space-y-6">
             {post.content.split('\n').map((para, idx) => {
                if (!para.trim()) return null;
@@ -71,6 +100,14 @@ const BlogDetail = () => {
                    return <h3 key={idx} className="text-2xl font-bold font-playfair text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-2" dangerouslySetInnerHTML={parseInline(para.replace('### ', ''))} />
                }
                
+               if (para.startsWith('#### ')) {
+                   return <h4 key={idx} className="text-xl font-bold font-playfair text-slate-900 mt-8 mb-3" dangerouslySetInnerHTML={parseInline(para.replace('#### ', ''))} />
+               }
+
+               if (para.trim() === '---') {
+                   return <hr key={idx} className="my-8 border-slate-200" />
+               }
+               
                if (para.startsWith('- ') || /^\d+\. /.test(para)) {
                    return <p key={idx} className="ml-4 flex items-start gap-2">
                       <span className="text-blue-900 font-bold">•</span>
@@ -85,7 +122,7 @@ const BlogDetail = () => {
          </div>
 
          {/* Redirect for Magazines to Courses Page */}
-         {post.category === "Magazine" ? (
+         {post.category === "Magazine" && (
            <div className="mt-12 p-10 bg-blue-50/50 rounded-[2rem] border border-blue-100/50 text-center relative overflow-hidden group">
               <div className="relative z-10 py-4">
                 <h3 className="text-3xl font-bold text-slate-900 mb-4 font-playfair">Magazine Now Available</h3>
@@ -101,35 +138,6 @@ const BlogDetail = () => {
                 </Link>
               </div>
            </div>
-         ) : (
-           /* Standard PDF Section for other announcements if any */
-           post.pdfUrl && (
-             <div className="mt-12 p-8 bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl border border-slate-700 shadow-2xl overflow-hidden relative group">
-                <div className="absolute top-0 right-0 p-4 opacity-10">
-                  <FileDown size={120} />
-                </div>
-                <div className="relative z-10">
-                  <div className="flex items-center gap-3 text-blue-400 mb-4">
-                    <ShieldAlert size={20} />
-                    <span className="text-sm font-bold tracking-widest uppercase">Secure Access</span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 font-playfair">Download the Magazine</h3>
-                  <p className="text-slate-300 mb-8 text-sm max-w-lg leading-relaxed">
-                    This premium resource is available for offline preparation. Please note that text extraction and editing are disabled to protect the integrity of the content.
-                  </p>
-                  <div className="flex flex-wrap gap-4">
-                    <a 
-                      href={post.pdfUrl}
-                      download
-                      className="flex items-center gap-2 px-6 py-3 bg-white text-slate-900 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-lg active:scale-95"
-                    >
-                      <FileDown size={18} />
-                      Download PDF
-                    </a>
-                  </div>
-                </div>
-             </div>
-           )
          )}
       </article>
 

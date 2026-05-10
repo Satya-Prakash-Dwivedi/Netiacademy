@@ -36,10 +36,10 @@ const NotificationWidget = () => {
         ...item,
         type: "Announcement",
         path: `/blogs/${item.id}`,
-        btnText: item.category === "Magazine" ? "Download Magazine" : "Read Announcement",
+        btnText: item.category === "Magazine" ? "Download Magazine" : item.category === "Mock Test" ? "Register Now" : "Read Announcement",
         timestamp: parseDateToTime(item.date),
         displayTitle: item.title,
-        priority: item.category === "Magazine" ? 10 : 3 // Magazines get absolute priority
+        priority: item.category === "Magazine" ? 10 : item.category === "Mock Test" ? 8 : 3 // Magazines and Mock Tests get priority
       });
     }
 

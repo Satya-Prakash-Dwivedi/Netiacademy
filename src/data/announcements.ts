@@ -117,5 +117,54 @@ Stay Focused. Stay Neti.
     author: "Neti Content Team",
     image: "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&q=80&w=1000",
     pdfUrl: "/Magazines/NetiPrelims-Environment.pdf"
+  },
+  {
+    id: "neti-all-india-mock-test-1",
+    title: "NETI ALL INDIA MOCK TEST — 1",
+    category: "Mock Test",
+    excerpt: "Final Exam Simulation · 14 days before Prelims. Built from a 15-year audit of UPSC Prelims (2011–2025).",
+    content: `**Final Exam Simulation · 14 days before Prelims**
+
+---
+
+#### WHEN
+**10 May 2026 · 9:30 – 11:30 IST**
+
+#### WHAT
+**GS Paper I · 100 questions · 2 hours · +2 / –0.67**
+
+#### HOW IT'S CALIBRATED
+Built from a 15-year audit of UPSC Prelims (2011–2025).
+
+- **Statement I/II at ~26%** — matches 2025's share, the format that has grown most sharply since 2018
+- **Subject weights follow the post-2020 paper**: Economy 17, History 20, Polity 14, Environment 14, Geography 10
+- **Two close distractors on most questions** — fact recall takes you to 50/50, not to the answer
+- **UPSC's actual qualifier traps**: "all," "only," "in any circumstances," "irrespective of"
+- **Static blended with current affairs** from the last 18 months: 16th Finance Commission, RBI MPC framework, Paris NDC update, BRICS expansion, PFBR Kalpakkam, Aditya-L1
+
+#### WHAT YOU GET
+- **The paper**, attempted under real timing and negative marking
+- **A detailed solutions document** — correct-answer logic, option-by-option elimination, and source for every question
+- **All India ranking**
+- **Subject-wise and format-wise breakdown**: your accuracy on Statement I/II vs matching pairs vs multi-statement
+- **Skip diagnostics**: how often you skipped a question you'd have got right, how often you attempted one you got wrong
+
+#### WHY THIS, NOW
+At T-14, you're not learning new content. You're testing whether the prep you have converts to marks under negative marking and trap density that match the real paper. If your attempt rate, accuracy, or skip discipline is off, this is the last audit with runway left to fix it.
+
+**Solutions document released the same day.**
+
+---
+
+**REGISTER** [admin@netiacademy.com](mailto:admin@netiacademy.com)
+**Telegram:** [t.me/netiacademy01](https://t.me/netiacademy01)
+
+**NETI ACADEMY · नेति नेति**
+Less noise. More clarity.
+[www.netiacademy.com](https://www.netiacademy.com)`,
+    date: "May 6, 2026",
+    author: "Team Neti Academy",
+    image: "/images/mock-test-1.png",
+    pdfUrl: "/Paper/Neti ALL INDIA PRELIMS MOCK TEST 2026 (1).pdf"
   }
 ];
