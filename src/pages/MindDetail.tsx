@@ -104,6 +104,7 @@ const MindDetail = () => {
         description={post.excerpt} 
         ogType="article" 
         canonicalUrl={window.location.href}
+        ogImage={post.image}
       />
       
       {/* Side Aesthetic Vector Graphics */}
@@ -183,6 +184,16 @@ const MindDetail = () => {
              </div>
           </div>
         </header>
+
+        {/* Featured Image */}
+        <div className="mb-12 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-slate-200/50 border border-white/50 aspect-video relative group">
+           <div className="absolute inset-0 bg-[#E88D72]/5 group-hover:bg-transparent transition-colors duration-500"></div>
+           <img 
+             src={post.image} 
+             alt={post.title} 
+             className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-1000 ease-out" 
+           />
+        </div>
 
         {/* Article Content */}
         <div className="post-content">

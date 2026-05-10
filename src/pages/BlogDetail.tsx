@@ -120,6 +120,36 @@ const BlogDetail = () => {
                return <p key={idx} dangerouslySetInnerHTML={parseInline(para)} />
             })}
          </div>
+         
+         {/* Solution PDF Section - Displayed at the bottom */}
+         {post.solutionPdfUrl && (
+           <div className="mt-16 p-8 bg-gradient-to-br from-emerald-900 to-emerald-800 rounded-2xl border border-emerald-700 shadow-2xl overflow-hidden relative group">
+              <div className="absolute top-0 right-0 p-4 opacity-10">
+                <FileDown size={120} />
+              </div>
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 text-emerald-400 mb-4">
+                  <ShieldAlert size={20} />
+                  <span className="text-sm font-bold tracking-widest uppercase">Verified Solutions</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-4 font-playfair">Download GS1 Solutions</h3>
+                <p className="text-emerald-100 mb-8 text-sm max-w-lg leading-relaxed">
+                  The detailed solutions document for <strong className="text-white">{post.title}</strong> is now available. 
+                  Includes option-by-option elimination and source references.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <a 
+                    href={post.solutionPdfUrl}
+                    download
+                    className="flex items-center gap-2 px-6 py-3 bg-white text-emerald-900 font-bold rounded-xl hover:bg-emerald-50 transition-all shadow-lg active:scale-95"
+                  >
+                    <FileDown size={18} />
+                    Download Solutions PDF
+                  </a>
+                </div>
+              </div>
+           </div>
+         )}
 
          {/* Redirect for Magazines to Courses Page */}
          {post.category === "Magazine" && (
