@@ -3062,5 +3062,120 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-10",
+    date: "10th May 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~22 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **Sindoor Ceasefire — 1 Year On** — Today marks the anniversary of Pakistan's DGMO calling India's DGMO at 3:35 PM on May 10, 2025; the political fallout is far from settled\n🔴 **Hantavirus: MV Hondius Outbreak** — Andes virus confirmed on cruise ship; 8 cases, 3 deaths, 147 aboard; WHO DG travelled to Tenerife today; risk = LOW but monitoring continues\n🔴 **SC Ruling: Medical Negligence Doesn't Die With the Doctor** — Legal heirs can be impleaded; liability limited to inherited estate; landmark shift for India's ₹180 billion healthcare sector\n🔴 **Mission for Cotton Productivity 2026–31** — Centre launches 5-year mission for India's largest cash crop; productivity crisis, Pink Bollworm, and farmer income in focus\n🟡 **NITI Aayog CPO Portal** — Central Prabhari Officers now report in real-time; Aspirational Districts get closed-loop monitoring replacing paper-based feedback\n🟢 **UK's Reform Party Sweeps Local Elections** — Farage's hard-right Reform routs Labour; implications for India-UK FTA implementation timeline",
+    topics: [
+      {
+        id: "10-1",
+        title: "SINDOOR CEASEFIRE: 1 YEAR ON — THE UNRESOLVED QUESTIONS",
+        subtitle: "🔴 Must Read | Mains Primary | GS Paper II (IR + Governance)",
+        whyItMatters: "Today is the first anniversary of the ceasefire that ended Operation Sindoor — not of the strikes (May 7), but of the moment Pakistan's DGMO called India's DGMO at 3:35 PM and hostilities ended at 5 PM IST on May 10, 2025. The military dimension is settled. What is not settled: who ended the war, what India gained diplomatically, and whether Pakistan has been held accountable.",
+        content: "📰 WHAT HAPPENED\nOn May 10, 2025, the ceasefire announcement came in two conflicting versions. At 5:37 PM IST, U.S. Secretary of State Marco Rubio posted that the US had brokered a \"full and immediate ceasefire\" citing President Trump's intervention. About 30 minutes earlier, India's Foreign Secretary Vikram Misri had held a briefing attributing the ceasefire entirely to a DGMO-level call between the two countries — no mention of US involvement. India has maintained this bilateral framing consistently since.\n\nOne year later, on the May 7, 2026 anniversary of the strikes, Congress leader Jairam Ramesh catalogued five unresolved questions: (1) Trump has publicly claimed credit for ending the conflict 80+ times since May 10, 2025, and India has never directly refuted this on record; (2) India's Defence Attaché in Jakarta acknowledged aircraft losses on May 7, 2025 at a June seminar; (3) China provided Pakistan with real-time intelligence, satellite imagery, and targeting support during the four-day conflict; (4) Pakistan's Army Chief Field Marshal Asim Munir has been received with \"extraordinary warmth\" by Trump; (5) India has lost traditional patrolling rights in parts of Ladakh, and Chinese imports have continued rising.\n\n📊 KEY DATA TABLE\n| Event | Date | Detail |\n|-------|------|--------|\n| Operation Sindoor launched | May 7, 2025 | 9 terror camps destroyed; 100+ killed |\n| Pakistan retaliatory drones/strikes | May 7–9, 2025 | Most intercepted; India hit Lahore radar |\n| DGMO call (Pak → India) | May 10, 2025 | 3:35 PM IST; ceasefire at 5 PM IST |\n| Rubio's ceasefire announcement | May 10, 2025 | 5:37 PM IST — before India's briefing |\n| Misri's bilateral ceasefire briefing | May 10, 2025 | No mention of US role |\n| Trump's credit claims since May 10 | 2025–2026 | 80+ public statements |\n| India's Parliament debate (Mains) | Monsoon session, 2025 | 16-hour debate; all parties spoke |\n\n⚠️ THE UPSC TRAP\nUPSC will test Sindoor in two formats. In Prelims: \"With reference to Operation Sindoor, which of the following statements is/are correct?\" — and include a statement that \"India accepted US mediation for the ceasefire.\" That is wrong — India's official position is that the ceasefire was bilateral. Official Indian position: Pakistan's DGMO initiated the call; the ceasefire was bilateral.\n\n📝 EXAM ANGLES\nPrelims: US role in ceasefire = NOT officially acknowledged by India. Simla Agreement = bilateral framework (1972). India's DGMO = call received from Pakistan. Mains: Examine India's doctrine of strategic autonomy in light of Operation Sindoor's ceasefire and subsequent diplomatic developments.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Third-party mediation doctrine:** India's long-standing position that Kashmir + India-Pakistan disputes are bilateral under Simla Agreement (1972) — not subject to UN or US mediation\n- **Simla Agreement (1972):** Bilateral framework, supersedes UN resolutions on Kashmir\n- **India's Nuclear Doctrine:** No-first-use, minimum credible deterrence\n- **Parliamentary oversight of military operations:** Article 75 (cabinet collective responsibility), Section 3 of Official Secrets Act\n- **Kargil Review Committee (2000):** Accountability exercise; Kargil RC was chaired by K. Subrahmanyam",
+        pyqConnect: "\"The breakdown of 'strategic restraint' in India's counterterrorism doctrine raises questions about escalation management in South Asia. Discuss.\" (2025 Mains, GS Paper II)"
+      },
+      {
+        id: "10-2",
+        title: "ANDES HANTAVIRUS: THE MV HONDIUS OUTBREAK",
+        subtitle: "🔴 Must Read | Both | GS Paper III (S&T + Health) + GS Paper II (Governance/IHR)",
+        whyItMatters: "A Dutch expedition cruise ship, MV Hondius, has become the centre of a multi-country hantavirus emergency. The Andes virus — the only hantavirus species known to spread from person to person — has killed 3 and infected 8 of 147 people aboard. WHO Director General Tedros travelled personally to Tenerife today to oversee evacuation.",
+        content: "📰 WHAT HAPPENED\nMV Hondius departed Ushuaia, Argentina on April 1, 2026 carrying 147 people from 23 countries. Illness onset began between April 6 and April 28 aboard the vessel. On May 2, WHO was notified via the IHR Focal Point of the UK of a cluster of severe acute respiratory illness. Laboratory testing in South Africa confirmed Andes hantavirus on the same day. By May 6, WHO confirmed 6 confirmed cases, 2 probable, and 3 deaths. As of May 10, the ship is docking at Tenerife, Canary Islands, for passenger evacuation.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Vessel | MV Hondius (Dutch, Oceanwide Expeditions) |\n| Virus confirmed | Andes virus (hantavirus family) |\n| Cases | 8 total: 6 confirmed + 2 probable |\n| Deaths | 3 |\n| Case fatality rate | ~38% for HPS |\n| Andes virus unique trait | ONLY hantavirus with documented person-to-person spread |\n| IHR notification | May 2, 2026 (via UK IHR Focal Point) |\n\n⚠️ THE UPSC TRAP\n1. **Not a new virus** — Hantaviruses have 50+ known species; Andes is a rare but known risk.\n2. **Person-to-person spread** — ONLY the Andes species has documented limited human-to-human transmission.\n3. **IHR 2005 vs PHEIC** — A WHO notification under IHR is NOT the same as a PHEIC. WHO has NOT declared this a PHEIC.\n\n📝 EXAM ANGLES\nPrelims: Andes virus = only hantavirus with person-to-person transmission. IHR notification ≠ PHEIC. Hantavirus causes HPS (pulmonary syndrome). Incubation = 4–42 days.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Zoonotic diseases:** Zoonoses = diseases jumping from animals to humans; hantavirus (rodents), Nipah (bats), Ebola (bats/primates)\n- **International Health Regulations (IHR) 2005:** Binding framework for WHO member states; India is a signatory\n- **One Health Approach:** WHO/FAO/OIE framework recognising human, animal, and environmental health as interconnected\n- **PHEIC:** Only 7 PHEICs declared since 2005 (H1N1, Polio, Ebola, Zika, COVID-19, Mpox)",
+        pyqConnect: "\"Examine the One Health approach as a solution to emerging zoonotic diseases in India.\" (2022 GS Paper III, modified)"
+      },
+      {
+        id: "10-3",
+        title: "SC RULING: MEDICAL NEGLIGENCE CLAIMS SURVIVE THE DOCTOR'S DEATH",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Governance + Judiciary)",
+        whyItMatters: "In Kumud Lall v. Suresh Chandra Roy, the SC ruled that the right to sue a doctor for medical negligence does not die with the doctor. Legal heirs can be impleaded. Liability, however, is limited to inherited assets — not personally imposed on the heirs.",
+        content: "📰 WHAT HAPPENED\nThe SC examined Order XXII Rule 4 of the Code of Civil Procedure (CPC) and the Consumer Protection Acts. The court held that since the right to sue is not purely personal but attached to the actionable wrong, it survives. Legal heirs can be brought on record as defendants. Liability is limited: compensation for harm done to the patient remains actionable against the estate, while purely personal claims (pain, suffering) generally abate.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Case name | Kumud Lall v. Suresh Chandra Roy |\n| Date of ruling | May 8, 2026 |\n| Key legal provision | Order XXII Rule 4, CPC + Consumer Protection Act 2019 |\n| Extent of liability | Estate/inherited assets only — NOT personal liability of heirs |\n| What survives? | Compensation for harm to patient |\n\n⚠️ THE UPSC TRAP\n(1) The ruling says heirs CAN be brought in — not that they ARE automatically liable. (2) This applies under the Consumer Protection Act — it is NOT a criminal negligence ruling. Section 304A IPC remains a separate track requiring a higher standard of proof.\n\n📝 EXAM ANGLES\nPrelims: Consumer Protection Act 2019. Order XXII Rule 4 CPC = substitution of parties. SC ruling = estate liable, heirs NOT personally.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Consumer Protection Act 2019:** Replaced 1986 Act; central consumer protection authority, product liability provisions\n- **Article 21:** Right to Life includes right to health\n- **Bolam Test:** A doctor is not negligent if they act in accordance with a practice accepted by a responsible body of medical professionals\n- **Code of Civil Procedure, Order XXII:** Deals with death, marriage, or insolvency of parties during proceedings",
+        pyqConnect: "\"The consumer is sovereign in a market economy. Examine how consumer protection legislation in India has evolved to meet this ideal.\" (2019, GS Paper III)"
+      },
+      {
+        id: "10-4",
+        title: "MISSION FOR COTTON PRODUCTIVITY 2026–2031",
+        subtitle: "🔴 Must Read | Prelims + Mains | GS Paper III (Agriculture + Economy)",
+        whyItMatters: "The Centre has launched a 5-year Mission for Cotton Productivity (2026–27 to 2030–31) addressing India's yield paradox: we have the world's largest area but among the lowest yields. The mission targets Pink Bollworm control, seed replacement, and micro-irrigation.",
+        content: "📰 WHAT HAPPENED\nThe mission focuses on: raising average yield from ~450 kg lint/hectare toward the global benchmark of 800+ kg; controlling the Pink Bollworm, which has become resistant to first-generation BT cotton; accelerating replacement of outdated seeds with second-generation stacked hybrids (Cry1Ac + Cry2Ab); and expanding micro-drip irrigation in rain-fed regions like Vidarbha.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Mission period | 2026–27 to 2030–31 |\n| Ministry | Agriculture & Farmers' Welfare + Textiles |\n| India's yield | ~450 kg lint/hectare (vs China ~1,800 kg) |\n| Key pest threat | Pink Bollworm — resistant to first-gen BT cotton |\n| Solution | Second-generation stacked hybrids (Cry1Ac + Cry2Ab) |\n| Distress region | Vidarbha (Maharashtra) |\n\n⚠️ THE UPSC TRAP\n(1) BT cotton is a GMO, not a pesticide. (2) Pink Bollworm resistance is to Cry1Ac (first-gen) — stacked hybrids (Cry1Ac + Cry2Ab) are still effective. (3) Herbicide-tolerant BT cotton (HT-Bt) is NOT approved in India — GEAC has not cleared it.\n\n📝 EXAM ANGLES\nPrelims: GEAC = under MoEFCC. BT cotton approved 2002. Pink Bollworm = most damaging pest. Cry1Ac = first-gen; Cry2Ab = second-gen. MSP for cotton = Medium + Long Staple.",
+        revise: "🔗 STATIC CONNECTIONS\n- **GEAC:** Under MoEFCC, regulates GMOs\n- **Bt cotton approval:** First commercial GMO crop approved in India (2002)\n- **MSP for Cotton:** Recommended by CACP; approved by CCEA\n- **National Food Security Act:** Does NOT apply to cotton (non-food crop)",
+        pyqConnect: "\"What are the challenges faced by the Indian cotton sector and what policies are needed to make cotton farming remunerative?\" (2018, GS Paper III)"
+      },
+      {
+        id: "10-5",
+        title: "NITI AAYOG CPO PORTAL: REAL-TIME GOVERNANCE",
+        subtitle: "🟡 Important | Mains Primary | GS Paper II (Governance + Centre-State)",
+        whyItMatters: "NITI Aayog launched the Central Prabhari Officer (CPO) Portal to address implementation deficit in welfare schemes. The portal creates a real-time digital monitoring system for 112 Aspirational Districts and 500+ Aspirational Blocks.",
+        content: "📰 WHAT HAPPENED\nThe CPO system assigns senior Central Government officers to specific districts as mentors. The new portal gives these officers a digital interface to upload field observations (with photo evidence and geolocation). This triggers responses at the district level and escalates to state coordination if unresolved. It integrates with PM Gati Shakti, DBT architecture, and PFMS.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Portal launched | May 2026, by NITI Aayog |\n| Scheme | Aspirational Districts Programme (ADP) + Blocks (ABP) |\n| ADP launched | January 2018; 112 districts; 5 focus themes |\n| ABP launched | 2023; 500+ blocks |\n| Ranking system | Delta ranking (improvement-based) |\n\n⚠️ THE UPSC TRAP\nADP is administered by NITI Aayog (not a sector ministry). It uses **delta ranking** (improvement over a base, not absolute score). It is NOT a centrally sponsored scheme (CSS) — it is a coordination framework using funds from existing sector schemes.\n\n📝 EXAM ANGLES\nPrelims: ADP launched 2018. Ranking = delta ranking. Themes: health, education, agriculture, infrastructure, financial inclusion.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Cooperative Federalism:** Centre-State-District three-tier structure\n- **Article 263:** Inter-State Council for coordination\n- **Digital India:** e-Governance ecosystem integration (MyGov, GeM, PM Gati Shakti)\n- **3rd ARC:** Recommendations on decentralisation and accountability",
+        pyqConnect: "\"Cooperative federalism in India has evolved through institutional mechanisms beyond constitutional provisions. Examine.\" (2020, GS Paper II)"
+      },
+      {
+        id: "10-6",
+        title: "UK REFORM PARTY'S HISTORIC LOCAL ELECTION SWEEP",
+        subtitle: "🟢 Good to Know | Mains Context | GS Paper II (IR + Democratic Trends)",
+        whyItMatters: "Hard-right Reform UK, led by Nigel Farage, has made sweeping gains in UK local elections, routing Labour in working-class strongholds. For India, this complicates the political climate for the India-UK FTA implementation.",
+        content: "📰 WHAT HAPPENED\nReform UK won hundreds of local council seats in England's north. While Keir Starmer remains PM (these are local elections, not general), the political momentum shift weakens his domestic authority. Reform's platform centres on immigration restriction and economic nationalism, which directly conflicts with India's primary ask in the trade deal (easier mobility for professionals).\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Election type | Local council elections (England) |\n| Winner | Reform UK (Nigel Farage, leader) |\n| India-UK FTA status | Concluded in principle 2025; implementation ongoing |\n| India's core ask | Services mobility (Mode 4 trade) |\n\n⚠️ THE UPSC TRAP\nLocal elections ≠ change of government. Keir Starmer (Labour) remains Prime Minister. Nigel Farage has NOT become PM. Also, the FTA was signed in principle in 2025 by the Starmer administration.\n\n📝 EXAM ANGLES\nPrelims: Starmer = current UK PM. Mode 4 = movement of persons (services trade). Mains: Rise of economic nationalism in Western democracies and its impact on India's trade diplomacy.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Mode 4 Trade (GATS):** Movement of natural persons for services\n- **WTO GATS:** General Agreement on Trade in Services; 4 Modes of Supply\n- **India-UK Relationship:** Comprehensive Strategic Partnership (2021); 'Living Bridge' of 1.5m diaspora",
+        pyqConnect: "\"The factors responsible for the rise of right-wing populism in Western Europe, and their implications for global multilateralism.\" (2024 GS Paper II)"
+      }
+    ],
+    reviseSummary: [
+      "Simla Agreement (1972) remains the bilateral framework for India-Pakistan relations.",
+      "Andes virus is the only hantavirus with documented person-to-person spread.",
+      "Supreme Court ruled that medical negligence claims survive the doctor's death, limited to the estate.",
+      "Mission for Cotton Productivity (2026-31) targets Pink Bollworm and seed replacement.",
+      "NITI Aayog's CPO Portal enables real-time monitoring of Aspirational Districts.",
+      "UK Reform Party's local sweep signals a shift towards economic nationalism."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to hantavirus, consider the following statements:\n1. Andes virus is the only hantavirus species capable of limited human-to-human transmission.\n2. Hantavirus causes Hantavirus Pulmonary Syndrome (HPS), primarily affecting the kidneys.\n3. Transmission from rodents to humans occurs through contact with infected rodent urine, faeces, or saliva.\n4. In May 2026, WHO declared a Public Health Emergency of International Concern (PHEIC) for the MV Hondius outbreak.",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(b) Only two",
+          explanation: "Statements 1 and 3 are correct. Statement 2 is incorrect as HPS affects the lungs; kidney-targeting hantavirus causes HFRS. Statement 4 is incorrect as WHO has NOT declared a PHEIC for this outbreak."
+        },
+        {
+          question: "Consider the following pairs regarding India's Operation Sindoor (2025) and the subsequent ceasefire:\nPerson/Body — Action/Statement\n1. Pakistan DGMO — Called Indian DGMO to initiate ceasefire talks on May 10, 2025\n2. India's Foreign Secretary — First public announcement of the ceasefire at 5:37 PM IST on May 10\n3. US Secretary of State Marco Rubio — Attributed the ceasefire to President Trump's mediation\n4. India's official position — The ceasefire was achieved bilaterally without third-party mediation",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(c) Only three",
+          explanation: "Pairs 1, 3, and 4 are correctly matched. Pair 2 is incorrect because the first public announcement was by US Secretary of State Rubio, not India's Foreign Secretary."
+        },
+        {
+          question: "With reference to the Supreme Court ruling in Kumud Lall v. Suresh Chandra Roy (2026), which of the following statements is/are correct?\n1. Legal heirs of a deceased doctor are personally liable to pay compensation out of their own funds.\n2. The right to sue for medical negligence survives the death of the accused doctor.\n3. The ruling was made under provisions of both the Consumer Protection Act 1986 and 2019.\n4. Purely personal claims such as damage to the doctor's reputation abate upon the doctor's death.",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 4 only"],
+          answer: "(c) 2, 3 and 4 only",
+          explanation: "Statement 1 is incorrect as liability is limited to the estate/inherited assets, not personal funds. Statements 2, 3, and 4 are correct."
+        },
+        {
+          question: "With reference to BT cotton in India, consider the following statements:\nStatement I: BT cotton containing only the Cry1Ac gene is now effective against the Pink Bollworm as it has been effective since 2002.\nStatement II: First-generation BT cotton hybrids with the Cry1Ac gene alone have lost effectiveness against the Pink Bollworm due to resistance development by the pest.",
+          options: ["(a) Both Statement I and Statement II are correct and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct but Statement II does NOT explain Statement I", "(c) Statement I is correct but Statement II is incorrect", "(d) Statement I is incorrect and Statement II is correct"],
+          answer: "(d) Statement I is incorrect and Statement II is correct",
+          explanation: "Statement I is incorrect because first-gen BT (Cry1Ac) has lost effectiveness due to resistance. Statement II is correct."
+        },
+        {
+          question: "With reference to the Aspirational Districts Programme (ADP) of India, which of the following statements are correct?\n1. ADP was launched by NITI Aayog in January 2018 and covers 112 backward districts.\n2. Districts are ranked on absolute performance scores in health, education, etc.\n3. The Aspirational Blocks Programme (ABP), launched in 2023, targets specific blocks.\n4. ADP functions as a Centrally Sponsored Scheme (CSS) with dedicated fund allocation.",
+          options: ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 3 and 4 only"],
+          answer: "(b) 1 and 3 only",
+          explanation: "Statement 2 is incorrect as it uses delta ranking (improvement), not absolute scores. Statement 4 is incorrect as ADP is a coordination framework, not a CSS."
+        }
+      ],
+      mains: [
+        {
+          question: "\"A year after Operation Sindoor, India faces the challenge of converting military success into diplomatic capital without compromising its doctrine of bilateral engagement.\" Critically examine.",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"India's regulatory environment for genetically modified crops is caught between scientific consensus and political caution, resulting in persistent productivity gaps in commercial agriculture.\" Analyse this statement with reference to BT cotton and the Mission for Cotton Productivity 2026–31.",
+          context: "GS Paper III | 150 words"
+        }
+      ]
+    }
   }
 ];
