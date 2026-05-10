@@ -164,6 +164,7 @@ Less noise. More clarity.
 [www.netiacademy.com](https://www.netiacademy.com)`,
     date: "May 6, 2026",
     author: "Team Neti Academy",
-    image: "/images/mock-test-1.png"
+    image: "/images/mock-test-1.png",
+    pdfUrl: "/Paper/Neti ALL INDIA PRELIMS MOCK TEST 2026 (1).pdf"
   }
 ];
