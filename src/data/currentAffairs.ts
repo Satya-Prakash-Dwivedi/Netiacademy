@@ -3177,5 +3177,120 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-11",
+    date: "11th May 2026",
+    day: "Monday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~12 minutes | 📋 Topics today: 6 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **Somnath Amrit Mahotsav 2026** — 75 years of restored temple; Kumbhabhishekam performed from 90m shikhara atop 1000 years of resilience\n🔴 **Multi-Lane Free Flow (MLFF) Tolling System Launched** — India's first barrier-less toll on Surat–Bharuch NH-48; vehicles pass at 80 kmph without stopping\n🔴 **TARA Glide Weapon Successfully Tested** — Indigenous precision munition kit tested May 7; converts unguided bombs to guided weapons\n🔴 **AI & Computational Thinking Made Mandatory from Class 3** — CBSE curriculum begins 2026-27; aligns with NEP 2020 vision\n🟡 **India–Pakistan Sports Policy Codified** — Bilateral sports banned; multilateral events allowed\n🟡 **India's Agricultural Exports Face Global Trade Pressures** — PM-KISAN impact, fertiliser supply chain vulnerabilities via Strait of Hormuz",
+    topics: [
+      {
+        id: "11-1",
+        title: "SOMNATH AMRIT MAHOTSAV 2026: 75 YEARS OF RESTORATION & RESILIENCE",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper I (History, Culture)",
+        whyItMatters: "PM Modi performed Kumbhabhishekam on the 90-metre Somnath shikhara on May 11, 2026, marking 75 years since Dr. Rajendra Prasad's inauguration of the restored temple. The temple symbolises post-Independence cultural reconstruction and resilience after 1,000 years of invasions.",
+        content: "📰 WHAT HAPPENED\nThe Somnath Amrit Mahotsav celebrations marked the 75th anniversary of the temple's consecration by India's first President. PM Modi performed the ritual Kumbhabhishekam using holy water brought from 11 major pilgrimage sites across India. The ceremony atop the 155-foot shikhara (with a 10-tonne kalash) was symbolic: ancient Hindu pilgrimage networks blessed the restored shrine. The temple complex includes the Garbhagriha (sanctum sanctorum), Sabhamandap (assembly hall), and Nrityamandap (dance hall), designed in the Kailash Mahameru Prasad architectural style. The event coincided with Operation Sindoor's first anniversary—a deliberate framing linking cultural resilience with military security.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Total invasions recorded | 17 by Mahmud of Ghazni (1000–1026 CE) |\n| First reconstruction | 1026 CE to subsequent eras; Ahilyabai Holkar rebuilt adjacent shrine in 18th century |\n| Post-Independence reconstruction | 1947–1951; inaugurated by Dr. Rajendra Prasad |\n| Temple height | 155 feet (shikhara); flagstaff 27 feet; kalash 10 tonnes |\n| Among 12 Jyotirlingas | First in order of significance; sacred in Puranas & local belief |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"Somnath was rebuilt by Sardar Patel alone after 1947.\" WRONG. While Patel was instrumental in integrating princely states AND supporting reconstruction, the actual reconstruction involved K.M. Munshi (architect/administrator) and technical teams. Patel's role was political integration of Kathiawar, not direct architectural rebuilding.\n- **TRAP 2:** \"Mahmud of Ghazni's 1026 attack marked the first recorded destruction of Somnath.\" PARTIALLY TRUE but deeper issue: The temple had been rebuilt multiple times before 1026, and many invasions followed.\n\n📝 EXAM ANGLES\n- **Prelims:** Somnath inaugurated post-Independence by: (b) Dr. Rajendra Prasad. Mahmud of Ghazni attacked Somnath in: (b) 1026. Ahilyabai Holkar's efforts focused on: (c) Multiple regions.\n- **Mains:** Discuss the reconstruction of Somnath Temple post-1947 as India's cultural assertion within a secular constitutional framework.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Sardar Patel & Integration:** Patel integrated 562 princely states (1947–1948); Kathiawar was crucial.\n- **First President Rajendra Prasad:** Inaugurated Somnath; also consecrated India's constitutional republic.\n- **Ahilyabai Holkar:** Represented pre-modern Hindu religious architecture patronage.\n- **Dwadasha Jyotirlingas:** 12 sacred Shiva temples; Somnath is first.\n- **Invasion patterns:** Repeated invasions created syncretism and resilience narratives.",
+        pyqConnect: "2018 Prelims Q48 — Temple destruction during mediaeval invasions; 2013 Mains Paper 1 — Ahilyabai Holkar's administrative and cultural role."
+      },
+      {
+        id: "11-2",
+        title: "MULTI-LANE FREE-FLOW (MLFF) TOLLING SYSTEM: INDIA'S TOLL REVOLUTION",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper III (Infrastructure, Technology, Economy)",
+        whyItMatters: "India launched its first barrier-less tolling system at Choryasi toll plaza on NH-48. Vehicles pass at 80 kmph without stopping, using ANPR, LiDAR, and GNSS technologies. This marks a paradigm shift toward truly seamless highway travel.",
+        content: "📰 WHAT HAPPENED\nThe Choryasi toll plaza on NH-48 began operations on May 11. Instead of physical toll booths, overhead gantries equipped with high-resolution ANPR cameras, RFID sensors (for FASTag), LiDAR, and AI-driven radar identify vehicles in real-time. Vehicles with valid FASTag stickers are automatically identified and toll is deducted from linked bank accounts. The government plans nationwide rollout across 1,100+ toll plazas by end of 2026.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Toll plazas to be converted | 1,100+ across national highways |\n| Technology cost per plaza | ₹15–16 crore |\n| Capacity (Choryasi) | ~25,000 vehicles/day |\n| Speed at toll collection | 80 kmph (no stopping required) |\n| Key technologies | ANPR, LiDAR, RFID, GNSS, AI-driven radar |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"MLFF eliminates FASTag entirely.\" WRONG. FASTag remains integral; MLFF is a complement that solves the stopping requirement.\n- **TRAP 2:** \"All toll plazas will be MLFF by June 2026.\" WRONG. Complete rollout is targeted by end of 2026.\n- **TRAP 3:** \"MLFF solves the diesel loss problem.\" TRUE—reduced idling leads to quantifiable environmental and economic benefits.\n\n📝 EXAM ANGLES\n- **Prelims:** MLFF speed = 80 kmph. First implementation = Choryasi, Gujarat. Key technologies = ANPR, LiDAR, RFID.\n- **Mains:** Examine how barrier-less toll collection systems align with India's broader infrastructure and climate goals.",
+        revise: "🔗 STATIC CONNECTIONS\n- **FASTag Evolution:** Introduced 2016; MLFF is the next generation.\n- **Bharatmala Pariyojana:** Massive highway expansion program.\n- **PM Gati Shakti:** Multi-modal logistics infrastructure.\n- **Digital India:** Integration of ANPR, GNSS, and VAHAN database.\n- **Environmental Goals:** Reduced emissions from idling vehicles.",
+        pyqConnect: "2016 Prelims Q42 — FASTag introduction; 2019 Mains Paper 3 — Infrastructure as growth enabler."
+      },
+      {
+        id: "11-3",
+        title: "TARA GLIDE WEAPON: INDIA'S INDIGENOUS PRECISION MUNITION BREAKTHROUGH",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper III (Defence, Science & Technology, DRDO)",
+        whyItMatters: "DRDO and IAF successfully tested the Tactical Advanced Range Augmentation (TARA) glide weapon system. TARA converts conventional unguided bombs into precision-guided munitions, marking a significant step in India's defence indigenisation.",
+        content: "📰 WHAT HAPPENED\nOn May 7, 2026, an IAF Jaguar fighter aircraft released a 500 kg bomb equipped with the TARA modular kit off the Odisha coast. The system demonstrated gliding capability and precision guidance. TARA uses low-cost inertial navigation and guidance algorithms to extend range and improve accuracy. It is designed to be retrofitted onto existing munitions, enabling cost-effective upgrades.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| First test date | May 7, 2026 |\n| Test platform | IAF Sepecat Jaguar |\n| Munition used | 500 kg unguided bomb + TARA kit |\n| Developing agency | Research Centre Imarat (RCI), Hyderabad; DRDO |\n| Target capability | Ground-based targets (bunkers, depots, etc.) |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"TARA is a new missile.\" WRONG. It is a modular kit for augmentation of existing bombs.\n- **TRAP 2:** \"TARA uses the same guidance as Brahmos.\" NOT NECESSARILY. It is a low-cost system optimized for glide munitions.\n- **TRAP 3:** \"The test signals imminent Agni-6 trials.\" SPECULATION. Stick to official announcements.\n\n📝 EXAM ANGLES\n- **Prelims:** TARA = modular guidance kit for unguided bombs. Developed by = RCI Hyderabad. Anniversary = Operation Sindoor.\n- **Mains:** Analyse the implications of indigenous glide weapon systems like TARA for India's defence industrial base.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Operation Sindoor (2025):** Context for defence capability development.\n- **DRDO & Atmanirbhar Bharat:** Policy of self-reliance in defence.\n- **IGMDP:** Legacy of indigenous missile development.\n- **Glide Munitions vs Cruise Missiles:** Unpowered vs powered flight characteristics.",
+        pyqConnect: "2014 Mains Paper 3 — DRDO's role; 2011 Prelims Q67 — Missiles in India's arsenal."
+      },
+      {
+        id: "11-4",
+        title: "AI & COMPUTATIONAL THINKING CURRICULUM: MANDATORY FROM CLASS 3 (2026-27)",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper II (Governance, Education Policy) & GS Paper III (Science & Technology)",
+        whyItMatters: "CBSE has launched a mandatory curriculum on AI and Computational Thinking for Classes 3–8. This aligns with NEP 2020's vision to integrate 21st-century skills into foundational education without increasing the burden of standalone subjects.",
+        content: "📰 WHAT HAPPENED\nThe curriculum integrates AI literacy into existing subjects like Mathematics and Science. For Classes 3–5, learning is activity-based (puzzles, games). For Classes 6–8, foundational AI concepts are introduced. Teacher training is being conducted via NISHTHA. Resource materials are disseminated through DIKSHA. The focus is on competencies like decomposition, pattern recognition, and algorithm design.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Rollout begins | Academic year 2026-27 (Classes 3-8) |\n| Approach | Integrated into existing subjects; activity-based for 3-5 |\n| Assessment (3-8) | Activity/project-based; NO traditional exams |\n| Classes 11-12 | AI as optional elective with board exams |\n| Teacher training | NISHTHA modules |\n| Alignment | NEP 2020, NCF-SE 2023 |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"Every Class 3 student will learn coding/Python.\" WRONG. The approach is activity-based logic, not programming languages.\n- **TRAP 2:** \"This is a standalone new subject.\" WRONG. It is integrated into existing subjects as a pedagogical lens.\n- **TRAP 3:** \"India is the first country to introduce this.\" NOT TRUE. Other nations like Singapore and the UK have similar programs.\n\n📝 EXAM ANGLES\n- **Prelims:** Rollout year = 2026-27. Expert committee head = Prof. Karthik Raman. Learning mode = Integrated/Activity-based.\n- **Mains:** Examine how AI integration in education reflects India's response to skill gaps while addressing the digital divide.",
+        revise: "🔗 STATIC CONNECTIONS\n- **NEP 2020:** Emphasis on experiential learning and critical thinking.\n- **21st-Century Skills:** Digital literacy and ethical reasoning.\n- **Article 21-A:** Right to Education relevance.\n- **DIKSHA & NISHTHA:** Platforms for digital infrastructure and teacher training.",
+        pyqConnect: "2020 Mains Paper 2 — NEP 2020; 2015 Prelims Q85 — Digital literacy."
+      },
+      {
+        id: "11-5",
+        title: "INDIA-PAKISTAN SPORTS POLICY: BILATERAL BAN, MULTILATERAL ACCEPTANCE",
+        subtitle: "🟡 Important | Prelims & Mains | GS Paper II (International Relations, Diplomacy)",
+        whyItMatters: "India has codified its sports engagement policy with Pakistan, maintaining a ban on bilateral series while allowing participation in multilateral events. This balances national security concerns with international sporting obligations and hosting ambitions.",
+        content: "📰 WHAT HAPPENED\nThe Sports Ministry's memorandum clarifies that bilateral cricket, football, etc., between India and Pakistan remain prohibited. However, Pakistani athletes can participate in multilateral events hosted by India (World Cups, Olympics, etc.). This dual-track policy exemplifies geopolitical pragmatism, separating bilateral hostility from global institutional commitments.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Bilateral sports | Prohibited indefinitely |\n| Multilateral events | Participation permitted (ICC, Olympics, etc.) |\n| Codification date | May 6, 2026 |\n| Context | Post-Operation Sindoor military tensions |\n| Objectives | Balance nationalist sentiment with hosting ambitions (2036 Olympics bid) |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"India bans all sports with Pakistan.\" MISLEADING. The ban is specifically bilateral; multilateral participation continues.\n- **TRAP 2:** \"This is a new 2026 initiative.\" INCORRECT. The framework has been practiced since 2025; May 2026 was the formal codification.\n- **TRAP 3:** \"The ban is a form of complete political isolation.\" PARTIALLY TRUE, but the multilateral exception shows calibrated balance.\n\n📝 EXAM ANGLES\n- **Prelims:** Policy permits = Multilateral events. Codification date = May 6, 2026.\n- **Mains:** Examine how India's dual-track sports policy aligns with its diplomatic strategy and global sporting ambitions.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Operation Sindoor (2025):** Backdrop for hardened policy stance.\n- **Article 51:** Constitutional mandate for international relations.\n- **Soft Power:** Sports as a tool for diplomatic influence and hosting global events.",
+        pyqConnect: "2012 Mains — India-Pakistan Track 2 diplomacy; 2008 Prelims — Sports & foreign policy."
+      },
+      {
+        id: "11-6",
+        title: "INDIA'S AGRICULTURAL EXPORTS & FERTILISER SUPPLY CHAIN VULNERABILITY",
+        subtitle: "🟡 Important | Prelims & Mains | GS Paper III (Agriculture, Economy, Trade)",
+        whyItMatters: "India's agricultural sector faces twin pressures: growing exports despite global protectionism and critical supply chain vulnerabilities. Dependence on the Strait of Hormuz for 75% of ammonia imports creates risks for food security and farmer incomes.",
+        content: "📰 WHAT HAPPENED\nIndia's agri-exports are growing (~$25+ billion) despite trade pressures. However, Middle East tensions threaten fertiliser supply chains, particularly nitrogen-based inputs (urea, ammonia) coming through the Strait of Hormuz. The government is diversifying sources (Russia, Morocco) while maintaining support via PM-KISAN and MSP.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Ammonia imports via Hormuz | ~75% from Gulf region |\n| PM-KISAN disbursements | ₹4.27 lakh crore (22 instalments) |\n| Agri-export scale | ~$25+ billion annually |\n| Main risks | Price volatility, yield loss due to shortages |\n| Key response | Sourcing diversification + MSP support |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"Fertiliser imports come primarily from North Africa.\" WRONG. 75% of ammonia comes from the Gulf via Hormuz.\n- **TRAP 2:** \"PM-KISAN is a universal subsidy.\" INCORRECT. It is targeted income support for small/marginal farmers.\n- **TRAP 3:** \"Agriculture is immune to trade wars.\" FALSE. Inputs and exports are deeply integrated into global chains.\n\n📝 EXAM ANGLES\n- **Prelims:** Ammonia import % via Hormuz = 75%. PM-KISAN total = ₹4.27 lakh crore. Vulnerability = Supply chain geography.\n- **Mains:** Analyse the paradox of growing exports vs supply chain vulnerabilities in India's agricultural sector.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Fertiliser Subsidies & MSP:** Support mechanisms tied to WTO rules.\n- **Strait of Hormuz:** Critical chokepoint for energy and fertiliser trade.\n- **Food Security Act 2013:** Link between yield and national food security.\n- **PM-KISAN:** Direct Benefit Transfer (DBT) implementation for farmer welfare.",
+        pyqConnect: "2021 Mains Paper 3 — Agri-exports & WTO; 2018 Mains Paper 3 — Food security; 2014 Prelims — MSP."
+      }
+    ],
+    reviseSummary: [
+      "Somnath Temple (1951) — Inaugurated by Dr. Rajendra Prasad; symbol of cultural reconstruction.",
+      "MLFF Tolling — First barrier-less system at Choryasi (NH-48); uses ANPR and LiDAR.",
+      "TARA Glide Weapon — DRDO kit converting unguided bombs to precision munitions.",
+      "AI Curriculum — Mandatory for CBSE Classes 3-8 from 2026-27; integrated learning.",
+      "Ind-Pak Sports — Bilateral ban remains; multilateral participation permitted.",
+      "Agri-Exports — Growth despite Hormuz-linked fertiliser supply chain vulnerabilities."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Which of the following statements regarding the Somnath Temple are correct?\n1. Somnath was inaugurated by Dr. Rajendra Prasad on May 11, 1951.\n2. Sardar Patel directly oversaw the architectural reconstruction between 1947–1951.\n3. Mahmud of Ghazni's attack in 1026 CE marked the first recorded invasion.\n4. The current temple uses the Kailash Mahameru Prasad architectural style.",
+          options: ["(a) 1 and 3 only", "(b) 1, 2, and 4 only", "(c) 1, 3, and 4 only", "(d) All four statements"],
+          answer: "(c) 1, 3, and 4 only",
+          explanation: "Statement 2 is incorrect; K.M. Munshi oversaw the reconstruction, while Patel provided political support. Others are correct."
+        },
+        {
+          question: "Consider the following statements about the Multi-Lane Free-Flow (MLFF) tolling system:\n1. MLFF eliminates the need for FASTag altogether.\n2. Vehicles can pass MLFF toll plazas at highway speeds (80 kmph) without stopping.\n3. The system uses LiDAR sensors, ANPR cameras, and RFID readers in combination.\n4. Choryasi toll plaza was the first MLFF system launched on May 11, 2026.",
+          options: ["(a) 2 and 4 only", "(b) 2, 3, and 4 only", "(c) 1 and 3 only", "(d) All four statements"],
+          answer: "(b) 2, 3, and 4 only",
+          explanation: "Statement 1 is incorrect as MLFF complements FASTag, it does not replace it."
+        },
+        {
+          question: "Which of the following is/are correct about the TARA glide weapon system?\n1. TARA is a modular kit designed to convert unguided bombs into precision-guided weapons.\n2. TARA was developed solely by RCI Hyderabad without other DRDO collaboration.\n3. The maiden flight-trial of TARA was conducted on May 7, 2026, off Odisha.\n4. TARA is a powered cruise missile with independent propulsion.",
+          options: ["(a) 1 and 3 only", "(b) 2 and 4 only", "(c) 1, 2, and 3 only", "(d) All four statements"],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 2 is incorrect as it was a collaborative effort. Statement 4 is incorrect as it is unpowered (glide)."
+        },
+        {
+          question: "With reference to the AI & Computational Thinking curriculum announced by CBSE, which statements are accurate?\n1. It will be taught as a standalone new subject in Classes 3–8.\n2. The curriculum is aligned with NEP 2020 and NCF-SE 2023.\n3. For Classes 3–5, CT will be integrated through activity-based learning.\n4. Assessment in Classes 3–8 will be through formal board examinations.",
+          options: ["(a) 1 and 4 only", "(b) 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 3 only"],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 is incorrect (integrated, not standalone). Statement 4 is incorrect (project-based, no board exams for 3-8)."
+        },
+        {
+          question: "Which of the following describes the India-Pakistan sports engagement policy as of May 2026?\n1. India permits no sporting engagement under any circumstances.\n2. Pakistani teams are allowed in multilateral events hosted by India.\n3. Bilateral cricket series are banned permanently.\n4. Pakistani athletes are denied visas for any sporting activity in India.",
+          options: ["(a) 2 only", "(b) 2 and 3 only", "(c) 1, 3, and 4 only", "(d) All four statements"],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 and 4 are incorrect; multilateral participation and visas for such events are allowed."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The restoration of Somnath Temple post-1947 represented India's cultural assertion within a secular constitutional framework, yet raises questions about the state's role in religious institutions.\" Discuss.",
+          context: "GS Paper I | 150 words"
+        },
+        {
+          question: "\"India's infrastructure modernisation, as exemplified by MLFF tolling and AI curriculum mandates, reflects a broader shift toward digital integration. However, implementation challenges threaten equitable access.\" Examine.",
+          context: "GS Paper III | 250 words"
+        }
+      ]
+    }
   }
 ];
