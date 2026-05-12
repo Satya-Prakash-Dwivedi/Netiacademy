@@ -3292,5 +3292,114 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-12",
+    date: "12th May 2026",
+    day: "Tuesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~22 minutes | 📋 Topics today: 6 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **PM Modi's 5-Nation Tour (May 15–20)** — UAE, Netherlands, Sweden, Norway, Italy announced today; energy security and India-EU FTA the twin anchors amid West Asia conflict\n🔴 **Indus Waters Treaty: 1 Year in Abeyance** — Pakistan takes IWT to the UNSC; India holds firm: \"blood and water cannot flow together\"; Baglihar Dam gates remain shut\n🔴 **India CPI Inflation & Targeting Framework 2026–31** — April data released today; India extended 4% target with 2–6% band for 5 years from April 2026\n🟡 **South Coast Railway — India's 18th Zone** — SCoR operational June 1, 2026; HQ Visakhapatnam; fulfills the AP Reorganisation Act 2014 promise after 12 years\n🟡 **National Technology Day (28th Edition)** — Pokhran-II anniversary, May 11; theme: Responsible Innovation for Inclusive Growth; National Quantum Mission: 23 institutions, 100 more planned\n🟢 **India-Oman FTA Implementation Talks** — Talks began May 11 for early implementation of FTA signed Dec 2025; 98% duty-free access for India's exports to Oman",
+    topics: [
+      {
+        id: "12-1",
+        title: "PM MODI'S 5-NATION TOUR: ENERGY SECURITY MISSION",
+        subtitle: "🔴 Must Read | Mains Primary | GS Paper II (IR) + GS Paper III (Economy/Energy)",
+        whyItMatters: "The driving force is not routine diplomacy but a genuine energy emergency: the US-Iran war has disrupted global energy supply chains, and the Strait of Hormuz closure means India must lock in alternative sources. Five countries, five agendas, one strategic thread.",
+        content: "📰 WHAT HAPPENED\nThe Ministry of External Affairs confirmed PM Modi will embark on a five-nation tour beginning May 15. The UAE visit (first stop) is the most urgent — the UAE recently exited OPEC+, making direct bilateral energy ties critical. India-UAE bilateral trade stands at roughly $85 billion annually, with 4.5 million Indians in the UAE. In the Netherlands (second leg, May 15–17), the agenda covers defence, semiconductors, green hydrogen, and a Strategic Partnership on Water. Sweden (May 17-18, Gothenburg) will include the European Round Table for Industry alongside EU Commission President Ursula von der Leyen — a significant signal for India-EU FTA momentum. Norway (May 18-19) is the centrepiece: the 3rd India-Nordic Summit in Oslo will cover green hydrogen, Arctic cooperation, and the blue economy. Italy (May 19-20) will focus on accelerating the India-EU Free Trade Agreement and defence co-production.\n\n📊 KEY DATA TABLE\n| Country | Bilateral Trade | Key Agenda | UPSC Angle |\n|---------|----------------|------------|------------|\n| UAE | ~$85 bn annually | Energy security post-OPEC+ exit | 4.5 mn Indians; 3rd largest trade partner |\n| Netherlands | $27.8 bn (2024-25) | Semiconductors, green hydrogen, defence | India's 4th largest investor |\n| Sweden | $7.75 bn (2025) | EU FTA, green transition, AI | First India-Nordic Summit was here (2018) |\n| Norway | $2.73 bn (2024) | 3rd India-Nordic Summit; GPFG ($28 bn in India) | Blue economy, Arctic cooperation |\n| Italy | — | India-EU FTA fast-tracking; defence co-production | G7 host 2024, last Modi visit |\n\n⚠️ THE UPSC TRAP\nUPSC will ask about India-Nordic Summits. **The first was Stockholm (2018), second Copenhagen (2022), third Oslo (2026)** — not all in Norway. Sweden, Norway, Denmark, Finland, and Iceland are the five Nordic nations — all five PMs attend the India-Nordic Summit. EFTA (European Free Trade Association) includes Norway, Iceland, Switzerland, and Liechtenstein — NOT the same as Nordic. India signed an FTA with EFTA (the TEPA) in 2024. India-EU FTA (different from EFTA) is still under negotiation. These are three separate entities.\n\n📝 EXAM ANGLES\nPrelims: India-Nordic Summit sequence (Stockholm → Copenhagen → Oslo); EFTA vs. EU membership; UAE's OPEC+ membership history; bilateral trade figures. Mains: \"Discuss how India's energy import dependence shapes its foreign policy priorities, with reference to PM Modi's May 2026 five-nation tour.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **OPEC+**: What it is, member composition, how UAE's exit changes bilateral dynamics\n- **India-EU FTA**: Current status, sticking points, GI tags, data localisation\n- **Blue Economy**: India's Blue Economy Policy (2023), Sagarmala Project, Arctic policy\n- **India's energy import dependence**: ~85% crude imported; West Asia supplies ~60%"
+      },
+      {
+        id: "12-2",
+        title: "INDUS WATERS TREATY: ONE YEAR IN ABEYANCE + UNSC DIMENSION",
+        subtitle: "🔴 Must Read | Both | GS Paper II (IR) + GS Paper III (Environment/Water)",
+        whyItMatters: "One year after India put the Indus Waters Treaty (IWT) in abeyance following the Pahalgam attack, the diplomatic battle has shifted to the UN Security Council. Pakistan approached the UNSC seeking restoration of the treaty. India's response: \"Blood and water cannot flow together.\"",
+        content: "📰 WHAT HAPPENED\nAs India completed one year of Operation Sindoor (marked May 7, 2026), MEA reaffirmed that the IWT \"stands in abeyance in response to Pakistan's sponsorship of cross-border terrorism\". Meanwhile, Pakistan escalated the matter to the UN Security Council, arguing India's water suspension amounts to an existential threat. India countered that Pakistan was \"misusing\" international forums on a bilateral issue and added that 65 years of changed conditions require a fundamental renegotiation of the 1960 treaty.\n\n📊 KEY DATA TABLE\n| IWT Parameter | Detail |\n|---------------|--------|\n| Signed | September 1960; brokered by World Bank |\n| Eastern Rivers (India) | Ravi, Beas, Sutlej |\n| Western Rivers (Pakistan) | Indus, Jhelum, Chenab (~80% of basin water) |\n| India's limited rights on western rivers | Hydropower + limited irrigation only |\n| Placed in abeyance | April 2025 (after Pahalgam attack) |\n| Baglihar Dam | Chenab River, Ramban, J&K — gates remain closed |\n| Pakistan's agriculture dependence | ~80% of irrigation from Indus system |\n\n⚠️ THE UPSC TRAP\nStudents confuse \"suspended\" with \"abeyance.\" **India placed the IWT in abeyance — not terminated and not formally suspended.** Abeyance means a temporary state of non-applicability, not cancellation. India has not formally withdrawn from the treaty under international law. Second trap: Many students think India controls all six rivers — WRONG. India controls only the three **eastern** rivers (Ravi, Beas, Sutlej).\n\n📝 EXAM ANGLES\nPrelims: Eastern vs. Western rivers allocation; year of IWT signing; World Bank's role; Baglihar Dam location. Mains: \"Evaluate the strategic implications of India placing the Indus Waters Treaty in abeyance. Can water be used as an instrument of foreign policy in South Asia?\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **Permanent Indus Commission**: Joint body under IWT for implementation and dispute resolution — now non-functional\n- **World Bank's Neutral Expert mechanism**: IWT's dispute resolution process\n- **International Law on Transboundary Rivers**: Helsinki Rules, UN Watercourses Convention 1997 (India not a signatory)\n- **Articles 51–55 of the UN Charter**: Peaceful resolution of disputes"
+      },
+      {
+        id: "12-3",
+        title: "INDIA'S CPI INFLATION DATA + INFLATION TARGETING FRAMEWORK 2026–31",
+        subtitle: "🔴 Must Read | Both | GS Paper III (Economy/Monetary Policy)",
+        whyItMatters: "MOSPI released April 2026 CPI data today. More structurally important: India formally renewed its Flexible Inflation Targeting (FIT) framework: the 4% retail inflation target with a 2–6% tolerance band is now mandated for 5 years from April 2026 to March 2031.",
+        content: "📰 WHAT HAPPENED\nIndia's retail inflation (measured by CPI) has been on a rising trajectory through early 2026: January 2.75% → February 3.21% → March 3.40%. The April 2026 data released today will reveal whether the trend continued. Key drivers: fuel and food pressures linked to the West Asia conflict. Separately, the Department of Economic Affairs extended the Flexible Inflation Targeting mandate under Section 45ZA of the RBI Act, 1934, requiring the MPC to keep inflation at 4% (with ±2% tolerance) until 2031.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| CPI Base Year (new series) | 2024 = 100 |\n| Largest CPI component | Food & beverages (45.86% weight) |\n| Jan 2026 CPI inflation | 2.75% |\n| Feb 2026 CPI inflation | 3.21% |\n| Mar 2026 CPI inflation | 3.40% (provisional) |\n| WPI March 2026 | 3.88% — 3-year high |\n| FIT target | 4% (with 2–6% tolerance band) |\n| FIT renewed for | April 2026 to March 2031 |\n| FIT statutory basis | Section 45ZA, RBI Act 1934 |\n| MPC composition | 6 members: 3 RBI (incl. Governor) + 3 GoI nominees |\n\n⚠️ THE UPSC TRAP\nThe most classic trap: **WPI was replaced by CPI as the primary inflation indicator in 2013-14 — not earlier.** Second trap: CPI = retail prices. WPI = producer/wholesale prices. Third trap: The FIT target is **4%**, not 2%. India's target is higher than most developed economies.\n\n📝 EXAM ANGLES\nPrelims: CPI base year; MPC composition; FIT renewal year and duration; statutory provision for FIT. Mains: \"Flexible Inflation Targeting has brought credibility to India's monetary policy but faces structural limits in a supply-shocked economy. Discuss.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **MPC (Monetary Policy Committee)**: Composition under RBI Act; Section 45ZA–45ZL; Governor's casting vote\n- **RBI's Monetary Policy tools**: Repo rate, Reverse Repo, SLR, CRR, OMOs\n- **CPI basket weights**: Food at 45.86%; biggest individual item = cereals (9.67%)\n- **Fiscal deficit and inflation**: Demand-pull vs. cost-push inflation"
+      },
+      {
+        id: "12-4",
+        title: "SOUTH COAST RAILWAY: INDIA'S 18TH RAILWAY ZONE",
+        subtitle: "🟡 Important | Prelims Primary | GS Paper III (Infrastructure/Governance)",
+        whyItMatters: "India's 18th railway zone — the South Coast Railway (SCoR) — will begin operations on June 1, 2026, from Visakhapatnam. This fulfills a statutory commitment under the Andhra Pradesh Reorganisation Act of 2014, 12 years in the making.",
+        content: "📰 WHAT HAPPENED\nThe SCoR zone is carved out of two existing zones: the South Central Railway (SCR) and the East Coast Railway (ECoR). It will comprise four divisions — Vijayawada, Guntur, Guntakal (all from SCR) and the newly created Visakhapatnam division. PM Modi had laid the foundation stone for the zonal headquarters building in Visakhapatnam in January 2025. The East Coast Railway Corridor is being upgraded to a four-lane network, expected to enable 500 new trains.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Zone name | South Coast Railway (SCoR) |\n| Zone number | 18th railway zone of India |\n| Headquarters | Visakhapatnam, Andhra Pradesh |\n| Operational date | June 1, 2026 |\n| Gazette notification | May 4, 2026 |\n| Carved from | South Central Railway + East Coast Railway |\n| Divisions | Vijayawada, Guntur, Guntakal, Visakhapatnam (new) |\n| Legislative basis | Andhra Pradesh Reorganisation Act, 2014 |\n\n⚠️ THE UPSC TRAP\nStudents often confuse **zone headquarters**. Memorise the common ones tested: South Central Railway (SCR) — Secunderabad; East Coast Railway (ECoR) — Bhubaneswar; South Coast Railway (SCoR) — **Visakhapatnam**. UPSC will also test whether India now has 17 or 18 zones — the answer from June 1, 2026 onward is **18**.\n\n📝 EXAM ANGLES\nPrelims: Name of 18th zone; HQ city; zones it's carved from; operational date. Mains: \"Railway zone creation is as much a political as an administrative exercise. Evaluate the significance of the South Coast Railway zone.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **Andhra Pradesh Reorganisation Act 2014**: Bifurcation of AP; statutory promises on infrastructure\n- **Indian Railways Zone system**: Administrative structure, DRMs, Zonal Railway Managers\n- **Sagarmala + Port-led Industrialisation**: Visakhapatnam as major Eastern port; freight corridor importance\n- **PM GatiShakti**: National Master Plan for multi-modal connectivity"
+      },
+      {
+        id: "12-5",
+        title: "NATIONAL TECHNOLOGY DAY: POKHRAN-II + NATIONAL QUANTUM MISSION",
+        subtitle: "🟡 Important | Both | GS Paper III (Science & Technology)",
+        whyItMatters: "May 11 marked the 28th National Technology Day — commemorating India's five nuclear tests under Operation Shakti (Pokhran-II) on May 11, 1998. The 2026 theme: \"Responsible Innovation for Inclusive Growth.\"",
+        content: "📰 WHAT HAPPENED\nThe Vigyan Tech 2026 showcase at Bharat Mandapam brought together 3,000+ stakeholders. PM Modi recalled that the Pokhran-II tests represented a landmark assertion of India's technological sovereignty. On the same day in 1998, India's first indigenous aircraft, the Hansa-3, made its maiden flight. Under the National Quantum Mission (NQM), approved in 2023 with an outlay of ₹6,003 crore over 8 years, quantum teaching labs are now set up in 23 academic institutions.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| National Technology Day | May 11 (since 1999) |\n| Established by | PM Atal Bihari Vajpayee, 1999 |\n| Commemorates | Pokhran-II tests (Operation Shakti), May 11, 1998 |\n| No. of tests | 5 nuclear devices (in total across Pokhran-I and II) |\n| 2026 Theme | \"Responsible Innovation for Inclusive Growth\" |\n| National Quantum Mission | ₹6,003 crore; 8 years (from 2023) |\n| NQM labs active | 23 institutions; 100 more planned |\n| First indigenous aircraft | Hansa-3 (NAL, Bengaluru) — maiden flight May 11, 1998 |\n\n⚠️ THE UPSC TRAP\nPokhran-I and Pokhran-II are **different events.** Pokhran-I (\"Smiling Buddha\") was **1974** under PM Indira Gandhi. Pokhran-II (\"Operation Shakti\") was **1998** under PM Vajpayee. National Technology Day commemorates **Pokhran-II (1998)**, not Pokhran-I (1974). Also: Hansa-3 was the **first indigenous aircraft** — not Tejas.\n\n📝 EXAM ANGLES\nPrelims: Pokhran-I vs. II years and PMs; NQM outlay and timeline; Hansa-3 significance; National Technology Day establishment. Mains: \"India's nuclear doctrine of 'No First Use' and 'minimum credible deterrence' faces credibility challenges.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **Nuclear Non-Proliferation Treaty (NPT)**: India not a signatory\n- **NSG (Nuclear Suppliers Group)**: India's waiver (2008), membership bid pending\n- **CTBT (Comprehensive Nuclear-Test-Ban Treaty)**: India not signed; India's No First Use policy\n- **National Quantum Mission**: Mission under DST; aligns with NRF Act"
+      },
+      {
+        id: "12-6",
+        title: "INDIA-OMAN FTA: IMPLEMENTATION TALKS BEGIN",
+        subtitle: "🟢 Good to Know | Prelims | GS Paper II (IR) + GS Paper III (Economy)",
+        whyItMatters: "India and Oman held talks in New Delhi on May 11 to accelerate early implementation of their Free Trade Agreement signed in December 2025. The deal offers 98% duty-free access for India's exports to Oman across textiles, agriculture, and leather.",
+        content: "📰 WHAT HAPPENED\nThe FTA, signed in December 2025, marked India's fourth such agreement in the GCC region. Implementation talks focused on tariff phase-down schedules and Rules of Origin (RoO) compliance. Oman shares unique geographic significance — it is the GCC's only country with a coastline along both the Gulf of Oman and the Arabian Sea, making it critical for Indian trade routes.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| FTA signed | December 2025 |\n| Talks for early implementation | May 11, 2026 |\n| India exports covered | 98% duty-free access |\n| Key India exports | Textiles, agriculture, leather products |\n| Key Oman exports | Dates, marble, petrochemicals |\n| India-Oman bilateral trade | ~$12 billion (2024-25) |\n| GCC FTA status | India-UAE CEPA (Feb 2022); Oman Dec 2025 |\n\n📝 Exam Angles\nPrelims: India-UAE CEPA year (2022); GCC members; Oman's geographic position; RoO definition. Mains: Context topic — link Oman FTA to India's broader Gulf economic diplomacy and energy security strategy.",
+        revise: "🔗 STATIC CONNECTIONS\n- **GCC (Gulf Cooperation Council)**: 6 members — Saudi Arabia, UAE, Qatar, Bahrain, Kuwait, Oman\n- **CEPA vs. FTA vs. PTA**: Gradations of trade agreements\n- **Rules of Origin**: Why it matters in FTAs — prevents trade deflection\n- **India's Gulf diaspora**: 9 million+ Indians in GCC; remittances exceed $40 billion annually"
+      }
+    ],
+    reviseSummary: [
+      "OPEC+ membership and UAE's exit; India-Nordic Summit history (Stockholm 2018 → Copenhagen 2022 → Oslo 2026).",
+      "Indus Waters Treaty: Eastern rivers (Ravi, Beas, Sutlej) vs. Western rivers (Indus, Jhelum, Chenab).",
+      "MPC composition (RBI Act 1934); CPI base year 2024; WPI vs. CPI indicator shift.",
+      "South Coast Railway (SCoR) = 18th zone, HQ Visakhapatnam; AP Reorganisation Act 2014.",
+      "Pokhran-I (1974) vs. Pokhran-II (1998); National Quantum Mission (₹6,003 crore, 8 years).",
+      "GCC's 6 members; CEPA vs. FTA distinction; Rules of Origin (RoO) in trade deals."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about the Indus Waters Treaty (IWT), 1960:\n1. India has exclusive rights over the waters of the Indus, Jhelum, and Chenab rivers.\n2. The treaty was brokered by the United Nations.\n3. Pakistan receives water from rivers that account for approximately 80% of the Indus basin's total flow.\n4. The Permanent Indus Commission meets at least once a year under the treaty provisions.",
+          options: ["(a) 3 and 4 only", "(b) 1 and 3 only", "(c) 2 and 4 only", "(d) 1, 3, and 4 only"],
+          answer: "(a) 3 and 4 only",
+          explanation: "Statement 3 and 4 are correct. Statement 1 is incorrect as India has rights over eastern rivers (Ravi, Beas, Sutlej). Statement 2 is incorrect as it was brokered by the World Bank."
+        },
+        {
+          question: "With reference to India's Flexible Inflation Targeting (FIT) framework, consider the following:\nStatement I: The FIT framework makes it mandatory for the Monetary Policy Committee to submit a report to the government if inflation exceeds 6% for three consecutive quarters.\nStatement II: Under the FIT framework, the RBI is solely responsible for setting the inflation target, without requiring government consultation.",
+          options: ["(a) Both Statement I and Statement II are correct, and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct, but Statement II does not explain Statement I", "(c) Statement I is correct but Statement II is incorrect", "(d) Statement I is incorrect but Statement II is correct"],
+          answer: "(c) Statement I is correct but Statement II is incorrect",
+          explanation: "Statement I is correct. Statement II is incorrect as the target is set by the Central Government in consultation with the RBI."
+        },
+        {
+          question: "Which of the following correctly matches the India–Nordic Summits with their host cities?\n1. 1st India–Nordic Summit — Stockholm, Sweden\n2. 2nd India–Nordic Summit — Helsinki, Finland\n3. 3rd India–Nordic Summit — Oslo, Norway",
+          options: ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1 only", "(d) All three are correctly matched"],
+          answer: "(a) 1 and 3 only",
+          explanation: "1 and 3 are correct. The 2nd summit was in Copenhagen, Denmark, not Helsinki."
+        },
+        {
+          question: "Consider the following pairs regarding India's nuclear tests:\nTest Name — Year — Prime Minister\n1. Smiling Buddha (Pokhran-I) — 1974 — Indira Gandhi\n2. Operation Shakti (Pokhran-II) — 1998 — Atal Bihari Vajpayee\n3. National Technology Day declared to commemorate Pokhran-I — 1999",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) All three are correctly matched"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Pair 1 and 2 are correct. Pair 3 is incorrect as National Technology Day commemorates Pokhran-II."
+        },
+        {
+          question: "With reference to the South Coast Railway (SCoR), which of the following statements is/are correct?\n1. It is carved out of the South Central Railway and the East Coast Railway.\n2. Its headquarters is located in Vijayawada, Andhra Pradesh.\n3. It becomes India's 18th railway zone, with effect from June 1, 2026.\n4. It fulfils a commitment made under the Andhra Pradesh Reorganisation Act, 2014.",
+          options: ["(a) 1, 3, and 4 only", "(b) 2, 3, and 4 only", "(c) 1 and 4 only", "(d) All four are correct"],
+          answer: "(a) 1, 3, and 4 only",
+          explanation: "Statement 1, 3, and 4 are correct. Statement 2 is incorrect as the HQ is Visakhapatnam."
+        }
+      ],
+      mains: [
+        {
+          question: "\"India's decision to place the Indus Waters Treaty in abeyance represents a fundamental shift from treating water as a humanitarian concern to using it as a tool of strategic coercion. Critically evaluate this assertion.\"",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"India's energy import dependence is both its greatest economic vulnerability and its most powerful diplomatic asset. Discuss, with reference to PM Modi's May 2026 five-nation tour.\"",
+          context: "GS Paper III | 150 words"
+        }
+      ]
+    }
   }
 ];
