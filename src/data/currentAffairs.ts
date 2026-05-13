@@ -3401,5 +3401,120 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-13",
+    date: "13th May 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~14 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 VB–G RAM G Act — MGNREGA repealed from July 1, 2026; rural guarantee rises from 100 to 125 days; budget: ₹1.51 lakh crore\n🔴 India–Vietnam ECSP — Ties upgraded to Enhanced Comprehensive Strategic Partnership; $25 billion trade target by 2030; 13 MoUs signed\n🔴 SEHAT Mission — ICMR + ICAR jointly launch India's first agriculture-nutrition-health convergence mission; addresses malnutrition AND NCDs simultaneously\n🟡 Solid Waste Management Rules 2026 — Supreme Court empowers District Collectors to enforce SWM Rules; can cut water and electricity of violators\n🟡 One Case One Data + Su Sahay — CJI launches unified national judicial data platform and India's first Supreme Court AI chatbot (NIC-built)\n🟡 India–US BTA — US court strikes down Trump's 10% global tariff; creates fresh uncertainty over India–US Bilateral Trade Agreement negotiations",
+    topics: [
+      {
+        id: "13-1",
+        title: "VB–G RAM G ACT: MGNREGA'S SUCCESSOR NOTIFIED",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
+        whyItMatters: "The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB–G RAM G] Act, 2025 replaces MGNREGA from July 1, 2026. The guarantee rises to 125 days. Note: MGNREGA is REPEALED, not amended. It remains a Centrally Sponsored Scheme.",
+        content: "Union Minister Shivraj Singh Chouhan notified that VB–G RAM G Act, 2025 comes into force from July 1, 2026. MGNREGA, 2005 will stand repealed. The new law guarantees 125 days of wage employment (up from 100). Wage payments must be made within 15 days, with 0.05% per day delay compensation. Priority works include watershed development, groundwater recharge, and afforestation. All ongoing MGNREGA works as of June 30 continue under the new framework. Existing e-KYC verified Job Cards remain valid until new Gramin Rozgar Guarantee Cards are issued.\n\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | Viksit Bharat–G RAM G Act, 2025 |\n| Replaces | MGNREGA, 2005 |\n| Effective Date | July 1, 2026 |\n| Employment Guarantee | 125 days/year |\n| Central Budget Allocation FY27 | ₹95,692.31 crore |\n| Total Programme Outlay | >₹1.51 lakh crore |\n| Wage Delay Compensation | 0.05% per day |\n| Administrative Ministry | Ministry of Rural Development |",
+        revise: "Article 41 (DPSP); 73rd Amendment (Gram Panchayat); MGNREGA 2005 vs VB-G RAM G; Wage Labour and Rural Poverty linkages.",
+        pyqConnect: "GS III 2013 — Discuss MGNREGA's performance and limitations."
+      },
+      {
+        id: "13-2",
+        title: "INDIA–VIETNAM ENHANCED COMPREHENSIVE STRATEGIC PARTNERSHIP",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II",
+        whyItMatters: "Ties upgraded to 'Enhanced Comprehensive Strategic Partnership' marking 50+ years of relations. Vietnam joined India's IPOI. This marks a shift from trade-focused to multi-dimensional strategic engagement.",
+        content: "Vietnamese President To Lam's visit resulted in elevating relations from Comprehensive Strategic Partnership (2016) to Enhanced Comprehensive Strategic Partnership (2026). A trade target of $25 billion by 2030 was set. 13 MoUs were signed across digital payments, rare earth minerals, semiconductors, and cybersecurity. Vietnam joined the Indo-Pacific Oceans Initiative (IPOI). Both affirmed commitment to UNCLOS 1982 and freedom of navigation in the South China Sea. India welcomed Vietnam as a 'key pillar' of Act East Policy and Vision Mahasagar.\n\n| Parameter | Detail |\n|-----------|--------|\n| Previous Status | Comprehensive Strategic Partnership (2016) |\n| New Status | Enhanced Comprehensive Strategic Partnership (2026) |\n| Year of Diplomatic Relations | 1972 |\n| MoUs Signed | 13 |\n| Bilateral Trade Target | $25 billion by 2030 |\n| Framework Joined | Indo-Pacific Oceans Initiative (IPOI) |\n| Key Sectors | Defence, semiconductors, rare earths, AI |",
+        revise: "Act East Policy vs Look East Policy; IPOI (7 pillars, India-led); UNCLOS 1982; Vietnam's rare earth reserves; Vision Mahasagar.",
+        pyqConnect: "GS II 2021 — India's relations with Vietnam gaining strategic depth."
+      },
+      {
+        id: "13-3",
+        title: "SEHAT MISSION: INDIA'S FIRST AGRI-NUTRITION-HEALTH CONVERGENCE",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
+        whyItMatters: "First mission formally integrating ICMR (Health) and ICAR (Agriculture). Addresses the 'Double Burden' of malnutrition and NCDs through a 'One Health' approach.",
+        content: "SEHAT (Science Excellence for Health through Agricultural Transformation) was launched by Health Minister JP Nadda and Agriculture Minister Shivraj Singh Chouhan. It links food systems to health outcomes. Priority areas: biofortified/nutrient-dense crops, integrated farming systems, occupational health of farmers, and suitable diets for lifestyle diseases. It shifts focus from curative to preventive healthcare. The 'One Health' framework recognises the link between human, animal, and environmental health.\n\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | SEHAT Mission |\n| Implementing Bodies | ICMR (MoHFW) + ICAR (MoA&FW) |\n| Target Problems | Malnutrition, hidden hunger, NCDs |\n| Core Approach | One Health (Human + Animal + Environmental) |\n| Key Focus | Biofortified crops, preventive care, farmer health |",
+        revise: "ICMR vs ICAR mandates; National One Health Mission; Biofortification examples; India's Double Burden (stunting vs diabetes); NAPCC and NMSA.",
+        pyqConnect: "Essay 2022 — Hunger and climate change are twin challenges."
+      },
+      {
+        id: "13-4",
+        title: "SOLID WASTE MANAGEMENT RULES 2026: SC ENFORCEMENT ORDER",
+        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
+        whyItMatters: "SC empowers District Collectors to enforce SWM Rules under EPA 1986. Highlights the tension between judicial activism, centralised mandates, and the principle of subsidiarity.",
+        content: "The SWM Rules 2026 replaced the 2016 Rules, introducing four-stream waste segregation (wet, dry, sanitary, special care). On May 5, 2026, the SC bench (Justice Mithal & Bhatti) empowered District Collectors under Section 23 of the Environment (Protection) Act, 1986 to enforce compliance. DCs can now suspend water and electricity to bulk waste violators. Critics argue the Rules are too technocratic and top-down, treating Gram Panchayats like municipalities and ignoring local capacity (violating subsidiarity).\n\n| Parameter | Detail |\n|-----------|--------|\n| Rules | Solid Waste Management Rules, 2026 |\n| Replaced | SWM Rules, 2016 |\n| Enabling Legislation | Environment (Protection) Act, 1986 |\n| Delegated Power | Section 23 of EPA to District Collectors |\n| Four-Stream Segregation | Wet, Dry, Sanitary, Special Care |\n| Bulk Waste Generator | Buildings ≥20,000 sq m OR waste ≥100 kg/day |",
+        revise: "EPA 1986 (Sections 3, 5, 23); Article 21 (Clean Environment); Subsidiarity Principle; 74th Amendment (ULBs); Polluter Pays Principle.",
+        pyqConnect: "GS III 2021 — National Landslide Risk Management Strategy (Governance framing)."
+      },
+      {
+        id: "13-5",
+        title: "ONE CASE ONE DATA + SU SAHAY: AI ENTERS INDIA'S SUPREME COURT",
+        subtitle: "🟡 Important | Prelims | GS Paper II + GS Paper III",
+        whyItMatters: "Digital transformation of the judiciary. Unified data platform for all court tiers and India's first apex court AI chatbot. Addresses pendency (~5 crore cases) through real-time record access.",
+        content: "CJI Surya Kant launched 'One Case One Data', a unified national judicial data platform connecting the SC, High Courts, District Courts, and Taluka Courts. This gives SC judges real-time digital access to lower court records, reducing delays from manual verification. Simultaneously, 'Su Sahay', an AI-powered assistance chatbot built by NIC and the SC Registry, was launched on the SC website to guide litigants and lawyers on procedures.\n\n| Initiative | Detail |\n|------------|--------|\n| One Case One Data | Unified national case management system |\n| Su Sahay | AI chatbot on SC website |\n| Developer | NIC + SC Registry |\n| CJI | Surya Kant |\n| Connects | SC → High Courts → District Courts → Taluka Courts |",
+        revise: "e-Courts Mission Mode Project Phase III; National Informatics Centre (NIC) role; Article 21 (Speedy Trial); Law Commission on judicial delays.",
+        pyqConnect: "GS II 2021 — Independent judiciary is not merely a provision but a living institution."
+      },
+      {
+        id: "13-6",
+        title: "INDIA–US BTA: US COURT STRIKES DOWN TRUMP TARIFF",
+        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
+        whyItMatters: "Striking down of Section 122 tariffs creates uncertainty for the BTA framework. Tests the understanding of bilateral (BTA/iCET) vs. US domestic trade law (Section 122/232).",
+        content: "The US Court of International Trade struck down Trump's 10% global tariff imposed under Section 122 of the Trade Act of 1974. The court found that Section 122 (allowing tariffs for balance-of-payments crises) invocation conditions were not met. This affects the India-US interim trade framework where tariffs were recently set at 18% (down from 25-50% in 2025). India's 'Mission 500' targets $500 billion bilateral trade by 2030. Key sectors include pharmaceuticals, gems, and aircraft parts under iCET.\n\n| Parameter | Detail |\n|-----------|--------|\n| Current US Tariff on India | 18% (agreed Feb 2026) |\n| Peak Tariff 2025 | 25–50% |\n| Court Ruling | Sec 122 global tariff struck down |\n| India-US Trade Target | $500 billion by 2030 (Mission 500) |\n| Key Framework | iCET (Critical & Emerging Technology) |",
+        revise: "WTO Dispute Settlement vs domestic courts; Section 122 vs 232 vs 301; Non-Tariff Barriers (NTBs); India's trade surplus with US.",
+        pyqConnect: "GS II 2018 — WTO crisis and India's role in reforming multilateral trading system."
+      }
+    ],
+    reviseSummary: [
+      "VB–G RAM G Act 2025 replaces MGNREGA from July 1, 2026; 125 days guaranteed.",
+      "India-Vietnam upgrade to Enhanced Comprehensive Strategic Partnership; IPOI joined.",
+      "SEHAT Mission: First ICMR-ICAR joint convergence for agri-nutrition-health.",
+      "SWM Rules 2026: SC empowers District Collectors to enforce rules under EPA 1986.",
+      "One Case One Data & Su Sahay: National judicial data platform and SC AI chatbot launched.",
+      "India-US BTA: US court strikes down Section 122 tariffs, affecting bilateral trade negotiations."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the Viksit Bharat–G RAM G Act, 2025, consider the following statements:\n1. It replaces the Mahatma Gandhi NREGA by amending its core provisions.\n2. The employment guarantee has been raised from 100 to 125 days per financial year.\n3. Wage payments are to be made within 15 days, failing which workers are entitled to delay compensation.\n4. It is administered by the Ministry of Labour and Employment.",
+          options: ["(a) 2 and 3 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 2 and 3 only",
+          explanation: "Statement 1 is incorrect: it REPEALS MGNREGA, not amends. Statement 4 is incorrect: it is under Ministry of Rural Development. Statements 2 and 3 are correct."
+        },
+        {
+          question: "Consider the following pairs regarding India's partnerships with Southeast Asian nations:\n1. India–Vietnam Comprehensive Strategic Partnership — 2016\n2. India–Vietnam Enhanced Comprehensive Strategic Partnership — 2026\n3. Indo-Pacific Oceans Initiative (IPOI) — Launched at East Asia Summit 2019\n4. IPOI is a US-led framework under the Quad",
+          options: ["(a) 1, 2 and 3 only", "(b) 1 and 3 only", "(c) 2 and 4 only", "(d) All of the above"],
+          answer: "(a) 1, 2 and 3 only",
+          explanation: "Pair 4 is incorrect: IPOI is an India-led initiative, not US-led. Pairs 1, 2, and 3 are correct."
+        },
+        {
+          question: "Consider Statement I and Statement II:\nStatement I: The SEHAT Mission is jointly implemented by ICMR and ICAR.\nStatement II: ICMR functions under the Ministry of Agriculture and Farmers' Welfare.",
+          options: ["(a) Both Statement I and Statement II are correct, and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct, but Statement II does NOT explain Statement I", "(c) Statement I is correct, but Statement II is incorrect", "(d) Statement I is incorrect, but Statement II is correct"],
+          answer: "(c) Statement I is correct, but Statement II is incorrect",
+          explanation: "Statement I is correct. Statement II is incorrect: ICMR is under Ministry of Health and Family Welfare."
+        },
+        {
+          question: "Which of the following statements regarding the Solid Waste Management Rules, 2026 is/are correct?\n1. They were notified under the Environment (Protection) Act, 1986.\n2. They replaced the SWM Rules, 2016 with effect from April 1, 2026.\n3. Bulk Waste Generators include buildings with water use exceeding 40,000 litres per day.\n4. The Supreme Court empowered District Collectors using Section 23 of the EPA, 1986.",
+          options: ["(a) 1 and 2 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(d) 1, 2, 3 and 4",
+          explanation: "All statements are correct. Section 23 of EPA allows delegation of powers, which the SC used for DCs."
+        },
+        {
+          question: "Consider the following statements regarding the 'One Case One Data' initiative:\n1. It was launched by Chief Justice of India Surya Kant.\n2. 'Su Sahay', the AI chatbot, was developed by NASSCOM in collaboration with the SC Registry.\n3. The initiative connects Supreme Court, High Courts, District Courts, and Taluka Courts through a unified data system.\n4. National Informatics Centre (NIC) functions under the Ministry of Electronics and Information Technology.",
+          options: ["(a) 1 and 3 only", "(b) 1, 3 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 4 only"],
+          answer: "(b) 1, 3 and 4 only",
+          explanation: "Statement 2 is incorrect: Su Sahay was developed by NIC, not NASSCOM. Others are correct."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The replacement of MGNREGA with the Viksit Bharat–G RAM G Act represents a shift from welfare-based entitlement to productivity-oriented rural development. However, it raises critical concerns about federalism and digital exclusion.\" Examine.",
+          context: "GS Paper II/III | 250 words"
+        },
+        {
+          question: "\"India's escalating waste crisis demands a governance solution that is simultaneously national in standard and local in execution. The Solid Waste Management Rules, 2026 succeed on the first count but fail on the second.\" Critically analyse with reference to the principle of subsidiarity and cooperative federalism.",
+          context: "GS Paper II/III | 150 words"
+        }
+      ]
+    }
   }
 ];
