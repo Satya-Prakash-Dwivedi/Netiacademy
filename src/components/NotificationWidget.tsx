@@ -4,6 +4,8 @@ import { dailyDigests } from "../data/currentAffairs";
 import { mindBlogs } from "../data/mindBlogs";
 import { platformAnnouncements } from "../data/announcements";
 import { courses } from "../data/courses";
+import { monthlyMagazines } from "../data/monthlyMagazines";
+
 
 const NotificationWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -82,14 +84,29 @@ const NotificationWidget = () => {
       });
     }
 
-    if (items.length > 0) {
-      // Sort by timestamp descending, then by priority
-      const sortedItems = items.sort((a, b) => {
-        if (b.timestamp !== a.timestamp) {
-          return b.timestamp - a.timestamp;
-        }
-        return b.priority - a.priority;
+    if (monthlyMagazines.length > 0) {
+      const item = monthlyMagazines[monthlyMagazines.length - 1];
+      items.push({
+        ...item,
+        type: "Monthly Magazine",
+        path: `/monthly-magazines/${item.id}`,
+        btnText: "Read Magazine",
+        timestamp: parseDateToTime(`01 ${item.month} ${item.year}`),
+        displayTitle: `${item.title} - ${item.month} ${item.year}`,
+        priority: 15 // High priority for new magazines
       });
+    }
+
+
+    if (items.length > 0) {
+      // Sort by priority first (Magazines, Mock Tests, etc.), then by timestamp descending
+      const sortedItems = items.sort((a, b) => {
+        if (b.priority !== a.priority) {
+          return b.priority - a.priority;
+        }
+        return b.timestamp - a.timestamp;
+      });
+
       setLatestRelease(sortedItems[0]);
 
       const timer = setTimeout(() => {
@@ -151,8 +168,11 @@ const NotificationWidget = () => {
           <p className="text-sm font-inter text-[#475569] leading-relaxed mb-6 line-clamp-3">
             {latestRelease.type === "Current Affairs" 
               ? latestRelease.tagline 
+              : latestRelease.type === "Monthly Magazine"
+              ? latestRelease.description
               : latestRelease.excerpt}
           </p>
+
           <Link
             to={latestRelease.path}
             onClick={() => setIsOpen(false)}

@@ -3403,118 +3403,143 @@ export const dailyDigests: DailyDigest[] = [
     }
   },
   {
-    id: "2026-05-13",
-    date: "13th May 2026",
-    day: "Wednesday",
+
+    id: "2026-05-14",
+    date: "14th May 2026",
+    day: "Thursday",
     tagline: "नेति नेति — Less noise. More clarity.",
-    announcement: "⏱️ Reading time: ~14 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 VB–G RAM G Act — MGNREGA repealed from July 1, 2026; rural guarantee rises from 100 to 125 days; budget: ₹1.51 lakh crore\n🔴 India–Vietnam ECSP — Ties upgraded to Enhanced Comprehensive Strategic Partnership; $25 billion trade target by 2030; 13 MoUs signed\n🔴 SEHAT Mission — ICMR + ICAR jointly launch India's first agriculture-nutrition-health convergence mission; addresses malnutrition AND NCDs simultaneously\n🟡 Solid Waste Management Rules 2026 — Supreme Court empowers District Collectors to enforce SWM Rules; can cut water and electricity of violators\n🟡 One Case One Data + Su Sahay — CJI launches unified national judicial data platform and India's first Supreme Court AI chatbot (NIC-built)\n🟡 India–US BTA — US court strikes down Trump's 10% global tariff; creates fresh uncertainty over India–US Bilateral Trade Agreement negotiations",
+    announcement: "⏱️ Reading time: ~14 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 BRICS Foreign Ministers' Meeting 2026 — India chairs its 4th BRICS summit engagement in New Delhi today; 11-member expanded bloc meets under \"BRICS@20\" agenda\n🔴 PM Modi's 5-Nation Tour (May 15–20) — UAE, Netherlands, Sweden, Norway, Italy; energy security the dominant thread\n🔴 Kharif MSP 2026-27 — CCEA approves hike for 14 crops; highest for sunflower (₹622/qtl); 1.5x cost formula continues\n🔴 National Coal/Lignite Gasification Scheme — ₹37,500 crore Cabinet approval; target 100 MT gasification by 2030\n🟡 I4C–RBIH MoU: MuleHunter.AI — MHA and RBI Innovation Hub integrate AI to detect mule accounts\n🟡 Kimberley Process 2026 — India chairs intersessional meet in Mumbai; '3Cs' theme — credibility, compliance, consumer confidence",
     topics: [
       {
-        id: "13-1",
-        title: "VB–G RAM G ACT: MGNREGA'S SUCCESSOR NOTIFIED",
-        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
-        whyItMatters: "The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB–G RAM G] Act, 2025 replaces MGNREGA from July 1, 2026. The guarantee rises to 125 days. Note: MGNREGA is REPEALED, not amended. It remains a Centrally Sponsored Scheme.",
-        content: "Union Minister Shivraj Singh Chouhan notified that VB–G RAM G Act, 2025 comes into force from July 1, 2026. MGNREGA, 2005 will stand repealed. The new law guarantees 125 days of wage employment (up from 100). Wage payments must be made within 15 days, with 0.05% per day delay compensation. Priority works include watershed development, groundwater recharge, and afforestation. All ongoing MGNREGA works as of June 30 continue under the new framework. Existing e-KYC verified Job Cards remain valid until new Gramin Rozgar Guarantee Cards are issued.\n\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | Viksit Bharat–G RAM G Act, 2025 |\n| Replaces | MGNREGA, 2005 |\n| Effective Date | July 1, 2026 |\n| Employment Guarantee | 125 days/year |\n| Central Budget Allocation FY27 | ₹95,692.31 crore |\n| Total Programme Outlay | >₹1.51 lakh crore |\n| Wage Delay Compensation | 0.05% per day |\n| Administrative Ministry | Ministry of Rural Development |",
-        revise: "Article 41 (DPSP); 73rd Amendment (Gram Panchayat); MGNREGA 2005 vs VB-G RAM G; Wage Labour and Rural Poverty linkages.",
-        pyqConnect: "GS III 2013 — Discuss MGNREGA's performance and limitations."
+        id: "14-1",
+        title: "BRICS FOREIGN MINISTERS' MEETING 2026",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II (International Relations)",
+        content: "India hosts the BRICS Foreign Ministers' Meeting in New Delhi today and tomorrow (May 14–15) under its 2026 chairship — the fourth time India has chaired BRICS (2012, 2016, 2021, 2026). EAM S. Jaishankar chairs a gathering of the now-11-member expanded BRICS. The agenda centres on \"BRICS@20\" and global governance reform. The expanded BRICS now comprises 11 members: Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, Russia, Saudi Arabia, South Africa, and the UAE.\n\n| Parameter | Detail |\n|-----------|--------|\n| Meeting dates | May 14–15, 2026 |\n| Chairship Theme | \"Building for Resilience, Innovation, Cooperation and Sustainability\" |\n| India's BRICS chairship count | 4th time (2012, 2016, 2021, 2026) |\n| Current BRICS members | 11 members |\n| New members 2025 | Indonesia |\n| Partner nations (since 2025) | 10 nations (observers) |",
+        whyItMatters: "BRICS expansion, Global South representation, and reform of multilateral institutions like the UNSC and Bretton Woods are recurring UPSC themes. India's role as a balancing power in the expanded bloc is critical for strategic autonomy.",
+        revise: "International Relations — BRICS history and expansion; New Development Bank (NDB) and its HQ in Shanghai; Differences between G20 and BRICS; India's 2026 chairship theme.",
+        pyqConnect: "UPSC 2023 — Significance of BRICS for India in the current global scenario."
       },
       {
-        id: "13-2",
-        title: "INDIA–VIETNAM ENHANCED COMPREHENSIVE STRATEGIC PARTNERSHIP",
-        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II",
-        whyItMatters: "Ties upgraded to 'Enhanced Comprehensive Strategic Partnership' marking 50+ years of relations. Vietnam joined India's IPOI. This marks a shift from trade-focused to multi-dimensional strategic engagement.",
-        content: "Vietnamese President To Lam's visit resulted in elevating relations from Comprehensive Strategic Partnership (2016) to Enhanced Comprehensive Strategic Partnership (2026). A trade target of $25 billion by 2030 was set. 13 MoUs were signed across digital payments, rare earth minerals, semiconductors, and cybersecurity. Vietnam joined the Indo-Pacific Oceans Initiative (IPOI). Both affirmed commitment to UNCLOS 1982 and freedom of navigation in the South China Sea. India welcomed Vietnam as a 'key pillar' of Act East Policy and Vision Mahasagar.\n\n| Parameter | Detail |\n|-----------|--------|\n| Previous Status | Comprehensive Strategic Partnership (2016) |\n| New Status | Enhanced Comprehensive Strategic Partnership (2026) |\n| Year of Diplomatic Relations | 1972 |\n| MoUs Signed | 13 |\n| Bilateral Trade Target | $25 billion by 2030 |\n| Framework Joined | Indo-Pacific Oceans Initiative (IPOI) |\n| Key Sectors | Defence, semiconductors, rare earths, AI |",
-        revise: "Act East Policy vs Look East Policy; IPOI (7 pillars, India-led); UNCLOS 1982; Vietnam's rare earth reserves; Vision Mahasagar.",
-        pyqConnect: "GS II 2021 — India's relations with Vietnam gaining strategic depth."
+        id: "14-2",
+        title: "PM MODI'S 5-NATION TOUR (MAY 15–20, 2026)",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II (IR, Bilateral Relations)",
+        content: "PM Modi departs tomorrow on a six-day, five-nation tour: UAE → Netherlands → Sweden → Norway → Italy. The unifying thread is energy security as the Strait of Hormuz disruptions reshape India's supply chains. India needs alternative energy partnerships and supply chain diversification. The Netherlands leg includes a Strategic Partnership on Water and semiconductor cooperation. Norway will host the 3rd India-Nordic Summit, focusing on the blue economy and investment from its Pension Fund Global.\n\n| Country | Key Focus | Key Data |\n|---------|-----------|----------|\n| UAE | Energy, Comp. Strategic Partnership | 3rd largest trade partner; 4.5M diaspora |\n| Netherlands | Semiconductors, water partnership | India's largest trade destination in Europe |\n| Sweden | EU FTA, innovation, defence | Strategic industrial tie-ups |\n| Norway | India-Nordic Summit, blue economy | USD 28 bn GPFG investment in India |\n| Italy | Joint Strategic Action Plan 2025-29 | Implementation of 5-year roadmap |",
+        whyItMatters: "Energy security, semiconductor diplomacy, and the distinction between India-EU and India-EFTA trade agreements are high-value topics. The role of the diaspora in UAE and sovereign wealth funds in Norway add economic depth.",
+        revise: "Geography — Strait of Hormuz as a chokepoint; International Relations — India-UAE CEPA, India-Nordic Summit format, and EFTA vs EU distinctions.",
+        pyqConnect: "UPSC 2022 — Statement-based question on India's bilateral trade agreements and their features."
       },
       {
-        id: "13-3",
-        title: "SEHAT MISSION: INDIA'S FIRST AGRI-NUTRITION-HEALTH CONVERGENCE",
-        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
-        whyItMatters: "First mission formally integrating ICMR (Health) and ICAR (Agriculture). Addresses the 'Double Burden' of malnutrition and NCDs through a 'One Health' approach.",
-        content: "SEHAT (Science Excellence for Health through Agricultural Transformation) was launched by Health Minister JP Nadda and Agriculture Minister Shivraj Singh Chouhan. It links food systems to health outcomes. Priority areas: biofortified/nutrient-dense crops, integrated farming systems, occupational health of farmers, and suitable diets for lifestyle diseases. It shifts focus from curative to preventive healthcare. The 'One Health' framework recognises the link between human, animal, and environmental health.\n\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | SEHAT Mission |\n| Implementing Bodies | ICMR (MoHFW) + ICAR (MoA&FW) |\n| Target Problems | Malnutrition, hidden hunger, NCDs |\n| Core Approach | One Health (Human + Animal + Environmental) |\n| Key Focus | Biofortified crops, preventive care, farmer health |",
-        revise: "ICMR vs ICAR mandates; National One Health Mission; Biofortification examples; India's Double Burden (stunting vs diabetes); NAPCC and NMSA.",
-        pyqConnect: "Essay 2022 — Hunger and climate change are twin challenges."
+        id: "14-3",
+        title: "KHARIF MSP 2026-27: CCEA APPROVES HIKE FOR 14 CROPS",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper III (Agriculture, Economy)",
+        content: "The Cabinet Committee on Economic Affairs (CCEA) approved the MSP hike for 14 kharif crops for 2026-27. The highest absolute increase went to sunflower seed at ₹622/qtl. The 1.5x cost-of-production formula continues to govern MSP decisions. The government aims to diversify agriculture away from rice/wheat toward pulses, oilseeds, and nutri-cereals (Shree Anna).\n\n| Crop | Notable MSP increase | Margin over cost |\n|------|----------------------|------------------|\n| Sunflower seed | ₹622 (highest) | — |\n| Cotton | ₹557 | — |\n| Moong | — | 61% (highest margin) |\n| Bajra | — | 56% |\n| Formula | 1.5x A2+FL cost | Since Budget 2018-19 |",
+        whyItMatters: "Agricultural economics, MSP cost concepts (A2, A2+FL, C2), and crop diversification are core GS-III topics. The distinction between the government's A2+FL formula and farmers' demand for C2+50% is a frequent 'trap' area.",
+        revise: "CACP (recommending body); Kharif vs Rabi crops; Shree Anna (Millets); WTO and MSP Aggregate Measure of Support.",
+        pyqConnect: "UPSC 2018 — Reasons for declining MSP effectiveness in India."
       },
       {
-        id: "13-4",
-        title: "SOLID WASTE MANAGEMENT RULES 2026: SC ENFORCEMENT ORDER",
-        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
-        whyItMatters: "SC empowers District Collectors to enforce SWM Rules under EPA 1986. Highlights the tension between judicial activism, centralised mandates, and the principle of subsidiarity.",
-        content: "The SWM Rules 2026 replaced the 2016 Rules, introducing four-stream waste segregation (wet, dry, sanitary, special care). On May 5, 2026, the SC bench (Justice Mithal & Bhatti) empowered District Collectors under Section 23 of the Environment (Protection) Act, 1986 to enforce compliance. DCs can now suspend water and electricity to bulk waste violators. Critics argue the Rules are too technocratic and top-down, treating Gram Panchayats like municipalities and ignoring local capacity (violating subsidiarity).\n\n| Parameter | Detail |\n|-----------|--------|\n| Rules | Solid Waste Management Rules, 2026 |\n| Replaced | SWM Rules, 2016 |\n| Enabling Legislation | Environment (Protection) Act, 1986 |\n| Delegated Power | Section 23 of EPA to District Collectors |\n| Four-Stream Segregation | Wet, Dry, Sanitary, Special Care |\n| Bulk Waste Generator | Buildings ≥20,000 sq m OR waste ≥100 kg/day |",
-        revise: "EPA 1986 (Sections 3, 5, 23); Article 21 (Clean Environment); Subsidiarity Principle; 74th Amendment (ULBs); Polluter Pays Principle.",
-        pyqConnect: "GS III 2021 — National Landslide Risk Management Strategy (Governance framing)."
+        id: "14-4",
+        title: "NATIONAL COAL/LIGNITE GASIFICATION SCHEME",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper III (Energy, Environment, Economy)",
+        content: "Cabinet approved a ₹37,500 crore scheme to promote surface coal and lignite gasification projects, targeting 100 MT gasification by 2030. Financial incentives of up to 20% of plant cost will be provided. The scheme reduces dependence on imported LNG, urea, ammonia, and methanol by utilizing India's 401 billion tonnes of coal reserves.\n\n| Parameter | Detail |\n|-----------|--------|\n| Scheme outlay | ₹37,500 crore |\n| Target | 100 MT by 2030 |\n| Incentive | Up to 20% of machinery cost |\n| India's Coal Reserves | ~401 billion tonnes (200 years) |\n| Syngas | Carbon Monoxide (CO) + Hydrogen (H2) |",
+        whyItMatters: "Surface vs underground coal gasification, syngas composition, and the 'Methanol Economy' are critical for Energy and Environment. This connects energy security with climate commitments (NDCs) under the Paris Agreement.",
+        revise: "Surface vs underground gasification; National Coal Gasification Mission (2021); Methanol Economy; Energy Trilemma.",
+        pyqConnect: "UPSC 2023 — Clean coal technologies and India's NDC."
       },
       {
-        id: "13-5",
-        title: "ONE CASE ONE DATA + SU SAHAY: AI ENTERS INDIA'S SUPREME COURT",
-        subtitle: "🟡 Important | Prelims | GS Paper II + GS Paper III",
-        whyItMatters: "Digital transformation of the judiciary. Unified data platform for all court tiers and India's first apex court AI chatbot. Addresses pendency (~5 crore cases) through real-time record access.",
-        content: "CJI Surya Kant launched 'One Case One Data', a unified national judicial data platform connecting the SC, High Courts, District Courts, and Taluka Courts. This gives SC judges real-time digital access to lower court records, reducing delays from manual verification. Simultaneously, 'Su Sahay', an AI-powered assistance chatbot built by NIC and the SC Registry, was launched on the SC website to guide litigants and lawyers on procedures.\n\n| Initiative | Detail |\n|------------|--------|\n| One Case One Data | Unified national case management system |\n| Su Sahay | AI chatbot on SC website |\n| Developer | NIC + SC Registry |\n| CJI | Surya Kant |\n| Connects | SC → High Courts → District Courts → Taluka Courts |",
-        revise: "e-Courts Mission Mode Project Phase III; National Informatics Centre (NIC) role; Article 21 (Speedy Trial); Law Commission on judicial delays.",
-        pyqConnect: "GS II 2021 — Independent judiciary is not merely a provision but a living institution."
+        id: "14-5",
+        title: "I4C–RBIH MOU: MULEHUNTER.AI",
+        subtitle: "🟡 Important | GS Paper III (Cybersecurity, Internal Security)",
+        content: "The MHA's Indian Cyber Crime Coordination Centre (I4C) and the RBI Innovation Hub (RBIH) integrated 'MuleHunter.AI' with the national Suspect Registry. This AI-driven system detects mule accounts across India's banking network to disrupt the financial backbone of cybercrime.",
+        whyItMatters: "Cybersecurity, financial fraud, and AI-driven policing are increasingly important for Internal Security. Mule accounts are a primary vehicle for money laundering and terror funding.",
+        revise: "Internal Security — I4C framework; RBI Innovation Hub; Money laundering and mule accounts; Role of AI in governance."
       },
       {
-        id: "13-6",
-        title: "INDIA–US BTA: US COURT STRIKES DOWN TRUMP TARIFF",
-        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
-        whyItMatters: "Striking down of Section 122 tariffs creates uncertainty for the BTA framework. Tests the understanding of bilateral (BTA/iCET) vs. US domestic trade law (Section 122/232).",
-        content: "The US Court of International Trade struck down Trump's 10% global tariff imposed under Section 122 of the Trade Act of 1974. The court found that Section 122 (allowing tariffs for balance-of-payments crises) invocation conditions were not met. This affects the India-US interim trade framework where tariffs were recently set at 18% (down from 25-50% in 2025). India's 'Mission 500' targets $500 billion bilateral trade by 2030. Key sectors include pharmaceuticals, gems, and aircraft parts under iCET.\n\n| Parameter | Detail |\n|-----------|--------|\n| Current US Tariff on India | 18% (agreed Feb 2026) |\n| Peak Tariff 2025 | 25–50% |\n| Court Ruling | Sec 122 global tariff struck down |\n| India-US Trade Target | $500 billion by 2030 (Mission 500) |\n| Key Framework | iCET (Critical & Emerging Technology) |",
-        revise: "WTO Dispute Settlement vs domestic courts; Section 122 vs 232 vs 301; Non-Tariff Barriers (NTBs); India's trade surplus with US.",
-        pyqConnect: "GS II 2018 — WTO crisis and India's role in reforming multilateral trading system."
+        id: "14-6",
+        title: "KIMBERLEY PROCESS 2026 INTERSESSIONAL MEET",
+        subtitle: "🟡 Important | GS Paper II (International Relations, Trade)",
+        content: "India chaired the Kimberley Process (KP) intersessional meeting in Mumbai, focusing on the '3Cs' theme: credibility, compliance, and consumer confidence. The KP prevents 'conflict diamonds' from entering the mainstream market. India is a major global hub for diamond cutting and polishing.",
+        whyItMatters: "Multilateral trade regimes, ethics in global supply chains, and India's role as a major diamond processing hub make this relevant for IR and Economy.",
+        revise: "International Relations — Kimberley Process Certification Scheme (KPCS); Definition of Conflict Diamonds; India's diamond industry significance."
       }
     ],
     reviseSummary: [
-      "VB–G RAM G Act 2025 replaces MGNREGA from July 1, 2026; 125 days guaranteed.",
-      "India-Vietnam upgrade to Enhanced Comprehensive Strategic Partnership; IPOI joined.",
-      "SEHAT Mission: First ICMR-ICAR joint convergence for agri-nutrition-health.",
-      "SWM Rules 2026: SC empowers District Collectors to enforce rules under EPA 1986.",
-      "One Case One Data & Su Sahay: National judicial data platform and SC AI chatbot launched.",
-      "India-US BTA: US court strikes down Section 122 tariffs, affecting bilateral trade negotiations."
+      "India chairs BRICS 2026 for the 4th time; bloc expanded to 11 members including Indonesia.",
+      "PM Modi's 5-nation tour focuses on energy security and supply chain diversification amid Hormuz crisis.",
+      "Kharif MSP 2026-27 approved using 1.5x A2+FL formula; highest hike for sunflower seeds.",
+      "₹37,500 crore approved for surface coal gasification to reduce fuel and fertilizer imports.",
+      "MuleHunter.AI launched to detect fraudulent banking accounts via I4C-RBIH collaboration.",
+      "India chairs Kimberley Process 2026 meet in Mumbai to reinforce diamond trade ethics."
     ],
     practiceQuestions: {
       mcqs: [
         {
-          question: "With reference to the Viksit Bharat–G RAM G Act, 2025, consider the following statements:\n1. It replaces the Mahatma Gandhi NREGA by amending its core provisions.\n2. The employment guarantee has been raised from 100 to 125 days per financial year.\n3. Wage payments are to be made within 15 days, failing which workers are entitled to delay compensation.\n4. It is administered by the Ministry of Labour and Employment.",
-          options: ["(a) 2 and 3 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
-          answer: "(a) 2 and 3 only",
-          explanation: "Statement 1 is incorrect: it REPEALS MGNREGA, not amends. Statement 4 is incorrect: it is under Ministry of Rural Development. Statements 2 and 3 are correct."
+          question: "With reference to the expanded BRICS bloc as of 2026, which of the following statements is correct?",
+          options: [
+            "(a) Saudi Arabia and UAE joined as full members in 2025.",
+            "(b) Indonesia joined as a full member in 2025.",
+            "(c) The bloc now comprises 15 full members.",
+            "(d) Partner nations have the same voting rights as full members."
+          ],
+          answer: "(b) Indonesia joined as a full member in 2025.",
+          explanation: "Indonesia joined as a full member in 2025. Saudi Arabia and UAE joined in 2024. The bloc has 11 full members. Partner nations are observers."
         },
         {
-          question: "Consider the following pairs regarding India's partnerships with Southeast Asian nations:\n1. India–Vietnam Comprehensive Strategic Partnership — 2016\n2. India–Vietnam Enhanced Comprehensive Strategic Partnership — 2026\n3. Indo-Pacific Oceans Initiative (IPOI) — Launched at East Asia Summit 2019\n4. IPOI is a US-led framework under the Quad",
-          options: ["(a) 1, 2 and 3 only", "(b) 1 and 3 only", "(c) 2 and 4 only", "(d) All of the above"],
-          answer: "(a) 1, 2 and 3 only",
-          explanation: "Pair 4 is incorrect: IPOI is an India-led initiative, not US-led. Pairs 1, 2, and 3 are correct."
+          question: "Which of the following countries is NOT part of PM Modi's 5-nation tour scheduled for May 2026?",
+          options: [
+            "(a) Sweden",
+            "(b) Norway",
+            "(c) Switzerland",
+            "(d) Netherlands"
+          ],
+          answer: "(c) Switzerland",
+          explanation: "The tour includes UAE, Netherlands, Sweden, Norway, and Italy. Switzerland is part of EFTA but not part of this specific tour."
         },
         {
-          question: "Consider Statement I and Statement II:\nStatement I: The SEHAT Mission is jointly implemented by ICMR and ICAR.\nStatement II: ICMR functions under the Ministry of Agriculture and Farmers' Welfare.",
-          options: ["(a) Both Statement I and Statement II are correct, and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct, but Statement II does NOT explain Statement I", "(c) Statement I is correct, but Statement II is incorrect", "(d) Statement I is incorrect, but Statement II is correct"],
-          answer: "(c) Statement I is correct, but Statement II is incorrect",
-          explanation: "Statement I is correct. Statement II is incorrect: ICMR is under Ministry of Health and Family Welfare."
+          question: "The 1.5x cost-of-production formula used for calculating MSP applies to which cost concept?",
+          options: [
+            "(a) A2 Cost only",
+            "(b) C2 Cost only",
+            "(c) A2 + FL Cost",
+            "(d) C2 + 50% Cost"
+          ],
+          answer: "(c) A2 + FL Cost",
+          explanation: "The government uses 1.5 times the A2+FL cost (Actual paid out cost + value of family labour) as announced in Budget 2018-19."
         },
         {
-          question: "Which of the following statements regarding the Solid Waste Management Rules, 2026 is/are correct?\n1. They were notified under the Environment (Protection) Act, 1986.\n2. They replaced the SWM Rules, 2016 with effect from April 1, 2026.\n3. Bulk Waste Generators include buildings with water use exceeding 40,000 litres per day.\n4. The Supreme Court empowered District Collectors using Section 23 of the EPA, 1986.",
-          options: ["(a) 1 and 2 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
-          answer: "(d) 1, 2, 3 and 4",
-          explanation: "All statements are correct. Section 23 of EPA allows delegation of powers, which the SC used for DCs."
+          question: "Consider the following statements regarding Coal Gasification:\n1. Syngas produced during gasification primarily consists of Methane.\n2. Surface gasification involves mining coal before processing it above ground.\n3. The National Coal Gasification Mission targets 100 MT gasification by 2030.",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 is incorrect: Syngas primarily consists of Carbon Monoxide and Hydrogen. Methane is the primary component of Natural Gas."
         },
         {
-          question: "Consider the following statements regarding the 'One Case One Data' initiative:\n1. It was launched by Chief Justice of India Surya Kant.\n2. 'Su Sahay', the AI chatbot, was developed by NASSCOM in collaboration with the SC Registry.\n3. The initiative connects Supreme Court, High Courts, District Courts, and Taluka Courts through a unified data system.\n4. National Informatics Centre (NIC) functions under the Ministry of Electronics and Information Technology.",
-          options: ["(a) 1 and 3 only", "(b) 1, 3 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 4 only"],
-          answer: "(b) 1, 3 and 4 only",
-          explanation: "Statement 2 is incorrect: Su Sahay was developed by NIC, not NASSCOM. Others are correct."
+          question: "The '3Cs' theme — credibility, compliance, and consumer confidence — is associated with which multilateral framework?",
+          options: [
+            "(a) Kimberley Process",
+            "(b) Wassenaar Arrangement",
+            "(c) Australia Group",
+            "(d) MTCR"
+          ],
+          answer: "(a) Kimberley Process",
+          explanation: "The Kimberley Process (KP) focuses on the 3Cs to prevent conflict diamonds from entering the global market."
         }
       ],
       mains: [
         {
-          question: "\"The replacement of MGNREGA with the Viksit Bharat–G RAM G Act represents a shift from welfare-based entitlement to productivity-oriented rural development. However, it raises critical concerns about federalism and digital exclusion.\" Examine.",
-          context: "GS Paper II/III | 250 words"
+          question: "How does coal gasification reconcile India's energy security needs with its climate commitments? Discuss with reference to the National Coal Gasification Mission.",
+          context: "GS Paper III | 250 words"
         },
         {
-          question: "\"India's escalating waste crisis demands a governance solution that is simultaneously national in standard and local in execution. The Solid Waste Management Rules, 2026 succeed on the first count but fail on the second.\" Critically analyse with reference to the principle of subsidiarity and cooperative federalism.",
-          context: "GS Paper II/III | 150 words"
+          question: "Evaluate India's approach to the expanded BRICS bloc in light of its strategic autonomy and multi-alignment strategy.",
+          context: "GS Paper II | 150 words"
         }
       ]
     }
   }
 ];
+
