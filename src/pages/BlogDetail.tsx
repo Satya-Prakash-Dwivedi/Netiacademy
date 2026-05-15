@@ -29,7 +29,7 @@ const BlogDetail = () => {
         title={post.title} 
         description={post.excerpt} 
         ogType="article" 
-        canonicalUrl={window.location.href}
+        canonical={window.location.href}
         ogImage={post.image}
       />
       <header className="mb-12">

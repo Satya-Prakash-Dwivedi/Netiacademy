@@ -103,7 +103,7 @@ const MindDetail = () => {
         title={post.title} 
         description={post.excerpt} 
         ogType="article" 
-        canonicalUrl={window.location.href}
+        canonical={window.location.href}
         ogImage={post.image}
       />
       

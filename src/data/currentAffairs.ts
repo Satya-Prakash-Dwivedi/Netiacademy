@@ -3403,6 +3403,121 @@ export const dailyDigests: DailyDigest[] = [
     }
   },
   {
+    id: "2026-05-13",
+    date: "13th May 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~14 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **VB–G RAM G Act** — MGNREGA repealed from July 1, 2026; rural guarantee rises from 100 to 125 days; budget: ₹1.51 lakh crore\n🔴 **India–Vietnam ECSP** — Ties upgraded to Enhanced Comprehensive Strategic Partnership; $25 billion trade target by 2030; 13 MoUs signed\n🔴 **SEHAT Mission** — ICMR + ICAR jointly launch India's first agriculture-nutrition-health convergence mission; addresses malnutrition AND NCDs simultaneously\n🟡 **Solid Waste Management Rules 2026** — Supreme Court empowers District Collectors to enforce SWM Rules; can cut water and electricity of violators\n🟡 **One Case One Data + Su Sahay** — CJI launches unified national judicial data platform and India's first Supreme Court AI chatbot (NIC-built)\n🟡 **India–US BTA** — US court strikes down Trump's 10% global tariff; creates fresh uncertainty over India–US Bilateral Trade Agreement negotiations",
+    topics: [
+      {
+        id: "13-1",
+        title: "VB–G RAM G ACT: MGNREGA'S SUCCESSOR NOTIFIED",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nUnion Minister Shivraj Singh Chouhan announced on May 11, 2026, that the Centre has notified the commencement of the VB–G RAM G Act, 2025, with effect from July 1, 2026. The Mahatma Gandhi National Rural Employment Guarantee Act, 2005, will stand repealed from the same date.\n\nThe new law guarantees 125 days of wage employment per financial year to every rural household whose adult members volunteer for unskilled manual work — up from 100 days under MGNREGA. Wage payments are to be made within 15 days, with delay compensation at 0.05% per day of unpaid wages beyond the deadline. Priority works include watershed development, groundwater recharge, rainwater harvesting, irrigation support, and afforestation. The Act places Gram Panchayats at the centre of rural transformation.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | Viksit Bharat–G RAM G Act, 2025 |\n| Replaces | MGNREGA, 2005 |\n| Effective Date | July 1, 2026 |\n| Employment Guarantee | 125 days/year (vs 100 under MGNREGA) |\n| Central Budget FY27 | ₹95,692.31 crore |\n| Total Outlay | >₹1.51 lakh crore |\n| Wage Delay Comp. | 0.05% per day |\n\n⚠️ THE UPSC TRAP\nVB–G RAM G *replaces* MGNREGA entirely — it does not amend it. MGNREGA stands *repealed* from July 1, 2026. The funding pattern remains shared between Centre and States as a Centrally Sponsored Scheme.",
+        whyItMatters: "Most significant overhaul of rural employment since 2005. Shift from entitlement to productivity-oriented architecture.",
+        revise: "Article 41 (DPSP), 73rd Amendment, MGNREGA 2005 history, Casual workforce data.",
+        pyqConnect: "GS III 2013 — Performance and limitations of MGNREGA."
+      },
+      {
+        id: "13-2",
+        title: "INDIA–VIETNAM ENHANCED COMPREHENSIVE STRATEGIC PARTNERSHIP",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II",
+        content: "📰 WHAT HAPPENED\nIndia and Vietnam upgraded their bilateral ties to an \"Enhanced Comprehensive Strategic Partnership\" on May 6, 2026. Vietnamese President To Lam's state visit resulted in 13 MoUs covering rare earths, critical minerals, digital payments, and cybersecurity. A trade target of $25 billion by 2030 was announced.\n\nVietnam formally joined India's Indo-Pacific Oceans Initiative (IPOI). Both leaders affirmed commitment to UNCLOS 1982 and ASEAN centrality, significant given China's assertiveness in the South China Sea. Vietnam has the 2nd largest rare earth reserves globally after China.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Previous Status | Comprehensive Strategic Partnership (2016) |\n| New Status | Enhanced Comprehensive Strategic Partnership (2026) |\n| Diplomatic Rel. | Since 1972 |\n| MoUs Signed | 13 |\n| Trade Target | $25 billion by 2030 |\n| Joined | IPOI (Indo-Pacific Oceans Initiative) |\n\n⚠️ THE UPSC TRAP\nThe progression: Diplomatic (1972) → Strategic (2007) → Comprehensive Strategic (2016) → Enhanced Comprehensive Strategic (2026). IPOI is an **India-led** initiative, not a US-led or Quad-led framework.",
+        whyItMatters: "Vietnam is a key pillar of India's Act East Policy and Vision Mahasagar. Strategic access to critical minerals.",
+        revise: "Act East Policy vs Look East, IPOI (2019), UNCLOS 1982, Vision Mahasagar.",
+        pyqConnect: "GS II 2021 — Evolution of strategic depth in India-Vietnam relations."
+      },
+      {
+        id: "13-3",
+        title: "SEHAT MISSION: AGRI-NUTRITION-HEALTH CONVERGENCE",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nICMR and ICAR jointly launched SEHAT — Science Excellence for Health through Agricultural Transformation — on May 11, 2026. It is India's first national mission to formally integrate agricultural research with public health outcomes.\n\nSEHAT focuses on biofortified crops, integrated farming, and the \"One Health\" approach (interconnecting human, animal, and environmental health). It targets India's dual burden: malnutrition (stunting/wasting) and rising non-communicable diseases (NCDs) like diabetes and hypertension.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | Science Excellence for Health through Agri Transformation |\n| Implementing | ICMR (Health Min) + ICAR (Agri Min) |\n| Approach | One Health (Human + Animal + Environment) |\n| Focus | Biofortified crops, integrated farming, preventive care |\n| Policy | National One Health Mission, Ayushman Bharat |\n\n⚠️ THE UPSC TRAP\nICMR (Medical) is under MoHFW; ICAR (Agri) is under MoA&FW. One Health specifically means interconnectivity of human, animal, and environmental health, not just \"health for all.\"",
+        whyItMatters: "Shift from curative to preventive healthcare. Addresses world's largest stunting burden alongside rising NCDs.",
+        revise: "Biofortification process, One Health framework (WHO), National Nutrition Mission (Poshan 2.0).",
+        pyqConnect: "Essay 2022 — Hunger and climate change as twin challenges."
+      },
+      {
+        id: "13-4",
+        title: "SOLID WASTE MANAGEMENT RULES 2026: SC ENFORCEMENT ORDER",
+        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nThe SWM Rules, 2026 (replacing 2016 Rules) introduced four-stream waste segregation. On May 5, the Supreme Court empowered District Collectors (DCs) to enforce these rules, including cutting water/electricity to bulk waste violators for one year.\n\nCritics argue the Rules violate federalism and the principle of subsidiarity by applying a one-size-fits-all technocratic approach to both Gram Panchayats and metropolises. Reporting is centralized via CPCB dashboards.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Rules | Solid Waste Management Rules, 2026 |\n| Enabling Act | Environment (Protection) Act, 1986 |\n| SC Order | Empowers DCs via Section 23 of EPA |\n| Segregation | Wet, Dry, Sanitary, Special Care |\n| BWG Threshold | Buildings ≥20,000 sq m OR waste ≥100 kg/day |\n\n⚠️ THE UPSC TRAP\nSWM Rules are enabled by the **Environment (Protection) Act, 1986**, not the 2000 Rules. Constitutionally, they implement international obligations under Article 253.",
+        whyItMatters: "Judicial activism vs federalism. Addresses chronic implementation gaps in urban and rural waste management.",
+        revise: "EPA 1986 sections, Article 21 (Clean environment), Polluter Pays Principle.",
+        pyqConnect: "GS III 2021 — National Landslide Risk Management vs waste governance."
+      },
+      {
+        id: "13-5",
+        title: "ONE CASE ONE DATA + SU SAHAY: AI IN SUPREME COURT",
+        subtitle: "🟡 Important | Prelims | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nCJI Surya Kant launched \"One Case One Data\" and \"Su Sahay\" on May 11, 2026. One Case One Data is a unified platform connecting SC, High Courts, and lower courts for real-time digital access to records. It aims to reduce delays in a system with 5 crore pending cases.\n\n\"Su Sahay\" is an AI chatbot developed by NIC to assist citizens and lawyers on the SC website, marking the first AI-enabled public tool at the apex court level.\n\n| Initiative | Detail |\n|------------|--------|\n| One Case One Data | Unified case management system (SC to Taluka) |\n| Su Sahay | AI chatbot on SC website (NIC-built) |\n| e-Courts Phase III | 2023–2027 framework |\n| Access to Justice | Article 21 + Hussainara Khatoon (1979) |\n\n⚠️ THE UPSC TRAP\nSu Sahay was built by **NIC** (Ministry of Electronics & IT), not an industry body like NASSCOM. One Case One Data is part of the e-Courts Phase III mission.",
+        whyItMatters: "Technological intervention to solve chronic judicial pendency and fragmented records.",
+        revise: "e-Courts Mission, NIC mandate, Access to justice jurisprudence.",
+        pyqConnect: "GS II 2021 — Independent judiciary as a living institution."
+      },
+      {
+        id: "13-6",
+        title: "INDIA–US BTA: US COURT STRIKES DOWN TRUMP TARIFF",
+        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nThe US Court of International Trade struck down President Trump's 10% global tariff (under Section 122 of the Trade Act of 1974), citing that conditions for balance-of-payments emergency were not satisfied. This creates uncertainty for the India-US Bilateral Trade Agreement (BTA).\n\nIndia and US had agreed on an interim 18% tariff rate in February 2026. India seeks zero duty on pharma and aircraft parts, while the US wants agricultural market access. Mission 500 targets $500 billion trade by 2030.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| India-US Trade | $132 billion (FY25) |\n| Tariff Rate | 18% (interim framework) |\n| Mission 500 | $500 billion by 2030 target |\n| Section 122 | Allows up to 15% tariff for 150 days (US law) |\n| iCET | Critical and Emerging Tech framework |\n\n⚠️ THE UPSC TRAP\nUS court ruling is domestic law, separate from WTO Dispute Settlement. Section 122 is specific to balance-of-payments emergencies.",
+        whyItMatters: "Bilateral trade instability between India's largest trading partner. Impact on 'Mission 500' goals.",
+        revise: "WTO vs Bilateral trade law, iCET, Section 301 vs 232 vs 122.",
+        pyqConnect: "GS II 2018 — WTO crisis and India's role in multilateral trade."
+      }
+    ],
+    reviseSummary: [
+      "VB–G RAM G Act (2025) replaces MGNREGA from July 1, 2026; raises guarantee to 125 days.",
+      "India-Vietnam upgrade to Enhanced Comprehensive Strategic Partnership; trade target $25bn by 2030.",
+      "SEHAT Mission: Joint ICMR-ICAR project for agri-nutrition convergence and One Health.",
+      "SC empowers District Collectors via Section 23 of EPA to enforce SWM Rules 2026.",
+      "One Case One Data connects all Indian courts; Su Sahay AI chatbot launched for Supreme Court.",
+      "US court strikes down 10% global tariff; affects India-US Bilateral Trade Agreement framework."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the Viksit Bharat–G RAM G Act, 2025, consider the following statements:\n1. It replaces the Mahatma Gandhi NREGA by amending its core provisions.\n2. The employment guarantee has been raised from 100 to 125 days per financial year.\n3. Wage payments are to be made within 15 days, failing which workers are entitled to delay compensation.\n4. It is administered by the Ministry of Labour and Employment.",
+          options: ["(a) 2 and 3 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 2 and 3 only",
+          explanation: "Statement 2 and 3 are correct. Statement 1 is incorrect as the Act repeals MGNREGA entirely. Statement 4 is incorrect as it is under the Ministry of Rural Development."
+        },
+        {
+          question: "Consider the following pairs regarding India's partnerships with Southeast Asian nations:\n1. India–Vietnam Comprehensive Strategic Partnership → 2016\n2. India–Vietnam Enhanced Comprehensive Strategic Partnership → 2026\n3. Indo-Pacific Oceans Initiative (IPOI) → Launched at East Asia Summit 2019\n4. IPOI is a US-led framework under the Quad",
+          options: ["(a) 1, 2 and 3 only", "(b) 1 and 3 only", "(c) 2 and 4 only", "(d) All of the above"],
+          answer: "(a) 1, 2 and 3 only",
+          explanation: "Pairs 1, 2, and 3 are correctly matched. Pair 4 is incorrect as IPOI is an India-led initiative."
+        },
+        {
+          question: "Consider Statement I and Statement II:\nStatement I: The SEHAT Mission is jointly implemented by ICMR and ICAR.\nStatement II: ICMR functions under the Ministry of Agriculture and Farmers' Welfare.",
+          options: ["(a) Both Statement I and Statement II are correct", "(b) Both Statement I and Statement II are correct but II does not explain I", "(c) Statement I is correct, but Statement II is incorrect", "(d) Statement I is incorrect, but Statement II is correct"],
+          answer: "(c) Statement I is correct, but Statement II is incorrect",
+          explanation: "Statement I is correct. Statement II is incorrect as ICMR is under the Ministry of Health and Family Welfare."
+        },
+        {
+          question: "Which of the following statements regarding the Solid Waste Management Rules, 2026 is/are correct?\n1. They were notified under the Environment (Protection) Act, 1986.\n2. They replaced the SWM Rules, 2016 with effect from April 1, 2026.\n3. Bulk Waste Generators include buildings with water use exceeding 40,000 litres per day.\n4. The Supreme Court empowered District Collectors using Section 23 of the EPA, 1986.",
+          options: ["(a) 1 and 2 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(d) 1, 2, 3 and 4",
+          explanation: "All statements are correct. The BWG criteria includes water use ≥40,000 litres/day. Section 23 allowed delegation to DCs."
+        },
+        {
+          question: "Consider the following statements regarding the \"One Case One Data\" initiative:\n1. It was launched by Chief Justice of India Surya Kant.\n2. \"Su Sahay\", the AI chatbot, was developed by NASSCOM in collaboration with the SC Registry.\n3. The initiative connects Supreme Court, High Courts, District Courts, and Taluka Courts through a unified data system.\n4. National Informatics Centre (NIC) functions under the Ministry of Electronics and Information Technology.",
+          options: ["(a) 1 and 3 only", "(b) 1, 3 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 4 only"],
+          answer: "(b) 1, 3 and 4 only",
+          explanation: "Statement 1, 3, and 4 are correct. Statement 2 is incorrect as Su Sahay was developed by NIC."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The replacement of MGNREGA with the Viksit Bharat–G RAM G Act represents a shift from welfare-based entitlement to productivity-oriented rural development. Examine.\"",
+          context: "GS Paper II/III | 250 words"
+        },
+        {
+          question: "\"India's escalating waste crisis demands a governance solution that is simultaneously national in standard and local in execution. Discuss with reference to SWM Rules 2026.\"",
+          context: "GS Paper II/III | 150 words"
+        }
+      ]
+    }
+  },
+  {
 
     id: "2026-05-14",
     date: "14th May 2026",
@@ -3536,6 +3651,154 @@ export const dailyDigests: DailyDigest[] = [
         },
         {
           question: "Evaluate India's approach to the expanded BRICS bloc in light of its strategic autonomy and multi-alignment strategy.",
+          context: "GS Paper II | 150 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-15",
+    date: "15th May 2026",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "15-1",
+        title: "VB–G RAM G Act Replaces MGNREGA",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II + GS III",
+        content: "The Mahatma Gandhi National Rural Employment Guarantee Act, 2005, is formally being repealed. From July 1, 2026, the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB–G RAM G] Act, 2025, takes its place, raising the guaranteed employment days from 100 to 125 and shifting the policy philosophy from entitlement-based relief to productivity-led rural development aligned with Viksit Bharat @2047. The Government issued a gazette notification on May 11, 2026. Union Minister Shivraj Singh Chouhan confirmed the Central Government has allocated ₹95,692.31 crore as the Central share for FY 2026–27. However, a LibTech India report flagged serious concerns, noting that 115.8 million workers failed to complete e-KYC in MGNREGA's final year.",
+        whyItMatters: "Article 41 (DPSP), Schedule VII (Concurrent List), Panchayati Raj Institutions (73rd Amendment). Shift from demand-driven to supply-driven policy.",
+        revise: "Article 41 (DPSP): Right to work; Schedule VII (Concurrent List): Employment; MGNREGA (2005); 73rd Amendment.",
+        pyqConnect: "UPSC 2016 — 'Discuss the role of MGNREGA in rural development and its impact on agrarian wages.'"
+      },
+      {
+        id: "15-2",
+        title: "CPI Inflation April 2026: 3.48% ON NEW SERIES",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS III",
+        content: "India's retail CPI inflation rose to 3.48% in April 2026 from 3.40% in March. Retail inflation remains below RBI's 4% target, but food inflation jumped to 4.20% from 3.87%, driven by tomato prices (+35.28%). WPI (Wholesale Price Index) for April 2026 spiked to 8.3% — driven by mineral oils, crude petroleum, and basic metals. This divergence between retail and wholesale prices signals rising input costs that may feed into retail prices later.",
+        whyItMatters: "Monetary Policy Committee (MPC), Flexible Inflation Targeting Framework (FIFF), WPI vs CPI divergence.",
+        revise: "MPC composition and quorum; FIFF (RBI Act amendment 2016); CPI vs WPI (source ministry, use, components); New base year for CPI (2024).",
+        pyqConnect: "UPSC 2016 (Prelims) — 'Which of the following is used as the basis for India's monetary policy framework?'"
+      },
+      {
+        id: "15-3",
+        title: "Operation Sindoor at One Year: India's New Security Doctrine",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II + GS III",
+        content: "One year since Operation Sindoor (May 7–10, 2025) launched in response to the Pahalgam terror attack, India has demonstrated unprecedented indigenous strike capability using BrahMos, Akashteer, and loitering munitions. India asserted that its new doctrine means any future terror attack will meet a 'firm, decisive, and unwavering' response, explicitly rejecting nuclear blackmail as a constraint. Meanwhile, Pakistan has rebuilt its international standing by hosting US-Iran talks.",
+        whyItMatters: "India's Nuclear Doctrine (2003) - NFU, massive retaliation, civilian control via CCS. UAPA, Shimla Agreement (1972), Lahore Declaration (1999).",
+        revise: "India's Nuclear Doctrine (2003); Cabinet Committee on Security; UAPA; Shimla Agreement; Lahore Declaration; Strategic Autonomy.",
+        pyqConnect: "UPSC 2020 (Mains) — 'India's bilateral relations with most of its neighbours are not on a good footing. Analyse the reasons and suggest ways to put them on an even keel.'"
+      },
+      {
+        id: "15-4",
+        title: "India–US Trade Deal Framework: What's Locked In and What Isn't",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II + GS III",
+        content: "The India-US Bilateral Trade Agreement (BTA) framework, announced February 2026, reduced the US reciprocal tariff on Indian goods from 25% to 18%. India agreed to stop purchasing Russian oil, pivot to US crude, and commit to purchasing over $500 billion worth of US energy, tech, and agri over five years. However, this is a joint statement/framework, not a legally binding FTA which requires US Congressional approval.",
+        whyItMatters: "MFN clause under WTO, GSP status, iCET (Initiative on Critical and Emerging Technologies), DPDP Act 2023.",
+        revise: "WTO MFN clause; GSP (India's loss in 2019); iCET; DPDP Act 2023; BTA negotiations framework.",
+        pyqConnect: "UPSC 2023 (Prelims) — Question on India's bilateral trade relationships and Generalised System of Preferences."
+      },
+      {
+        id: "15-5",
+        title: "Census 2027 Phase 1: House Listing Ends Today",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS II",
+        content: "India's Census 2027 Phase 1 — the House Listing and Housing Census — closes today (May 15, 2026) in 8 states and UTs. This is India's first-ever digital census and the first to offer self-enumeration. All administrative units were frozen from January 1, 2026 to March 31, 2027. Caste enumeration will be conducted during Phase 2 in February 2027.",
+        whyItMatters: "Census Act 1948, Union List Entry 69 (Schedule VII), Registrar General of India (MHA).",
+        revise: "Census Act, 1948; Union List Entry 69; Article 246; Registrar General of India; Delimitation Commission.",
+        pyqConnect: "UPSC 2020 (Mains) — 'Critically examine the constitutionality of sub-categorisation of OBCs.'"
+      },
+      {
+        id: "15-6",
+        title: "AI + DPI in Financial Inclusion: India's Post-JAM Era",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS III",
+        content: "The government highlighted new AI-integrated DPI initiatives: Banking BHASHINI (multilingual banking in 22 languages), Unified Lending Interface (ULI - 'UPI for lending'), and MuleHunter.AI (cyber fraud detection). India processed ₹29.53 lakh crore via UPI in March 2026. Account Aggregator ecosystem has reached 252.9 million users.",
+        whyItMatters: "JAM Trinity, DPDP Act 2023, PMLA 2002, FATF compliance, Article 21 (Right to Privacy).",
+        revise: "JAM Trinity; Account Aggregators (NBFC); PMLA 2002; FATF; DPDP Act 2023; Article 21 (Right to Privacy, Puttaswamy 2017)."
+      },
+      {
+        id: "15-7",
+        title: "Gharial Returns to Kaziranga: A Conservation Milestone",
+        subtitle: "🟢 Good to Know | Prelims | GS III (Environment & Ecology)",
+        content: "The critically endangered gharial (Gavialis gangeticus) has been repeatedly sighted in the Burapahar Range of Kaziranga National Park — a species considered locally extinct in Assam since the 1950s. The sightings reflect intact aquatic habitats. Discussions on a formal gharial reintroduction programme with support from Madhya Pradesh are underway.",
+        whyItMatters: "IUCN Status: Critically Endangered. WPA 1972 Schedule I. Crocodile Conservation Project.",
+        revise: "IUCN Red List categories; WPA 1972 Schedules; Crocodile Conservation Project; CBD; National Chambal Sanctuary.",
+        pyqConnect: "UPSC 2024 — Question on wildlife sanctuaries and their distinguishing features."
+      }
+    ],
+    reviseSummary: [
+      "VB-G RAM G Act replaces MGNREGA from July 1, 2026; employment days raised to 125.",
+      "April 2026 CPI inflation at 3.48%; WPI spikes to 8.3% signal future retail price pressure.",
+      "Operation Sindoor anniversary marks shift in India's security doctrine against nuclear blackmail.",
+      "India-US Trade Framework locks in 18% tariff; India commits to $500B purchases and pivots from Russian oil.",
+      "Census 2027 Phase 1 ends today in 8 states/UTs; first digital census in India's history.",
+      "AI + DPI initiatives (Banking BHASHINI, ULI, MuleHunter.AI) drive post-JAM financial inclusion.",
+      "Critically endangered gharial re-sighted in Kaziranga after being locally extinct since the 1950s."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB–G RAM G] Act, 2025:\n1. It guarantees 125 days of wage employment annually to rural households.\n2. The Act comes into force from April 1, 2026.\n3. Workers are entitled to unemployment allowance if work is not provided within the statutory time limit.",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b) 1 and 3 only",
+          explanation: "Statement 2 is incorrect. The Act comes into force on July 1, 2026, not April 1. Statements 1 and 3 are correct."
+        },
+        {
+          question: "Consider the following two statements about India's Consumer Price Index (CPI) data for April 2026:\nStatement I: India's retail CPI inflation for April 2026 at 3.48% exceeded the Reserve Bank of India's medium-term inflation target.\nStatement II: The Reserve Bank of India's monetary policy mandate is to maintain price stability while keeping in mind the objective of growth.",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I.",
+            "(b) Both Statement I and Statement II are correct, but Statement II is not the correct explanation of Statement I.",
+            "(c) Statement I is incorrect, but Statement II is correct.",
+            "(d) Both Statement I and Statement II are incorrect."
+          ],
+          answer: "(c) Statement I is incorrect, but Statement II is correct.",
+          explanation: "Statement I is incorrect because 3.48% is below the RBI's 4% target. Statement II correctly states the RBI's mandate."
+        },
+        {
+          question: "Match the following species with their correct IUCN Red List conservation status:\n1. Gharial — A. Vulnerable\n2. One-Horned Rhinoceros — B. Critically Endangered\n3. Bengal Tiger — C. Endangered",
+          options: [
+            "(a) 1-B, 2-A, 3-C",
+            "(b) 1-B, 2-C, 3-A",
+            "(c) 1-C, 2-A, 3-B",
+            "(d) 1-A, 2-C, 3-B"
+          ],
+          answer: "(a) 1-B, 2-A, 3-C",
+          explanation: "Gharial is Critically Endangered, One-Horned Rhino is Vulnerable (reclassified in 2008), and Bengal Tiger is Endangered."
+        },
+        {
+          question: "With reference to India's Nuclear Doctrine, consider the following statements:\n1. India follows a No First Use (NFU) policy.\n2. India will not use nuclear weapons against any state that does not possess nuclear weapons.\n3. Pakistan maintains a formal No First Use policy similar to India's.\n4. The authority to authorise the use of nuclear weapons in India rests with the Cabinet Committee on Security.",
+          options: [
+            "(a) 1, 2 and 3 only",
+            "(b) 1, 2 and 4 only",
+            "(c) 2 and 4 only",
+            "(d) 1 and 4 only"
+          ],
+          answer: "(b) 1, 2 and 4 only",
+          explanation: "Statement 3 is incorrect. Pakistan does not have a formal No First Use policy. Statements 1, 2, and 4 are correct."
+        },
+        {
+          question: "Consider the following statements about the India–US Trade Framework announced in February 2026:\n1. The United States reduced the effective reciprocal tariff on most Indian goods from 25% to 18%.\n2. India faces a lower US tariff rate than Pakistan, Vietnam, and Bangladesh.\n3. The framework is a legally binding Free Trade Agreement enforceable under US domestic law.",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 2 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(c) 1 and 2 only",
+          explanation: "Statement 3 is incorrect. The framework is a joint statement and not yet a legally binding FTA. Statements 1 and 2 are correct."
+        }
+      ],
+      mains: [
+        {
+          question: "The VB–G RAM G Act, 2025 represents a paradigm shift in India's rural employment policy — from an entitlement-based framework to a productivity-oriented development architecture. Critically examine this claim.",
+          context: "GS Paper III | 250 words"
+        },
+        {
+          question: "One year after Operation Sindoor, India's strategic gains remain contested while Pakistan has expanded its diplomatic profile. Critically analyse the geopolitical implications of India's post-Sindoor security doctrine.",
           context: "GS Paper II | 150 words"
         }
       ]

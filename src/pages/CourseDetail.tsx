@@ -44,7 +44,7 @@ const CourseDetail = () => {
           title={`${course.title} | Neti Academy`} 
           description={course.description}
           ogType="article"
-          canonicalUrl={window.location.href}
+          canonical={window.location.href}
           ogImage={course.previewImage}
         />
         
@@ -150,7 +150,7 @@ const CourseDetail = () => {
         title={`${course.title} | Neti Academy`} 
         description={course.description}
         ogType="article"
-        canonicalUrl={window.location.href}
+        canonical={window.location.href}
         ogImage={course.previewImage}
       />
 

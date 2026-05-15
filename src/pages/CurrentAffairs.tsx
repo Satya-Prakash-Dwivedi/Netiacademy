@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { dailyDigests } from "../data/currentAffairs";
-import { Search, Calendar, ChevronLeft, ChevronRight, X, ArrowRight, Download } from "lucide-react";
+import { Search, Calendar, ChevronLeft, ChevronRight, X, ArrowRight } from "lucide-react";
+import SEO from "../components/SEO";
 
 /**
  * CurrentAffairs listing page
@@ -50,6 +51,10 @@ const CurrentAffairs = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen">
+      <SEO 
+        title="Daily Current Affairs for UPSC"
+        description="Stay ahead with curated daily analysis of current affairs for UPSC Prelims and Mains. We filter the noise and provide only what matters."
+      />
       {/* Premium Header Background */}
       <div className="absolute top-0 left-0 w-full h-[400px] bg-gradient-to-b from-blue-50/50 to-transparent -z-10 pointer-events-none" />
       
@@ -156,15 +161,7 @@ const CurrentAffairs = () => {
                   </div>
 
                   <div className="mt-8 md:mt-10 flex items-center justify-between pt-6 border-t border-slate-50">
-                     <a 
-                       href="https://t.me/netiacademy01" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       className="text-[10px] md:text-xs font-bold text-blue-800 hover:text-blue-900 flex items-center gap-2 uppercase tracking-wide group/dl"
-                     >
-                       <Download className="w-3.5 h-3.5 group-hover/dl:animate-bounce" />
-                       Get Daily PDF Bank
-                     </a>
+
                      <div className="text-[9px] md:text-[10px] text-slate-400 font-medium uppercase tracking-[0.2em]">
                        {digest.topics.length} Primary Focus Areas
                      </div>

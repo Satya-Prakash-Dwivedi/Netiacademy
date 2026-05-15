@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import { dailyDigests, type DailyDigest } from "../data/currentAffairs";
-import { SEO } from "../components/SEO";
+import SEO from "../components/SEO";
 
 const formatText = (text: string) => {
   if (!text) return null;
@@ -254,13 +254,11 @@ const CurrentAffairDetail = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen pt-4 md:pt-8">
-      {digest && (
-        <SEO 
-          title={`Day ${dailyDigests.indexOf(digest) + 1} | ${digest.date}`} 
-          description={digest.tagline} 
-          canonicalUrl={window.location.href}
-        />
-      )}
+      <SEO 
+        title={`${digest.date} | Daily Current Affairs`} 
+        description={digest.tagline} 
+        ogType="article"
+      />
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-10 md:py-16">
         <header className="mb-10 md:mb-16 text-center">
           <Link to="/current-affairs" className="text-[10px] md:text-xs font-bold text-slate-400 hover:text-blue-900 uppercase tracking-[0.2em] inline-block mb-6 md:mb-8 transition-colors">
@@ -477,32 +475,7 @@ const CurrentAffairDetail = () => {
             })()}
         </nav>
 
-        {/* Global Telegram CTA - Refined Light Theme */}
-        <section className="mt-16 md:mt-20 p-8 md:p-12 bg-white rounded-2xl md:rounded-[3rem] text-center border border-slate-200 relative overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100/30 rounded-full blur-3xl -mr-32 -mt-32 group-hover:bg-blue-100/50 transition-colors"></div>
-          <p className="text-slate-800 mb-6 md:mb-8 max-w-2xl mx-auto relative z-10 leading-relaxed font-inter text-[15px] md:text-[17px] font-medium">
-            For the crisp revision sheet, 5 Prelims MCQs, and 2 Mains practice questions on today's topics, download the PDF from our Telegram channel!
-          </p>
-          <div className="space-y-6 relative z-10">
-            <p className="text-[10px] md:text-xs font-bold text-blue-900 uppercase tracking-widest">
-              Get the full PDF with 5 practice MCQs daily
-            </p>
-            <div className="flex justify-center">
-              <a
-                href="https://t.me/netiacademy01"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 md:px-10 py-4 md:py-5 bg-blue-900 text-white font-bold rounded-2xl hover:bg-blue-800 transition-all inline-flex items-center gap-3 shadow-xl shadow-blue-900/10 active:scale-95 group/btn text-sm md:text-base"
-              >
-                Join our Telegram Channel
-                <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
-              </a>
-            </div>
-            <p className="text-[9px] md:text-[10px] text-slate-400 font-medium uppercase tracking-[0.2em]">
-              Join the Neti Academy community
-            </p>
-          </div>
-        </section>
+
       </div>
     </div>
   );
