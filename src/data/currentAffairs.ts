@@ -3803,6 +3803,284 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-16",
+    date: "16th May 2026",
+    day: "Saturday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "16-1",
+        title: "NEET-UG 2026 Cancelled & NTA to Shift to Computer-Based Testing",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Governance, Education Policy)",
+        content: "The National Eligibility-cum-Entrance Test for Undergraduate medical admissions (NEET-UG 2026), held on May 3, 2026, has been cancelled and rescheduled to June 21 following paper leak allegations. More significantly, Education Minister Dharmendra Pradhan announced on May 15 that NEET will shift to a Computer-Based Test (CBT) format from 2027 onward to eliminate Optical Mark Recognition (OMR) system vulnerabilities. The move marks a major structural reform for the National Testing Agency (NTA), which has faced criticism, including a December 2025 Parliamentary Standing Committee report flagging that 5 of the 14 major exams it managed in 2024 faced major disruptions.",
+        whyItMatters: "National Testing Agency (NTA) governance, autonomous status, the legal character of societies under the Societies Registration Act, 1860, and the federal dynamics of education under the Concurrent List (Entry 25 of Schedule VII).",
+        revise: "Societies Registration Act, 1860; Concurrent List (Schedule VII) Entry 25; Kotha Punnaiah Committee (2024) recommendations; Article 21-A (Right to Education); difference between statutory, constitutional, and society-based autonomous bodies.",
+        pyqConnect: "UPSC GS II Mains 2020 — Theme of governance credibility and citizen-administration relationships. No direct NTA PYQ, but exam governance remains a recurring Mains theme."
+      },
+      {
+        id: "16-2",
+        title: "Tamil Nadu 2026: Governor's Discretionary Role in Hung Assembly",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Polity, Constitution)",
+        content: "Tamil Nadu Legislative Assembly elections held on April 23, 2026, yielded a historic result: TVK (Tamilaga Vettri Kazhagam), led by actor-politician Vijay, emerged as the single largest party, contesting alone in 233 of 234 seats and breaking a 59-year Dravidian duopoly. Despite TVK claiming support from 120 MLAs (including INC, VCK, and Left parties) in the 234-seat House (majority 118), Governor R.L. Arlekar's delay in inviting Vijay to form the government placed the discretionary powers under Articles 163 and 164 into the spotlight. Opposition leaders alleged partisan delay, bringing the threat of President's Rule under Article 356 into sharp focus before the swearing-in.",
+        whyItMatters: "Gubernatorial discretion under Article 163, appointments of the Chief Minister under Article 164, the scope of judicial review over discretionary powers, and Sarkaria and Punchhi Commission recommendations on hung assemblies.",
+        revise: "Article 163 (Council of Ministers and Governor's discretion); Article 164(1) (Appointment of CM); Article 174 (Summoning/Dissolution of Assembly); Article 356 (President's Rule); Sarkaria Commission (1988); Punchhi Commission (2010); Rameshwar Prasad v. Union of India (2006) and Nabam Rebia (2016) judgments on judicial review of Governor's actions.",
+        pyqConnect: "UPSC Mains 2022 (GS II) — 'The Governor's role in the appointment of the Chief Minister in case of a hung assembly is fraught with possibilities for political misuse. Discuss.'"
+      },
+      {
+        id: "16-3",
+        title: "One Year of Operation Sindoor: Security Doctrine and Geopolitical Shift",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) & GS Paper III (Security)",
+        content: "A year after Operation Sindoor (May 7–10, 2025) — India's precision missile and air strikes on terror camps in Pakistan and PoK following the Pahalgam attack — the strategic landscape has evolved in complex ways. While the strikes demonstrated India's capability to execute precision actions (using BrahMos, Akashteer, and loitering munitions) without crossing the nuclear threshold, Pakistan has paradoxically achieved a 'geopolitical pivot.' By hosting direct US-Iran talks in April 2026 and nominating Donald Trump for the Nobel Peace Prize (who reportedly mediated the ceasefire), Pakistan has elevated its standing in Washington and West Asia, even as many struck terror camps have relocated deeper into its territory.",
+        whyItMatters: "India's nuclear doctrine (No First Use, Credible Minimum Deterrence, Massive Retaliation), indigenisation of defence under DRDO and iDEX, bilateralism vs multilateralism in dispute resolution, and middle-power diplomacy in West Asia.",
+        revise: "India's Nuclear Doctrine (2003) pillars; BrahMos joint venture (India-Russia); Akashteer system; Indus Waters Treaty (1960) provisions and suspension rules; Strategic Autonomy and Non-Alignment 2.0; iDEX and defence PLI schemes.",
+        pyqConnect: "UPSC GS III Mains 2017 — Theme of internal security, cross-border threats, and the role of non-state actors in challenging national security."
+      },
+      {
+        id: "16-4",
+        title: "CPI Inflation at 3.48% & RBI's Flexible Inflation Targeting Renewed",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Economy, Monetary Policy)",
+        content: "India's retail inflation rose to 3.48% in April 2026 from 3.4% in March under a newly revised CPI series utilizing updated consumption weights from the Household Consumption Expenditure Survey (HCES), which allocates higher weight to non-food items. Food inflation rose to 4.2% while transportation remained negative as the government buffered fuel costs. Separately, the government has renewed the RBI's Flexible Inflation Targeting (FIT) mandate for its third five-year period (2026–2031), keeping the target at 4% with a tolerance band of ±2% (2%–6%). This comes under pressure as crude oil remains above $110/barrel due to the West Asia crisis.",
+        whyItMatters: "Section 45-ZA of the RBI Act, 1934; Monetary Policy Committee (MPC) structure; difference between CPI (headline) and WPI; core vs headline inflation; and the HCES base-year and weight revisions.",
+        revise: "Section 45-ZA of RBI Act; MPC composition (6 members) and appointment rules; WPI (Ministry of Commerce) vs CPI (MoSPI); HCES 2022-23 findings; consequences of failing the FIT target for three consecutive quarters.",
+        pyqConnect: "UPSC Prelims 2017 — Question regarding the composition and benchmark-setting powers of the Monetary Policy Committee (MPC)."
+      },
+      {
+        id: "16-5",
+        title: "WHO World Health Statistics 2026: SDGs and Global Health Reversals",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper II (Health, International Institutions)",
+        content: "The World Health Organisation's (WHO) annual World Health Statistics 2026 report delivered a warning: the world is currently off-track to meet any of the health-related Sustainable Development Goal (SDG) targets by 2030. The COVID-19 pandemic is identified as the largest setback, causing approximately 22.1 million excess deaths globally and reversing nearly a decade of life expectancy gains. While select areas like HIV (new infections down 40% between 2010 and 2024) and neglected tropical diseases (36% drop in interventions needed) saw progress, WHO's Triple Billion targets remain off-track, posing serious questions for global healthcare funding and India's Universal Health Coverage (UHC) commitments.",
+        whyItMatters: "Health-related SDGs (primarily SDG 3: Good Health and Well-Being), Ayushman Bharat PM-JAY and Ayushman Arogya Mandirs, WHO Triple Billion targets vs SDG indicators, and structural challenges in public health funding.",
+        revise: "SDG 3 sub-targets; WHO structure, headquarters, and Triple Billion goals; Ayushman Bharat structure; National Health Policy 2017 spending targets (2.5% of GDP); Neglected Tropical Diseases (NTDs) and India's elimination targets.",
+        pyqConnect: "UPSC GS II Mains 2022 — 'What are the major challenges to Universal Health Coverage in India? Discuss the role of Ayushman Bharat scheme in addressing them.'"
+      },
+      {
+        id: "16-6",
+        title: "Geothermal Energy: India's 11,000 GW Untapped Clean Energy Frontier",
+        subtitle: "🟢 Good to Know | Prelims | GS Paper III (Energy, Environment)",
+        content: "India's geothermal energy resources are estimated at approximately 11,000 GW [unverified, awaiting MNRE/TERI official validation], representing a massive, continuous, and weather-independent base-load clean energy frontier. India has identified over 340 hot spring locations across major geothermal provinces including Puga Valley (Ladakh), Tattapani (Chhattisgarh), Manikaran (Himachal Pradesh), Cambay (Gujarat), Godavari (Telangana), and Bakreshwar (West Bengal). Despite its continuous generation advantages over weather-dependent solar and wind, no utility-scale geothermal power plant is currently operational in India, leaving the sector unexploited as India strives to achieve 500 GW of non-fossil capacity by 2030.",
+        whyItMatters: "Types of renewable energy, geothermal power vs solar thermal, geographical distribution of hot springs in India, and India's Nationally Determined Contributions (NDCs) under the Paris Agreement.",
+        revise: "Geothermal provinces of India and their geological origins (tectonic vs Gondwana); India's 2030 NDC targets; National Action Plan on Climate Change (NAPCC) 8 missions; difference between geothermal power plants and geothermal heat pumps.",
+        pyqConnect: "UPSC Prelims — Repeated questions matching geothermal or solar power sites with their states/locations (e.g., Puga Valley)."
+      }
+    ],
+    reviseSummary: [
+      "NET/NTA: NTA legal status under Societies Registration Act 1860; education in Concurrent List (Entry 25).",
+      "Tamil Nadu/Governor: Articles 163 & 164; Governor's discretionary powers and lack of constitutional time limits.",
+      "Operation Sindoor: India's nuclear doctrine (NFU, massive retaliation); BrahMos JV; Indus Waters Treaty 1960.",
+      "CPI Inflation/FIT: Section 45-ZA of RBI Act; MPC composition (6 members); CPI vs WPI differences.",
+      "WHO World Health Statistics: SDG 3 (health); WHO Triple Billion targets; India's Ayushman Bharat UHC scheme.",
+      "Geothermal Energy: Renewable energy mix; Puga Valley, Tattapani, Manikaran geothermal provinces map locations."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to India's Flexible Inflation Targeting (FIT) framework, consider the following statements:\n1. The FIT mandate for the RBI is derived from Section 45-ZA of the RBI Act, 1934.\n2. The current inflation target (2026–2031) is 4% with a tolerance band of ±1%.\n3. If inflation remains outside the target band for three consecutive quarters, the RBI must submit a report to the Union Finance Ministry.\n4. The Monetary Policy Committee consists of 12 members, chaired by the RBI Governor.\n\nWhich of the statements given above are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 1, 2, and 3",
+            "(c) 2 and 4 only",
+            "(d) 1, 3, and 4"
+          ],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 1 is correct: Section 45-ZA of the RBI Act, 1934 (amended in 2016) is the statutory basis. Statement 3 is correct: failure for 3 consecutive quarters requires the RBI to submit a report detailing reasons and remedial timelines. Statement 2 is incorrect: the tolerance band is ±2% (2%–6%), not ±1%. Statement 4 is incorrect: the MPC consists of 6 members, not 12."
+        },
+        {
+          question: "Consider the following pairs:\n     Geothermal Province : Location\n1. Puga Valley          : Ladakh\n2. Tattapani            : Chhattisgarh\n3. Manikaran            : Uttarakhand\n4. Bakreshwar           : West Bengal\n\nHow many of the pairs given above are correctly matched?",
+          options: [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+          ],
+          answer: "(c) Only three",
+          explanation: "Pairs 1 (Puga Valley — Ladakh), 2 (Tattapani — Chhattisgarh), and 4 (Bakreshwar — West Bengal) are correctly matched. Pair 3 is incorrectly matched: Manikaran is located in Kullu district, Himachal Pradesh, not Uttarakhand."
+        },
+        {
+          question: "With reference to the Governor's constitutional powers in case of a hung assembly, consider the following:\n\nStatement I: Under Article 163(2), if any question arises whether a matter is one in which the Governor may act in his discretion, the Governor's decision is final and cannot be questioned in any court of law.\n\nStatement II: This is because the Constitution places the Governor's discretionary powers entirely outside the scope of judicial review, ensuring that gubernatorial decisions in government formation are never subject to Supreme Court scrutiny.\n\nWhich one of the following is correct in respect of the above Statements?",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II explains Statement I",
+            "(b) Both Statement I and Statement II are correct, but Statement II does not explain Statement I",
+            "(c) Statement I is correct, but Statement II is incorrect",
+            "(d) Statement I is incorrect, but Statement II is correct"
+          ],
+          answer: "(c) Statement I is correct, but Statement II is incorrect",
+          explanation: "Statement I is correct: Article 163(2) states that the Governor's decision on whether a matter falls under discretion is final. Statement II is incorrect: while Article 163(2) limits questioning on whether discretion applies, the Supreme Court (Rameshwar Prasad v. Union of India, 2006; Nabam Rebia, 2016) has clarified that gubernatorial actions are subject to judicial review if they are arbitrary, malafide, or constitutionally improper."
+        },
+        {
+          question: "With reference to the National Testing Agency (NTA), which of the following statements is/are correct?\n1. NTA was established in 2017 as a society under the Societies Registration Act, 1860.\n2. NTA is a statutory body created by an Act of Parliament specifically for conducting entrance examinations.\n3. NTA operates under the Ministry of Education and manages examinations including JEE (Main), NEET-UG, CUET, and UGC-NET.\n4. Education is a Concurrent List subject under Schedule VII of the Constitution, which enables the Centre to mandate a national entrance test for medical admissions.\n\nSelect the correct answer using the code given below:",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 1, 3, and 4 only",
+            "(c) 2 and 3 only",
+            "(d) 2, 3, and 4 only"
+          ],
+          answer: "(b) 1, 3, and 4 only",
+          explanation: "Statements 1, 3, and 4 are correct. Statement 2 is incorrect: the NTA is an autonomous, self-sustaining registered society under the Societies Registration Act, 1860, established via cabinet decision/executive order, not an Act of Parliament (it is not a statutory body)."
+        },
+        {
+          question: "The World Health Statistics 2026 report released by WHO found that:\n1. New HIV infections globally fell by 40% between 2010 and 2024.\n2. The number of people needing interventions for neglected tropical diseases dropped by 36% between 2010 and 2024.\n3. The world is on track to achieve most health-related SDG targets by 2030.\n4. COVID-19 resulted in approximately 22.1 million excess deaths globally.\n\nWhich of the statements given above are correct?",
+          options: [
+            "(a) 1, 2, and 4 only",
+            "(b) 1 and 4 only",
+            "(c) 2, 3, and 4 only",
+            "(d) All of the above"
+          ],
+          answer: "(a) 1, 2, and 4 only",
+          explanation: "Statements 1, 2, and 4 are correct and reflect actual findings from the WHO World Health Statistics 2026 report. Statement 3 is incorrect: the core warning of the report is that the world is currently off-track on ALL health-related SDG targets by 2030."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The repeated failure of India's national examination system to ensure paper integrity reflects not a technology deficit, but a governance deficit. The NTA's structural design makes it accountable to no one in the manner a statutory body would be.\" Critically examine this assertion in the context of NEET-UG 2026.",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"A year after Operation Sindoor, India has demonstrated the effectiveness of precision cross-border military strikes, but the operation's diplomatic consequences suggest that military superiority does not automatically translate into strategic influence.\" Do you agree? Examine the geopolitical lessons from the first year after the ceasefire.",
+          context: "GS Paper II/III | 250 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-17",
+    date: "17th May 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "17-1",
+        title: "India-EU FTA 2026: The Mother of All Deals",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) + GS Paper III (Trade)",
+        content: "📌 **QUICK TAKE**\nIndia and the EU concluded the most ambitious free trade agreement either side has ever signed on January 27, 2026 — creating a trade zone of 2 billion people covering 25% of global GDP. Today PM Modi arrives in Gothenburg, Sweden, meeting EU Commission President Ursula von der Leyen and Swedish PM Ulf Kristersson at the European Round Table for Industry. The 3rd India-Nordic Summit in Oslo (May 19) and the India-EFTA TEPA complete India's European trade architecture — a Prelims and Mains-priority cluster.\n\n📰 **WHAT HAPPENED**\nIndia-EU FTA negotiations concluded at Hyderabad House, New Delhi, on January 27, 2026 — nearly 19 years after talks began in 2007. European Commission President Ursula von der Leyen, who had attended India's Republic Day celebrations as chief guest on January 26, called it the \"mother of all deals.\" Commerce Minister Piyush Goyal expected implementation by early 2027 after ratification.\n\nThe deal covers goods, services, digital trade, intellectual property, trade remedies, rules of origin, customs facilitation, and emerging sectors. Key provisions: tariffs eliminated or substantially reduced on 96.6% of EU exports to India by value (autos from ~110% to ~10% phased; machinery from 44% to near-zero; wine from 150% to 20–30%). India gains duty-free access for textiles and apparel (currently 12–17% in EU → zero); leather, footwear, marine products (shrimp tariff up to 26% → zero); gems and jewellery; and pharmaceuticals. Services: India gets access to 144 EU subsectors for IT/ITeS and professional services. Bilateral goods trade in 2024-25 was $136.42 billion (India exported $75.85 billion; imports $60.68 billion — India had a surplus).\n\nOn May 17, PM Modi is at Gothenburg, Sweden for bilateral talks with Swedish PM Kristersson and the European Round Table for Industry with von der Leyen. The 3rd India-Nordic Summit in Oslo, Norway (May 19) will include all five Nordic leaders, building on the India-EU FTA to expand India's northern European strategic partnerships. The India-EFTA TEPA (signed March 10, 2024 — Switzerland, Iceland, Norway, Liechtenstein committing $100 billion in investment over 15 years) gives India an additional European trade pillar.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| India-EU FTA concluded | January 27, 2026 (Hyderabad House, New Delhi) |\n| Bilateral goods trade (2024-25) | $136.42 billion |\n| India's goods exports to EU | $75.85 billion (India had a trade surplus) |\n| EU's share in India's total trade | ~11.5% |\n| India's rank in EU's total trade | 9th largest partner (~2.4% of EU trade) |\n| Tariff lines covered | 96.8% (goods); value coverage ~99.5% |\n| Entry into force (target) | Early 2027 (after ratification) |\n| India-EFTA TEPA signed | March 10, 2024 (Switzerland, Norway, Iceland, Liechtenstein) |\n| EFTA investment commitment | $100 billion over 15 years in India |\n| India-Sweden bilateral trade (2025) | $7.75 billion |\n| Norway GPFG holdings in India | ~$28 billion (world's largest sovereign wealth fund) |\n| 3rd India-Nordic Summit | Oslo, Norway, May 19, 2026 |",
+        whyItMatters: "Three critical UPSC traps in this topic:\n1. FTA vs CEPA vs CETA: The India-EU deal is officially an \"FTA\" (Free Trade Agreement) — NOT a CEPA. The EU uses the term \"FTA\" for comprehensive deals including services. India uses \"CEPA\" for similar deals (UAE CEPA, South Korea CEPA). Don't confuse terminologies: CEPA is India's preferred label; EU calls theirs FTAs.\n2. EU structure: EU has 27 member states. EFTA has 4: Switzerland, Iceland, Norway, Liechtenstein. Norway is in EFTA but NOT the EU. The India-EFTA TEPA (2024) and India-EU FTA (2026) are DIFFERENT agreements with DIFFERENT partners. Students confuse Norway and Sweden as \"EU members\" — Sweden IS in the EU; Norway is NOT.\n3. Ratification: India does NOT require Parliamentary ratification for trade agreements. Only Cabinet (Council of Ministers) approval is needed. The EU requires Council of the EU (qualified majority) + European Parliament consent. This asymmetry is a classic Mains trap.",
+        revise: "WTO's Most Favoured Nation (MFN) principle and how FTAs create \"trade diversion\" vs \"trade creation\" — connect to Viner's model; EFTA (European Free Trade Association) formed 1960, HQ Geneva, 4 members; India-EU Strategic Partnership (2004); CBAM (Carbon Border Adjustment Mechanism) where India did NOT get a CBAM exemption under the FTA — this affects Indian steel, cement, and aluminium exporters; Norway's GPFG: Largest sovereign wealth fund (~$1.7 trillion) major investor in Indian markets.",
+        pyqConnect: "UPSC GS III Mains 2023 — 'India's free trade agreements have not delivered the expected trade outcomes. Discuss.' — directly applicable with India-EU FTA data."
+      },
+      {
+        id: "17-2",
+        title: "Kharif MSP 2026-27: CCEA Approves 14-Crop Price Support",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Agriculture / Economy)",
+        content: "📌 **QUICK TAKE**\nOn May 13, CCEA approved higher MSPs for 14 Kharif crops for Marketing Season 2026-27. Sunflower seed records the highest absolute hike (₹622/quintal); paddy common rises to ₹2,441. The government reaffirmed its formula of pricing MSP at \"at least 1.5x the all-India weighted average cost of production (C2 cost)\" and promoted pulses, oilseeds, and Shree Anna/millets through higher relative support. Total estimated MSP payout: ₹2.60 lakh crore — a record.\n\n📰 **WHAT HAPPENED**\nThe Cabinet Committee on Economic Affairs (CCEA), chaired by PM Narendra Modi, approved the MSP revision for 14 Kharif crops ahead of the sowing season. The highest increases were for sunflower seed (+₹622), cotton (+₹557), nigerseed (+₹515), and sesamum (+₹500) — all oilseeds, reflecting India's policy push to reduce edible oil import dependence. The government noted that India still imports significant quantities of edible oils (primarily from Indonesia, Malaysia, Ukraine, Argentina) and is using MSP incentives to encourage domestic oilseed cultivation.\n\nFor paddy (India's most widely grown Kharif crop): common variety MSP rose to ₹2,441/quintal (+₹72 from ₹2,369) and Grade A to ₹2,461/quintal. Millets saw significant support: bajra ₹2,900, ragi ₹5,205 (+₹319), jowar (hybrid) ₹4,023 (+₹324) — aligning with the Shree Anna (millets) promotion agenda. The estimated market intervention would procure over 824 LMT (lakh metric tonnes) of crops.\n\nThe government highlighted that MSP payments to all 14 Kharif crop farmers rose from ₹4.75 lakh crore in the decade 2004–2014 to ₹18.99 lakh crore in 2014–2026 — a near four-fold increase. The decision also noted that the expected return above cost of production for 2026-27 is highest for moong (black gram), followed by bajra, maize, and tur/arhar (pigeon pea).\n\n📊 **KEY DATA TABLE**\n\n| Crop | MSP 2026-27 (₹/quintal) | Increase (₹/quintal) |\n|---|---|---|\n| Sunflower Seed | 8,343 | +622 (highest) |\n| Cotton (Med. Staple) | 8,267 | +557 |\n| Sesamum | 10,346 | +500 |\n| Nigerseed | 10,052 | +515 |\n| Paddy (Common) | 2,441 | +72 |\n| Paddy (Grade A) | 2,461 | +72 |\n| Bajra | 2,900 | +125 |\n| Ragi | 5,205 | +319 |\n| Jowar (Hybrid) | 4,023 | +324 |\n| Tur/Arhar | 8,450 | — |\n| Maize | 2,410 | +10 (lowest) |",
+        whyItMatters: "UPSC repeatedly tests the MSP cost formula. Three cost definitions — know all three:\n— A2: Actual paid-out costs (seeds, fertilisers, hired labour, fuel, irrigation)\n— A2+FL: A2 + imputed value of family labour\n— C2: A2+FL + imputed rental value of owned land + interest on fixed capital\n\nThe Swaminathan Commission (2006) recommended MSP = C2 + 50% (i.e., 1.5x C2). The current government claims its MSPs provide \"at least 1.5x the all-India weighted average cost of production.\" But which cost? The government uses a NATIONAL WEIGHTED AVERAGE cost, closer to A2+FL in practice for most crops, not the C2 of the most marginal state. UPSC will test: \"MSP is fixed at 1.5x of C2 costs\" — this is technically INCORRECT as the statutory standard implemented is at least 1.5x of A2+FL.",
+        revise: "CCEA (Cabinet Committee on Economic Affairs) chaired by the PM; Commission for Agricultural Costs and Prices (CACP) which recommends MSP to CCEA and produces the Price Policy reports; Shree Anna initiative; PM AASHA (Pradhan Mantri Annadata Aay Sanrakshan Abhiyan) procurement scheme linked to MSP including PDPS (Price Deficiency Payment Scheme) for oilseeds; India's edible oil import dependence (~60% imported).",
+        pyqConnect: "UPSC GS III Mains 2019 — 'What are the main constraints in diversifying the cropping pattern in India? How can the MSP policy be made more effective?' — directly applicable."
+      },
+      {
+        id: "17-3",
+        title: "GRID 2026: Internal Displacement Hits 82.2 Million — Conflict Now #1 Driver",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) + GS Paper I (Society)",
+        content: "📌 **QUICK TAKE**\nThe Global Report on Internal Displacement 2026 (GRID 2026), released May 12 by IDMC and Norwegian Refugee Council, found 82.2 million people internally displaced across 104 countries at end of 2025 — the second-highest ever. For the FIRST TIME in recorded history, conflict and violence drove more displacement than disasters: 68.6 million displaced by conflict vs 13.6 million by disasters. India's Manipur still has 78,000 displaced. Conflict displacements surged 60% year-on-year.\n\n📰 **WHAT HAPPENED**\nIDMC (Internal Displacement Monitoring Centre) is the world's leading source of data on internal displacement, established in 1998 as part of the Norwegian Refugee Council (NRC), headquartered in Geneva. Its annual GRID (Global Report on Internal Displacement) is the authoritative global reference.\n\nGRID 2026 covers the state of internal displacement as of end 2025. Total 82.2 million people living as IDPs (Internally Displaced Persons) across 104 countries — down slightly from the 2024 high of 83.4 million, but still double the 38.9 million recorded in 2016. The headline finding: conflict and violence caused 32.3 million NEW internal displacement movements in 2025 (a 60% jump over 2024, more than double the decadal average, the highest conflict displacement ever recorded). This marks the FIRST TIME that conflict overtook disasters as the primary driver of annual displacement events.\n\nTotal new displacements in 2025: 62.2 million events (counting each movement separately). Disaster-related displacements fell to 29.9 million — a 35% decline from 2024's high.\n\nIndia-specific findings: 78,000 people remain displaced in Manipur due to conflict (predominantly from the May 2023 ethnic violence that displaced hundreds of thousands). South Asia saw a sharp overall rise in conflict displacement, linked to India-Pakistan and Afghan-Pakistan tensions.\n\nThe report warns about growing data gaps: reduced displacement data availability in 15% of monitored countries in 2025 (three times the share of 2024), raising concerns that the true scale of the crisis may be underreported.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Report name | GRID 2026 (Global Report on Internal Displacement) |\n| Released by | IDMC + Norwegian Refugee Council (NRC) |\n| Total IDPs at end 2025 | 82.2 million (across 104 countries) |\n| Countries/territories covered | 104 |\n| IDPs displaced by conflict | 68.6 million (cumulative) |\n| IDPs displaced by disasters | 13.6 million (cumulative) |\n| New conflict displacement events 2025 | 32.3 million (+60% over 2024) — highest ever |\n| New disaster displacement events 2025 | 29.9 million (-35% from 2024) |\n| Total new displacement events 2025 | 62.2 million |\n| IDPs in 2016 (comparison) | 38.9 million (more than doubled since) |\n| India: Manipur IDPs | ~78,000 still displaced |\n| IDMC established | 1998, as part of Norwegian Refugee Council (NRC) |\n| IDMC headquartered | Geneva, Switzerland |",
+        whyItMatters: "IDP vs Refugee — this is UPSC's favourite distinction in this topic:\n— IDPs (Internally Displaced Persons): Forced to flee but remain WITHIN their own country's borders. They are NOT protected by the 1951 Refugee Convention. They remain under the legal jurisdiction of their own state. The Guiding Principles on Internal Displacement (1998) are the key soft law framework — NOT legally binding.\n— Refugees: Cross an internationally recognised border into another country. Protected under the 1951 Refugee Convention and its 1967 Protocol. Governed by UNHCR.\n\nUPSC trap statement: \"IDPs fall under the protection of the 1951 Refugee Convention\" → This is INCORRECT. The 1951 Convention applies only to refugees (cross-border). IDPs are technically in a legal gap — their own government has the primary obligation to protect them. Note also that India is NOT a signatory to the 1951 Refugee Convention.",
+        revise: "1951 Refugee Convention + 1967 Protocol pillars (non-refoulement, non-penalisation, non-discrimination); UNHCR (UN High Commissioner for Refugees) mandate; Guiding Principles on Internal Displacement (1998); Manipur conflict (May 2023) ethnic violence dynamics between Meitei and Kuki communities; Global Compact on Refugees (2018); IOM (International Organisation for Migration) and its Displacement Tracking Matrix (DTM).",
+        pyqConnect: "UPSC GS II Mains 2015 — 'Refugees should not be forced back to their country of origin. Discuss.' — directly applicable on IDP vs refugee distinction."
+      },
+      {
+        id: "17-4",
+        title: "US Russian Crude Waiver Expires: India's Energy Autonomy Under Test",
+        subtitle: "🟡 Important | Mains Focus | GS Paper III (Economy/Energy) + GS Paper II (IR)",
+        content: "📌 **QUICK TAKE**\nThe US General License 134B — the sanctions waiver allowing India and other nations to purchase Russian crude oil without triggering US secondary sanctions — expired on May 16, 2026. India had hit a record 2.3 million barrels per day in Russian crude imports under the waiver window. The expiry creates a live secondary sanctions risk for Indian refiners unless the US grants an extension. India has formally asked for renewal, framing it as an energy security and supply stability concern — not a political choice.\n\n📰 **WHAT HAPPENED**\nContext: The US-Israel military strike on Iran on February 28, 2026 caused near-total closure of the Strait of Hormuz, cutting off roughly 20% of global oil flows. India, which imports ~85% of its crude, faced an acute supply crisis. The US granted India a time-limited waiver (General License 134) in March 2026 allowing purchases of Russian crude without secondary sanctions exposure. The waiver was later expanded globally and extended to May 16 as General License 134B.\n\nRussian crude is NOT under blanket US sanctions (unlike Iranian oil, which is comprehensively prohibited). However, specific Russian oil companies (Rosneft, Lukoil) are under US designation, and transactions involving them can trigger secondary sanctions on third-party buyers. The waiver carved out an exception.\n\nUnder the waiver window, India's Russian crude imports reached a record 2.3 million barrels per day in early May 2026 as refiners accelerated purchases. Russian crude represented 44.4% of India's total oil imports in March 2026 — making Russia India's single largest crude supplier. The license expired May 16 without a confirmed renewal. US Treasury Secretary Bessent had initially said there would be no extension; within 48 hours the US reversed, granting a renewal — only for it to lapse again on May 16.\n\nIndia has formally communicated to Washington that energy supply stability is a sovereign economic priority. Indian officials warned US counterparts that oil price volatility is affecting 1.4 billion people and causing cooking gas shortages. India frames oil procurement as a purely commercial, not political, decision — a consistent posture of strategic autonomy.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Waiver instrument | US General License 134B (OFAC) |\n| Expiry date | May 16, 2026 |\n| India's Russian crude imports (May) | Record 2.3 million barrels per day (bpd) |\n| Russia's share in India's imports (Mar) | 44.4% of total crude imports |\n| Sanctioned Russian entities covered | Rosneft, Lukoil (plus others designated by OFAC) |\n| Initial waiver issued | March 5, 2026 (India-specific, then global) |\n| Russia vs Iran sanctions distinction | Russian crude: secondary sanctions risk (not blanket prohibition); Iranian crude: comprehensive blanket prohibition |\n| India-Russia bilateral trade (FY26) | ~$65 billion (energy-dominated) |\n\n⚠️ **THE UPSC TRAP**\nPrimary vs Secondary Sanctions:\n— Primary sanctions: Prohibit US persons/entities from dealing with a sanctioned party.\n— Secondary sanctions: Target third-country entities (non-US) that deal with a sanctioned party. The US can cut off secondary-sanctioned entities from the US financial system.\n\nIndian refiners buying Russian crude DON'T violate primary sanctions (no US entity involved). But if they buy from designated entities like Rosneft, they risk secondary sanctions — being cut off from dollar clearing, US correspondent banks. The waiver exempted this risk.\n\nA common misconception: \"India buying Russian crude is illegal under US law.\" FALSE. Russia is NOT under comprehensive US oil sanctions. India faces secondary sanctions RISK, not primary prohibition. Iran's oil IS under comprehensive sanctions — a categorically different situation. UPSC will test this distinction in a Statement I/II format.\n\n🔗 **STATIC CONNECTIONS**\n- OFAC (Office of Foreign Assets Control): US Treasury's sanctions enforcement arm.\n- FEMA (Foreign Exchange Management Act, 1999): Governs India's cross-border financial transactions, including oil payment mechanics.\n- Russia-Ukraine war and India's strategic autonomy: India's abstentions at UNGA on Ukraine resolutions; India's \"friendship with all\" foreign policy posture.\n- India's energy security doctrine: Strategic Petroleum Reserves, diversification of crude supply, push for renewables — all connect to this topic.\n- Nayara Energy: Private Indian refinery (formerly Essar Oil); stake held by Rosneft — a key entity affected by waiver expiry.\n\n📝 **EXAM ANGLES**\n- **Prelims**: OFAC status; primary vs secondary sanctions; Russian crude vs Iranian crude sanctions comparison; Nayara Energy ownership.\n- **Mains**: \"India's energy security interests and its strategic autonomy in foreign policy are increasingly being tested by Western sanctions regimes. Discuss with reference to India's import of Russian crude oil.\" (GS II / GS III).",
+        whyItMatters: "Primary vs Secondary Sanctions:\n— Primary sanctions: Prohibit US persons/entities from dealing with a sanctioned party.\n— Secondary sanctions: Target third-country entities (non-US) that deal with a sanctioned party. The US can cut off secondary-sanctioned entities from the US financial system.\n\nIndian refiners buying Russian crude DON'T violate primary sanctions (no US entity involved). But if they buy from designated entities like Rosneft, they risk secondary sanctions — being cut off from dollar clearing, US correspondent banks. The waiver exempted this risk.",
+        revise: "OFAC (Office of Foreign Assets Control) of US Treasury; FEMA (Foreign Exchange Management Act, 1999) and its oil payment mechanics; India's Strategic Petroleum Reserves (Visakhapatnam, Mangaluru, Padur); Nayara Energy stake ownership under Rosneft.",
+        pyqConnect: "UPSC GS II Mains 2022 — 'The Ukraine-Russia war has forced India to walk a diplomatic tightrope. Discuss the implications for India's strategic autonomy.'"
+      },
+      {
+        id: "17-5",
+        title: "Operation RAGEPILL: India's First-Ever Captagon Seizure",
+        subtitle: "🟡 Important | Prelims Focus | GS Paper III (Internal Security)",
+        content: "📌 **QUICK TAKE**\nUnion Home Minister Amit Shah announced on May 16 that enforcement agencies, under \"Operation RAGEPILL\", achieved India's first-ever seizure of Captagon — a banned synthetic stimulant worth ₹182 crore. The consignment was destined for the Middle East. A foreign national was arrested. The \"Jihadi Drug\" label stems from its documented use by militant fighters in West Asian conflict zones; India's seizure signals that Indian territory is being used as a transit route for narcotics headed to the Gulf.\n\n📰 **WHAT HAPPENED**\nCaptagon (chemical name: fenethylline hydrochloride) is a synthetic amphetamine-type stimulant (ATS). Originally marketed in the 1960s as a treatment for narcolepsy, depression, and hyperactivity disorder, it was banned globally in most countries by the 1980s when its high abuse potential became clear. Under India's NDPS Act (Narcotic Drugs and Psychotropic Substances Act, 1985), Captagon falls in the psychotropic substance category.\n\nThe drug earned the \"Jihadi Drug\" label because it has been extensively documented in use by fighters in the Syrian civil war and other West Asian conflicts — reportedly suppressing fear, reducing fatigue, and increasing aggression. Captagon production is concentrated primarily in Syria and is smuggled to major consumer markets in the Gulf, particularly Saudi Arabia. The West Asian conflict (US-Israel-Iran, 2026) has increased demand in the region as conflict expands.\n\nIndia's seizure under Operation RAGEPILL is significant for two reasons: (1) It is the first such seizure in India — previously India had not recorded any Captagon trafficking. (2) The seizure confirms India is being used as a transit point for narcotics destined for the Middle East, consistent with India's location as a hub between South Asian production zones and Gulf consumer markets.\n\nThe operation was coordinated under the Narcotics Control Bureau (NCB), which operates under the Ministry of Home Affairs. The foreign national arrested connects to the transnational nature of the drug trafficking network.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Operation name | Operation RAGEPILL |\n| Substance seized | Captagon (fenethylline hydrochloride) |\n| Seizure value | ₹182 crore |\n| India's first seizure of type | Yes — first-ever Captagon seizure in India |\n| Consignment destination | Middle East (transit through India) |\n| Arrested | 1 foreign national |\n| Drug category (India) | Psychotropic Substance under NDPS Act 1985 |\n| Chemical class | Amphetamine-Type Stimulant (ATS) |\n| Primary production region | Syria (predominantly) |\n| Key consumer market | Saudi Arabia and Gulf states |\n| Controlling agency | NCB (under Ministry of Home Affairs) |\n| \"Jihadi Drug\" nickname | Used by fighters in Syrian civil war and West Asia |",
+        whyItMatters: "Know the institutional hierarchy for narcotics control in India:\n— NDPS Act 1985: Primary legislation; defines narcotics and psychotropic substances; Schedules I, II, III list controlled substances.\n— NCB (Narcotics Control Bureau): Nodal agency under MHA for drug law enforcement. NOT under the Ministry of Health.\n— DRI (Directorate of Revenue Intelligence): Handles drug smuggling cases with customs angle; under Ministry of Finance.\n— ANTF (Anti-Narcotics Task Force): State-level — different from NCB.\n\nUPSC will test: \"NCB operates under the Ministry of Health\" — FALSE. It is under MHA. Another trap: Captagon is NOT a cannabis or opioid — it is an ATS (amphetamine-type stimulant).",
+        revise: "NDPS Act 1985; NCB MHA administrative status; NCORD (Narco Coordination Centre) inter-agency framework; Operation SAGAR MANTHAN series (maritime drug interdiction); INCB (International Narcotics Control Board) UN treaty compliance monitor.",
+        pyqConnect: "UPSC GS III Mains 2021 — 'Cross-border drug trafficking has emerged as a major national security threat in India. Analyse the institutional mechanisms in place to counter this threat.'"
+      },
+      {
+        id: "17-6",
+        title: "India Forex Reserves: $696.99 Billion and the Gold Surge",
+        subtitle: "🟢 Good to Know | Prelims Focus | GS Paper III (Economy / External Sector)",
+        content: "📌 **QUICK TAKE**\nIndia's foreign exchange reserves rose to $696.99 billion in the week ending May 8, 2026, led by a sharp rise in gold reserves. The reserves provide about 11 months of import cover and cover ~96% of India's external debt. With the rupee under pressure (-6% vs dollar in 2026) and crude oil imports expensive, the forex reserve level is a key macroeconomic buffer. UPSC tests the components of forex reserves and RBI's role in managing them almost every year.\n\n📰 **WHAT HAPPENED**\nThe RBI releases weekly forex reserve data every Friday, covering the preceding week. As of the week ending May 8, 2026, India's total forex reserves stood at $696.99 billion — a rise from the preceding week. The increase was led by a sharp jump in gold reserves (as global gold prices rose amid geopolitical tensions and dollar uncertainty).\n\nIndia's all-time high in forex reserves was $704.885 billion (September 2024). The current level at $696.99 billion represents near-record levels. The context matters: India's forex reserves had declined sharply in late 2024 and early 2025 due to RBI interventions to support the rupee, and have recovered since. The rupee remains under pressure in 2026 due to elevated oil import bills and capital outflows related to global uncertainty.\n\nThe reserves provide: (1) 11 months of import cover — a key buffer measure (IMF recommends 3 months minimum; India's level is considered strong). (2) Coverage of ~96% of India's total external debt — strong external sector resilience. (3) A cushion for RBI to intervene in currency markets to prevent excessive rupee depreciation.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Total forex reserves (May 8, 2026) | $696.99 billion |\n| India's all-time high forex reserves | $704.885 billion (September 2024) |\n| Import cover provided | ~11 months |\n| External debt coverage | ~96% of total external debt |\n| Driver of recent increase | Sharp rise in gold reserves |\n| Rupee performance in 2026 | >6% depreciation against USD (Asia's weakest) |\n| Components of forex reserves | (1) Foreign currency assets (largest) (2) Gold (3) SDRs (4) Reserve Tranche position in IMF |\n| Custodian of forex reserves | Reserve Bank of India (RBI) |\n| RBI's target (reserve adequacy) | Adequate import cover + external debt coverage |",
+        whyItMatters: "Four components of India's foreign exchange reserves — UPSC tests which is included and which is not. The four components are:\n1. Foreign Currency Assets (FCA) — largest component; denominated mostly in USD but includes Euros, GBP, JPY, etc.\n2. Gold — valued at current market prices\n3. SDRs (Special Drawing Rights) — allocated by the IMF; not a currency, but a claim on IMF member currencies\n4. Reserve Tranche Position in the IMF — India's unconditional right to draw from the IMF\n\nTRAP: Students often confuse \"SDRs\" with \"IMF loans\" — they are DIFFERENT. SDRs are an asset (allocated unconditionally); IMF loans (drawings) are liabilities. India's SDR holdings are part of forex reserves; IMF borrowings are external debt.\n\nAnother trap: Forex reserves are managed by RBI — NOT by the Finance Ministry, NOT by SEBI, NOT by EXIM Bank.",
+        revise: "RBI currency intervention objectives; Gold Monetisation Scheme and Sovereign Gold Bonds; FEMA 1999 (Foreign Exchange Management Act) framework; IMF Quota and Voting Rights; Balance of Payments (BoP) accounting.",
+        pyqConnect: "UPSC GS III Mains 2022 — 'What are the components of India's foreign exchange reserves? Discuss their significance.' — directly applicable."
+      }
+    ],
+    reviseSummary: [
+      "India-EU FTA: Signed Jan 27, 2026; India requires Cabinet approval only; EU requires Council and Parliament.",
+      "Kharif MSP: CCEA approves, CACP recommends; cost definitions A2 vs A2+FL vs C2; National Weighted Average.",
+      "GRID 2026: Conflict overtook disasters as #1 displacement driver globally; IDPs remain within borders (no Refugee Convention protection).",
+      "US Crude Waiver: Expiry of OFAC General License 134B; distinction between primary and secondary US sanctions.",
+      "Operation RAGEPILL: NCB under Ministry of Home Affairs (MHA), not Health; Captagon (fenethylline) = ATS category.",
+      "Forex Reserves: Four components (FCA, Gold, SDRs, Reserve Tranche); managed under FEMA 1999 by RBI."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the India–European Union Free Trade Agreement (2026), consider the following statements:\n1. The agreement requires Parliamentary ratification in India before it can come into force.\n2. Norway, as a Nordic country deeply invested in India, is covered under the India-EU FTA.\n3. India did not receive an exemption from the EU's Carbon Border Adjustment Mechanism (CBAM) under the FTA.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 3 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 3 only",
+          explanation: "Statement 3 is correct: India did NOT receive a CBAM exemption, and Indian exporters will face carbon tariffs. Statement 1 is incorrect: trade agreements in India only require Cabinet approval, not Parliamentary ratification. Statement 2 is incorrect: Norway is not in the EU, it is in EFTA, and is covered under the India-EFTA TEPA (2024), which is a completely separate trade agreement."
+        },
+        {
+          question: "Consider the following pairs — Crop and its MSP increase for Kharif 2026-27:\n1. Sunflower seed — Highest absolute increase (₹622/quintal)\n2. Paddy (Common) — Revised MSP is ₹2,441/quintal\n3. Maize          — Highest percentage increase among cereals\n\nWhich of the pairs given above is/are correctly matched?",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 1 and 2 only",
+          explanation: "Pairs 1 and 2 are correctly matched based on CCEA announcements. Pair 3 is incorrectly matched: Maize received the lowest absolute increase of only ₹10 per quintal, while ragi (+₹319) and jowar hybrid (+₹324) received the highest increases among cereals."
+        },
+        {
+          question: "Consider the following statements:\nStatement I: Internally Displaced Persons (IDPs) are not protected by the 1951 Refugee Convention.\nStatement II: IDPs, unlike refugees, remain within their own country's internationally recognised borders and therefore fall under the legal jurisdiction of their own state.\n\nWhich one of the following is correct in respect of the above Statements?",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I",
+            "(b) Both Statement I and Statement II are correct, but Statement II is not the correct explanation of Statement I",
+            "(c) Statement I is correct, but Statement II is incorrect",
+            "(d) Statement I is incorrect, but Statement II is correct",
+          ],
+          answer: "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I",
+          explanation: "Both statements are correct. Statement I is true: the 1951 Refugee Convention does not apply to IDPs. Statement II is the exact causal explanation for this, because refugees cross international borders while IDPs remain inside their own country and thus fall under domestic jurisdiction rather than international refugee law."
+        },
+        {
+          question: "Consider the following statements about India's foreign exchange reserves:\n1. Foreign Currency Assets (FCA) constitute the largest component of India's forex reserves.\n2. Special Drawing Rights (SDRs) allocated by the IMF are a form of IMF loan to India.\n3. India's foreign exchange reserves are managed by the Reserve Bank of India.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statements 1 and 3 are correct. Statement 2 is incorrect: SDRs are unconditionally allocated assets by the IMF based on quotas and are part of India's reserves; they are not IMF loans/drawings, which are liabilities."
+        },
+        {
+          question: "With reference to India's narcotics control framework, consider the following:\n1. The Narcotics Control Bureau (NCB) functions under the Ministry of Health and Family Welfare.\n2. Captagon (fenethylline) is classified as a psychotropic substance under the NDPS Act, 1985.\n3. NCORD (Narco Coordination Centre) serves as the nodal body for inter-agency narcotics coordination in India.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 2 and 3 only",
+            "(b) 1 and 2 only",
+            "(c) 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 2 and 3 only",
+          explanation: "Statements 2 and 3 are correct. Statement 1 is incorrect: the NCB is under the Ministry of Home Affairs (MHA), not the Ministry of Health and Family Welfare."
+        }
+      ],
+      mains: [
+        {
+          question: "\"International trade agreements are simultaneously economic instruments and foreign policy tools.\" With reference to India's recent trade architecture — the India-EU FTA, India-EFTA TEPA, and the India-UK CETA — critically examine how India is reshaping its global economic engagement.",
+          context: "GS Paper II/III | 250 words"
+        },
+        {
+          question: "\"Internal displacement is the invisible humanitarian crisis of our times, receiving neither the legal protection of refugee law nor the political attention of cross-border migration.\" Critically analyse with reference to the GRID 2026 findings and India's own displacement situations.",
+          context: "GS Paper I/II | 250 words"
+        }
+      ]
+    }
   }
 ];
 
