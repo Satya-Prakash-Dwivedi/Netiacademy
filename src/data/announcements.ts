@@ -8,6 +8,7 @@ export interface Announcement {
   author: string;
   image: string;
   pdfUrl?: string; // Optional PDF link
+  solutionPdfUrl?: string; // Optional Solution PDF link
 }
 
 export const platformAnnouncements: Announcement[] = [
@@ -165,6 +166,7 @@ Less noise. More clarity.
     date: "May 6, 2026",
     author: "Team Neti Academy",
     image: "/images/mock-test-1.png",
-    pdfUrl: "/Paper/Neti ALL INDIA PRELIMS MOCK TEST 2026 (1).pdf"
+    pdfUrl: "/Paper/Neti ALL INDIA PRELIMS MOCK TEST 2026 (1).pdf",
+    solutionPdfUrl: "/Paper/Neti All India Mock Test GS1 Solutions.pdf"
   }
 ];

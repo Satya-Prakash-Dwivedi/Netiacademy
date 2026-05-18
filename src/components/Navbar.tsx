@@ -10,10 +10,15 @@ import { NavLink } from "react-router-dom";
 
 const mainNavItems = [
   { name: "Home", path: "/" },
-  { name: "Current Affairs", path: "/current-affairs" },
   { name: "Mind", path: "/mind" },
   { name: "Courses", path: "/courses" },
 ];
+
+const currentAffairsItems = [
+  { name: "Daily Current Affairs", path: "/current-affairs" },
+  { name: "Monthly Magazine", path: "/monthly-magazines" },
+];
+
 
 const dropdownItems = [
   { name: "Plan B", path: "/plan-b" },
@@ -23,7 +28,10 @@ const dropdownItems = [
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isCADropdownOpen, setIsCADropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLLIElement>(null);
+  const caDropdownRef = useRef<HTMLLIElement>(null);
+
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
@@ -33,16 +41,20 @@ const Navbar = () => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
         setIsDropdownOpen(false);
       }
+      if (caDropdownRef.current && !caDropdownRef.current.contains(event.target as Node)) {
+        setIsCADropdownOpen(false);
+      }
     };
 
-    if (isDropdownOpen) {
+    if (isDropdownOpen || isCADropdownOpen) {
       document.addEventListener("mousedown", handleClickOutside);
     }
     
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isDropdownOpen]);
+  }, [isDropdownOpen, isCADropdownOpen]);
+
 
   return (
     <nav className="bg-white/80 backdrop-blur-md border-b border-slate-200 py-4 px-6 sticky top-0 z-50">
@@ -70,7 +82,58 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <ul className="flex items-center gap-8">
-            {mainNavItems.map((item) => (
+            <li key={mainNavItems[0].name}>
+              <NavLink
+                to={mainNavItems[0].path}
+                className={({ isActive }) =>
+                  `text-sm font-bold transition-all duration-200 relative group/item ${isActive
+                    ? "text-blue-900"
+                    : "text-slate-600 hover:text-blue-900"
+                  }`
+                }
+              >
+                {({ isActive }) => (
+                  <>
+                    {mainNavItems[0].name}
+                    <span className={`absolute -bottom-1 left-0 w-full h-0.5 bg-blue-900 transition-transform duration-300 ${isActive ? 'scale-x-100' : 'scale-x-0 group-hover/item:scale-x-100 opacity-30'}`} />
+                  </>
+                )}
+              </NavLink>
+            </li>
+
+            {/* Current Affairs Dropdown */}
+
+            <li className="relative" ref={caDropdownRef}>
+              <button 
+                onClick={() => setIsCADropdownOpen(!isCADropdownOpen)}
+                className={`flex items-center gap-1 text-sm font-bold transition-colors ${isCADropdownOpen ? 'text-blue-900' : 'text-slate-600 hover:text-blue-900'}`}
+              >
+                Current Affairs
+                <svg className={`w-4 h-4 transition-transform duration-200 ${isCADropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {/* CA Dropdown Panel */}
+              <div className={`absolute top-full left-0 mt-2 w-56 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden transition-all duration-200 origin-top-left ${isCADropdownOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
+                <div className="py-2">
+                  {currentAffairsItems.map((item) => (
+                    <NavLink
+                      key={item.name}
+                      to={item.path}
+                      onClick={() => setIsCADropdownOpen(false)}
+                      className={({ isActive }) =>
+                        `block px-6 py-3 text-sm font-bold transition-colors ${isActive ? 'text-blue-900 bg-blue-50' : 'text-slate-600 hover:text-blue-900 hover:bg-slate-50'}`
+                      }
+                    >
+                      {item.name}
+                    </NavLink>
+                  ))}
+                </div>
+              </div>
+            </li>
+
+            {mainNavItems.slice(1).map((item) => (
               <li key={item.name}>
                 <NavLink
                   to={item.path}
@@ -90,6 +153,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
             ))}
+
 
             {/* Dropdown Menu */}
             <li className="relative" ref={dropdownRef}>
@@ -162,7 +226,43 @@ const Navbar = () => {
       {/* Mobile Navigation Overlay */}
       <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-screen opacity-100 border-t border-slate-100 mt-4 visible' : 'max-h-0 opacity-0 invisible'}`}>
         <ul className="flex flex-col py-6 gap-2">
-          {mainNavItems.map((item) => (
+          <li key={mainNavItems[0].name}>
+            <NavLink
+              to={mainNavItems[0].path}
+              onClick={() => setIsMenuOpen(false)}
+              className={({ isActive }) =>
+                `text-lg font-bold px-6 py-3 block transition-colors ${isActive
+                  ? "text-blue-900 bg-blue-50/50 border-l-4 border-blue-900"
+                  : "text-slate-600 hover:text-blue-900 hover:bg-slate-50"
+                }`
+              }
+            >
+              {mainNavItems[0].name}
+            </NavLink>
+          </li>
+
+          {/* Mobile Current Affairs Section */}
+          <li className="px-6 py-3">
+             <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Current Affairs</p>
+             <div className="grid grid-cols-2 gap-4">
+                {currentAffairsItems.map((item) => (
+                  <NavLink
+                    key={item.name}
+                    to={item.path}
+                    onClick={() => setIsMenuOpen(false)}
+                    className={({ isActive }) =>
+                      `text-sm font-bold p-4 rounded-2xl border transition-colors ${isActive 
+                        ? 'text-blue-900 bg-blue-50 border-blue-100' 
+                        : 'text-slate-600 bg-white border-slate-100 hover:border-blue-100'}`
+                    }
+                  >
+                    {item.name}
+                  </NavLink>
+                ))}
+             </div>
+          </li>
+
+          {mainNavItems.slice(1).map((item) => (
             <li key={item.name}>
               <NavLink
                 to={item.path}
@@ -178,6 +278,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           ))}
+
           
           {/* Mobile Dropdown Section */}
           <li className="px-6 py-3">

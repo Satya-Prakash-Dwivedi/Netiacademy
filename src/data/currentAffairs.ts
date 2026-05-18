@@ -3062,5 +3062,1165 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-10",
+    date: "10th May 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~22 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **Sindoor Ceasefire — 1 Year On** — Today marks the anniversary of Pakistan's DGMO calling India's DGMO at 3:35 PM on May 10, 2025; the political fallout is far from settled\n🔴 **Hantavirus: MV Hondius Outbreak** — Andes virus confirmed on cruise ship; 8 cases, 3 deaths, 147 aboard; WHO DG travelled to Tenerife today; risk = LOW but monitoring continues\n🔴 **SC Ruling: Medical Negligence Doesn't Die With the Doctor** — Legal heirs can be impleaded; liability limited to inherited estate; landmark shift for India's ₹180 billion healthcare sector\n🔴 **Mission for Cotton Productivity 2026–31** — Centre launches 5-year mission for India's largest cash crop; productivity crisis, Pink Bollworm, and farmer income in focus\n🟡 **NITI Aayog CPO Portal** — Central Prabhari Officers now report in real-time; Aspirational Districts get closed-loop monitoring replacing paper-based feedback\n🟢 **UK's Reform Party Sweeps Local Elections** — Farage's hard-right Reform routs Labour; implications for India-UK FTA implementation timeline",
+    topics: [
+      {
+        id: "10-1",
+        title: "SINDOOR CEASEFIRE: 1 YEAR ON — THE UNRESOLVED QUESTIONS",
+        subtitle: "🔴 Must Read | Mains Primary | GS Paper II (IR + Governance)",
+        whyItMatters: "Today is the first anniversary of the ceasefire that ended Operation Sindoor — not of the strikes (May 7), but of the moment Pakistan's DGMO called India's DGMO at 3:35 PM and hostilities ended at 5 PM IST on May 10, 2025. The military dimension is settled. What is not settled: who ended the war, what India gained diplomatically, and whether Pakistan has been held accountable.",
+        content: "📰 WHAT HAPPENED\nOn May 10, 2025, the ceasefire announcement came in two conflicting versions. At 5:37 PM IST, U.S. Secretary of State Marco Rubio posted that the US had brokered a \"full and immediate ceasefire\" citing President Trump's intervention. About 30 minutes earlier, India's Foreign Secretary Vikram Misri had held a briefing attributing the ceasefire entirely to a DGMO-level call between the two countries — no mention of US involvement. India has maintained this bilateral framing consistently since.\n\nOne year later, on the May 7, 2026 anniversary of the strikes, Congress leader Jairam Ramesh catalogued five unresolved questions: (1) Trump has publicly claimed credit for ending the conflict 80+ times since May 10, 2025, and India has never directly refuted this on record; (2) India's Defence Attaché in Jakarta acknowledged aircraft losses on May 7, 2025 at a June seminar; (3) China provided Pakistan with real-time intelligence, satellite imagery, and targeting support during the four-day conflict; (4) Pakistan's Army Chief Field Marshal Asim Munir has been received with \"extraordinary warmth\" by Trump; (5) India has lost traditional patrolling rights in parts of Ladakh, and Chinese imports have continued rising.\n\n📊 KEY DATA TABLE\n| Event | Date | Detail |\n|-------|------|--------|\n| Operation Sindoor launched | May 7, 2025 | 9 terror camps destroyed; 100+ killed |\n| Pakistan retaliatory drones/strikes | May 7–9, 2025 | Most intercepted; India hit Lahore radar |\n| DGMO call (Pak → India) | May 10, 2025 | 3:35 PM IST; ceasefire at 5 PM IST |\n| Rubio's ceasefire announcement | May 10, 2025 | 5:37 PM IST — before India's briefing |\n| Misri's bilateral ceasefire briefing | May 10, 2025 | No mention of US role |\n| Trump's credit claims since May 10 | 2025–2026 | 80+ public statements |\n| India's Parliament debate (Mains) | Monsoon session, 2025 | 16-hour debate; all parties spoke |\n\n⚠️ THE UPSC TRAP\nUPSC will test Sindoor in two formats. In Prelims: \"With reference to Operation Sindoor, which of the following statements is/are correct?\" — and include a statement that \"India accepted US mediation for the ceasefire.\" That is wrong — India's official position is that the ceasefire was bilateral. Official Indian position: Pakistan's DGMO initiated the call; the ceasefire was bilateral.\n\n📝 EXAM ANGLES\nPrelims: US role in ceasefire = NOT officially acknowledged by India. Simla Agreement = bilateral framework (1972). India's DGMO = call received from Pakistan. Mains: Examine India's doctrine of strategic autonomy in light of Operation Sindoor's ceasefire and subsequent diplomatic developments.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Third-party mediation doctrine:** India's long-standing position that Kashmir + India-Pakistan disputes are bilateral under Simla Agreement (1972) — not subject to UN or US mediation\n- **Simla Agreement (1972):** Bilateral framework, supersedes UN resolutions on Kashmir\n- **India's Nuclear Doctrine:** No-first-use, minimum credible deterrence\n- **Parliamentary oversight of military operations:** Article 75 (cabinet collective responsibility), Section 3 of Official Secrets Act\n- **Kargil Review Committee (2000):** Accountability exercise; Kargil RC was chaired by K. Subrahmanyam",
+        pyqConnect: "\"The breakdown of 'strategic restraint' in India's counterterrorism doctrine raises questions about escalation management in South Asia. Discuss.\" (2025 Mains, GS Paper II)"
+      },
+      {
+        id: "10-2",
+        title: "ANDES HANTAVIRUS: THE MV HONDIUS OUTBREAK",
+        subtitle: "🔴 Must Read | Both | GS Paper III (S&T + Health) + GS Paper II (Governance/IHR)",
+        whyItMatters: "A Dutch expedition cruise ship, MV Hondius, has become the centre of a multi-country hantavirus emergency. The Andes virus — the only hantavirus species known to spread from person to person — has killed 3 and infected 8 of 147 people aboard. WHO Director General Tedros travelled personally to Tenerife today to oversee evacuation.",
+        content: "📰 WHAT HAPPENED\nMV Hondius departed Ushuaia, Argentina on April 1, 2026 carrying 147 people from 23 countries. Illness onset began between April 6 and April 28 aboard the vessel. On May 2, WHO was notified via the IHR Focal Point of the UK of a cluster of severe acute respiratory illness. Laboratory testing in South Africa confirmed Andes hantavirus on the same day. By May 6, WHO confirmed 6 confirmed cases, 2 probable, and 3 deaths. As of May 10, the ship is docking at Tenerife, Canary Islands, for passenger evacuation.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Vessel | MV Hondius (Dutch, Oceanwide Expeditions) |\n| Virus confirmed | Andes virus (hantavirus family) |\n| Cases | 8 total: 6 confirmed + 2 probable |\n| Deaths | 3 |\n| Case fatality rate | ~38% for HPS |\n| Andes virus unique trait | ONLY hantavirus with documented person-to-person spread |\n| IHR notification | May 2, 2026 (via UK IHR Focal Point) |\n\n⚠️ THE UPSC TRAP\n1. **Not a new virus** — Hantaviruses have 50+ known species; Andes is a rare but known risk.\n2. **Person-to-person spread** — ONLY the Andes species has documented limited human-to-human transmission.\n3. **IHR 2005 vs PHEIC** — A WHO notification under IHR is NOT the same as a PHEIC. WHO has NOT declared this a PHEIC.\n\n📝 EXAM ANGLES\nPrelims: Andes virus = only hantavirus with person-to-person transmission. IHR notification ≠ PHEIC. Hantavirus causes HPS (pulmonary syndrome). Incubation = 4–42 days.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Zoonotic diseases:** Zoonoses = diseases jumping from animals to humans; hantavirus (rodents), Nipah (bats), Ebola (bats/primates)\n- **International Health Regulations (IHR) 2005:** Binding framework for WHO member states; India is a signatory\n- **One Health Approach:** WHO/FAO/OIE framework recognising human, animal, and environmental health as interconnected\n- **PHEIC:** Only 7 PHEICs declared since 2005 (H1N1, Polio, Ebola, Zika, COVID-19, Mpox)",
+        pyqConnect: "\"Examine the One Health approach as a solution to emerging zoonotic diseases in India.\" (2022 GS Paper III, modified)"
+      },
+      {
+        id: "10-3",
+        title: "SC RULING: MEDICAL NEGLIGENCE CLAIMS SURVIVE THE DOCTOR'S DEATH",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Governance + Judiciary)",
+        whyItMatters: "In Kumud Lall v. Suresh Chandra Roy, the SC ruled that the right to sue a doctor for medical negligence does not die with the doctor. Legal heirs can be impleaded. Liability, however, is limited to inherited assets — not personally imposed on the heirs.",
+        content: "📰 WHAT HAPPENED\nThe SC examined Order XXII Rule 4 of the Code of Civil Procedure (CPC) and the Consumer Protection Acts. The court held that since the right to sue is not purely personal but attached to the actionable wrong, it survives. Legal heirs can be brought on record as defendants. Liability is limited: compensation for harm done to the patient remains actionable against the estate, while purely personal claims (pain, suffering) generally abate.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Case name | Kumud Lall v. Suresh Chandra Roy |\n| Date of ruling | May 8, 2026 |\n| Key legal provision | Order XXII Rule 4, CPC + Consumer Protection Act 2019 |\n| Extent of liability | Estate/inherited assets only — NOT personal liability of heirs |\n| What survives? | Compensation for harm to patient |\n\n⚠️ THE UPSC TRAP\n(1) The ruling says heirs CAN be brought in — not that they ARE automatically liable. (2) This applies under the Consumer Protection Act — it is NOT a criminal negligence ruling. Section 304A IPC remains a separate track requiring a higher standard of proof.\n\n📝 EXAM ANGLES\nPrelims: Consumer Protection Act 2019. Order XXII Rule 4 CPC = substitution of parties. SC ruling = estate liable, heirs NOT personally.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Consumer Protection Act 2019:** Replaced 1986 Act; central consumer protection authority, product liability provisions\n- **Article 21:** Right to Life includes right to health\n- **Bolam Test:** A doctor is not negligent if they act in accordance with a practice accepted by a responsible body of medical professionals\n- **Code of Civil Procedure, Order XXII:** Deals with death, marriage, or insolvency of parties during proceedings",
+        pyqConnect: "\"The consumer is sovereign in a market economy. Examine how consumer protection legislation in India has evolved to meet this ideal.\" (2019, GS Paper III)"
+      },
+      {
+        id: "10-4",
+        title: "MISSION FOR COTTON PRODUCTIVITY 2026–2031",
+        subtitle: "🔴 Must Read | Prelims + Mains | GS Paper III (Agriculture + Economy)",
+        whyItMatters: "The Centre has launched a 5-year Mission for Cotton Productivity (2026–27 to 2030–31) addressing India's yield paradox: we have the world's largest area but among the lowest yields. The mission targets Pink Bollworm control, seed replacement, and micro-irrigation.",
+        content: "📰 WHAT HAPPENED\nThe mission focuses on: raising average yield from ~450 kg lint/hectare toward the global benchmark of 800+ kg; controlling the Pink Bollworm, which has become resistant to first-generation BT cotton; accelerating replacement of outdated seeds with second-generation stacked hybrids (Cry1Ac + Cry2Ab); and expanding micro-drip irrigation in rain-fed regions like Vidarbha.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Mission period | 2026–27 to 2030–31 |\n| Ministry | Agriculture & Farmers' Welfare + Textiles |\n| India's yield | ~450 kg lint/hectare (vs China ~1,800 kg) |\n| Key pest threat | Pink Bollworm — resistant to first-gen BT cotton |\n| Solution | Second-generation stacked hybrids (Cry1Ac + Cry2Ab) |\n| Distress region | Vidarbha (Maharashtra) |\n\n⚠️ THE UPSC TRAP\n(1) BT cotton is a GMO, not a pesticide. (2) Pink Bollworm resistance is to Cry1Ac (first-gen) — stacked hybrids (Cry1Ac + Cry2Ab) are still effective. (3) Herbicide-tolerant BT cotton (HT-Bt) is NOT approved in India — GEAC has not cleared it.\n\n📝 EXAM ANGLES\nPrelims: GEAC = under MoEFCC. BT cotton approved 2002. Pink Bollworm = most damaging pest. Cry1Ac = first-gen; Cry2Ab = second-gen. MSP for cotton = Medium + Long Staple.",
+        revise: "🔗 STATIC CONNECTIONS\n- **GEAC:** Under MoEFCC, regulates GMOs\n- **Bt cotton approval:** First commercial GMO crop approved in India (2002)\n- **MSP for Cotton:** Recommended by CACP; approved by CCEA\n- **National Food Security Act:** Does NOT apply to cotton (non-food crop)",
+        pyqConnect: "\"What are the challenges faced by the Indian cotton sector and what policies are needed to make cotton farming remunerative?\" (2018, GS Paper III)"
+      },
+      {
+        id: "10-5",
+        title: "NITI AAYOG CPO PORTAL: REAL-TIME GOVERNANCE",
+        subtitle: "🟡 Important | Mains Primary | GS Paper II (Governance + Centre-State)",
+        whyItMatters: "NITI Aayog launched the Central Prabhari Officer (CPO) Portal to address implementation deficit in welfare schemes. The portal creates a real-time digital monitoring system for 112 Aspirational Districts and 500+ Aspirational Blocks.",
+        content: "📰 WHAT HAPPENED\nThe CPO system assigns senior Central Government officers to specific districts as mentors. The new portal gives these officers a digital interface to upload field observations (with photo evidence and geolocation). This triggers responses at the district level and escalates to state coordination if unresolved. It integrates with PM Gati Shakti, DBT architecture, and PFMS.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Portal launched | May 2026, by NITI Aayog |\n| Scheme | Aspirational Districts Programme (ADP) + Blocks (ABP) |\n| ADP launched | January 2018; 112 districts; 5 focus themes |\n| ABP launched | 2023; 500+ blocks |\n| Ranking system | Delta ranking (improvement-based) |\n\n⚠️ THE UPSC TRAP\nADP is administered by NITI Aayog (not a sector ministry). It uses **delta ranking** (improvement over a base, not absolute score). It is NOT a centrally sponsored scheme (CSS) — it is a coordination framework using funds from existing sector schemes.\n\n📝 EXAM ANGLES\nPrelims: ADP launched 2018. Ranking = delta ranking. Themes: health, education, agriculture, infrastructure, financial inclusion.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Cooperative Federalism:** Centre-State-District three-tier structure\n- **Article 263:** Inter-State Council for coordination\n- **Digital India:** e-Governance ecosystem integration (MyGov, GeM, PM Gati Shakti)\n- **3rd ARC:** Recommendations on decentralisation and accountability",
+        pyqConnect: "\"Cooperative federalism in India has evolved through institutional mechanisms beyond constitutional provisions. Examine.\" (2020, GS Paper II)"
+      },
+      {
+        id: "10-6",
+        title: "UK REFORM PARTY'S HISTORIC LOCAL ELECTION SWEEP",
+        subtitle: "🟢 Good to Know | Mains Context | GS Paper II (IR + Democratic Trends)",
+        whyItMatters: "Hard-right Reform UK, led by Nigel Farage, has made sweeping gains in UK local elections, routing Labour in working-class strongholds. For India, this complicates the political climate for the India-UK FTA implementation.",
+        content: "📰 WHAT HAPPENED\nReform UK won hundreds of local council seats in England's north. While Keir Starmer remains PM (these are local elections, not general), the political momentum shift weakens his domestic authority. Reform's platform centres on immigration restriction and economic nationalism, which directly conflicts with India's primary ask in the trade deal (easier mobility for professionals).\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Election type | Local council elections (England) |\n| Winner | Reform UK (Nigel Farage, leader) |\n| India-UK FTA status | Concluded in principle 2025; implementation ongoing |\n| India's core ask | Services mobility (Mode 4 trade) |\n\n⚠️ THE UPSC TRAP\nLocal elections ≠ change of government. Keir Starmer (Labour) remains Prime Minister. Nigel Farage has NOT become PM. Also, the FTA was signed in principle in 2025 by the Starmer administration.\n\n📝 EXAM ANGLES\nPrelims: Starmer = current UK PM. Mode 4 = movement of persons (services trade). Mains: Rise of economic nationalism in Western democracies and its impact on India's trade diplomacy.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Mode 4 Trade (GATS):** Movement of natural persons for services\n- **WTO GATS:** General Agreement on Trade in Services; 4 Modes of Supply\n- **India-UK Relationship:** Comprehensive Strategic Partnership (2021); 'Living Bridge' of 1.5m diaspora",
+        pyqConnect: "\"The factors responsible for the rise of right-wing populism in Western Europe, and their implications for global multilateralism.\" (2024 GS Paper II)"
+      }
+    ],
+    reviseSummary: [
+      "Simla Agreement (1972) remains the bilateral framework for India-Pakistan relations.",
+      "Andes virus is the only hantavirus with documented person-to-person spread.",
+      "Supreme Court ruled that medical negligence claims survive the doctor's death, limited to the estate.",
+      "Mission for Cotton Productivity (2026-31) targets Pink Bollworm and seed replacement.",
+      "NITI Aayog's CPO Portal enables real-time monitoring of Aspirational Districts.",
+      "UK Reform Party's local sweep signals a shift towards economic nationalism."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to hantavirus, consider the following statements:\n1. Andes virus is the only hantavirus species capable of limited human-to-human transmission.\n2. Hantavirus causes Hantavirus Pulmonary Syndrome (HPS), primarily affecting the kidneys.\n3. Transmission from rodents to humans occurs through contact with infected rodent urine, faeces, or saliva.\n4. In May 2026, WHO declared a Public Health Emergency of International Concern (PHEIC) for the MV Hondius outbreak.",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(b) Only two",
+          explanation: "Statements 1 and 3 are correct. Statement 2 is incorrect as HPS affects the lungs; kidney-targeting hantavirus causes HFRS. Statement 4 is incorrect as WHO has NOT declared a PHEIC for this outbreak."
+        },
+        {
+          question: "Consider the following pairs regarding India's Operation Sindoor (2025) and the subsequent ceasefire:\nPerson/Body — Action/Statement\n1. Pakistan DGMO — Called Indian DGMO to initiate ceasefire talks on May 10, 2025\n2. India's Foreign Secretary — First public announcement of the ceasefire at 5:37 PM IST on May 10\n3. US Secretary of State Marco Rubio — Attributed the ceasefire to President Trump's mediation\n4. India's official position — The ceasefire was achieved bilaterally without third-party mediation",
+          options: ["(a) Only one", "(b) Only two", "(c) Only three", "(d) All four"],
+          answer: "(c) Only three",
+          explanation: "Pairs 1, 3, and 4 are correctly matched. Pair 2 is incorrect because the first public announcement was by US Secretary of State Rubio, not India's Foreign Secretary."
+        },
+        {
+          question: "With reference to the Supreme Court ruling in Kumud Lall v. Suresh Chandra Roy (2026), which of the following statements is/are correct?\n1. Legal heirs of a deceased doctor are personally liable to pay compensation out of their own funds.\n2. The right to sue for medical negligence survives the death of the accused doctor.\n3. The ruling was made under provisions of both the Consumer Protection Act 1986 and 2019.\n4. Purely personal claims such as damage to the doctor's reputation abate upon the doctor's death.",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 4 only"],
+          answer: "(c) 2, 3 and 4 only",
+          explanation: "Statement 1 is incorrect as liability is limited to the estate/inherited assets, not personal funds. Statements 2, 3, and 4 are correct."
+        },
+        {
+          question: "With reference to BT cotton in India, consider the following statements:\nStatement I: BT cotton containing only the Cry1Ac gene is now effective against the Pink Bollworm as it has been effective since 2002.\nStatement II: First-generation BT cotton hybrids with the Cry1Ac gene alone have lost effectiveness against the Pink Bollworm due to resistance development by the pest.",
+          options: ["(a) Both Statement I and Statement II are correct and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct but Statement II does NOT explain Statement I", "(c) Statement I is correct but Statement II is incorrect", "(d) Statement I is incorrect and Statement II is correct"],
+          answer: "(d) Statement I is incorrect and Statement II is correct",
+          explanation: "Statement I is incorrect because first-gen BT (Cry1Ac) has lost effectiveness due to resistance. Statement II is correct."
+        },
+        {
+          question: "With reference to the Aspirational Districts Programme (ADP) of India, which of the following statements are correct?\n1. ADP was launched by NITI Aayog in January 2018 and covers 112 backward districts.\n2. Districts are ranked on absolute performance scores in health, education, etc.\n3. The Aspirational Blocks Programme (ABP), launched in 2023, targets specific blocks.\n4. ADP functions as a Centrally Sponsored Scheme (CSS) with dedicated fund allocation.",
+          options: ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 3 and 4 only"],
+          answer: "(b) 1 and 3 only",
+          explanation: "Statement 2 is incorrect as it uses delta ranking (improvement), not absolute scores. Statement 4 is incorrect as ADP is a coordination framework, not a CSS."
+        }
+      ],
+      mains: [
+        {
+          question: "\"A year after Operation Sindoor, India faces the challenge of converting military success into diplomatic capital without compromising its doctrine of bilateral engagement.\" Critically examine.",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"India's regulatory environment for genetically modified crops is caught between scientific consensus and political caution, resulting in persistent productivity gaps in commercial agriculture.\" Analyse this statement with reference to BT cotton and the Mission for Cotton Productivity 2026–31.",
+          context: "GS Paper III | 150 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-11",
+    date: "11th May 2026",
+    day: "Monday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~12 minutes | 📋 Topics today: 6 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **Somnath Amrit Mahotsav 2026** — 75 years of restored temple; Kumbhabhishekam performed from 90m shikhara atop 1000 years of resilience\n🔴 **Multi-Lane Free Flow (MLFF) Tolling System Launched** — India's first barrier-less toll on Surat–Bharuch NH-48; vehicles pass at 80 kmph without stopping\n🔴 **TARA Glide Weapon Successfully Tested** — Indigenous precision munition kit tested May 7; converts unguided bombs to guided weapons\n🔴 **AI & Computational Thinking Made Mandatory from Class 3** — CBSE curriculum begins 2026-27; aligns with NEP 2020 vision\n🟡 **India–Pakistan Sports Policy Codified** — Bilateral sports banned; multilateral events allowed\n🟡 **India's Agricultural Exports Face Global Trade Pressures** — PM-KISAN impact, fertiliser supply chain vulnerabilities via Strait of Hormuz",
+    topics: [
+      {
+        id: "11-1",
+        title: "SOMNATH AMRIT MAHOTSAV 2026: 75 YEARS OF RESTORATION & RESILIENCE",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper I (History, Culture)",
+        whyItMatters: "PM Modi performed Kumbhabhishekam on the 90-metre Somnath shikhara on May 11, 2026, marking 75 years since Dr. Rajendra Prasad's inauguration of the restored temple. The temple symbolises post-Independence cultural reconstruction and resilience after 1,000 years of invasions.",
+        content: "📰 WHAT HAPPENED\nThe Somnath Amrit Mahotsav celebrations marked the 75th anniversary of the temple's consecration by India's first President. PM Modi performed the ritual Kumbhabhishekam using holy water brought from 11 major pilgrimage sites across India. The ceremony atop the 155-foot shikhara (with a 10-tonne kalash) was symbolic: ancient Hindu pilgrimage networks blessed the restored shrine. The temple complex includes the Garbhagriha (sanctum sanctorum), Sabhamandap (assembly hall), and Nrityamandap (dance hall), designed in the Kailash Mahameru Prasad architectural style. The event coincided with Operation Sindoor's first anniversary—a deliberate framing linking cultural resilience with military security.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Total invasions recorded | 17 by Mahmud of Ghazni (1000–1026 CE) |\n| First reconstruction | 1026 CE to subsequent eras; Ahilyabai Holkar rebuilt adjacent shrine in 18th century |\n| Post-Independence reconstruction | 1947–1951; inaugurated by Dr. Rajendra Prasad |\n| Temple height | 155 feet (shikhara); flagstaff 27 feet; kalash 10 tonnes |\n| Among 12 Jyotirlingas | First in order of significance; sacred in Puranas & local belief |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"Somnath was rebuilt by Sardar Patel alone after 1947.\" WRONG. While Patel was instrumental in integrating princely states AND supporting reconstruction, the actual reconstruction involved K.M. Munshi (architect/administrator) and technical teams. Patel's role was political integration of Kathiawar, not direct architectural rebuilding.\n- **TRAP 2:** \"Mahmud of Ghazni's 1026 attack marked the first recorded destruction of Somnath.\" PARTIALLY TRUE but deeper issue: The temple had been rebuilt multiple times before 1026, and many invasions followed.\n\n📝 EXAM ANGLES\n- **Prelims:** Somnath inaugurated post-Independence by: (b) Dr. Rajendra Prasad. Mahmud of Ghazni attacked Somnath in: (b) 1026. Ahilyabai Holkar's efforts focused on: (c) Multiple regions.\n- **Mains:** Discuss the reconstruction of Somnath Temple post-1947 as India's cultural assertion within a secular constitutional framework.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Sardar Patel & Integration:** Patel integrated 562 princely states (1947–1948); Kathiawar was crucial.\n- **First President Rajendra Prasad:** Inaugurated Somnath; also consecrated India's constitutional republic.\n- **Ahilyabai Holkar:** Represented pre-modern Hindu religious architecture patronage.\n- **Dwadasha Jyotirlingas:** 12 sacred Shiva temples; Somnath is first.\n- **Invasion patterns:** Repeated invasions created syncretism and resilience narratives.",
+        pyqConnect: "2018 Prelims Q48 — Temple destruction during mediaeval invasions; 2013 Mains Paper 1 — Ahilyabai Holkar's administrative and cultural role."
+      },
+      {
+        id: "11-2",
+        title: "MULTI-LANE FREE-FLOW (MLFF) TOLLING SYSTEM: INDIA'S TOLL REVOLUTION",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper III (Infrastructure, Technology, Economy)",
+        whyItMatters: "India launched its first barrier-less tolling system at Choryasi toll plaza on NH-48. Vehicles pass at 80 kmph without stopping, using ANPR, LiDAR, and GNSS technologies. This marks a paradigm shift toward truly seamless highway travel.",
+        content: "📰 WHAT HAPPENED\nThe Choryasi toll plaza on NH-48 began operations on May 11. Instead of physical toll booths, overhead gantries equipped with high-resolution ANPR cameras, RFID sensors (for FASTag), LiDAR, and AI-driven radar identify vehicles in real-time. Vehicles with valid FASTag stickers are automatically identified and toll is deducted from linked bank accounts. The government plans nationwide rollout across 1,100+ toll plazas by end of 2026.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Toll plazas to be converted | 1,100+ across national highways |\n| Technology cost per plaza | ₹15–16 crore |\n| Capacity (Choryasi) | ~25,000 vehicles/day |\n| Speed at toll collection | 80 kmph (no stopping required) |\n| Key technologies | ANPR, LiDAR, RFID, GNSS, AI-driven radar |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"MLFF eliminates FASTag entirely.\" WRONG. FASTag remains integral; MLFF is a complement that solves the stopping requirement.\n- **TRAP 2:** \"All toll plazas will be MLFF by June 2026.\" WRONG. Complete rollout is targeted by end of 2026.\n- **TRAP 3:** \"MLFF solves the diesel loss problem.\" TRUE—reduced idling leads to quantifiable environmental and economic benefits.\n\n📝 EXAM ANGLES\n- **Prelims:** MLFF speed = 80 kmph. First implementation = Choryasi, Gujarat. Key technologies = ANPR, LiDAR, RFID.\n- **Mains:** Examine how barrier-less toll collection systems align with India's broader infrastructure and climate goals.",
+        revise: "🔗 STATIC CONNECTIONS\n- **FASTag Evolution:** Introduced 2016; MLFF is the next generation.\n- **Bharatmala Pariyojana:** Massive highway expansion program.\n- **PM Gati Shakti:** Multi-modal logistics infrastructure.\n- **Digital India:** Integration of ANPR, GNSS, and VAHAN database.\n- **Environmental Goals:** Reduced emissions from idling vehicles.",
+        pyqConnect: "2016 Prelims Q42 — FASTag introduction; 2019 Mains Paper 3 — Infrastructure as growth enabler."
+      },
+      {
+        id: "11-3",
+        title: "TARA GLIDE WEAPON: INDIA'S INDIGENOUS PRECISION MUNITION BREAKTHROUGH",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper III (Defence, Science & Technology, DRDO)",
+        whyItMatters: "DRDO and IAF successfully tested the Tactical Advanced Range Augmentation (TARA) glide weapon system. TARA converts conventional unguided bombs into precision-guided munitions, marking a significant step in India's defence indigenisation.",
+        content: "📰 WHAT HAPPENED\nOn May 7, 2026, an IAF Jaguar fighter aircraft released a 500 kg bomb equipped with the TARA modular kit off the Odisha coast. The system demonstrated gliding capability and precision guidance. TARA uses low-cost inertial navigation and guidance algorithms to extend range and improve accuracy. It is designed to be retrofitted onto existing munitions, enabling cost-effective upgrades.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| First test date | May 7, 2026 |\n| Test platform | IAF Sepecat Jaguar |\n| Munition used | 500 kg unguided bomb + TARA kit |\n| Developing agency | Research Centre Imarat (RCI), Hyderabad; DRDO |\n| Target capability | Ground-based targets (bunkers, depots, etc.) |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"TARA is a new missile.\" WRONG. It is a modular kit for augmentation of existing bombs.\n- **TRAP 2:** \"TARA uses the same guidance as Brahmos.\" NOT NECESSARILY. It is a low-cost system optimized for glide munitions.\n- **TRAP 3:** \"The test signals imminent Agni-6 trials.\" SPECULATION. Stick to official announcements.\n\n📝 EXAM ANGLES\n- **Prelims:** TARA = modular guidance kit for unguided bombs. Developed by = RCI Hyderabad. Anniversary = Operation Sindoor.\n- **Mains:** Analyse the implications of indigenous glide weapon systems like TARA for India's defence industrial base.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Operation Sindoor (2025):** Context for defence capability development.\n- **DRDO & Atmanirbhar Bharat:** Policy of self-reliance in defence.\n- **IGMDP:** Legacy of indigenous missile development.\n- **Glide Munitions vs Cruise Missiles:** Unpowered vs powered flight characteristics.",
+        pyqConnect: "2014 Mains Paper 3 — DRDO's role; 2011 Prelims Q67 — Missiles in India's arsenal."
+      },
+      {
+        id: "11-4",
+        title: "AI & COMPUTATIONAL THINKING CURRICULUM: MANDATORY FROM CLASS 3 (2026-27)",
+        subtitle: "🔴 Must Read | Prelims & Mains | GS Paper II (Governance, Education Policy) & GS Paper III (Science & Technology)",
+        whyItMatters: "CBSE has launched a mandatory curriculum on AI and Computational Thinking for Classes 3–8. This aligns with NEP 2020's vision to integrate 21st-century skills into foundational education without increasing the burden of standalone subjects.",
+        content: "📰 WHAT HAPPENED\nThe curriculum integrates AI literacy into existing subjects like Mathematics and Science. For Classes 3–5, learning is activity-based (puzzles, games). For Classes 6–8, foundational AI concepts are introduced. Teacher training is being conducted via NISHTHA. Resource materials are disseminated through DIKSHA. The focus is on competencies like decomposition, pattern recognition, and algorithm design.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Rollout begins | Academic year 2026-27 (Classes 3-8) |\n| Approach | Integrated into existing subjects; activity-based for 3-5 |\n| Assessment (3-8) | Activity/project-based; NO traditional exams |\n| Classes 11-12 | AI as optional elective with board exams |\n| Teacher training | NISHTHA modules |\n| Alignment | NEP 2020, NCF-SE 2023 |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"Every Class 3 student will learn coding/Python.\" WRONG. The approach is activity-based logic, not programming languages.\n- **TRAP 2:** \"This is a standalone new subject.\" WRONG. It is integrated into existing subjects as a pedagogical lens.\n- **TRAP 3:** \"India is the first country to introduce this.\" NOT TRUE. Other nations like Singapore and the UK have similar programs.\n\n📝 EXAM ANGLES\n- **Prelims:** Rollout year = 2026-27. Expert committee head = Prof. Karthik Raman. Learning mode = Integrated/Activity-based.\n- **Mains:** Examine how AI integration in education reflects India's response to skill gaps while addressing the digital divide.",
+        revise: "🔗 STATIC CONNECTIONS\n- **NEP 2020:** Emphasis on experiential learning and critical thinking.\n- **21st-Century Skills:** Digital literacy and ethical reasoning.\n- **Article 21-A:** Right to Education relevance.\n- **DIKSHA & NISHTHA:** Platforms for digital infrastructure and teacher training.",
+        pyqConnect: "2020 Mains Paper 2 — NEP 2020; 2015 Prelims Q85 — Digital literacy."
+      },
+      {
+        id: "11-5",
+        title: "INDIA-PAKISTAN SPORTS POLICY: BILATERAL BAN, MULTILATERAL ACCEPTANCE",
+        subtitle: "🟡 Important | Prelims & Mains | GS Paper II (International Relations, Diplomacy)",
+        whyItMatters: "India has codified its sports engagement policy with Pakistan, maintaining a ban on bilateral series while allowing participation in multilateral events. This balances national security concerns with international sporting obligations and hosting ambitions.",
+        content: "📰 WHAT HAPPENED\nThe Sports Ministry's memorandum clarifies that bilateral cricket, football, etc., between India and Pakistan remain prohibited. However, Pakistani athletes can participate in multilateral events hosted by India (World Cups, Olympics, etc.). This dual-track policy exemplifies geopolitical pragmatism, separating bilateral hostility from global institutional commitments.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Bilateral sports | Prohibited indefinitely |\n| Multilateral events | Participation permitted (ICC, Olympics, etc.) |\n| Codification date | May 6, 2026 |\n| Context | Post-Operation Sindoor military tensions |\n| Objectives | Balance nationalist sentiment with hosting ambitions (2036 Olympics bid) |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"India bans all sports with Pakistan.\" MISLEADING. The ban is specifically bilateral; multilateral participation continues.\n- **TRAP 2:** \"This is a new 2026 initiative.\" INCORRECT. The framework has been practiced since 2025; May 2026 was the formal codification.\n- **TRAP 3:** \"The ban is a form of complete political isolation.\" PARTIALLY TRUE, but the multilateral exception shows calibrated balance.\n\n📝 EXAM ANGLES\n- **Prelims:** Policy permits = Multilateral events. Codification date = May 6, 2026.\n- **Mains:** Examine how India's dual-track sports policy aligns with its diplomatic strategy and global sporting ambitions.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Operation Sindoor (2025):** Backdrop for hardened policy stance.\n- **Article 51:** Constitutional mandate for international relations.\n- **Soft Power:** Sports as a tool for diplomatic influence and hosting global events.",
+        pyqConnect: "2012 Mains — India-Pakistan Track 2 diplomacy; 2008 Prelims — Sports & foreign policy."
+      },
+      {
+        id: "11-6",
+        title: "INDIA'S AGRICULTURAL EXPORTS & FERTILISER SUPPLY CHAIN VULNERABILITY",
+        subtitle: "🟡 Important | Prelims & Mains | GS Paper III (Agriculture, Economy, Trade)",
+        whyItMatters: "India's agricultural sector faces twin pressures: growing exports despite global protectionism and critical supply chain vulnerabilities. Dependence on the Strait of Hormuz for 75% of ammonia imports creates risks for food security and farmer incomes.",
+        content: "📰 WHAT HAPPENED\nIndia's agri-exports are growing (~$25+ billion) despite trade pressures. However, Middle East tensions threaten fertiliser supply chains, particularly nitrogen-based inputs (urea, ammonia) coming through the Strait of Hormuz. The government is diversifying sources (Russia, Morocco) while maintaining support via PM-KISAN and MSP.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|---|---|\n| Ammonia imports via Hormuz | ~75% from Gulf region |\n| PM-KISAN disbursements | ₹4.27 lakh crore (22 instalments) |\n| Agri-export scale | ~$25+ billion annually |\n| Main risks | Price volatility, yield loss due to shortages |\n| Key response | Sourcing diversification + MSP support |\n\n⚠️ THE UPSC TRAP\n- **TRAP 1:** \"Fertiliser imports come primarily from North Africa.\" WRONG. 75% of ammonia comes from the Gulf via Hormuz.\n- **TRAP 2:** \"PM-KISAN is a universal subsidy.\" INCORRECT. It is targeted income support for small/marginal farmers.\n- **TRAP 3:** \"Agriculture is immune to trade wars.\" FALSE. Inputs and exports are deeply integrated into global chains.\n\n📝 EXAM ANGLES\n- **Prelims:** Ammonia import % via Hormuz = 75%. PM-KISAN total = ₹4.27 lakh crore. Vulnerability = Supply chain geography.\n- **Mains:** Analyse the paradox of growing exports vs supply chain vulnerabilities in India's agricultural sector.",
+        revise: "🔗 STATIC CONNECTIONS\n- **Fertiliser Subsidies & MSP:** Support mechanisms tied to WTO rules.\n- **Strait of Hormuz:** Critical chokepoint for energy and fertiliser trade.\n- **Food Security Act 2013:** Link between yield and national food security.\n- **PM-KISAN:** Direct Benefit Transfer (DBT) implementation for farmer welfare.",
+        pyqConnect: "2021 Mains Paper 3 — Agri-exports & WTO; 2018 Mains Paper 3 — Food security; 2014 Prelims — MSP."
+      }
+    ],
+    reviseSummary: [
+      "Somnath Temple (1951) — Inaugurated by Dr. Rajendra Prasad; symbol of cultural reconstruction.",
+      "MLFF Tolling — First barrier-less system at Choryasi (NH-48); uses ANPR and LiDAR.",
+      "TARA Glide Weapon — DRDO kit converting unguided bombs to precision munitions.",
+      "AI Curriculum — Mandatory for CBSE Classes 3-8 from 2026-27; integrated learning.",
+      "Ind-Pak Sports — Bilateral ban remains; multilateral participation permitted.",
+      "Agri-Exports — Growth despite Hormuz-linked fertiliser supply chain vulnerabilities."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Which of the following statements regarding the Somnath Temple are correct?\n1. Somnath was inaugurated by Dr. Rajendra Prasad on May 11, 1951.\n2. Sardar Patel directly oversaw the architectural reconstruction between 1947–1951.\n3. Mahmud of Ghazni's attack in 1026 CE marked the first recorded invasion.\n4. The current temple uses the Kailash Mahameru Prasad architectural style.",
+          options: ["(a) 1 and 3 only", "(b) 1, 2, and 4 only", "(c) 1, 3, and 4 only", "(d) All four statements"],
+          answer: "(c) 1, 3, and 4 only",
+          explanation: "Statement 2 is incorrect; K.M. Munshi oversaw the reconstruction, while Patel provided political support. Others are correct."
+        },
+        {
+          question: "Consider the following statements about the Multi-Lane Free-Flow (MLFF) tolling system:\n1. MLFF eliminates the need for FASTag altogether.\n2. Vehicles can pass MLFF toll plazas at highway speeds (80 kmph) without stopping.\n3. The system uses LiDAR sensors, ANPR cameras, and RFID readers in combination.\n4. Choryasi toll plaza was the first MLFF system launched on May 11, 2026.",
+          options: ["(a) 2 and 4 only", "(b) 2, 3, and 4 only", "(c) 1 and 3 only", "(d) All four statements"],
+          answer: "(b) 2, 3, and 4 only",
+          explanation: "Statement 1 is incorrect as MLFF complements FASTag, it does not replace it."
+        },
+        {
+          question: "Which of the following is/are correct about the TARA glide weapon system?\n1. TARA is a modular kit designed to convert unguided bombs into precision-guided weapons.\n2. TARA was developed solely by RCI Hyderabad without other DRDO collaboration.\n3. The maiden flight-trial of TARA was conducted on May 7, 2026, off Odisha.\n4. TARA is a powered cruise missile with independent propulsion.",
+          options: ["(a) 1 and 3 only", "(b) 2 and 4 only", "(c) 1, 2, and 3 only", "(d) All four statements"],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 2 is incorrect as it was a collaborative effort. Statement 4 is incorrect as it is unpowered (glide)."
+        },
+        {
+          question: "With reference to the AI & Computational Thinking curriculum announced by CBSE, which statements are accurate?\n1. It will be taught as a standalone new subject in Classes 3–8.\n2. The curriculum is aligned with NEP 2020 and NCF-SE 2023.\n3. For Classes 3–5, CT will be integrated through activity-based learning.\n4. Assessment in Classes 3–8 will be through formal board examinations.",
+          options: ["(a) 1 and 4 only", "(b) 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 3 only"],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 is incorrect (integrated, not standalone). Statement 4 is incorrect (project-based, no board exams for 3-8)."
+        },
+        {
+          question: "Which of the following describes the India-Pakistan sports engagement policy as of May 2026?\n1. India permits no sporting engagement under any circumstances.\n2. Pakistani teams are allowed in multilateral events hosted by India.\n3. Bilateral cricket series are banned permanently.\n4. Pakistani athletes are denied visas for any sporting activity in India.",
+          options: ["(a) 2 only", "(b) 2 and 3 only", "(c) 1, 3, and 4 only", "(d) All four statements"],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 and 4 are incorrect; multilateral participation and visas for such events are allowed."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The restoration of Somnath Temple post-1947 represented India's cultural assertion within a secular constitutional framework, yet raises questions about the state's role in religious institutions.\" Discuss.",
+          context: "GS Paper I | 150 words"
+        },
+        {
+          question: "\"India's infrastructure modernisation, as exemplified by MLFF tolling and AI curriculum mandates, reflects a broader shift toward digital integration. However, implementation challenges threaten equitable access.\" Examine.",
+          context: "GS Paper III | 250 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-12",
+    date: "12th May 2026",
+    day: "Tuesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~22 minutes | 📋 Topics today: 6 | 📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **PM Modi's 5-Nation Tour (May 15–20)** — UAE, Netherlands, Sweden, Norway, Italy announced today; energy security and India-EU FTA the twin anchors amid West Asia conflict\n🔴 **Indus Waters Treaty: 1 Year in Abeyance** — Pakistan takes IWT to the UNSC; India holds firm: \"blood and water cannot flow together\"; Baglihar Dam gates remain shut\n🔴 **India CPI Inflation & Targeting Framework 2026–31** — April data released today; India extended 4% target with 2–6% band for 5 years from April 2026\n🟡 **South Coast Railway — India's 18th Zone** — SCoR operational June 1, 2026; HQ Visakhapatnam; fulfills the AP Reorganisation Act 2014 promise after 12 years\n🟡 **National Technology Day (28th Edition)** — Pokhran-II anniversary, May 11; theme: Responsible Innovation for Inclusive Growth; National Quantum Mission: 23 institutions, 100 more planned\n🟢 **India-Oman FTA Implementation Talks** — Talks began May 11 for early implementation of FTA signed Dec 2025; 98% duty-free access for India's exports to Oman",
+    topics: [
+      {
+        id: "12-1",
+        title: "PM MODI'S 5-NATION TOUR: ENERGY SECURITY MISSION",
+        subtitle: "🔴 Must Read | Mains Primary | GS Paper II (IR) + GS Paper III (Economy/Energy)",
+        whyItMatters: "The driving force is not routine diplomacy but a genuine energy emergency: the US-Iran war has disrupted global energy supply chains, and the Strait of Hormuz closure means India must lock in alternative sources. Five countries, five agendas, one strategic thread.",
+        content: "📰 WHAT HAPPENED\nThe Ministry of External Affairs confirmed PM Modi will embark on a five-nation tour beginning May 15. The UAE visit (first stop) is the most urgent — the UAE recently exited OPEC+, making direct bilateral energy ties critical. India-UAE bilateral trade stands at roughly $85 billion annually, with 4.5 million Indians in the UAE. In the Netherlands (second leg, May 15–17), the agenda covers defence, semiconductors, green hydrogen, and a Strategic Partnership on Water. Sweden (May 17-18, Gothenburg) will include the European Round Table for Industry alongside EU Commission President Ursula von der Leyen — a significant signal for India-EU FTA momentum. Norway (May 18-19) is the centrepiece: the 3rd India-Nordic Summit in Oslo will cover green hydrogen, Arctic cooperation, and the blue economy. Italy (May 19-20) will focus on accelerating the India-EU Free Trade Agreement and defence co-production.\n\n📊 KEY DATA TABLE\n| Country | Bilateral Trade | Key Agenda | UPSC Angle |\n|---------|----------------|------------|------------|\n| UAE | ~$85 bn annually | Energy security post-OPEC+ exit | 4.5 mn Indians; 3rd largest trade partner |\n| Netherlands | $27.8 bn (2024-25) | Semiconductors, green hydrogen, defence | India's 4th largest investor |\n| Sweden | $7.75 bn (2025) | EU FTA, green transition, AI | First India-Nordic Summit was here (2018) |\n| Norway | $2.73 bn (2024) | 3rd India-Nordic Summit; GPFG ($28 bn in India) | Blue economy, Arctic cooperation |\n| Italy | — | India-EU FTA fast-tracking; defence co-production | G7 host 2024, last Modi visit |\n\n⚠️ THE UPSC TRAP\nUPSC will ask about India-Nordic Summits. **The first was Stockholm (2018), second Copenhagen (2022), third Oslo (2026)** — not all in Norway. Sweden, Norway, Denmark, Finland, and Iceland are the five Nordic nations — all five PMs attend the India-Nordic Summit. EFTA (European Free Trade Association) includes Norway, Iceland, Switzerland, and Liechtenstein — NOT the same as Nordic. India signed an FTA with EFTA (the TEPA) in 2024. India-EU FTA (different from EFTA) is still under negotiation. These are three separate entities.\n\n📝 EXAM ANGLES\nPrelims: India-Nordic Summit sequence (Stockholm → Copenhagen → Oslo); EFTA vs. EU membership; UAE's OPEC+ membership history; bilateral trade figures. Mains: \"Discuss how India's energy import dependence shapes its foreign policy priorities, with reference to PM Modi's May 2026 five-nation tour.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **OPEC+**: What it is, member composition, how UAE's exit changes bilateral dynamics\n- **India-EU FTA**: Current status, sticking points, GI tags, data localisation\n- **Blue Economy**: India's Blue Economy Policy (2023), Sagarmala Project, Arctic policy\n- **India's energy import dependence**: ~85% crude imported; West Asia supplies ~60%"
+      },
+      {
+        id: "12-2",
+        title: "INDUS WATERS TREATY: ONE YEAR IN ABEYANCE + UNSC DIMENSION",
+        subtitle: "🔴 Must Read | Both | GS Paper II (IR) + GS Paper III (Environment/Water)",
+        whyItMatters: "One year after India put the Indus Waters Treaty (IWT) in abeyance following the Pahalgam attack, the diplomatic battle has shifted to the UN Security Council. Pakistan approached the UNSC seeking restoration of the treaty. India's response: \"Blood and water cannot flow together.\"",
+        content: "📰 WHAT HAPPENED\nAs India completed one year of Operation Sindoor (marked May 7, 2026), MEA reaffirmed that the IWT \"stands in abeyance in response to Pakistan's sponsorship of cross-border terrorism\". Meanwhile, Pakistan escalated the matter to the UN Security Council, arguing India's water suspension amounts to an existential threat. India countered that Pakistan was \"misusing\" international forums on a bilateral issue and added that 65 years of changed conditions require a fundamental renegotiation of the 1960 treaty.\n\n📊 KEY DATA TABLE\n| IWT Parameter | Detail |\n|---------------|--------|\n| Signed | September 1960; brokered by World Bank |\n| Eastern Rivers (India) | Ravi, Beas, Sutlej |\n| Western Rivers (Pakistan) | Indus, Jhelum, Chenab (~80% of basin water) |\n| India's limited rights on western rivers | Hydropower + limited irrigation only |\n| Placed in abeyance | April 2025 (after Pahalgam attack) |\n| Baglihar Dam | Chenab River, Ramban, J&K — gates remain closed |\n| Pakistan's agriculture dependence | ~80% of irrigation from Indus system |\n\n⚠️ THE UPSC TRAP\nStudents confuse \"suspended\" with \"abeyance.\" **India placed the IWT in abeyance — not terminated and not formally suspended.** Abeyance means a temporary state of non-applicability, not cancellation. India has not formally withdrawn from the treaty under international law. Second trap: Many students think India controls all six rivers — WRONG. India controls only the three **eastern** rivers (Ravi, Beas, Sutlej).\n\n📝 EXAM ANGLES\nPrelims: Eastern vs. Western rivers allocation; year of IWT signing; World Bank's role; Baglihar Dam location. Mains: \"Evaluate the strategic implications of India placing the Indus Waters Treaty in abeyance. Can water be used as an instrument of foreign policy in South Asia?\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **Permanent Indus Commission**: Joint body under IWT for implementation and dispute resolution — now non-functional\n- **World Bank's Neutral Expert mechanism**: IWT's dispute resolution process\n- **International Law on Transboundary Rivers**: Helsinki Rules, UN Watercourses Convention 1997 (India not a signatory)\n- **Articles 51–55 of the UN Charter**: Peaceful resolution of disputes"
+      },
+      {
+        id: "12-3",
+        title: "INDIA'S CPI INFLATION DATA + INFLATION TARGETING FRAMEWORK 2026–31",
+        subtitle: "🔴 Must Read | Both | GS Paper III (Economy/Monetary Policy)",
+        whyItMatters: "MOSPI released April 2026 CPI data today. More structurally important: India formally renewed its Flexible Inflation Targeting (FIT) framework: the 4% retail inflation target with a 2–6% tolerance band is now mandated for 5 years from April 2026 to March 2031.",
+        content: "📰 WHAT HAPPENED\nIndia's retail inflation (measured by CPI) has been on a rising trajectory through early 2026: January 2.75% → February 3.21% → March 3.40%. The April 2026 data released today will reveal whether the trend continued. Key drivers: fuel and food pressures linked to the West Asia conflict. Separately, the Department of Economic Affairs extended the Flexible Inflation Targeting mandate under Section 45ZA of the RBI Act, 1934, requiring the MPC to keep inflation at 4% (with ±2% tolerance) until 2031.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| CPI Base Year (new series) | 2024 = 100 |\n| Largest CPI component | Food & beverages (45.86% weight) |\n| Jan 2026 CPI inflation | 2.75% |\n| Feb 2026 CPI inflation | 3.21% |\n| Mar 2026 CPI inflation | 3.40% (provisional) |\n| WPI March 2026 | 3.88% — 3-year high |\n| FIT target | 4% (with 2–6% tolerance band) |\n| FIT renewed for | April 2026 to March 2031 |\n| FIT statutory basis | Section 45ZA, RBI Act 1934 |\n| MPC composition | 6 members: 3 RBI (incl. Governor) + 3 GoI nominees |\n\n⚠️ THE UPSC TRAP\nThe most classic trap: **WPI was replaced by CPI as the primary inflation indicator in 2013-14 — not earlier.** Second trap: CPI = retail prices. WPI = producer/wholesale prices. Third trap: The FIT target is **4%**, not 2%. India's target is higher than most developed economies.\n\n📝 EXAM ANGLES\nPrelims: CPI base year; MPC composition; FIT renewal year and duration; statutory provision for FIT. Mains: \"Flexible Inflation Targeting has brought credibility to India's monetary policy but faces structural limits in a supply-shocked economy. Discuss.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **MPC (Monetary Policy Committee)**: Composition under RBI Act; Section 45ZA–45ZL; Governor's casting vote\n- **RBI's Monetary Policy tools**: Repo rate, Reverse Repo, SLR, CRR, OMOs\n- **CPI basket weights**: Food at 45.86%; biggest individual item = cereals (9.67%)\n- **Fiscal deficit and inflation**: Demand-pull vs. cost-push inflation"
+      },
+      {
+        id: "12-4",
+        title: "SOUTH COAST RAILWAY: INDIA'S 18TH RAILWAY ZONE",
+        subtitle: "🟡 Important | Prelims Primary | GS Paper III (Infrastructure/Governance)",
+        whyItMatters: "India's 18th railway zone — the South Coast Railway (SCoR) — will begin operations on June 1, 2026, from Visakhapatnam. This fulfills a statutory commitment under the Andhra Pradesh Reorganisation Act of 2014, 12 years in the making.",
+        content: "📰 WHAT HAPPENED\nThe SCoR zone is carved out of two existing zones: the South Central Railway (SCR) and the East Coast Railway (ECoR). It will comprise four divisions — Vijayawada, Guntur, Guntakal (all from SCR) and the newly created Visakhapatnam division. PM Modi had laid the foundation stone for the zonal headquarters building in Visakhapatnam in January 2025. The East Coast Railway Corridor is being upgraded to a four-lane network, expected to enable 500 new trains.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Zone name | South Coast Railway (SCoR) |\n| Zone number | 18th railway zone of India |\n| Headquarters | Visakhapatnam, Andhra Pradesh |\n| Operational date | June 1, 2026 |\n| Gazette notification | May 4, 2026 |\n| Carved from | South Central Railway + East Coast Railway |\n| Divisions | Vijayawada, Guntur, Guntakal, Visakhapatnam (new) |\n| Legislative basis | Andhra Pradesh Reorganisation Act, 2014 |\n\n⚠️ THE UPSC TRAP\nStudents often confuse **zone headquarters**. Memorise the common ones tested: South Central Railway (SCR) — Secunderabad; East Coast Railway (ECoR) — Bhubaneswar; South Coast Railway (SCoR) — **Visakhapatnam**. UPSC will also test whether India now has 17 or 18 zones — the answer from June 1, 2026 onward is **18**.\n\n📝 EXAM ANGLES\nPrelims: Name of 18th zone; HQ city; zones it's carved from; operational date. Mains: \"Railway zone creation is as much a political as an administrative exercise. Evaluate the significance of the South Coast Railway zone.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **Andhra Pradesh Reorganisation Act 2014**: Bifurcation of AP; statutory promises on infrastructure\n- **Indian Railways Zone system**: Administrative structure, DRMs, Zonal Railway Managers\n- **Sagarmala + Port-led Industrialisation**: Visakhapatnam as major Eastern port; freight corridor importance\n- **PM GatiShakti**: National Master Plan for multi-modal connectivity"
+      },
+      {
+        id: "12-5",
+        title: "NATIONAL TECHNOLOGY DAY: POKHRAN-II + NATIONAL QUANTUM MISSION",
+        subtitle: "🟡 Important | Both | GS Paper III (Science & Technology)",
+        whyItMatters: "May 11 marked the 28th National Technology Day — commemorating India's five nuclear tests under Operation Shakti (Pokhran-II) on May 11, 1998. The 2026 theme: \"Responsible Innovation for Inclusive Growth.\"",
+        content: "📰 WHAT HAPPENED\nThe Vigyan Tech 2026 showcase at Bharat Mandapam brought together 3,000+ stakeholders. PM Modi recalled that the Pokhran-II tests represented a landmark assertion of India's technological sovereignty. On the same day in 1998, India's first indigenous aircraft, the Hansa-3, made its maiden flight. Under the National Quantum Mission (NQM), approved in 2023 with an outlay of ₹6,003 crore over 8 years, quantum teaching labs are now set up in 23 academic institutions.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| National Technology Day | May 11 (since 1999) |\n| Established by | PM Atal Bihari Vajpayee, 1999 |\n| Commemorates | Pokhran-II tests (Operation Shakti), May 11, 1998 |\n| No. of tests | 5 nuclear devices (in total across Pokhran-I and II) |\n| 2026 Theme | \"Responsible Innovation for Inclusive Growth\" |\n| National Quantum Mission | ₹6,003 crore; 8 years (from 2023) |\n| NQM labs active | 23 institutions; 100 more planned |\n| First indigenous aircraft | Hansa-3 (NAL, Bengaluru) — maiden flight May 11, 1998 |\n\n⚠️ THE UPSC TRAP\nPokhran-I and Pokhran-II are **different events.** Pokhran-I (\"Smiling Buddha\") was **1974** under PM Indira Gandhi. Pokhran-II (\"Operation Shakti\") was **1998** under PM Vajpayee. National Technology Day commemorates **Pokhran-II (1998)**, not Pokhran-I (1974). Also: Hansa-3 was the **first indigenous aircraft** — not Tejas.\n\n📝 EXAM ANGLES\nPrelims: Pokhran-I vs. II years and PMs; NQM outlay and timeline; Hansa-3 significance; National Technology Day establishment. Mains: \"India's nuclear doctrine of 'No First Use' and 'minimum credible deterrence' faces credibility challenges.\"",
+        revise: "🔗 STATIC CONNECTIONS\n- **Nuclear Non-Proliferation Treaty (NPT)**: India not a signatory\n- **NSG (Nuclear Suppliers Group)**: India's waiver (2008), membership bid pending\n- **CTBT (Comprehensive Nuclear-Test-Ban Treaty)**: India not signed; India's No First Use policy\n- **National Quantum Mission**: Mission under DST; aligns with NRF Act"
+      },
+      {
+        id: "12-6",
+        title: "INDIA-OMAN FTA: IMPLEMENTATION TALKS BEGIN",
+        subtitle: "🟢 Good to Know | Prelims | GS Paper II (IR) + GS Paper III (Economy)",
+        whyItMatters: "India and Oman held talks in New Delhi on May 11 to accelerate early implementation of their Free Trade Agreement signed in December 2025. The deal offers 98% duty-free access for India's exports to Oman across textiles, agriculture, and leather.",
+        content: "📰 WHAT HAPPENED\nThe FTA, signed in December 2025, marked India's fourth such agreement in the GCC region. Implementation talks focused on tariff phase-down schedules and Rules of Origin (RoO) compliance. Oman shares unique geographic significance — it is the GCC's only country with a coastline along both the Gulf of Oman and the Arabian Sea, making it critical for Indian trade routes.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| FTA signed | December 2025 |\n| Talks for early implementation | May 11, 2026 |\n| India exports covered | 98% duty-free access |\n| Key India exports | Textiles, agriculture, leather products |\n| Key Oman exports | Dates, marble, petrochemicals |\n| India-Oman bilateral trade | ~$12 billion (2024-25) |\n| GCC FTA status | India-UAE CEPA (Feb 2022); Oman Dec 2025 |\n\n📝 Exam Angles\nPrelims: India-UAE CEPA year (2022); GCC members; Oman's geographic position; RoO definition. Mains: Context topic — link Oman FTA to India's broader Gulf economic diplomacy and energy security strategy.",
+        revise: "🔗 STATIC CONNECTIONS\n- **GCC (Gulf Cooperation Council)**: 6 members — Saudi Arabia, UAE, Qatar, Bahrain, Kuwait, Oman\n- **CEPA vs. FTA vs. PTA**: Gradations of trade agreements\n- **Rules of Origin**: Why it matters in FTAs — prevents trade deflection\n- **India's Gulf diaspora**: 9 million+ Indians in GCC; remittances exceed $40 billion annually"
+      }
+    ],
+    reviseSummary: [
+      "OPEC+ membership and UAE's exit; India-Nordic Summit history (Stockholm 2018 → Copenhagen 2022 → Oslo 2026).",
+      "Indus Waters Treaty: Eastern rivers (Ravi, Beas, Sutlej) vs. Western rivers (Indus, Jhelum, Chenab).",
+      "MPC composition (RBI Act 1934); CPI base year 2024; WPI vs. CPI indicator shift.",
+      "South Coast Railway (SCoR) = 18th zone, HQ Visakhapatnam; AP Reorganisation Act 2014.",
+      "Pokhran-I (1974) vs. Pokhran-II (1998); National Quantum Mission (₹6,003 crore, 8 years).",
+      "GCC's 6 members; CEPA vs. FTA distinction; Rules of Origin (RoO) in trade deals."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about the Indus Waters Treaty (IWT), 1960:\n1. India has exclusive rights over the waters of the Indus, Jhelum, and Chenab rivers.\n2. The treaty was brokered by the United Nations.\n3. Pakistan receives water from rivers that account for approximately 80% of the Indus basin's total flow.\n4. The Permanent Indus Commission meets at least once a year under the treaty provisions.",
+          options: ["(a) 3 and 4 only", "(b) 1 and 3 only", "(c) 2 and 4 only", "(d) 1, 3, and 4 only"],
+          answer: "(a) 3 and 4 only",
+          explanation: "Statement 3 and 4 are correct. Statement 1 is incorrect as India has rights over eastern rivers (Ravi, Beas, Sutlej). Statement 2 is incorrect as it was brokered by the World Bank."
+        },
+        {
+          question: "With reference to India's Flexible Inflation Targeting (FIT) framework, consider the following:\nStatement I: The FIT framework makes it mandatory for the Monetary Policy Committee to submit a report to the government if inflation exceeds 6% for three consecutive quarters.\nStatement II: Under the FIT framework, the RBI is solely responsible for setting the inflation target, without requiring government consultation.",
+          options: ["(a) Both Statement I and Statement II are correct, and Statement II explains Statement I", "(b) Both Statement I and Statement II are correct, but Statement II does not explain Statement I", "(c) Statement I is correct but Statement II is incorrect", "(d) Statement I is incorrect but Statement II is correct"],
+          answer: "(c) Statement I is correct but Statement II is incorrect",
+          explanation: "Statement I is correct. Statement II is incorrect as the target is set by the Central Government in consultation with the RBI."
+        },
+        {
+          question: "Which of the following correctly matches the India–Nordic Summits with their host cities?\n1. 1st India–Nordic Summit — Stockholm, Sweden\n2. 2nd India–Nordic Summit — Helsinki, Finland\n3. 3rd India–Nordic Summit — Oslo, Norway",
+          options: ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1 only", "(d) All three are correctly matched"],
+          answer: "(a) 1 and 3 only",
+          explanation: "1 and 3 are correct. The 2nd summit was in Copenhagen, Denmark, not Helsinki."
+        },
+        {
+          question: "Consider the following pairs regarding India's nuclear tests:\nTest Name — Year — Prime Minister\n1. Smiling Buddha (Pokhran-I) — 1974 — Indira Gandhi\n2. Operation Shakti (Pokhran-II) — 1998 — Atal Bihari Vajpayee\n3. National Technology Day declared to commemorate Pokhran-I — 1999",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) All three are correctly matched"],
+          answer: "(a) 1 and 2 only",
+          explanation: "Pair 1 and 2 are correct. Pair 3 is incorrect as National Technology Day commemorates Pokhran-II."
+        },
+        {
+          question: "With reference to the South Coast Railway (SCoR), which of the following statements is/are correct?\n1. It is carved out of the South Central Railway and the East Coast Railway.\n2. Its headquarters is located in Vijayawada, Andhra Pradesh.\n3. It becomes India's 18th railway zone, with effect from June 1, 2026.\n4. It fulfils a commitment made under the Andhra Pradesh Reorganisation Act, 2014.",
+          options: ["(a) 1, 3, and 4 only", "(b) 2, 3, and 4 only", "(c) 1 and 4 only", "(d) All four are correct"],
+          answer: "(a) 1, 3, and 4 only",
+          explanation: "Statement 1, 3, and 4 are correct. Statement 2 is incorrect as the HQ is Visakhapatnam."
+        }
+      ],
+      mains: [
+        {
+          question: "\"India's decision to place the Indus Waters Treaty in abeyance represents a fundamental shift from treating water as a humanitarian concern to using it as a tool of strategic coercion. Critically evaluate this assertion.\"",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"India's energy import dependence is both its greatest economic vulnerability and its most powerful diplomatic asset. Discuss, with reference to PM Modi's May 2026 five-nation tour.\"",
+          context: "GS Paper III | 150 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-13",
+    date: "13th May 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~14 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 **VB–G RAM G Act** — MGNREGA repealed from July 1, 2026; rural guarantee rises from 100 to 125 days; budget: ₹1.51 lakh crore\n🔴 **India–Vietnam ECSP** — Ties upgraded to Enhanced Comprehensive Strategic Partnership; $25 billion trade target by 2030; 13 MoUs signed\n🔴 **SEHAT Mission** — ICMR + ICAR jointly launch India's first agriculture-nutrition-health convergence mission; addresses malnutrition AND NCDs simultaneously\n🟡 **Solid Waste Management Rules 2026** — Supreme Court empowers District Collectors to enforce SWM Rules; can cut water and electricity of violators\n🟡 **One Case One Data + Su Sahay** — CJI launches unified national judicial data platform and India's first Supreme Court AI chatbot (NIC-built)\n🟡 **India–US BTA** — US court strikes down Trump's 10% global tariff; creates fresh uncertainty over India–US Bilateral Trade Agreement negotiations",
+    topics: [
+      {
+        id: "13-1",
+        title: "VB–G RAM G ACT: MGNREGA'S SUCCESSOR NOTIFIED",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nUnion Minister Shivraj Singh Chouhan announced on May 11, 2026, that the Centre has notified the commencement of the VB–G RAM G Act, 2025, with effect from July 1, 2026. The Mahatma Gandhi National Rural Employment Guarantee Act, 2005, will stand repealed from the same date.\n\nThe new law guarantees 125 days of wage employment per financial year to every rural household whose adult members volunteer for unskilled manual work — up from 100 days under MGNREGA. Wage payments are to be made within 15 days, with delay compensation at 0.05% per day of unpaid wages beyond the deadline. Priority works include watershed development, groundwater recharge, rainwater harvesting, irrigation support, and afforestation. The Act places Gram Panchayats at the centre of rural transformation.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | Viksit Bharat–G RAM G Act, 2025 |\n| Replaces | MGNREGA, 2005 |\n| Effective Date | July 1, 2026 |\n| Employment Guarantee | 125 days/year (vs 100 under MGNREGA) |\n| Central Budget FY27 | ₹95,692.31 crore |\n| Total Outlay | >₹1.51 lakh crore |\n| Wage Delay Comp. | 0.05% per day |\n\n⚠️ THE UPSC TRAP\nVB–G RAM G *replaces* MGNREGA entirely — it does not amend it. MGNREGA stands *repealed* from July 1, 2026. The funding pattern remains shared between Centre and States as a Centrally Sponsored Scheme.",
+        whyItMatters: "Most significant overhaul of rural employment since 2005. Shift from entitlement to productivity-oriented architecture.",
+        revise: "Article 41 (DPSP), 73rd Amendment, MGNREGA 2005 history, Casual workforce data.",
+        pyqConnect: "GS III 2013 — Performance and limitations of MGNREGA."
+      },
+      {
+        id: "13-2",
+        title: "INDIA–VIETNAM ENHANCED COMPREHENSIVE STRATEGIC PARTNERSHIP",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II",
+        content: "📰 WHAT HAPPENED\nIndia and Vietnam upgraded their bilateral ties to an \"Enhanced Comprehensive Strategic Partnership\" on May 6, 2026. Vietnamese President To Lam's state visit resulted in 13 MoUs covering rare earths, critical minerals, digital payments, and cybersecurity. A trade target of $25 billion by 2030 was announced.\n\nVietnam formally joined India's Indo-Pacific Oceans Initiative (IPOI). Both leaders affirmed commitment to UNCLOS 1982 and ASEAN centrality, significant given China's assertiveness in the South China Sea. Vietnam has the 2nd largest rare earth reserves globally after China.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Previous Status | Comprehensive Strategic Partnership (2016) |\n| New Status | Enhanced Comprehensive Strategic Partnership (2026) |\n| Diplomatic Rel. | Since 1972 |\n| MoUs Signed | 13 |\n| Trade Target | $25 billion by 2030 |\n| Joined | IPOI (Indo-Pacific Oceans Initiative) |\n\n⚠️ THE UPSC TRAP\nThe progression: Diplomatic (1972) → Strategic (2007) → Comprehensive Strategic (2016) → Enhanced Comprehensive Strategic (2026). IPOI is an **India-led** initiative, not a US-led or Quad-led framework.",
+        whyItMatters: "Vietnam is a key pillar of India's Act East Policy and Vision Mahasagar. Strategic access to critical minerals.",
+        revise: "Act East Policy vs Look East, IPOI (2019), UNCLOS 1982, Vision Mahasagar.",
+        pyqConnect: "GS II 2021 — Evolution of strategic depth in India-Vietnam relations."
+      },
+      {
+        id: "13-3",
+        title: "SEHAT MISSION: AGRI-NUTRITION-HEALTH CONVERGENCE",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nICMR and ICAR jointly launched SEHAT — Science Excellence for Health through Agricultural Transformation — on May 11, 2026. It is India's first national mission to formally integrate agricultural research with public health outcomes.\n\nSEHAT focuses on biofortified crops, integrated farming, and the \"One Health\" approach (interconnecting human, animal, and environmental health). It targets India's dual burden: malnutrition (stunting/wasting) and rising non-communicable diseases (NCDs) like diabetes and hypertension.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Full Name | Science Excellence for Health through Agri Transformation |\n| Implementing | ICMR (Health Min) + ICAR (Agri Min) |\n| Approach | One Health (Human + Animal + Environment) |\n| Focus | Biofortified crops, integrated farming, preventive care |\n| Policy | National One Health Mission, Ayushman Bharat |\n\n⚠️ THE UPSC TRAP\nICMR (Medical) is under MoHFW; ICAR (Agri) is under MoA&FW. One Health specifically means interconnectivity of human, animal, and environmental health, not just \"health for all.\"",
+        whyItMatters: "Shift from curative to preventive healthcare. Addresses world's largest stunting burden alongside rising NCDs.",
+        revise: "Biofortification process, One Health framework (WHO), National Nutrition Mission (Poshan 2.0).",
+        pyqConnect: "Essay 2022 — Hunger and climate change as twin challenges."
+      },
+      {
+        id: "13-4",
+        title: "SOLID WASTE MANAGEMENT RULES 2026: SC ENFORCEMENT ORDER",
+        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nThe SWM Rules, 2026 (replacing 2016 Rules) introduced four-stream waste segregation. On May 5, the Supreme Court empowered District Collectors (DCs) to enforce these rules, including cutting water/electricity to bulk waste violators for one year.\n\nCritics argue the Rules violate federalism and the principle of subsidiarity by applying a one-size-fits-all technocratic approach to both Gram Panchayats and metropolises. Reporting is centralized via CPCB dashboards.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| Rules | Solid Waste Management Rules, 2026 |\n| Enabling Act | Environment (Protection) Act, 1986 |\n| SC Order | Empowers DCs via Section 23 of EPA |\n| Segregation | Wet, Dry, Sanitary, Special Care |\n| BWG Threshold | Buildings ≥20,000 sq m OR waste ≥100 kg/day |\n\n⚠️ THE UPSC TRAP\nSWM Rules are enabled by the **Environment (Protection) Act, 1986**, not the 2000 Rules. Constitutionally, they implement international obligations under Article 253.",
+        whyItMatters: "Judicial activism vs federalism. Addresses chronic implementation gaps in urban and rural waste management.",
+        revise: "EPA 1986 sections, Article 21 (Clean environment), Polluter Pays Principle.",
+        pyqConnect: "GS III 2021 — National Landslide Risk Management vs waste governance."
+      },
+      {
+        id: "13-5",
+        title: "ONE CASE ONE DATA + SU SAHAY: AI IN SUPREME COURT",
+        subtitle: "🟡 Important | Prelims | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nCJI Surya Kant launched \"One Case One Data\" and \"Su Sahay\" on May 11, 2026. One Case One Data is a unified platform connecting SC, High Courts, and lower courts for real-time digital access to records. It aims to reduce delays in a system with 5 crore pending cases.\n\n\"Su Sahay\" is an AI chatbot developed by NIC to assist citizens and lawyers on the SC website, marking the first AI-enabled public tool at the apex court level.\n\n| Initiative | Detail |\n|------------|--------|\n| One Case One Data | Unified case management system (SC to Taluka) |\n| Su Sahay | AI chatbot on SC website (NIC-built) |\n| e-Courts Phase III | 2023–2027 framework |\n| Access to Justice | Article 21 + Hussainara Khatoon (1979) |\n\n⚠️ THE UPSC TRAP\nSu Sahay was built by **NIC** (Ministry of Electronics & IT), not an industry body like NASSCOM. One Case One Data is part of the e-Courts Phase III mission.",
+        whyItMatters: "Technological intervention to solve chronic judicial pendency and fragmented records.",
+        revise: "e-Courts Mission, NIC mandate, Access to justice jurisprudence.",
+        pyqConnect: "GS II 2021 — Independent judiciary as a living institution."
+      },
+      {
+        id: "13-6",
+        title: "INDIA–US BTA: US COURT STRIKES DOWN TRUMP TARIFF",
+        subtitle: "🟡 Important | Both Prelims + Mains | GS Paper II + GS Paper III",
+        content: "📰 WHAT HAPPENED\nThe US Court of International Trade struck down President Trump's 10% global tariff (under Section 122 of the Trade Act of 1974), citing that conditions for balance-of-payments emergency were not satisfied. This creates uncertainty for the India-US Bilateral Trade Agreement (BTA).\n\nIndia and US had agreed on an interim 18% tariff rate in February 2026. India seeks zero duty on pharma and aircraft parts, while the US wants agricultural market access. Mission 500 targets $500 billion trade by 2030.\n\n📊 KEY DATA TABLE\n| Parameter | Detail |\n|-----------|--------|\n| India-US Trade | $132 billion (FY25) |\n| Tariff Rate | 18% (interim framework) |\n| Mission 500 | $500 billion by 2030 target |\n| Section 122 | Allows up to 15% tariff for 150 days (US law) |\n| iCET | Critical and Emerging Tech framework |\n\n⚠️ THE UPSC TRAP\nUS court ruling is domestic law, separate from WTO Dispute Settlement. Section 122 is specific to balance-of-payments emergencies.",
+        whyItMatters: "Bilateral trade instability between India's largest trading partner. Impact on 'Mission 500' goals.",
+        revise: "WTO vs Bilateral trade law, iCET, Section 301 vs 232 vs 122.",
+        pyqConnect: "GS II 2018 — WTO crisis and India's role in multilateral trade."
+      }
+    ],
+    reviseSummary: [
+      "VB–G RAM G Act (2025) replaces MGNREGA from July 1, 2026; raises guarantee to 125 days.",
+      "India-Vietnam upgrade to Enhanced Comprehensive Strategic Partnership; trade target $25bn by 2030.",
+      "SEHAT Mission: Joint ICMR-ICAR project for agri-nutrition convergence and One Health.",
+      "SC empowers District Collectors via Section 23 of EPA to enforce SWM Rules 2026.",
+      "One Case One Data connects all Indian courts; Su Sahay AI chatbot launched for Supreme Court.",
+      "US court strikes down 10% global tariff; affects India-US Bilateral Trade Agreement framework."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the Viksit Bharat–G RAM G Act, 2025, consider the following statements:\n1. It replaces the Mahatma Gandhi NREGA by amending its core provisions.\n2. The employment guarantee has been raised from 100 to 125 days per financial year.\n3. Wage payments are to be made within 15 days, failing which workers are entitled to delay compensation.\n4. It is administered by the Ministry of Labour and Employment.",
+          options: ["(a) 2 and 3 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 2 and 3 only",
+          explanation: "Statement 2 and 3 are correct. Statement 1 is incorrect as the Act repeals MGNREGA entirely. Statement 4 is incorrect as it is under the Ministry of Rural Development."
+        },
+        {
+          question: "Consider the following pairs regarding India's partnerships with Southeast Asian nations:\n1. India–Vietnam Comprehensive Strategic Partnership → 2016\n2. India–Vietnam Enhanced Comprehensive Strategic Partnership → 2026\n3. Indo-Pacific Oceans Initiative (IPOI) → Launched at East Asia Summit 2019\n4. IPOI is a US-led framework under the Quad",
+          options: ["(a) 1, 2 and 3 only", "(b) 1 and 3 only", "(c) 2 and 4 only", "(d) All of the above"],
+          answer: "(a) 1, 2 and 3 only",
+          explanation: "Pairs 1, 2, and 3 are correctly matched. Pair 4 is incorrect as IPOI is an India-led initiative."
+        },
+        {
+          question: "Consider Statement I and Statement II:\nStatement I: The SEHAT Mission is jointly implemented by ICMR and ICAR.\nStatement II: ICMR functions under the Ministry of Agriculture and Farmers' Welfare.",
+          options: ["(a) Both Statement I and Statement II are correct", "(b) Both Statement I and Statement II are correct but II does not explain I", "(c) Statement I is correct, but Statement II is incorrect", "(d) Statement I is incorrect, but Statement II is correct"],
+          answer: "(c) Statement I is correct, but Statement II is incorrect",
+          explanation: "Statement I is correct. Statement II is incorrect as ICMR is under the Ministry of Health and Family Welfare."
+        },
+        {
+          question: "Which of the following statements regarding the Solid Waste Management Rules, 2026 is/are correct?\n1. They were notified under the Environment (Protection) Act, 1986.\n2. They replaced the SWM Rules, 2016 with effect from April 1, 2026.\n3. Bulk Waste Generators include buildings with water use exceeding 40,000 litres per day.\n4. The Supreme Court empowered District Collectors using Section 23 of the EPA, 1986.",
+          options: ["(a) 1 and 2 only", "(b) 1, 2 and 3 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(d) 1, 2, 3 and 4",
+          explanation: "All statements are correct. The BWG criteria includes water use ≥40,000 litres/day. Section 23 allowed delegation to DCs."
+        },
+        {
+          question: "Consider the following statements regarding the \"One Case One Data\" initiative:\n1. It was launched by Chief Justice of India Surya Kant.\n2. \"Su Sahay\", the AI chatbot, was developed by NASSCOM in collaboration with the SC Registry.\n3. The initiative connects Supreme Court, High Courts, District Courts, and Taluka Courts through a unified data system.\n4. National Informatics Centre (NIC) functions under the Ministry of Electronics and Information Technology.",
+          options: ["(a) 1 and 3 only", "(b) 1, 3 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2 and 4 only"],
+          answer: "(b) 1, 3 and 4 only",
+          explanation: "Statement 1, 3, and 4 are correct. Statement 2 is incorrect as Su Sahay was developed by NIC."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The replacement of MGNREGA with the Viksit Bharat–G RAM G Act represents a shift from welfare-based entitlement to productivity-oriented rural development. Examine.\"",
+          context: "GS Paper II/III | 250 words"
+        },
+        {
+          question: "\"India's escalating waste crisis demands a governance solution that is simultaneously national in standard and local in execution. Discuss with reference to SWM Rules 2026.\"",
+          context: "GS Paper II/III | 150 words"
+        }
+      ]
+    }
+  },
+  {
+
+    id: "2026-05-14",
+    date: "14th May 2026",
+    day: "Thursday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⏱️ Reading time: ~14 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 TODAY AT A GLANCE\n🔴 BRICS Foreign Ministers' Meeting 2026 — India chairs its 4th BRICS summit engagement in New Delhi today; 11-member expanded bloc meets under \"BRICS@20\" agenda\n🔴 PM Modi's 5-Nation Tour (May 15–20) — UAE, Netherlands, Sweden, Norway, Italy; energy security the dominant thread\n🔴 Kharif MSP 2026-27 — CCEA approves hike for 14 crops; highest for sunflower (₹622/qtl); 1.5x cost formula continues\n🔴 National Coal/Lignite Gasification Scheme — ₹37,500 crore Cabinet approval; target 100 MT gasification by 2030\n🟡 I4C–RBIH MoU: MuleHunter.AI — MHA and RBI Innovation Hub integrate AI to detect mule accounts\n🟡 Kimberley Process 2026 — India chairs intersessional meet in Mumbai; '3Cs' theme — credibility, compliance, consumer confidence",
+    topics: [
+      {
+        id: "14-1",
+        title: "BRICS FOREIGN MINISTERS' MEETING 2026",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II (International Relations)",
+        content: "India hosts the BRICS Foreign Ministers' Meeting in New Delhi today and tomorrow (May 14–15) under its 2026 chairship — the fourth time India has chaired BRICS (2012, 2016, 2021, 2026). EAM S. Jaishankar chairs a gathering of the now-11-member expanded BRICS. The agenda centres on \"BRICS@20\" and global governance reform. The expanded BRICS now comprises 11 members: Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, Russia, Saudi Arabia, South Africa, and the UAE.\n\n| Parameter | Detail |\n|-----------|--------|\n| Meeting dates | May 14–15, 2026 |\n| Chairship Theme | \"Building for Resilience, Innovation, Cooperation and Sustainability\" |\n| India's BRICS chairship count | 4th time (2012, 2016, 2021, 2026) |\n| Current BRICS members | 11 members |\n| New members 2025 | Indonesia |\n| Partner nations (since 2025) | 10 nations (observers) |",
+        whyItMatters: "BRICS expansion, Global South representation, and reform of multilateral institutions like the UNSC and Bretton Woods are recurring UPSC themes. India's role as a balancing power in the expanded bloc is critical for strategic autonomy.",
+        revise: "International Relations — BRICS history and expansion; New Development Bank (NDB) and its HQ in Shanghai; Differences between G20 and BRICS; India's 2026 chairship theme.",
+        pyqConnect: "UPSC 2023 — Significance of BRICS for India in the current global scenario."
+      },
+      {
+        id: "14-2",
+        title: "PM MODI'S 5-NATION TOUR (MAY 15–20, 2026)",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper II (IR, Bilateral Relations)",
+        content: "PM Modi departs tomorrow on a six-day, five-nation tour: UAE → Netherlands → Sweden → Norway → Italy. The unifying thread is energy security as the Strait of Hormuz disruptions reshape India's supply chains. India needs alternative energy partnerships and supply chain diversification. The Netherlands leg includes a Strategic Partnership on Water and semiconductor cooperation. Norway will host the 3rd India-Nordic Summit, focusing on the blue economy and investment from its Pension Fund Global.\n\n| Country | Key Focus | Key Data |\n|---------|-----------|----------|\n| UAE | Energy, Comp. Strategic Partnership | 3rd largest trade partner; 4.5M diaspora |\n| Netherlands | Semiconductors, water partnership | India's largest trade destination in Europe |\n| Sweden | EU FTA, innovation, defence | Strategic industrial tie-ups |\n| Norway | India-Nordic Summit, blue economy | USD 28 bn GPFG investment in India |\n| Italy | Joint Strategic Action Plan 2025-29 | Implementation of 5-year roadmap |",
+        whyItMatters: "Energy security, semiconductor diplomacy, and the distinction between India-EU and India-EFTA trade agreements are high-value topics. The role of the diaspora in UAE and sovereign wealth funds in Norway add economic depth.",
+        revise: "Geography — Strait of Hormuz as a chokepoint; International Relations — India-UAE CEPA, India-Nordic Summit format, and EFTA vs EU distinctions.",
+        pyqConnect: "UPSC 2022 — Statement-based question on India's bilateral trade agreements and their features."
+      },
+      {
+        id: "14-3",
+        title: "KHARIF MSP 2026-27: CCEA APPROVES HIKE FOR 14 CROPS",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper III (Agriculture, Economy)",
+        content: "The Cabinet Committee on Economic Affairs (CCEA) approved the MSP hike for 14 kharif crops for 2026-27. The highest absolute increase went to sunflower seed at ₹622/qtl. The 1.5x cost-of-production formula continues to govern MSP decisions. The government aims to diversify agriculture away from rice/wheat toward pulses, oilseeds, and nutri-cereals (Shree Anna).\n\n| Crop | Notable MSP increase | Margin over cost |\n|------|----------------------|------------------|\n| Sunflower seed | ₹622 (highest) | — |\n| Cotton | ₹557 | — |\n| Moong | — | 61% (highest margin) |\n| Bajra | — | 56% |\n| Formula | 1.5x A2+FL cost | Since Budget 2018-19 |",
+        whyItMatters: "Agricultural economics, MSP cost concepts (A2, A2+FL, C2), and crop diversification are core GS-III topics. The distinction between the government's A2+FL formula and farmers' demand for C2+50% is a frequent 'trap' area.",
+        revise: "CACP (recommending body); Kharif vs Rabi crops; Shree Anna (Millets); WTO and MSP Aggregate Measure of Support.",
+        pyqConnect: "UPSC 2018 — Reasons for declining MSP effectiveness in India."
+      },
+      {
+        id: "14-4",
+        title: "NATIONAL COAL/LIGNITE GASIFICATION SCHEME",
+        subtitle: "🔴 Must Read | Both Prelims + Mains | GS Paper III (Energy, Environment, Economy)",
+        content: "Cabinet approved a ₹37,500 crore scheme to promote surface coal and lignite gasification projects, targeting 100 MT gasification by 2030. Financial incentives of up to 20% of plant cost will be provided. The scheme reduces dependence on imported LNG, urea, ammonia, and methanol by utilizing India's 401 billion tonnes of coal reserves.\n\n| Parameter | Detail |\n|-----------|--------|\n| Scheme outlay | ₹37,500 crore |\n| Target | 100 MT by 2030 |\n| Incentive | Up to 20% of machinery cost |\n| India's Coal Reserves | ~401 billion tonnes (200 years) |\n| Syngas | Carbon Monoxide (CO) + Hydrogen (H2) |",
+        whyItMatters: "Surface vs underground coal gasification, syngas composition, and the 'Methanol Economy' are critical for Energy and Environment. This connects energy security with climate commitments (NDCs) under the Paris Agreement.",
+        revise: "Surface vs underground gasification; National Coal Gasification Mission (2021); Methanol Economy; Energy Trilemma.",
+        pyqConnect: "UPSC 2023 — Clean coal technologies and India's NDC."
+      },
+      {
+        id: "14-5",
+        title: "I4C–RBIH MOU: MULEHUNTER.AI",
+        subtitle: "🟡 Important | GS Paper III (Cybersecurity, Internal Security)",
+        content: "The MHA's Indian Cyber Crime Coordination Centre (I4C) and the RBI Innovation Hub (RBIH) integrated 'MuleHunter.AI' with the national Suspect Registry. This AI-driven system detects mule accounts across India's banking network to disrupt the financial backbone of cybercrime.",
+        whyItMatters: "Cybersecurity, financial fraud, and AI-driven policing are increasingly important for Internal Security. Mule accounts are a primary vehicle for money laundering and terror funding.",
+        revise: "Internal Security — I4C framework; RBI Innovation Hub; Money laundering and mule accounts; Role of AI in governance."
+      },
+      {
+        id: "14-6",
+        title: "KIMBERLEY PROCESS 2026 INTERSESSIONAL MEET",
+        subtitle: "🟡 Important | GS Paper II (International Relations, Trade)",
+        content: "India chaired the Kimberley Process (KP) intersessional meeting in Mumbai, focusing on the '3Cs' theme: credibility, compliance, and consumer confidence. The KP prevents 'conflict diamonds' from entering the mainstream market. India is a major global hub for diamond cutting and polishing.",
+        whyItMatters: "Multilateral trade regimes, ethics in global supply chains, and India's role as a major diamond processing hub make this relevant for IR and Economy.",
+        revise: "International Relations — Kimberley Process Certification Scheme (KPCS); Definition of Conflict Diamonds; India's diamond industry significance."
+      }
+    ],
+    reviseSummary: [
+      "India chairs BRICS 2026 for the 4th time; bloc expanded to 11 members including Indonesia.",
+      "PM Modi's 5-nation tour focuses on energy security and supply chain diversification amid Hormuz crisis.",
+      "Kharif MSP 2026-27 approved using 1.5x A2+FL formula; highest hike for sunflower seeds.",
+      "₹37,500 crore approved for surface coal gasification to reduce fuel and fertilizer imports.",
+      "MuleHunter.AI launched to detect fraudulent banking accounts via I4C-RBIH collaboration.",
+      "India chairs Kimberley Process 2026 meet in Mumbai to reinforce diamond trade ethics."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the expanded BRICS bloc as of 2026, which of the following statements is correct?",
+          options: [
+            "(a) Saudi Arabia and UAE joined as full members in 2025.",
+            "(b) Indonesia joined as a full member in 2025.",
+            "(c) The bloc now comprises 15 full members.",
+            "(d) Partner nations have the same voting rights as full members."
+          ],
+          answer: "(b) Indonesia joined as a full member in 2025.",
+          explanation: "Indonesia joined as a full member in 2025. Saudi Arabia and UAE joined in 2024. The bloc has 11 full members. Partner nations are observers."
+        },
+        {
+          question: "Which of the following countries is NOT part of PM Modi's 5-nation tour scheduled for May 2026?",
+          options: [
+            "(a) Sweden",
+            "(b) Norway",
+            "(c) Switzerland",
+            "(d) Netherlands"
+          ],
+          answer: "(c) Switzerland",
+          explanation: "The tour includes UAE, Netherlands, Sweden, Norway, and Italy. Switzerland is part of EFTA but not part of this specific tour."
+        },
+        {
+          question: "The 1.5x cost-of-production formula used for calculating MSP applies to which cost concept?",
+          options: [
+            "(a) A2 Cost only",
+            "(b) C2 Cost only",
+            "(c) A2 + FL Cost",
+            "(d) C2 + 50% Cost"
+          ],
+          answer: "(c) A2 + FL Cost",
+          explanation: "The government uses 1.5 times the A2+FL cost (Actual paid out cost + value of family labour) as announced in Budget 2018-19."
+        },
+        {
+          question: "Consider the following statements regarding Coal Gasification:\n1. Syngas produced during gasification primarily consists of Methane.\n2. Surface gasification involves mining coal before processing it above ground.\n3. The National Coal Gasification Mission targets 100 MT gasification by 2030.",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 is incorrect: Syngas primarily consists of Carbon Monoxide and Hydrogen. Methane is the primary component of Natural Gas."
+        },
+        {
+          question: "The '3Cs' theme — credibility, compliance, and consumer confidence — is associated with which multilateral framework?",
+          options: [
+            "(a) Kimberley Process",
+            "(b) Wassenaar Arrangement",
+            "(c) Australia Group",
+            "(d) MTCR"
+          ],
+          answer: "(a) Kimberley Process",
+          explanation: "The Kimberley Process (KP) focuses on the 3Cs to prevent conflict diamonds from entering the global market."
+        }
+      ],
+      mains: [
+        {
+          question: "How does coal gasification reconcile India's energy security needs with its climate commitments? Discuss with reference to the National Coal Gasification Mission.",
+          context: "GS Paper III | 250 words"
+        },
+        {
+          question: "Evaluate India's approach to the expanded BRICS bloc in light of its strategic autonomy and multi-alignment strategy.",
+          context: "GS Paper II | 150 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-15",
+    date: "15th May 2026",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "15-1",
+        title: "VB–G RAM G Act Replaces MGNREGA",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II + GS III",
+        content: "The Mahatma Gandhi National Rural Employment Guarantee Act, 2005, is formally being repealed. From July 1, 2026, the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB–G RAM G] Act, 2025, takes its place, raising the guaranteed employment days from 100 to 125 and shifting the policy philosophy from entitlement-based relief to productivity-led rural development aligned with Viksit Bharat @2047. The Government issued a gazette notification on May 11, 2026. Union Minister Shivraj Singh Chouhan confirmed the Central Government has allocated ₹95,692.31 crore as the Central share for FY 2026–27. However, a LibTech India report flagged serious concerns, noting that 115.8 million workers failed to complete e-KYC in MGNREGA's final year.",
+        whyItMatters: "Article 41 (DPSP), Schedule VII (Concurrent List), Panchayati Raj Institutions (73rd Amendment). Shift from demand-driven to supply-driven policy.",
+        revise: "Article 41 (DPSP): Right to work; Schedule VII (Concurrent List): Employment; MGNREGA (2005); 73rd Amendment.",
+        pyqConnect: "UPSC 2016 — 'Discuss the role of MGNREGA in rural development and its impact on agrarian wages.'"
+      },
+      {
+        id: "15-2",
+        title: "CPI Inflation April 2026: 3.48% ON NEW SERIES",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS III",
+        content: "India's retail CPI inflation rose to 3.48% in April 2026 from 3.40% in March. Retail inflation remains below RBI's 4% target, but food inflation jumped to 4.20% from 3.87%, driven by tomato prices (+35.28%). WPI (Wholesale Price Index) for April 2026 spiked to 8.3% — driven by mineral oils, crude petroleum, and basic metals. This divergence between retail and wholesale prices signals rising input costs that may feed into retail prices later.",
+        whyItMatters: "Monetary Policy Committee (MPC), Flexible Inflation Targeting Framework (FIFF), WPI vs CPI divergence.",
+        revise: "MPC composition and quorum; FIFF (RBI Act amendment 2016); CPI vs WPI (source ministry, use, components); New base year for CPI (2024).",
+        pyqConnect: "UPSC 2016 (Prelims) — 'Which of the following is used as the basis for India's monetary policy framework?'"
+      },
+      {
+        id: "15-3",
+        title: "Operation Sindoor at One Year: India's New Security Doctrine",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II + GS III",
+        content: "One year since Operation Sindoor (May 7–10, 2025) launched in response to the Pahalgam terror attack, India has demonstrated unprecedented indigenous strike capability using BrahMos, Akashteer, and loitering munitions. India asserted that its new doctrine means any future terror attack will meet a 'firm, decisive, and unwavering' response, explicitly rejecting nuclear blackmail as a constraint. Meanwhile, Pakistan has rebuilt its international standing by hosting US-Iran talks.",
+        whyItMatters: "India's Nuclear Doctrine (2003) - NFU, massive retaliation, civilian control via CCS. UAPA, Shimla Agreement (1972), Lahore Declaration (1999).",
+        revise: "India's Nuclear Doctrine (2003); Cabinet Committee on Security; UAPA; Shimla Agreement; Lahore Declaration; Strategic Autonomy.",
+        pyqConnect: "UPSC 2020 (Mains) — 'India's bilateral relations with most of its neighbours are not on a good footing. Analyse the reasons and suggest ways to put them on an even keel.'"
+      },
+      {
+        id: "15-4",
+        title: "India–US Trade Deal Framework: What's Locked In and What Isn't",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS II + GS III",
+        content: "The India-US Bilateral Trade Agreement (BTA) framework, announced February 2026, reduced the US reciprocal tariff on Indian goods from 25% to 18%. India agreed to stop purchasing Russian oil, pivot to US crude, and commit to purchasing over $500 billion worth of US energy, tech, and agri over five years. However, this is a joint statement/framework, not a legally binding FTA which requires US Congressional approval.",
+        whyItMatters: "MFN clause under WTO, GSP status, iCET (Initiative on Critical and Emerging Technologies), DPDP Act 2023.",
+        revise: "WTO MFN clause; GSP (India's loss in 2019); iCET; DPDP Act 2023; BTA negotiations framework.",
+        pyqConnect: "UPSC 2023 (Prelims) — Question on India's bilateral trade relationships and Generalised System of Preferences."
+      },
+      {
+        id: "15-5",
+        title: "Census 2027 Phase 1: House Listing Ends Today",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS II",
+        content: "India's Census 2027 Phase 1 — the House Listing and Housing Census — closes today (May 15, 2026) in 8 states and UTs. This is India's first-ever digital census and the first to offer self-enumeration. All administrative units were frozen from January 1, 2026 to March 31, 2027. Caste enumeration will be conducted during Phase 2 in February 2027.",
+        whyItMatters: "Census Act 1948, Union List Entry 69 (Schedule VII), Registrar General of India (MHA).",
+        revise: "Census Act, 1948; Union List Entry 69; Article 246; Registrar General of India; Delimitation Commission.",
+        pyqConnect: "UPSC 2020 (Mains) — 'Critically examine the constitutionality of sub-categorisation of OBCs.'"
+      },
+      {
+        id: "15-6",
+        title: "AI + DPI in Financial Inclusion: India's Post-JAM Era",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS III",
+        content: "The government highlighted new AI-integrated DPI initiatives: Banking BHASHINI (multilingual banking in 22 languages), Unified Lending Interface (ULI - 'UPI for lending'), and MuleHunter.AI (cyber fraud detection). India processed ₹29.53 lakh crore via UPI in March 2026. Account Aggregator ecosystem has reached 252.9 million users.",
+        whyItMatters: "JAM Trinity, DPDP Act 2023, PMLA 2002, FATF compliance, Article 21 (Right to Privacy).",
+        revise: "JAM Trinity; Account Aggregators (NBFC); PMLA 2002; FATF; DPDP Act 2023; Article 21 (Right to Privacy, Puttaswamy 2017)."
+      },
+      {
+        id: "15-7",
+        title: "Gharial Returns to Kaziranga: A Conservation Milestone",
+        subtitle: "🟢 Good to Know | Prelims | GS III (Environment & Ecology)",
+        content: "The critically endangered gharial (Gavialis gangeticus) has been repeatedly sighted in the Burapahar Range of Kaziranga National Park — a species considered locally extinct in Assam since the 1950s. The sightings reflect intact aquatic habitats. Discussions on a formal gharial reintroduction programme with support from Madhya Pradesh are underway.",
+        whyItMatters: "IUCN Status: Critically Endangered. WPA 1972 Schedule I. Crocodile Conservation Project.",
+        revise: "IUCN Red List categories; WPA 1972 Schedules; Crocodile Conservation Project; CBD; National Chambal Sanctuary.",
+        pyqConnect: "UPSC 2024 — Question on wildlife sanctuaries and their distinguishing features."
+      }
+    ],
+    reviseSummary: [
+      "VB-G RAM G Act replaces MGNREGA from July 1, 2026; employment days raised to 125.",
+      "April 2026 CPI inflation at 3.48%; WPI spikes to 8.3% signal future retail price pressure.",
+      "Operation Sindoor anniversary marks shift in India's security doctrine against nuclear blackmail.",
+      "India-US Trade Framework locks in 18% tariff; India commits to $500B purchases and pivots from Russian oil.",
+      "Census 2027 Phase 1 ends today in 8 states/UTs; first digital census in India's history.",
+      "AI + DPI initiatives (Banking BHASHINI, ULI, MuleHunter.AI) drive post-JAM financial inclusion.",
+      "Critically endangered gharial re-sighted in Kaziranga after being locally extinct since the 1950s."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB–G RAM G] Act, 2025:\n1. It guarantees 125 days of wage employment annually to rural households.\n2. The Act comes into force from April 1, 2026.\n3. Workers are entitled to unemployment allowance if work is not provided within the statutory time limit.",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b) 1 and 3 only",
+          explanation: "Statement 2 is incorrect. The Act comes into force on July 1, 2026, not April 1. Statements 1 and 3 are correct."
+        },
+        {
+          question: "Consider the following two statements about India's Consumer Price Index (CPI) data for April 2026:\nStatement I: India's retail CPI inflation for April 2026 at 3.48% exceeded the Reserve Bank of India's medium-term inflation target.\nStatement II: The Reserve Bank of India's monetary policy mandate is to maintain price stability while keeping in mind the objective of growth.",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I.",
+            "(b) Both Statement I and Statement II are correct, but Statement II is not the correct explanation of Statement I.",
+            "(c) Statement I is incorrect, but Statement II is correct.",
+            "(d) Both Statement I and Statement II are incorrect."
+          ],
+          answer: "(c) Statement I is incorrect, but Statement II is correct.",
+          explanation: "Statement I is incorrect because 3.48% is below the RBI's 4% target. Statement II correctly states the RBI's mandate."
+        },
+        {
+          question: "Match the following species with their correct IUCN Red List conservation status:\n1. Gharial — A. Vulnerable\n2. One-Horned Rhinoceros — B. Critically Endangered\n3. Bengal Tiger — C. Endangered",
+          options: [
+            "(a) 1-B, 2-A, 3-C",
+            "(b) 1-B, 2-C, 3-A",
+            "(c) 1-C, 2-A, 3-B",
+            "(d) 1-A, 2-C, 3-B"
+          ],
+          answer: "(a) 1-B, 2-A, 3-C",
+          explanation: "Gharial is Critically Endangered, One-Horned Rhino is Vulnerable (reclassified in 2008), and Bengal Tiger is Endangered."
+        },
+        {
+          question: "With reference to India's Nuclear Doctrine, consider the following statements:\n1. India follows a No First Use (NFU) policy.\n2. India will not use nuclear weapons against any state that does not possess nuclear weapons.\n3. Pakistan maintains a formal No First Use policy similar to India's.\n4. The authority to authorise the use of nuclear weapons in India rests with the Cabinet Committee on Security.",
+          options: [
+            "(a) 1, 2 and 3 only",
+            "(b) 1, 2 and 4 only",
+            "(c) 2 and 4 only",
+            "(d) 1 and 4 only"
+          ],
+          answer: "(b) 1, 2 and 4 only",
+          explanation: "Statement 3 is incorrect. Pakistan does not have a formal No First Use policy. Statements 1, 2, and 4 are correct."
+        },
+        {
+          question: "Consider the following statements about the India–US Trade Framework announced in February 2026:\n1. The United States reduced the effective reciprocal tariff on most Indian goods from 25% to 18%.\n2. India faces a lower US tariff rate than Pakistan, Vietnam, and Bangladesh.\n3. The framework is a legally binding Free Trade Agreement enforceable under US domestic law.",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 2 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(c) 1 and 2 only",
+          explanation: "Statement 3 is incorrect. The framework is a joint statement and not yet a legally binding FTA. Statements 1 and 2 are correct."
+        }
+      ],
+      mains: [
+        {
+          question: "The VB–G RAM G Act, 2025 represents a paradigm shift in India's rural employment policy — from an entitlement-based framework to a productivity-oriented development architecture. Critically examine this claim.",
+          context: "GS Paper III | 250 words"
+        },
+        {
+          question: "One year after Operation Sindoor, India's strategic gains remain contested while Pakistan has expanded its diplomatic profile. Critically analyse the geopolitical implications of India's post-Sindoor security doctrine.",
+          context: "GS Paper II | 150 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-16",
+    date: "16th May 2026",
+    day: "Saturday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "16-1",
+        title: "NEET-UG 2026 Cancelled & NTA to Shift to Computer-Based Testing",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Governance, Education Policy)",
+        content: "The National Eligibility-cum-Entrance Test for Undergraduate medical admissions (NEET-UG 2026), held on May 3, 2026, has been cancelled and rescheduled to June 21 following paper leak allegations. More significantly, Education Minister Dharmendra Pradhan announced on May 15 that NEET will shift to a Computer-Based Test (CBT) format from 2027 onward to eliminate Optical Mark Recognition (OMR) system vulnerabilities. The move marks a major structural reform for the National Testing Agency (NTA), which has faced criticism, including a December 2025 Parliamentary Standing Committee report flagging that 5 of the 14 major exams it managed in 2024 faced major disruptions.",
+        whyItMatters: "National Testing Agency (NTA) governance, autonomous status, the legal character of societies under the Societies Registration Act, 1860, and the federal dynamics of education under the Concurrent List (Entry 25 of Schedule VII).",
+        revise: "Societies Registration Act, 1860; Concurrent List (Schedule VII) Entry 25; Kotha Punnaiah Committee (2024) recommendations; Article 21-A (Right to Education); difference between statutory, constitutional, and society-based autonomous bodies.",
+        pyqConnect: "UPSC GS II Mains 2020 — Theme of governance credibility and citizen-administration relationships. No direct NTA PYQ, but exam governance remains a recurring Mains theme."
+      },
+      {
+        id: "16-2",
+        title: "Tamil Nadu 2026: Governor's Discretionary Role in Hung Assembly",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Polity, Constitution)",
+        content: "Tamil Nadu Legislative Assembly elections held on April 23, 2026, yielded a historic result: TVK (Tamilaga Vettri Kazhagam), led by actor-politician Vijay, emerged as the single largest party, contesting alone in 233 of 234 seats and breaking a 59-year Dravidian duopoly. Despite TVK claiming support from 120 MLAs (including INC, VCK, and Left parties) in the 234-seat House (majority 118), Governor R.L. Arlekar's delay in inviting Vijay to form the government placed the discretionary powers under Articles 163 and 164 into the spotlight. Opposition leaders alleged partisan delay, bringing the threat of President's Rule under Article 356 into sharp focus before the swearing-in.",
+        whyItMatters: "Gubernatorial discretion under Article 163, appointments of the Chief Minister under Article 164, the scope of judicial review over discretionary powers, and Sarkaria and Punchhi Commission recommendations on hung assemblies.",
+        revise: "Article 163 (Council of Ministers and Governor's discretion); Article 164(1) (Appointment of CM); Article 174 (Summoning/Dissolution of Assembly); Article 356 (President's Rule); Sarkaria Commission (1988); Punchhi Commission (2010); Rameshwar Prasad v. Union of India (2006) and Nabam Rebia (2016) judgments on judicial review of Governor's actions.",
+        pyqConnect: "UPSC Mains 2022 (GS II) — 'The Governor's role in the appointment of the Chief Minister in case of a hung assembly is fraught with possibilities for political misuse. Discuss.'"
+      },
+      {
+        id: "16-3",
+        title: "One Year of Operation Sindoor: Security Doctrine and Geopolitical Shift",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) & GS Paper III (Security)",
+        content: "A year after Operation Sindoor (May 7–10, 2025) — India's precision missile and air strikes on terror camps in Pakistan and PoK following the Pahalgam attack — the strategic landscape has evolved in complex ways. While the strikes demonstrated India's capability to execute precision actions (using BrahMos, Akashteer, and loitering munitions) without crossing the nuclear threshold, Pakistan has paradoxically achieved a 'geopolitical pivot.' By hosting direct US-Iran talks in April 2026 and nominating Donald Trump for the Nobel Peace Prize (who reportedly mediated the ceasefire), Pakistan has elevated its standing in Washington and West Asia, even as many struck terror camps have relocated deeper into its territory.",
+        whyItMatters: "India's nuclear doctrine (No First Use, Credible Minimum Deterrence, Massive Retaliation), indigenisation of defence under DRDO and iDEX, bilateralism vs multilateralism in dispute resolution, and middle-power diplomacy in West Asia.",
+        revise: "India's Nuclear Doctrine (2003) pillars; BrahMos joint venture (India-Russia); Akashteer system; Indus Waters Treaty (1960) provisions and suspension rules; Strategic Autonomy and Non-Alignment 2.0; iDEX and defence PLI schemes.",
+        pyqConnect: "UPSC GS III Mains 2017 — Theme of internal security, cross-border threats, and the role of non-state actors in challenging national security."
+      },
+      {
+        id: "16-4",
+        title: "CPI Inflation at 3.48% & RBI's Flexible Inflation Targeting Renewed",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Economy, Monetary Policy)",
+        content: "India's retail inflation rose to 3.48% in April 2026 from 3.4% in March under a newly revised CPI series utilizing updated consumption weights from the Household Consumption Expenditure Survey (HCES), which allocates higher weight to non-food items. Food inflation rose to 4.2% while transportation remained negative as the government buffered fuel costs. Separately, the government has renewed the RBI's Flexible Inflation Targeting (FIT) mandate for its third five-year period (2026–2031), keeping the target at 4% with a tolerance band of ±2% (2%–6%). This comes under pressure as crude oil remains above $110/barrel due to the West Asia crisis.",
+        whyItMatters: "Section 45-ZA of the RBI Act, 1934; Monetary Policy Committee (MPC) structure; difference between CPI (headline) and WPI; core vs headline inflation; and the HCES base-year and weight revisions.",
+        revise: "Section 45-ZA of RBI Act; MPC composition (6 members) and appointment rules; WPI (Ministry of Commerce) vs CPI (MoSPI); HCES 2022-23 findings; consequences of failing the FIT target for three consecutive quarters.",
+        pyqConnect: "UPSC Prelims 2017 — Question regarding the composition and benchmark-setting powers of the Monetary Policy Committee (MPC)."
+      },
+      {
+        id: "16-5",
+        title: "WHO World Health Statistics 2026: SDGs and Global Health Reversals",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper II (Health, International Institutions)",
+        content: "The World Health Organisation's (WHO) annual World Health Statistics 2026 report delivered a warning: the world is currently off-track to meet any of the health-related Sustainable Development Goal (SDG) targets by 2030. The COVID-19 pandemic is identified as the largest setback, causing approximately 22.1 million excess deaths globally and reversing nearly a decade of life expectancy gains. While select areas like HIV (new infections down 40% between 2010 and 2024) and neglected tropical diseases (36% drop in interventions needed) saw progress, WHO's Triple Billion targets remain off-track, posing serious questions for global healthcare funding and India's Universal Health Coverage (UHC) commitments.",
+        whyItMatters: "Health-related SDGs (primarily SDG 3: Good Health and Well-Being), Ayushman Bharat PM-JAY and Ayushman Arogya Mandirs, WHO Triple Billion targets vs SDG indicators, and structural challenges in public health funding.",
+        revise: "SDG 3 sub-targets; WHO structure, headquarters, and Triple Billion goals; Ayushman Bharat structure; National Health Policy 2017 spending targets (2.5% of GDP); Neglected Tropical Diseases (NTDs) and India's elimination targets.",
+        pyqConnect: "UPSC GS II Mains 2022 — 'What are the major challenges to Universal Health Coverage in India? Discuss the role of Ayushman Bharat scheme in addressing them.'"
+      },
+      {
+        id: "16-6",
+        title: "Geothermal Energy: India's 11,000 GW Untapped Clean Energy Frontier",
+        subtitle: "🟢 Good to Know | Prelims | GS Paper III (Energy, Environment)",
+        content: "India's geothermal energy resources are estimated at approximately 11,000 GW [unverified, awaiting MNRE/TERI official validation], representing a massive, continuous, and weather-independent base-load clean energy frontier. India has identified over 340 hot spring locations across major geothermal provinces including Puga Valley (Ladakh), Tattapani (Chhattisgarh), Manikaran (Himachal Pradesh), Cambay (Gujarat), Godavari (Telangana), and Bakreshwar (West Bengal). Despite its continuous generation advantages over weather-dependent solar and wind, no utility-scale geothermal power plant is currently operational in India, leaving the sector unexploited as India strives to achieve 500 GW of non-fossil capacity by 2030.",
+        whyItMatters: "Types of renewable energy, geothermal power vs solar thermal, geographical distribution of hot springs in India, and India's Nationally Determined Contributions (NDCs) under the Paris Agreement.",
+        revise: "Geothermal provinces of India and their geological origins (tectonic vs Gondwana); India's 2030 NDC targets; National Action Plan on Climate Change (NAPCC) 8 missions; difference between geothermal power plants and geothermal heat pumps.",
+        pyqConnect: "UPSC Prelims — Repeated questions matching geothermal or solar power sites with their states/locations (e.g., Puga Valley)."
+      }
+    ],
+    reviseSummary: [
+      "NET/NTA: NTA legal status under Societies Registration Act 1860; education in Concurrent List (Entry 25).",
+      "Tamil Nadu/Governor: Articles 163 & 164; Governor's discretionary powers and lack of constitutional time limits.",
+      "Operation Sindoor: India's nuclear doctrine (NFU, massive retaliation); BrahMos JV; Indus Waters Treaty 1960.",
+      "CPI Inflation/FIT: Section 45-ZA of RBI Act; MPC composition (6 members); CPI vs WPI differences.",
+      "WHO World Health Statistics: SDG 3 (health); WHO Triple Billion targets; India's Ayushman Bharat UHC scheme.",
+      "Geothermal Energy: Renewable energy mix; Puga Valley, Tattapani, Manikaran geothermal provinces map locations."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to India's Flexible Inflation Targeting (FIT) framework, consider the following statements:\n1. The FIT mandate for the RBI is derived from Section 45-ZA of the RBI Act, 1934.\n2. The current inflation target (2026–2031) is 4% with a tolerance band of ±1%.\n3. If inflation remains outside the target band for three consecutive quarters, the RBI must submit a report to the Union Finance Ministry.\n4. The Monetary Policy Committee consists of 12 members, chaired by the RBI Governor.\n\nWhich of the statements given above are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 1, 2, and 3",
+            "(c) 2 and 4 only",
+            "(d) 1, 3, and 4"
+          ],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 1 is correct: Section 45-ZA of the RBI Act, 1934 (amended in 2016) is the statutory basis. Statement 3 is correct: failure for 3 consecutive quarters requires the RBI to submit a report detailing reasons and remedial timelines. Statement 2 is incorrect: the tolerance band is ±2% (2%–6%), not ±1%. Statement 4 is incorrect: the MPC consists of 6 members, not 12."
+        },
+        {
+          question: "Consider the following pairs:\n     Geothermal Province : Location\n1. Puga Valley          : Ladakh\n2. Tattapani            : Chhattisgarh\n3. Manikaran            : Uttarakhand\n4. Bakreshwar           : West Bengal\n\nHow many of the pairs given above are correctly matched?",
+          options: [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+          ],
+          answer: "(c) Only three",
+          explanation: "Pairs 1 (Puga Valley — Ladakh), 2 (Tattapani — Chhattisgarh), and 4 (Bakreshwar — West Bengal) are correctly matched. Pair 3 is incorrectly matched: Manikaran is located in Kullu district, Himachal Pradesh, not Uttarakhand."
+        },
+        {
+          question: "With reference to the Governor's constitutional powers in case of a hung assembly, consider the following:\n\nStatement I: Under Article 163(2), if any question arises whether a matter is one in which the Governor may act in his discretion, the Governor's decision is final and cannot be questioned in any court of law.\n\nStatement II: This is because the Constitution places the Governor's discretionary powers entirely outside the scope of judicial review, ensuring that gubernatorial decisions in government formation are never subject to Supreme Court scrutiny.\n\nWhich one of the following is correct in respect of the above Statements?",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II explains Statement I",
+            "(b) Both Statement I and Statement II are correct, but Statement II does not explain Statement I",
+            "(c) Statement I is correct, but Statement II is incorrect",
+            "(d) Statement I is incorrect, but Statement II is correct"
+          ],
+          answer: "(c) Statement I is correct, but Statement II is incorrect",
+          explanation: "Statement I is correct: Article 163(2) states that the Governor's decision on whether a matter falls under discretion is final. Statement II is incorrect: while Article 163(2) limits questioning on whether discretion applies, the Supreme Court (Rameshwar Prasad v. Union of India, 2006; Nabam Rebia, 2016) has clarified that gubernatorial actions are subject to judicial review if they are arbitrary, malafide, or constitutionally improper."
+        },
+        {
+          question: "With reference to the National Testing Agency (NTA), which of the following statements is/are correct?\n1. NTA was established in 2017 as a society under the Societies Registration Act, 1860.\n2. NTA is a statutory body created by an Act of Parliament specifically for conducting entrance examinations.\n3. NTA operates under the Ministry of Education and manages examinations including JEE (Main), NEET-UG, CUET, and UGC-NET.\n4. Education is a Concurrent List subject under Schedule VII of the Constitution, which enables the Centre to mandate a national entrance test for medical admissions.\n\nSelect the correct answer using the code given below:",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 1, 3, and 4 only",
+            "(c) 2 and 3 only",
+            "(d) 2, 3, and 4 only"
+          ],
+          answer: "(b) 1, 3, and 4 only",
+          explanation: "Statements 1, 3, and 4 are correct. Statement 2 is incorrect: the NTA is an autonomous, self-sustaining registered society under the Societies Registration Act, 1860, established via cabinet decision/executive order, not an Act of Parliament (it is not a statutory body)."
+        },
+        {
+          question: "The World Health Statistics 2026 report released by WHO found that:\n1. New HIV infections globally fell by 40% between 2010 and 2024.\n2. The number of people needing interventions for neglected tropical diseases dropped by 36% between 2010 and 2024.\n3. The world is on track to achieve most health-related SDG targets by 2030.\n4. COVID-19 resulted in approximately 22.1 million excess deaths globally.\n\nWhich of the statements given above are correct?",
+          options: [
+            "(a) 1, 2, and 4 only",
+            "(b) 1 and 4 only",
+            "(c) 2, 3, and 4 only",
+            "(d) All of the above"
+          ],
+          answer: "(a) 1, 2, and 4 only",
+          explanation: "Statements 1, 2, and 4 are correct and reflect actual findings from the WHO World Health Statistics 2026 report. Statement 3 is incorrect: the core warning of the report is that the world is currently off-track on ALL health-related SDG targets by 2030."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The repeated failure of India's national examination system to ensure paper integrity reflects not a technology deficit, but a governance deficit. The NTA's structural design makes it accountable to no one in the manner a statutory body would be.\" Critically examine this assertion in the context of NEET-UG 2026.",
+          context: "GS Paper II | 250 words"
+        },
+        {
+          question: "\"A year after Operation Sindoor, India has demonstrated the effectiveness of precision cross-border military strikes, but the operation's diplomatic consequences suggest that military superiority does not automatically translate into strategic influence.\" Do you agree? Examine the geopolitical lessons from the first year after the ceasefire.",
+          context: "GS Paper II/III | 250 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-17",
+    date: "17th May 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "17-1",
+        title: "India-EU FTA 2026: The Mother of All Deals",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) + GS Paper III (Trade)",
+        content: "📌 **QUICK TAKE**\nIndia and the EU concluded the most ambitious free trade agreement either side has ever signed on January 27, 2026 — creating a trade zone of 2 billion people covering 25% of global GDP. Today PM Modi arrives in Gothenburg, Sweden, meeting EU Commission President Ursula von der Leyen and Swedish PM Ulf Kristersson at the European Round Table for Industry. The 3rd India-Nordic Summit in Oslo (May 19) and the India-EFTA TEPA complete India's European trade architecture — a Prelims and Mains-priority cluster.\n\n📰 **WHAT HAPPENED**\nIndia-EU FTA negotiations concluded at Hyderabad House, New Delhi, on January 27, 2026 — nearly 19 years after talks began in 2007. European Commission President Ursula von der Leyen, who had attended India's Republic Day celebrations as chief guest on January 26, called it the \"mother of all deals.\" Commerce Minister Piyush Goyal expected implementation by early 2027 after ratification.\n\nThe deal covers goods, services, digital trade, intellectual property, trade remedies, rules of origin, customs facilitation, and emerging sectors. Key provisions: tariffs eliminated or substantially reduced on 96.6% of EU exports to India by value (autos from ~110% to ~10% phased; machinery from 44% to near-zero; wine from 150% to 20–30%). India gains duty-free access for textiles and apparel (currently 12–17% in EU → zero); leather, footwear, marine products (shrimp tariff up to 26% → zero); gems and jewellery; and pharmaceuticals. Services: India gets access to 144 EU subsectors for IT/ITeS and professional services. Bilateral goods trade in 2024-25 was $136.42 billion (India exported $75.85 billion; imports $60.68 billion — India had a surplus).\n\nOn May 17, PM Modi is at Gothenburg, Sweden for bilateral talks with Swedish PM Kristersson and the European Round Table for Industry with von der Leyen. The 3rd India-Nordic Summit in Oslo, Norway (May 19) will include all five Nordic leaders, building on the India-EU FTA to expand India's northern European strategic partnerships. The India-EFTA TEPA (signed March 10, 2024 — Switzerland, Iceland, Norway, Liechtenstein committing $100 billion in investment over 15 years) gives India an additional European trade pillar.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| India-EU FTA concluded | January 27, 2026 (Hyderabad House, New Delhi) |\n| Bilateral goods trade (2024-25) | $136.42 billion |\n| India's goods exports to EU | $75.85 billion (India had a trade surplus) |\n| EU's share in India's total trade | ~11.5% |\n| India's rank in EU's total trade | 9th largest partner (~2.4% of EU trade) |\n| Tariff lines covered | 96.8% (goods); value coverage ~99.5% |\n| Entry into force (target) | Early 2027 (after ratification) |\n| India-EFTA TEPA signed | March 10, 2024 (Switzerland, Norway, Iceland, Liechtenstein) |\n| EFTA investment commitment | $100 billion over 15 years in India |\n| India-Sweden bilateral trade (2025) | $7.75 billion |\n| Norway GPFG holdings in India | ~$28 billion (world's largest sovereign wealth fund) |\n| 3rd India-Nordic Summit | Oslo, Norway, May 19, 2026 |",
+        whyItMatters: "Three critical UPSC traps in this topic:\n1. FTA vs CEPA vs CETA: The India-EU deal is officially an \"FTA\" (Free Trade Agreement) — NOT a CEPA. The EU uses the term \"FTA\" for comprehensive deals including services. India uses \"CEPA\" for similar deals (UAE CEPA, South Korea CEPA). Don't confuse terminologies: CEPA is India's preferred label; EU calls theirs FTAs.\n2. EU structure: EU has 27 member states. EFTA has 4: Switzerland, Iceland, Norway, Liechtenstein. Norway is in EFTA but NOT the EU. The India-EFTA TEPA (2024) and India-EU FTA (2026) are DIFFERENT agreements with DIFFERENT partners. Students confuse Norway and Sweden as \"EU members\" — Sweden IS in the EU; Norway is NOT.\n3. Ratification: India does NOT require Parliamentary ratification for trade agreements. Only Cabinet (Council of Ministers) approval is needed. The EU requires Council of the EU (qualified majority) + European Parliament consent. This asymmetry is a classic Mains trap.",
+        revise: "WTO's Most Favoured Nation (MFN) principle and how FTAs create \"trade diversion\" vs \"trade creation\" — connect to Viner's model; EFTA (European Free Trade Association) formed 1960, HQ Geneva, 4 members; India-EU Strategic Partnership (2004); CBAM (Carbon Border Adjustment Mechanism) where India did NOT get a CBAM exemption under the FTA — this affects Indian steel, cement, and aluminium exporters; Norway's GPFG: Largest sovereign wealth fund (~$1.7 trillion) major investor in Indian markets.",
+        pyqConnect: "UPSC GS III Mains 2023 — 'India's free trade agreements have not delivered the expected trade outcomes. Discuss.' — directly applicable with India-EU FTA data."
+      },
+      {
+        id: "17-2",
+        title: "Kharif MSP 2026-27: CCEA Approves 14-Crop Price Support",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Agriculture / Economy)",
+        content: "📌 **QUICK TAKE**\nOn May 13, CCEA approved higher MSPs for 14 Kharif crops for Marketing Season 2026-27. Sunflower seed records the highest absolute hike (₹622/quintal); paddy common rises to ₹2,441. The government reaffirmed its formula of pricing MSP at \"at least 1.5x the all-India weighted average cost of production (C2 cost)\" and promoted pulses, oilseeds, and Shree Anna/millets through higher relative support. Total estimated MSP payout: ₹2.60 lakh crore — a record.\n\n📰 **WHAT HAPPENED**\nThe Cabinet Committee on Economic Affairs (CCEA), chaired by PM Narendra Modi, approved the MSP revision for 14 Kharif crops ahead of the sowing season. The highest increases were for sunflower seed (+₹622), cotton (+₹557), nigerseed (+₹515), and sesamum (+₹500) — all oilseeds, reflecting India's policy push to reduce edible oil import dependence. The government noted that India still imports significant quantities of edible oils (primarily from Indonesia, Malaysia, Ukraine, Argentina) and is using MSP incentives to encourage domestic oilseed cultivation.\n\nFor paddy (India's most widely grown Kharif crop): common variety MSP rose to ₹2,441/quintal (+₹72 from ₹2,369) and Grade A to ₹2,461/quintal. Millets saw significant support: bajra ₹2,900, ragi ₹5,205 (+₹319), jowar (hybrid) ₹4,023 (+₹324) — aligning with the Shree Anna (millets) promotion agenda. The estimated market intervention would procure over 824 LMT (lakh metric tonnes) of crops.\n\nThe government highlighted that MSP payments to all 14 Kharif crop farmers rose from ₹4.75 lakh crore in the decade 2004–2014 to ₹18.99 lakh crore in 2014–2026 — a near four-fold increase. The decision also noted that the expected return above cost of production for 2026-27 is highest for moong (black gram), followed by bajra, maize, and tur/arhar (pigeon pea).\n\n📊 **KEY DATA TABLE**\n\n| Crop | MSP 2026-27 (₹/quintal) | Increase (₹/quintal) |\n|---|---|---|\n| Sunflower Seed | 8,343 | +622 (highest) |\n| Cotton (Med. Staple) | 8,267 | +557 |\n| Sesamum | 10,346 | +500 |\n| Nigerseed | 10,052 | +515 |\n| Paddy (Common) | 2,441 | +72 |\n| Paddy (Grade A) | 2,461 | +72 |\n| Bajra | 2,900 | +125 |\n| Ragi | 5,205 | +319 |\n| Jowar (Hybrid) | 4,023 | +324 |\n| Tur/Arhar | 8,450 | — |\n| Maize | 2,410 | +10 (lowest) |",
+        whyItMatters: "UPSC repeatedly tests the MSP cost formula. Three cost definitions — know all three:\n— A2: Actual paid-out costs (seeds, fertilisers, hired labour, fuel, irrigation)\n— A2+FL: A2 + imputed value of family labour\n— C2: A2+FL + imputed rental value of owned land + interest on fixed capital\n\nThe Swaminathan Commission (2006) recommended MSP = C2 + 50% (i.e., 1.5x C2). The current government claims its MSPs provide \"at least 1.5x the all-India weighted average cost of production.\" But which cost? The government uses a NATIONAL WEIGHTED AVERAGE cost, closer to A2+FL in practice for most crops, not the C2 of the most marginal state. UPSC will test: \"MSP is fixed at 1.5x of C2 costs\" — this is technically INCORRECT as the statutory standard implemented is at least 1.5x of A2+FL.",
+        revise: "CCEA (Cabinet Committee on Economic Affairs) chaired by the PM; Commission for Agricultural Costs and Prices (CACP) which recommends MSP to CCEA and produces the Price Policy reports; Shree Anna initiative; PM AASHA (Pradhan Mantri Annadata Aay Sanrakshan Abhiyan) procurement scheme linked to MSP including PDPS (Price Deficiency Payment Scheme) for oilseeds; India's edible oil import dependence (~60% imported).",
+        pyqConnect: "UPSC GS III Mains 2019 — 'What are the main constraints in diversifying the cropping pattern in India? How can the MSP policy be made more effective?' — directly applicable."
+      },
+      {
+        id: "17-3",
+        title: "GRID 2026: Internal Displacement Hits 82.2 Million — Conflict Now #1 Driver",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) + GS Paper I (Society)",
+        content: "📌 **QUICK TAKE**\nThe Global Report on Internal Displacement 2026 (GRID 2026), released May 12 by IDMC and Norwegian Refugee Council, found 82.2 million people internally displaced across 104 countries at end of 2025 — the second-highest ever. For the FIRST TIME in recorded history, conflict and violence drove more displacement than disasters: 68.6 million displaced by conflict vs 13.6 million by disasters. India's Manipur still has 78,000 displaced. Conflict displacements surged 60% year-on-year.\n\n📰 **WHAT HAPPENED**\nIDMC (Internal Displacement Monitoring Centre) is the world's leading source of data on internal displacement, established in 1998 as part of the Norwegian Refugee Council (NRC), headquartered in Geneva. Its annual GRID (Global Report on Internal Displacement) is the authoritative global reference.\n\nGRID 2026 covers the state of internal displacement as of end 2025. Total 82.2 million people living as IDPs (Internally Displaced Persons) across 104 countries — down slightly from the 2024 high of 83.4 million, but still double the 38.9 million recorded in 2016. The headline finding: conflict and violence caused 32.3 million NEW internal displacement movements in 2025 (a 60% jump over 2024, more than double the decadal average, the highest conflict displacement ever recorded). This marks the FIRST TIME that conflict overtook disasters as the primary driver of annual displacement events.\n\nTotal new displacements in 2025: 62.2 million events (counting each movement separately). Disaster-related displacements fell to 29.9 million — a 35% decline from 2024's high.\n\nIndia-specific findings: 78,000 people remain displaced in Manipur due to conflict (predominantly from the May 2023 ethnic violence that displaced hundreds of thousands). South Asia saw a sharp overall rise in conflict displacement, linked to India-Pakistan and Afghan-Pakistan tensions.\n\nThe report warns about growing data gaps: reduced displacement data availability in 15% of monitored countries in 2025 (three times the share of 2024), raising concerns that the true scale of the crisis may be underreported.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Report name | GRID 2026 (Global Report on Internal Displacement) |\n| Released by | IDMC + Norwegian Refugee Council (NRC) |\n| Total IDPs at end 2025 | 82.2 million (across 104 countries) |\n| Countries/territories covered | 104 |\n| IDPs displaced by conflict | 68.6 million (cumulative) |\n| IDPs displaced by disasters | 13.6 million (cumulative) |\n| New conflict displacement events 2025 | 32.3 million (+60% over 2024) — highest ever |\n| New disaster displacement events 2025 | 29.9 million (-35% from 2024) |\n| Total new displacement events 2025 | 62.2 million |\n| IDPs in 2016 (comparison) | 38.9 million (more than doubled since) |\n| India: Manipur IDPs | ~78,000 still displaced |\n| IDMC established | 1998, as part of Norwegian Refugee Council (NRC) |\n| IDMC headquartered | Geneva, Switzerland |",
+        whyItMatters: "IDP vs Refugee — this is UPSC's favourite distinction in this topic:\n— IDPs (Internally Displaced Persons): Forced to flee but remain WITHIN their own country's borders. They are NOT protected by the 1951 Refugee Convention. They remain under the legal jurisdiction of their own state. The Guiding Principles on Internal Displacement (1998) are the key soft law framework — NOT legally binding.\n— Refugees: Cross an internationally recognised border into another country. Protected under the 1951 Refugee Convention and its 1967 Protocol. Governed by UNHCR.\n\nUPSC trap statement: \"IDPs fall under the protection of the 1951 Refugee Convention\" → This is INCORRECT. The 1951 Convention applies only to refugees (cross-border). IDPs are technically in a legal gap — their own government has the primary obligation to protect them. Note also that India is NOT a signatory to the 1951 Refugee Convention.",
+        revise: "1951 Refugee Convention + 1967 Protocol pillars (non-refoulement, non-penalisation, non-discrimination); UNHCR (UN High Commissioner for Refugees) mandate; Guiding Principles on Internal Displacement (1998); Manipur conflict (May 2023) ethnic violence dynamics between Meitei and Kuki communities; Global Compact on Refugees (2018); IOM (International Organisation for Migration) and its Displacement Tracking Matrix (DTM).",
+        pyqConnect: "UPSC GS II Mains 2015 — 'Refugees should not be forced back to their country of origin. Discuss.' — directly applicable on IDP vs refugee distinction."
+      },
+      {
+        id: "17-4",
+        title: "US Russian Crude Waiver Expires: India's Energy Autonomy Under Test",
+        subtitle: "🟡 Important | Mains Focus | GS Paper III (Economy/Energy) + GS Paper II (IR)",
+        content: "📌 **QUICK TAKE**\nThe US General License 134B — the sanctions waiver allowing India and other nations to purchase Russian crude oil without triggering US secondary sanctions — expired on May 16, 2026. India had hit a record 2.3 million barrels per day in Russian crude imports under the waiver window. The expiry creates a live secondary sanctions risk for Indian refiners unless the US grants an extension. India has formally asked for renewal, framing it as an energy security and supply stability concern — not a political choice.\n\n📰 **WHAT HAPPENED**\nContext: The US-Israel military strike on Iran on February 28, 2026 caused near-total closure of the Strait of Hormuz, cutting off roughly 20% of global oil flows. India, which imports ~85% of its crude, faced an acute supply crisis. The US granted India a time-limited waiver (General License 134) in March 2026 allowing purchases of Russian crude without secondary sanctions exposure. The waiver was later expanded globally and extended to May 16 as General License 134B.\n\nRussian crude is NOT under blanket US sanctions (unlike Iranian oil, which is comprehensively prohibited). However, specific Russian oil companies (Rosneft, Lukoil) are under US designation, and transactions involving them can trigger secondary sanctions on third-party buyers. The waiver carved out an exception.\n\nUnder the waiver window, India's Russian crude imports reached a record 2.3 million barrels per day in early May 2026 as refiners accelerated purchases. Russian crude represented 44.4% of India's total oil imports in March 2026 — making Russia India's single largest crude supplier. The license expired May 16 without a confirmed renewal. US Treasury Secretary Bessent had initially said there would be no extension; within 48 hours the US reversed, granting a renewal — only for it to lapse again on May 16.\n\nIndia has formally communicated to Washington that energy supply stability is a sovereign economic priority. Indian officials warned US counterparts that oil price volatility is affecting 1.4 billion people and causing cooking gas shortages. India frames oil procurement as a purely commercial, not political, decision — a consistent posture of strategic autonomy.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Waiver instrument | US General License 134B (OFAC) |\n| Expiry date | May 16, 2026 |\n| India's Russian crude imports (May) | Record 2.3 million barrels per day (bpd) |\n| Russia's share in India's imports (Mar) | 44.4% of total crude imports |\n| Sanctioned Russian entities covered | Rosneft, Lukoil (plus others designated by OFAC) |\n| Initial waiver issued | March 5, 2026 (India-specific, then global) |\n| Russia vs Iran sanctions distinction | Russian crude: secondary sanctions risk (not blanket prohibition); Iranian crude: comprehensive blanket prohibition |\n| India-Russia bilateral trade (FY26) | ~$65 billion (energy-dominated) |\n\n⚠️ **THE UPSC TRAP**\nPrimary vs Secondary Sanctions:\n— Primary sanctions: Prohibit US persons/entities from dealing with a sanctioned party.\n— Secondary sanctions: Target third-country entities (non-US) that deal with a sanctioned party. The US can cut off secondary-sanctioned entities from the US financial system.\n\nIndian refiners buying Russian crude DON'T violate primary sanctions (no US entity involved). But if they buy from designated entities like Rosneft, they risk secondary sanctions — being cut off from dollar clearing, US correspondent banks. The waiver exempted this risk.\n\nA common misconception: \"India buying Russian crude is illegal under US law.\" FALSE. Russia is NOT under comprehensive US oil sanctions. India faces secondary sanctions RISK, not primary prohibition. Iran's oil IS under comprehensive sanctions — a categorically different situation. UPSC will test this distinction in a Statement I/II format.\n\n🔗 **STATIC CONNECTIONS**\n- OFAC (Office of Foreign Assets Control): US Treasury's sanctions enforcement arm.\n- FEMA (Foreign Exchange Management Act, 1999): Governs India's cross-border financial transactions, including oil payment mechanics.\n- Russia-Ukraine war and India's strategic autonomy: India's abstentions at UNGA on Ukraine resolutions; India's \"friendship with all\" foreign policy posture.\n- India's energy security doctrine: Strategic Petroleum Reserves, diversification of crude supply, push for renewables — all connect to this topic.\n- Nayara Energy: Private Indian refinery (formerly Essar Oil); stake held by Rosneft — a key entity affected by waiver expiry.\n\n📝 **EXAM ANGLES**\n- **Prelims**: OFAC status; primary vs secondary sanctions; Russian crude vs Iranian crude sanctions comparison; Nayara Energy ownership.\n- **Mains**: \"India's energy security interests and its strategic autonomy in foreign policy are increasingly being tested by Western sanctions regimes. Discuss with reference to India's import of Russian crude oil.\" (GS II / GS III).",
+        whyItMatters: "Primary vs Secondary Sanctions:\n— Primary sanctions: Prohibit US persons/entities from dealing with a sanctioned party.\n— Secondary sanctions: Target third-country entities (non-US) that deal with a sanctioned party. The US can cut off secondary-sanctioned entities from the US financial system.\n\nIndian refiners buying Russian crude DON'T violate primary sanctions (no US entity involved). But if they buy from designated entities like Rosneft, they risk secondary sanctions — being cut off from dollar clearing, US correspondent banks. The waiver exempted this risk.",
+        revise: "OFAC (Office of Foreign Assets Control) of US Treasury; FEMA (Foreign Exchange Management Act, 1999) and its oil payment mechanics; India's Strategic Petroleum Reserves (Visakhapatnam, Mangaluru, Padur); Nayara Energy stake ownership under Rosneft.",
+        pyqConnect: "UPSC GS II Mains 2022 — 'The Ukraine-Russia war has forced India to walk a diplomatic tightrope. Discuss the implications for India's strategic autonomy.'"
+      },
+      {
+        id: "17-5",
+        title: "Operation RAGEPILL: India's First-Ever Captagon Seizure",
+        subtitle: "🟡 Important | Prelims Focus | GS Paper III (Internal Security)",
+        content: "📌 **QUICK TAKE**\nUnion Home Minister Amit Shah announced on May 16 that enforcement agencies, under \"Operation RAGEPILL\", achieved India's first-ever seizure of Captagon — a banned synthetic stimulant worth ₹182 crore. The consignment was destined for the Middle East. A foreign national was arrested. The \"Jihadi Drug\" label stems from its documented use by militant fighters in West Asian conflict zones; India's seizure signals that Indian territory is being used as a transit route for narcotics headed to the Gulf.\n\n📰 **WHAT HAPPENED**\nCaptagon (chemical name: fenethylline hydrochloride) is a synthetic amphetamine-type stimulant (ATS). Originally marketed in the 1960s as a treatment for narcolepsy, depression, and hyperactivity disorder, it was banned globally in most countries by the 1980s when its high abuse potential became clear. Under India's NDPS Act (Narcotic Drugs and Psychotropic Substances Act, 1985), Captagon falls in the psychotropic substance category.\n\nThe drug earned the \"Jihadi Drug\" label because it has been extensively documented in use by fighters in the Syrian civil war and other West Asian conflicts — reportedly suppressing fear, reducing fatigue, and increasing aggression. Captagon production is concentrated primarily in Syria and is smuggled to major consumer markets in the Gulf, particularly Saudi Arabia. The West Asian conflict (US-Israel-Iran, 2026) has increased demand in the region as conflict expands.\n\nIndia's seizure under Operation RAGEPILL is significant for two reasons: (1) It is the first such seizure in India — previously India had not recorded any Captagon trafficking. (2) The seizure confirms India is being used as a transit point for narcotics destined for the Middle East, consistent with India's location as a hub between South Asian production zones and Gulf consumer markets.\n\nThe operation was coordinated under the Narcotics Control Bureau (NCB), which operates under the Ministry of Home Affairs. The foreign national arrested connects to the transnational nature of the drug trafficking network.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Operation name | Operation RAGEPILL |\n| Substance seized | Captagon (fenethylline hydrochloride) |\n| Seizure value | ₹182 crore |\n| India's first seizure of type | Yes — first-ever Captagon seizure in India |\n| Consignment destination | Middle East (transit through India) |\n| Arrested | 1 foreign national |\n| Drug category (India) | Psychotropic Substance under NDPS Act 1985 |\n| Chemical class | Amphetamine-Type Stimulant (ATS) |\n| Primary production region | Syria (predominantly) |\n| Key consumer market | Saudi Arabia and Gulf states |\n| Controlling agency | NCB (under Ministry of Home Affairs) |\n| \"Jihadi Drug\" nickname | Used by fighters in Syrian civil war and West Asia |",
+        whyItMatters: "Know the institutional hierarchy for narcotics control in India:\n— NDPS Act 1985: Primary legislation; defines narcotics and psychotropic substances; Schedules I, II, III list controlled substances.\n— NCB (Narcotics Control Bureau): Nodal agency under MHA for drug law enforcement. NOT under the Ministry of Health.\n— DRI (Directorate of Revenue Intelligence): Handles drug smuggling cases with customs angle; under Ministry of Finance.\n— ANTF (Anti-Narcotics Task Force): State-level — different from NCB.\n\nUPSC will test: \"NCB operates under the Ministry of Health\" — FALSE. It is under MHA. Another trap: Captagon is NOT a cannabis or opioid — it is an ATS (amphetamine-type stimulant).",
+        revise: "NDPS Act 1985; NCB MHA administrative status; NCORD (Narco Coordination Centre) inter-agency framework; Operation SAGAR MANTHAN series (maritime drug interdiction); INCB (International Narcotics Control Board) UN treaty compliance monitor.",
+        pyqConnect: "UPSC GS III Mains 2021 — 'Cross-border drug trafficking has emerged as a major national security threat in India. Analyse the institutional mechanisms in place to counter this threat.'"
+      },
+      {
+        id: "17-6",
+        title: "India Forex Reserves: $696.99 Billion and the Gold Surge",
+        subtitle: "🟢 Good to Know | Prelims Focus | GS Paper III (Economy / External Sector)",
+        content: "📌 **QUICK TAKE**\nIndia's foreign exchange reserves rose to $696.99 billion in the week ending May 8, 2026, led by a sharp rise in gold reserves. The reserves provide about 11 months of import cover and cover ~96% of India's external debt. With the rupee under pressure (-6% vs dollar in 2026) and crude oil imports expensive, the forex reserve level is a key macroeconomic buffer. UPSC tests the components of forex reserves and RBI's role in managing them almost every year.\n\n📰 **WHAT HAPPENED**\nThe RBI releases weekly forex reserve data every Friday, covering the preceding week. As of the week ending May 8, 2026, India's total forex reserves stood at $696.99 billion — a rise from the preceding week. The increase was led by a sharp jump in gold reserves (as global gold prices rose amid geopolitical tensions and dollar uncertainty).\n\nIndia's all-time high in forex reserves was $704.885 billion (September 2024). The current level at $696.99 billion represents near-record levels. The context matters: India's forex reserves had declined sharply in late 2024 and early 2025 due to RBI interventions to support the rupee, and have recovered since. The rupee remains under pressure in 2026 due to elevated oil import bills and capital outflows related to global uncertainty.\n\nThe reserves provide: (1) 11 months of import cover — a key buffer measure (IMF recommends 3 months minimum; India's level is considered strong). (2) Coverage of ~96% of India's total external debt — strong external sector resilience. (3) A cushion for RBI to intervene in currency markets to prevent excessive rupee depreciation.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|---|---|\n| Total forex reserves (May 8, 2026) | $696.99 billion |\n| India's all-time high forex reserves | $704.885 billion (September 2024) |\n| Import cover provided | ~11 months |\n| External debt coverage | ~96% of total external debt |\n| Driver of recent increase | Sharp rise in gold reserves |\n| Rupee performance in 2026 | >6% depreciation against USD (Asia's weakest) |\n| Components of forex reserves | (1) Foreign currency assets (largest) (2) Gold (3) SDRs (4) Reserve Tranche position in IMF |\n| Custodian of forex reserves | Reserve Bank of India (RBI) |\n| RBI's target (reserve adequacy) | Adequate import cover + external debt coverage |",
+        whyItMatters: "Four components of India's foreign exchange reserves — UPSC tests which is included and which is not. The four components are:\n1. Foreign Currency Assets (FCA) — largest component; denominated mostly in USD but includes Euros, GBP, JPY, etc.\n2. Gold — valued at current market prices\n3. SDRs (Special Drawing Rights) — allocated by the IMF; not a currency, but a claim on IMF member currencies\n4. Reserve Tranche Position in the IMF — India's unconditional right to draw from the IMF\n\nTRAP: Students often confuse \"SDRs\" with \"IMF loans\" — they are DIFFERENT. SDRs are an asset (allocated unconditionally); IMF loans (drawings) are liabilities. India's SDR holdings are part of forex reserves; IMF borrowings are external debt.\n\nAnother trap: Forex reserves are managed by RBI — NOT by the Finance Ministry, NOT by SEBI, NOT by EXIM Bank.",
+        revise: "RBI currency intervention objectives; Gold Monetisation Scheme and Sovereign Gold Bonds; FEMA 1999 (Foreign Exchange Management Act) framework; IMF Quota and Voting Rights; Balance of Payments (BoP) accounting.",
+        pyqConnect: "UPSC GS III Mains 2022 — 'What are the components of India's foreign exchange reserves? Discuss their significance.' — directly applicable."
+      }
+    ],
+    reviseSummary: [
+      "India-EU FTA: Signed Jan 27, 2026; India requires Cabinet approval only; EU requires Council and Parliament.",
+      "Kharif MSP: CCEA approves, CACP recommends; cost definitions A2 vs A2+FL vs C2; National Weighted Average.",
+      "GRID 2026: Conflict overtook disasters as #1 displacement driver globally; IDPs remain within borders (no Refugee Convention protection).",
+      "US Crude Waiver: Expiry of OFAC General License 134B; distinction between primary and secondary US sanctions.",
+      "Operation RAGEPILL: NCB under Ministry of Home Affairs (MHA), not Health; Captagon (fenethylline) = ATS category.",
+      "Forex Reserves: Four components (FCA, Gold, SDRs, Reserve Tranche); managed under FEMA 1999 by RBI."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the India–European Union Free Trade Agreement (2026), consider the following statements:\n1. The agreement requires Parliamentary ratification in India before it can come into force.\n2. Norway, as a Nordic country deeply invested in India, is covered under the India-EU FTA.\n3. India did not receive an exemption from the EU's Carbon Border Adjustment Mechanism (CBAM) under the FTA.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 3 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 3 only",
+          explanation: "Statement 3 is correct: India did NOT receive a CBAM exemption, and Indian exporters will face carbon tariffs. Statement 1 is incorrect: trade agreements in India only require Cabinet approval, not Parliamentary ratification. Statement 2 is incorrect: Norway is not in the EU, it is in EFTA, and is covered under the India-EFTA TEPA (2024), which is a completely separate trade agreement."
+        },
+        {
+          question: "Consider the following pairs — Crop and its MSP increase for Kharif 2026-27:\n1. Sunflower seed — Highest absolute increase (₹622/quintal)\n2. Paddy (Common) — Revised MSP is ₹2,441/quintal\n3. Maize          — Highest percentage increase among cereals\n\nWhich of the pairs given above is/are correctly matched?",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 1 and 2 only",
+          explanation: "Pairs 1 and 2 are correctly matched based on CCEA announcements. Pair 3 is incorrectly matched: Maize received the lowest absolute increase of only ₹10 per quintal, while ragi (+₹319) and jowar hybrid (+₹324) received the highest increases among cereals."
+        },
+        {
+          question: "Consider the following statements:\nStatement I: Internally Displaced Persons (IDPs) are not protected by the 1951 Refugee Convention.\nStatement II: IDPs, unlike refugees, remain within their own country's internationally recognised borders and therefore fall under the legal jurisdiction of their own state.\n\nWhich one of the following is correct in respect of the above Statements?",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I",
+            "(b) Both Statement I and Statement II are correct, but Statement II is not the correct explanation of Statement I",
+            "(c) Statement I is correct, but Statement II is incorrect",
+            "(d) Statement I is incorrect, but Statement II is correct",
+          ],
+          answer: "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I",
+          explanation: "Both statements are correct. Statement I is true: the 1951 Refugee Convention does not apply to IDPs. Statement II is the exact causal explanation for this, because refugees cross international borders while IDPs remain inside their own country and thus fall under domestic jurisdiction rather than international refugee law."
+        },
+        {
+          question: "Consider the following statements about India's foreign exchange reserves:\n1. Foreign Currency Assets (FCA) constitute the largest component of India's forex reserves.\n2. Special Drawing Rights (SDRs) allocated by the IMF are a form of IMF loan to India.\n3. India's foreign exchange reserves are managed by the Reserve Bank of India.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statements 1 and 3 are correct. Statement 2 is incorrect: SDRs are unconditionally allocated assets by the IMF based on quotas and are part of India's reserves; they are not IMF loans/drawings, which are liabilities."
+        },
+        {
+          question: "With reference to India's narcotics control framework, consider the following:\n1. The Narcotics Control Bureau (NCB) functions under the Ministry of Health and Family Welfare.\n2. Captagon (fenethylline) is classified as a psychotropic substance under the NDPS Act, 1985.\n3. NCORD (Narco Coordination Centre) serves as the nodal body for inter-agency narcotics coordination in India.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 2 and 3 only",
+            "(b) 1 and 2 only",
+            "(c) 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 2 and 3 only",
+          explanation: "Statements 2 and 3 are correct. Statement 1 is incorrect: the NCB is under the Ministry of Home Affairs (MHA), not the Ministry of Health and Family Welfare."
+        }
+      ],
+      mains: [
+        {
+          question: "\"International trade agreements are simultaneously economic instruments and foreign policy tools.\" With reference to India's recent trade architecture — the India-EU FTA, India-EFTA TEPA, and the India-UK CETA — critically examine how India is reshaping its global economic engagement.",
+          context: "GS Paper II/III | 250 words"
+        },
+        {
+          question: "\"Internal displacement is the invisible humanitarian crisis of our times, receiving neither the legal protection of refugee law nor the political attention of cross-border migration.\" Critically analyse with reference to the GRID 2026 findings and India's own displacement situations.",
+          context: "GS Paper I/II | 250 words"
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-18",
+    date: "18th May 2026",
+    day: "Monday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⚠️ PRELIMS 2026 IS ON 24TH MAY — 6 DAYS AWAY.\nEvery topic today is exam-facing. Read with that urgency.",
+    topics: [
+      {
+        id: "18-1",
+        title: "Supreme Court Judges Ordinance 2026",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Polity & Governance)",
+        content: "📌 **QUICK TAKE**\nPresident Droupadi Murmu promulgated The Supreme Court (Number of Judges) Amendment Ordinance, 2026 on 17th May, raising the court's sanctioned strength from 34 to 38 judges (including CJI) — the first such expansion since 2019. The ordinance route was used because Parliament is not in session. With 93,000+ cases pending and current working strength at 32, this is UPSC's ideal intersection of constitutional law, judicial reform, and executive power.\n\n📰 **WHAT HAPPENED**\nThe Union Cabinet had approved the Supreme Court (Number of Judges) Amendment Bill, 2026 on 5th May, proposing to amend the Supreme Court (Number of Judges) Act, 1956 by adding four puisne (junior) judges — raising the count from 33 to 37 excluding the CJI, or 34 to 38 including the CJI.\n\nSince Parliament was not in session, the government could not introduce the Bill immediately. Law Minister Arjun Ram Meghwal announced on 17th May that the President had promulgated the ordinance to give immediate effect to the decision. As of 31st March 2026, the Supreme Court had a record pendency of 93,143 cases. The current working strength stood at 32, with four judges due to retire later this year. The CJI Surya Kant-led Collegium is now expected to recommend names to fill the expanded vacancies.\n\nThe history of SC strength expansions: 8 judges in 1950 → 13 (1960) → 17 (1977) → 26 (1986) → 31 (2009) → 34 (2019) → 38 (2026 Ordinance).\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Previous sanctioned strength | 34 (including CJI) / 33 excluding CJI |\n| New sanctioned strength | 38 (including CJI) / 37 excluding CJI |\n| Current working strength | 32 (including CJI) |\n| SC pendency (March 2026) | 93,143 cases — record high |\n| Last expansion | 2019 (from 31 to 34) |\n| Constitutional basis | Article 124(1) of the Constitution |\n| Route used | Ordinance under Article 123 |\n| Act being amended | Supreme Court (Number of Judges) Act, 1956 |\n\n📝 **EXAM ANGLES**\n**Prelims:** Q-type: \"Under which Article can Parliament increase the number of SC judges?\" (Ans: Article 124(1)). Also test: is this an ordinary majority bill or constitutional amendment? (Ordinary — simple majority). Trap: \"The number of SC judges can be increased by the President\" — FALSE; it requires legislation.\n**Mains:** Discuss why increasing judge strength alone is insufficient to address judicial pendency. Cover: Collegium delays in filling vacancies, SLP burden, non-appointment gap between sanctioned and working strength, 18th Law Commission recommendation of regional cassation courts.",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test two traps here. First: the numbers. The ordinance raises strength \"from 33 to 37 excluding the CJI\" or equivalently \"from 34 to 38 including the CJI.\" Many students will confuse the two formulations and mark the wrong answer on a statement-based question. Memorise both versions. Second: the route. The Bill was approved by Cabinet on May 5 but could not be introduced in Parliament — so the President promulgated an ordinance under Article 123. UPSC loves asking whether the SC's strength can be changed by executive order or only by legislation — the answer is by Parliament through ordinary (not constitutional amendment) legislation, and the interim mechanism is an ordinance under Article 123, not a Presidential Order under Article 370-type provisions.",
+        revise: "- **Article 124(1)**: Provides for the Supreme Court; original bench had CJI + 7 judges; Parliament can increase by law\n- **Article 123**: President's ordinance-making power — conditions, limitations, lapse after 6 weeks of Parliament reassembly\n- **Supreme Court (Number of Judges) Act, 1956**: The parent legislation being amended\n- **Collegium System**: For appointment of judges — Article 124(2), 217 — Three Judges Cases (1981, 1993, 1998)\n- **Judicial Pendency**: As of 2026 — SC: 93,000+; High Courts: ~60 lakh; District Courts: ~4.5 crore",
+        pyqConnect: "PYQ Link: UPSC 2021 — \"With reference to the judiciary in India, consider the following statements: (1) Any retired judge of the Supreme Court of India can be called back to sit and act as a Supreme Court judge by the CJI with the prior permission of the President...\" — directly tests Article 128 ad-hoc appointment power."
+      },
+      {
+        id: "18-2",
+        title: "State of India's Environment (SOE) 2026",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Environment & Ecology) + GS Paper I (Physical Geography)",
+        content: "📌 **QUICK TAKE**\nCSE and Down To Earth's SOE 2026 confirms that 7 of 9 planetary boundaries have now been breached globally — with ocean acidification the newest addition. In India, extreme weather occurred on 99% of days in 2025, causing 4,419 deaths and damaging 17.41 million hectares of cropland. The report is the most data-rich environment source UPSC will draw on in the 2026 exam cycle.\n\n📰 **WHAT HAPPENED**\nReleased on 25th February 2026 at the Anil Agarwal Dialogue by CSE Director General Sunita Narain, former SC Judge Justice Deepak Gupta, and former Environment Secretary Ashok Lavasa, the SOE 2026 is CSE's annual flagship publication — produced since 1982.\n\nThe report's central warning: seven of nine planetary boundaries — the safe ecological limits within which humanity can operate without destabilising Earth's life-support systems — have now been breached. The framework was first proposed in 2009 by Earth scientist Johan Rockström and updated in 2023. The seven breached boundaries are: climate change, biosphere integrity (biodiversity loss), land system change, freshwater depletion, biogeochemical flows (nitrogen and phosphorus cycles), novel entities (synthetic chemicals, plastics), and — newly added — ocean acidification. Ocean surface acidity has increased 30–40% since the pre-industrial era, driven by fossil fuel combustion and oceanic CO₂ absorption.\n\nIn India specifically, the report found extreme weather on 331 of 334 days in 2025 — the highest in four years. Only 12% of India's 4,041 census cities have air quality monitoring stations; 85% of Indians (over 1.2 billion people) breathe air that is not continuously measured. The invasive plant Lantana camara now occupies ~50% of India's forest and scrublands, reducing prey availability and increasing human-tiger conflict.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Total planetary boundaries | 9 |\n| Boundaries breached (SOE 2026) | 7 (newly: Ocean Acidification) |\n| Safe boundaries remaining | 2 (Atmospheric Aerosol Loading, Stratospheric Ozone Depletion) |\n| Extreme weather days in India (2025) | 331 of 334 days (~99%) |\n| Deaths from extreme weather (2025) | 4,419 |\n| Cropland affected (2025) | 17.41 million hectares |\n| Cities with air quality monitoring | Only 12% of 4,041 census cities |\n| Ocean acidity increase since pre-industrial | 30–40% |\n| Published by | CSE + Down To Earth |\n| Publication frequency | Annual (since 1982) |\n\n📝 **EXAM ANGLES**\n**Prelims:** \"Which of the following is NOT a breached planetary boundary as per 2026 data?\" — Ozone depletion and aerosol loading are the correct exclusions. Also: match CSE with its publications; match ocean acidification with its chemical cause.\n**Mains:** \"Seven of nine planetary boundaries have been breached. Analyse India's role in this crisis and evaluate the adequacy of India's environmental governance framework in responding to it.\" (GS III — 250 words).",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test which 2 boundaries are NOT yet breached. Students memorise the 7 breached ones but forget the 2 that remain within safe limits — Atmospheric Aerosol Loading and Stratospheric Ozone Depletion. Ozone is within safe limits precisely because of the Montreal Protocol — a rare success story in global environmental governance. If UPSC asks \"which of the following planetary boundaries has NOT been breached,\" the answer will be one of these two.",
+        revise: "- **Planetary Boundaries Framework**: 9 Earth-system processes; proposed 2009 (Rockström), updated 2023\n- **Montreal Protocol**: Why stratospheric ozone is the lone environmental success story among the 9\n- **Paris Agreement + 1.5°C threshold**: SOE 2026 warns this may be breached in the 3-year average\n- **Biodiversity**: Convention on Biological Diversity (CBD), Kunming-Montreal Global Biodiversity Framework (30x30 target)\n- **Ocean Acidification**: CO₂ + H₂O → H₂CO₃ (carbonic acid); threatens coral reefs, fisheries, marine food chains\n- **CSE**: Non-governmental research organisation, headquartered in New Delhi; publishes Down To Earth magazine",
+        pyqConnect: "PYQ Link: UPSC 2023 — Question on Invasive Alien Species Specialist Group (IUCN) directly connects to Lantana camara finding in SOE 2026; UPSC 2022 — planetary boundaries concept tested via ocean acidification mechanisms."
+      },
+      {
+        id: "18-3",
+        title: "India–Netherlands Strategic Partnership 2026",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (International Relations)",
+        content: "📌 **QUICK TAKE**\nOn 16th May 2026, PM Modi and Dutch PM Rob Jetten formally elevated bilateral ties to a Strategic Partnership — India's first such elevation with a Western European nation following the India-EU FTA. Seventeen agreements were signed, anchored by a semiconductor MoU (connecting Dutch Semicon Competence Centre to India's Semiconductor Mission), a Green Hydrogen Roadmap, and a Green and Digital Sea Corridor. This is a three-GS-paper topic: GS II (IR), GS III (Economy/Energy), and GS I (Geography — corridor routes).\n\n📰 **WHAT HAPPENED**\nPM Modi visited The Hague on May 16 for talks with Dutch PM Rob Jetten, culminating in a joint statement that formally elevated relations to a Strategic Partnership. Both sides adopted the India-Netherlands Strategic Partnership Roadmap 2026–2030 — a structured 5-year cooperation framework with annual review at the Foreign Ministers' level.\n\nThe Netherlands is India's fourth-largest investor (cumulative FDI: $55.6 billion) and one of India's largest trading destinations in Europe (bilateral trade: $27.8 billion in 2024–25). The partnership now creates institutional architecture for deepening this through a Joint Trade and Investment Committee (JTIC) and a Fast Track Mechanism for investments.\n\nThe semiconductor pillar connects ASML (the world's sole manufacturer of extreme ultraviolet lithography machines, critical for advanced chips) and NXP Semiconductors with India's Semiconductor Mission (ISM). A brain-bridge MoU was signed between Eindhoven University of Technology and University of Twente, and six Indian institutes — IISc Bangalore, IIT Bombay, IIT Delhi, IIT Gandhinagar, IIT Guwahati, and IIT Madras. The Kalpasar project in Gujarat (a major offshore dam and infrastructure initiative) received a fresh Letter of Intent for technical cooperation.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Partnership elevated to | Strategic Partnership (May 16, 2026) |\n| Agreements signed | 17 |\n| Roadmap period | 2026–2030 |\n| Netherlands FDI in India | $55.6 billion (cumulative) — 4th largest |\n| Bilateral trade (2024–25) | $27.8 billion |\n| Semiconductor link | Dutch Semicon Competence Centre ↔ India Semiconductor Mission |\n| Key Dutch companies | ASML, NXP Semiconductors, Tata Group partner |\n| Water cooperation | Centre of Excellence on Water at IIT Delhi |\n| Green energy | Green Hydrogen Roadmap + Green & Digital Sea Corridor |\n| Defence | Feasibility study for Mutual Logistic Support Agreement |\n\n📝 **EXAM ANGLES**\n**Prelims:** What is ASML known for? (EUV lithography machines). What is India's 4th largest investor? (Netherlands, $55.6 billion cumulative FDI). Green and Digital Sea Corridor links Indian ports to which European country? (Netherlands).\n**Mains:** \"India's growing diplomatic footprint in Western Europe signals a fundamental shift in its foreign policy priorities. Analyse using the India-Netherlands Strategic Partnership as a case study.\" (GS II — 250 words). Focus: technology sovereignty, energy diversification, semiconductor self-reliance, India-EU FTA leverage.",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test facts about ASML — the world's only manufacturer of Extreme Ultraviolet (EUV) lithography machines, which are essential for fabricating chips at 7nm and below. Students confuse: ASML is Dutch (not German, not American, not Japanese). UPSC may also ask about the India-EU FTA — which was signed earlier in 2026 — and the Netherlands as a gateway to European markets for India's green hydrogen. A classic trap: \"India-Netherlands bilateral trade in 2024-25 was approximately...\" — knowing $27.8 billion (not $55.6 billion, which is cumulative FDI) is the distinction UPSC will exploit.",
+        revise: "- **India Semiconductor Mission (ISM)**: Launched under MEITY; ₹76,000 crore package for semiconductor ecosystem\n- **National Green Hydrogen Mission**: Target: 5 MMTPA production by 2030; ₹19,744 crore outlay\n- **National Mission for Clean Ganga (NMCG)**: Connects to Dutch water management cooperation under CDRI\n- **India-EU FTA**: Signed in 2026 — Netherlands is a key gateway for EU market access\n- **Mutual Logistic Support Agreements (MLSAs)**: India has signed with US, Australia, France, Japan, South Korea — now exploring with Netherlands\n- **Kalpasar Project**: Gujarat — world's first freshwater reservoir in open sea; dam across Gulf of Khambhat",
+        pyqConnect: "PYQ Link: UPSC 2019 — \"Which of the following is the purpose of 'Integrated Coastal Zone Management' project?\" — connects to coastal infrastructure, relevant to Kalpasar; UPSC 2022 — tested India-Japan ACSA (Acquisition and Cross Servicing Agreement) — foundational to MLSA questions."
+      },
+      {
+        id: "18-4",
+        title: "TERI Nuclear Vision Report: SMRs and the 100 GW Target",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper III (Science & Technology / Energy)",
+        content: "📌 **QUICK TAKE**\nTERI's report \"India's Nuclear Energy Vision: Strategic Pathways for SMR Deployment\" (released May 12–15) states India needs ₹23–25 lakh crore and sweeping regulatory reform to reach 100 GW nuclear capacity by 2047. The Prototype Fast Breeder Reactor (PFBR) at Kalpakkam achieved criticality in April 2026 — a milestone in India's Three-Stage Nuclear Programme. The SHANTI Act (2025) enables private sector participation in nuclear energy for the first time.\n\n📰 **WHAT HAPPENED**\nThe Energy and Resources Institute (TERI) released its report at India Habitat Centre, New Delhi, with participation from the Department of Atomic Energy, NTPC, L&T, Westinghouse, and the World Nuclear Association. The report assessed India's pathway to its declared nuclear expansion target.\n\nIndia currently operates 25 nuclear reactors with 8.8 GW installed capacity across 7 sites. Ongoing projects are expected to raise this to approximately 22 GW by 2032. But reaching 100 GW by 2047 requires an average annual addition of 4.5 GW — a pace India has never achieved. TERI's three-phase roadmap: Phase 1 (to 2030): Complete ongoing PHWR/FBR projects, update regulatory framework for SMRs, identify pilot sites. Phase 2 (2030–2040): Serial PHWR/FBR deployment, initial SMR commercialisation, begin thorium fuel cycle development. Phase 3 (2040–2047): Large-scale capacity addition, SMRs for green hydrogen and hard-to-abate industries, deploy Advanced Heavy Water Reactors.\n\nThe SHANTI Act — Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India Act (2025) — is the key legislative reform enabling PSUs and private industry to participate for the first time in India's nuclear programme, which was previously a government monopoly.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| Current nuclear capacity | 8.8 GW (25 reactors, 7 sites) |\n| Target by 2047 | 100 GW |\n| Capacity by 2032 (pipeline) | ~22 GW |\n| Annual addition needed | ~4.5 GW/year |\n| Investment required (TERI est.) | ₹23–25 lakh crore |\n| SHANTI Act (2025) | First law enabling private sector in nuclear |\n| PFBR Kalpakkam criticality | April 2026 — Stage II milestone |\n| Annual uranium production | ~600 tonnes (1–2% of global output) |\n| Nuclear Energy Mission outlay | ₹20,000 crore (Budget 2025) for SMR R&D |\n\n📝 **EXAM ANGLES**\n**Prelims:** \"Which of the following correctly matches India's three-stage nuclear programme?\" — Stage II = FBR using Pu-239 + Thorium. Which fuel is bred in Stage III? Uranium-233 from Thorium-232. PFBR is at which stage? Stage II.\n**Mains:** \"Critically examine the barriers India must overcome to achieve its 100 GW nuclear target by 2047, with special reference to the role of Small Modular Reactors.\" (GS III — 250 words). Address: financing, regulatory preparedness, fuel supply, Civil Liability Act constraints, land acquisition.",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test India's Three-Stage Nuclear Programme designed by Homi J. Bhabha — and students confuse the stages. Stage I: Pressurised Heavy Water Reactors (PHWRs) using natural uranium, producing Plutonium-239 as byproduct. Stage II: Fast Breeder Reactors (FBRs) using Pu-239 + Thorium-232 — PFBR at Kalpakkam is Stage II. Stage III: Advanced Heavy Water Reactors using Uranium-233 (bred from Thorium-232) — fully thorium-based, the ultimate goal. Criticality of PFBR = Stage II has begun. This is distinct from Stage I completion or Stage III readiness. The trap option will claim PFBR belongs to Stage I or Stage III.",
+        revise: "- **Three-Stage Nuclear Programme**: Designed by Homi J. Bhabha in 1950s; tied to India's large thorium reserves\n- **Atomic Energy Act, 1962**: The foundational law; SHANTI Act 2025 amends/supplements this\n- **AERB (Atomic Energy Regulatory Board)**: India's nuclear safety regulator — reports to DAE, not an independent body (a long-running controversy)\n- **Nuclear Liability Law**: Civil Liability for Nuclear Damage Act, 2010 — a constraint on private/foreign investment\n- **India-US Civil Nuclear Deal (123 Agreement, 2008)**: Enabled civilian nuclear cooperation; connects to NSG waiver\n- **India's thorium reserves**: Second largest in world (~25% of global reserves, concentrated in Kerala)",
+        pyqConnect: "PYQ Link: UPSC 2018 — 'Which of the following are the key features of ASVS/Nuclear reactors in India' — tested Stage I/II/III knowledge directly."
+      },
+      {
+        id: "18-5",
+        title: "Four Labour Codes 2026: India's Biggest Labour Reform",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper III (Economy) + GS Paper II (Governance)",
+        content: "📌 **QUICK TAKE**\nIndia's four Labour Codes — consolidating 29 central labour laws — are now in force after central notification, but uneven state implementation is creating a compliance patchwork. The codes introduce the 50% basic wage rule (raising PF/gratuity), a 4-day work week option, gig worker social security, and raise the retrenchment approval threshold to 300 employees. This is India's most significant labour law reform since independence — and a recurring UPSC theme.\n\n📰 **WHAT HAPPENED**\nThe four codes were enacted between 2019 and 2020: Code on Wages (2019), Industrial Relations Code (2020), Social Security Code (2020), and the Occupational Safety, Health and Working Conditions (OSH) Code (2020). Central rules were notified in 2025, and full enforcement began in April 2026. However, because \"Labour\" is a Concurrent List subject (Seventh Schedule, Entry 24), states must also notify their own rules. Several states have notified final rules; others are still in draft. This creates an uneven implementation landscape — something experts flagged this week.\n\nKey provisions now operational: (1) Wages Code — universal wage definition, 50% basic wage rule, national floor wage (₹178/day as of 2019 notification, pending revision). (2) Industrial Relations Code — fixed-term employment with full benefit parity, retrenchment approval threshold raised from 100 to 300 employees, formalises 4-day work week with employee consent. (3) Social Security Code — extends EPF/ESI to gig workers, platform workers, and unorganised sector for the first time. (4) OSH Code — replaces 13 separate laws including Factories Act 1948, standardises safety norms nationally.\n\n📊 **KEY DATA TABLE**\n\n| Code | Year | Laws Replaced | Key Change |\n|------|------|---------------|------------|\n| Code on Wages | 2019 | 4 laws (Minimum Wages Act, Payment of Wages Act, Bonus Act, Equal Remuneration Act) | Universal wage definition; 50% basic rule |\n| Industrial Relations Code | 2020 | 3 laws (Trade Unions Act, Standing Orders Act, Industrial Disputes Act) | Fixed-term employment parity; retrenchment: 300 threshold |\n| Social Security Code | 2020 | 9 laws (EPF, ESI, Gratuity, Maternity, etc.) | Gig worker social security for first time |\n| OSH Code | 2020 | 13 laws (Factories Act, Contract Labour Act, BOCW Act, etc.) | Uniform national safety standards |\n\n📝 **EXAM ANGLES**\n**Prelims:** Which list does \"Labour\" fall under? (Concurrent). Old vs new retrenchment threshold (100 → 300). Which law formally extended social security to gig workers for the first time? (Social Security Code, 2020). How many laws were consolidated? (29 into 4).\n**Mains:** \"India's Labour Codes represent the most ambitious restructuring of employment law in post-independence history. However, their transformative potential is constrained by structural and federal implementation gaps. Examine.\" (GS III/II — 250 words). Address: concurrent list friction, state notification delays, gig worker definitional gaps, trade union pushback.",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test two things here. First: \"Labour\" is on the Concurrent List (Entry 24) — meaning both Parliament and State Legislatures can legislate, but central law prevails in case of conflict. Students often put Labour on the Union List or State List. Second: the retrenchment threshold. The old threshold for prior government approval for layoffs was 100 workers; the new threshold is 300. UPSC will present both as statements — only the 300-threshold version is correct under the new codes. Trap MCQ: \"Under the Industrial Relations Code 2020, establishments employing more than 100 workers require prior government permission for retrenchment\" — FALSE; it is now 300.",
+        revise: "- **Seventh Schedule — Concurrent List**: Entry 24 (Labour), Entry 22 (Trade Unions), Entry 55 (Labour Statistics)\n- **Factories Act, 1948**: Replaced by OSH Code — statutory minimum conditions, hazardous processes\n- **EPFO and ESIC**: Statutory bodies under Social Security Code; governed under Ministry of Labour & Employment\n- **Gig Economy**: Platform workers now have legal recognition — connects to ILO Decent Work agenda, GS II governance questions\n- **National Floor Wage**: Set by Central Government under Wages Code — states can set higher, not lower\n- **Contract Labour (Regulation and Abolition) Act, 1970**: Replaced; threshold raised from 20 to 50 workers",
+        pyqConnect: "PYQ Link: UPSC 2019 — \"Which of the following statements is correct regarding 'Pradhan Mantri Shram Yogi Maan-Dhan' (PM-SYM) Yojana?\" — tested social security for unorganised sector; directly connects to Social Security Code's gig worker coverage."
+      },
+      {
+        id: "18-6",
+        title: "EAC-PM Priority Sector Lending Reform Paper",
+        subtitle: "🟡 Important | Both Prelims & Mains | GS Paper III (Economy & Banking)",
+        content: "📌 **QUICK TAKE**\nA working paper by the Economic Advisory Council to the Prime Minister (EAC-PM) proposes restructuring India's Priority Sector Lending (PSL) framework — unchanged for nearly 50 years — to prioritise social equity over economic efficiency. Despite an 85% growth in PSL to ₹42.73 lakh crore between 2019–2024, regional credit gaps remain acute in Northeast India, the Himalayas, and Eastern India.\n\n📰 **WHAT HAPPENED**\nThe EAC-PM paper argues that the existing PSL mandate — which requires banks to direct at least 40% of their Adjusted Net Bank Credit (ANBC) to defined priority sectors — has failed on two counts: it generates regional imbalance (credit concentrates in economically mature states) and it diverts credit to sub-optimal sectors, potentially reducing total factor productivity.\n\nThe paper proposes shifting the PSL framework's primary goal from ensuring the economic efficiency of credit allocation to achieving social equity — channelling credit to small and marginal farmers, micro-enterprises, and weaker sections in underserved geographies. The paper also flags that Priority Sector Lending Certificates (PSLCs), introduced by the RBI in 2016, allow banks to trade their PSL obligations without the underlying loan — a mechanism that provides compliance flexibility but has not reduced the geographical imbalance in credit distribution.\n\n📊 **KEY DATA TABLE**\n\n| Parameter | Detail |\n|-----------|--------|\n| PSL mandate | 40% of ANBC for all commercial banks |\n| PSL growth (2019–2024) | ₹23.01 lakh crore → ₹42.73 lakh crore (+85%) |\n| Gap regions | Northeast, Himalayan states, Eastern India |\n| PSLCs introduced by | RBI in 2016 |\n| EAC-PM recommendation | Shift goal: efficiency → social equity |\n| Framework age | Nearly 50 years (unchanged) |\n| Small Finance Bank PSL target | Higher than commercial banks (as per Jan 2026 RBI amendment) |\n\n📝 **EXAM ANGLES**\n**Prelims:** What percentage of ANBC must be directed to priority sectors? (40%). PSLCs were introduced by RBI in which year? (2016). Is PSLC a loan? (No — it is a certificate traded between banks). Does PSL apply to NBFCs? (No — not as a direct mandate).\n**Mains:** \"Despite decades of Priority Sector Lending mandates, India's credit architecture continues to exclude its most vulnerable regions. Critically examine the EAC-PM's proposal to restructure PSL around social equity.\" (GS III — 250 words). Discuss: ANBC mechanics, PSLC limitations, regional inequality, NPA risks if social equity overrides commercial prudence.",
+        whyItMatters: "⚠️ **THE UPSC TRAP**\nUPSC will test the PSLC mechanism — and students confuse it with loan waiver or co-lending. A PSLC is not a loan product. It is a certificate that one bank can buy from another to meet its PSL target without originating the underlying loan itself. The seller bank has met its PSL target but with surplus; the buyer bank has a shortfall. The certificate is traded, not the loan. UPSC may also test: \"PSL applies to which banks?\" — Commercial banks (SCBs and RRBs), SFBs, and Cooperative Banks. It does NOT apply to NBFCs (non-banking financial companies) as a direct mandate.",
+        revise: "- **Priority Sector Lending**: History — RBI mandated in 1974; initially covering agriculture and small industries\n- **Adjusted Net Bank Credit (ANBC)**: PSL computed as 40% of ANBC or credit equivalent of off-balance sheet exposures, whichever is higher\n- **RBI Role**: PSL is an RBI regulatory instrument, not a Ministry of Finance directive\n- **Narasimham Committee (1991, 1998)**: Recommended rationalising PSL; tension between efficiency and equity in credit allocation\n- **Financial Inclusion**: JAM trinity, PM Jan Dhan Yojana — credit access gap despite deposit reach\n- **NABARD**: Issues guidelines for agriculture sub-target (18% of ANBC) within PSL",
+        pyqConnect: "PYQ Link: UPSC 2015 — 'Consider the following: Scheduled Commercial Banks, Regional Rural Banks, Local Area Banks — which are included under Priority Sector Lending?' — directly tests the institutional scope of PSL mandates."
+      }
+    ],
+    reviseSummary: [
+      "Article 124(1) & 123: SC Judges Ordinance strength expansion, Article 123 ordinance route.",
+      "Planetary Boundaries: 9 Earth system limits, 7 breached, ocean acidification added in SOE 2026.",
+      "India-Netherlands SP: semiconductor ties (ASML link), Green Hydrogen corridor, Kalpasar project.",
+      "Stage II PFBR Kalpakkam: Three-Stage Nuclear program, thorium energy strategy, SHANTI Act 2025.",
+      "Labour Codes 2026: Consolidation of 29 laws into 4, retrenchment threshold raised, gig workers.",
+      "Priority Sector Lending (PSL): 40% ANBC mandate, PSLC mechanics (2016), regional credit gaps."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the Supreme Court (Number of Judges) Amendment Ordinance, 2026:\n1. It increases the sanctioned strength of the Supreme Court from 34 to 38 judges, including the Chief Justice of India.\n2. The power to increase the number of Supreme Court judges rests exclusively with Parliament under Article 124(1) of the Constitution.\n3. An Ordinance to achieve this effect can be promulgated by the President under Article 123 when Parliament is not in session.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(d) 1, 2 and 3",
+          explanation: "Correct: All three statements are accurate. Statement 1 — the ordinance raises sanctioned strength from 34 to 38 including CJI (33 to 37 excluding CJI). Statement 2 — Article 124(1) explicitly provides that Parliament can increase the number by law. Statement 3 — Article 123 enables the President to promulgate ordinances when Parliament is not in session; the ordinance has the same force as an act of Parliament but lapses within 6 weeks of Parliament's reassembly unless it is approved and enacted."
+        },
+        {
+          question: "With reference to the Planetary Boundaries framework as cited in CSE's State of India's Environment 2026 Report, consider the following pairs:\nBoundary — Status (as per 2026 data)\n1. Ocean Acidification — Newly breached (7th boundary to cross safe limits)\n2. Stratospheric Ozone Depletion — Breached, largely due to HFCs\n3. Atmospheric Aerosol Loading — Within safe limits\n\nWhich of the pairs given above is/are correctly matched?",
+          options: [
+            "(a) 1 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b) 1 and 3 only",
+          explanation: "Correct: Pair 1 — Correct. Ocean acidification is identified as the 7th planetary boundary to be breached. Pair 3 — Correct. Atmospheric Aerosol Loading and Stratospheric Ozone Depletion are the two boundaries still within safe limits. Pair 2 is incorrectly matched: Stratospheric Ozone Depletion is NOT breached; it is within safe limits, precisely because the Montreal Protocol (1987) has been effective at reducing ozone-depleting substances."
+        },
+        {
+          question: "Statement I: The Netherlands is India's fourth-largest source of foreign direct investment, with cumulative FDI of $55.6 billion.\nStatement II: The India-Netherlands Strategic Partnership roadmap (2026–2030) includes a provision to connect the Dutch Semicon Competence Centre to the Indian Semiconductor Mission.\n\nWhich one of the following is correct in respect of the above Statements?",
+          options: [
+            "(a) Both Statement I and Statement II are correct, and Statement II is the correct explanation of Statement I",
+            "(b) Both Statement I and Statement II are correct, but Statement II is not the correct explanation of Statement I",
+            "(c) Statement I is correct but Statement II is incorrect",
+            "(d) Statement I is incorrect but Statement II is correct"
+          ],
+          answer: "(b) Both Statement I and Statement II are correct, but Statement II is not the correct explanation of Statement I",
+          explanation: "Correct: Statement I is correct — Netherlands is India's 4th largest investor (cumulative FDI $55.6 billion); bilateral trade stood at $27.8 billion in 2024–25. Statement II is also correct — the roadmap explicitly provides for linking the Dutch Semicon Competence Centre to India's ISM. However, Statement II (a semiconductor technology link) does not explain why Netherlands is India's 4th largest investor — the investment relationship is based on trade, financial flows, and Dutch multinational presence, not solely on semiconductor collaboration."
+        },
+        {
+          question: "With reference to India's Four Labour Codes (2019–2020), consider the following statements:\n1. \"Labour\" is a subject in the Union List of the Seventh Schedule of the Constitution.\n2. The Industrial Relations Code, 2020 raised the threshold for mandatory government approval for retrenchment from 100 to 300 workers.\n3. The Social Security Code, 2020 extends EPF and ESI benefits to gig workers and platform workers for the first time.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b) 2 and 3 only",
+          explanation: "Correct: Statement 2 is correct — threshold raised from 100 to 300 under the Industrial Relations Code. Statement 3 is correct — the Social Security Code 2020 is the first statutory framework providing social security (EPF/ESI equivalents) to gig and platform workers in India. Statement 1 is incorrect — \"Labour\" is NOT on the Union List. Labour is a Concurrent List subject (Entry 24 of the Concurrent List, Seventh Schedule)."
+        },
+        {
+          question: "Which of the following correctly describes a Priority Sector Lending Certificate (PSLC)?",
+          options: [
+            "(a) A government guarantee provided to banks for loans extended to the agricultural sector",
+            "(b) A certificate issued by the RBI to banks that have exceeded their Priority Sector Lending target, enabling them to access concessional refinancing",
+            "(c) A tradeable instrument issued by a bank that has surplus Priority Sector Lending, which can be purchased by another bank to meet its own PSL obligation without transferring the underlying loan or risk",
+            "(d) A certificate issued under the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002, for PSL-backed securities"
+          ],
+          answer: "(c) A tradeable instrument issued by a bank that has surplus Priority Sector Lending, which can be purchased by another bank to meet its own PSL obligation without transferring the underlying loan or risk",
+          explanation: "Correct: A PSLC is exactly as described in option (c). Bank A has excess PSL lending and creates a certificate; Bank B, which has a PSL shortfall, buys the certificate from Bank A at a market-determined price. Bank B can now count Bank A's lending toward its own target — without Bank B originating any new loans or taking on any credit risk. The underlying loan stays on Bank A's books. Introduced by RBI in 2016."
+        }
+      ],
+      mains: [
+        {
+          question: "India's growing dependence on nuclear energy to achieve its net-zero and energy security goals faces significant structural, regulatory, and geopolitical barriers. Critically examine the feasibility of India's target of 100 GW of nuclear capacity by 2047.",
+          context: "GS Paper III | 250 words"
+        },
+        {
+          question: "\"Labour is a Concurrent List subject — yet India's Four Labour Codes represent both a centralization of regulatory power and an unfinished promise of workers' protection.\" Analyse.",
+          context: "GS Paper III + II | 150 words"
+        }
+      ]
+    }
   }
 ];
+

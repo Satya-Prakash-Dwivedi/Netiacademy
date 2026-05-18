@@ -19,6 +19,9 @@ import Courses from './pages/Courses';
 import CourseDetail from './pages/CourseDetail';
 import RevisionSeries from './pages/RevisionSeries';
 import PolityCourseDetail from './pages/PolityCourseDetail';
+import MonthlyMagazines from './pages/MonthlyMagazines';
+import MonthlyMagazineDetail from './pages/MonthlyMagazineDetail';
+
 
 // ScrollToTop component to reset scroll on route change
 function ScrollToTop() {
@@ -51,6 +54,9 @@ function App() {
           <Route path="/study-materials/:id" element={<ProductDetail />} />
           <Route path="/current-affairs" element={<CurrentAffairs />} />
           <Route path="/current-affairs/:id" element={<CurrentAffairDetail />} />
+          <Route path="/monthly-magazines" element={<MonthlyMagazines />} />
+          <Route path="/monthly-magazines/:id" element={<MonthlyMagazineDetail />} />
+
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="/courses" element={<Courses />} />
