@@ -4361,6 +4361,380 @@ export const dailyDigests: DailyDigest[] = [
         }
       ]
     }
+  },
+  {
+    id: "2026-05-20",
+    date: "20th May 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⚠️ UPSC PRELIMS IS ON 24th MAY — 4 DAYS AWAY.\nEvery topic today is directly examinable on Sunday.\nEvery trap is flagged. No filler.",
+    topics: [
+      {
+        id: "20-1",
+        title: "India-Italy Special Strategic Partnership + IMEC",
+        subtitle: "🔴 Must Read | Both | GS Paper II (IR) + GS Paper III (Infrastructure)",
+        content: `📌 **QUICK TAKE**
+PM Modi's visit to Rome today — the fifth and final leg of his May 15–20 five-nation tour — marks India's first bilateral visit to Italy. India-Italy ties have been elevated to a Special Strategic Partnership. The strategic centrepiece is IMEC: Italy is positioning Trieste as the EU's Mediterranean gateway to the corridor, competing with China-controlled Piraeus. Modi also visited FAO headquarters. Six agreements signed, including on critical minerals and maritime transport.
+
+📰 **WHAT HAPPENED**
+Modi arrived in Rome on May 19, received by Italian Deputy PM Antonio Tajani. Italian PM Giorgia Meloni welcomed him with "Welcome to Rome, my friend." This is Modi's first bilateral visit to Italy; his earlier Italy visits were for G7 (June 2024) and G20 (2021) — multilateral formats, not bilateral.
+
+The two leaders upgraded the relationship from the 2023 Strategic Partnership to a Special Strategic Partnership — a deliberate diplomatic signal. The Joint Strategic Action Plan 2025–2029 was reviewed and renewed. Six bilateral agreements were signed covering: maritime transport, agriculture, higher education, critical minerals, museum cooperation, and combating economic and financial crime.
+
+The IMEC angle: IMEC (India–Middle East–Europe Economic Corridor), announced at G20 New Delhi in September 2023, connects India to Europe via the UAE, Saudi Arabia, Jordan, and Israel through rail, maritime, and pipeline infrastructure. Italy is one of the eight founding signatories (India, USA, EU, France, Germany, Italy, Saudi Arabia, UAE) and is pushing Trieste as the EU's Mediterranean IMEC terminal — an alternative to Piraeus port in Greece, which is controlled by Chinese firm COSCO.
+
+The EU-India FTA, concluded in January 2026, provides the economic architecture underpinning this push. The EU is India's second-largest trading partner (goods trade worth €120 billion in 2024). Modi also visited FAO headquarters in Rome — the first such official visit in recent years.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| India-Italy partnership level | Special Strategic Partnership (from 2023 Strategic) |
+| Agreements signed | 6 (critical minerals, maritime, agriculture, higher education, museums, financial crime) |
+| Modi's previous Italy visits | G7 June 2024 (multilateral); G20 2021 (multilateral) |
+| IMEC announced | G20 New Delhi Summit, September 9, 2023 |
+| IMEC founding signatories | India, USA, EU, France, Germany, Italy, Saudi Arabia, UAE |
+| Italy's IMEC port candidate | Trieste (rival to Piraeus, controlled by COSCO) |
+| EU-India FTA concluded | January 2026 |
+| EU-India goods trade (2024) | €120 billion; EU is India's 2nd-largest partner |
+| FAO headquarters | Rome, Italy |
+| India-Italy bilateral trade | €14+ billion (2023) |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+UPSC will test the IMEC route and its founding members. The critical confusion: students assume Greece or Egypt is involved in IMEC's land route. It is NOT. The land route goes: India (by sea to UAE) → UAE → Saudi Arabia → Jordan → Israel, then by sea to Greece or another European port. Greece is NOT a founding signatory. Italy IS.
+
+Second trap: FAO, WFP, and IFAD are all headquartered in Rome — NOT Geneva. WHO, WTO, ILO, WIPO, OHCHR = Geneva. UNHCR = Geneva. This distinction appears almost every year in MCQs.
+
+Third trap: India-Italy is now a "Special Strategic Partnership" — not "Comprehensive Global Strategic Partnership" (that is India-USA). Levels matter in UPSC.`,
+        revise: `- **IMEC vs BRI**: IMEC is explicitly positioned as a rules-based, transparent alternative to China's Belt and Road Initiative; both are connectivity frameworks — UPSC has tested this comparison in Mains
+- **FAO**: UN specialized agency; established 1945; 194 member states + EU; headquarters Rome; mandate: food security and agricultural development
+- **EU-India FTA**: concluded January 2026; India is EU's 9th-largest trading partner; the FTA covers goods, services, investment, and GI protection
+- **Collegium of UN Rome-based agencies**: FAO + WFP + IFAD — all headquartered in Rome, all dealing with food/agriculture/development`,
+        pyqConnect: `PYQ Link: "The India–Middle East–Europe Economic Corridor signifies India's emergence as a hub of global connectivity. Discuss the strategic implications and challenges." (GS Paper II Mains-style; IMEC has appeared in PT GS I paper themes repeatedly since 2023)`
+      },
+      {
+        id: "20-2",
+        title: "SC Strength Raised to 38: Ordinance Under Article 123",
+        subtitle: "🔴 Must Read | Both | GS Paper II (Polity & Governance)",
+        content: `📌 **QUICK TAKE**
+President Droupadi Murmu promulgated the Supreme Court (Number of Judges) Amendment Ordinance, 2026 on May 16 — under Article 123 of the Constitution. The SC's total sanctioned strength rises from 34 to 38 (CJI plus 37 other judges). The parent legislation — the Supreme Court (Number of Judges) Act, 1956 — is amended by substituting "thirty-three" with "thirty-seven" in Section 2. With 93,000+ pending cases, the ordinance creates four new posts — but actual appointments still require the collegium.
+
+📰 **WHAT HAPPENED**
+The Union Cabinet approved the proposal on May 5, 2026. Since Parliament was not in session, the President exercised her ordinance-making power under Article 123. The ordinance was notified in the Gazette of India on May 16, the day it was promulgated.
+
+The amendment is textually simple: Section 2 of the SC (Number of Judges) Act, 1956 previously read "thirty-three." The ordinance substitutes this with "thirty-seven." The CJI is not counted in this figure; including the CJI, total sanctioned strength becomes 38.
+
+The SC's working strength at the time of the ordinance was 32 (including CJI) — against the previous sanctioned strength of 34. There were already two vacancies (including that of CJI B.R. Gavai who retired in November 2025 and Justice Rajesh Bindal who demitted in April 2026). Three more retirements are due later in 2026.
+
+The ordinance will be laid before Parliament when it reconvenes and will lapse unless approved within six weeks of reassembly, or if disapproved by both Houses. The last strength increase was in 2019 (30→33 puisne judges; 31→34 total including CJI). Originally (1950), the Constitution envisaged a CJI and not more than seven other judges — Article 124(1) empowered Parliament to increase this number by law.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| Ordinance name | SC (Number of Judges) Amendment Ordinance, 2026 |
+| Promulgated under | Article 123 of the Constitution |
+| Promulgated on | May 16, 2026 |
+| Amendment to | Section 2, SC (Number of Judges) Act, 1956 |
+| Previous sanctioned strength | 34 (CJI + 33) |
+| New sanctioned strength | 38 (CJI + 37) |
+| Working strength at promulgation | 32 (2 vacancies already existed) |
+| SC pending cases | 93,000+ |
+| Last increase before 2026 | 2019 (puisne: 30→33; total: 31→34) |
+| Original 1950 Constitution strength | 8 (CJI + 7 puisne) |
+| Appointments route | Still through collegium; ordinance only adds posts |
+| Ordinance validity | 6 weeks after Parliament reassembly |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+Three traps here — all classic and all Prelims-ready:
+
+Trap 1: The figure "37" refers to judges excluding the CJI. The figure "38" is total including CJI. UPSC will put one of these in a statement and ask which is correct. Both are correct — just referring to different counts. Section 2 of the Act uses "37" (excluding CJI). The ordinance is rightly called a "37-judge ordinance" and "38 total" simultaneously.
+
+Trap 2: Article 123 (President's ordinance power, Union) vs Article 213 (Governor's ordinance power, States). Never mix them. UPSC tests this every 2–3 years.
+
+Trap 3: The ordinance creates posts — it does NOT make appointments. Appointments to the SC still happen through the collegium process under Article 124(2). The ordinance alone cannot seat new judges.`,
+        revise: `- **Article 123**: Conditions — Parliament not in session; President satisfied that circumstances render immediate action necessary; same force as Parliament law; lapses if not approved within 6 weeks of reassembly
+- **D.C. Wadhwa v. State of Bihar (1987)**: Ordinance power is exceptional and cannot be used as a substitute for regular legislation
+- **Collegium system**: Third Judges Case (1998); CJI + 4 senior-most SC judges; no executive veto; opacity concerns
+- **Article 124(1)**: Original SC composition — CJI + not more than 7 others, unless Parliament prescribes a larger number by law
+- **Judicial pendency**: SC 93,000+; HCs 60+ lakh; District Courts 4+ crore; tracked by NJDG (National Judicial Data Grid)`,
+        pyqConnect: `PYQ Link: "Examine the scope of President's ordinance-making power under Article 123 and the safeguards against its misuse." (UPSC GS II Mains 2019; Article 123 MCQs in Prelims 2016, 2021)`
+      },
+      {
+        id: "20-3",
+        title: "Singapore Overtakes UAE: India's Trade Rerouting",
+        subtitle: "🔴 Must Read | Prelims + Mains | GS Paper III (Economy & Trade)",
+        content: `📌 **QUICK TAKE**
+April 2026 trade data has delivered a geopolitically significant result: Singapore has overtaken the UAE to become India's second-largest export destination. Singapore exports surged ~180% YoY to $3.20 billion while UAE exports fell 36% to $2.18 billion. The trigger: the Strait of Hormuz has been largely blocked since March 2, 2026 due to the US-Iran conflict, forcing exporters to reroute through the Strait of Malacca. India has FTAs with both partners — making this a live test of FTA architecture under geopolitical stress.
+
+📰 **WHAT HAPPENED**
+India's merchandise exports in April 2026 hit a 4-year high of $43.56 billion (+13.8% YoY), demonstrating resilience. But below the headline number lies a structural realignment.
+
+The Strait of Hormuz — connecting the Persian Gulf to the Arabian Sea — handles approximately 20% of global oil trade. Since early March 2026, the US-Iran conflict has severely disrupted transit. Indian exporters have been rerouting through Singapore — a major transhipment hub at the Strait of Malacca — since February.
+
+Result:
+— Exports to Singapore: $3.20 billion (April 2026) vs $1.14 billion (April 2025) → +180% YoY
+— Exports to UAE: $2.18 billion (April 2026) vs $3.43 billion (April 2025) → −36% YoY
+
+Both countries have operational FTAs with India: India-UAE CEPA (in force May 2022) and India-Singapore CECA (in force 2005). The rerouting shows that FTA relationships endure — but the volume shifts based on logistics and geopolitics, not just trade agreements.
+
+Import patterns have also changed: countries like Oman, Peru, and Nigeria have entered India's top import partners for energy, replacing some Gulf-sourced crude.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | April 2026 | April 2025 | Change |
+|---|---|---|---|
+| Total merchandise exports | $43.56 billion | $38.27 billion | +13.8% |
+| Total merchandise imports | $71.94 billion | $65.40 billion | +10% |
+| Trade deficit | $28.38 billion | ~$27 billion | Widened |
+| Exports to Singapore | $3.20 billion | $1.14 billion | +180% |
+| Exports to UAE | $2.18 billion | $3.43 billion | −36% |
+| Strait of Hormuz blocked | Since ~March 2 | — | — |
+| Hormuz share of global oil | ~20% | — | — |
+| India-UAE FTA | CEPA (May 2022) | — | — |
+| India-Singapore FTA | CECA (2005) | — | — |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+Two critical name-confusions that UPSC will exploit:
+
+India-UAE FTA = CEPA (Comprehensive Economic Partnership Agreement)
+India-Singapore FTA = CECA (Comprehensive Economic Cooperation Agreement)
+These two are frequently swapped by students. The acronym difference (CEPA vs CECA) is tested.
+
+Geography trap: The Strait of Hormuz lies between Iran (to the north) and Oman's Musandam Peninsula (to the south). Many students place it between Iran and the UAE, or between Saudi Arabia and Iran. It is Iran-Oman. The Strait of Malacca lies between Malaysia/Sumatra (Indonesia). Get both right.
+
+INSTC confusion: The International North-South Transport Corridor (India-Iran-Russia) is separate from IMEC. Both are alternatives to Gulf routing but for different geographies and cargo types. Do not conflate.`,
+        revise: `- **Strait of Hormuz**: Between Iran and Oman; ~20% of global oil; connects Persian Gulf and Gulf of Oman; strategic chokepoint
+- **Strait of Malacca**: Between Sumatra (Indonesia) and Malay Peninsula; busiest shipping lane; ~25% of global trade; Singapore controls access
+- **India's FTA architecture**: India-UAE CEPA, India-Singapore CECA, India-ASEAN FTA, India-Australia ECTA, India-EU FTA (Jan 2026)
+- **INSTC**: International North-South Transport Corridor — India-Iran-Russia; Bandar Abbas (Iran) as key node; alternative to Suez/Hormuz routing
+- **Current Account Deficit (CAD) vs Trade Deficit**: trade deficit is goods only; CAD includes goods + services + primary/secondary income`,
+        pyqConnect: `PYQ Link: "India's trade deficit is structural in nature. Analyse the factors responsible and suggest measures to improve the situation." (UPSC GS III Mains-style; Strait of Hormuz has appeared in Geography MCQs in 2015, 2018, 2022)`
+      },
+      {
+        id: "20-4",
+        title: "UPSC Provisional Answer Key Reform (QPRep)",
+        subtitle: "🟡 Important | Prelims + Mains | GS Paper II (Governance)",
+        content: `📌 **QUICK TAKE**
+UPSC has announced that for the first time in its 65+ year history, it will release a provisional answer key for CS Prelims 2026 shortly after the exam on May 24. Candidates can file objections via the QPRep (Question Paper Representation Portal) at upsconline.nic.in until May 31. The reform stems from a Supreme Court judgment on transparency in public examinations. Marks are still withheld until cycle completion — only the key is early.
+
+📰 **WHAT HAPPENED**
+UPSC Chairman Dr. Ajay Kumar announced on May 19 that the Commission would, for the first time, release a provisional answer key for the Civil Services (Preliminary) Examination 2026 soon after the May 24 exam. He called it "a new beginning."
+
+Previously, UPSC released official answer keys only after the entire examination cycle concluded — Prelims, Mains, and Interview — often a full year after the Preliminary stage. This created a vacuum filled by competing unofficial coaching-institute keys, generating anxiety and litigation.
+
+Under the new system:
+— Provisional answer key: released immediately post-exam on May 24
+— Objection window: candidates may submit representations via QPRep until May 31, 2026 (6:00 PM)
+— Objections must include: correct answer as per candidate, brief description, and supporting documents from three authentic sources
+— Expert panels: each objection reviewed by subject experts
+— Final key: published after all representations are processed
+— Official marks: still released only after full cycle — unchanged
+
+The reform was mandated by a Supreme Court judgment that emphasised greater transparency in public examinations, timely access to evaluation material, and reduction of unnecessary litigation — consistent with the SC's broader push for accountability in public institutions.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| Reform | Provisional answer key released post-Prelims (first in UPSC history) |
+| Exam date | May 24, 2026 |
+| Portal | QPRep (upsconline.nic.in) |
+| Objection deadline | May 31, 2026, 6:00 PM |
+| Objection support needed | Brief description + 3 authentic sources |
+| UPSC constitutional basis | Article 315 (Union Public Service Commission) |
+| UPSC Chairman | Dr. Ajay Kumar |
+| Reform mandate | Supreme Court judgment on exam transparency |
+| Marks release timing | Unchanged — after full Prelims + Mains + Interview |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+UPSC is a Constitutional body — established under Article 315, not by any Parliamentary Act. Its independence is guaranteed by Articles 316–317: members serve for 6 years or until age 65 (whichever earlier) and can be removed only by the President following a Supreme Court inquiry. Students regularly confuse UPSC with SSC (Staff Selection Commission), which IS a statutory body created under executive order.
+
+Also: The provisional answer key reform means marks are NOT released early. Only the key is early. UPSC made this distinction explicitly — marks are released after the full cycle. This distinction is testable in a Statement I/II format.`,
+        revise: `- **Article 315**: Establishment of UPSC (and State PSCs)
+- **Article 316**: UPSC Chairman's appointment by President; term of 6 years or age 65, whichever is earlier; not eligible for re-appointment
+- **Article 317**: Removal of UPSC members — only by President, on Supreme Court inquiry; grounds: insolvency, paid employment outside duties, unfit
+- **Article 320**: Functions of UPSC — recruitment, promotions, disciplinary matters, advising on service conditions
+- **Distinction**: Constitutional body (exists by constitutional provision) vs Statutory body (exists by Parliamentary/Legislative Act) vs Executive body (exists by executive order)`,
+        pyqConnect: `PYQ Link: "The Union Public Service Commission has specific constitutional safeguards ensuring its independence. Discuss their adequacy." (GS II Mains-style; UPSC MCQs on Articles 315–320 have appeared in Prelims 2013, 2016, 2020, 2023)`
+      },
+      {
+        id: "20-5",
+        title: "SOE 2026: 7 of 9 Planetary Boundaries Now Breached",
+        subtitle: "🔴 Must Read | Both | GS Paper III (Environment & Ecology)",
+        content: `📌 **QUICK TAKE**
+The State of India's Environment (SOE) 2026 report — published by Centre for Science and Environment (CSE) / Down to Earth — confirms that ocean acidification has now joined as the seventh planetary boundary to be breached. This is the most testable environment topic of the year. Know the 9 boundaries, which 7 are breached, which 2 remain safe, and what ocean acidification actually means — as distinct from ocean warming.
+
+📰 **WHAT HAPPENED**
+The Planetary Boundaries framework, first proposed by Johan Rockström and colleagues in 2009, identifies 9 biophysical systems within which humanity can safely operate. Breach of these boundaries risks "irreversible and abrupt environmental change at the planetary scale."
+
+SOE 2026 identifies ocean acidification as the seventh boundary to be breached. Ocean acidity has increased by 30–40% since the industrial era, as oceans absorb atmospheric CO₂ which reacts with seawater to form carbonic acid — reducing the pH of the ocean. This threatens coral reefs, shellfish, pteropods, and the marine food chain.
+
+The report also highlights:
+— Global forest cover: 59% (safe threshold: 75%)
+— Species extinction rate: 100 per million species years — 10× the safe limit of approximately 10 per million species years
+— The world is approaching the 1.5°C global warming threshold (Paris Agreement Article 2)
+— Tipping points: coral reefs and Amazon rainforest nearing critical irreversible shifts
+
+📊 **KEY DATA TABLE**
+
+| Planetary Boundary | Status |
+|---|---|
+| Climate change | Breached ✗ |
+| Biosphere integrity | Breached ✗ |
+| Land system change | Breached ✗ |
+| Freshwater depletion | Breached ✗ |
+| Biogeochemical flows (N & P) | Breached ✗ |
+| Novel entities | Breached ✗ |
+| Ocean acidification | Newly breached ✗ (7th) |
+| Atmospheric aerosol loading | Within safe limits ✓ |
+| Stratospheric ozone depletion | Within safe limits ✓ |
+
+| Additional Indicator | Figure |
+|---|---|
+| Global forest cover (actual) | 59% |
+| Safe threshold | 75% |
+| Species extinction rate | 100/million species years |
+| Safe rate | ~10/million species years |
+| Ocean acidity increase | 30–40% since industrial era |
+| Global warming threshold | Approaching 1.5°C (Paris goal) |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+Three traps — all high-probability for Sunday's paper:
+
+Trap 1: Ocean acidification ≠ ocean warming. They share a cause (CO₂) but are different phenomena. Acidification = CO₂ dissolves in water → forms carbonic acid → lowers pH. Warming = ocean absorbs heat. UPSC will place both in a statement set and ask which is/are correct.
+
+Trap 2: "Novel entities" refers to synthetic chemicals, microplastics, and substances with no natural equivalent — NOT nuclear waste, NOT CO₂. Students frequently guess nuclear waste. Wrong.
+
+Trap 3: The Planetary Boundaries framework is NOT an official UN document or IPCC product. It was proposed by the Stockholm Resilience Centre (Rockström et al.) in 2009. It is an academic/scientific framework widely referenced in policy — but IPCC and UN frameworks are separate.`,
+        revise: `- **Paris Agreement Article 2(1)(a)**: Limit warming to well below 2°C, preferably 1.5°C — the threshold now approaching
+- **Kunming-Montreal Global Biodiversity Framework (2022)**: 30×30 target — protect 30% of land and ocean by 2030; linked to biosphere integrity
+- **CITES, CBD, Ramsar**: conventions that address different aspects of biodiversity and species survival — all link to "biosphere integrity" planetary boundary
+- **Nitrogen and phosphorus cycles**: "Biogeochemical flows" boundary; excess nitrogen from fertilizers → eutrophication of water bodies
+- **Carbonate chemistry**: Ocean acidification threatens calcifying organisms — corals, molluscs, echinoderms, pteropods — which form the base of marine food webs`,
+        pyqConnect: `PYQ Link: UPSC 2023 asked about planetary boundaries in the context of the Stockholm Resilience Centre framework. UPSC 2024 tested ocean acidification vs ocean warming distinction in a statement-based MCQ. This topic has appeared 3 times in the last 5 years.`
+      },
+      {
+        id: "20-6",
+        title: "India's $1 Trillion Export Target + April 2026 Data",
+        subtitle: "🟡 Important | Prelims + Mains | GS Paper III (Economy)",
+        content: `📌 **QUICK TAKE**
+India has set a $1 trillion merchandise exports target for calendar year 2026 (current annual run-rate: ~$863 billion, up ~5% YoY). April 2026 exports hit a 4-year high of $43.56 billion (+13.8% YoY). The government's strategy rests on three pillars: FTA expansion (~38 countries), import substitution ("Make in India"), and a record 75% domestic procurement mandate in defence. The key exam angle: trade deficit ($28.38 billion in April) vs CAD — two different concepts students consistently conflate.
+
+📰 **WHAT HAPPENED**
+The Commerce and Industry Minister announced that India's exports have reached ~$863 billion — approximately 5% above the previous year — despite global disruptions from the West Asia crisis. The $1 trillion target for 2026 is ambitious but within reach if monthly exports average ~$43–44 billion consistently.
+
+The strategy has three components:
+(1) FTA expansion: India is pursuing free trade agreements with approximately 38 developed countries to secure preferential market access.
+(2) Import substitution: Industries with heavy import dependence are being identified for domestic manufacturing push.
+(3) Defence self-reliance: Of the ₹2.19 lakh crore capital outlay for defence, 75% (₹1.39 lakh crore) is earmarked exclusively for procurement from domestic industries.
+
+April 2026 trade snapshot: Exports $43.56 billion (4-year high); imports $71.94 billion (6-month high, driven by gold, silver, and higher-cost energy from alternative sources following Hormuz blockade); trade deficit $28.38 billion (3-month high). Export growth was led by shipments to China and Singapore; UAE volumes declined due to the Gulf crisis.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| India's current annual exports | ~$863 billion (~5% above prev. year) |
+| 2026 export target | $1 trillion |
+| 5-year export target | $2 trillion |
+| April 2026 exports | $43.56 billion (+13.8% YoY) |
+| April 2026 imports | $71.94 billion (+10% YoY) |
+| April 2026 trade deficit | $28.38 billion |
+| FTAs being pursued | ~38 countries |
+| Defence domestic procurement | 75% of ₹2.19 lakh crore outlay = ₹1.39 lakh crore |
+| April export growth areas | China and Singapore |
+| Import driver | Gold, silver, and energy |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+Trade deficit ≠ Current Account Deficit (CAD). This is one of the most frequently tested distinctions in Economy.
+
+Trade deficit = exports minus imports of GOODS only (merchandise).
+Current Account Deficit = goods deficit + services balance + primary income (investment income) + secondary income (remittances).
+
+India consistently has a trade deficit in goods but partially offsets it with a services surplus (IT, BPO, software). In April 2026, India had a $28.38 billion goods trade deficit — but this does NOT mean the CAD was $28.38 billion. The CAD is measured quarterly by RBI.
+
+Also: India's largest trading partner by total trade (exports + imports) is China. India's largest export destination is the USA. Students frequently use these interchangeably — UPSC does not.`,
+        revise: `- **WTO**: MFN (Most Favoured Nation) principle, GATT, Doha Round; FTAs are carve-outs from MFN under GATT Article XXIV
+- **PLI (Production-Linked Incentive) Scheme**: 14 sectors; linked to both manufacturing boost and export competitiveness
+- **Export Promotion Councils**: Sector-specific bodies under Ministry of Commerce (e.g., APEDA for agriculture, FIEO as apex body)
+- **Current Account**: RBI's quarterly data; India's CAD typically 1–3% of GDP; remittances from diaspora are key positive item
+- **Make in India + import substitution**: Atmanirbhar Bharat framework; links to PLI, defence procurement, critical minerals policy`,
+        pyqConnect: `PYQ Link: "India's rising trade deficit has structural causes that cannot be addressed through exchange rate management alone. Discuss." (UPSC GS III Mains-style 2023; trade deficit appears almost annually in Prelims MCQs as a definition/comparison question)`
+      }
+    ],
+    reviseSummary: [
+      "India-Italy & IMEC: IMEC route/signatories, FAO/WFP/IFAD (Rome) vs WHO/WTO (Geneva), EU-India FTA, Piraeus and Trieste ports.",
+      "SC Strength Ordinance: Article 123 (President) vs 213 (Governor), SC (Number of Judges) Act 1956, Article 124(1), Collegium, NJDG.",
+      "Singapore Overtakes UAE: Strait of Hormuz (Iran-Oman) vs Malacca (Malaysia-Sumatra), CEPA (UAE) vs CECA (Singapore), trade deficit vs CAD.",
+      "UPSC QPRep Reform: Article 315 (UPSC) vs 316-317 (appointment & removal), constitutional vs statutory vs executive bodies.",
+      "Planetary Boundaries: 7 of 9 breached (ocean acidification 7th), safe limits (aerosol, ozone), novel entities definition, Rockström (2009).",
+      "Export Target: Trade deficit (goods only) vs CAD, India's top trade partner (China) vs top export destination (USA), PLI scheme."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "With reference to the India–Middle East–Europe Economic Corridor (IMEC), consider the following statements:\n1. The IMEC land route passes through UAE, Saudi Arabia, Jordan, and Israel before connecting to Europe by sea.\n2. Italy is one of the eight founding signatories of IMEC, announced at the G20 New Delhi Summit in September 2023.\n3. Greece is a founding signatory of IMEC and its port of Piraeus has been designated the primary European gateway of the corridor.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 1 and 2 only",
+          explanation: "Statement 1 is correct. The IMEC land route connects: India (maritime to UAE) → UAE → Saudi Arabia → Jordan → Israel, then by sea to Europe. It does NOT pass through Egypt or the Suez Canal.\nStatement 2 is correct. Italy is among the eight founding signatories: India, USA, EU, France, Germany, Italy, Saudi Arabia, UAE.\nStatement 3 is incorrect. Greece is NOT a founding signatory of IMEC. Piraeus port (Greece) is controlled by China's COSCO, which is precisely why Italy and France are pushing alternative EU terminals (Trieste, Marseille). This is the trap: students assume Greece is involved because the sea route ends near the Mediterranean."
+        },
+        {
+          question: "Consider the following pairs regarding headquarters of UN and international organisations:\n1. Food and Agriculture Organisation (FAO) — Geneva\n2. World Food Programme (WFP) — Rome\n3. International Fund for Agricultural Development (IFAD) — Rome\n4. World Health Organisation (WHO) — Rome\n\nHow many of the above pairs are correctly matched?",
+          options: [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+          ],
+          answer: "(b) Only two",
+          explanation: "Pair 1 is incorrect — FAO is headquartered in Rome, NOT Geneva. FAO, WFP, and IFAD are all in Rome.\nPair 2 is correct — WFP (World Food Programme) headquarters: Rome.\nPair 3 is correct — IFAD (International Fund for Agricultural Development) headquarters: Rome.\nPair 4 is incorrect — WHO is headquartered in Geneva, Switzerland — NOT Rome."
+        },
+        {
+          question: "With reference to the Supreme Court (Number of Judges) Amendment Ordinance, 2026, consider the following statements:\n\nStatement I: The ordinance increases the sanctioned strength of Supreme Court judges from 33 to 37, excluding the Chief Justice of India, making the total sanctioned strength of the apex court 38.\nStatement II: Article 123 of the Constitution empowers the President to promulgate ordinances having the force of law when Parliament is not in session and immediate action is deemed necessary.\n\nWhich one of the following is correct in respect of the above statements?",
+          options: [
+            "(a) Both Statement I and Statement II are correct and Statement II is the correct explanation of Statement I.",
+            "(b) Both Statement I and Statement II are correct but Statement II is NOT the correct explanation of Statement I.",
+            "(c) Statement I is correct but Statement II is incorrect.",
+            "(d) Statement I is incorrect but Statement II is correct."
+          ],
+          answer: "(b) Both Statement I and Statement II are correct but Statement II is NOT the correct explanation of Statement I.",
+          explanation: "Statement I is correct. The ordinance amends Section 2 of the SC (Number of Judges) Act, 1956, replacing 'thirty-three' with 'thirty-seven.' Section 2 refers to judges excluding the CJI. Total including CJI = 38.\nStatement II is correct. Article 123 empowers the President to issue ordinances when Parliament is not in session.\nRelationship: Statement II does NOT explain Statement I — Statement II describes the general constitutional power, while Statement I describes a specific ordinance that happens to use that power. The relationship is not explanatory; it is contextual. Hence (b), not (a)."
+        },
+        {
+          question: "[⚠️ TRAP MCQ] With reference to India's export trade in April 2026, consider the following statements:\n1. Singapore overtook the UAE to become India's second-largest export destination, with Indian exports to Singapore rising by approximately 180% year-on-year.\n2. The India-UAE trade relationship is governed by a Comprehensive Economic Cooperation Agreement (CECA).\n3. The Strait of Hormuz, which has been largely disrupted since March 2026, lies between Iran and Oman.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1, 2 and 3",
+            "(d) 1 only"
+          ],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 1 is correct. Singapore exports rose ~180% YoY to $3.20 billion (April 2026); UAE exports fell 36% to $2.18 billion. Singapore is now India's second-largest export destination.\nStatement 2 is incorrect. The India-UAE FTA is called CEPA (Comprehensive Economic Partnership Agreement), NOT CECA. CECA is the name used for the India-Singapore FTA.\nStatement 3 is correct. The Strait of Hormuz lies between Iran (to the north) and Oman's Musandam Peninsula (to the south)."
+        },
+        {
+          question: "Consider the following statements regarding the Planetary Boundaries framework and the State of India's Environment (SOE) 2026 report:\n1. The Planetary Boundaries framework identifies nine biophysical systems, of which seven have now been breached.\n2. 'Novel entities' in the planetary boundaries framework refers to nuclear waste and radioactive material that have no natural equivalent.\n3. Ocean acidification is caused by CO₂ dissolving in seawater to form carbonic acid, thereby reducing the ocean's pH.\n\nWhich of the statements given above is/are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 1 is correct. SOE 2026: 7 of 9 planetary boundaries have been breached. Ocean acidification is the seventh, newest breach.\nStatement 2 is incorrect. 'Novel entities' refers to synthetic chemicals, microplastics, polychlorinated biphenyls (PCBs), and other anthropogenic substances that have no natural equivalent. Nuclear waste is NOT the correct description.\nStatement 3 is correct. Ocean acidification mechanism: atmospheric CO₂ absorbed by oceans → reacts with seawater → forms carbonic acid → dissociates to release hydrogen ions → lowers pH (more acidic)."
+        }
+      ],
+      mains: [
+        {
+          question: "Increasing the sanctioned strength of the Supreme Court through an ordinance creates judicial posts but cannot by itself deliver justice. Critically examine the systemic challenges that determine the quality and speed of justice in India.",
+          context: "GS Paper II | 250 words\n\nGuidance: Start with what the ordinance does (creates 4 posts, not appointments); then move to structural challenges — pendency in HCs and district courts, collegium delays, lack of infrastructure, poor legal aid access; close with reforms (fast-track courts, ADR expansion, e-courts, judicial appointments reform)."
+        },
+        {
+          question: "The breach of seven planetary boundaries is not merely an environmental crisis but a governance failure of historic proportions. Examine the adequacy of India's domestic and international commitments in responding to this challenge.",
+          context: "GS Paper III | 250 words\n\nGuidance: Begin with what planetary boundaries are and the 7 breached (list key ones); then assess India's domestic response (Forest Act, Wildlife Protection Act, Paris NDCs, Kunming-Montreal commitments); then critique gaps (deforestation for development, nitrogen pollution from agriculture, ocean acidification response); close with what India should lead on multilaterally."
+        }
+      ]
+    }
   }
 ];
+
 
