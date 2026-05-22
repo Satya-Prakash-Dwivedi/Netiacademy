@@ -4734,6 +4734,341 @@ Also: India's largest trading partner by total trade (exports + imports) is Chin
         }
       ]
     }
+  },
+  {
+    id: "2026-05-22",
+    date: "22nd May 2026",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "⚠️ PRELIMS ALERT: UPSC Prelims 2026 is THIS SUNDAY — 24th May.\nThese 6 topics are curated with that urgency. Every line here can be tested.\n\n⏱️ Reading time: ~18 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5\n\n📌 **TODAY AT A GLANCE**\n\n🔴 **RBI Dividend FY26** — RBI Board meets TODAY to approve FY26 surplus; expected ₹2.8–3.3 lakh crore, beating FY25's record ₹2.69 lakh crore; the Economic Capital Framework and Contingent Risk Buffer are the exam mechanism.\n🔴 **Shukrayaan & India-Sweden Strategic Partnership** — ISRO signed MoU with Sweden's national space agency; VOM launches March 29, 2028 on LVM-3; ₹1,236 crore budget; 19 payloads; aerobraking is the key technique.\n🔴 **Odisha Marine Fishing Regulation Bill 2026** — 44-year-old law replaced; covers deep-sea fishing, mariculture, VTMS tracking + Aadhaar ID for fishermen; Blue Economy target ₹25,000 crore seafood exports by 2036.\n🟡 **India Assumes IAEA-RCA Chairmanship 2026** — India chairs the 22-nation Asia-Pacific nuclear cooperation agreement at 48th RCA meeting in Navi Mumbai; origins traced to BARC, 1964.\n🟡 **Core Sector (ICI) — April 2026 Data** — 8 core sectors grew 1.7% but 5 of 8 contracted; cement standout (+9.4%); coal collapsed (-8.7%); ICI = 40.27% of IIP weight.\n🟢 **PM Modi's Five-Nation Tour Outcomes** — $40 billion in investment commitments; four Strategic Partnerships elevated; the architecture of India's new European engagement is now complete.",
+    topics: [
+      {
+        id: "22-1",
+        title: "RBI DIVIDEND FY26: RECORD SURPLUS TRANSFER DECISION",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper III (Economy) | Relevant for: UPSC · RBI Grade B · SEBI · State PCS",
+        content: `📌 **QUICK TAKE**
+The RBI Central Board meets today (May 22) to approve the surplus transfer to the government for FY2025-26. Economists project ₹2.8–3.3 lakh crore — potentially the highest ever, surpassing last year's record of ₹2.69 lakh crore. This is not a corporate dividend; it is a constitutionally-framed fiscal mechanism governed by the Economic Capital Framework.
+
+📰 **WHAT HAPPENED**
+The Central Board of Directors of the Reserve Bank of India is scheduled to meet on Friday to determine the surplus transfer to the Central Government for FY2025-26. Analysts at Emkay Global project the range at ₹2.8–3.3 lakh crore, while IDFC FIRST Bank estimates approximately ₹2.7 lakh crore. The key driver this year is higher interest income from RBI's rupee-denominated security holdings (which grew substantially through open market operations) and gains on foreign exchange transactions, partly offset by higher provisioning requirements as RBI's balance sheet expanded. The Union Budget FY27 had already budgeted ₹3.2 lakh crore as total dividend income from RBI and public sector financial institutions — making this transfer critical to the government's fiscal arithmetic. Public sector banks have also posted record aggregate net profits of ₹1.98 lakh crore for FY26, a fourth consecutive year of profitability.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| FY26 Expected Transfer | ₹2.8–3.3 lakh crore (projected) |
+| FY25 Record Transfer | ₹2.69 lakh crore (27% above FY24) |
+| FY24 Transfer | ₹2.11 lakh crore |
+| FY23 Transfer | ₹87,416 crore |
+| FY19 (Jalan Committee era) | ₹1.76 lakh crore |
+| RBI Financial Year | July to June (NOT April-March) |
+| CRB Mandated Range | 5.5% to 7.5% of RBI balance sheet |
+| CRB for FY25 | Set at 7.5% |
+| Govt's FY27 Non-Tax Revenue (total) | ₹6.66 lakh crore |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+UPSC will test the RBI's financial year (July–June) vs the Union Government's financial year (April–March). Students who assume both are aligned will get this wrong. A second trap: calling this a "dividend" — the RBI is not a profit-driven entity. It earns a SURPLUS from managing monetary policy operations (bonds, forex, currency), then transfers what remains after covering expenses and provisioning. Calling it a "profit transfer" in a statement question will make that statement incorrect.
+
+Third trap: confusing the Contingent Risk Buffer (CRB) with the Capital Conservation Buffer (CCB) seen in commercial banks under Basel III. The CRB is specific to the RBI's ECF and is NOT a Basel concept.`,
+        revise: `- **Bimal Jalan Committee (2018-19)**: Recommended the Economic Capital Framework used to calculate the RBI's transferable surplus; the same committee's framework has governed every transfer since
+- **RBI's Income Sources**: OMO profits, forex reserve management fees, rupee security income, currency seigniorage
+- **Non-Tax Revenue**: Understand the five components — dividends/surplus, fees, fines, grants-in-aid, and other receipts; this transfer is the largest single item in non-tax revenue
+- **Fiscal Deficit Arithmetic**: A higher surplus transfer reduces borrowing requirements; estimate is that ₹1 lakh crore more than budgeted can reduce fiscal deficit by ~20 basis points
+- **Article 283 & RBI Act, 1934**: RBI's relationship with the government; the Central Board's powers; the role of Section 47 of the RBI Act in mandating the surplus transfer
+- **Prelims Angles**: The RBI's financial year; CRB range (5.5–7.5%); the fact that RBI surplus falls under non-tax revenue; statement traps on whether RBI is profit-driven; confusion between CRB and CCB (Basel III).
+- **Mains Angles**: Debate between central bank independence and government revenue dependence; risk of fiscal dominance over monetary policy when dividends become an anticipated revenue line; implications for inflation management if government spending is funded from RBI surplus.`,
+        pyqConnect: `PYQ Link: UPSC 2022 — Question on government's fiscal deficit and components of budget receipts (non-tax revenue); UPSC 2021 — Question on RBI's open market operations and their impact on money supply.`
+      },
+      {
+        id: "22-2",
+        title: "SHUKRAYAAN & INDIA-SWEDEN STRATEGIC PARTNERSHIP",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (IR) + GS Paper III (S&T) | Relevant for: UPSC · State PCS · NDA/CDS",
+        content: `📌 **QUICK TAKE**
+During PM Modi's visit to Gothenburg (May 17-18), India and Sweden elevated ties to a Strategic Partnership, and ISRO signed a formal MoU with the Swedish National Space Agency (SNSA) for Sweden's participation in the Venus Orbiter Mission (Shukrayaan). Launching March 2028 on LVM-3, it will be India's first dedicated planetary mission to Venus — carrying 19 payloads and using aerobraking to achieve its final science orbit.
+
+📰 **WHAT HAPPENED**
+Prime Minister Modi's bilateral visit to Sweden resulted in the elevation of India-Sweden relations to a Strategic Partnership, the launch of a Joint Action Plan for 2026-2030, and the unveiling of the Sweden-India Technology and AI Corridor (SITAC). Modi received Sweden's Royal Order of the Polar Star, Degree Commander Grand Cross. The ISRO-SNSA MoU is the single most exam-relevant outcome: Sweden will formally participate in Shukrayaan, officially designated the Venus Orbiter Mission (VOM), by contributing scientific instruments. Shukrayaan received Union Cabinet approval with a budget of ₹1,236 crore. The spacecraft will carry 19 payloads, including a high-resolution Synthetic Aperture Radar (SAR) and a ground-penetrating radar. It is planned for launch on March 29, 2028 aboard LVM-3 (formerly GSLV Mk III), with a 112-day journey before Venus orbit insertion on July 19, 2028. The mission will use an innovative aerobraking technique — using Venus's atmosphere as a natural brake to reduce spacecraft speed and achieve a stable science orbit — significantly reducing the fuel requirement.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| Mission Name | Shukrayaan / Venus Orbiter Mission (VOM) |
+| Budget | ₹1,236 crore |
+| No. of Payloads | 19 |
+| Launch Vehicle | LVM-3 (formerly GSLV Mk III) |
+| Launch Date | March 29, 2028 |
+| Venus Orbit Insertion | July 19, 2028 |
+| Transit Duration | 112 days |
+| Key Technique | Aerobraking (novel for ISRO) |
+| Sweden-India Trade | USD 7.75 billion (2025) |
+| Trade Target | Double in 5 years |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+Students frequently confuse India's planetary missions. Shukrayaan is India's FIRST dedicated mission to VENUS. Mangalyaan (MOM) was India's first Mars mission (2013). Chandrayaan-1, 2, 3 are Moon missions. A statement saying "Shukrayaan is India's second planetary exploration mission after Mangalyaan" is CORRECT — trap MCQs will test whether students can verify this specific ordering.
+
+Second trap: LVM-3 (formerly GSLV Mk III) is NOT the same as GSLV Mk II or PSLV. LVM-3 is India's heaviest operational rocket. Aerobraking is also potentially testable — it uses planetary atmosphere to slow a spacecraft, reducing propellant needs, unlike retro-rocket braking alone.`,
+        revise: `- **ISRO Mission History**: Mangalyaan (2013, still operational for 2 years past design life) · Chandrayaan-3 (2023, first soft landing near lunar south pole) · Gaganyaan (planned crewed mission) · Shukrayaan (2028)
+- **LVM-3 vs PSLV vs GSLV Mk II**: Know payload capacities and mission types for each; LVM-3 → heavy payloads/LEO and GTO; PSLV → Sun-synchronous/LEO
+- **Aerobraking**: Link to atmospheric science — requires precise understanding of the target planet's atmospheric density profile
+- **India-Sweden relations**: Sweden = EFTA + EU? No — Sweden IS an EU member; Norway is not; Switzerland is not. A recurring confusion.
+- **Nordic Countries**: Denmark, Finland, Iceland, Norway, Sweden — only Sweden and Finland are EU members; Norway and Iceland are in EFTA (EEA); Denmark in EU
+- **Prelims Angles**: Shukrayaan mission parameters (budget, payloads, rocket, date); aerobraking definition; LVM-3 capability; distinction from Mangalyaan/ Chandrayaan; which Nordic countries are EU members vs EFTA.
+- **Mains Angles**: Space diplomacy as an instrument of foreign policy; India's civilian space partnerships (USA: Artemis Accords, Sweden: Shukrayaan, Japan: Chandrayaan-4); commercialisation of ISRO through IN-SPACe and its implications for strategic autonomy.`,
+        pyqConnect: `PYQ Link: UPSC 2023 — Questions on ISRO missions and their scientific objectives; UPSC 2019 — India's space partnerships and bilateral space agreements.`
+      },
+      {
+        id: "22-3",
+        title: "ODISHA MARINE FISHING REGULATION BILL 2026: BLUE ECONOMY PUSH",
+        subtitle: "🔴 Must Read | Both Prelims & Mains | GS Paper II (Governance) + GS Paper III | Relevant for: UPSC · Odisha State PCS · Other State PCS",
+        content: `📌 **QUICK TAKE**
+Odisha's Cabinet approved the Odisha Marine Fishing (Prohibition and Regulation) Bill, 2026, repealing the 44-year-old Orissa Marine Fishing Regulation Act, 1982. The new legislation is the most comprehensive overhaul of India's coastal fisheries governance at the state level in a generation — covering deep-sea fishing, mariculture (seaweed, marine cage culture, artificial reefs), digital fishermen tracking, and a ₹25,000 crore seafood export target by 2036.
+
+📰 **WHAT HAPPENED**
+The Odisha Cabinet, chaired by CM Mohan Charan Majhi, approved the new Marine Fishing Regulation Bill 2026 on May 20. The 1982 Act was criticised as "limited in scope, not inclusive, and inadequate" — it did not cover deep-sea fishing, mariculture, or modern surveillance requirements. The new legislation mandates mandatory use of transponders, VHF radios, and Vessel Tracking and Monitoring Systems (VTMS) on all fishing vessels; introduces mandatory Aadhaar-linked biometric identification for fishermen; and requires fishermen insurance. On mariculture, it now formally regulates marine cage culture, seaweed cultivation, and the deployment of artificial reefs to rejuvenate territorial waters. The Bill is aligned with Odisha's Deep Sea Fishing Mission and Shrimp Export Mission announced in the state budget, with the ambitious target of ₹25,000 crore in seafood exports by 2036. The same Cabinet session also approved establishment of a dedicated Directorate of Archaeology for Odisha's temples and monuments.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| Legislation Repealed | Orissa Marine Fishing Regulation Act, 1982 (44 years old) |
+| New Legislation | Odisha Marine Fishing (Prohibition & Regulation) Bill, 2026 |
+| Seafood Export Target | ₹25,000 crore by 2036 |
+| Tracking Mandated | Transponders + VHF radios + VTMS (Vessel Tracking & Monitoring) |
+| ID Requirement | Aadhaar-linked biometric for all fishermen |
+| Mariculture Activities | Marine cage culture · Seaweed cultivation · Artificial reefs |
+| India's EEZ | 2.37 million sq km (200 nautical miles from baseline) |
+| PM Matsya Sampada Yojana | Deep-sea vessel unit cost: ₹1.2 crore |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+The Seventh Schedule is the trap here. Students confuse the constitutional distribution of fisheries jurisdiction: Marine fisheries within territorial waters (12 nautical miles) = STATE subject (Entry 21, State List). But fishing beyond territorial waters — in the Contiguous Zone, EEZ (up to 200 nm), and the High Seas — falls under UNION jurisdiction through the Maritime Zones Act, 1976 (which implements India's UNCLOS obligations). A question testing "which level of government regulates deep-sea fishing beyond 12 nautical miles" — the answer is the Centre, NOT the states. Odisha's new law covers territorial waters; deep-sea fishing in the EEZ requires a separate Union-level licensing framework.`,
+        revise: `- **UNCLOS (1982)**: India ratified in 1995; defines Territorial Sea (12 nm), Contiguous Zone (24 nm), EEZ (200 nm), Continental Shelf — these are must-know boundaries
+- **Maritime Zones Act, 1976**: India's domestic legislation implementing UNCLOS; crucial for questions on India's maritime jurisdiction
+- **PM Matsya Sampada Yojana (PMMSY)**: Central scheme under Ministry of Fisheries, Animal Husbandry and Dairying; fisheries infrastructure fund
+- **Blue Economy Policy**: India's 2025 policy; links to Sagarmala, deep-sea mining, EEZ utilisation
+- **Mariculture vs Aquaculture**: Aquaculture = freshwater + marine; mariculture = marine only — important definitional distinction
+- **Prelims Angles**: Territorial waters vs EEZ jurisdiction (State vs Centre); what VTMS stands for; which Ministry governs PMMSY; definition of mariculture; India's EEZ extent (200 nm); whether Odisha's new law can regulate deep-sea fishing in EEZ (it cannot — that's Union's domain).
+- **Mains Angles**: Blue economy as a development strategy for India's 7,516 km coastline; balance between fishermen livelihoods and marine resource conservation; coastal security and fishermen as frontline maritime assets.`,
+        pyqConnect: `PYQ Link: UPSC 2022 — Question on India's Exclusive Economic Zone and UNCLOS provisions; UPSC 2020 — Questions distinguishing coastal zone management and fisheries jurisdiction.`
+      },
+      {
+        id: "22-4",
+        title: "INDIA ASSUMES IAEA-RCA CHAIRMANSHIP 2026",
+        subtitle: "🟡 Important | Prelims Primary | GS Paper II (IR) + GS Paper III (S&T) | Relevant for: UPSC · State PCS",
+        content: `📌 **QUICK TAKE**
+India formally assumed the Chair of the Regional Cooperative Agreement (RCA) for 2026 at the 48th Meeting of National Representatives in Navi Mumbai. The RCA is a 22-nation treaty-level agreement under the IAEA covering peaceful nuclear science applications across Asia-Pacific. India's chairmanship reflects its growing stature as a scientific partner for the Global South — traceable directly to BARC's role at the agreement's founding in the 1960s.
+
+📰 **WHAT HAPPENED**
+The 48th Meeting of RCA National Representatives was held in Navi Mumbai, attended by delegates from 22 Asia-Pacific and African nations. India formally assumed the RCA Chair for 2026. BARC Director Vivek Bhasin addressed the inaugural session, highlighting India's track record in applying atomic energy to healthcare (cancer treatment, radioisotope production), food preservation (irradiation technology), and agricultural productivity. The RCA promotes coordinated research and development in nuclear science specifically for socioeconomic development — distinct from military or weapons-related nuclear activity. India's connection to RCA's origins is significant: the concept grew from an India-Philippines-IAEA collaborative agreement (the "IPA Agreement") begun in the early 1960s, with the formal BARC discussions in 1964 laying the institutional groundwork for what became the RCA in 1972.
+
+📊 **KEY DATA TABLE**
+
+| Parameter | Detail |
+|---|---|
+| Full Name | Regional Cooperative Agreement for Research, Development and Training Related to Nuclear Science and Technology for Asia and Pacific |
+| Established | 1972 |
+| Member Countries | 22 (Asia-Pacific region) |
+| Governing Body | IAEA Technical Cooperation Programme |
+| 48th NRM Location | Navi Mumbai, India |
+| India Chairs | 2026 |
+| Precursor | India-Philippines-IAEA (IPA) Agreement; 1964 BARC discussions |
+| Key Focus Areas | Healthcare · Cancer treatment · Agriculture · Water management · Radiation technology · Environmental sustainability |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+The critical trap: India is NOT a signatory to the Nuclear Non-Proliferation Treaty (NPT), yet India IS a full member of the IAEA and participates in the RCA. Students conflate IAEA membership with NPT compliance — they are separate frameworks. NPT membership is NOT a prerequisite for IAEA Technical Cooperation or RCA participation. A statement saying "Only NPT-member states can chair the IAEA's RCA" is WRONG. India's nuclear technology cooperation with the global community proceeds through: 123 Agreement (US), IAEA Safeguards, NSG waiver (2008) — none of which require India to sign the NPT.`,
+        revise: `- **IAEA**: Established 1957; headquarters Vienna; both nuclear power promotion AND non-proliferation oversight; India joined 1957
+- **NPT (1968)**: India, Pakistan, Israel are non-signatories; North Korea withdrew
+- **NSG Waiver (2008)**: India got a special exemption from NSG guidelines, enabling civilian nuclear trade without NPT membership
+- **123 Agreement**: India-US Civil Nuclear Agreement; enabled civilian nuclear cooperation; named after Section 123 of the US Atomic Energy Act
+- **BARC**: Bhabha Atomic Research Centre, Trombay; India's premier nuclear research institution; not to be confused with DAE (Department of Atomic Energy) which is the policy body
+- **Prelims Angles**: IAEA vs NPT membership distinction for India; RCA's founding year (1972); what RCA does (peaceful nuclear science — healthcare, agriculture); BARC's role; distinguish IAEA safeguards from NPT obligations.
+- **Mains Angles**: India's nuclear exceptionalism — non-NPT yet globally integrated; implications of India's nuclear technology diplomacy for the non-proliferation regime; nuclear energy cooperation as soft power in the Global South.`
+      },
+      {
+        id: "22-5",
+        title: "CORE SECTOR (ICI) — APRIL 2026 DATA",
+        subtitle: "🟡 Important | Prelims Primary | GS Paper III (Economy) | Relevant for: UPSC · RBI Grade B · State PCS",
+        content: `📌 **QUICK TAKE**
+India's Index of Eight Core Industries (ICI) grew 1.7% in April 2026 — the first month of FY2026-27. The headline number looks positive, but 5 of 8 sectors contracted. Cement (+9.4%) was the clear standout. Coal (-8.7%) and fertilizers (-8.6%) posted the steepest falls. The ICI carries 40.27% of IIP weight, making this data a reliable advance indicator of industrial performance.
+
+📰 **WHAT HAPPENED**
+The Ministry of Commerce and Industry released provisional ICI data for April 2026, showing a combined 1.7% year-on-year growth — up from the revised 1.2% in March 2026. The improvement was driven by three sectors: cement, steel, and electricity. However, five sectors contracted. Coal's steep 8.7% fall reflects both monsoon pre-season demand suppression and the broader push to diversify India's energy mix. Natural gas declined 4.3% and crude oil fell 3.9%, in part because of the ongoing West Asia energy supply disruption affecting refinery throughput. Fertiliser contraction (-8.6%) is consistent with a lower Rabi sowing cycle wind-down. The cumulative ICI growth for full FY26 was 2.7% — a marked deceleration from FY25 and earlier years.
+
+📊 **KEY DATA TABLE**
+
+| Sector | April 2026 (YoY) | Status |
+|---|---|---|
+| Coal | -8.7% | ❌ Contraction |
+| Crude Oil | -3.9% | ❌ Contraction |
+| Natural Gas | -4.3% | ❌ Contraction |
+| Refinery Products | -0.5% | ❌ Contraction |
+| Fertilizers | -8.6% | ❌ Contraction |
+| Steel | +6.2% | ✅ Growth |
+| Cement | +9.4% | ✅ Growth (standout) |
+| Electricity | +4.1% | ✅ Growth |
+| Combined ICI | +1.7% | ✅ Growth |
+| ICI Weight in IIP | 40.27% | |
+| Cumulative FY26 ICI | 2.7% | |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+ICI (Index of Core Industries / 8-sector index) is NOT the same as IIP (Index of Industrial Production). UPSC loves this confusion. Key distinctions:
+ICI covers 8 sectors; IIP covers mining, manufacturing, and electricity (with 23 industry groups within manufacturing alone). The ICI is a SUBSET that feeds into the IIP — its 8 sectors account for exactly 40.27% of IIP weight.
+ICI is released by DPIIT (Ministry of Commerce and Industry); IIP is released by MoSPI (Ministry of Statistics and Programme Implementation). A question asking which ministry releases ICI data — answer is DPIIT, NOT MoSPI.`,
+        revise: `- **IIP**: Base year is 2011-12 (2026 revision to a new base is anticipated — watch for updates); covers mining, manufacturing, electricity
+- **Eight Core Sectors**: Coal · Crude Oil · Natural Gas · Refinery Products · Fertilizers · Steel · Cement · Electricity — memorise all 8
+- **ICI vs IIP relationship**: ICI data released last working day of each month; IIP data released 6 weeks after the reference month
+- **West Asia Crisis (ongoing in 2026)**: Disrupting crude oil supply chains, affecting refinery throughput and natural gas import economics
+- **PMI (Purchasing Managers' Index)**: Another leading industrial indicator — based on surveys (not production data); above 50 = expansion
+- **Prelims Angles**: All 8 core sector names; 40.27% IIP weight; who releases ICI (DPIIT vs MoSPI for IIP); what ICI growth or contraction signals about GDP growth; base year used in IIP; ICI vs IIP distinction.
+- **Mains Angles**: Structural weakness in India's energy-linked core sectors and its implications for industrial growth; link between stagnant coal production and India's energy transition.`
+      },
+      {
+        id: "22-6",
+        title: "PM MODI'S FIVE-NATION TOUR OUTCOMES",
+        subtitle: "🟢 Good to Know | Mains Primary | GS Paper II (IR) | Relevant for: UPSC · State PCS",
+        content: `📌 **QUICK TAKE**
+PM Modi's five-nation tour — UAE, Netherlands, Sweden, Norway, Italy — is now complete. The consolidated outcome is approximately $40 billion in investment commitments and four new Strategic Partnerships. Taken together, this tour represents the most intense phase of India's European engagement since the India-EU FTA conclusion in January 2026. Each partnership was reported daily this week; today's topic consolidates the strategic architecture.
+
+📰 **WHAT HAPPENED**
+The Ministry of External Affairs has summarised the five-nation tour outcomes: India elevated bilateral ties to a Strategic Partnership with the Netherlands (semiconductor and green hydrogen roadmap, ASML links), Sweden (SITAC, Shukrayaan MoU), and Norway (maritime and climate focus at the 3rd India-Nordic Summit); and to a Special Strategic Partnership with Italy (IMEC reaffirmation, INNOVIT India AI innovation hub, technology co-production for helicopters and naval platforms). Across the tour, more than 30 MoUs were exchanged. The total estimated value of fresh investment commitments and proposed expansion plans stands at approximately $40 billion. PM Modi received two formal foreign honours during the tour: Sweden's Royal Order of the Polar Star (Degree Commander Grand Cross) and Italy's Order of Merit of the Italian Republic (Grand Cross). The tour also saw ISRO's first formal space-sector MoU with a Nordic nation.
+
+📊 **KEY DATA TABLE**
+
+| Country | Upgrade Level | Key Outcome |
+|---|---|---|
+| UAE | Existing CSPA | Deep-sea fishing vessels, defence tech, $5B deals |
+| Netherlands | → Strategic Partnership | Semiconductors, ASML, green hydrogen, defence |
+| Sweden | → Strategic Partnership | SITAC, Shukrayaan MoU, Joint Action Plan 2026-30 |
+| Norway | → Strategic Partnership | 3rd India-Nordic Summit; maritime; climate |
+| Italy | → Special Strategic Partnership | IMEC, INNOVIT India hub, helicopter co-production, ED-Guardia di Finanza MoU |
+| Total Investment Commitments | $40 billion (approx.) | Across all five |`,
+        whyItMatters: `⚠️ **THE UPSC TRAP**
+Which Nordic countries are EU members (Sweden, Finland) vs EFTA members (Norway, Iceland, Liechtenstein, Switzerland); IMEC corridor countries; India-EU FTA status (concluded Jan 2026).
+Norway is EFTA but NOT EU; Sweden IS both NATO + EU; Netherlands IS both NATO + EU — this distinction is tested frequently.`,
+        revise: `- **IMEC (India-Middle East-Europe Economic Corridor)**: India-Saudi Arabia-UAE- Jordan-Israel-Greece-Italy-EU; India-Italy as the European anchor; now with its first Ministerial meeting scheduled
+- **India-EU FTA (Jan 2026)**: Provides the foundational trade architecture; the bilateral partnerships built this week add sectoral depth to it
+- **EFTA vs EU**: Norway is EFTA but NOT EU; Sweden IS both NATO + EU; Netherlands IS both NATO + EU — this distinction is tested frequently
+- **Strategic Autonomy**: India's simultaneous engagement with NATO members (Netherlands, Norway, Italy, Sweden — all NATO), plus non-Western partners, is India's strategic autonomy in practice
+- **Sagarmala + IMEC**: India's port-led development connects to IMEC's port infrastructure logic; link these in Mains answers
+- **Prelims Angles**: Which Nordic countries are EU members (Sweden, Finland) vs EFTA members (Norway, Iceland, Liechtenstein, Switzerland); IMEC corridor countries; India-EU FTA status (concluded Jan 2026).
+- **Mains Angles**: India-Europe relations as a third axis of India's foreign policy (beyond India-US and India-Russia); how bilateral strategic partnerships supplement the India-EU FTA framework; role of IMEC in India's connectivity strategy.`
+      }
+    ],
+    reviseSummary: [
+      "RBI Dividend & ECF: Bimal Jalan Committee (2019), Contingent Risk Buffer (5.5-7.5%), RBI financial year (July-June), Non-Tax Revenue, Article 283 & RBI Act Section 47.",
+      "Shukrayaan & Space: LVM-3 vs PSLV/GSLV, planetary missions timeline, Aerobraking technique, EU vs EFTA Nordic members, IN-SPACe.",
+      "Odisha Marine Fishing: UNCLOS (1982), Territorial Sea (12 nm) vs EEZ (200 nm), Maritime Zones Act 1976, State (Entry 21) vs Centre fisheries jurisdiction, PMMSY, mariculture.",
+      "IAEA-RCA: IAEA (1957), NPT non-signatory status, NSG Waiver (2008), 123 Agreement, BARC, RCA (1972) Asia-Pacific cooperation.",
+      "Core Sector (ICI): 8 core sectors, 40.27% weight in IIP, DPIIT (ICI) vs MoSPI (IIP), base year 2011-12, PMI vs ICI.",
+      "Five-Nation Tour & IMEC: IMEC corridor route/countries, India-EU FTA (Jan 2026), EFTA TEPA, India-Sweden Joint Action Plan."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: `With reference to the Reserve Bank of India's Economic Capital Framework (ECF), consider the following statements:
+
+1. The ECF was revised in 2019 following recommendations of the Bimal Jalan Committee.
+2. The Contingent Risk Buffer (CRB) is mandated between 5.5% and 7.5% of the RBI's balance sheet.
+3. The RBI's financial year runs from April to March, identical to the Union Government's financial year.
+4. The annual surplus transferred from the RBI to the Central Government falls under non-tax revenue in the Union Budget.
+
+Which of the statements given above are correct?`,
+          options: [
+            "(a) 1, 2, and 4 only",
+            "(b) 1 and 3 only",
+            "(c) 2, 3, and 4 only",
+            "(d) 1, 2, 3, and 4"
+          ],
+          answer: "(a) 1, 2, and 4 only",
+          explanation: `Correct: Statements 1, 2, and 4 are all accurate. The ECF was indeed revised in 2019 on Bimal Jalan Committee's recommendation. The CRB range (5.5–7.5%) is the mandated buffer. The surplus transferred falls under non-tax revenue.
+Statement 3 is the trap. The RBI's financial year runs JULY TO JUNE, NOT April to March. This is one of the most commonly wrong answers among students who have surface-level banking knowledge.`
+        },
+        {
+          question: `Consider the following statements about India's Index of Eight Core Industries (ICI):
+
+Statement I: The eight core industries together account for 40.27 percent of the total weight of the Index of Industrial Production (IIP).
+Statement II: The ICI data is released by the Ministry of Statistics and Programme Implementation (MoSPI), which also releases the IIP data.
+
+Which of the following is correct in respect of the above statements?`,
+          options: [
+            "(a) Both Statement I and Statement II are correct and Statement II is the correct explanation of Statement I",
+            "(b) Both Statement I and Statement II are correct but Statement II is NOT the correct explanation of Statement I",
+            "(c) Statement I is correct but Statement II is incorrect",
+            "(d) Statement I is incorrect but Statement II is correct"
+          ],
+          answer: "(c) Statement I is correct but Statement II is incorrect",
+          explanation: `Correct: Statement I is accurate — ICI sectors carry 40.27% of IIP weight.
+Statement II is wrong; MoSPI releases IIP but NOT the ICI. ICI data is released by DPIIT (Department for Promotion of Industry and Internal Trade) under the Ministry of Commerce and Industry. IIP is released by MoSPI. Many students assume both come from one ministry.`
+        },
+        {
+          question: `[TRAP MCQ] With reference to the Regional Cooperative Agreement (RCA) under the International Atomic Energy Agency (IAEA), which of the following statements is/are correct?
+
+1. The RCA is a treaty-level intergovernmental agreement among nations in the Asia-Pacific region for cooperation in the peaceful applications of nuclear science.
+2. Membership in the Nuclear Non-Proliferation Treaty (NPT) is a mandatory prerequisite for any country to participate in the RCA.
+3. The origins of the RCA are traced to discussions at Bhabha Atomic Research Centre (BARC) in 1964.
+4. India has been a member of the IAEA since 1957, the year of IAEA's establishment.
+
+Select the correct answer using the code below:`,
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 1, 3, and 4 only",
+            "(c) 2 and 4 only",
+            "(d) 1, 2, 3, and 4"
+          ],
+          answer: "(b) 1, 3, and 4 only",
+          explanation: `Correct: Statements 1, 3, and 4 are accurate. IAEA was established in 1957; India joined the same year. RCA was formally established in 1972 from earlier India-Philippines-IAEA cooperation discussions at BARC in 1964.
+Statement 2 is the designed trap. India is NOT a signatory to the NPT, yet India is a full IAEA member and participates in the RCA. NPT membership is NOT a prerequisite for IAEA technical cooperation. This is the most common misconception that UPSC exploits.`
+        },
+        {
+          question: `Consider the following pairs relating to India's ISRO missions and their launch vehicles:
+
+Mission — Launch Vehicle
+1. Chandrayaan-3 — LVM-3
+2. Shukrayaan (VOM) — LVM-3
+3. Mangalyaan (MOM) — GSLV Mk II
+4. Gaganyaan (crewed) — LVM-3
+
+How many of the above pairs are correctly matched?`,
+          options: [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All four"
+          ],
+          answer: "(c) Only three",
+          explanation: `Correct: Pairs 1, 2, and 4 are correct. Chandrayaan-3 launched on LVM-3 in 2023. Shukrayaan (VOM) is planned for LVM-3 in 2028. Gaganyaan will use LVM-3.
+Pair 3 is incorrect and is the trap. Mangalyaan (Mars Orbiter Mission, 2013) was launched using PSLV-C25, NOT GSLV Mk II. Students frequently confuse ISRO's rocket assignments. PSLV is India's 'workhorse' rocket; LVM-3 (formerly GSLV Mk III) is used for heavier missions.`
+        },
+        {
+          question: `With reference to India's jurisdiction over marine resources, consider the following:
+
+1. Marine fisheries within India's territorial waters (up to 12 nautical miles) is governed under Entry 21 of the State List of the Seventh Schedule.
+2. India's Exclusive Economic Zone extends up to 200 nautical miles from the territorial baseline under the Maritime Zones Act, 1976.
+3. The PM Matsya Sampada Yojana (PMMSY) is administered by the Ministry of Fisheries, Animal Husbandry and Dairying.
+4. Under UNCLOS, India ratified by 1982, foreign fishing vessels have the right to fish freely in India's EEZ.
+
+Which of the statements given above are correct?`,
+          options: [
+            "(a) 1, 2, and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 4 only",
+            "(d) 1, 2, 3, and 4"
+          ],
+          answer: "(a) 1, 2, and 3 only",
+          explanation: `Correct: Statements 1, 2, and 3 are all accurate.
+Statement 4 is the trap. Under UNCLOS, a coastal state has SOVEREIGN RIGHTS over the EEZ for the purpose of exploring, exploiting, conserving, and managing natural resources — including fisheries. Foreign fishing vessels do NOT have the right to fish freely in a coastal state's EEZ; they require explicit permission from the coastal state. 'Freedom of navigation' in the EEZ applies to shipping and overflight, NOT fishing rights. India ratified UNCLOS in 1995 — not 1982 (that was when UNCLOS was opened for signature).`
+        }
+      ],
+      mains: [
+        {
+          question: `"The RBI's annual surplus transfer to the government is both a fiscal lifeline and a potential threat to central bank independence." Critically examine.`,
+          context: `GS Paper III | 250 words
+
+Guidance: Cover what ECF/Bimal Jalan framework was designed to do (protect RBI's balance sheet while allowing reasonable transfers); then argue both sides — the fiscal relief argument and the dominance risk; close with institutional safeguards. Avoid merely describing the mechanism. UPSC wants the tension between two legitimate goals.`
+        },
+        {
+          question: `India's elevation of four bilateral ties to 'Strategic Partnerships' with European nations in 2026 reflects a deliberate foreign policy architecture. Analyse the key drivers and strategic implications for India's global positioning.`,
+          context: `GS Paper II | 150 words
+
+Guidance: Identify the three drivers (India-EU FTA as economic foundation, IMEC as connectivity logic, technology + AI corridors as new pillars); then assess implications (NATO alignment risks vs strategic autonomy; Global South credibility; China's perception). Don't just list what was signed — analyse WHY and WHAT it means.`
+        }
+      ]
+    }
   }
 ];
 
