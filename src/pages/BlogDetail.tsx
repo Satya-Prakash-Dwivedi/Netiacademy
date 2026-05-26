@@ -79,47 +79,126 @@ const BlogDetail = () => {
            </div>
          )}
 
-         <div className="text-slate-700 leading-relaxed font-inter space-y-6">
-            {post.content.split('\n').map((para, idx) => {
-               if (!para.trim()) return null;
+         <div className="text-slate-700 leading-relaxed font-inter">
+             {(() => {
+              const lines = post.content.split('\n');
+              const elements: React.ReactNode[] = [];
+              let currentTable: string[][] = [];
+              let inTable = false;
 
-               const parseInline = (text: string) => {
-                 let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-                 html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-[#1E3A8A] font-bold underline decoration-blue-200 underline-offset-4 hover:text-blue-700 transition-colors">$1</a>');
-                 return { __html: html };
-               };
+              const parseInline = (text: string) => {
+                let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-[#1E3A8A] font-bold underline decoration-blue-200 underline-offset-4 hover:text-blue-700 transition-colors">$1</a>');
+                return { __html: html };
+              };
 
-               if (para.startsWith('![')) {
-                   const match = para.match(/!\[(.*?)\]\((.*?)\)/);
-                   if (match) {
-                       return <div key={idx} className="my-8"><img src={match[2]} alt={match[1]} className="max-w-[200px] mx-auto rounded-lg shadow-sm" /></div>
-                   }
-               }
+              const flushTable = (key: string | number) => {
+                if (currentTable.length > 0) {
+                  // check if second row is a divider (e.g. |---|---|)
+                  const hasDivider = currentTable[1] && currentTable[1].every(cell => cell.trim().startsWith('-') || cell.trim() === '');
+                  const tableRows = hasDivider ? currentTable.slice(2) : currentTable.slice(1);
+                  const headers = currentTable[0];
 
-               if (para.startsWith('### ')) {
-                   return <h3 key={idx} className="text-2xl font-bold font-playfair text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-2" dangerouslySetInnerHTML={parseInline(para.replace('### ', ''))} />
-               }
-               
-               if (para.startsWith('#### ')) {
-                   return <h4 key={idx} className="text-xl font-bold font-playfair text-slate-900 mt-8 mb-3" dangerouslySetInnerHTML={parseInline(para.replace('#### ', ''))} />
-               }
+                  elements.push(
+                    <div key={`table-${key}`} className="overflow-x-auto my-8 border border-slate-200 rounded-xl shadow-sm">
+                      <table className="w-full text-sm text-left text-slate-600 border-collapse">
+                        <thead className="text-xs uppercase bg-slate-50 text-slate-700 border-b border-slate-200">
+                          <tr>
+                            {headers.map((cell, idx) => (
+                              <th key={idx} className="px-6 py-4 font-bold border-r border-slate-100 last:border-r-0" dangerouslySetInnerHTML={parseInline(cell.trim())} />
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {tableRows.map((row, rowIdx) => (
+                            <tr key={rowIdx} className="bg-white border-b border-slate-100 last:border-b-0 hover:bg-slate-50/50 transition-colors">
+                              {row.map((cell, cellIdx) => (
+                                <td key={cellIdx} className="px-6 py-4 border-r border-slate-100 last:border-r-0" dangerouslySetInnerHTML={parseInline(cell.trim())} />
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  );
+                  currentTable = [];
+                  inTable = false;
+                }
+              };
 
-               if (para.trim() === '---') {
-                   return <hr key={idx} className="my-8 border-slate-200" />
-               }
-               
-               if (para.startsWith('- ') || /^\d+\. /.test(para)) {
-                   return <p key={idx} className="ml-4 flex items-start gap-2">
-                      <span className="text-blue-900 font-bold">•</span>
-                      <span dangerouslySetInnerHTML={parseInline(para.replace(/^- |^\d+\. /, ''))} />
-                   </p>
-               }
-               if (para.startsWith('**') && para.endsWith('**') && para.length < 50) {
-                   return <h3 key={idx} className="text-xl font-bold font-playfair text-slate-900 mt-8 mb-4" dangerouslySetInnerHTML={parseInline(para.replace(/\*\*(.*?)\*\*/g, '$1'))} />
-               }
-               return <p key={idx} dangerouslySetInnerHTML={parseInline(para)} />
-            })}
-         </div>
+              for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                const trimmed = line.trim();
+
+                if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+                  inTable = true;
+                  const cells = line.split('|').slice(1, -1);
+                  currentTable.push(cells);
+                  continue;
+                } else if (inTable) {
+                  flushTable(i);
+                }
+
+                if (!trimmed) continue;
+
+                if (trimmed.startsWith('![')) {
+                  const match = trimmed.match(/!\[(.*?)\]\((.*?)\)/);
+                  if (match) {
+                     elements.push(
+                       <div key={i} className="my-8 flex justify-center"><img src={match[2]} alt={match[1]} className="max-w-[200px] mx-auto rounded-lg shadow-sm" /></div>
+                     );
+                  }
+                  continue;
+                }
+
+                if (trimmed.startsWith('### ')) {
+                  elements.push(
+                    <h3 key={i} className="text-2xl font-bold font-playfair text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-2" dangerouslySetInnerHTML={parseInline(trimmed.replace('### ', ''))} />
+                  );
+                  continue;
+                }
+                
+                if (trimmed.startsWith('#### ')) {
+                  elements.push(
+                    <h4 key={i} className="text-xl font-bold font-playfair text-slate-900 mt-8 mb-3" dangerouslySetInnerHTML={parseInline(trimmed.replace('#### ', ''))} />
+                  );
+                  continue;
+                }
+
+                if (trimmed === '---') {
+                  elements.push(<hr key={i} className="my-8 border-slate-200" />);
+                  continue;
+                }
+                
+                if (trimmed.startsWith('- ') || trimmed.startsWith('• ') || /^\d+\. /.test(trimmed)) {
+                  elements.push(
+                    <p key={i} className="ml-4 flex items-start gap-2 my-2 text-slate-700">
+                       <span className="text-blue-900 font-bold">•</span>
+                       <span dangerouslySetInnerHTML={parseInline(trimmed.replace(/^- |^• |^\d+\. /, ''))} />
+                    </p>
+                  );
+                  continue;
+                }
+                
+                if (trimmed.startsWith('**') && trimmed.endsWith('**') && trimmed.length < 100) {
+                  elements.push(
+                    <h3 key={i} className="text-xl font-bold font-playfair text-slate-900 mt-8 mb-4" dangerouslySetInnerHTML={parseInline(trimmed.replace(/\*\*(.*?)\*\*/g, '$1'))} />
+                  );
+                  continue;
+                }
+                
+                elements.push(
+                  <p key={i} className="my-4 text-slate-700 leading-relaxed font-inter" dangerouslySetInnerHTML={parseInline(line)} />
+                );
+              }
+
+              if (inTable) {
+                flushTable('end');
+              }
+
+              return elements;
+             })()}
+          </div>
          
          {/* Solution PDF Section - Displayed at the bottom */}
          {post.solutionPdfUrl && (
