@@ -6848,6 +6848,327 @@ Statement 3 is wrong because: AMRUT and Smart Cities apply only to notified stat
         }
       ]
     }
+  },
+  {
+    id: "2026-05-27",
+    date: "27th May 2026",
+    day: "Wednesday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: `⏱️ Reading time: ~23 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5
+
+📌 **TODAY AT A GLANCE**
+
+🔴 **NEET-UG 2026 Crisis — SC Raps NTA** — NEET-UG 2026 cancelled May 12 after paper leak (May 3 exam, ~23 lakh candidates); SC on May 25: "they haven't learnt their lesson"; re-exam June 21; CBI probe ordered; petitions seek NTA dissolution.
+🔴 **Census 2027 Phase 1 — The Delimitation Clock Starts** — India's first fully digital census is underway (April–September 2026); first caste enumeration since 1931 coming in Phase 2; Census 2027 will trigger the first parliamentary delimitation since 1971.
+🔴 **BHAVYA Scheme — 100 Industrial Parks** — DPIIT released operational guidelines May 23; full form: Bharat Audyogik Vikas Yojna; ₹33,660 crore Central Sector Scheme to build 100 plug-and-play industrial parks by 2031-32; NICDC is the Project Management Agency.
+🔴 **India Semiconductor Mission 2.0 — Tata–ASML Deal** — ISM 2.0 announced in Budget 2026-27; Tata Electronics–ASML MoU signed May 16 (Netherlands); Dholera fab: $11 billion, 28–110nm chips; ASML is the world's only EUV lithography equipment maker.
+🟡 **NSO Delays Q4 GDP Data to June 5** — MoSPI moved Q4 FY26 GDP release from May 29 to June 5, citing 60-day corporate audit filing deadline; FY26 real GDP already estimated at 7.6% (new base year 2022-23).
+🟡 **International Day for Biological Diversity — India & Kunming-Montreal Framework** — Observed May 22; TERI/GEF-SGP publication on coastal biodiversity restoration in India; India's 30×30 target under COP15's Kunming-Montreal Global Biodiversity Framework in focus.`,
+    topics: [
+      {
+        id: "27-1",
+        title: "NEET-UG 2026 PAPER LEAK: SUPREME COURT RAPS NTA — AGAIN",
+        subtitle: "🔴 Must Read | Governance & Polity",
+        content: `📌 **QUICK TAKE**
+NEET-UG 2026 was conducted on May 3, cancelled on May 12 following a paper leak, and re-scheduled for June 21. The Supreme Court on May 25 issued notice to NTA and the Centre, saying the agency "hasn't learnt its lesson" from the 2024 controversy. Petitions seek NTA dissolution and court-monitored future exams.
+
+📰 **WHAT HAPPENED**
+The National Eligibility-cum-Entrance Test Undergraduate (NEET-UG) 2026 was held across 551 Indian cities and 14 overseas centres on May 3. Nearly 23 lakh candidates had registered. On May 7, inputs about alleged malpractice reached the authorities; on May 12, the National Testing Agency (NTA) cancelled the examination entirely. A re-examination was scheduled for June 21, 2026. The Centre directed the Central Bureau of Investigation (CBI) to conduct a comprehensive inquiry into the "irregularities."
+
+On May 25, a bench of Justices P.S. Narasimha and Alok Aradhe heard a batch of petitions — from the United Doctors Front, the Federation of All India Medical Association, and affected students. The petitions contend that repeated leaks violate Articles 14 and 21 of the Constitution and argue that despite the Public Examinations (Prevention of Unfair Means) Act, 2024, organised cheating networks were not dismantled.
+
+The Court issued notice to NTA and the Centre. It also directed NTA to file an affidavit confirming compliance with the recommendations of the high-powered committee (chaired by former ISRO chairman K. Radhakrishnan) that was constituted after the 2024 NEET paper leak controversy.
+
+The broader question the Court is asking is not whether this exam was compromised — that's already settled — but whether the NTA as an institution is salvageable, and whether India's approach to high-stakes national examinations needs structural redesign.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Exam date | May 3, 2026 |
+| Cancellation date | May 12, 2026 |
+| Re-exam date | June 21, 2026 |
+| Candidates registered | ~23 lakh |
+| NTA established | 2017 (statutory body under MoE) |
+| Relevant Act | Public Examinations (Prevention of Unfair Means) Act, 2024 |
+| SC hearing bench | Justices P.S. Narasimha & Alok Aradhe |
+| Investigation agency | CBI |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Examiners will test the NTA's constitutional/statutory character. Students confuse NTA with a Constitutional body. It is NOT. NTA is a statutory body established under the National Testing Agency Act, 2017 (technically, it was first set up as a Society and later given statutory backing; its mandate is under the Ministry of Education, NOT an independent constitutional body like UPSC). The Supreme Court of India is a constitutional body under Article 124 — NTA is nowhere near that level of independence. Second trap: Students cite Article 30 or 19 in examination disputes. The correct Articles are 14 (equality before law) and 21 (right to life, which courts have expanded to include right to livelihood and education).`,
+        revise: `- **NTA vs UPSC**: NTA is a statutory body under MoE; UPSC is a Constitutional body under Article 315. Their independence mechanisms differ sharply — UPSC members have security of tenure and cannot be removed except through Presidential order.
+- **Public Examinations Act, 2024**: India's first law specifically addressing examination malpractice — introduces cognizable, non-bailable offences for paper leaks, with penalties up to ₹1 crore and 10 years' imprisonment.
+- **Articles 14 & 21**: Article 14 guarantees equality; Article 21 (expanded through Maneka Gandhi, 1978 and subsequent rulings) covers the right to a fair and non-arbitrary process — applicable to state-run examinations.`
+      },
+      {
+        id: "27-2",
+        title: "CENSUS 2027 PHASE 1: INDIA'S FIRST DIGITAL CENSUS — AND THE DELIMITATION CLOCK",
+        subtitle: "🔴 Must Read | Polity & Governance",
+        content: `📌 **QUICK TAKE**
+India's Census 2027 Phase 1 (House Listing) is currently running from April to September 2026 — the first fully digital census in the country's history. Phase 2 will include caste data for the first time since 1931. Most critically for UPSC: Census 2027 will directly unlock parliamentary delimitation, frozen since 1976 under the 42nd Amendment.
+
+📰 **WHAT HAPPENED**
+India has not conducted a census since 2011 — the 2021 Census was postponed due to COVID-19, making this the longest gap in India's census history dating back to 1872. Census 2027 was approved with a budget of ₹11,718.24 crore by the Union Cabinet in December 2025.
+
+Phase 1 (Houselisting and Housing Census) runs April 1 to September 30, 2026, covering all 36 States and UTs in 30-day windows scheduled by each State. Over 31 lakh field functionaries have been deployed. For the first time, data will be collected through mobile applications (Android and iOS), with a "self-enumeration" option allowing citizens to submit their data online before the physical survey begins. The self-enumeration portal is available in 16 languages.
+
+Phase 2 (Population Enumeration) will be conducted in February 2027. Its reference date is 00:00 hours of March 1, 2027 (snow-bound areas: October 1, 2026). Phase 2 will include caste data — the first time caste will be captured in a national census since 1931. The Cabinet Committee on Political Affairs decided to include caste data on April 30, 2025.
+
+The delimitation dimension is the most exam-critical angle: Article 82 of the Constitution mandates readjustment of Lok Sabha seats after each census. The 42nd Amendment (1976) froze the number of seats at 543 until 2000; the 84th Amendment (2002) extended this freeze until "the first census after 2026." Census 2027 is exactly that census. This means parliamentary delimitation — and potential rebalancing of seats between North and South India — is legally imminent after 2027 data is published.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Census number | 16th overall; 8th since Independence |
+| Phase 1 period | April 1 – September 30, 2026 |
+| Phase 2 period | February 2027 |
+| Reference date | March 1, 2027 (00:00 hrs) |
+| Budget | ₹11,718.24 crore |
+| Field functionaries | ~31 lakh |
+| Legal basis | Census Act, 1948; Census Rules, 1990 |
+| Administered by | Ministry of Home Affairs (RGI & CCI) |
+| Self-enumeration languages | 16 |
+| Last caste census | 1931 |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Two classic traps here. First: Students say Census is conducted under a Constitutional provision. It is NOT. Census is conducted under the Census Act, 1948 — a parliamentary statute, not a Constitutional mandate. Article 246 gives Parliament power to legislate on census (Entry 69, Union List), but the census itself is statutory. Second and bigger trap: Students confuse the 42nd Amendment (which first froze the seats) with the 84th Amendment (which extended the freeze to 2026). Examiners love to test which amendment did what. The 84th Amendment (2002) is the critical one for this Census — it is the reason delimitation has been pending for over 50 years.`,
+        revise: `- **Article 82**: Mandates readjustment of Lok Sabha constituencies after every census. This is the constitutional basis for delimitation.
+- **84th Constitutional Amendment, 2002**: Extended the freeze on total Lok Sabha seats (543) until the first census after 2026. That moment is now here.
+- **Census Act, 1948**: The statutory basis under which census is conducted. Not a Constitutional provision — this distinction is heavily tested.
+- **Delimitation Commission Act, 2002**: Establishes the Delimitation Commission to carry out the reapportionment exercise.`
+      },
+      {
+        id: "27-3",
+        title: "BHAVYA SCHEME: INDIA'S 100-INDUSTRIAL-PARK MANUFACTURING PUSH",
+        subtitle: "🔴 Must Read | Economy & Industrial Policy",
+        content: `📌 **QUICK TAKE**
+DPIIT released operational guidelines for the BHAVYA Scheme on May 23, 2026. Full form: Bharat Audyogik Vikas Yojna. It is a Central Sector Scheme to develop 100 plug-and-play industrial parks across India by 2031-32 at an outlay of ₹33,660 crore. The distinction between "Central Sector" and "Centrally Sponsored" is the classic exam trap this topic carries.
+
+📰 **WHAT HAPPENED**
+The Department for Promotion of Industry and Internal Trade (DPIIT), under the Ministry of Commerce and Industry, released detailed operational guidelines for the BHAVYA Scheme — which had been approved by the Union Cabinet on March 18, 2026.
+
+The scheme is built around a simple problem: India has attracted investment announcements and production-linked incentives, but lacks the physical infrastructure — reliable power, clean water, logistics connectivity, waste treatment systems — that global manufacturers actually need on day one. BHAVYA is India's answer: "plug-and-play" parks where a manufacturer arrives and production infrastructure is already in place.
+
+Under the guidelines, 100 industrial parks will be developed from FY27 to FY32, with the first phase covering up to 50 parks selected through a challenge-based competitive process. Parks are implemented through Special Purpose Vehicles (SPVs) incorporated under the Companies Act, 2013. The National Industrial Corridor Development Corporation (NICDC) serves as the Project Management Agency.
+
+Minimum land requirements: 100 acres for non-hilly states; 25 acres for hilly states, northeastern states, UTs, and smaller states. Parks of up to 1,000 acres may also be considered. Parks must provide multimodal logistics connectivity, digital governance platforms, renewable energy infrastructure, worker housing, testing laboratories, and common treatment facilities.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Full form | Bharat Audyogik Vikas Yojna |
+| Scheme type | Central Sector Scheme (Centre-funded only) |
+| Ministry | Commerce & Industry (via DPIIT) |
+| Cabinet approval | March 18, 2026 |
+| Guidelines released | May 23, 2026 |
+| Total outlay | ₹33,660 crore (FY27–FY32) |
+| Number of parks | 100 (Phase 1: up to 50) |
+| Project Mgmt Agency | NICDC (National Industrial Corridor Dev Corp) |
+| Implementation vehicle | SPVs under Companies Act, 2013 |
+| Min. land (non-hilly) | 100 acres; (hilly/NE/UT) 25 acres |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Central Sector Scheme vs Centrally Sponsored Scheme — this is the trap. BHAVYA is a Central Sector Scheme: 100% funded by the Central Government, implemented directly by a Central entity (DPIIT/NICDC). A Centrally Sponsored Scheme (like MGNREGS or PM-KISAN) involves cost-sharing with States (typically 60:40 or 90:10 ratios). Examiners frequently present statements like "BHAVYA involves matching grants from State governments" — that is WRONG for a Central Sector Scheme.`,
+        revise: `- **PM Gati Shakti**: BHAVYA explicitly aligns with this National Master Plan for multimodal connectivity — it is not a standalone scheme but embedded in India's logistics reform architecture.
+- **Make in India**: BHAVYA is a direct physical infrastructure arm of the Make in India initiative, addressing the gap between policy and on-ground manufacturing infrastructure.
+- **NICDC**: Set up jointly by the Centre and several state governments; it develops industrial corridors like the Delhi-Mumbai Industrial Corridor (DMIC) and Chennai-Bengaluru Industrial Corridor (CBIC).`
+      },
+      {
+        id: "27-4",
+        title: "INDIA SEMICONDUCTOR MISSION 2.0: THE TATA–ASML DEAL AND WHAT IT ACTUALLY MEANS",
+        subtitle: "🔴 Must Read | Science & Technology / Economy",
+        content: `📌 **QUICK TAKE**
+India Semiconductor Mission 2.0 (ISM 2.0) was announced in Budget 2026-27, with ₹1,000 crore for FY27. On May 16, 2026, Prime Minister Modi witnessed the signing of a landmark MoU between Tata Electronics and ASML of the Netherlands — giving India access to lithography systems that no country can build except one. This is the most consequential chip-access deal India has signed.
+
+📰 **WHAT HAPPENED**
+India's first semiconductor mission (ISM 1.0), approved in December 2021 with a ₹76,000 crore incentive framework, focused on attracting fabrication units and packaging facilities (ATMP/OSAT). By May 2026, 13 projects have been approved across seven states, including the flagship Tata Electronics–Powerchip Semiconductor Manufacturing Corporation (PSMC) fab in Dholera, Gujarat — estimated at ₹91,000 crore and expected to produce chips at the 28–110 nanometre range, covering automotive, AI, and mobile applications.
+
+ISM 2.0 — announced in Budget 2026-27 with ₹1,000 crore for FY27 — goes deeper. Where ISM 1.0 attracted plants, ISM 2.0 wants India to own the upstream: semiconductor equipment, materials, full-stack Indian intellectual property, design capability, and industry-led R&D centres.
+
+The Tata–ASML MoU is the centrepiece. ASML, headquartered in the Netherlands, is the world's only manufacturer of Extreme Ultraviolet (EUV) lithography systems — the machines that print the circuit patterns onto silicon wafers at the most advanced nodes. Without access to ASML's equipment, no country can produce leading-edge chips. Under the agreement, ASML will supply lithography tools and equipment for Tata's Dholera facility and help build talent, supply chain resilience, and R&D infrastructure. The first Indian-origin commercial chips from Dholera are expected before the end of 2026.
+
+On May 5, 2026, two more projects were approved: Crystal Matrix Limited (compound semiconductor and Mini/Micro-LED display fab in Dholera) and Suchi Semicon (OSAT facility in Surat, capacity of 1,033 million chips per annum). Combined investment: ₹3,936 crore with 2,230 projected jobs.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| ISM 1.0 outlay | ₹76,000 crore (December 2021) |
+| Projects approved | 13 across 7 states (as of May 2026) |
+| ISM 2.0 budget (FY27) | ₹1,000 crore |
+| Tata–ASML deal date | May 16, 2026 (The Hague, Netherlands) |
+| Dholera fab investment | ~$11 billion (~₹91,000 crore) |
+| Chip nodes at Dholera | 28nm to 110nm |
+| ASML significance | Only EUV lithography system maker globally |
+| Design Linked Incentive | 315 academic institutions + 104 startups as of May 2026 |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Students confuse "semiconductor fab" with "chip assembly." Examiners exploit this. A fab (fabrication plant) MANUFACTURES chips from silicon wafers. An ATMP/OSAT facility (Assembly, Testing, Marking & Packaging) takes manufactured chips and packages them. India's first operational facility — Micron's Sanand unit (inaugurated February 28, 2026) — is an ATMP, NOT a fab. The Dholera unit will be India's first proper fab. Second trap: EUV is not just another type of lithography. It produces chips at advanced nodes; the existing deep ultraviolet (DUV) machines cannot. ASML makes both, but EUV is the critical, export-controlled technology.`,
+        revise: `- **Critical Minerals Policy**: Semiconductor fabs need rare earth materials and specialty chemicals. India's Critical Minerals Mission (announced Budget 2024-25) is the supply-side counterpart to ISM.
+- **Technology transfer restrictions**: The US CHIPS Act (2022) includes "guardrails" restricting countries receiving US chip funding from expanding manufacturing in China. India's ISM is partly designed to position India as the alternative.
+- **MeitY mandate**: ISM operates under the Ministry of Electronics and Information Technology (MeitY), not DPIIT (which handles BHAVYA). Confusing these two ministries is a common exam error.`
+      },
+      {
+        id: "27-5",
+        title: "NSO DELAYS Q4 GDP DATA TO JUNE 5: WHY STATISTICS GOVERNANCE MATTERS",
+        subtitle: "🟡 Important | Economy & Statistical Governance",
+        content: `📌 **QUICK TAKE**
+MoSPI announced on May 12, 2026 that Q4 FY26 GDP data and the provisional annual FY26 GDP estimates — earlier scheduled for May 29 — will now be released on June 5, 2026. The reason is policy-driven, not political: corporate audited results are legally due only 60 days after year-end, meaning key data simply isn't ready by late May. India's current FY26 growth is estimated at 7.6% under the new 2022-23 base year.
+
+📰 **WHAT HAPPENED**
+India's national accounts statistics follow a tiered release calendar: First Advance Estimates (FAE) come in January, Second Advance Estimates (SAE) in late February, Provisional Estimates (PE) at year-end, and First Revised Estimates (FRE) the following year. Each iteration adds more actual data and improves accuracy.
+
+The May release — Provisional Estimates (PE) — is supposed to incorporate audited corporate data, government fiscal accounts, and sector-level returns. The problem: the Companies Act mandates listed companies to file their audited Q4 results within 60 days of the financial year end (i.e., by May 31). In practice, many companies submit closer to the deadline, meaning the NSO faces a data crunch at the end of May.
+
+The Advisory Committee on National Accounts Statistics (ACNAS) recommended extending the release window. MoSPI accepted this. The Provisional Estimates for FY26 will now be released permanently on June 7 (or the previous working day) going forward, with June 5 being this year's specific date.
+
+The GDP context: Under the new base year (2022-23, replacing 2011-12), India's real GDP growth in FY26 is estimated at 7.6%, up from 7.1% in FY25. Q3 (October–December 2025) saw 7.8% growth, with analysts expecting a moderation to around 7.3% in Q4 due to global headwinds from the West Asia conflict and fuel price pressures.`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+NSO vs NSD vs MOSPI vs CSO — examiners love the alphabet soup here. The Central Statistics Office (CSO) was merged into the National Statistical Office (NSO) in 2019. MoSPI is the ministry. NSO is the office within MoSPI that releases GDP data. The 2022-23 base year change matters: when India revised from the 2011-12 base to 2022-23 in February 2026, it also revised historic growth numbers and slightly reduced the nominal GDP size (because 2011-12 prices were lower; the new base reflects post-COVID recovery prices differently). Examiners will test whether students know the implications of a base year change.`,
+        revise: `- **GDP vs GVA**: GDP = GVA + Product Taxes − Product Subsidies. GVA is used for sector-level analysis; GDP for aggregate comparisons.
+- **National Statistical Commission**: A statutory body (not Constitutional) for statistical standards. Distinct from NSO (which generates data). MoSPI supervises both.
+- **ACNAS**: Advisory Committee on National Accounts Statistics — specifically advises on the methodology, frequency, and format of national accounts.`
+      },
+      {
+        id: "27-6",
+        title: "INTERNATIONAL DAY FOR BIOLOGICAL DIVERSITY: INDIA AND THE KUNMING-MONTREAL FRAMEWORK",
+        subtitle: "🟡 Important | Environment & Ecology",
+        content: `📌 **QUICK TAKE**
+May 22 was the International Day for Biological Diversity (IDBD 2026). TERI released a publication on community-led coastal biodiversity restoration in India under the GEF-SGP programme. The core static concept: India is a signatory to the Convention on Biological Diversity (CBD) and the Kunming-Montreal Global Biodiversity Framework (adopted at COP15 in December 2022), which sets the 30×30 target — protect 30% of land and water areas by 2030.
+
+📰 **WHAT HAPPENED**
+On May 22, 2026, TERI (The Energy and Resources Institute), in partnership with the Council for Social Development, released a publication titled "Community-Led Biodiversity Restoration in Coastal India: Local Actions Creating Global Impact." The document was developed under the Global Environment Facility's Small Grants Programme (GEF-SGP), India Operational Phase-7 (OP7), executed by MoEF&CC, implemented by UNDP, and coordinated by TERI as the National Host Institution.
+
+The publication demonstrates how community-led initiatives in coastal India contribute to the Kunming-Montreal Global Biodiversity Framework (GBF) targets — including ecosystem restoration (Target 2), pollution reduction (Target 7), and sustainable use of biodiversity (Target 9). The broader context: the GBF was adopted at COP15 in Kunming, China (held in two parts, concluding December 2022 in Montreal, Canada) — hence the "Kunming-Montreal" name. India committed to placing 30% of its land and inland water areas under effective conservation by 2030 as part of this framework.
+
+The IDBD 2026 also served as a moment to assess India's biodiversity progress: the country has over 91 Ramsar Wetlands (as of 2025), 58 Tiger Reserves, and 106 National Parks. Despite this, India has been flagged for biodiversity stress — invasive species, habitat fragmentation, and coastal ecosystem degradation remain critical gaps.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| IDBD date | May 22 (annually) |
+| CBD adoption year | 1992 (Rio Earth Summit); India ratified 1994 |
+| Kunming-Montreal GBF | COP15, December 2022; adopted in Montreal |
+| 30×30 target | 30% land & water protected by 2030 |
+| India Ramsar sites | 91+ (as of 2025) |
+| GEF-SGP executing body | MoEF&CC (India) |
+| Publication coordination | TERI (National Host Institution for GEF-SGP) |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+CBD vs Cartagena Protocol vs Nagoya Protocol — examiners test these distinctions constantly. CBD (1992) covers biological diversity broadly. The Cartagena Protocol (2000) on Biosafety specifically deals with Living Modified Organisms (LMOs) and their transboundary movement. The Nagoya Protocol (2010) on Access and Benefit Sharing (ABS) deals with how countries share the benefits arising from genetic resources. A statement like "India ratified the Nagoya Protocol" — India did sign and ratify it. But "The Cartagena Protocol covers the same scope as the CBD" is FALSE. This is the most commonly misunderstood set of environment conventions.`,
+        revise: `- **Biological Diversity Act, 2002 (amended 2023)**: India's domestic law implementing CBD. Establishes the National Biodiversity Authority (NBA), State Biodiversity Boards, and Biodiversity Management Committees at the local level.
+- **GEF (Global Environment Facility)**: The financial mechanism for both the CBD and the UNFCCC. Funds projects in developing countries.
+- **IUCN Red List**: The global authority on species conservation status (Critically Endangered, Endangered, Vulnerable, etc.) — separate from the CBD but frequently tested alongside it.`
+      }
+    ],
+    reviseSummary: [
+      "NEET-UG 2026 / NTA: Article 315 (UPSC as Constitutional body) vs NTA as statutory body; Public Examinations Act 2024 provisions; Articles 14 and 21 applications in examination disputes.",
+      "Census 2027: Article 82 delimitation provisions, 84th Constitutional Amendment (2002) seat freeze to 2026, Census Act 1948 statutory character, and federal balance challenges.",
+      "BHAVYA Scheme: Central Sector Scheme (100% Centre-funded) vs Centrally Sponsored Scheme, PM Gati Shakti alignment, NICDC role as Project Management Agency.",
+      "ISM 2.0 / Tata-ASML: Fabs vs ATMP/OSAT packaging plants, ASML's monopoly on EUV lithography systems, technology transfer geopolitical guardrails (CHIPS Act 2022), and MeitY administration.",
+      "NSO GDP Delay: GDP estimation advance and provisional release cycles, MoSPI/NSO structure, GDP base year revision to 2022-23, and GDP vs GVA formulation.",
+      "Biodiversity Day: CBD Cartagena (biosafety LMOs) and Nagoya (ABS genetic resources) protocols, Kunming-Montreal GBF 30×30 targets, GEF vs GCF financial mechanism, and Biological Diversity Act 2002."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: `Consider the following statements:
+1. The National Testing Agency (NTA) is a Constitutional body established under Article 315 of the Indian Constitution.
+2. The Public Examinations (Prevention of Unfair Means) Act, 2024, classifies paper leaks as cognizable and non-bailable offences.
+3. Articles 14 and 21 of the Constitution have been invoked by petitioners in the NEET-UG 2026 paper leak case.
+
+Which of the statements given above is/are correct?`,
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(c)",
+          explanation: `Correct (2): The Public Examinations (Prevention of Unfair Means) Act, 2024 specifically designates examination malpractice including paper leaks as cognizable, non-bailable offences with penalties up to ₹1 crore and 10 years' imprisonment.
+Correct (3): Petitioners in the NEET-UG 2026 case have invoked Article 14 (equality/non-arbitrariness) and Article 21 (right to life, extended to fair process in state-run examinations).
+(1) Wrong because: NTA is a STATUTORY body — created by the NTA Act, 2017 under Parliament's legislative power. Article 315 applies to the Union Public Service Commission and State Public Service Commissions. These are Constitutional bodies. NTA has no such constitutional protection.`
+        },
+        {
+          question: `Statement I: The 84th Constitutional Amendment Act, 2002, extended the freeze on the total number of Lok Sabha seats until the first census conducted after 2026.
+Statement II: The conduct of Census 2027 will activate the provisions of Article 82, enabling parliamentary delimitation for the first time since the 1971 Census.
+
+Which one of the following is correct?`,
+          options: [
+            "(a) Both Statement I and Statement II are correct and Statement II explains Statement I",
+            "(b) Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+            "(c) Statement I is correct but Statement II is incorrect",
+            "(d) Statement I is incorrect but Statement II is correct"
+          ],
+          answer: "(a)",
+          explanation: `Correct: Both statements are accurate and causally linked. The 84th Amendment (2002) explicitly froze the seat count until the first post-2026 census. Because Article 82 mandates delimitation after each census, Census 2027 is the constitutional trigger for delimitation. Statement II explains why the freeze in Statement I is finally ending.`
+        },
+        {
+          question: `Consider the following pairs:
+Protocol/Convention : Primary Subject Matter
+1. Cartagena Protocol : Access and Benefit Sharing from genetic resources
+2. Nagoya Protocol : Transboundary movement of Living Modified Organisms
+3. Kunming-Montreal GBF : Protecting 30% of land and water areas by 2030
+4. GCF (Green Climate Fund) : Financial mechanism for the Convention on Biological Diversity
+
+How many of the above pairs are CORRECTLY matched?`,
+          options: [
+            "(a) None",
+            "(b) One",
+            "(c) Two",
+            "(d) Three"
+          ],
+          answer: "(b)",
+          explanation: `Only Pair 3 is correctly matched: The Kunming-Montreal Global Biodiversity Framework (adopted at COP15, December 2022) contains the landmark 30×30 target — protecting 30% of land and inland water areas by 2030.
+Pair 1 is WRONG: Cartagena Protocol deals with transboundary movement of Living Modified Organisms (LMOs) — biosafety.
+Pair 2 is WRONG: Nagoya Protocol (2010) deals with Access and Benefit Sharing (ABS) from genetic resources.
+Pair 4 is WRONG: GCF is the financial mechanism for the UNFCCC (climate). The financial mechanism for the CBD is the GEF (Global Environment Facility) — not GCF.`
+        },
+        {
+          question: `Consider the following statements about the BHAVYA Scheme:
+1. It is a Centrally Sponsored Scheme with cost-sharing between the Centre and State governments.
+2. The National Industrial Corridor Development Corporation (NICDC) is the Project Management Agency under the scheme.
+3. Industrial parks under BHAVYA must be implemented through Special Purpose Vehicles (SPVs) incorporated under the Companies Act, 2013.
+4. The scheme is being administered by the Ministry of Electronics and Information Technology (MeitY).
+
+Which of the statements given above are correct?`,
+          options: [
+            "(a) 2 and 3 only",
+            "(b) 1, 2 and 3 only",
+            "(c) 2, 3 and 4 only",
+            "(d) 1 and 4 only"
+          ],
+          answer: "(a)",
+          explanation: `Correct (2): NICDC is explicitly designated as the Project Management Agency in the guidelines released by DPIIT on May 23, 2026.
+Correct (3): Parks must be implemented through SPVs under the Companies Act, 2013 — this is a governance and accountability requirement.
+(1) Wrong because: BHAVYA is a CENTRAL SECTOR SCHEME — 100% funded and implemented by the Centre. There is no State cost-sharing.
+(4) Wrong because: BHAVYA is administered by the Ministry of Commerce and Industry through DPIIT. MeitY administers the India Semiconductor Mission (ISM).`
+        },
+        {
+          question: `Consider the following statements about India's economic and technology policy in 2026:
+1. India Semiconductor Mission 2.0 (ISM 2.0) was announced in the Union Budget 2026-27 with an allocation of ₹1,000 crore for FY27.
+2. ASML is the world's only manufacturer of Deep Ultraviolet (DUV) lithography systems, which are essential for advanced chip production.
+3. India's real GDP growth for FY 2025-26 under the revised 2022-23 base year is estimated at 7.6%, up from 7.1% in FY 2024-25.
+4. The Provisional Estimates of annual GDP for FY26 will be released by NSO on June 5, 2026, instead of May 29, due to a revised release calendar.
+
+Which of the statements given above are correct?`,
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 1, 3 and 4 only",
+            "(c) 2, 3 and 4 only",
+            "(d) 1, 2, 3 and 4"
+          ],
+          answer: "(b)",
+          explanation: `Correct (1): ISM 2.0 was announced in Budget 2026-27 with ₹1,000 crore for FY27.
+Correct (3): Under the new 2022-23 base year, FY26 real GDP growth is estimated at 7.6% and FY25 at 7.1%.
+Correct (4): MoSPI announced the calendar change on May 12, 2026; PE will be released June 5, 2026 instead of May 29.
+(2) Wrong because: ASML is the world's only manufacturer of EXTREME ULTRAVIOLET (EUV) lithography systems — not DUV. DUV machines are made by multiple companies including ASML, Nikon, and Canon. EUV is the monopoly.`
+        }
+      ],
+      mains: [
+        {
+          question: `"The repeated failure of India's national examination system to prevent paper leaks reflects a systemic governance deficit, not merely a procedural one." Critically examine the institutional design of the National Testing Agency and suggest reforms.`,
+          context: `GS Paper II | Governance & Polity | 250 words\n\nGuidance: Cover NTA's statutory vs constitutional character; the Radhakrishnan Committee recommendations; the Public Examinations Act 2024 and whether it has teeth; international models (ACT, SAT in the US); constitutional dimensions via Articles 14 & 21; balance critique with constructive reform proposals. Don't just narrate the controversies — analyse the institutional design flaw.`
+        },
+        {
+          question: `"Census 2027, by ending a 50-year freeze on parliamentary delimitation, will fundamentally alter India's federal balance." Analyse the constitutional basis for delimitation and its implications for inter-state equity.`,
+          context: `GS Paper II | Polity & Governance | 250 words\n\nGuidance: Start with Article 82 and the 84th Amendment; explain why seats were frozen (family planning concerns, Southern states' demographic performance); articulate the North-South political tension; discuss what the Delimitation Commission does, its constitution under the Delimitation Commission Act, and how it addresses representation while balancing demographic performance and political concerns.`
+        }
+      ]
+    }
   }
 ];
 
