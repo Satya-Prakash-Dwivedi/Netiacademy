@@ -7169,6 +7169,968 @@ Correct (4): MoSPI announced the calendar change on May 12, 2026; PE will be rel
         }
       ]
     }
+  },
+  {
+    id: "2026-05-28",
+    date: "28th May 2026",
+    day: "Thursday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: `⏱️ Reading time: ~25 minutes  |  📋 Topics today: 6  |  📝 MCQs: 5
+
+📌 **TODAY AT A GLANCE**
+
+🔴 **SUPREME COURT: TRAUMA CARE IS A FUNDAMENTAL RIGHT**
+SC held that the right to trauma care is inseparable from Article 21; all states directed to unify emergency helplines into 112 within 3 months; petition by SaveLIFE Foundation; Good Samaritan system mandated.
+
+🔴 **INDIA'S FIRST HYDROGEN TRAIN APPROVED — JIND-SONIPAT, HARYANA**
+10-coach trainset cleared by Railway Ministry; runs on 1,200 KW hydrogen fuel cell; emits only water vapour; hydrogen produced via electrolysis at Jind; PESO licensed; India joins Germany, Japan, China and the US.
+
+🔴 **WEST BENGAL HANDS 142.79 ACRES TO BSF FOR BANGLADESH BORDER FENCING**
+Transferred across 9 districts; part of pledge to hand over 600 acres within 45 days; 2,217 km border, ~600 km still unfenced; BJP government's first Cabinet priority on May 11.
+
+🟡 **ENFORCEMENT DIRECTORATE GETS 60%+ MANPOWER BOOST**
+Finance Ministry expands ED from 2,029 to 3,256 posts; first restructuring in 15 years; 1,227 new posts across investigation, legal and adjudication verticals; PMLA caseload driven by crypto and cyber fraud.
+
+🟡 **SUPREME COURT UPHOLDS ELECTION COMMISSION'S SIR EXERCISE**
+SC calls Special Intensive Revision of electoral rolls a step toward free and fair elections; opposition had challenged it; EC authority flows from Article 324; key RPA 1950 vs 1951 distinction in play.
+
+🟡 **ARUNACHAL PRADESH SIGNS AGREEMENT FOR 1,750 MW HYDROPOWER PROJECT**
+NE India holds ~40% of India's hydro potential, less than 10% harnessed; Brahmaputra tributaries in focus; China's upstream Tsangpo dam adds geopolitical urgency.`,
+    topics: [
+      {
+        id: "28-1",
+        title: "SUPREME COURT: TRAUMA CARE IS PART OF ARTICLE 21 — THE RIGHT TO LIFE JUST GOT WIDER",
+        subtitle: "🔴 Must Read | Subject: Polity & Fundamental Rights",
+        content: `📌 **QUICK TAKE**
+The Supreme Court declared on May 28 that trauma care is a non-negotiable part of the right to life under Article 21. All states and Union Territories have been directed to integrate every emergency and ambulance helpline into the single national number 112 within three months. The order came on a petition by SaveLIFE Foundation — an NGO focused on road safety.
+
+📰 **WHAT HAPPENED**
+India loses an estimated 1.5 lakh lives annually in road accidents. A large proportion of these deaths happen not because trauma care is technically impossible, but because emergency response is fragmented, slow, or actively avoided — bystanders fear police harassment, ambulance systems vary wildly across states, and there is no uniform national protocol.
+
+SaveLIFE Foundation moved the Supreme Court arguing that trauma care must be recognised as a constitutional right, not merely an administrative aspiration. A bench of Justices J.K. Maheshwari and A.S. Chandurkar agreed on May 28, 2026. The court held that the right to trauma care is an inseparable part of the fundamental Right to Life guaranteed under Article 21 of the Constitution.
+
+The directions include: all states and UTs must merge all emergency and ambulance helplines into 112 within three months; establish functional physical and digital Good Samaritan grievance redressal systems with designated nodal officers at state and district levels; and furnish periodic compliance reports through monthly meetings. The Centre has been given three months to issue a Medical Rescue Protocol for trauma cases, after which states must implement it within a further three months. The court also ordered nationwide multilingual awareness campaigns about helpline 112 and Good Samaritan protections under the Motor Vehicles (Amendment) Act 2019.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Article invoked | Article 21 — Right to Life and Personal Liberty |
+| Case name | SaveLIFE Foundation v. Union of India |
+| Bench | Justices J.K. Maheshwari & A.S. Chandurkar |
+| Key direction | All emergency helplines unified into 112 (3 months) |
+| Good Samaritan system | Physical + digital redressal at state & district level |
+| Centre's timeline | Issue Medical Rescue Protocol within 3 months |
+| Road accident deaths/yr | ~1.5 lakh (largely preventable in golden hour) |
+| Relevant scheme | PM RAHAT — cashless treatment for road accident victims |
+| Relevant law | MV (Amendment) Act 2019 — Good Samaritan protection |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Students think Article 21 only protects the physical fact of being alive. That ship sailed in 1978. UPSC has consistently tested the progressive judicial expansion of Article 21 — right to livelihood (Olga Tellis, 1985), right to health (Paschim Banga Khet Mazdoor Samity, 1996), right to privacy (Puttaswamy, 2017), right to clean environment (Subhash Kumar, 1991), and now trauma care (2026).
+
+The trap in Prelims: options will say the court created a NEW Fundamental Right for trauma care. Wrong — it was read into the existing Article 21. The right exists. The court just clarified its scope.`,
+        revise: `- **Article 21**: Covers life and personal liberty; cannot be suspended even during Emergency (post-44th Amendment)
+- **Maneka Gandhi v. Union of India (1978)**: Widened Article 21 — any procedure depriving life/liberty must be fair, just and reasonable
+- **Paschim Banga Khet Mazdoor Samity (1996)**: SC held denial of emergency treatment = violation of Article 21 — today's judgment builds directly on this
+- **Good Samaritan Law**: MV (Amendment) Act 2019 — protects bystanders who assist accident victims from civil and criminal liability
+- **DPSPs vs Fundamental Rights**: Articles 39A, 41, 47 direct the state toward health and welfare — but these are NOT enforceable. The enforceable right flows from Article 21, not DPSPs. Classic UPSC Statement I/II angle.`
+      },
+      {
+        id: "28-2",
+        title: "INDIA'S FIRST HYDROGEN TRAIN CLEARED — JIND TO SONIPAT, HARYANA",
+        subtitle: "🔴 Must Read | Subject: Science & Technology / Environment",
+        content: `📌 **QUICK TAKE**
+Indian Railways has formally approved India's first hydrogen fuel cell train for operation on a dedicated pilot route between Jind and Sonipat in Haryana. The 10-coach trainset runs at up to 75 kmph on a 1,200 KW fuel cell system and emits nothing but water vapour. Hydrogen is produced through electrolysis at an on-site plant in Jind — this is the green hydrogen production method.
+
+📰 **WHAT HAPPENED**
+The Ministry of Railways announced on May 27, 2026 that India's first hydrogen-powered train had received all required clearances and is set to begin operations on the Jind-Sonipat section of Northern Railway in Haryana — a dedicated pilot corridor. The 10-car trainset is powered by a 1,200 KW hydrogen fuel cell propulsion system. Hydrogen fuel cells generate electricity through a chemical reaction between hydrogen and oxygen, producing water vapour as the only emission — no CO2, no NOx, no particulate matter.
+
+The hydrogen plant at Jind has been established specifically for this project, with a storage capacity of 3,000 kg of compressed hydrogen gas. Hydrogen is produced on-site through electrolysis — splitting water molecules using electricity — which is the pathway to green hydrogen when the electricity source is renewable. The Petroleum and Explosives Safety Organisation (PESO) has licensed the facility for compressed hydrogen storage and dispensing. Safety systems include hydrogen leak detectors, flame detectors and a standby compressor unit. Scheduled maintenance will be carried out at Shakurbasti, Delhi.
+
+With a passenger capacity of up to 2,600, this would be the most powerful and longest hydrogen train currently in operation globally. India joins Germany, Japan, China and the United States in testing hydrogen rail technology.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Route | Jind–Sonipat, Northern Railway, Haryana |
+| Number of coaches | 10 |
+| Maximum speed | 75 kmph |
+| Propulsion system | 1,200 KW Hydrogen Fuel Cell |
+| Emission | Water vapour only |
+| Hydrogen production | Electrolysis (green hydrogen pathway) |
+| Hydrogen storage | 3,000 kg at Jind plant |
+| Licensing authority | PESO (under DPIIT, Ministry of Commerce & Industry) |
+| Technical standards | RDSO — Research Design and Standards Organisation |
+| Maintenance base | Shakurbasti, Delhi |
+| Passenger capacity | Up to 2,600 (claimed longest & most powerful globally) |
+| Countries with H2 trains | Germany, Japan, China, USA, India |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Two traps in one topic.
+First: hydrogen fuel cells ≠ hydrogen combustion. Fuel cells produce electricity through a chemical reaction (not burning). Combustion burns hydrogen. UPSC tests the mechanism, not just the name.
+
+Second: PESO (Petroleum and Explosives Safety Organisation) is under the Department for Promotion of Industry and Internal Trade (DPIIT) under the Ministry of Commerce and Industry — NOT under the Ministry of Petroleum and Natural Gas. Many students get this wrong because the name suggests petroleum. PESO regulates the safety of explosives and petroleum products, not petroleum sector policy itself.`,
+        revise: `- **National Green Hydrogen Mission (2023)**: Target — 5 MMTPA production by 2030; outlay ₹19,744 crore; administered by MNRE
+- **Types of hydrogen**: Green = electrolysis + renewable electricity; Blue = Steam Methane Reforming + Carbon Capture; Grey = SMR without CCS (most hydrogen globally today); Pink = electrolysis + nuclear power
+- **RDSO**: statutory body under Ministry of Railways; sets technical standards for railway equipment; approved H2 train O&M manuals
+- **Panchamrit commitments**: 500 GW renewable by 2030; 50% energy from non-fossil by 2030; net zero by 2070 — this train fits the renewable transport pillar`
+      },
+      {
+        id: "28-3",
+        title: "WEST BENGAL HANDS 142.79 ACRES TO BSF — THE BANGLADESH BORDER PUZZLE",
+        subtitle: "🔴 Must Read | Subject: Security & Defence / Internal Security",
+        content: `📌 **QUICK TAKE**
+West Bengal has transferred 142.79 acres of land across nine districts to the BSF for border fencing and outpost construction along the India-Bangladesh border. The state shares India's longest border with Bangladesh at 2,217 km — roughly 600 km of which remains unfenced. The BJP government under CM Suvendu Adhikari committed to handing over 600 acres within 45 days at its very first Cabinet meeting on May 11.
+
+📰 **WHAT HAPPENED**
+West Bengal's 2,217 km border with Bangladesh is India's longest shared border with any single country on its eastern frontier. Yet around 600 km — more than a quarter of it — has no fencing at all, creating persistent vulnerabilities for illegal migration, cattle smuggling and cross-border crime.
+
+Following the BJP's formation of government in West Bengal after the 2026 state elections, Chief Minister Suvendu Adhikari made border security the first Cabinet resolution on May 11 — pledging to hand over 600 acres of land to the BSF within 45 days. A first tranche of 43 acres was transferred on May 20. By May 27, the cumulative total reached 142.79 acres across nine districts: Cooch Behar, Jalpaiguri, Darjeeling, Uttar Dinajpur, Dakshin Dinajpur, Malda, Murshidabad, Nadia and North 24 Parganas — with Murshidabad receiving the largest allocation at 38.805 acres.
+
+A "Smart Border Initiative" using drones, night-vision radar and electromagnetic barriers is also being planned for the strategically sensitive Siliguri Corridor and Malda-Murshidabad belt. The government is simultaneously implementing a "detect, delete and deport" policy for undocumented Bangladeshi migrants.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| WB–Bangladesh border length | 2,217 km (longest among all Indian states) |
+| Already fenced | ~1,600 km |
+| Unfenced stretch | ~600 km |
+| Land transferred so far | 142.79 acres across 9 districts |
+| Total committed (45 days) | 600 acres |
+| Largest allocation | Murshidabad (38.805 acres) |
+| Cabinet decision date | May 11, 2026 (first Cabinet meeting) |
+| State border policy | "Detect, Delete and Deport" |
+| BSF Act amendment 2021 | Jurisdiction extended from 15 km to 50 km in WB, Punjab and Gujarat |
+| Siliguri Corridor width | ~22 km at narrowest (Chicken's Neck) |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+The 2021 BSF Act amendment is one of UPSC's favourite traps. The amendment extended BSF's jurisdiction for arrest, search and seizure from 15 km to 50 km from the international border — but ONLY in West Bengal, Punjab and Gujarat. It did NOT extend to Assam, Meghalaya, Tripura, Mizoram, Rajasthan or Uttar Pradesh.
+
+Students who don't know the state-specific coverage get this wrong in matching pairs every time.
+
+Also: the Siliguri Corridor (Chicken's Neck) connects all of North-East India to the rest of India — ~22 km wide at its narrowest. It is bordered by Nepal, Bangladesh and Bhutan. Strategically, one of India's most vulnerable geographic points.`,
+        revise: `- **BSF Act, 1968**: Establishes BSF's mandate, powers and structure; amended in 2021 to expand operational jurisdiction in three states
+- **India-Bangladesh Land Boundary Agreement, 2015**: Resolved the longstanding enclave dispute; 162 enclaves exchanged
+- **Foreigners Act, 1946**: Central law for detecting and deporting illegal foreigners; applies across India
+- **Foreigners Tribunals**: Quasi-judicial bodies in Assam that adjudicate citizenship disputes; set up under the Foreigners Act
+- **Siliguri Corridor**: ~22 km at narrowest; critical for all logistics and troop movement to the North-East`
+      },
+      {
+        id: "28-4",
+        title: "ENFORCEMENT DIRECTORATE GETS ITS FIRST FACELIFT IN 15 YEARS — 60%+ MORE POSTS",
+        subtitle: "🟡 Important | Subject: Governance & Polity",
+        content: `📌 **QUICK TAKE**
+The Ministry of Finance approved a comprehensive restructuring of the Enforcement Directorate on May 27 — the first in 15 years. The total sanctioned strength goes from 2,029 to 3,256 posts (60%+ increase), with 1,227 new positions added across field investigation, legal and adjudication verticals. The ED's last restructuring was in 2011; since then, its caseload involving money laundering, cryptocurrency and cyber fraud has grown dramatically.
+
+📰 **WHAT HAPPENED**
+The Enforcement Directorate was set up on May 1, 1956 under the Department of Revenue, Ministry of Finance. It enforces three laws: the Prevention of Money Laundering Act (PMLA) 2002, the Foreign Exchange Management Act (FEMA) 1999, and the Fugitive Economic Offenders Act (FEO Act) 2018. Money laundering cases registered by the ED roughly doubled between the 2012-2019 and 2020-2025 periods. Complex investigations involving cryptocurrency networks, cyber fraud, and transnational financial crime have added to the workload — yet the last formal cadre restructuring was in 2011.
+
+On May 27, 2026, the Finance Ministry issued a formal sanction expanding the agency. The 1,227 new posts include 803 new Assistant Enforcement Officers (the primary field investigator rank), 606 new Enforcement Officers, and 531 posts at Deputy Director level and above. The legal wing is also significantly strengthened: Additional Directors (Prosecution) go from 1 to 7, Deputy Legal Advisers from 7 to 18, and Assistant Legal Advisers from 18 to 36. The Director (1 post) and Special Directors (7 posts) at the apex remain unchanged.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Previous sanctioned strength | 2,029 posts |
+| New sanctioned strength | 3,256 posts |
+| Increase | Over 60% (1,227 new posts) |
+| Largest addition | 803 Assistant Enforcement Officers (AEO) |
+| Prosecution ADs | 1 → 7 |
+| Deputy Legal Advisers | 7 → 18 |
+| Parent department | Department of Revenue, Ministry of Finance |
+| Laws enforced | PMLA 2002 · FEMA 1999 · FEO Act 2018 |
+| Established | 1 May 1956 |
+| Last restructuring | 2011 (15 years ago) |
+| Director & Special Directors | Unchanged at 1 and 7 posts respectively |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+The ED is a STATUTORY body — not constitutional. It is established by legislation (PMLA, FEMA), not by the Constitution. It can be restructured or dissolved by Parliament without a Constitutional amendment.
+
+Second trap: PMLA and FEMA are both under the Ministry of Finance, not the Ministry of Home Affairs. The MHA handles CBI (through DSPE Act) and IB. ED stays with Finance. Do not mix them up in matching-pair questions — this error appears in almost every mock test analysis.`,
+        revise: `- **PMLA 2002**: Three-stage money laundering — placement, layering, integration; "scheduled offences" concept; Adjudicating Authority; Appellate Tribunal
+- **FEMA 1999**: Replaced FERA 1973; treats forex violations as civil offences (not criminal like FERA); governs capital account transactions, FDI, ECB, NRI accounts
+- **FEO Act 2018**: Allows courts to declare individuals fugitive economic offenders and confiscate all their assets — even before conviction
+- **PMLA as Money Bill controversy**: Several PMLA amendments were passed as Money Bills (bypassing Rajya Sabha); SC has examined their validity — a live GS II examination angle
+- **Article 110**: Definition of Money Bills — UPSC tests whether various laws qualify as Money Bills vs Financial Bills`
+      },
+      {
+        id: "28-5",
+        title: "ELECTION COMMISSION'S SIR EXERCISE UPHELD BY SC — AND THE RPA TRAP EVERYONE FAILS",
+        subtitle: "🟡 Important | Subject: Polity & Governance",
+        content: `📌 **QUICK TAKE**
+The Supreme Court on May 28 upheld the Election Commission of India's Special Intensive Revision (SIR) exercise for electoral rolls. The court described it as a step toward strengthening free and fair elections. Opposition parties had challenged the SIR claiming it could be misused to delete voters in their strongholds. The EC derives its authority from Article 324; the legal framework comes from the Representation of the People Act, 1950.
+
+📰 **WHAT HAPPENED**
+The Election Commission of India has been conducting a Special Intensive Revision (SIR) of electoral rolls — a process in which Booth Level Officers (BLOs) physically visit each household to verify, update and correct voter details, adding new eligible voters and removing ineligible entries (deaths, relocations, duplications). This exercise is distinct from the routine annual Summary Revision.
+
+Opposition parties challenged the SIR in the Supreme Court, arguing that the process could be misused to selectively delete voters in constituencies they hold. The Supreme Court heard the petition and upheld the SIR on May 28, 2026, describing it as a constitutionally valid measure for strengthening electoral integrity. The court noted that accurate electoral rolls are the foundation of democracy, and their rigorous revision is not optional — it is the EC's constitutional obligation. The EC's legal authority flows from Article 324 of the Constitution and is operationalised through the Representation of the People Act, 1950 and the Registration of Electors Rules, 1960.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| EC's constitutional authority | Article 324 |
+| Electoral rolls governed by | Representation of the People Act, 1950 |
+| Relevant rules | Registration of Electors Rules, 1960 |
+| SIR process | BLOs physically verify households; add, correct, delete voters |
+| SC ruling | Upheld SIR as constitutionally valid |
+| EC status | Constitutional body under Article 324 |
+| BLO | Booth Level Officer — civil servant maintaining voter rolls per polling booth |
+| Types of roll revision | Summary / Intensive / Special Summary / Special Intensive (SIR) |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+This is one of UPSC's most consistently repeated traps:
+
+RPA 1950 → Preparation and revision of electoral rolls, voter qualifications, delimitation of constituencies. It is about WHO votes and WHERE.
+
+RPA 1951 → Conduct of elections to Parliament and State Legislatures, qualifications/disqualifications of MPs and MLAs, election offences, and election petitions. It is about HOW elections happen and HOW results are challenged.
+
+Today's SIR story involves RPA 1950 (electoral rolls). UPSC has placed one in the correct column and one in the wrong one in matching-pair questions — repeatedly. This single distinction is worth at least 2 marks in every Prelims paper.`,
+        revise: `- **Article 324**: EC has superintendence, direction and control over preparation of electoral rolls and conduct of all elections to Parliament, State Legislatures, President and Vice-President
+- **Article 326**: Every citizen aged 18+ is entitled to vote; age lowered from 21 to 18 by the 61st Constitutional Amendment, 1988
+- **Article 329**: Courts cannot interfere in electoral matters during the election process; only an Election Petition after results can challenge an election
+- **CEC removal**: Article 324(5) — Chief Election Commissioner can be removed only through impeachment by Parliament (same as a Supreme Court judge); Election Commissioners have weaker protection — removed by President on CEC's recommendation`
+      },
+      {
+        id: "28-6",
+        title: "ARUNACHAL PRADESH'S 1,750 MW HYDRO DEAL — ENERGY, ECOLOGY AND CHINA'S SHADOW",
+        subtitle: "🟡 Important | Subject: Economy & Environment / International Relations",
+        content: `📌 **QUICK TAKE**
+Arunachal Pradesh signed an agreement for a 1,750 MW hydropower project in May 2026, adding to India's most promising — and most contested — energy frontier. The North-East holds over 40% of India's total hydropower potential, yet less than 10% has been harnessed. China's upstream dam projects on the Tsangpo (the same river that becomes the Brahmaputra) give this story a sharp geopolitical edge.
+
+📰 **WHAT HAPPENED**
+Arunachal Pradesh, with an estimated hydropower potential of over 50,000 MW, holds more untapped hydro energy than any state except Himachal Pradesh. Yet development has been slow — environmental clearances, tribal land rights, high seismicity, and displacement concerns have delayed multiple projects over decades.
+
+An agreement was signed in May 2026 for the development of a 1,750 MW hydropower project in the state. Such projects in Arunachal typically involve Central PSUs — NHPC, NEEPCO, or SJVN — in joint development frameworks with the state government.
+
+The rivers involved are tributaries of the Brahmaputra — Subansiri, Kameng, Dibang, Lohit and Siang — all originating in Tibet. The Brahmaputra (called Tsangpo in Tibet) loses enormous altitude as it cuts through the Himalayas in the Arunachal gorge, creating the conditions for immense hydropower generation.
+
+China has announced its own mega-dam project — the Motuo Dam — upstream on the Tsangpo, which at ~60,000 MW would be the world's largest hydroelectric project. India has no formal water-sharing treaty with China for the Brahmaputra. There is only a bilateral Hydrological Data Sharing MoU (signed 2008, renewed periodically) — and even this data-sharing has been disrupted on occasion.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| New project capacity | 1,750 MW |
+| Arunachal hydro potential | ~50,000 MW (2nd highest in India) |
+| NE India hydro potential | ~63,000 MW (~40% of India's total) |
+| India's installed hydro | ~47 GW (as of 2025) |
+| Key rivers | Subansiri, Kameng, Dibang, Lohit, Siang |
+| Brahmaputra in Tibet | Yarlung Zangbo / Tsangpo |
+| China's upstream project | Motuo Dam (~60,000 MW proposed) |
+| India-China water arrangement | Hydrological Data Sharing MoU (2008) — NOT a water-sharing treaty |
+| Key PSUs in NE hydro | NHPC (Navratna) · NEEPCO (Mini Ratna) · SJVN (Navratna) |
+| Large hydro classification | Ministry of Power (>25 MW); counts toward 500 GW target from 2019 |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Two traps here.
+First: large hydropower (above 25 MW) is under the Ministry of Power — NOT MNRE. MNRE handles small hydro (up to 25 MW), solar, wind and bioenergy. From 2019, large hydro counts toward India's 500 GW target — but administratively it remains with the Ministry of Power.
+
+Second trap: there is NO water-sharing treaty between India and China for the Brahmaputra — only a data-sharing MoU. Do not confuse this with the Indus Waters Treaty (India-Pakistan, 1960, World Bank-mediated), which is a formal, binding treaty.`,
+        revise: `- **NHPC**: National Hydroelectric Power Corporation — Navratna PSU under Ministry of Power; India's largest hydro company
+- **NEEPCO**: North Eastern Electric Power Corporation — Mini Ratna PSU; primarily North-East hydro and gas projects
+- **SJVN**: Satluj Jal Vidyut Nigam — Navratna PSU; established for Nathpa Jhakri project (1,500 MW, Himachal Pradesh)
+- **Indus Waters Treaty (1960)**: India-Pakistan; World Bank-mediated; Eastern rivers to India; Western rivers to Pakistan — contrast with the absence of any treaty on the Brahmaputra
+- **500 GW renewable by 2030 (Panchamrit)**: Large hydro included from 2019; ~47 GW hydro already installed nationally`
+      }
+    ],
+    reviseSummary: [
+      "Article 21 and its judicial expansion (Laxmikanth — Fundamental Rights)",
+      "Constitutional vs Statutory bodies (Laxmikanth — Constitutional/Statutory Bodies)",
+      "Types of Hydrogen — Green, Blue, Grey, Pink, Turquoise (Shankar IAS Environment)",
+      "The two RPAs — RPA 1950 vs RPA 1951 distinction (Laxmikanth — Elections)",
+      "India's River-Ministry-Treaty Framework: Brahmaputra, Indus, Hydro classification (Ramesh Singh / Shankar IAS)"
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: `Consider the following statements about the SC's May 2026 judgment on trauma care:
+1. The court declared the right to trauma care as a new Fundamental Right, separate from Article 21.
+2. All states and UTs were directed to integrate all emergency helplines into the single number 112 within three months.
+3. The SaveLIFE Foundation was constituted as a statutory oversight body for trauma care implementation.
+
+Which of the statements given above is/are correct?`,
+          options: [
+            "(a) 1 only",
+            "(b) 2 only",
+            "(c) 2 and 3 only",
+            "(d) 1 and 2 only"
+          ],
+          answer: "(b)",
+          explanation: `Statement 1 is WRONG: The court expanded the existing Article 21 (Right to Life), rather than declaring a new standalone Fundamental Right.
+Statement 2 is CORRECT: The SC directed all states and UTs to merge all emergency helplines into the single national number 112 within three months.
+Statement 3 is WRONG: SaveLIFE Foundation is an NGO that filed the public interest litigation; it was not constituted as a statutory oversight body.`
+        },
+        {
+          question: `Consider the following statements about India's first hydrogen fuel cell train:
+1. It will operate on the Jind-Sonipat route in Gujarat.
+2. The train generates electricity through hydrogen combustion.
+3. Water vapour is the only emission from hydrogen fuel cell operation.
+4. Hydrogen for the train is produced through electrolysis at Jind.
+
+Which of the statements given above are correct?`,
+          options: [
+            "(a) 3 only",
+            "(b) 3 and 4 only",
+            "(c) 1 and 3 only",
+            "(d) 2, 3 and 4 only"
+          ],
+          answer: "(b)",
+          explanation: `Statements 3 and 4 are CORRECT: Fuel cell operation produces electricity electrochemically with water vapour as the only emission. Hydrogen is produced via electrolysis at the Jind facility.
+Statement 1 is WRONG: The Jind-Sonipat route is in Haryana, not Gujarat.
+Statement 2 is WRONG: Hydrogen fuel cells generate electricity through an electrochemical reaction, not through combustion (burning).`
+        },
+        {
+          question: `With reference to the 2021 amendment to the BSF Act, 1968:
+Statement I: The amendment extended BSF's operational jurisdiction from 15 km to 50 km from the international border in West Bengal, Punjab and Gujarat.
+Statement II: Prior to this amendment, the BSF had no authority to operate beyond 15 km from the border in any circumstances.
+
+Which of the following is correct in respect of the above statements?`,
+          options: [
+            "(a) Both Statement I and Statement II are correct and Statement II is the correct explanation for Statement I",
+            "(b) Both Statement I and Statement II are correct and Statement II is not the correct explanation for Statement I",
+            "(c) Statement I is correct but Statement II is incorrect",
+            "(d) Statement I is incorrect but Statement II is correct"
+          ],
+          answer: "(c)",
+          explanation: `Statement I is CORRECT: The 2021 amendment extended the BSF's search, seizure, and arrest jurisdiction to 50 km from the border in West Bengal, Punjab, and Gujarat.
+Statement II is INCORRECT: Even before the amendment, the BSF could operate beyond 15 km in coordination with state police. The amendment expanded their independent operational jurisdiction (powers to act without state police presence in specific matters), not their physical capacity to operate altogether.`
+        },
+        {
+          question: `Which of the following pairs is INCORRECTLY matched?
+1. PMLA 2002 : Ministry of Finance
+2. FEMA 1999 : Ministry of External Affairs
+3. FEO Act 2018 : Ministry of Finance
+4. BSF Act 1968 : Ministry of Home Affairs`,
+          options: [
+            "(a) 1 only",
+            "(b) 2 only",
+            "(c) 2 and 3 only",
+            "(d) 3 and 4 only"
+          ],
+          answer: "(b)",
+          explanation: `Pair 2 is INCORRECTLY matched: The Foreign Exchange Management Act (FEMA), 1999 is administered by the Department of Revenue under the Ministry of Finance, not the Ministry of External Affairs. All other pairs are correctly matched.`
+        },
+        {
+          question: `Consider the following statements about the two Representation of the People Acts (RPAs):
+1. RPA 1950 governs the conduct of elections to Parliament and State Legislatures.
+2. RPA 1951 governs the preparation and revision of electoral rolls.
+3. The Election Commission derives its constitutional authority under Article 324.
+
+Which of the statements given above is/are correct?`,
+          options: [
+            "(a) 3 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a)",
+          explanation: `Statement 3 is CORRECT: The Election Commission of India derives its authority for superintendence, direction, and control of elections from Article 324.
+Statements 1 and 2 are WRONG: They are swapped. The Representation of the People Act, 1950 deals with the delimitation of constituencies, voter qualifications, and preparation/revision of electoral rolls (who votes and where). The Representation of the People Act, 1951 governs the actual conduct of elections, qualifications/disqualifications of representatives, election offences, and disputes (how elections happen).`
+        }
+      ],
+      mains: [
+        {
+          question: `"The Supreme Court's progressive expansion of Article 21 has effectively converted non-justiciable Directive Principles into enforceable constitutional rights through judicial interpretation. Critically analyse with reference to at least four landmark judgments."`,
+          context: `GS Paper II | Polity & Constitution | 250 words\n\nGuidance: Structure around the evolution. Begin with A.K. Gopalan (1950). Then Maneka Gandhi (1978). Move through Olga Tellis (1985), Paschim Banga (1996), Puttaswamy (2017), and 2026 trauma care. Show how each expansion made a DPSP enforceable without formally amending it. Address the tension: judicial overreach or necessary democratic correction? Avoid a one-sided conclusion.`
+        },
+        {
+          question: `"India's hydropower potential in the North-East remains largely untapped, not for lack of resource, but for a complex web of ecological, tribal rights and geopolitical constraints. Examine."`,
+          context: `GS Paper III | Environment & Economy | 200 words\n\nGuidance: Three constraint categories — Ecological (seismicity, forest clearance, biodiversity impact), Tribal rights (Fifth/Sixth Schedule, PESA, FRA 2006), Geopolitical (China's Motuo Dam, absence of water treaty, data-sharing MoU limitations). State India's strategic imperative: 500 GW target needs NE hydro, and the window before China's upstream dams are built is closing. End: what would a balanced, rights-respecting framework look like?`
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-29",
+    date: "29th May 2026",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: `⏱️ Reading time: ~28 minutes | 📋 Topics today: 6 | 📝 MCQs: 5
+
+📌 **TODAY AT A GLANCE**
+
+🔴 **Supreme Court Revives Sedition Trials — Sec 124A IPC** — CJI Surya Kant bench rules courts may proceed with pending 124A trials if accused does not object; 2022 freeze partially lifted; BNS 2023 replaces it with Section 152; constitutional validity still pending before a 7-judge bench.
+
+🔴 **Supreme Court Upholds Retrospective 28% GST on Online Gaming** — SC treats all real-money games with uncertain outcomes as gambling for GST purposes; ₹2.5 lakh crore demands revived; Dream11 (₹40K cr), GamesKraft (₹21K cr), Delta Corp (₹23K cr) affected; PROG Act 2025 had already banned the sector.
+
+🔴 **National Health Accounts FY23: Government Health Spending Rises to 1.43% of GDP** — NHSRC report shows GHE share in total health expenditure rose from 28.6% (FY14) to 43.7% (FY23); NHP 2017 target was 2.5% of GDP by 2025 — still unmet.
+
+🔴 **Karnataka CM Change: Siddaramaiah Resigns, DK Shivakumar to Take Over** — Governor Thaawarchand Gehlot accepted resignation on May 29 under Article 164(1); Council of Ministers dissolved; Siddaramaiah continues as caretaker CM; power-sharing deal honoured after 3 years.
+
+🟡 **Blue Origin New Glenn Rocket Explodes on Launch Pad — Cape Canaveral** — Static fire test gone wrong on May 28 night; 188-ft first stage destroyed; was preparing for Amazon Leo satellite launch; first pad explosion at Cape since SpaceX Falcon 9 in 2016; no injuries.
+
+🟡 **India-Canada CEPA: Third Round of Negotiations Underway in Ottawa (May 25–29)** — Piyush Goyal led 100+ company delegation; target: CEPA by end-2026; bilateral trade from $9bn to $50bn by 2030; Carney called it a "game changer"; uranium deal ($2.6bn) already signed in March.
+
+🔴 Must Read | 🟡 Important | 🟢 Good to Know`,
+    topics: [
+      {
+        id: "29-1",
+        title: "SEDITION LAW (SECTION 124A IPC): THE 2022 FREEZE CRACKS OPEN",
+        subtitle: "🔴 Must Read | Subject: Polity & Constitutional Law",
+        content: `📌 **QUICK TAKE**
+The Supreme Court has partially revived sedition trials by allowing lower courts to proceed with Section 124A cases — but only if the accused person does not object. The 2022 absolute freeze is now a conditional pause. The order came in Kamran v. State of Madhya Pradesh.
+
+📰 **WHAT HAPPENED**
+In May 2022, a three-judge bench headed by former CJI N.V. Ramana put Section 124A IPC (sedition) into complete abeyance — freezing all pending trials, banning fresh FIRs, and stopping all coercive action. It was a remarkable step: the court essentially paused a law of Parliament across the entire country while its constitutionality was being examined.
+
+On May 21, 2026, a fresh bench headed by CJI Surya Kant clarified that lower courts may now proceed with trials, appeals, and proceedings under Section 124A — but only if the accused explicitly raises no objection. The case is Kamran v. State of Madhya Pradesh. The logic is simple: if a jailed or convicted person wants their case decided quickly — often to secure an acquittal or bail — the court should not be prevented from hearing it just because a broader constitutional question is pending.
+
+This is not a blanket revival of sedition prosecutions. Fresh FIRs cannot be filed. The State cannot unilaterally push ahead with trials. The constitutional question — whether Section 124A violates Articles 14 and 19(1)(a) — remains pending before a seven-judge constitutional bench that is yet to be constituted. The larger battle is unresolved; today's order created a narrow exit for accused persons stuck in legal limbo.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Original provision | Section 124A IPC — introduced in 1870 by Sir James Fitzjames Stephen. NOT in original 1860 IPC. |
+| Offences penalised | Words or acts that excite disaffection, hatred, or contempt against the government established by law |
+| Maximum punishment | Life imprisonment |
+| 2022 freeze case | S.G. Vombatkere v. Union of India — all proceedings kept in abeyance |
+| 2026 clarification case | Kamran v. State of Madhya Pradesh — trials may proceed if accused does not object |
+| BNS replacement | Section 152, Bharatiya Nyaya Sanhita 2023 — covers acts threatening sovereignty/unity; word "sedition" dropped |
+| Constitutional status | Validity pending before a 7-judge bench — yet to be constituted |
+| Kedar Nath (1962) test | Sedition only applies when speech is accompanied by incitement to violence or public disorder |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Students confuse two separate things: the word "sedition" being dropped from BNS versus the law on sedition being abolished. The BNS dropped the word Rajdroh (sedition), but Section 152 of the BNS covers nearly identical ground — acts that threaten sovereignty, unity, and integrity through secession, armed rebellion, or subversive activities. The law exists; only the label changed. UPSC loves this distinction.`,
+        revise: `- **Article 19(1)(a)**: Freedom of speech and expression — subject to reasonable restrictions under Article 19(2).
+- **Article 19(2)**: Permits restrictions in interests of sovereignty and integrity of India, security of the State, and public order.
+- **Kedar Nath Singh v. State of Bihar (1962)**: SC upheld 124A but narrowed its scope to incitement to violence.
+- **IPC replacement**: IPC enacted 1860, replaced by Bharatiya Nyaya Sanhita (BNS) from July 1, 2024.
+- **Section 124A added**: Added to IPC in 1870 — used against Bal Gangadhar Tilak (1897, 1908) and Mahatma Gandhi (1922).`
+      },
+      {
+        id: "29-2",
+        title: "RETROSPECTIVE 28% GST ON ONLINE GAMING: SUPREME COURT'S BOMBSHELL VERDICT",
+        subtitle: "🔴 Must Read | Subject: Economy & Taxation / Polity & Judiciary",
+        content: `📌 **QUICK TAKE**
+The Supreme Court upheld retrospective 28% GST on online gaming companies, treating all real-money games with uncertain outcomes as gambling for tax purposes — regardless of skill. Total sector-wide tax demands: ₹2.5 lakh crore. Combined with the PROG Act 2025 ban, the online gaming industry in India is in existential crisis.
+
+📰 **WHAT HAPPENED**
+On May 29, a bench of Justices JB Pardiwala and R Mahadevan dismissed petitions from gaming companies challenging the government's retrospective application of 28% GST. Three key decisions were made.
+
+First, on retrospectivity: The GST Council had approved a 28% rate from October 1, 2023. Gaming companies argued this was new law, applicable only prospectively. The court held the 2023 amendments were "clarificatory" — meaning they simply clarified what the law always was. Therefore, retrospective application is valid, and demands for revenue earned before October 2023 stand.
+
+Second, on the tax base: Companies argued GST should apply only on Gross Gaming Revenue — their actual commission, not the full pool of player deposits. The court rejected this and upheld taxation on the full face value of bets and deposits. For a platform where players deposit ₹100 each, the tax applies to the full ₹100, not just the platform's ₹10 cut.
+
+Third, on skill vs. chance: The court held that for GST purposes, real-money games involving uncertain outcomes will be treated as betting or gambling — even if skill is the primary factor. This decisively settles a decade-long industry debate.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Dream11 | ₹40,000 crore demand (show cause notice for evasion) |
+| GamesKraft | ₹21,000 crore (Karnataka HC relief overturned by SC) |
+| Delta Corp | ₹23,204 crore (multiple notices for short payment) |
+| Total sector-wide demands | ~₹2.5 lakh crore (all revived by SC verdict) |
+| GST rate | 28% on full face value of bets |
+| Effective date | October 1, 2023 — now confirmed retrospective |
+| PROG Act 2025 | Complete ban on online money gaming; prison up to 3 years + ₹1 crore penalty |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Students assume "games of skill" enjoy blanket legal protection in India. This is only partially true and context-dependent. Courts have generally protected games of skill from gambling laws at the state level, but the Supreme Court has now held that for GST classification purposes, uncertain-outcome games are treated as betting regardless of skill. The protection exists in criminal and gambling law — not in tax law. Different legal domains apply different tests. This distinction will be tested.`,
+        revise: `- **GST Council**: Article 279A — constituted by President, chaired by Union Finance Minister.
+- **GST nature**: A destination-based, multi-stage, comprehensive tax levied on supply of goods and services.
+- **28% GST slab**: Applies to luxury goods, tobacco, automobiles, aerated drinks, and now online gaming/gambling.
+- **Retrospective taxation**: When law applies to past conduct — opposed by the "legitimate expectation" doctrine in tax jurisprudence.
+- **PROG Act 2025**: Invoked national security, money laundering (PMLA), and cryptocurrency misuse concerns.`
+      },
+      {
+        id: "29-3",
+        title: "NATIONAL HEALTH ACCOUNTS FY23: INDIA'S HEALTHCARE FINANCING — WHERE THE MONEY FLOWS",
+        subtitle: "🔴 Must Read | Subject: Economy & Governance / Health Policy",
+        content: `📌 **QUICK TAKE**
+The National Health Accounts Estimates for FY2022-23 show government health expenditure rose to 1.43% of GDP — up from 1.13% in FY14. The government's share in total health expenditure climbed from 28.6% to 43.7% over the same decade. But the NHP 2017 target of 2.5% of GDP by 2025 remains unmet.
+
+📰 **WHAT HAPPENED**
+The Ministry of Health released the NHA Estimates for FY 2022-23 — India's official health financing report. Think of it as a flow-of-funds map: how much the government spends, how much households pay out of pocket, what private insurers contribute, and where all that leaves India relative to its own targets and global benchmarks.
+
+The headline: government health expenditure reached 1.43% of GDP in FY23, and the government now accounts for 43.7% of total health expenditure — up sharply from 28.6% in FY14. Per capita government health spending nearly tripled from ₹1,042 to ₹2,786 over the decade. The long-term trend is positive. But the NHP 2017 target of 2.5% of GDP was meant to be achieved by 2025, and India is significantly short.
+
+On out-of-pocket expenditure (OOPE): the long-term trajectory shows OOPE declining from 64.2% of total health expenditure in FY14 to the 39–44% range in recent years. However, some sources indicate OOPE may have ticked up slightly in FY23 after post-pandemic emergency health allocations reduced.
+*Note: One source indicates OOPE rose from 39.4% in FY22 to ~44% in FY23; the government's PIB shows the long-term declining trend. Do not state a definitive FY23 OOPE figure in exam answers without verifying the official release directly.*
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Govt Health Expenditure (% of GDP) | FY14 = 1.13% → FY23 = 1.43% |
+| Govt share in Total Health Expenditure | FY14 = 28.6% → FY23 = 43.7% |
+| Govt share in General Govt Expenditure | FY14 = 3.78% → FY23 = 4.89% |
+| Per capita Govt health spending | FY14 = ₹1,042 → FY23 = ₹2,786 |
+| OOPE share (long-term trend) | FY14 = 64.2% → recent years = ~39–44% (declining trend) |
+| NHP 2017 target | 2.5% of GDP by 2025 — NOT YET MET |
+| Report prepared by | NHSRC (National Health Systems Resource Centre) under MoHFW |
+| NHA Methodology | System of Health Accounts (SHA 2011) — WHO/OECD standards |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+The NHP 2017 target was 2.5% of GDP in government health spending by 2025. Students often confuse this with the 43.7% share-in-total-health-expenditure figure. These are two completely different metrics. 43.7% is the government's share of total health expenditure — not 2.5% of GDP. India has not met the NHP 2017 GDP target. This distinction will appear in Statement-based Prelims questions and in Mains health policy answers.`,
+        revise: `- **National Health Policy 2017**: targets 2.5% of GDP for GHE, 8 beds per 1,000 population, UHC by 2025.
+- **Ayushman Bharat**: AB-PMJAY provides ₹5 lakh insurance per family per year; PM-ABHIM builds infrastructure.
+- **Universal Health Coverage (UHC)**: SDG 3.8 — NHA is India's tool to monitor UHC progress.
+- **NHSRC**: Technical secretariat for NHA — under MoHFW.
+- **PMBJP**: 18,000+ Jan Aushadhi Kendras — generic medicines 60-80% cheaper. Under Dept of Pharmaceuticals, Ministry of Chemicals & Fertilizers. NOT the Health Ministry.`
+      },
+      {
+        id: "29-4",
+        title: "KARNATAKA: SIDDARAMAIAH RESIGNS — WHAT ARTICLE 164(1) ACTUALLY SAYS",
+        subtitle: "🔴 Must Read | Subject: Polity & Governance / State Legislature",
+        content: `📌 **QUICK TAKE**
+Karnataka CM Siddaramaiah resigned on May 28-29; Governor Thaawarchand Gehlot accepted it under Article 164(1), dissolving the Council of Ministers. Siddaramaiah continues as caretaker CM. DK Shivakumar is set to be sworn in. This is a political power-sharing transition — not a floor test, not a no-confidence vote. That distinction matters enormously for exams.
+
+📰 **WHAT HAPPENED**
+When Congress swept Karnataka's 2023 assembly elections, the leadership arrangement was always a two-act play: Siddaramaiah gets the first three years as Chief Minister, DK Shivakumar gets his turn. On May 28, after meetings with Rahul Gandhi and AICC President Mallikarjun Kharge in Delhi, Siddaramaiah tendered his resignation at Lok Bhavan in Bengaluru.
+
+On May 29, Governor Thaawarchand Gehlot formally accepted the resignation under Article 164(1), which provides that the CM and Council of Ministers hold office during the pleasure of the Governor — but by constitutional convention, the Governor acts only on the aid and advice of the CM who commands majority support. The Council of Ministers stands dissolved. Siddaramaiah continues as caretaker until Shivakumar is sworn in.
+
+This is not President's Rule. This is not a constitutional crisis. A majority government executed an internal leadership change, and constitutional machinery worked exactly as designed.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Outgoing CM | Siddaramaiah — Congress, Karnataka (second term) |
+| Incoming CM | D.K. Shivakumar — current Deputy CM and KPCC President |
+| Governor | Thaawarchand Gehlot |
+| Constitutional provision | Article 164(1) — CM and CoM hold office at Governor's pleasure |
+| Convention applied | Governor acts on advice of majority-commanding CM — no floor test needed |
+| Karnataka Assembly | 224 seats; Congress won 135 in May 2023 |
+| Transition type | Voluntary party-managed rotation — NOT no-confidence, NOT Article 356 |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Students confuse "Council of Ministers dissolved" with "President's Rule imposed." When a CM resigns and the Governor accepts, the Council of Ministers dissolves under Article 164(1) — but the government does not fall. The majority party's new leader can be sworn in immediately. President's Rule under Article 356 is a completely separate mechanism — applies only when constitutional machinery breaks down and no alternative government can be formed. UPSC has tested the Article 164 vs Article 356 distinction multiple times.`,
+        revise: `- **Article 163**: Council of Ministers to aid and advise the Governor.
+- **Article 164(1)**: CM appointed by Governor; other ministers on CM's advice; hold office at Governor's pleasure.
+- **Article 164(2)**: Council of Ministers collectively responsible to Legislative Assembly.
+- **Article 356**: President's Rule — only when constitutional machinery breaks down.
+- **Anti-defection law (10th Schedule)**: Does not apply to a party-internal leadership change within a majority government.`
+      },
+      {
+        id: "29-5",
+        title: "BLUE ORIGIN NEW GLENN EXPLODES ON PAD: WHAT EVERY EXAM ASPIRANT NEEDS TO KNOW",
+        subtitle: "🟡 Important | Subject: Science & Technology / Space",
+        content: `📌 **QUICK TAKE**
+Blue Origin's New Glenn heavy-lift rocket was destroyed in a catastrophic explosion at Cape Canaveral on May 28 night during a static fire test. No injuries. Was preparing for its fourth flight to launch Amazon Leo internet satellites. First major pad explosion at Cape Canaveral since SpaceX Falcon 9 in September 2016.
+
+📰 **WHAT HAPPENED**
+Around 9 p.m. EDT on May 28, Blue Origin — Jeff Bezos's space company — was conducting a "hotfire" or static fire test of New Glenn at Launch Complex 36, Cape Canaveral Space Force Station. A static fire test keeps the rocket bolted to the pad while engines fire at full thrust — the goal is to verify all systems work under real conditions before an actual launch.
+
+As the seven BE-4 methane-fuelled engines appeared to start firing, something went wrong at the base of the 188-foot first stage. Fire engulfed the base, the upper stage tilted, and the entire vehicle exploded in a fireball — the liquid methane and liquid oxygen propellants igniting catastrophically. No injuries were reported. Blue Origin confirmed: "We experienced an anomaly during today's hotfire test."
+
+New Glenn had flown three times before this incident. Its fourth mission was to be the first of 24 Amazon Leo satellite launches Blue Origin is contracted for. Amazon is building Leo as a competitor to SpaceX's Starlink broadband network. This explosion is a significant setback for both.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Rocket | New Glenn — Blue Origin's heavy-lift launch vehicle |
+| Founder | Jeff Bezos (also Amazon founder) |
+| Test type | Static fire / hotfire — engines fired while rocket is clamped to pad |
+| Propellants | Liquid methane + liquid oxygen (BE-4 engines) |
+| Launch site | Launch Complex 36, Cape Canaveral Space Force Station, Florida |
+| Planned mission | Amazon Leo satellite deployment (LEO broadband — competitor to Starlink) |
+| Last comparable incident | SpaceX Falcon 9 pad explosion — September 1, 2016 |
+| Investigation | FAA-led mishap investigation required before relaunch |
+| Injuries | None — all personnel accounted for |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+Blue Origin is founded by Jeff Bezos — NOT Elon Musk. Elon Musk founded SpaceX. Both are private space companies with heavy-lift rockets and satellite internet ambitions. Lock these pairings firmly:
+Bezos → Blue Origin → New Glenn → Amazon Leo.
+Musk → SpaceX → Falcon / Starship → Starlink.
+Exams routinely mix up the founders and company names.`,
+        revise: `- **Commercial Space**: Private companies (Blue Origin, SpaceX, Rocket Lab) now operate alongside national agencies like NASA and ISRO.
+- **LEO Broadband**: Amazon Leo and SpaceX Starlink are Low Earth Orbit constellations at ~500–1200 km altitude.
+- **India angle**: ISRO-OneWeb partnership; Jio-SES constellation; NewSpace India Limited (NSIL) = ISRO's commercial arm; IN-SPACe = India's private space sector regulator.
+- **Static Fire Test**: Standard pre-launch validation — rocket stays on pad; it is not a launch.
+- **FAA (Federal Aviation Administration)**: US regulator for commercial space launches.`
+      },
+      {
+        id: "29-6",
+        title: "INDIA-CANADA CEPA: HOW A RELATIONSHIP WENT FROM CRISIS TO COMMERCE IN 30 MONTHS",
+        subtitle: "🟡 Important | Subject: International Relations & Economy",
+        content: `📌 **QUICK TAKE**
+The third round of India-Canada CEPA (Comprehensive Economic Partnership Agreement) negotiations is underway in Ottawa (May 25-29). Commerce Minister Piyush Goyal led India's largest-ever business delegation. Target: CEPA by end-2026; bilateral trade from $9bn to $50bn by 2030. A $2.6bn uranium deal was already signed in March. The diplomatic reset — from near-rupture in 2023 to active CEPA negotiations in 2026 — is the story that matters.
+
+📰 **WHAT HAPPENED**
+Late 2023: India-Canada relations were at their worst in decades. Canada's then-PM Justin Trudeau publicly accused Indian agents of involvement in the killing of Sikh activist Hardeep Singh Nijjar near Vancouver in June 2023. India denied it. FTA talks that had been running since 2010 collapsed. Diplomatic expulsions followed.
+
+Fast-forward to 2026: New Canadian PM Mark Carney — elected in 2025 — chose commerce over confrontation. He visited India in early March 2026, signed a $2.6bn uranium supply deal, and both Prime Ministers pledged to finalise a CEPA by year-end with a target of tripling bilateral trade to $50bn by 2030. Round 1 of CEPA talks was virtual in March. Round 2 ended May 8. The current Round 3 runs May 25-29 in Ottawa, alongside Goyal's 100+ company delegation covering energy, mining, automotive, pharma, AI, and textiles.
+
+The strategic logic is clear: Canada has critical minerals and uranium that India needs for its energy transition and manufacturing ambitions. India has a skilled workforce, a pharmaceutical sector, and a vast consumer market. Commerce is the new language of this relationship — for now.
+
+📊 **KEY DATA TABLE**
+| Parameter | Detail |
+|---|---|
+| Agreement type | CEPA — Comprehensive Economic Partnership Agreement |
+| Original talks | Started 2010 — collapsed 2023 (Nijjar crisis) |
+| Restart | Post-Carney election (2025); PM Carney's visit to India, March 2026 |
+| Rounds completed | Round 1 (March 2026 — virtual); Round 2 (ended May 8); Round 3 (May 25-29, Ottawa) |
+| India's chief negotiator | Brij Mohan Mishra, Joint Secretary, Dept of Commerce |
+| Canada's chief negotiator | Bruce Christie |
+| Current bilateral trade | ~$9 billion (FY2024-25) |
+| Target | $50 billion by 2030 |
+| Key sectors | Critical minerals, clean energy, uranium, pharma, AI, automotive, agriculture |
+| Uranium deal | $2.6 billion — signed March 2026 during PM Carney's India visit |`,
+        whyItMatters: `⚠️ **THE EXAM TRAP**
+CEPA, FTA, and CECA are often confused. For India-Canada, the agreement being negotiated is CEPA — Comprehensive Economic Partnership Agreement. India uses different acronyms for different trade deals: CEPA with UAE and South Korea; ECTA with Australia; the old ASEAN framework used CECA. Confusing these abbreviations is a classic Prelims mistake, especially in matching-pair format.`,
+        revise: `- **India's signed trade agreements**: UAE CEPA (2022), Australia ECTA (2022), Mauritius CECPA (2021), South Korea CEPA (2010), Japan CEPA (2011).
+- **Critical Minerals**: Lithium, cobalt, nickel, rare earths — essential for EVs, semiconductors, and solar panels.
+- **Uranium**: Canada is a major exporter; India-Canada nuclear cooperation agreement signed 2012, expanded 2026.
+- **Indian diaspora in Canada**: ~18 lakh — one of the largest Indian diaspora populations globally.
+- **Khalistan issue**: India designates the movement as secessionist and a security concern; a longstanding source of tension in bilateral relations.`
+      }
+    ],
+    reviseSummary: [
+      "Sedition under Section 124A IPC vs Section 152 BNS and the Kedar Nath test (Laxmikanth — Fundamental Rights / Criminal Law Reforms)",
+      "GST Council composition (Article 279A) and the rules governing retrospective taxation (Ramesh Singh — Fiscal Policy)",
+      "National Health Accounts health financing metrics (NHSRC estimates, NHP 2017 targets, OOPE, System of Health Accounts 2011)",
+      "Article 164 state executive provisions and constitutional conventions governing CM transitions (Laxmikanth — State Government)",
+      "India's signed trade deals — CEPA, CECA, ECTA distinction and critical mineral strategy (Ramesh Singh — External Sector)",
+      "Commercial space private player partnerships — Blue Origin, SpaceX, ISRO-OneWeb, IN-SPACe (S&T Space Technology)"
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: `Consider the following statements about Section 124A of the Indian Penal Code:
+1. Section 124A was part of the original Indian Penal Code enacted in 1860.
+2. In S.G. Vombatkere v. Union of India (2022), the Supreme Court declared Section 124A unconstitutional.
+3. The Bharatiya Nyaya Sanhita, 2023 has replaced the concept of sedition through Section 152, which penalises acts threatening sovereignty and integrity of India.
+
+Which of the statements given above is/are correct?`,
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b)",
+          explanation: `Statement 3 is CORRECT: BNS Section 152 covers acts threatening sovereignty, unity, and integrity through secession, armed rebellion, or subversive activities; it replaces the concept even though the word "sedition" was dropped.
+Statement 1 is WRONG: Section 124A was not in the original 1860 IPC; it was added in 1870.
+Statement 2 is WRONG: The SC in Vombatkere (2022) did not declare 124A unconstitutional; it merely put proceedings in abeyance while the constitutional question was referred to a larger bench. The law was not struck down.`
+        },
+        {
+          question: `With reference to the GST Council of India, consider the following statements:
+Statement I: The GST Council is a constitutional body established under Article 279A of the Constitution.
+Statement II: The Union Finance Minister serves as Chairperson of the GST Council because the Union government bears a larger fiscal burden than states under GST.
+
+Which of the following is correct in respect of the above statements?`,
+          options: [
+            "(a) Both Statement I and II are correct and Statement II is the correct explanation of Statement I.",
+            "(b) Both Statement I and II are correct but Statement II is NOT the correct explanation of Statement I.",
+            "(c) Statement I is correct but Statement II is incorrect.",
+            "(d) Statement I is incorrect but Statement II is correct."
+          ],
+          answer: "(c)",
+          explanation: `Statement I is CORRECT: The GST Council is a constitutional body under Article 279A, inserted by the 101st Constitutional Amendment Act.
+Statement II is INCORRECT: The Union Finance Minister is the Chairperson not because of a larger fiscal burden, but because Article 279A(4) explicitly designates this role. The chairpersonship is a structural and constitutional design, not a reflection of relative fiscal burden.`
+        },
+        {
+          question: `The National Health Accounts (NHA) estimates in India are prepared by:`,
+          options: [
+            "(a) NITI Aayog under the Ministry of Finance",
+            "(b) National Health Systems Resource Centre (NHSRC) under the Ministry of Health and Family Welfare",
+            "(c) Indian Council of Medical Research (ICMR) under the Ministry of Science and Technology",
+            "(d) Central Statistics Office (CSO) under the Ministry of Statistics"
+          ],
+          answer: "(b)",
+          explanation: `NHA estimates are prepared by the NHSRC, the technical secretariat under the Ministry of Health and Family Welfare (MoHFW), using the System of Health Accounts (SHA 2011) framework developed by WHO and OECD. NITI Aayog does health policy work but does not prepare NHA. ICMR handles medical research. CSO/MoSPI handles national statistics but not health accounts specifically.`
+        },
+        {
+          question: `Consider the following statements about the New Glenn rocket of Blue Origin:
+1. New Glenn is a heavy-lift rocket that uses liquid hydrogen and liquid oxygen as propellants.
+2. Blue Origin was founded by Jeff Bezos, who is also the founder of Amazon.
+3. The planned payload for New Glenn's fourth mission was the first batch of Amazon Leo satellites — a broadband satellite internet constellation.
+
+Which of the statements given above is/are correct?`,
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b)",
+          explanation: `Statement 2 is CORRECT: Jeff Bezos founded Blue Origin and is Amazon's founder.
+Statement 3 is CORRECT: The planned fourth mission was to deploy the first batch of Amazon Leo satellites, competing with SpaceX's Starlink.
+Statement 1 is WRONG: New Glenn uses liquid methane and liquid oxygen (BE-4 engines), not liquid hydrogen.`
+        },
+        {
+          question: `With reference to the Governor of a State in India, consider the following statements:
+Statement I: When a Chief Minister resigns, the Council of Ministers stands dissolved and President's Rule is automatically imposed under Article 356.
+Statement II: Article 164(1) provides that the Chief Minister shall be appointed by the Governor, and other ministers shall be appointed by the Governor on the advice of the Chief Minister.
+
+Which of the following is correct in respect of the above statements?`,
+          options: [
+            "(a) Both statements are correct and Statement II explains Statement I.",
+            "(b) Both statements are correct but Statement II does not explain Statement I.",
+            "(c) Statement I is incorrect but Statement II is correct.",
+            "(d) Both statements are incorrect."
+          ],
+          answer: "(c)",
+          explanation: `Statement I is WRONG: President's Rule under Article 356 is not automatic when a CM resigns. When a CM resigns, the Council of Ministers dissolves under Article 164, but the Governor can immediately invite the majority party's new leader to form the government. Article 356 applies only when constitutional machinery breaks down and no alternative is available.
+Statement II is CORRECT: Article 164(1) explicitly states the CM is appointed by the Governor and other ministers are appointed on the CM's advice.`
+        }
+      ],
+      mains: [
+        {
+          question: `"The Supreme Court's evolving jurisprudence on sedition — from Kedar Nath Singh (1962) to S.G. Vombatkere (2022) to Kamran (2026) — reveals deep tensions between free speech and national security in India's constitutional framework. Critically examine."`,
+          context: `GS Paper II | Polity & Constitution | 250 words\n\nGuidance: Open by establishing what sedition law is and its colonial origin — added in 1870, not in the original 1860 IPC. Move through the three landmark judicial moments: Kedar Nath (upheld with safeguards — the incitement test), Vombatkere (froze all proceedings — acknowledged misuse), Kamran (partial unfreeze on consent basis). Analyse why the law persists despite wide acknowledgement of misuse. Bring in the BNS transition: the word "sedition" removed but the concept retained in Section 152. Conclude by noting the unresolved seven-judge bench challenge and its significance for India's free speech jurisprudence. Balance both sides — the genuine national security need and the real risk of chilling legitimate democratic dissent.`
+        },
+        {
+          question: `"Despite decade-long increases in government health expenditure, India remains significantly below its own National Health Policy 2017 target of 2.5% of GDP. What are the structural barriers and what policy course-corrections are needed?"`,
+          context: `GS Paper II | Health Policy & Governance | 150 words\n\nGuidance: Start with the data — 1.13% in FY14 to 1.43% in FY23; the target was 2.5% by 2025. Identify structural barriers: health is a state subject so the centre can fund but not mandate; post-pandemic fiscal consolidation reduced emergency health allocations; high dependence on private healthcare persists. Use OOPE data as the human cost of the gap. Policy corrections: increase health allocation in the Union Budget, strengthen Ayushman Bharat infrastructure under PM-ABHIM, expand PMBJP reach, incentivise states to increase health spending through Finance Commission conditionalities. Close with the SDG 3.8 Universal Health Coverage target — still a work in progress.`
+        }
+      ]
+    }
+  },
+  {
+    id: "2025-05-30",
+    date: "30th May 2025",
+    day: "Friday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    announcement: "Today's edition covers India's maritime muscle-flexing post-Operation Sindoor, a landmark Supreme Court order on NEET-PG fairness, the government's annual crop price guarantee, a record-breaking monsoon arrival, the crackdown on digital shopping tricks, and India's federal planning summit. Six stories. All you need.",
+    topics: [
+      {
+        id: "2025-05-30-1",
+        title: "INS Vikrant & The Post-Sindoor Naval Signal",
+        subtitle: "Must Read | Security & Defence, Polity | UPSC, CDS, State PCS",
+        content: `Defence Minister Rajnath Singh boarded INS Vikrant off the Goa coast on 30th May 2025, delivering one of the sharpest post-conflict diplomatic signals since 1971. He warned Pakistan that the Indian Navy's silence during Operation Sindoor was strategic, not absent, signaling that next time it won't be silent.\n\nWeeks after Operation Sindoor's successful strikes on nine terrorist sites in Pakistan and PoK (7–10 May 2025), Rajnath Singh visited navy personnel aboard INS Vikrant (India's first indigenous aircraft carrier) in the Arabian Sea, accompanied by Chief of Naval Staff Admiral Dinesh K Tripathi. He praised the Navy's "silent service" — the Carrier Battle Group kept the Pakistani Navy bottled up near the Makran Coast throughout the conflict without firing a shot. Singh pointed to the 1971 war when the Indian Navy's actions resulted in Pakistan being split in two, implying that active naval combat in Operation Sindoor could have had far worse consequences for Pakistan. He reaffirmed that Operation Sindoor is "not over, but a pause" and linked its success to the Make in India defence initiative, with indigenous assets like the BrahMos and INS Vikrant at the center. Rafale Marine jets are set to join the fleet under an Inter-Governmental Agreement with France.\n\n**Key Data:**\n- **INS Vikrant:** Commissioned Sept 2022 by PM Modi; built by Cochin Shipyard Limited; designed by Warship Design Bureau; cost ~₹20,000 crore.\n- **Aircraft:** Currently MiG-29K; 26 Rafale Marine jets incoming.\n- **Operation Sindoor:** 7–10 May 2025; Navy Carrier Battle Group blockaded/bottled up Pak Navy near Makran Coast.`,
+        whyItMatters: "Strategic shifts in India's naval power, the role of indigenous defence systems, maritime deterrence, and Article 51 of the UN Charter (right to self-defence) are highly relevant for internal security and international relations.",
+        revise: "Make in India in Defence, Defence Production Policy 2020, Warship Design Bureau (WDB), and the differences between INS Vikrant (indigenous) and INS Vikramaditya (Russian origin)."
+      },
+      {
+        id: "2025-05-30-2",
+        title: "NEET-PG 2025 Single Shift Order: What the Supreme Court Really Said",
+        subtitle: "Must Read | Polity & Governance, Education | UPSC, SSC, State PCS, Banking",
+        content: `On 30th May 2025, a three-judge Supreme Court bench headed by Justice Vikram Nath ruled that the NEET-PG 2025 exam must be held in a single shift, not two. This decision was based on constitutional fairness, noting that administering two different question papers with differing difficulty levels introduces arbitrariness and violates equal competition.\n\nThe National Board of Examinations in Medical Sciences (NBEMS) had planned a two-shift exam for June 15, 2025, citing logistics and lack of centers. The Supreme Court rejected this constraint, emphasizing that technological advancements should allow the conducting body to organize the exam in a single shift. The court also directed the publication of raw scores and answer keys for complete transparency. The exam was subsequently rescheduled to August 3, 2025.\n\n**Key Data:**\n- **Exam:** NEET-PG 2025 (MD/MS/PG Diploma admissions).\n- **Conducting Body:** NBEMS (National Board of Examinations in Medical Sciences).\n- **SC Bench:** Justices Vikram Nath, Sanjay Kumar, and N V Anjaria.\n- **Verdict:** Two shifts violate equal opportunity; single shift mandated.`,
+        whyItMatters: "Directly relates to constitutional rights (Article 14 - Right to Equality), transparency in public examinations, and the limits of administrative discretion under judicial review.",
+        revise: "Article 14, National Medical Commission (NMC) Act 2019, difference between regulatory body (NMC) and conducting body (NBEMS vs NTA)."
+      },
+      {
+        id: "2025-05-30-3",
+        title: "MSP for Kharif 2025-26: What the Numbers Actually Mean",
+        subtitle: "Must Read | Economy & Agriculture | UPSC, SSC, Banking, RBI, State PCS",
+        content: `The Cabinet Committee on Economic Affairs (CCEA), chaired by PM Modi, approved the revised Minimum Support Prices (MSP) for 14 Kharif crops for the 2025-26 marketing season. The government reiterated its commitment to ensuring farmers get a minimum of 1.5 times the cost of production (first committed in the 2018-19 Budget).\n\nPaddy (common) MSP was raised by ₹69 to ₹2,369 per quintal. However, the largest absolute increases were directed towards millets, oilseeds, and pulses to encourage crop diversification. Nigerseed received the highest absolute hike of ₹820/quintal, and Ragi was increased by ₹596. Bajra farmers are projected to receive the highest cost margin at 63%. Additionally, the government extended the Modified Interest Subvention Scheme (MISS) for FY 2025-26 to provide short-term credit at subsidized interest rates.\n\n**Key Data:**\n- **Paddy (Common):** ₹2,369/quintal (+₹69)\n- **Nigerseed:** Highest absolute hike (+₹820/quintal)\n- **Ragi:** +₹596/quintal\n- **Tur (Arhar):** ₹8,000/quintal (+₹450)\n- **Urad:** ₹7,800/quintal (+₹400)\n- **Bajra:** Cost margin of 63%\n- **Recommending Body:** Commission for Agricultural Costs and Prices (CACP)\n- **Approving Body:** CCEA`,
+        whyItMatters: "MSP calculations, crop diversification incentives, the role of CACP/CCEA, and the distinction between administrative support prices and legal guarantees are foundational to agricultural economics and policymaking.",
+        revise: "CACP (recommends), CCEA (approves), cost concepts (A2, A2+FL, C2), Kharif vs Rabi crops, and the Shree Anna (Millets) promotion initiative."
+      },
+      {
+        id: "2025-05-30-4",
+        title: "The Monsoon That Came Early: Atmospheric Drivers & Agricultural Impact",
+        subtitle: "Important | Environment & Geography | UPSC, SSC, Banking, State PCS",
+        content: `The southwest monsoon arrived over Kerala on 24th May 2025 — eight days earlier than the normal June 1 onset, marking the earliest arrival since 2009. By 30th May, the monsoon advanced rapidly, reaching Mumbai (earliest in 35 years), Karnataka, Goa, Lakshadweep, and several northeastern states (Manipur, Mizoram, Nagaland).\n\nKey atmospheric drivers behind this early onset include:\n1. **Madden-Julian Oscillation (MJO):** Favorable phase over the Indian Ocean enhanced convection.\n2. **Mascarene High:** High-pressure system in the South Indian Ocean accelerated moisture-laden southwesterly winds toward India.\n3. **Neutral ENSO:** Baseline conditions (neither El Niño nor La Niña) removed obstacles to rainfall.\n4. **Reduced Himalayan Snow Cover:** Promoted stronger thermal low-pressure zones over the subcontinent.\n\nThis early arrival allows early sowing for Kharif crops but has also posed severe urban flooding challenges in cities like Mumbai, where Colaba recorded 135mm of rain in one morning.\n\n**Key Data:**\n- **Kerala Onset:** 24th May 2025 (8 days early).\n- **Mumbai Onset:** 25th May 2025.\n- **IMD Onset Criteria:** Simultaneously requires rainfall thresholds (≥2.5mm at 60% of 14 designated stations for 2 consecutive days after May 10), wind field depth (westerlies up to 600 hPa), and Outgoing Longwave Radiation (OLR) satellite measurements.`,
+        whyItMatters: "The monsoon mechanism, geographical features influencing wind flow, global climate drivers (ENSO, MJO), and technical criteria for forecasting are core concepts in physical geography.",
+        revise: "Monsoon mechanism, Mascarene High, MJO, ENSO phases, and IMD's onset criteria."
+      },
+      {
+        id: "2025-05-30-5",
+        title: "Dark Patterns: Consumer Protection Crackdown on Digital Commerce",
+        subtitle: "Important | Economy, Governance, Consumer Rights | UPSC, Banking, SSC, RBI",
+        content: `Union Consumer Affairs Minister Prahlad Joshi chaired a meeting with over 50 e-commerce platforms to crack down on 'dark patterns' — manipulative user interface designs that trick consumers into making unintended purchases or sharing personal data.\n\nThe Ministry formally identified 13 dark patterns, including:\n- **False Urgency:** Fake countdown timers to induce panic buying.\n- **Basket Sneaking:** Silently adding unrequested products or subscriptions at checkout.\n- **Confirm Shaming:** Using guilt-inducing prompts to discourage opt-outs (e.g., "No thanks, I don't want to save money").\n- **Drip Pricing:** Incrementally revealing hidden fees near the end of a transaction.\n- **Subscription Traps:** Making cancellation convoluted and difficult compared to signup.\n\nE-commerce platforms agreed to comply with the Guidelines on Dark Patterns issued under the Consumer Protection Act, 2019, overseen by the Central Consumer Protection Authority (CCPA). A joint working group will monitor compliance due to surging complaints on the National Consumer Helpline (1800-11-4000).\n\n**Key Data:**\n- **Legal Basis:** Section 18 of the Consumer Protection Act, 2019.\n- **Enforcing Agency:** CCPA.\n- **National Helpline:** 1800-11-4000.`,
+        whyItMatters: "Directly relates to consumer rights in the digital era, corporate governance, consumer grievance redressal mechanisms, and the regulatory mandate of the CCPA.",
+        revise: "Consumer Protection Act 2019 key features, CCPA vs Competition Commission of India (CCI), six consumer rights, and E-Commerce Rules 2020."
+      },
+      {
+        id: "2025-05-30-6",
+        title: "NITI Aayog's 10th Governing Council: Cooperative Federalism & 'Team India'",
+        subtitle: "Good to Know | Polity & Governance | UPSC, State PCS",
+        content: `PM Modi chaired the 10th Governing Council meeting of NITI Aayog at Bharat Mandapam, New Delhi on 24th May 2025. Under the theme "Viksit Rajya for Viksit Bharat@2047," the meeting highlighted that national progression requires all states to develop concurrently.\n\nRepresentatives from 24 states and 7 UTs attended, although Chief Ministers from Karnataka, Kerala, West Bengal, Bihar, and Puducherry boycotted the meeting. Key takeaways included:\n- **One State: One Global Destination:** Promoting at least one global tourist spot per state.\n- **Future-Ready Cities:** Fostering urban hubs driven by growth, innovation, and sustainability.\n- **Trade Agreements:** Urging states to leverage India's new trade deals with the UK, UAE, and Australia.\n\nAs the first council meeting after Operation Sindoor, it carried symbolic weight for Centre-State cooperation. Crucially, the meeting highlighted NITI Aayog's advisory nature, since it does not have the power to allocate central plan funds.\n\n**Key Data:**\n- **Established:** 1 January 2015 (replacing the Planning Commission).\n- **Chairman:** Prime Minister (ex-officio).\n- **Governing Council:** PM, all State CMs, and UT Lt. Governors.\n- **Financial Devolution:** None (handled by the Finance Commission under Article 280).`,
+        whyItMatters: "Cooperative federalism, decentralized planning models, the evolution of planning institutions in India, and the distinction between advisory and financial allocation bodies are central to Polity.",
+        revise: "Differences between NITI Aayog and the Planning Commission, Governing Council composition, and the Finance Commission's role under Article 280."
+      }
+    ],
+    reviseSummary: [
+      "INS Vikrant — Defence indigenisation, WDB, CSL, and comparison with INS Vikramaditya.",
+      "NEET-PG Order — Judicial Review, Article 14, NMC Act 2019, and NBEMS vs NMC vs NTA functions.",
+      "MSP Kharif 2025-26 — Agricultural Price Policy, CACP, CCEA, A2+FL cost formula, and FCI procurement.",
+      "Early Monsoon — Monsoon onset criteria (rainfall, wind, OLR), MJO, Mascarene High, and ENSO impact.",
+      "Dark Patterns — Consumer Protection Act 2019, CCPA structure, and e-commerce guidelines.",
+      "NITI Aayog — Cooperative federalism, comparison with Planning Commission, and Finance Commission (Article 280).",
+      "Species Spotlight — The Dhole (Cuon alpinus): Endangered on IUCN Red List, protected under Schedule II of Wildlife Protection Act 1972.",
+      "Har Shikhar Tiranga Mission — Ascent of Kanchenjunga (8,586 m), located on the India-Nepal border (Sikkim side).",
+      "CRISPR Custom Gene Therapy — Gene-editing technology, DNA sequences editing."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about INS Vikrant (commissioned 2022):\n1. It was designed by the Warship Design Bureau of the Indian Navy.\n2. It was built by Mazagon Dock Shipbuilders Limited.\n3. It was commissioned by Prime Minister Narendra Modi in September 2022.\n\nWhich of the above statements is/are correct?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a)",
+          explanation: "Statement 2 is wrong: INS Vikrant was built by Cochin Shipyard Limited (CSL), not Mazagon Dock. Mazagon Dock builds submarines and destroyers. Both are PSU shipyards, but for different assets — this is a classic trap. Statements 1 and 3 are correct."
+        },
+        {
+          question: "With reference to the Minimum Support Price (MSP) system in India, which of the following statements is/are correct?\n1. MSP is recommended by the Cabinet Committee on Economic Affairs (CCEA).\n2. Since 2018-19, MSP has been fixed at a minimum of 1.5 times the All-India weighted average cost of production.\n3. MSP is a legally enforceable minimum price that all buyers must pay farmers.\n\nWhich of the options below is/are correct?",
+          options: [
+            "(a) 2 only",
+            "(b) 1 and 2 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a)",
+          explanation: "Statement 1 is wrong: MSP is recommended by CACP and approved by CCEA — two separate steps. Statement 3 is wrong: MSP has no legal backing for private purchases. Only government procurement agencies (FCI, NAFED) are obligated to buy at MSP. Private buyers have no such legal obligation. Statement 2 is correct."
+        },
+        {
+          question: "The onset of the southwest monsoon over Kerala is declared by IMD when which of the following conditions are simultaneously satisfied?\n1. At least 60% of 14 designated weather stations record ≥ 2.5 mm of rainfall for two consecutive days after 10th May.\n2. Westerly winds at 925 hPa should have speed of 15-20 knots and depth up to 600 hPa.\n3. Outgoing Longwave Radiation (OLR) should be below a threshold value over the region.",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(d)",
+          explanation: "All three criteria must be simultaneously satisfied. Students often know only the rainfall criterion. The OLR criterion — measuring cloudiness and convection from satellite data — is frequently missed. This is a direct test of the IMD's technical protocol, which UPSC Geography questions increasingly demand."
+        },
+        {
+          question: "Consider the following pairs relating to Dark Patterns in e-commerce:\n1. Basket Sneaking — Adding unrequested items or subscriptions to cart during checkout\n2. Confirm Shaming — Hiding the opt-out button to prevent unsubscribing\n3. Drip Pricing — Revealing additional charges progressively near the end of a transaction\n\nWhich of the above pairs are correctly matched?",
+          options: [
+            "(a) 1 and 3 only",
+            "(b) 2 and 3 only",
+            "(c) 1 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(a)",
+          explanation: "Pair 2 is wrong: Confirm Shaming is using guilt-inducing language on the decline option (e.g., \"No thanks, I prefer to pay full price\") — NOT hiding the opt-out button. Hiding the opt-out button is a separate dark pattern. Pairs 1 and 3 are correctly defined."
+        },
+        {
+          question: "With reference to NITI Aayog, which of the following statements is INCORRECT?",
+          options: [
+            "(a) NITI Aayog was established on 1 January 2015, replacing the Planning Commission.",
+            "(b) The Prime Minister is the ex-officio Chairman of NITI Aayog.",
+            "(c) NITI Aayog has the power to allocate central plan funds to state governments.",
+            "(d) The Governing Council of NITI Aayog includes Chief Ministers of all states and Lieutenant Governors of Union Territories."
+          ],
+          answer: "(c)",
+          explanation: "NITI Aayog does not have fund-allocation powers. The Planning Commission had this power. NITI Aayog is purely advisory. Funds to states flow through the Finance Commission (Article 280) formula and the Union Budget. Options (a), (b), and (d) are all correct statements."
+        }
+      ],
+      mains: [
+        {
+          question: `"Operation Sindoor has demonstrated that self-reliance in defence is not merely a policy aspiration but a strategic necessity. In light of India's defence indigenisation journey, examine the significance of INS Vikrant and the Make in India initiative in reshaping India's military deterrence posture."`,
+          context: "GS Paper III | Defence & Security | 250 words\n\nGuidance: Structure around three pillars — (1) What Operation Sindoor revealed about India's indigenous capability: BrahMos usage, INS Vikrant's deterrence role, the Carrier Battle Group's strategic restraint; (2) The policy architecture of Make in India in defence: DPP 2020, positive indigenisation lists, defence corridors in UP and Tamil Nadu, DRDO's expanding role; (3) Limitations and the road ahead: continued dependence on imports for critical systems, the Rafale Marine deal, technology transfer challenges. Close with the strategic autonomy argument — a nation that cannot build its own weapons cannot claim true sovereignty in foreign policy."
+        },
+        {
+          question: `"India's NEET examination system has been beset with controversies that reveal deeper structural issues in the governance of competitive examinations. Critically examine, with reference to recent judicial interventions."`,
+          context: "GS Paper II | Governance & Education | 150 words\n\nGuidance: Cover three threads — (1) What went wrong: NEET-UG 2024 paper leak, NEET-PG two-shift arbitrariness issue; (2) What the courts have done: SC's interventions grounded in Articles 14 and 21 — right to fair and equal opportunity as part of the right to life; (3) Structural reform needed: a single national exam regulator, transparent normalisation methodology, CBT infrastructure expansion. The NEET system is fundamentally a constitutional question about equality of opportunity — keep that thread visible throughout your answer."
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-05-31",
+    date: "31st May 2026",
+    day: "Sunday",
+    tagline: "नेति नेति — Less noise. More clarity.",
+    topics: [
+      {
+        id: "2026-05-31-1",
+        title: "World No Tobacco Day 2026: WHO Targets the Vaping Trap",
+        subtitle: "Must Read | Health & Environment | UPSC, SSC, Banking, RBI",
+        content: `Every year on 31st May, the World Health Organisation leads a global campaign to highlight the human cost of tobacco. For 2026, the focus has shifted from traditional cigarettes to new, glamorous-looking nicotine products that are hook-marketing to teenagers worldwide. These include e-cigarettes in fruit flavours, nicotine pouches marketed as "clean," and sleek vaping devices that resemble USB drives, which omit the word "tobacco" from their labels but deliver the same chemical dependency.\n\nThe official WHO theme for World No Tobacco Day 2026 is "Unmasking the Appeal — Countering Nicotine and Tobacco Addiction." The goal is to expose industry tactics targeted at youth and push governments for stricter regulation. India remains ahead of the curve, having banned e-cigarettes under the Prohibition of Electronic Cigarettes Act, 2019. The WHO estimates that tobacco-related illnesses claim over 8 million lives globally each year.\n\n**Key Data:**\n- **Date:** 31st May (Every year, established in 1987 by WHO Member States).\n- **Theme 2026:** "Unmasking the Appeal — Countering Nicotine and Tobacco Addiction".\n- **Annual Deaths:** 8 million+ globally.\n- **India's Legislation:** Prohibition of Electronic Cigarettes Act, 2019.\n- **Relevant SDGs:** SDG 3 (Good Health) and SDG 10 (Reduced Inequalities).`,
+        whyItMatters: "Public health policy, international conventions, and domestic regulations (DPSP Article 47) are core themes in social justice, health governance, and policy implementation.",
+        revise: "Article 47 of the Constitution (Directive Principles), National Tobacco Control Programme (NTCP), and the WHO Framework Convention on Tobacco Control (FCTC) ratified by India in 2004."
+      },
+      {
+        id: "2026-05-31-2",
+        title: "AMCA: India's Fifth-Generation Fighter Jet Hub",
+        subtitle: "Must Read | Science & Technology / Security & Defence | UPSC, CDS, SSC, State PCS",
+        content: `On 15th May 2026, Defence Minister Rajnath Singh and Andhra Pradesh Chief Minister N. Chandrababu Naidu laid the foundation stone for the Aircraft Integration and Flight Testing Centre at Puttaparthi in Sri Sathya Sai district. This facility serves as the core development and integration hub for India's Advanced Medium Combat Aircraft (AMCA) programme.\n\nThe AMCA is India's indigenous fifth-generation stealth multirole fighter jet. The overall programme carries an outlay of approximately ₹15,000 crore, with the Puttaparthi facility spreading across 650 acres at an estimated cost of ₹2,000 crore. The Aeronautical Development Agency (ADA), functioning under the DRDO, will jointly develop this facility. Andhra Pradesh will also extend the local runway to 10,000 feet and construct a new Air Traffic Control tower to support flights. Approximately 140 AMCA units are planned for manufacture here. The prototype is expected by late 2026 or early 2027, with induction into the IAF targeted around 2034–35, placing India in an exclusive club with the US, Russia, and China.\n\n**Key Data:**\n- **Project:** Advanced Medium Combat Aircraft (AMCA) - 5th Generation Stealth Multirole Fighter.\n- **Developing Agency:** ADA under DRDO.\n- **Location:** Puttaparthi, Sri Sathya Sai district, Andhra Pradesh.\n- **Budget:** ~₹15,000 crore programme outlay; ~₹2,000 crore facility cost.\n- **Target:** First prototype by late 2026/early 2027; induction by 2034–35.`,
+        whyItMatters: "Crucial for studying indigenisation of technology, defence manufacturing, security deterrence, and structural partnerships between DRDO, ADA, and manufacturing units like HAL.",
+        revise: "Aatmanirbhar Bharat in defence, Defence Acquisition Procedure (DAP), roles of ADA vs DRDO vs HAL, and fifth-generation fighter characteristics (stealth, supercruise, sensor fusion)."
+      },
+      {
+        id: "2026-05-31-3",
+        title: "Mission Drishti: The Launch of the First OptoSAR Satellite",
+        subtitle: "Must Read | Science & Technology | UPSC, SSC, Banking",
+        content: `On 3rd May 2026, Bengaluru-based space startup GalaxEye successfully launched Mission Drishti, the world's first OptoSAR satellite. The 190 kg spacecraft, which is India's largest privately built satellite to date, was launched aboard a SpaceX Falcon 9 rocket from Vandenberg Space Force Base, California.\n\nMission Drishti is a milestone because it combines optical imaging and Synthetic Aperture Radar (SAR) sensors on a single platform. Standard Earth observation satellites must choose between high-definition optical photographs (which cannot see through clouds or darkness) and radar sensors (which work in all-weather conditions but produce grainy images). GalaxEye's hybrid sensor resolves this limitation to produce high-resolution, all-weather "decision-grade" intelligence. The satellite was developed over five years by IIT Madras alumni who founded the company in 2021. The launch represents a significant victory for India's private space ecosystem, facilitated by the regulatory clearinghouse IN-SPACe.\n\n**Key Data:**\n- **Mission:** Mission Drishti (World's first hybrid OptoSAR satellite).\n- **Developer:** GalaxEye (Bengaluru startup founded by IIT Madras alumni).\n- **Specifications:** 190 kg weight; launched via SpaceX Falcon 9.\n- **Regulator:** IN-SPACe (Indian National Space Promotion and Authorisation Centre).`,
+        whyItMatters: "Important for space tech advancements, radar imaging applications, commercialization of space, and the evolution of the Indian space ecosystem through private sector participation.",
+        revise: "Indian Space Policy 2023, IN-SPACe (est. 2020), NewSpace India Limited (NSIL), and Synthetic Aperture Radar (SAR) compared to optical sensors."
+      },
+      {
+        id: "2026-05-31-4",
+        title: "MHA's High-Level Committee on Demographic Changes (HLCDC)",
+        subtitle: "Important | Polity & Governance | UPSC, State PCS",
+        content: `On 26th May 2026, the Ministry of Home Affairs (MHA) formally constituted the High-Level Committee on Demographic Changes (HLCDC). The committee is tasked with conducting a scientific study of the nature, causes, and consequences of demographic shifts in India and recommending legal, policy, and administrative measures in response.\n\nThe committee is chaired by retired Supreme Court judge Justice Prakash Prabhakar Naolekar and is headquartered in New Delhi. It has been directed to submit its final report within one year and holds the power to requisition information from any ministry, state government, or public authority. The MHA resolution highlighted that demographic changes — especially in border districts, tribal belts, industrial corridors, and urban areas — are putting pressure on public services, governance, and social cohesion. This formalizes a Budget 2024 policy announcement by the Finance Minister, following warnings about demographic pressures linked to illegal infiltration.\n\n**Key Data:**\n- **Body:** High-Level Committee on Demographic Changes (HLCDC).\n- **Chairman:** Justice Prakash Prabhakar Naolekar (Retd., former SC Judge).\n- **Nodal Ministry:** Ministry of Home Affairs (MHA).\n- **Timeline:** Final report within one year.`,
+        whyItMatters: "Significant for examining border management, demographic security, internal migration, citizenship laws, and constitutional governance frameworks.",
+        revise: "Citizenship provisions in the Constitution (Articles 5-11), Citizenship (Amendment) Act 2019, Foreigners Act 1946, and Seventh Schedule distributions (Union list on border security)."
+      },
+      {
+        id: "2026-05-31-5",
+        title: "Barrier-less Tolling: Live Deployment of MLFF Systems",
+        subtitle: "Important | Economy & Infrastructure / Science & Technology | UPSC, SSC, Banking",
+        content: `India deployed its first Multi-Lane Free Flow (MLFF) tolling system on the Mundka–Bakkarwala stretch of Urban Extension Road-II (UER-II) in Delhi in May 2026. The system eliminates physical toll booths and barrier gates, enabling vehicles to drive through at highway speeds without stopping.\n\nThe MLFF setup utilizes overhead gantries equipped with high-resolution cameras, FASTag (RFID) scanners, Automatic Number Plate Recognition (ANPR) technology, and LiDAR sensors to identify passing vehicles and automatically deduct toll charges. Unlike the traditional FASTag model that required vehicles to slow down or halt at a physical gate, MLFF enables seamless, uninterrupted traffic. Furthermore, this system supports distance-based charging, where drivers pay only for the exact kilometers traveled on a stretch, potentially lowering toll costs. The NHAI is simultaneously testing a parallel satellite-based system (GNSS - Global Navigation Satellite System) for national highway tracking.\n\n**Key Data:**\n- **System:** Multi-Lane Free Flow (MLFF) Tolling.\n- **Tech Stack:** ANPR + FASTag (RFID) + LiDAR + GNSS (under development).\n- **Initial Site:** Mundka–Bakkarwala stretch, Delhi (UER-II).\n- **Implementing Agency:** NHAI under the Ministry of Road Transport and Highways (MoRTH).`,
+        whyItMatters: "Important for examining transport logistics, infrastructure modernization under PM Gati Shakti, and how emerging sensor technology reduces economic friction and carbon emissions.",
+        revise: "FASTag RFID tech, ANPR, GNSS/satellite-based tolling, NHAI Act 1988, and the economic impact of logistics costs."
+      },
+      {
+        id: "2026-05-31-6",
+        title: "D.K. Shivakumar to be Sworn in as Karnataka CM",
+        subtitle: "Good to Know | Polity & Governance | State PCS (Karnataka), UPSC",
+        content: `D.K. Shivakumar, currently serving as the Deputy Chief Minister of Karnataka and Karnataka Pradesh Congress Committee president, is scheduled to be sworn in as the Chief Minister of Karnataka on June 3, 2026. This transition marks the conclusion of a power-sharing arrangement with outgoing Chief Minister Siddaramaiah, who has led the state since the party's election victory in 2023.\n\nFrom a constitutional perspective, the process is governed by Article 164. The Governor of the State appoints the Chief Minister based on their ability to command a majority in the Legislative Assembly. The outgoing Chief Minister tenders their resignation, after which the Governor administers the oath of office and secrecy to the incoming CM at Raj Bhavan. The Council of Ministers remains collectively responsible to the State Legislative Assembly under Article 164(2).\n\n**Key Data:**\n- **CM Designate:** D.K. Shivakumar.\n- **Outgoing CM:** Siddaramaiah.\n- **Date of Swearing-in:** June 3, 2026.\n- **Constitutional Reference:** Article 164.`,
+        whyItMatters: "Relevant for understanding state executive structures, Governor's discretionary powers under Article 163/164, and coalition/power-sharing dynamics in parliamentary democracy.",
+        revise: "Article 163 (Aid and advise), Article 164 (Appointment and collective responsibility), and Sarkaria Commission recommendations on the Governor's role in government formation."
+      }
+    ],
+    reviseSummary: [
+      "World No Tobacco Day — WHO theme 'Unmasking the Appeal', FCTC treaty (2004 ratification), Article 47 DPSP, and Prohibition of Electronic Cigarettes Act 2019.",
+      "AMCA Fighter Jet Hub — 5th-generation stealth parameters, Puttaparthi testing facility, Aeronautical Development Agency (ADA) vs HAL vs DRDO, and defence indigenisation.",
+      "Mission Drishti — Hybrid OptoSAR tech (optical + Synthetic Aperture Radar), Bengaluru-based GalaxEye launch, SpaceX Falcon 9, and the regulatory role of IN-SPACe.",
+      "HLCDC Committee — Justice Prakash Prabhakar Naolekar (Retd.) panel, demographic changes in border districts, and constitutional citizenship frameworks (Articles 5-11).",
+      "Barrier-less Tolling — Multi-Lane Free Flow (MLFF), ANPR, RFID (FASTag), LiDAR, and GNSS-based distance charging by NHAI.",
+      "State Executive Governance — Article 164 appointment procedures, Governor's discretionary boundaries, and collective responsibility of the Council of Ministers."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "World No Tobacco Day is observed every year on which date, and the 2026 theme announced by WHO focuses on:",
+          options: [
+            "(a) 31st May; reducing cigarette tax globally",
+            "(b) 7th April; countering nicotine and tobacco addiction",
+            "(c) 31st May; countering nicotine and tobacco addiction",
+            "(d) 7th April; reducing second-hand smoke exposure"
+          ],
+          answer: "(c)",
+          explanation: "7th April is World Health Day (WHO's founding anniversary). The specific date and correct 2026 theme together test whether you know both facts. Option (b) uses the right theme with the wrong date — a classic UPSC trap that rewards knowing the date, not just the theme."
+        },
+        {
+          question: "Consider the following statements about the AMCA (Advanced Medium Combat Aircraft) programme:\n1. It is being developed by HAL under the Ministry of Defence.\n2. The Core Integration and Flight Testing Centre is being established at Puttaparthi, Andhra Pradesh.\n3. AMCA will be a fifth-generation stealth multirole fighter aircraft.\n\nWhich of the above statements is/are correct?",
+          options: [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+          ],
+          answer: "(b)",
+          explanation: "Statement 1 is wrong — AMCA is being developed by the Aeronautical Development Agency (ADA) under DRDO, not HAL. HAL will eventually manufacture it, but development and design rests with ADA. Statements 2 and 3 are both correct. This question tests the ADA-HAL-DRDO distinction, which is a high-probability trap."
+        },
+        {
+          question: "Mission Drishti, launched in May 2026, is significant because:",
+          options: [
+            "(a) It is India's first satellite to use Synthetic Aperture Radar technology",
+            "(b) It is the world's first satellite to combine optical and SAR sensors on a single platform",
+            "(c) It was launched by ISRO as part of the EOS series",
+            "(d) It is the first Indian satellite to be launched by SpaceX"
+          ],
+          answer: "(b)",
+          explanation: "Option (a) is wrong — India has had SAR satellites before (e.g., RISAT series). Option (c) is wrong — it was developed by GalaxEye, a private startup; ISRO only provided testing support. Option (d) is factually true but not the primary reason it is significant — and it also distracts from the core technological achievement. The correct and complete answer is (b), which captures the global first."
+        },
+        {
+          question: "With reference to Multi-Lane Free Flow (MLFF) tolling in India, which of the following technology combinations is being used in the system currently deployed?",
+          options: [
+            "(a) FASTag (RFID) only",
+            "(b) GNSS-based satellite tracking only",
+            "(c) ANPR cameras + FASTag (RFID) + LiDAR sensors",
+            "(d) GNSS + ANPR cameras only"
+          ],
+          answer: "(c)",
+          explanation: "GNSS-based national tolling (option b and d) is under development by NHAI but is not yet live nationwide. The current deployed MLFF system uses ANPR cameras (to read number plates), FASTag RFID (to deduct toll), and LiDAR sensors (to detect vehicles). Option (a) is the old FASTag model which still required slowing down. This question will punish aspirants who read only one source."
+        },
+        {
+          question: "The High-Level Committee on Demographic Changes (HLCDC), constituted by MHA in May 2026, was chaired by:",
+          options: [
+            "(a) A serving IAS officer from the Home Ministry",
+            "(b) A retired Supreme Court judge",
+            "(c) The Union Home Secretary",
+            "(d) A retired High Court judge nominated by the CJI"
+          ],
+          answer: "(b)",
+          explanation: "The committee is chaired by Justice Prakash Prabhakar Naolekar (Retd.), a former Supreme Court judge. Option (a) is wrong — the Joint Secretary (Foreigners-I) is the Member Secretary, not the Chair. Option (c) is wrong — the Home Secretary is not heading the committee. Option (d) is wrong — no High Court judge is involved. The distinction between Chair and Member Secretary is the trap here."
+        }
+      ],
+      mains: [
+        {
+          question: `"The emergence of new nicotine delivery systems poses challenges that existing tobacco control frameworks were not designed to address. Critically examine India's preparedness to regulate these products."`,
+          context: "GS Paper II | Health Governance | 250 words\n\nGuidance: Cover FCTC, India's Prohibition of E-Cigarettes Act 2019, the gap between law and enforcement, the youth targeting angle WHO highlights, and what India still needs — a regulatory framework for nicotine pouches, synthetic nicotine, and flavoured products."
+        },
+        {
+          question: `"India's progress towards defence indigenisation has moved from aspiration to execution. Using recent examples, assess the structural and institutional factors that will determine whether this progress is sustained."`,
+          context: "GS Paper III | Internal Security & Defence Manufacturing | 300 words\n\nGuidance: Use AMCA (ADA-DRDO-HAL ecosystem), Tejas (already inducted, shows the model works), the Defence Acquisition Procedure 2020, the 68% indigenisation mandate, Aatmanirbhar Bharat Defence policy, and the role of private sector (like GalaxEye in the space sector as a parallel). Structural challenges: long development timelines, technology gap vs. China's sixth-gen programme, manpower in defence R&D."
+        }
+      ]
+    }
   }
 ];
 
