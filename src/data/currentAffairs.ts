@@ -8131,6 +8131,229 @@ Statement II is CORRECT: Article 164(1) explicitly states the CM is appointed by
         }
       ]
     }
+  },
+  {
+    id: "2026-06-01",
+    date: "1st June 2026",
+    day: "Monday",
+    tagline: "Less noise. More clarity. Six topics that matter — explained the way a good mentor would, over coffee.",
+    announcement: "🐾 Ocean Census — New Species Discovered | 📋 Census 2026 — Self-Enumeration Phase Begins | 🏆 DK Shivakumar — Karnataka CM | ⚽ FIFA World Cup 2026 Trophy in India",
+    topics: [
+      {
+        id: "6-1",
+        title: "INDIA-OMAN CEPA: INDIA'S FIFTH FREE TRADE AGREEMENT GOES LIVE",
+        subtitle: "Economy & International Relations | UPSC, State PCS, Banking, SSC",
+        content: "The India-Oman CEPA, signed in Muscat on 18th December 2025, formally entered into force today. Commerce Minister Piyush Goyal confirmed the implementation, calling it a significant milestone in India's trade diplomacy. Under the agreement, Indian goods get zero-duty access to 98.08% of Oman's tariff lines — accounting for 99.38% of trade value. Oman, in turn, receives duty concessions on 77.79% of India's tariff lines.\nBilateral trade between the two countries stood at $11.18 billion in 2025-26, up from $10.61 billion the year before. India exported $4.02 billion to Oman while importing $7.16 billion. The agreement also includes a services chapter, with Oman raising the ceiling for Indian intra-corporate transferees from 20% to 50%, and easier entry for independent professionals. Preferential Certificates of Origin can now be issued through the Trade Connect ePlatform from today. Key Indian sectors to benefit include textiles, leather, plastics, marine products, automobiles, processed food, gems & jewellery, pharmaceuticals, and medical devices.",
+        whyItMatters: "Students often confuse CEPA with a plain FTA. A CEPA is broader — it covers goods, services, investment, and trade facilitation in one package. A plain FTA typically covers goods only. Also: the UAE CEPA came into force on 1st May 2022 — this is a very testable date. The Oman CEPA is India's fifth FTA under Modi, not the first with a Gulf country (UAE was first).",
+        revise: "Polity: Trade agreements fall under the Union List (Entry 14). Parliament's ratification is not required — the Executive has this power under Article 73.\nEconomy: The Customs Tariff Act, 1975 (Section 5) governs Rules of Origin frameworks — the legal backbone of today's notification.\nGeography: Oman is part of the Gulf Cooperation Council (GCC). India-Gulf trade composition — energy imports vs. manufactured goods exports — is a recurring Mains theme.",
+        pyqConnect: "Prelims: Which was India's first CEPA? (UAE, 2022) | CEPA vs FTA | Under which Act are Rules of Origin notified? (Customs Tariff Act, 1975)\nMains: GS Paper 2 — India's trade diplomacy with the Gulf region. GS Paper 3 — impact of preferential trade agreements on India's export competitiveness."
+      },
+      {
+        id: "6-2",
+        title: "SOUTH COAST RAILWAY ZONE: INDIA'S 18TH RAILWAY ZONE BEGINS OPERATIONS",
+        subtitle: "Governance & Polity / Geography | UPSC, State PCS, SSC, RRB",
+        content: "The Union Government formally notified the South Coast Railway Zone on 4th May 2026, with 1st June 2026 set as the operational date. The zone is headquartered at Visakhapatnam (Vizag) and fulfils a long-pending commitment under the Andhra Pradesh Reorganisation Act, 2014 — the legislation that bifurcated Andhra Pradesh and Telangana.\nThe new zone covers approximately 3,532 km of rail network and includes 385 stations. It has four divisions: Vijayawada, Guntur, and Guntakal (carved out of South Central Railway), and a newly created Visakhapatnam division (reorganised from the erstwhile Waltair division of East Coast Railway). PM Modi had laid the foundation stone for the zonal headquarters at Vizag in January 2025. Railway Minister Ashwini Vaishnaw confirmed 1st June as the operational date on 28th April 2026.",
+        whyItMatters: "Before today, India had 17 railway zones. After SCoR, there are 18. Exams often give options like 16, 17, or 19 — 18 is now the correct answer from 1st June 2026. Also: some questions will try to confuse SCoR with the South Central Railway (SCR), headquartered at Secunderabad. They are different zones. SCR still exists — SCoR is new and separate.",
+        revise: "Polity: The AP Reorganisation Act, 2014 promised a railway zone to AP. This connects to Article 3 of the Constitution — Parliament's power to alter state boundaries.\nGeography: Visakhapatnam is a major port city on India's eastern coast. Port-rail connectivity on the Bay of Bengal coast is a recurring Geography angle.\nEconomy: Railway zones are administrative units for freight. The port-rail nexus at Vizag matters for trade and logistics policy."
+      },
+      {
+        id: "6-3",
+        title: "BRAHMOS FOR VIETNAM: INDIA'S DEFENCE EXPORTS EXPAND IN SOUTHEAST ASIA",
+        subtitle: "Security & Defence / International Relations | UPSC, State PCS",
+        content: "Speaking at the Shangri-La Dialogue in Singapore — Asia's premier defence forum — India's Defence Secretary Rajesh Kumar Singh confirmed that an agreement to supply BrahMos supersonic cruise missiles to Vietnam had already been signed, though not formally announced publicly. He added that discussions with Indonesia were in the final stages.\nThe Vietnam deal is estimated to be worth approximately ₹6,000 crore ($629 million), including training and logistical support, making it one of Vietnam's largest-ever defence acquisitions. The deal was likely discussed during Vietnamese President To Lam's state visit to India in early May 2026. Vietnam and India also launched a 2+2 Ministerial Dialogue format — annual bilateral discussions on defence, security, and diplomacy.\nBrahMos is a joint venture between India's DRDO and Russia's NPO Mashinostroyenia, set up in 1998 under BrahMos Aerospace. It flies at Mach 2.8, can be launched from submarines, ships, aircraft, or land platforms, and is considered one of the world's most formidable anti-ship weapons.",
+        whyItMatters: "BrahMos is named after two rivers — Brahmaputra (India) and Moskva (Russia). It is an India-Russia joint venture, not a purely Indian product. Also, the Philippines was the FIRST foreign buyer of BrahMos — not Vietnam. Vietnam is the second confirmed buyer. Some options may swap this sequence.",
+        revise: "Defence: India aims for ₹50,000 crore in defence exports by 2029. BrahMos is the flagship of the Make in India defence strategy.\nIR: The Shangri-La Dialogue is hosted annually by the International Institute for Strategic Studies (IISS) in Singapore.\nGeography: Vietnam's interest in BrahMos is directly linked to the South China Sea dispute and the nine-dash line — understanding this maritime geography adds depth to IR answers."
+      },
+      {
+        id: "6-4",
+        title: "CHENAB-BEAS LINK TUNNEL: INDIA'S WATER STRATEGY AFTER THE INDUS TREATY FREEZE",
+        subtitle: "Environment / Economy / International Relations | UPSC, State PCS",
+        content: "The Centre approved the Chenab-Beas Link Tunnel Project in Lahaul-Spiti, Himachal Pradesh, in May 2026. The project involves diverting water from the Chandra river — a tributary of the Chenab — through an 8.7-km tunnel into the Beas basin. Phase-I includes a 19-metre-high barrage on the Chandra river near Koksar village.\nOnce complete, it is expected to enable approximately 4,000 MW of additional hydropower generation in Himachal Pradesh and increase irrigation supply to Punjab and Haryana. A second complementary project — the Dulhasti Stage-II hydropower project in Jammu & Kashmir's Kishtwar district — brings the combined investment to nearly ₹2,600 crore.\nThe strategic context is critical: under the Indus Waters Treaty (1960), Chenab was designated a Pakistan-allocated Western river. With the treaty now in abeyance following Operation Sindoor (May 2025), India is moving to utilise this water domestically for the first time in a meaningful way.",
+        whyItMatters: "The Chenab is a Western river under IWT — allocated to Pakistan. The Beas is an Eastern river — allocated to India. The tunnel moves water from a Pakistan-allocated basin to an India-allocated basin. This is legally and strategically significant, not just an engineering project. Also: the IWT was brokered by the World Bank (not the UN, not the IMF) and signed in 1960 — highly testable.",
+        revise: "Geography: The Chandra and Bhaga rivers merge to form the Chenab at Tandi in Lahaul. Western rivers: Indus, Jhelum, Chenab. Eastern rivers: Ravi, Beas, Sutlej.\nIR: India's position is that the treaty is in abeyance — not terminated. This is a legally nuanced position crucial for Mains answers.\nEconomy: NHPC is a CPSE under the Ministry of Power. The National Water Development Agency (NWDA) is the body that prepared the National Perspective Plan for river interlinking."
+      },
+      {
+        id: "6-5",
+        title: "THE ARAVALLIS: INDIA'S OLDEST MOUNTAINS AND THEIR CONTESTED PROTECTION",
+        subtitle: "Environment & Ecology / Governance | UPSC, State PCS",
+        content: "In November 2025, the Supreme Court accepted a definition proposed by a MoEF&CC committee: the Aravallis would be defined as hills rising 100 metres or more above local ground level. Critics argued this left most of the ecologically important range — its foothills, valleys, and connecting ridges — outside legal protection. The Environment Ministry maintained that 90% of the range remained protected under existing eco-sensitive zone and forest notifications.\nThe controversy deepened, with environmentalists warning that weakening the Aravalli barrier could allow the Thar Desert to advance eastward and lower groundwater tables across Rajasthan, Haryana, Gujarat, and Delhi-NCR. On 29th December 2025, the SC stayed its own order and constituted a fresh high-powered expert committee. The Centre also directed all states to ban new mining leases across the entire Aravalli landscape. The Aravalli Green Wall Project — targeting restoration of 6.45 lakh hectares of degraded land — continues alongside these regulatory debates.",
+        whyItMatters: "Many students think the Aravallis are a young mountain system. They are the oldest fold mountain system in India — approximately 1.5-2 billion years old, far older than the Himalayas (which are geologically young). Also: Guru Shikhar in Rajasthan is the highest peak — not anything in Haryana or Delhi.",
+        revise: "Geography: The Aravallis act as a natural watershed, separating the Indus drainage (west) from the Ganga drainage (east). They also function as a climate barrier against hot Thar Desert winds.\nEnvironment: Connect to UNCCD (desertification), groundwater depletion, and the MMDR Act, 1957 which governs mining regulation.\nPolity: Expert committee-driven governance and judicial activism in environmental regulation is a recurring Mains theme."
+      },
+      {
+        id: "6-6",
+        title: "INDIA-CANADA RESET: TWO YEARS AFTER THE DIPLOMATIC RUPTURE",
+        subtitle: "International Relations | UPSC, State PCS",
+        content: "The India-Canada diplomatic crisis began in September 2023 when Canadian PM Justin Trudeau publicly alleged 'credible evidence' of Indian government involvement in the killing of Hardeep Singh Nijjar — a Sikh separatist — in British Columbia. India denied the allegations as 'absurd and politically motivated.' Both countries expelled senior diplomats, India suspended visa services for Canadian citizens, and trade negotiations were frozen.\nThe rupture began to ease following Mark Carney's election as Canadian PM in May 2025. Carney met PM Modi on the sidelines of the G7 summit in Kananaskis, Alberta in June 2025 — the first substantive bilateral PM meeting since 2018. Both sides agreed to restore full diplomatic representation, resume ministerial dialogues, and restart trade and mobility talks. High commissioners were reinstated in September 2025.\nBilateral engagement is now being rebuilt on pillars of AI collaboration, LNG supply, critical minerals, and supply chain diversification — practical economic interests that make prolonged estrangement costly for both nations. Unresolved issues — the Nijjar case and concerns about Sikh separatist activities in Canada — remain.",
+        whyItMatters: "India never admitted any involvement in the Nijjar case. India consistently called the allegations 'absurd' — this framing matters in IR answers. Also, the G7 summit in 2025 was held in Kananaskis, Alberta, Canada — not at a standard European G7 location. This is testable.",
+        revise: "IR: Diaspora politics in bilateral relations — the Indian diaspora in Canada (~1.8 million) is economically influential but carries political complexity due to Khalistan-sympathising factions.\nPolity: The UAPA is India's framework for designating terrorist organisations. Khalistan-related organisations are banned under Indian law.\nEconomy: Canadian pension funds (e.g., CPPIB) have significant investments in Indian infrastructure — a practical anchor for the diplomatic reset."
+      }
+    ],
+    reviseSummary: [
+      "Difference between FTA, CEPA, and PTA",
+      "India now has 18 railway zones — effective 1st June 2026",
+      "BrahMos Aerospace — India-Russia JV, 1998",
+      "IWT, 1960 — Western rivers to Pakistan; Eastern rivers to India",
+      "Aravallis - Oldest fold mountain system in India",
+      "Diaspora politics in bilateral relations"
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements regarding the India-Oman CEPA:\n1. It gives India zero-duty access to 100% of Oman's tariff lines.\n2. It is India's fifth free trade agreement implemented under the current government since 2014.\n3. Preferential Certificates of Origin under the CEPA are issued through the Trade Connect ePlatform.\nWhich of the above statements is/are correct?",
+          options: ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(b) 2 and 3 only",
+          explanation: "Statement 1 is wrong: India gets duty-free access to 98.08% of Oman's tariff lines — not 100%. Classic trap. Statement 2 is correct: UAE, Mauritius, Australia, EFTA, and Oman — Oman is fifth. Statement 3 is correct."
+        },
+        {
+          question: "Which of the following statements about the South Coast Railway Zone (SCoR) is INCORRECT?",
+          options: ["(a) Its headquarters are located at Visakhapatnam, Andhra Pradesh.", "(b) It is India's 17th railway zone.", "(c) The Visakhapatnam division was carved out of the erstwhile Waltair division of East Coast Railway.", "(d) Its creation was mandated by the Andhra Pradesh Reorganisation Act, 2014."],
+          answer: "(b) It is India's 17th railway zone.",
+          explanation: "SCoR is India's 18th railway zone, not the 17th. All other statements are correct."
+        },
+        {
+          question: "Consider the following statements about BrahMos missile:\n1. BrahMos is a joint venture between India and Russia, established in 1998.\n2. The Philippines was the first foreign country to receive delivery of BrahMos missiles.\n3. The deal for Vietnam was confirmed at the Shangri-La Dialogue held in Singapore.\nWhich of the above statements is/are correct?",
+          options: ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(d) 1, 2 and 3",
+          explanation: "All three statements are correct."
+        },
+        {
+          question: "With reference to the Indus Waters Treaty (1960), which of the following is correctly matched?",
+          options: ["(a) Jhelum — Eastern River — allocated to India", "(b) Sutlej — Western River — allocated to Pakistan", "(c) Chenab — Western River — allocated to Pakistan", "(d) Beas — Western River — allocated to Pakistan"],
+          answer: "(c) Chenab — Western River — allocated to Pakistan",
+          explanation: "Western rivers (Indus, Jhelum, Chenab) go to Pakistan. Eastern rivers (Ravi, Beas, Sutlej) go to India. Options (a), (b), and (d) all swap these incorrectly."
+        },
+        {
+          question: "Consider the following statements about the Aravalli Hills:\n1. They are the oldest fold mountain system in India, approximately 1.5-2 billion years old.\n2. Guru Shikhar, the highest peak of the Aravallis, is located in Haryana.\n3. The Aravallis act as a natural barrier preventing the eastward advance of the Thar Desert.\nWhich of the above statements is/are correct?",
+          options: ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+          answer: "(a) 1 and 3 only",
+          explanation: "Statement 2 is wrong: Guru Shikhar is in Rajasthan (Mount Abu), not Haryana."
+        }
+      ],
+      mains: [
+        {
+          question: "\"India's growing network of Comprehensive Economic Partnership Agreements reflects both its trade ambitions and its strategic priorities. Discuss with reference to the India-Oman CEPA.\"",
+          context: "Don't just describe the CEPA. Structure around three pillars — trade architecture (what it does), strategic context (Gulf importance, diaspora, energy security), and limitations (trade deficit still exists; services liberalisation has challenges). Close with India's broader FTA vision. Reference the Rules of Origin framework as a governance mechanism."
+        },
+        {
+          question: "\"The Chenab-Beas Link Tunnel Project is simultaneously an infrastructure story, a water security story, and a foreign policy story. Elaborate.\"",
+          context: "Cover three angles — (1) Infrastructure: NHPC's role, inter-basin linking, National Perspective Plan; (2) Water security: maximising domestic use before water flows to Pakistan, groundwater benefits; (3) Foreign policy: IWT in abeyance vs. termination, signalling to Pakistan and international observers. Connecting technical infrastructure to strategic intent separates good answers from great ones."
+        }
+      ]
+    }
+  },
+  {
+    id: "2026-06-02",
+    date: "2nd June 2026",
+    day: "Tuesday",
+    tagline: "Less noise. More clarity. Six topics that matter — explained the way a good mentor would, over coffee.",
+    announcement: "🌿 Lantana camara — Invasive species in Indian forests | 🏛️ General NS Raja Subramani — 3rd CDS | 📋 Shangri-La Dialogue — BrahMos-Vietnam deal disclosed",
+    topics: [
+      {
+        id: "2026-06-02-1",
+        title: "INDIA'S NEW CHIEF OF DEFENCE STAFF: GENERAL NS RAJA SUBRAMANI",
+        subtitle: "Security & Defence | Relevant For: UPSC, State PCS, CDS, NDA",
+        content: "After General Anil Chauhan's extended tenure concluded on May 30, 2026, the government appointed Lt. General NS Raja Subramani — who was serving as Military Adviser to the National Security Council Secretariat — as the new CDS. He was brought back from retirement for this role, following the same route as his predecessor.\nIn his first address after assuming office, General Subramani laid out three priorities using PM Modi's \"JAI\" framework — Jointness, Atmanirbharta (self-reliance), and Innovation. He emphasised that transforming the armed forces through organisational reform and deepening integration among the Army, Navy, and Air Force would be his central agenda. He also pledged to accelerate the development and induction of indigenous weapons.\nWhat makes this appointment noteworthy is the context: India is in the final stages of implementing Joint Theatre Commands — integrated operational structures that will merge the resources of all three services under unified command for specific geographic theatres. This was directly shaped by lessons from Operation Sindoor in 2025, which was the first time India's three services operated in genuine integration under compressed timelines. The blueprint is ready. Execution now falls to General Subramani.",
+        whyItMatters: "Many students confuse the CDS with the three service chiefs. The CDS does NOT command the Army, Navy, or Air Force — those are headed by the Chief of Army Staff, Chief of Naval Staff, and Chief of Air Staff respectively. The CDS is a single-point military adviser who promotes jointness — he is \"first among equals,\" not the commander of the service chiefs. Also: the CDS post was created in 2019, not by the Constitution — it is a government appointment under the Ministry of Defence.",
+        revise: "Chief of Defence Staff: The post was recommended by the Kargil Review Committee (2000) and the Naresh Chandra Committee (2012), but was only created in December 2019. The CDS heads the Department of Military Affairs (DMA).\nJoint Theatre Commands: Currently, India has 17 single-service commands. Theatre commands aim to reduce this by integrating them into 4–5 joint operational theatres.\nAndaman & Nicobar Command: India's only existing tri-service command, established in 2001.",
+        pyqConnect: "UPSC 2020 tested constitutional and statutory bodies — the CDS, being a government appointment (not constitutional), fits the same pattern of questions about structure and independence."
+      },
+      {
+        id: "2026-06-02-2",
+        title: "BRAHMOS GOES TO VIETNAM — AND INDONESIA IS NEXT",
+        subtitle: "International Relations & Defence | Relevant For: UPSC, State PCS, SSC, Banking",
+        content: "At the Shangri-La Dialogue — Asia's premier annual defence and security summit, held in Singapore — India's Defence Secretary Rajesh Kumar Singh confirmed on May 30 that a BrahMos missile supply agreement with Vietnam had already been signed, though a formal public announcement was yet to be made. He also confirmed that India and Indonesia are in the final stages of a parallel deal. The Vietnam deal is estimated to be worth around ₹6,000 crore (approximately $700 million), including training and logistical support.\nThis is significant for several reasons. Vietnam has been one of the most active buyers of defence equipment in Southeast Asia, driven by its need to strengthen maritime deterrence in the South China Sea against Chinese assertiveness. BrahMos — which travels at Mach 2.8 and follows a sea-skimming trajectory, making it extremely difficult to intercept — directly addresses Hanoi's need for credible anti-ship capability.\nFor India, this is a milestone in its \"Make in India\" defence export journey. BrahMos is a joint venture between India (DRDO) and Russia (NPO Mashinostroyeniya), and its growing export portfolio — Philippines, Vietnam, Indonesia — positions it as the preferred supersonic anti-ship missile of the Indo-Pacific. India's defence exports have grown from under ₹2,000 crore in 2016 to over ₹23,000 crore in FY2025.",
+        whyItMatters: "BrahMos is often confused with Agni or Prithvi in questions. BrahMos is a cruise missile (guided, uses aerodynamic lift, flies low). Agni and Prithvi are ballistic missiles (follow a parabolic arc). Also: BrahMos is the only operational supersonic cruise missile in India's inventory. The name comes from Brahmaputra (India) + Moskva (Russia). Do not confuse the Shangri-La Dialogue with a UN body — it is a security forum run by the IISS (International Institute for Strategic Studies).",
+        revise: "India's Act East Policy: BrahMos exports to Vietnam and the Philippines are a direct instrument of India's Act East Policy.\nSouth China Sea & UNCLOS: Vietnam's acquisition must be read alongside the UNCLOS framework. Vietnam has overlapping maritime claims with China, and the 2016 PCA ruling (Philippines vs China) is part of the same geopolitical story.\nDefence Exports as Policy: India's target is $6 billion in defence exports by FY2026. BrahMos is the flagship export product.",
+        pyqConnect: "UPSC has repeatedly asked about India's strategic partnerships and arms exports. 2022 and 2023 papers both had questions on India-ASEAN relations and the Indo-Pacific framework."
+      },
+      {
+        id: "2026-06-02-3",
+        title: "AMCA: INDIA'S FIRST STEALTH FIGHTER — AND HAL IS OUT OF THE RACE",
+        subtitle: "Science & Technology + Defence | Relevant For: UPSC, State PCS, SSC",
+        content: "The Ministry of Defence issued the RFP (a formal tender inviting bids) for the AMCA programme to three shortlisted private consortiums: Tata Advanced Systems Limited (TASL), a consortium of Larsen & Toubro and Bharat Electronics Limited (BEL), and a Bharat Forge–BEML consortium. Hindustan Aeronautics Limited — which has historically led all Indian fighter jet programmes including the Tejas — has been excluded from this initial prototype competition. This is the first time a major combat aircraft programme in India is being led by the private sector.\nThe AMCA is a fifth-generation stealth aircraft being developed by the Aeronautical Development Agency (ADA) under DRDO. The government has committed approximately ₹15,000 crore for the prototype development phase. The selected consortium will build five flying prototypes and one structural test aircraft in collaboration with ADA, powered by GE F414 engines under a technology transfer agreement with the US. First flight is expected roughly 4–5 years from contract award.\nIndia's current frontline fighters — Su-30MKI, Rafale, Tejas — are fourth-generation (and 4.5-gen) aircraft. China has already deployed J-20 fifth-generation fighters. AMCA, when operational, will directly address this capability gap. The programme is also linked to a defence infrastructure project in Puttaparthi, Andhra Pradesh, valued at ₹16,000 crore, expected to generate 7,500 jobs.",
+        whyItMatters: "Students consistently mix up AMCA with LCA Tejas. They are different programmes. Tejas is a 4th-generation light combat aircraft developed by ADA/HAL, already inducted into the IAF. AMCA is a 5th-generation stealth aircraft currently in prototype stage — not yet built. Also: ADA (Aeronautical Development Agency) is the designer in both cases; HAL was traditionally the manufacturer. In AMCA, private sector replaces HAL in the manufacturing role.",
+        revise: "Atmanirbhar Bharat in Defence: The AMCA is the flagship of India's self-reliance ambitions in high-end aerospace. Connect with the Defence Acquisition Procedure (DAP) and the 'Make in India' categories (Make-I, Make-II, Buy & Make Indian).\nDRDO & ADA: DRDO functions under the Ministry of Defence. ADA, which manages AMCA, is a government-funded society under DRDO.\nTechnology Transfer: The GE F414 engine deal is a rare instance of the US transferring jet engine manufacturing technology to India.",
+        pyqConnect: "UPSC 2023 had a question on India's defence modernisation under Atmanirbharta. Science & Tech questions on defence technology have appeared annually since 2018."
+      },
+      {
+        id: "2026-06-02-4",
+        title: "THE RBI MPC MEETS JUNE 3–5: WHY THE COMMENTARY MATTERS MORE THAN THE NUMBER",
+        subtitle: "Economy & Banking | Relevant For: UPSC, RBI Grade B, NABARD, Banking, State PCS",
+        content: "India's repo rate has come down considerably from its peak of 6.5% — with the RBI cutting rates three times in 2025 (including a 50 bps cut in June 2025) and once more in December 2025 (25 bps), bringing the rate to its current 5.25%. The February 2026 MPC meeting kept the rate unchanged, and the June 3–5 meeting is the next major policy review.\nThe context matters: India's GDP grew at 8.2% in Q2 FY26 (September quarter), and the RBI has revised its FY26 forecast upward to 7.4%. Inflation has remained well below the 4% target for most of the year. However, global headwinds — the West Asia crisis, elevated oil prices, a delayed India-US trade deal, and a rupee under pressure near ₹90/dollar — are creating uncertainty. These factors make the MPC's post-meeting commentary as important as the rate number itself.\nFor exam purposes, the MPC meeting brings alive the most consistently tested theme in UPSC Economics: how the RBI uses monetary policy tools to balance inflation targeting (4% ± 2%) with growth. The current easing cycle, the neutral stance, and the interaction between repo rate and lending costs are all live, testable material right now.",
+        whyItMatters: "Students routinely confuse repo rate, reverse repo rate, and bank rate. Clean distinction: Repo rate = rate at which RBI lends to commercial banks (against securities, with a repurchase agreement). Reverse repo rate = rate at which RBI borrows from commercial banks (RBI pays interest to banks). Bank rate = rate at which RBI lends without securities (no repurchase agreement) — used for long-term borrowings. Also: the MPC has 6 members, not 7 or 8.",
+        revise: "Flexible Inflation Targeting (FIT): India adopted the FIT framework in 2016 (RBI Act amendment), with 4% as the target and ±2% tolerance band. The MPC was created under the same amendment.\nOpen Market Operations (OMO): When RBI buys government securities from banks, it injects liquidity. When it sells, it absorbs liquidity.\nNDS-OM: Negotiated Dealing System – Order Matching — the RBI's electronic platform for trading government securities.",
+        pyqConnect: "Economy has had 17–20 questions per year from 2020–2025. RBI monetary policy tools have appeared directly in 2019, 2021, 2022, and 2024."
+      },
+      {
+        id: "2026-06-02-5",
+        title: "INDIA AT THE BRICS HELM: WHAT THE 2026 CHAIRSHIP MEANS",
+        subtitle: "International Relations | Relevant For: UPSC, State PCS, SSC, Banking",
+        content: "India officially took over the BRICS Chairship from Brazil on January 1, 2026. EAM S. Jaishankar unveiled the logo and theme on January 13, and India has since conducted Sherpa meetings, ministerial conclaves, and working group sessions. The BRICS Foreign Ministers' Meeting was held in New Delhi on May 14, 2026. PM Modi has framed India's chairmanship around multilateralism, sustainable development, economic resilience, digital transformation, and people-to-people cooperation.\nBRICS has evolved significantly. What began as BRIC (Brazil, Russia, India, China) in 2006, with South Africa joining in 2011 to make it BRICS, expanded further in 2024–25 to include new members including Iran, UAE, Ethiopia, and Egypt. As of 2026, the grouping represents approximately 45% of the world's population and over 35% of global GDP (PPP basis). India's chairship navigates a real tension: between BRICS's anti-Western flavour (driven by Russia and China) and India's preference for a balanced, reformist multilateralism — not replacing the West-led order, but reforming it.\nThe 18th BRICS Summit, to be hosted by India in late 2026, is expected to feature significant discussions on the BRICS payment mechanism (de-dollarisation debates), climate finance, and UN Security Council reform.",
+        whyItMatters: "BRICS is often confused with G20 in matching-pair questions. BRICS is a grouping of emerging economies only; G20 includes developed economies (US, EU, Japan, etc.) as well. Also: the New Development Bank (NDB) is BRICS's multilateral bank — don't confuse it with the Asian Infrastructure Investment Bank (AIIB), which is China-led and has broader membership. The NDB's headquarters is in Shanghai, not New Delhi.",
+        revise: "Multilateral Institutions: BRICS-related questions often require knowing the NDB, the CRA (Contingent Reserve Arrangement), and the BRICS payment mechanism.\nGlobal South Leadership: India's framing of \"Global South leadership\" started with its G20 presidency in 2023 and continues into the BRICS chair.\nDe-dollarisation: The BRICS discussion on alternative payment mechanisms is conceptually linked to the role of the US dollar as the global reserve currency.",
+        pyqConnect: "International organisations appear in every UPSC paper. BRICS was directly tested in 2017 and indirectly through NDB/CRA questions in 2020 and 2022."
+      },
+      {
+        id: "2026-06-02-6",
+        title: "STATE OF INDIA'S ENVIRONMENT 2026: 7 PLANETARY BOUNDARIES BREACHED",
+        subtitle: "Environment & Ecology | Relevant For: UPSC, State PCS, SSC",
+        content: "CSE and Down to Earth magazine release the SoE report annually — it has been published since 1982 and is one of India's most authoritative environmental assessments. The 2026 edition warned that 7 of 9 planetary boundaries have now been exceeded. These are the scientifically defined \"safe operating space\" thresholds for human activity on Earth — and crossing them signals potentially irreversible damage to Earth systems.\nThe most recently breached boundary is ocean acidification — ocean acidity has risen by 30–40% since the industrial era, threatening coral reefs, marine biodiversity, and the ocean's capacity to absorb carbon. On forest cover, the global figure has fallen to 59%, far below the 75% safe threshold. Species extinction rates now exceed 100 per million species-years — ten times the safe limit.\nIn India-specific sections, the report highlights that climate disruptions are arriving earlier than predicted, floods are becoming more frequent and intense, and tigers are exhibiting changed spatial behaviour. The invasive plant Lantana camara is cited as suppressing natural prey habitat, forcing tigers closer to human settlements and increasing conflict. Youth climate anxiety is flagged as a growing mental health concern — a newer framing that connects environment to social issues in a way UPSC finds interesting.",
+        whyItMatters: "The Planetary Boundaries framework is not the same as the Paris Agreement. They are separate concepts. The Paris Agreement is a legally binding international treaty (under UNFCCC) with a 1.5°C temperature target. The Planetary Boundaries framework is a scientific concept developed by Earth system scientists — it has no treaty status and no country obligations. Also: \"Novel entities\" is a relatively newer boundary — it refers to synthetic chemicals, plastics, microplastics, and genetically modified organisms.",
+        revise: "International Conventions: Ocean acidification connects to UNFCCC and CBD. The SoE report highlights gaps between international commitments (the Kunming-Montreal Global Biodiversity Framework under CBD) and ground-level reality.\nLantana camara: One of India's most well-documented invasive alien species. It originated in Central and South America.\nNational Green Tribunal (NGT): The SoE report recommends strengthening the NGT. This connects to India's environmental adjudication architecture.",
+        pyqConnect: "Environment has appeared in every UPSC paper without exception. Invasive species, IUCN categories, international conservation frameworks — tested 2–4 times every year. Ocean acidification was tested conceptually in UPSC 2023."
+      }
+    ],
+    reviseSummary: [
+      "The Chief of Defence Staff — Static Foundation: The CDS heads the Department of Military Affairs (DMA) — the 5th department under the Ministry of Defence.",
+      "RBI Monetary Policy: The MPC has 6 members. Inflation target: 4% ± 2%. Policy corridor: SDF rate → Repo Rate → MSF Rate.",
+      "BRICS & International Institutions: BRICS founded 2006. NDB HQ in Shanghai. BRICS Contingent Reserve Arrangement: $100 billion virtual reserve pool.",
+      "Planetary Boundaries vs Environmental Treaties: The Planetary Boundaries framework (9 total, 7 breached) is a scientific assessment tool — not a treaty."
+    ],
+    practiceQuestions: {
+      mcqs: [
+        {
+          question: "Consider the following statements about the Chief of Defence Staff (CDS) of India:\n1. The post of CDS was recommended by the Kargil Review Committee in 2000.\n2. The CDS commands the three service chiefs and is their operational superior.\n3. The CDS heads the Department of Military Affairs under the Ministry of Defence.\n4. India's only tri-service command is the Andaman and Nicobar Command.\nWhich of the above statements are correct?",
+          options: ["(a) 1 and 2 only", "(b) 1, 3 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(b) 1, 3 and 4 only",
+          explanation: "Statement 2 is wrong — the CDS does NOT command the service chiefs. The three service chiefs remain operationally independent heads of their respective services. The CDS is a single-point military adviser who promotes jointness — \"first among equals,\" not their commander. Statements 1, 3, and 4 are all correct."
+        },
+        {
+          question: "BrahMos missile is best described as:",
+          options: ["(a) A submarine-launched ballistic missile developed solely by India", "(b) A supersonic cruise missile jointly developed by India and Russia", "(c) A hypersonic glide vehicle developed under India's DRDO", "(d) An intercontinental ballistic missile with a range exceeding 5,000 km"],
+          answer: "(b) A supersonic cruise missile jointly developed by India and Russia",
+          explanation: "(a) is wrong — BrahMos is not primarily submarine-launched, and it is a joint venture, not solely Indian. (c) is wrong — hypersonic means Mach 5+; BrahMos is supersonic at Mach 2.8. (d) is wrong — BrahMos has a range of approximately 290–500 km depending on variant, not 5,000 km. BrahMos is a cruise missile (powered, low-altitude flight), not a ballistic missile (parabolic trajectory)."
+        },
+        {
+          question: "With reference to the Monetary Policy Committee (MPC) of India, which of the following statements is/are correct?\n1. It was constituted under an amendment to the RBI Act, 1934.\n2. It has 8 members — 4 from the RBI and 4 external members.\n3. Failure to maintain inflation within the target band for three consecutive quarters requires the RBI to submit a written report to the Central Government.",
+          options: ["(a) 1 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+          answer: "(b) 1 and 3 only",
+          explanation: "Statement 2 is wrong — the MPC has 6 members (3 RBI + 3 external), not 8. Statement 1 is correct — added through an amendment to Section 45ZB of the RBI Act, 1934. Statement 3 is correct — this accountability mechanism is a key feature of the inflation targeting framework. Classic exam trap: students who remember the correct total (6) but misstate the split as 4+2 instead of 3+3 will still get the statement wrong."
+        },
+        {
+          question: "According to the State of India's Environment 2026 report, how many of the nine planetary boundaries have been breached?",
+          options: ["(a) 5 of 9", "(b) 6 of 9", "(c) 7 of 9", "(d) All 9"],
+          answer: "(c) 7 of 9",
+          explanation: "The SoE 2026 report by CSE warns that 7 of 9 planetary boundaries have been breached globally. The two remaining within safe limits are atmospheric aerosol loading and stratospheric ozone depletion (the Montreal Protocol's success story). The most recently breached 7th boundary is ocean acidification — ocean acidity has risen 30–40% since the industrial era."
+        },
+        {
+          question: "Consider the following statements about the New Development Bank (NDB):\n1. It is the multilateral development bank associated with the BRICS grouping.\n2. Its headquarters is in New Delhi, India.\n3. India was one of its founding members.\n4. It is sometimes referred to as the BRICS Development Bank.",
+          options: ["(a) 1, 3 and 4 only", "(b) 1 and 2 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+          answer: "(a) 1, 3 and 4 only",
+          explanation: "Statement 2 is wrong — NDB's headquarters is in Shanghai, China, not New Delhi. This is one of the most commonly wrong answers in IR matching-pair questions. Statements 1, 3, and 4 are correct — India was a founding member along with Brazil, Russia, China, and South Africa. The NDB was established in 2014 and began lending in 2016."
+        }
+      ],
+      mains: [
+        {
+          question: "\"The appointment of India's third Chief of Defence Staff comes at a defining moment for military integration. Examine the significance of Joint Theatre Commands for India's strategic preparedness and the challenges in transitioning from single-service command structures.\"",
+          context: "GS Paper 3 (Internal Security & Defence)\nGuidance: Structure as — Background (why CDS and theatre commands matter); Significance (operational efficiency, lessons from Operation Sindoor, reduced inter-service friction, single chain of command); Challenges (inter-service asset allocation especially air assets, seniority disputes, cultural resistance within services, transition risk during implementation); Way Forward. Do not just describe what theatre commands are — the question asks you to examine, so evaluate both the case for and the genuine difficulties against."
+        },
+        {
+          question: "\"India's growing defence export footprint — particularly the BrahMos missile system — reflects the convergence of economic ambitions and strategic objectives. Critically analyse how defence exports serve as an instrument of India's foreign policy in the Indo-Pacific.\"",
+          context: "GS Paper 2 (International Relations)\nGuidance: Start with India's defence export growth (numbers help anchor the answer). Then analyse: BrahMos as Act East Policy instrument; strategic signalling to China; building trust with ASEAN partners; technology transfer implications; QUAD dimension; economic benefits under Make in India. For the \"critical\" part: address risks — component dependence on Russia, impact on India-China ties if exports arm China's rivals, long-term maintenance obligations. Balance the analysis — both sides matter for a good score."
+        }
+      ]
+    }
   }
 ];
 
